@@ -1,0 +1,42 @@
+%YAML 1.2
+---
+$schema: ./config.schema.yml
+inputs:
+  - path: origin/CEE-taiwan.txt
+    replaces:
+      - [[' +$|\r', gm]]
+      - [['大學學測4000字及指考7000字\n']]
+      - [['^[A-Z]\n|^\*', gm]]
+      - [['\n{2,}', g], "\n"]
+      - [['\(\d+\)', g], " "]
+      - [['(?:prep|pron|conj|adj|adv|v|n)\.', g], " "]
+      - [['^([A-Za-z''\(\)\.-]+).*', gm], "$1"]
+      - [['^(\w+)\((\w+)\)', gm], "$1\n$1$2"]
+      - [['^''|\)|''$', gm]]
+    test: ['[^A-Za-z\n''\.-]']
+revision: |+
+  air-tight: airtight
+  airforce: air force
+  amenna: antenna
+  amobiography: autobiography
+  arguement: argument
+  baby-sitter: babysitter
+  briefmg: briefing
+  check-out: checkout
+  etemity: eternity
+  fiea: flea
+  figuron: figure
+  fil: file
+  fiu: flu
+  fught: flight
+  halftvay: halfway
+  hom: horn
+  horri: horrify
+  I.Q.: IQ
+  machinegun: machine-gun
+  pick-up: pickup
+  PUPPY: puppy
+  Second: second
+  spot.: spot
+  stu: study
+  tumpike: turnpike

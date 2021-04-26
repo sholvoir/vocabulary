@@ -1,0 +1,234 @@
+version: 0.0.2
+inputs:
+  - name: ogden
+    path: origin/Odgens_Basic_English_Vocabulary.html
+    replaces: [[[\s, g]], [['[,./]', g], "\n"]]
+    test: '[^\na-zI]'
+    output: ogdens_basic_english_vocabulary.txt
+  - name: macmillan
+    path: origin/Macmillan Dictionary Defining Vocabulary.html
+    replaces: [[[\r, g]], [[é, g], e], [['\s+(?:class|id)=".*?"', g]], [[' *</?(?:div|ul)>\n?', g]], [['\n? *<h2>[A-Z]</h2>\n?', g]], [[' *<li>(.+?)</li>$', gm], $1]]
+    test: '[^\nA-Za-z ''-]'
+    revision: "approve of :approve\nbased on :base\nCommunism :communism\nCommunist :communist\ndamaged :damage\ngrandparents :grandparent\nlaw-making :lawmaking\nrelating to :relate to"
+    output: macmillan_defining_vocabulary.txt
+  - name: longmand
+    path: origin/Longman American Defining Vocabulary.txt
+    replaces: [[['[\r\t]', g]], [[’, g], ''''], [[18\d+\n, g]], [[T A B L E S\n, g]], [['\n? ?[A-Z]$', gm]], [[' ?determine\n?r,?', g]], [[' ?(?:past part|conj|prep|pron|adj|adv|n|v)\.,?', g]], [[' \(and for\ncamera\)']], [[(\w+)( )?\((\w+)\), g], "$1\n$1$2$3"], [[', |/', g], "\n"], [['\n{2,}', g], "\n"]]
+    test: '[^\nA-Za-z ''-]'
+    revision: 'highschool :high school'
+    output: longman_vocabulary_definitions.txt
+  - name: longmanc
+    path: origin/Longman Communication 3000.txt
+    replaces: [[[\r, g]], [[’, g], ''''], [['^S[123] = .*$\n', gm]], [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]], [[' (?:in)?definite article,?', g]], [['\n? ?(?:(?:pre)?determiner|interjection),?', g]], [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]], [['\n ?([SW][123])', g], ' $1'], [['([SW][123]), ([SW][123])', g], '$1,$2'], [[' ([SW][123])', g], ': $1']]
+    test: '[^\n\w ,:''-]'
+    output: langman_communication_3000.txt
+    writeWithTags: true
+  - name: voa
+    path: origin/VOA Special English Word Book.html
+    replaces: [[[\r, g]], [[' +(?:class|style|title|href|id)=".*?"', g]], [[' *<h2><span>(?:<a>)?.*?(?:</a>)?</span></h2>\n?', g]], [[</?ul>, g]], [[' *<li><a>([\w -]+)</a>.*?</li>\n?', g], "$1\n"], [[' *<li><span>([\w -]+)</span>.*?</li>\n?', g], "$1\n"], [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]]
+    test: '[^\nA-Za-z -]'
+    revision: "crops :crop\ngenes :gene\npass a bill\nproteins :protein\nx-rays :X-ray"
+    output: voa_special_english_word_book.txt
+  - name: wik
+    path: origin/Wiktionary_1000_basic_English_words.html
+    replaces: [[[\r, g]], [['\s+(?:title|class|href|id)=".*?"', g]], [['\s*<h4><span>[A-Z]</span></h4>\s*', g]], [['</?d[ld]>', g]], [['\s*<a>(\w+)</a>[,.]', g], "$1\n"]]
+    test: '[^\nA-Za-z]'
+    output: wiktionary_1000_basic_english_words.txt
+  - name: oxford
+    path: origin/Oxford_5000.html
+    replaces: [[['[\r\n]', g]], [[<ul class="top-g"> +]], [[' +</ul>']], [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"], [['\ba(?=[12])', g], A], [['\bb(?=[12])', g], B], [['\bc(?=[12])', g], C]]
+    test: '[^\n\w: ]'
+    output: oxford_5000.txt
+    writeWithTags: true
+  - name: collins5
+    path: origin/Collins5.csv
+    replaces: [[[\r, g]], [['^([A-Za-z '']+)\t.*$', gm], $1]]
+    test: '[^\nA-Za-z '']'
+    revision: "Book :book\nBoth :both\nCountry :country\nSo :so\nState :state"
+    output: collins_5.txt
+  - name: collins4
+    path: origin/Collins4.csv
+    replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
+    test: '[^\nA-Za-z ''-]'
+    revision: "Protect :protect\nProtest :protest\nProve :prove\nPull :pull\nPush :push\ntion :-tion\nTRUE :true"
+    output: collins_4.txt
+  - name: collins3
+    path: origin/Collins3.csv
+    replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
+    test: '[^\nA-Za-z ''-]'
+    revision: "Fighter :fighter\nFine\nInitial :initial\nStatistic :statistic\nSuitable :suitable\nTissue :tissue\nUpset :upset"
+    output: collins_3.txt
+  - name: collins2
+    path: origin/Collins2.csv
+    replaces: [[[\r, g]], [['^[A-Z]\n', gm]], [[' {2,}', g], ' ']]
+    test: '[^\nA-Za-z .''-]'
+    revision: "break-through :breakthrough\nchief of Staff :chief of staff\ncm. :cm\ncome-down :come down\nDJ. :DJ\ndown stairs :downstairs\nfed up. :fed up\nfrontiers :frontier\nmain land :mainland\nmain stream :mainstream\nman date :mandate\nNational curriculum :national curriculum\nple :pie\nRd. :Rd\nsic. :sic"
+    output: collins_2.txt
+  - name: collins1
+    path: origin/Collins1.csv
+    replaces: [[[\r, g]], [[¨¦|¨¨, g], e], [[¡¯, g], ''''], [[c\to], "c/o\t"], [['^[A-Z]\t\n', gm]], [[\t$, gm]]]
+    test: '[^\nA-Za-z &/.''-]'
+    revision: "aka. :aka\nAlzheimer's Disease :Alzheimer's disease\nbalance of payment :balance of payments\nblack smith :blacksmith\nbother-in-law :brother-in-law\nbrother-hood :brotherhood\nChancellor of Exchequer :Chancellor of the Exchequer\ncheck-list :checklist\ncomers :comer\nCountess :countess\ncounty club: country club\ncoup detat :coup d'etat\nequessrian :equestrian\nfl.oz. :fl oz\ngross domestic :gross domestic income :gross domestic product\nground work :groundwork\nhead way :headway\nhifi :hi-fi\nhigh Command :high command\nhigh lands :highlands\nIntermediary :intermediary\nlight-house :lighthouse\nlikeminded :like-minded\nLong-haul :long-haul\nLongevity :longevity\nLonging :longing\nLubricant :lubricant\nMetro :metro\nN.A :N.A. :n/a\nnew Age :new age\nnew found :newfound\nnew Testament :New Testament\nnew-face :new face\npluming :plume\nschool boy :schoolboy\nsitting-room :sitting room\nsoar system :solar system\ntrade mark :trademark\num. :um\nunforgetable :unforgettable\nvalium :Valium\nWoman's Liberation :Women's Liberation"
+    output: collins_1.txt
+  - name: ngsl
+    path: origin/NGSL-WordList-1.01.csv
+    replaces: [[[\r, g]], [[Word\n]]]
+    test: '[^\na-z]'
+    output: new_general_service_list.txt
+  - name: ngsls
+    path: origin/NGSL-Spoken_1.2.csv
+    replaces: [[[\r, g]], [['Lemma,SFI,Frequency\n']], [['^,,\n', gm]], [['^(\w+?),.*$', gm], $1]]
+    test: '[^\na-zI]'
+    output: new_general_service_list_spoken.txt
+  - name: nawl
+    path: origin/NAWL_1.0_lemmatized.csv
+    replaces: [[[\r, g]], [['^(\w+?),.*$', gm], $1]]
+    test: '[^\na-z]'
+    revision: "founds :found\nneo :neo-"
+    output: new_academic_word_list.txt
+  - name: tsl
+    path: origin/TSL_1.1_lemmatized.txt
+    replaces: [[[\r, g]], [['^##.*\n\n?', gm]], [[Ã©, g], e], [['^([\w -]+?),.*$', gm], $1]]
+    test: '[^\na-z ''-]'
+    revision: "advisor :adviser\nunauthorize :unauthorized"
+    output: toeic_word_list.txt
+  - name: bsl
+    path: origin/BSL_1.01_lemmatized.txt
+    replaces: [[[\r, g]], [['^([\w-]+?),.*$', gm], $1]]
+    test: '[^\na-z-]'
+    revision: "advisor :adviser\nneo :neo-\nstockmarket :stock market"
+    output: business_service_list.txt
+  - name: ndl
+    path: origin/NDL_1.0_lemmatized.txt
+    replaces: [[[\r, g]], [['^(\w+?),.*$', gm], $1]]
+    test: '[^\nA-Za-z'']'
+    output: new_dolch_list.txt
+  - name: fel
+    path: origin/FEL_1.0_lemmatized.txt
+    replaces: [[[\r, g]], [['^##.*\n', gm]], [['^(\w+?),.*$', gm], $1]]
+    test: '[^\na-z]'
+    revision: "bodybuild :body build\nbodyweight :body weight\nglycemic :glycemia\nobliques :oblique\nshavasana :Savasana"
+    output: fitness_english_list.txt
+  - name: coca
+    path: origin/Coca_Top_5000_Word_Frequency.csv
+    replaces: [[[\r, g]], [[.+?\n]], [['^\d+\t([\w''/-]+)\t.+$', gm], $1], [[^\d+\n, gm]]]
+    test: '[^\na-z01/''-]'
+    revision: "african :African\nafrican-american :African American\naids :AIDS\namerican :American\napril :April\narab :Arab\nasian :Asian\nbritish :British\ncanadian :Canadian\nceo :CEO\nchinese :Chinese\nchristian :Christian\nchristianity :Christianity\nchristmas :Christmas\ndecember :December\ndepending :depend\ndna :DNA\nenglish :English\neuropean :European\nfaster :fast\nfebruary :February\nfrench :French\nfriday :Friday\ngop :GOP\ngreek :Greek\nhalloween :Halloween\nhealth-care :healthcare\nhispanic :Hispanic\nindian :Indian\nipad :iPad\niphone :iPhone\niranian :Iranian\niraqi :Iraqi\nirish :Irish\nislam :Islam\nislamic :Islamic\nisraeli :Israeli\nitalian :Italian\njanuary :January\njapanese :Japanese\njewish :Jewish\njuly :July\njune :June\nkorean :Korean\nlatin :Latin\nmexican :Mexican\nmonday :Monday\nmuslim :Muslim\nn't :-n't\nnovember :November\noctober :October\nok :OK\nolympic :Olympic\nolympics :Olympics\npalestinian :Palestinian\nrussian :Russian\nsaturday :Saturday\nseptember :September\nspanish :Spanish\nstarting :start\nsunday :Sunday\nsyrian :Syrian\nt-shirt :T-shirt\nthursday :Thursday\ntuesday :Tuesday\nwednesday :Wednesday"
+    output: coca_word_frequency_top_5000.txt
+  - name: bnc
+    path: origin/BNC_Word_Frequency.txt
+    replaces: [[[\r, g]], [[.+\n]], [['~', g], '-'], [['^\t?[&*@�].*\n', gm]], [[\*, g]], [['^\t?([\w ''%/,.()-]+)\*?\t.+?$', gm], $1], [['^(?:[\w'']|[\d,]+(?:st|th|%)?)\n', gm]], [[^(\w+) \(/(\w+)\), gm], "$1\n$2"], [['^[A-Z] / [a-z]\n', gm]], [['^[IV]{2,3} / [iv]{2,3}\n', gm]], [[(?<!and) ?/ ?, g], "\n"], [[^(\w+) \((\w+)\), gm], "$1\n$1 $2"]]
+    test: '[^\nA-Za-z ''/.-]'
+    output: bnc_word_frequency_top_5000.txt
+    revision: "ai- :ai\nArsenal :arsenal\naway from\ncharacterise :characterize\nco-operation :cooperation\nE.R.\nEl\nEnd :end\neven when\nfaster :fast\ngothic :Gothic\nGreat :great\nHewlett-Packard\nin response to\nin touch with :touch\nInc :inc.\nIntel :intel\nKingdom :kingdom\nKong\nkorean :Korean\nle\nLe\nLea\nLos\nNew :new\nnineteenth-century\nno matter how\nNorthern :northern\nonce again :once again once more\nprivatisation :privatization\nprovided that\nRob :rob\nRobyn :Robin\nstarting :start\nUnited :united\nVice-President :vice president\nvideo-taped :videotape"
+  - name: hsee
+    path: origin/ChuZhong_2.json
+    wordPath: [headWord]
+    output: high_school_entrance_examination_youdao.txt
+    revision: "Rusia :Russia\nsocks :sock\nWheel :wheel"
+  - name: hsee
+    path: origin/ChuZhong_3.json
+    wordPath: [headWord]
+    output: high_school_entrance_examination_xindongfang.txt
+    revision: 'Yin :yin'
+  - name: ncee
+    path: origin/GaoZhong_2.json
+    wordPath: [headWord]
+    revision: "Baby :baby\nbeancurd :bean curd\nbeddings :bedding\nbehavious :behaviour\nchips :chip\nDynamic :dynamic\nDynasty :dynasty\nFALSE :false\ngrandparents :grandparent\nhandtruck :hand truck\nheadteacher :head teacher\nhur\nIndicate :indicate\nLost :lost\nMom :mom\nMosquito :mosquito\nrefreshments :refreshment\nrepairs :repair\nsouvenirs :souvenir\nTRUE :true\nwalkman :Walkman"
+    output: national_college_entrance_examination_youdao.txt
+  - name: ncee
+    path: origin/GaoZhong_3.json
+    wordPath: [headWord]
+    revision: "beddings :bedding\nchain stores :chain store"
+    output: national_college_entrance_examination_xindongfang.txt
+  - name: npee
+    path: origin/KaoYan_1.json
+    wordPath: [headWord]
+    output: national_postgraduate_entrance_examination_youdao_zhenti.txt
+  - name: npee
+    path: origin/KaoYan_2.json
+    wordPath: [headWord]
+    revision: "april :April\nchrist :Christ\nchristian :Christian\nchristmas :Christmas\ncigaret :cigarette\ndecember :December\neaster :Easter\nfebruary :February\nfriday :Friday\ngoodby :goodbye\njanuary :January\njuly :July\njune :June\nmarxist :Marxist\nmonday :Monday\nnegro :Negro\nnovember :November\noctober :October\nsaturday :Saturday\nseptember :September\nsunday :Sunday\nthursday :Thursday\ntuesday :Tuesday"
+    output: national_postgraduate_entrance_examination_youdao.txt
+  - name: npee
+    path: origin/KaoYan_3.json
+    wordPath: [headWord]
+    revision: "a. :catholic\nby-pass :bypass\ncharacterise :characterize\nencyclopaedia :encyclopedia\nfertiliser :fertilizer\nresumé :resume"
+    output: national_postgraduate_entrance_examination_xindongfang.txt
+  - name: cet4
+    path: origin/CET4_1.json
+    wordPath: [headWord]
+    output: college_english_test_level_4_youdao_zhenti.txt
+  - name: cet4
+    path: origin/CET4_2.json
+    wordPath: [headWord]
+    revision: "cigaret :cigarette\nFALSE :false\njewish :Jewish\nreservior :reservoir"
+    output: college_english_test_level_4_youdao.txt
+  - name: cet4
+    path: origin/CET4_3.json
+    wordPath: [headWord]
+    revision: 'world-wide :worldwide'
+    output: college_english_test_level_4_xindongfang.txt
+  - name: cet6
+    path: origin/CET6_1.json
+    wordPath: [headWord]
+    revision: "Automatically :automatically\ntradeoff :trade-off"
+    output: college_english_test_level_6_youdao_zhenti.txt
+  - name: cet6
+    path: origin/CET6_2.json
+    wordPath: [headWord]
+    revision: "commonsense :common sense\ngeometrical :geometric\nHeaven :heaven"
+    output: college_english_test_level_6_youdao.txt
+  - name: cet6
+    path: origin/CET6_3.json
+    wordPath: [headWord]
+    output: college_english_test_level_6_xindongfang.txt
+  - name: toefl
+    path: origin/TOEFL_2.json
+    wordPath: [headWord]
+    revision: "allende :Allende\nantarctica :Antarctica\nanthropologically :anthropology\nappalachian :Appalachian\natomization :atomize\nbaedeker :Baedeker\nbalkan :Balkan\nbeng\nberingia :Beringia\nboxlike :box\nbrea :Brea\nbrewster :Brewster\nbroadway :Broadway\nbryn :Brynhild\ncajun :Cajun\ncaledonian :Caledonian\ncanoes :canoe\ncaucasian :Caucasian\ncelsius :Celsius\ncenotes :cenote\ncenozoic :Cenozoic\nchicopee :Chicopee\nchristian :Christian\ncircumstantially :circumstantial\ncloudlike :cloud\ncolumbian :Columbian\ncommonsense :common sense\ncondenses :condense\nconestoga :Conestoga wagon\nconnecticut :Connecticut\ncynthia :Cynthia\ndatebase :database\ndependably :dependable\ndeteriorates :deteriorate\ndictaphone :Dictaphone\ndifferentiating :differentiate\ndiffuses :diffuse\ndomelike :dome\nduchenne :Duchenne dystrophy\nearning :earn\neaster :Easter\negyptian :Egyptian\neka :eka-\neletricity :electricity\nelliot :Elliot\nendotherms :endotherm\neocene :Eocene\nerectus :Homo erectus\neverest :Everest\nfaçade :facade\nfahrenheit :Fahrenheit\nfanners :fanner\nforbes :Forbes\nfreudian :Freudian\ngeometrical :geometric\ngibraltar :Gibraltar\ngondwanaland :Gondwanaland\ngrande :grande dame\ngrandparents :grandparent\nguilde :guilder\nhamlin :Hamlin\nHealth :health\nHimalaya :Himalayas\nhohokam :Hohokam\nholocene :Holocene\nhopewell :Hopewell\nhyksos :Hyksos\nInterstate :interstate\nIsle :isle\njupiter :Jupiter\njurassic :Jurassic\nkeplerian :Keplerian\nkohoutek :Kohoutek\nlaurasia :Laurasia\nleo :Leo\nlesley :Leslie\nloder :loader\nlomas :Lomas\nlondoner :Londoner\nLowa :lowa\nlvory :ivory\nlys :lysine\nmacdonald :Macdonald\nmandan :Mandan\nmennonite :Mennonite\nmerchandis :merchandise\nmesopotamian :Mesopotamian\nmesozoic :Mesozoic\nmicronesian :Micronesian\nmidcontinent\nmidocean :mid-ocean ridge\nmidwest :Midwest\nmidwestern :Midwestern\nmiocene :Miocene\nmisinterprete :misinterpret\nmormon :Mormon\nnarrower :narrow\nNetherland :Netherlands\nnewberry\nnile :Nile\nnss\nogallala\noliver :Oliver\noverexploitation :over-exploitation\noverirrigation :irrigation\noxfordshire :Oxfordshire\npaleoecologist :paleoecology\npaleolithic :Paleolithic\npangaea :Pangaea\npella :Pella\npermian :Permian\npersian :Persian\nperuvian :Peruvian\npleistocene :Pleistocene\npluto :Pluto\nprairies :prairie\nproterozoic :Proterozoic\npullman :Pullman\nquickest :quick\nquincy :Quincy\nrarer :rare\nreaumur :Reaumur\nreelection :re-election\nsahara :Sahara\nsargeant\nsaturday :Saturday\nsaturn :Saturn\nscandinavia :Scandinavia\nscandinavian :Scandinavian\nscrubbiness :scrubby\nsemimolten\nseptember :September\nsignaler :signaller\nsilurian :Silurian\nstorehouses :storehouse\nsubstantiated :substantiate\nsugarlike :sugar\nsumerian :Sumerian\nsuperorganisms :superorganism\ntavernkeeper :tavern\ntaxes :taxis\nterylene :Terylene\ntethys :Tethys\ntriassic :Triassic\nunderlies :underlie\nuranus :Uranus\nvaguest :vague\nvenus :Venus\nviennese :Viennese\nvirgo :Virgo\nwatercourses :watercourse\nwaxes :wax\nweldon :Weldon\nwelland :Welland\nyellowstone :Yellowstone\nYucatan\nzagros :Zagros Mountains"
+    output: test_of_english_as_a_foreign_language_youdao.txt
+  - name: toefl
+    path: origin/TOEFL_3.json
+    wordPath: [headWord]
+    output: test_of_english_as_a_foreign_language_xindongfang.txt
+  - name: ielts
+    path: origin/IELTS_2.json
+    wordPath: [headWord]
+    revision: "aupair :au pair\nchiche :cliche\nfahrenheit :Fahrenheit\ngroa :groan\nrelinguish :relinquish"
+    output: international_english_language_testing_system_youdao.txt
+  - name: ielts
+    path: origin/IELTS_3.json
+    wordPath: [headWord]
+    revision: "a calculated crime\nfertilise :fertilize\nfreefone :Freefone\ninductive reasoning :inductive :reason\nKung Fu :kung fu\nstabilise :stabilize\nsynchronise :synchronize\nutilisation :utilization\nworld-wide :worldwide"
+    output: international_english_language_testing_system_xindongfang.txt
+  - name: sat
+    path: origin/SAT_3.json
+    wordPath: [headWord]
+    revision: "a. 灵巧的， 熟练的 :skillful\nAluminum :aluminum\nAluminumAl: Al\nante-room :anteroom\nantibiotics :antibiotic\nartificial fertilization :artificial :fertilization\nassonant :assonance\ndistingusihed :distinguished\nelocutionist :elocution\nIron :iron\nIron Fe: Fe\nOxygen :oxygen\nOxygen O: O\nparallel lines :parallel :line\nPhosphorusP: P\nprojector lens :projector :lens\nprokaryotic cell :prokaryotic :cell\nsulfur disoxide :sulfur :dioxide\ntemperate forest :temperate :forest\ntemperate grassland :temperate :grassland\ntransgenic animals :transgenic :animal\nundersize d :undersized"
+    output: scholastic_assessment_test_xindongfang.txt
+  - name: gre
+    path: origin/GRE_2.json
+    wordPath: [headWord]
+    revision: "absinth :absinthe\nabstentious :abstention\napprobatory :approbation\naspermous :spermous\ncaptivation :captivate\ndecumbence :decumbency\ngruntling :gruntle\njesuitical :Jesuitical\nlilliputian :Lilliputian\nlitterbin :litter bin\nneodoxy\npaleolithic :Paleolithic\npoohed :pooh\ntecnology :technology"
+    output: graduate_record_examinations_youdao.txt
+  - name: gre
+    path: origin/GRE_3.json
+    wordPath: [headWord]
+    revision: "abstentious :abstention\nantiquarianism :antiquarian\nassuredness :assured\nboastfulness :boastful\nchaffing :chaff\ncommonsense :common sense\ncorrelated :correlate\ncosycozy :cosy :cozy\ndamped :damp\ndumbbell-like :dumbbell\negoistical :egoistic\nformalized :formalize\nhardbitten :hard-bitten\nidiosyncracy :idiosyncrasy\nill-paying :ill :pay\nill-repute :ill repute\nill-will :ill will\nintruding :intrude\nmerited :merit\npaleolithic :Paleolithic\npoohed :pooh\nrestored :restore\nself-procession :procession\nsemimolten :molten\nshortrange :short-range\nsun-bronzed :bronzed\nunderestimated :underestimate"
+    output: graduate_record_examinations_xindongfang.txt
+  - name: gmat
+    path: origin/GMAT_2.json
+    wordPath: [headWord]
+    revision: "antibiotics :antibiotic\nhypertherm :Hypertherm\ninverted :invert\nmosaics :mosaic\nnucleons :nucleon\npaleoclimatologist :paleoclimatology\npaleolithic :Paleolithic\npermutations :permutation\nprotons :proton\ntens :ten\ntenths :tenth\nvertice :vertices"
+    output: graduate_management_admission_test_youdao.txt
+  - name: gmat
+    path: origin/GMAT_3.json
+    wordPath: [headWord]
+    revision: "antibiotics :antibiotic\ncompensatorily :compensatory\ninverted :invert\nmass-transit :mass transit\nmosaics :mosaic\npaleoclimatologist :paleoclimatology\npaleolithic :Paleolithic\npaleozoologist :paleozoology\nvertice :vertices"
+    output: graduate_management_admission_test_xindongfang.txt
+  - name: bec
+    path: origin/BEC_3.json
+    wordPath: [headWord]
+    revision: "averaging :average\nb/e :B/E\nback-up :backup\ncounterfeits :counterfeit\ndictaphone :Dictaphone\ndown time :downtime\nEncl. :encl.\nend-product :end product\nfast-expanding :fast :expand\nHRD\nlineskipper\nmanning :man\nmulti-brand :brand\nneomercantilist :neomercantilism\nout-goings :outgoings\nover-demand :demand\novervalued :overvalue\npoint-of-sales :point-of-sale\npseudo-academic :academic\ntake-over :takeover\ntransshipment :transship\nwalk-out :walkout\nworld-wide :worldwide\nXD :xd"
+    output: business_environment_and_concepts_section_of_certified_public_accountant_exam_xindongfang.txt

@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+$schema: ./config.schema.yml
+inputs:
+  - path: origin/CEE-4.txt
+    replaces:
+      - [["é", g], "e"]
+      - [['\r', g]]
+    test: ['[^A-Za-z\n ''\.-]']
+revision: |+
+  Dept.:
+  sideroad: side road
+  waiting-room: waiting room

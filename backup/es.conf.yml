@@ -1,0 +1,126 @@
+%YAML 1.2
+---
+$schema: ./config.schema.yml
+inputs:
+  - path: origin/PEPXiaoXue3_1.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue3_2.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue4_1.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue4_2.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue5_1.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue5_2.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue6_1.json
+    jsonPath: [headWord]
+  - path: origin/PEPXiaoXue6_2.json
+    jsonPath: [headWord]
+revision: |+
+  art room :art
+  baby brother :baby
+  be careful :be :careful
+  bigger
+  Chinese book :Chinese
+  clean my room :my :room
+  cleaned
+  computer room
+  count to ten :to
+  do homework
+  do kung fu
+  do morning exercise :morning
+  doing morning exercises
+  draw cartoons
+  eat breakfast
+  eat dinner
+  eating lunch
+  English book :English
+  English class
+  faster
+  go boating :go
+  go cycling :cycle
+  go for a walk :for
+  go home :home
+  go on a picnic :a
+  go shopping
+  go swimming
+  go swimming.
+  go to bed
+  go to school
+  good job :good
+  green beans :bean
+  had a cold
+  have a look :look
+  have...class
+  having...class
+  heavier
+  help yourself :yourself
+  house.
+  how about... :how :about
+  how much :much
+  jumping :jump
+  keep to the right :the
+  keep your desk clean
+  laughed :laugh
+  licked :lick
+  listening to music :listen
+  longer
+  make a snowman :make
+  maths book :maths
+  Mid-Autumn Festival
+  mooncake
+  music class :music
+  music room
+  National Day
+  New York
+  next week :week
+  noodles :noodle
+  older
+  on foot
+  Papa Westray :papa
+  parents :parent
+  pay attention to :pay
+  PE class :PE
+  pencil box
+  pick apples
+  play basketball
+  play football :football
+  play ping-pong
+  play sports :sports
+  play the pipa
+  read books
+  reading a book
+  see a doctor :see
+  see a film
+  shorter
+  sing English songs
+  sleeping :sleep
+  smaller
+  smarter :smart
+  speak English
+  sports meet
+  stayed
+  stronger
+  take a dancing class
+  take a deep breath
+  take a trip
+  take turns
+  talk quietly :talk :quietly
+  taller
+  teacher's desk
+  teacher's office :office
+  the Great Wall
+  took pictures
+  Turpan
+  twenty-third
+  wash my clothes
+  washed
+  watch TV
+  watched
+  wear.
+  went camping
+  went fishing
+  word book
+  younger

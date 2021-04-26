@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+$schema: ./config.schema.yml
+inputs:
+  - path: origin/cet4/CET4-1.txt
+    replaces:
+      - [['\r', g]]
+      - [['大学英语四级大纲单词表\n\(共 4615 词\)\n']]
+      - [['\n[A-Z]\n\n', g]]
+      - [['^([\wˈ\.-]+).*$', gm], "$1"]
+      - [["ˈ"], "'"]
+    test: ['[^A-Za-z\n''\.-]']
+revision: |+
+  a.m: a.m.
+  africa: Africa
+  african: African
+  america: America
+  american: American
+  april: April
+  arabian: Arabian
+  asia: Asia
+  asian: Asian
+  atlantic: Atlantic
+  australia: Australia
+  australian: Australian
+  jewish: Jewish
+  living-room: living room
+  reservior: reservoir
+  world-wide: worldwide

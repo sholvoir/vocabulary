@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+$schema: ./config.schema.yml
+inputs:
+  - path: origin/CET6-1.csv
+    replaces:
+      - [['\r', g]]
+      - [['^([\w-]+)\t.*$', gm], "$1"]
+    test: ['[^A-Za-z\n-]']
