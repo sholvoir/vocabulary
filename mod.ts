@@ -320,6 +320,10 @@ async function run() {
     if (release) {
         vocabulary.removeWordsWithoutTags();
         await vocabulary.writeFile(`${outputDir}vocabulary.txt`, true);
+        const readme = (await Deno.readTextFile(readmePath))
+            .replaceAll(new RegExp('(https://sholvoir.github.io/vocabulary/)\\d+\\.\\d+\\.\\d+', 'g'), `$1${config.version}`);
+        await Deno.writeTextFile(readmePath, readme);
+        await Deno.writeTextFile('../sholvoir.github.io/vocabulary/index.html', marked(readme));
         const cmds = [{
             cmd: ["git", "add", "."],
             cwd: "../sholvoir.github.io",
@@ -339,10 +343,6 @@ async function run() {
             }
             p.close();
         }
-        const readme = (await Deno.readTextFile(readmePath))
-            .replaceAll(new RegExp('(https://sholvoir.github.io/vocabulary/)\\d+\\.\\d+\\.\\d+', 'g'), `$1${config.version}`);
-        await Deno.writeTextFile(readmePath, readme);
-        await Deno.writeTextFile('../sholvoir.github.io/vocabulary/index.html', marked(readme));
         const ver = config.version.split('.').map(x => parseInt(x));
         ver[2]++;
         shouldWriteConfig = config.version = ver.join('.');
