@@ -301,13 +301,8 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary) {
     vocabulary.merge(words);
 }
 
-async function test() {
-    console.log(encodeURIComponent('c/o'));
-}
-
 async function run() {
     const {options, args} = getArgs();
-    if (options.has('-t')) { await test(); return; }
     const config = await readConfig();
     (release = options.has('-r')) && (outputDir = `../sholvoir.github.io/vocabulary/${config.version}/`);
     await Deno.mkdir(outputDir);
