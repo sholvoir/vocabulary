@@ -1,7 +1,8 @@
 import { readline } from 'https://deno.land/x/readline/mod.ts';
 import { parse as yamlParse, stringify as yamlStringify } from 'https://deno.land/std@0.92.0/encoding/yaml.ts';
-import { getArgs } from 'https://sholvoir.github.io/args/mod.ts';
+import getArgs from 'https://sholvoir.github.io/generic/args.ts';
 import marked from 'https://ga.jspm.io/npm:marked@2.0.3/lib/marked.esm.js';
+import publish from 'https://sholvoir.github.io/generic/publish.ts';
 
 const decoder = new TextDecoder();
 const encoder = new TextEncoder();
@@ -319,25 +320,7 @@ async function run() {
             .replaceAll(new RegExp('(https://sholvoir.github.io/vocabulary/)\\d+\\.\\d+\\.\\d+', 'g'), `$1${config.version}`);
         await Deno.writeTextFile(readmePath, readme);
         await Deno.writeTextFile('../sholvoir.github.io/vocabulary/index.html', marked(readme));
-        const cmds = [{
-            cmd: ["git", "add", "."],
-            cwd: "../sholvoir.github.io",
-        }, {
-            cmd: ["git", "commit", "-m", `"vocabulary ${config.version}"`],
-            cwd: "../sholvoir.github.io",
-        }, {
-            cmd: ["git", "push"],
-            cwd: "../sholvoir.github.io",
-        }];
-        if (!debug) for (const cmd of cmds) {
-            const p = Deno.run(cmd);
-            const r = await p.status();
-            if (!r.success) {
-                console.log(`Failed at "${cmd.cmd.join(" ")}"`);
-                Deno.exit(-1);
-            }
-            p.close();
-        }
+        debug || await publish(`vocabulary ${config.version}`, "../sholvoir.github.io");
         const ver = config.version.split('.').map(x => parseInt(x));
         ver[2]++;
         shouldWriteConfig = config.version = ver.join('.');
