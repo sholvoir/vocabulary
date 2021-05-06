@@ -60,7 +60,7 @@ async function writeToFile(path: string, words: Iterable<string>) {
 async function readConfig(path = configPath) {
     const config = yamlParse(await Deno.readTextFile(path)) as Config;
     for (const input of config.inputs) input.tag && (input.tag = BigInt(input.tag))
-    return 
+    return config;
 }
 
 async function writeConfig(config: Config, path = configPath) {
@@ -235,9 +235,4 @@ async function run() {
     }
     shouldWriteConfig && await writeConfig(config);
 }
-// await run();
-function test() {
-    let x = yamlParse(`{a: +32578493578291537291374583947892348578293874875328983748n}`);
-    console.log(typeof (<any>x).a, ' ', (<any>x).a);
-}
-test()
+await run();
