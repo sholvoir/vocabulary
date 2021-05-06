@@ -5,19 +5,19 @@ inputs:
     replaces: [[[\s, g]], [['[,./]', g], "\n"]]
     test: '[^\na-zI]'
     output: ogdens_basic_english_vocabulary.txt
-  - name: macmillan
+  - name: mac
     path: origin/Macmillan Dictionary Defining Vocabulary.html
     replaces: [[[\r, g]], [[é, g], e], [['\s+(?:class|id)=".*?"', g]], [[' *</?(?:div|ul)>\n?', g]], [['\n? *<h2>[A-Z]</h2>\n?', g]], [[' *<li>(.+?)</li>$', gm], $1]]
     test: '[^\nA-Za-z ''-]'
     revision: "approve of :approve\nbased on :base\nCommunism :communism\nCommunist :communist\ndamaged :damage\ngrandparents :grandparent\nlaw-making :lawmaking\nrelating to :relate to"
     output: macmillan_defining_vocabulary.txt
-  - name: longmand
+  - name: long
     path: origin/Longman American Defining Vocabulary.txt
     replaces: [[['[\r\t]', g]], [[’, g], ''''], [[18\d+\n, g]], [[T A B L E S\n, g]], [['\n? ?[A-Z]$', gm]], [[' ?determine\n?r,?', g]], [[' ?(?:past part|conj|prep|pron|adj|adv|n|v)\.,?', g]], [[' \(and for\ncamera\)']], [[(\w+)( )?\((\w+)\), g], "$1\n$1$2$3"], [[', |/', g], "\n"], [['\n{2,}', g], "\n"]]
     test: '[^\nA-Za-z ''-]'
     revision: 'highschool :high school'
     output: longman_vocabulary_definitions.txt
-  - name: longmanc
+  - name: longc
     path: origin/Longman Communication 3000.txt
     replaces: [[[\r, g]], [[’, g], ''''], [['^S[123] = .*$\n', gm]], [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]], [[' (?:in)?definite article,?', g]], [['\n? ?(?:(?:pre)?determiner|interjection),?', g]], [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]], [['\n ?([SW][123])', g], ' $1'], [['([SW][123]), ([SW][123])', g], '$1,$2'], [[' ([SW][123])', g], ': $1']]
     test: '[^\n\w ,:''-]'
@@ -40,31 +40,31 @@ inputs:
     test: '[^\n\w: ]'
     output: oxford_5000.txt
     writeWithTags: true
-  - name: collins5
+  - name: L5
     path: origin/Collins5.csv
     replaces: [[[\r, g]], [['^([A-Za-z '']+)\t.*$', gm], $1]]
     test: '[^\nA-Za-z '']'
     revision: "Book :book\nBoth :both\nCountry :country\nSo :so\nState :state"
     output: collins_5.txt
-  - name: collins4
+  - name: L4
     path: origin/Collins4.csv
     replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
     test: '[^\nA-Za-z ''-]'
     revision: "Protect :protect\nProtest :protest\nProve :prove\nPull :pull\nPush :push\ntion :-tion\nTRUE :true"
     output: collins_4.txt
-  - name: collins3
+  - name: L3
     path: origin/Collins3.csv
     replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
     test: '[^\nA-Za-z ''-]'
     revision: "Fighter :fighter\nFine\nInitial :initial\nStatistic :statistic\nSuitable :suitable\nTissue :tissue\nUpset :upset"
     output: collins_3.txt
-  - name: collins2
+  - name: L2
     path: origin/Collins2.csv
     replaces: [[[\r, g]], [['^[A-Z]\n', gm]], [[' {2,}', g], ' ']]
     test: '[^\nA-Za-z .''-]'
     revision: "break-through :breakthrough\nchief of Staff :chief of staff\ncm. :cm\ncome-down :come down\nDJ. :DJ\ndown stairs :downstairs\nfed up. :fed up\nfrontiers :frontier\nmain land :mainland\nmain stream :mainstream\nman date :mandate\nNational curriculum :national curriculum\nple :pie\nRd. :Rd\nsic. :sic"
     output: collins_2.txt
-  - name: collins1
+  - name: L1
     path: origin/Collins1.csv
     replaces: [[[\r, g]], [[¨¦|¨¨, g], e], [[¡¯, g], ''''], [[c\to], "c/o\t"], [['^[A-Z]\t\n', gm]], [[\t$, gm]]]
     test: '[^\nA-Za-z &/.''-]'

@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 # yaml-language-server: $schema=https://json-schema.org/draft-04/schema
-$id: "https://micinfotech.com/glossary/import-config.schema.json"
+$id: "https://micinfotech.com/vocabulary/config.schema.yml"
 title: Import Config
 description: "import configure file, import tool will work base it."
 definitions:
@@ -42,6 +42,12 @@ properties:
           type: string
       required:
         - path
+  ingoreSpellCheck:
+    type: boolean
+  useNetworkCheck:
+    type: boolean
+  addToDict:
+    type: boolean
   debug:
     type: boolean
   revision:
