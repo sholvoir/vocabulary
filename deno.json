@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.179.0/",
+    "micinfotech/": "https://www.micinfotech.com/generic/",
+    "marked": "npm:marked@4.2.12/lib/marked.esm.js"
+  },
+  "tasks": {
+    "run": "deno run -A mod.ts",
+    "release": "deno run -A release.ts"
+  }
+}

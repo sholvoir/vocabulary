@@ -7,10 +7,10 @@ I strongly recommend you to select one and download it directly.
 
 How to run:
 ```bash
-deno run -A mod.ts[ -d][ -r][ name]
+deno task run[ -d][ name]
+deno task release
 ```
 -d: debug.  
--r: release current version.  
 name: run "name" section only.
 
 ## [Ogdens](https://sholvoir.github.io/vocabulary/0.0.1/ogdens_basic_english_vocabulary.txt)

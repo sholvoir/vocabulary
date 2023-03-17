@@ -22,7 +22,6 @@ inputs:
     replaces: [[[\r, g]], [[’, g], ''''], [['^S[123] = .*$\n', gm]], [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]], [[' (?:in)?definite article,?', g]], [['\n? ?(?:(?:pre)?determiner|interjection),?', g]], [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]], [['\n ?([SW][123])', g], ' $1'], [['([SW][123]), ([SW][123])', g], '$1,$2'], [[' ([SW][123])', g], ': $1']]
     test: '[^\n\w ,:''-]'
     output: langman_communication_3000.txt
-    writeWithTags: true
   - name: voa
     path: origin/VOA Special English Word Book.html
     replaces: [[[\r, g]], [[' +(?:class|style|title|href|id)=".*?"', g]], [[' *<h2><span>(?:<a>)?.*?(?:</a>)?</span></h2>\n?', g]], [[</?ul>, g]], [[' *<li><a>([\w -]+)</a>.*?</li>\n?', g], "$1\n"], [[' *<li><span>([\w -]+)</span>.*?</li>\n?', g], "$1\n"], [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]]
@@ -39,7 +38,6 @@ inputs:
     replaces: [[['[\r\n]', g]], [[<ul class="top-g"> +]], [[' +</ul>']], [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"], [['\ba(?=[12])', g], A], [['\bb(?=[12])', g], B], [['\bc(?=[12])', g], C]]
     test: '[^\n\w: ]'
     output: oxford_5000.txt
-    writeWithTags: true
   - name: collins5
     path: origin/Collins5.csv
     replaces: [[[\r, g]], [['^([A-Za-z '']+)\t.*$', gm], $1]]
