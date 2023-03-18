@@ -28,20 +28,38 @@ async function writeToFile(path: string, lines: Iterable<string>) {
 function getDictionaryApiFunc(lang: 'US'|'GB') {
     return async (word: string) => {
         const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_${lang}/${encodeURIComponent(word)}`);
-        const entries = await res.json();
-        return Array.isArray(entries) ? entries.map(entry => entry.word as string) : [];
+        try {
+            const entries = await res.json();
+            return Array.isArray(entries) ? entries.map(entry => entry.word as string) : [];
+        } catch (e) {
+            console.error(e);
+            return [];
+        }
     }
 }
 
+const entitiesRegex = /&(quot|apos|amp|lt|gt|#(x?\d+));/g;
+const entities: {[key: string]: string} = { quot: '"', apos: "'", amp: '&', lt: '<', gt: '>' };
+const decodeEntities = (_: string, p1: string, p2: string) => p2 ? String.fromCharCode(+`0${p2}`) : entities[p1];
+
 function getSpellCheckFunc(baseUri: string, regex: RegExp, index = 1) {
-    const entitiesRegex = /&(quot|apos|amp|lt|gt|#(x?\d+));/g
-    const entities: {[key: string]: string} = { quot: '"', apos: "'", amp: '&', lt: '<', gt: '>' };
-    const decodeEntities = (_: string, p1: string, p2: string) => p2 ? String.fromCharCode(+`0${p2}`) : entities[p1];
     return async (word: string) => {
         const html = await (await fetch(`${baseUri}${encodeURIComponent(word)}`)).text();
         return Array.from(html.matchAll(regex)).map(match => match[index].trim().replaceAll(entitiesRegex, decodeEntities));
     }
 }
+const spellCheckFuns = [
+    getDictionaryApiFunc('US'),
+    getDictionaryApiFunc('GB'),
+    getSpellCheckFunc('https://www.merriam-webster.com/dictionary/',
+        /<h1 class="hword">(?:<span.*?>)?(.+?)(?:<\/span>)?<\/h1>/g),
+    getSpellCheckFunc('https://www.collinsdictionary.com/search/?dictCode=english&q=',
+        /<h2 class="h2_entry"><span class="orth">(.+?)<\/span>/g),
+    getSpellCheckFunc('https://www.dictionary.com/browse/',
+        /<h1 data-first-headword="true" class=".+?">(.+?)<\/h1>/g),
+    getSpellCheckFunc('https://www.oxfordlearnersdictionaries.com/search/english/?q=',
+        /<h1.+?>(.+?)(?:<span.+?>.+?<\/span>)?<\/h1>/g)
+];
 
 export class Vocabulary extends Map<string, Tags> {
     add(word: string, ...tags: Array<string>) {
@@ -87,7 +105,7 @@ export class Vocabulary extends Map<string, Tags> {
 }
 
 export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary,
-    opts: { ignoreStepFile?: boolean, ignoreSpellCheck?: boolean, outputDir?: string } = {}) {
+    opts: { writeStepFile?: boolean, ignoreSpellCheck?: boolean, outputDir?: string } = {}) {
     console.log(`Dealing ${conf.name}...`);
     const words = new Vocabulary();
     // import conf
@@ -96,10 +114,9 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary,
         let text = await Deno.readTextFile(conf.path);
         if (conf.replaces) for (const [index, [regex, newstr]] of conf.replaces.entries()) {
             text = text.replace(new RegExp(...regex), newstr || '');
-            if (!opts.ignoreStepFile) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `debug/$1-${index}.txt`), text);
+            if (opts.writeStepFile) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `debug/$1-${index}.txt`), text);
         }
         if (conf.test && new RegExp(conf.test).test(text)) {
-            console.log(new RegExp(conf.test).exec(text));
             console.log(`There is still some special char in ${conf.path}.`);
             Deno.exit(-1);
         }
@@ -128,29 +145,17 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary,
     }
     // SpellCheck
     if (!opts.ignoreSpellCheck) {
-        const spellCheckFuns = [
-            getDictionaryApiFunc('US'),
-            getDictionaryApiFunc('GB'),
-            getSpellCheckFunc('https://www.merriam-webster.com/dictionary/',
-                /<h1 class="hword">(?:<span.*?>)?(.+?)(?:<\/span>)?<\/h1>/g),
-            getSpellCheckFunc('https://www.collinsdictionary.com/search/?dictCode=english&q=',
-                /<h2 class="h2_entry"><span class="orth">(.+?)<\/span>/g),
-            getSpellCheckFunc('https://www.dictionary.com/browse/',
-                /<h1 data-first-headword="true" class=".+?">(.+?)<\/h1>/g),
-            getSpellCheckFunc('https://www.oxfordlearnersdictionaries.com/search/english/?q=',
-                /<h1.+?>(.+?)(?:<span.+?>.+?<\/span>)?<\/h1>/g)
-        ];
         const miss: Array<string> = [];
         let funIndex = 0;
         for (const word of words.keys()) if (!vocabulary.has(word)) {
             console.log(`Checking ${word}`);
             let found = false;
             const replaces = new Set<string>();
-            try { for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < spellCheckFuns.length; i++) {
                 const entries = await spellCheckFuns[funIndex++%5](word);
                 for (const entry of entries) if (found = (entry === word)) break; else replaces.add(entry);
                 if (found) break;
-            }} catch (e) { console.log(e); }
+            }
             if (!found) miss.push(replaces.size ? `${word} :${Array.from(replaces).join()}` : word) && words.delete(word);
         }
         console.log(`Miss ${miss.length} words in ${conf.name}`);
@@ -173,7 +178,7 @@ async function run() {
     else await vocabulary.addFromFile('dict.txt', true);
     for (const input of config.inputs)
         if (!args.length || input.name == args[0])
-            await extractAndMerge(input, vocabulary, { ignoreStepFile: !debug, ignoreSpellCheck: debug, outputDir: 'public'});
+            await extractAndMerge(input, vocabulary, { writeStepFile: !debug, ignoreSpellCheck: debug, outputDir: 'public'});
     debug || await vocabulary.writeFile(vocabularyPath);
     shouldWriteConfig && await writeConfig(config);
 }

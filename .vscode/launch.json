@@ -5,15 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Deno: Run",
             "request": "launch",
-            "type": "pwa-node",
-            "program": "import.ts",
+            "name": "Launch Program",
+            "type": "node",
+            "program": "${workspaceFolder}/mod.ts",
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "deno",
+            "runtimeExecutable": "/usr/local/bin/deno",
             "runtimeArgs": [
                 "run",
-                "--inspect",
+                "--inspect-wait",
                 "--allow-all"
             ],
             "attachSimplePort": 9229
