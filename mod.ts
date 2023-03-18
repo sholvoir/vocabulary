@@ -5,9 +5,7 @@ import { InputConf, readConfig, writeConfig } from './config.ts';
 import { Tags } from './tags.ts';
 
 const encoder = new TextEncoder();
-
 const vocabularyPath = 'vocabulary.txt';
-const outputDir = 'public/';
 let shouldWriteConfig: any;
 
 function sort(array: Array<string>) {
@@ -18,19 +16,19 @@ function splitAndDo(text: string, separator = '\n', func: (line: string) => void
 }
 async function readAndDo(path: string, func: (line: string) => void) {
     const file = await Deno.open(path);
-    for await (let line of readLines(file)) if (line = line.trim()) func(line);
+    for await (let line of readLines(file)) (line = line.trim()) && func(line);
     file.close();
 }
-
-async function writeToFile(path: string, words: Iterable<string>) {
+async function writeToFile(path: string, lines: Iterable<string>) {
     const file = await Deno.open(path, { write: true, create: true, truncate: true });
-    for (let word of words) if (word = word.trim()) await Deno.write(file.rid, encoder.encode(`${word}\n`));
+    for (let line of lines) (line = line.trim()) && await Deno.write(file.rid, encoder.encode(`${line}\n`));
     file.close();
 }
 
 function getDictionaryApiFunc(lang: 'US'|'GB') {
     return async (word: string) => {
-        const entries = await (await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_${lang}/${encodeURIComponent(word)}`)).json();
+        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_${lang}/${encodeURIComponent(word)}`);
+        const entries = await res.json();
         return Array.isArray(entries) ? entries.map(entry => entry.word as string) : [];
     }
 }
@@ -72,8 +70,7 @@ export class Vocabulary extends Map<string, Tags> {
         for (const [word] of this) this.remove(word, ...tags);
     }
     load(text: string, tag?: string, separator?: string) {
-        if (tag) splitAndDo(text, separator, word => this.add(word, tag));
-        else splitAndDo(text, separator, this.addItem.bind(this));
+        splitAndDo(text, separator, tag ? word => this.add(word, tag) : this.addItem.bind(this));
     }
     toArray() {
         return sort(Array.from(this).map(([word, tags]) => `${word}${tags.size ? `: ${tags.toString()}` : ''}`));
@@ -89,7 +86,9 @@ export class Vocabulary extends Map<string, Tags> {
     }
 }
 
-export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary, debug?: boolean) {
+export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary,
+    opts: { ignoreStepFile?: boolean, ignoreSpellCheck?: boolean, outputDir?: string } = {}) {
+    console.log(`Dealing ${conf.name}...`);
     const words = new Vocabulary();
     // import conf
     const defaultTag = conf.tag || Tags.encoder[conf.name];
@@ -97,9 +96,10 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary, d
         let text = await Deno.readTextFile(conf.path);
         if (conf.replaces) for (const [index, [regex, newstr]] of conf.replaces.entries()) {
             text = text.replace(new RegExp(...regex), newstr || '');
-            if (debug) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `$1-${index}.txt`), text);
+            if (!opts.ignoreStepFile) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `debug/$1-${index}.txt`), text);
         }
         if (conf.test && new RegExp(conf.test).test(text)) {
+            console.log(new RegExp(conf.test).exec(text));
             console.log(`There is still some special char in ${conf.path}.`);
             Deno.exit(-1);
         }
@@ -112,7 +112,7 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary, d
         else tag = defaultTag;
         words.add(word, tag);
     });
-    console.log(`${words.size}, add File ${conf.path}`);
+    console.log(`  Find ${words.size} words from ${conf.path}`);
     // revision
     if (conf.revision) {
         for (let line of conf.revision.split('\n')) if (line = line.trim()) {
@@ -124,40 +124,42 @@ export async function extractAndMerge(conf: InputConf, vocabulary: Vocabulary, d
             }
             else console.log(`${oldWord} not in words.`);
         }
-        console.log(`${words.size}, use revision`);
+        console.log(`  After revision remain ${words.size} words.`);
     }
-    if (debug) return;
     // SpellCheck
-    const spellCheckFuns = [
-        getDictionaryApiFunc('US'),
-        getDictionaryApiFunc('GB'),
-        getSpellCheckFunc('https://www.merriam-webster.com/dictionary/',
-            /<h1 class="hword">(?:<span.*?>)?(.+?)(?:<\/span>)?<\/h1>/g),
-        getSpellCheckFunc('https://www.collinsdictionary.com/search/?dictCode=english&q=',
-            /<h2 class="h2_entry"><span class="orth">(.+?)<\/span>/g),
-        getSpellCheckFunc('https://www.dictionary.com/browse/',
-            /<h1 data-first-headword="true" class=".+?">(.+?)<\/h1>/g),
-        getSpellCheckFunc('https://www.oxfordlearnersdictionaries.com/search/english/?q=',
-            /<h1.+?>(.+?)(?:<span.+?>.+?<\/span>)?<\/h1>/g)
-    ];
-    const miss: Array<string> = [];
-    for (const word of words.keys()) if (!vocabulary.has(word)) {
-        console.log(`Checking ${word}`);
-        let found = false;
-        const replaces = new Set<string>();
-        try { for (const spellCheckFun of spellCheckFuns) {
-            const entries = await spellCheckFun(word);
-            for (const entry of entries) if (found = (entry === word)) break; else replaces.add(entry);
-            if (found) break;
-        }} catch (e) { console.log(e); }
-        if (!found) miss.push(replaces.size ? `${word} :${Array.from(replaces).join()}` : word) && words.delete(word);
+    if (!opts.ignoreSpellCheck) {
+        const spellCheckFuns = [
+            getDictionaryApiFunc('US'),
+            getDictionaryApiFunc('GB'),
+            getSpellCheckFunc('https://www.merriam-webster.com/dictionary/',
+                /<h1 class="hword">(?:<span.*?>)?(.+?)(?:<\/span>)?<\/h1>/g),
+            getSpellCheckFunc('https://www.collinsdictionary.com/search/?dictCode=english&q=',
+                /<h2 class="h2_entry"><span class="orth">(.+?)<\/span>/g),
+            getSpellCheckFunc('https://www.dictionary.com/browse/',
+                /<h1 data-first-headword="true" class=".+?">(.+?)<\/h1>/g),
+            getSpellCheckFunc('https://www.oxfordlearnersdictionaries.com/search/english/?q=',
+                /<h1.+?>(.+?)(?:<span.+?>.+?<\/span>)?<\/h1>/g)
+        ];
+        const miss: Array<string> = [];
+        let funIndex = 0;
+        for (const word of words.keys()) if (!vocabulary.has(word)) {
+            console.log(`Checking ${word}`);
+            let found = false;
+            const replaces = new Set<string>();
+            try { for (let i = 0; i < 5; i++) {
+                const entries = await spellCheckFuns[funIndex++%5](word);
+                for (const entry of entries) if (found = (entry === word)) break; else replaces.add(entry);
+                if (found) break;
+            }} catch (e) { console.log(e); }
+            if (!found) miss.push(replaces.size ? `${word} :${Array.from(replaces).join()}` : word) && words.delete(word);
+        }
+        console.log(`Miss ${miss.length} words in ${conf.name}`);
+        shouldWriteConfig ||= miss.length || conf.miss;
+        if (miss.length) conf.miss = sort(miss).join('\n');
+        else if (conf.miss) delete conf.miss;
     }
-    console.log(`Miss ${miss.length} words in ${conf.name}`);
-    shouldWriteConfig ||= miss.length || conf.miss;
-    if (miss.length) conf.miss = sort(miss).join('\n');
-    else if (conf.miss) delete conf.miss;
     // return
-    words.writeFile(`${outputDir}${conf.output || conf.name}.txt`);
+    opts.outputDir && await words.writeFile(`${opts.outputDir}/${conf.output || conf.name}.txt`);
     vocabulary.merge(words);
 }
 
@@ -171,7 +173,7 @@ async function run() {
     else await vocabulary.addFromFile('dict.txt', true);
     for (const input of config.inputs)
         if (!args.length || input.name == args[0])
-            await extractAndMerge(input, vocabulary, debug);
+            await extractAndMerge(input, vocabulary, { ignoreStepFile: !debug, ignoreSpellCheck: debug, outputDir: 'public'});
     debug || await vocabulary.writeFile(vocabularyPath);
     shouldWriteConfig && await writeConfig(config);
 }

@@ -86,7 +86,7 @@ inputs:
     output: new_academic_word_list.txt
   - name: tsl
     path: origin/TSL_1.1_lemmatized.txt
-    replaces: [[[\r, g]], [['^##.*\n\n?', gm]], [[Ã©, g], e], [['^([\w -]+?),.*$', gm], $1]]
+    replaces: [[[\r, g]], [['^##.*\n+', gm]], [[Ã©, g], e], [['^([\w -]+?),.*$', gm], $1]]
     test: '[^\na-z ''-]'
     revision: "advisor :adviser\nunauthorize :unauthorized"
     output: toeic_word_list.txt
