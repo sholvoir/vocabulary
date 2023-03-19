@@ -132,6 +132,7 @@ export async function extractAndMerge({
         let word = JSON.parse(line);
         let tag: any;
         for (const item of conf.wordPath as Array<string | number>) word = word[item];
+        word = word.replaceAll('é', 'e').replaceAll('ç', 'c');
         if (conf.tagPath) (tag = word) && conf.tagPath.forEach(item => tag = tag[item]);
         else tag = defaultTag;
         words.addWord(word, [tag]);
@@ -189,7 +190,6 @@ async function run() {
     const vocabulary = new Vocabulary()
     if (options.has('-c') || options.has('--continue'))
         await vocabulary.addItemsFromFile(vocabularyPath);
-    else await vocabulary.addWordsFromFile('dict.txt', []);
     for (const input of config.inputs)
         if (!args.length || input.name == args[0])
             await extractAndMerge({ conf: input, vocabulary, writeStepFile: !debug, ignoreSpellCheck: debug, outputDir: 'public' });

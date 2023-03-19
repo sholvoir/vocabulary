@@ -106,7 +106,7 @@ inputs:
     replaces: [[[\r, g]], [['^##.*\n', gm]], [['^(\w+?),.*$', gm], $1]]
     test: '[^\na-z]'
     output: fitness_english_list.txt
-    revision: "bodybuild :body build\nbodyweight\nfascial :fascia\nglycemic :glycemia\nmindfully :mindful\nobliques :oblique\npre :pre-\npushup :push-up\nshavasana :Savasana\nsuperset\nvinyasa :Vinyasa yoga"
+    revision: "bodybuild :body build\nbodyweight\nchaturanga\nfascial :fascia\nglycemic :glycemia\nmindfully :mindful\nobliques :oblique\npre :pre-\npushup :push-up\nshavasana :Savasana\nsuperset\nvinyasa :Vinyasa yoga"
   - name: coca
     path: origin/Coca_Top_5000_Word_Frequency.csv
     replaces: [[[\r, g]], [[.+?\n]], [['^\d+\t([\w''/-]+)\t.+$', gm], $1], [[^\d+\n, gm]]]
@@ -118,7 +118,7 @@ inputs:
     replaces: [[[\r, g]], [[.+\n]], [['~', g], '-'], [['^\t?[&*@�].*\n', gm]], [[\*, g]], [['^\t?([\w ''%/,.()-]+)\*?\t.+?$', gm], $1], [['^(?:[\w'']|[\d,]+(?:st|th|%)?)\n', gm]], [[^(\w+) \(/(\w+)\), gm], "$1\n$2"], [['^[A-Z] / [a-z]\n', gm]], [['^[IV]{2,3} / [iv]{2,3}\n', gm]], [[(?<!and) ?/ ?, g], "\n"], [[^(\w+) \((\w+)\), gm], "$1\n$1 $2"]]
     test: '[^\nA-Za-z ''/.-]'
     output: bnc_word_frequency_top_5000.txt
-    revision: "ai- :ai\nArsenal :arsenal\naway from\ncharacterise :characterize\nco-operation :cooperation\ndepending on\nEl :el\nEnd :end\neven when\nfaster :fast\nGreat :great\nHewlett-Packard\nin response to\nin touch with :touch\nInc :inc.\nIntel :intel\nIsland :island\nKingdom :kingdom\nKong\nkorean :Korean\nle\nLe\nLea\nLos\nNew :new\nnineteenth-century\nno matter how\nNorthern :northern\nonce again :once again once more\nprivatisation :privatization\nprovided that\nresulting :result\nRobyn :Robin\nstarting :start\nUnited :united\nUnix :UNIX\nvarying :vary\nVice-President :vice president\nvideo-taped :videotape"
+    revision: "ai- :ai\nArsenal :arsenal\naway from\nby now\ncharacterise :characterize\nco-operation :cooperation\ndepending on\nEl :el\nEnd :end\neven when\nfaster :fast\nGreat :great\nHewlett-Packard\nin response to\nin touch with :touch\nInc :inc.\nIntel :intel\nIsland :island\nKingdom :kingdom\nKong\nkorean :Korean\nle\nLe\nLea\nLos\nNew :new\nnineteenth-century\nno matter how\nNorthern :northern\nonce again :once again once more\nprivatisation :privatization\nprovided that\nresulting :result\nRobyn :Robin\nstarting :start\nUnited :united\nUnix :UNIX\nvarying :vary\nVice-President :vice president\nvideo-taped :videotape"
   - name: hsee
     path: origin/ChuZhong_2.json
     wordPath: [headWord]

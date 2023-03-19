@@ -2272,7 +2272,6 @@ blank: A2,AW,BE,BN,BS,CA,GK,IS,KY,L2,S3,T4,T6,ZK
 blanket: B2,BN,CA,FE,GK,IS,KY,L2,T4,TF,TS,VA
 blare: GR,L1
 blarney: GR
-blasé: GR
 blase: GR,ST
 blaspheme: ST
 blasphemous: GR
@@ -2877,7 +2876,6 @@ buzzard: GR
 buzzer: L1
 by means of: BN,MC
 by no means: BN
-by now: BN
 by way of: BN
 by-election: L1
 by-law: TS
@@ -3462,7 +3460,6 @@ chateau: GR,L1,ST,TF
 chattel: ST
 chatter: GM,L1,T6
 chatty: GM
-chaturanga: FE
 chauffeur: L1
 chauvinism: GM,GR,L1
 chauvinistic: GR
@@ -7747,8 +7744,7 @@ fabric: AW,B2,BN,CA,GM,GR,IS,KY,L3,T4,T6,TF,TS
 fabricate: GR,IS,KY,L1,ST,T6,TF
 fabrication: IS,T6
 fabulous: B2,FE,GR,IS,KY,L2,ST,TF
-facade: GR,L1,TF
-façade: IS,TF
+facade: GR,IS,L1,TF
 face value: L1
 face-to-face: BE
 face: A1,B1,BN,CA,DL,GK,GL,GS,IS,L5,LD,MC,OG,S1,ST,T4,TF,VA,W1,WK,ZK
@@ -17013,8 +17009,7 @@ protection: B2,BN,CA,GK,GL,L4,LD,MC,S2,T4,TF,W2
 protectionist: TF
 protective: BN,C1,CA,GR,L2,LD,T4,TF,TS
 protector: L1,TF
-protégé: GM
-protege: L1
+protege: GM,L1
 protein: B2,BN,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF,VA
 proteins: VA
 Proterozoic: TF
