@@ -87,10 +87,10 @@ export class Tags extends Set<string> {
         GM: 'GMAT',
         BE: 'BEC'
     }
-    attach(...tags: Array<string>) {
-        if (tags) for (const tag of tags) this.add(tag);
+    attach(tags: Iterable<string>) {
+        for (const tag of tags) this.add(tag);
     }
-    remove(...tags: Array<string>) {
+    remove(tags: Iterable<string>) {
         for (const tag of tags) this.delete(tag);
     }
     toString() {
