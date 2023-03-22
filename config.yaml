@@ -1,232 +1,1021 @@
 version: 0.0.1
 inputs:
-  - name: ogden
+  ogden:
     path: origin/Odgens_Basic_English_Vocabulary.html
-    replaces: [[[\s, g]], [['[,./]', g], "\n"]]
+    tag: OG
     test: '[^\na-zI]'
-    output: ogdens_basic_english_vocabulary.txt
-  - name: macmillan
+    process:
+      - [[\s, g]]
+      - [['[,./]', g], "\n"]
+  macmillan:
     path: origin/Macmillan Dictionary Defining Vocabulary.html
-    replaces: [[[\r, g]], [[é, g], e], [['\s+(?:class|id)=".*?"', g]], [[' *</?(?:div|ul)>\n?', g]], [['\n? *<h2>[A-Z]</h2>\n?', g]], [[' *<li>(.+?)</li>$', gm], $1]]
+    tag: MC
     test: '[^\nA-Za-z ''-]'
-    output: macmillan_defining_vocabulary.txt
-    revision: "approve of :approve\nbased on :base\nCommunism :communism\nCommunist :communist\ndamaged :damage\ngrandparents :grandparent\nlaw-making :lawmaking\nrelating to :relate to\ntrained :train"
-  - name: longmand
+    process:
+      - [[\r, g]]
+      - [[é, g], e]
+      - [['\s+(?:class|id)=".*?"', g]]
+      - [[' *</?(?:div|ul)>\n?', g]]
+      - [['\n? *<h2>[A-Z]</h2>\n?', g]]
+      - [[' *<li>(.+?)</li>$', gm], $1]
+    revision:
+      approve of: approve
+      based on: base
+      damaged: damage
+      grandparents: grandparent
+      law-making: lawmaking
+      relating to: relate to
+      trained: train
+  longmand:
     path: origin/Longman American Defining Vocabulary.txt
-    replaces: [[['[\r\t]', g]], [[’, g], ''''], [[18\d+\n, g]], [[T A B L E S\n, g]], [['\n? ?[A-Z]$', gm]], [[' ?determine\n?r,?', g]], [[' ?(?:past part|conj|prep|pron|adj|adv|n|v)\.,?', g]], [[' \(and for\ncamera\)']], [[(\w+)( )?\((\w+)\), g], "$1\n$1$2$3"], [[', |/', g], "\n"], [['\n{2,}', g], "\n"]]
+    tag: LD
     test: '[^\nA-Za-z ''-]'
-    output: longman_vocabulary_definitions.txt
-    revision: 'highschool :high school'
-  - name: longmanc
+    process:
+      - [['[\r\t]', g]]
+      - [[’, g], '''']
+      - [[18\d+\n, g]]
+      - [[T A B L E S\n, g]]
+      - [['\n? ?[A-Z]$', gm]]
+      - [[' ?determine\n?r,?', g]]
+      - [[' ?(?:past part|conj|prep|pron|adj|adv|n|v)\.,?', g]]
+      - [[' \(and for\ncamera\)']]
+      - [[(\w+)( )?\((\w+)\), g], "$1\n$1$2$3"]
+      - [[', |/', g], "\n"]
+      - [['\n{2,}', g], "\n"]
+    revision:
+      highschool: high school
+  longmanc:
     path: origin/Longman Communication 3000.txt
-    replaces: [[[\r, g]], [[’, g], ''''], [['^S[123] = .*$\n', gm]], [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]], [[' (?:in)?definite article,?', g]], [['\n? ?(?:(?:pre)?determiner|interjection),?', g]], [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]], [['\n ?([SW][123])', g], ' $1'], [['([SW][123]), ([SW][123])', g], '$1,$2'], [[' ([SW][123])', g], ': $1']]
     test: '[^\n\w ,:''-]'
-    output: langman_communication_3000.txt
-  - name: voa
+    process:
+      - [[\r, g]]
+      - [[’, g], '''']
+      - [['^S[123] = .*$\n', gm]]
+      - [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]]
+      - [[' (?:in)?definite article,?', g]]
+      - [['\n? ?(?:(?:pre)?determiner|interjection),?', g]]
+      - [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]]
+      - [['\n ?([SW][123])', g], ' $1']
+      - [['([SW][123]), ([SW][123])', g], '$1,$2']
+      - [[' ([SW][123])', g], ': $1']
+  voa:
     path: origin/VOA Special English Word Book.html
-    replaces: [[[\r, g]], [[' +(?:class|style|title|href|id)=".*?"', g]], [[' *<h2><span>(?:<a>)?.*?(?:</a>)?</span></h2>\n?', g]], [[</?ul>, g]], [[' *<li><a>([\w -]+)</a>.*?</li>\n?', g], "$1\n"], [[' *<li><span>([\w -]+)</span>.*?</li>\n?', g], "$1\n"], [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]]
+    tag: VA
     test: '[^\nA-Za-z -]'
-    output: voa_special_english_word_book.txt
-    revision: "crops :crop\ngenes :gene\npass a bill\nx-rays :X-ray"
-  - name: wik
+    process:
+      - [[\r, g]]
+      - [[' +(?:class|style|title|href|id)=".*?"', g]]
+      - [[' *<h2><span>(?:<a>)?.*?(?:</a>)?</span></h2>\n?', g]]
+      - [[</?ul>, g]]
+      - [[' *<li><a>([\w -]+)</a>.*?</li>\n?', g], "$1\n"]
+      - [[' *<li><span>([\w -]+)</span>.*?</li>\n?', g], "$1\n"]
+      - [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]
+    revision:
+      crops: crop
+      genes: gene
+      pass a bill: null
+      proteins: protein
+      x-rays: X-ray
+  wik:
     path: origin/Wiktionary_1000_basic_English_words.html
-    replaces: [[[\r, g]], [['\s+(?:title|class|href|id)=".*?"', g]], [['\s*<h4><span>[A-Z]</span></h4>\s*', g]], [['</?d[ld]>', g]], [['\s*<a>(\w+)</a>[,.]', g], "$1\n"]]
+    tag: WK
     test: '[^\nA-Za-z]'
-    output: wiktionary_1000_basic_english_words.txt
-  - name: oxford
+    process:
+      - [[\r, g]]
+      - [['\s+(?:title|class|href|id)=".*?"', g]]
+      - [['\s*<h4><span>[A-Z]</span></h4>\s*', g]]
+      - [['</?d[ld]>', g]]
+      - [['\s*<a>(\w+)</a>[,.]', g], "$1\n"]
+  oxford:
     path: origin/Oxford_5000.html
-    replaces: [[['[\r\n]', g]], [[<ul class="top-g"> +]], [[' +</ul>']], [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"], [['\ba(?=[12])', g], A], [['\bb(?=[12])', g], B], [['\bc(?=[12])', g], C]]
     test: '[^\n\w: ]'
-    output: oxford_5000.txt
-  - name: collins5
+    process:
+      - [['[\r\n]', g]]
+      - [[<ul class="top-g"> +]]
+      - [[' +</ul>']]
+      - [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"]
+      - [['\ba(?=[12])', g], A]
+      - [['\bb(?=[12])', g], B]
+      - [['\bc(?=[12])', g], C]
+  collins5:
     path: origin/Collins5.csv
-    replaces: [[[\r, g]], [['^([A-Za-z '']+)\t.*$', gm], $1]]
+    tag: L5
     test: '[^\nA-Za-z '']'
-    output: collins_5.txt
-    revision: "Book :book\nBoth :both\nCountry :country\nSo :so\nState :state"
-  - name: collins4
+    process:
+      - [[\r, g]]
+      - [['^([A-Za-z '']+)\t.*$', gm], $1]
+    revision:
+      Book: book
+      Both: both
+      Country: country
+      So: so
+      State: state
+  collins4:
     path: origin/Collins4.csv
-    replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
+    tag: L4
     test: '[^\nA-Za-z ''-]'
-    output: collins_4.txt
-    revision: "Protect :protect\nProtest :protest\nProve :prove\nPull :pull\nPush :push\ntion :-tion\nTRUE :true"
-  - name: collins3
+    process:
+      - [[\r, g]]
+      - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+    revision:
+      Protect: protect
+      Protest: protest
+      Prove: prove
+      Pull: pull
+      Push: push
+      tion: '-tion'
+  collins3:
     path: origin/Collins3.csv
-    replaces: [[[\r, g]], [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]]
+    tag: L3
     test: '[^\nA-Za-z ''-]'
-    output: collins_3.txt
-    revision: "Fighter :fighter\nFine :fine\nInitial :initial\nStatistic :statistic\nSuitable :suitable\nTissue :tissue\nUpset :upset"
-  - name: collins2
+    process:
+      - [[\r, g]]
+      - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+    revision:
+      Fighter: fighter
+      Fine: fine
+      Initial: initial
+      Statistic: statistic
+      Suitable: suitable
+      Tissue: tissue
+      Upset: upset
+  collins2:
     path: origin/Collins2.csv
-    replaces: [[[\r, g]], [['^[A-Z]\n', gm]], [[' {2,}', g], ' ']]
+    tag: L2
     test: '[^\nA-Za-z .''-]'
-    output: collins_2.txt
-    revision: "break-through :breakthrough\nchief of Staff :chief of staff\ncm. :cm\ncome-down :come down\nDJ. :DJ\ndown stairs :downstairs\nfed up. :fed up\nfrontiers :frontier\nmain land :mainland\nmain stream :mainstream\nman date :mandate\nNational curriculum :National Curriculum\nple :pie\nRd. :Rd\nsic. :sic"
-  - name: collins1
+    process:
+      - [[\r, g]]
+      - [['^[A-Z]\n', gm]]
+      - [[' {2,}', g], ' ']
+    revision:
+      break-through: breakthrough
+      chief of Staff: chief of staff
+      cm.: cm
+      come-down: come down
+      DJ.: DJ
+      down stairs: downstairs
+      fed up.: fed up
+      frontiers: frontier
+      main land: mainland
+      main stream: mainstream
+      man date: mandate
+      National curriculum: National Curriculum
+      ple: pie
+      Rd.: Rd
+      sic.: sic
+  collins1:
     path: origin/Collins1.csv
-    replaces: [[[\r, g]], [[¨¦|¨¨, g], e], [[¡¯, g], ''''], [[c\to], "c/o\t"], [['^[A-Z]\t\n', gm]], [[\t$, gm]]]
+    tag: L1
     test: '[^\nA-Za-z &/.''-]'
-    output: collins_1.txt
-    revision: "aka. :aka\nAlzheimer's Disease :Alzheimer's disease\nbalance of payment :balance of payments\nblack smith :blacksmith\nbother-in-law :brother-in-law\nbrother-hood :brotherhood\nChancellor of Exchequer :Chancellor of the Exchequer\ncheck-list :checklist\ncomers :comer\nCountess :countess\ncounty club: country club\ncounty house :country house\ncoup detat :coup d'etat\nequessrian :equestrian\nfl.oz. :fl oz\ngross domestic :gross domestic income :gross domestic product\nground work :groundwork\nhead way :headway\nhifi :hi-fi\nhigh Command :high command\nhigh lands :highlands\nhome owner :homeowner\nIntermediary :intermediary\nlight-house :lighthouse\nlikeminded :like-minded\nLong-haul :long-haul\nLongevity :longevity\nLonging :longing\nLubricant :lubricant\nMetro :metro\nN.A :N.A. :n/a\nnew Age :new age\nnew found :newfound\nnew Testament :New Testament\nnew-face :new face\npluming :plume\nschool boy :schoolboy\nsitting-room :sitting room\nsoar system :solar system\ntrade mark :trademark\num. :um\nunforgetable :unforgettable\nvalium :Valium\nWoman's Liberation :Women's Liberation\nwoman's movement :Women's Movement"
-  - name: ngsl
+    process:
+      - [[\r, g]]
+      - [[¨¦|¨¨, g], e]
+      - [[¡¯, g], '''']
+      - [[c\to], "c/o\t"]
+      - [['^[A-Z]\t\n', gm]]
+      - [[\t$, gm]]
+    revision:
+      _: [n/a]
+      aka.: aka
+      Alzheimer's Disease: Alzheimer's disease
+      balance of payment: balance of payments
+      black smith: blacksmith
+      bother-in-law: brother-in-law
+      brother-hood: brotherhood
+      Chancellor of Exchequer: Chancellor of the Exchequer
+      check-list: checklist
+      cliche: null
+      comers: comer
+      Countess: countess
+      county club: country club
+      county house: country house
+      coup detat: null
+      equessrian: equestrian
+      fl.oz.: fl oz
+      gross domestic: gross domestic product
+      ground work: groundwork
+      head way: headway
+      hifi: hi-fi
+      high Command: high command
+      high lands: highlands
+      home owner: homeowner
+      Intermediary: intermediary
+      light-house: lighthouse
+      likeminded: like-minded
+      Long-haul: long-haul
+      Longevity: longevity
+      Longing: longing
+      Lubricant: lubricant
+      Metro: metro
+      N.A: N.A.
+      new Age: new age
+      new found: newfound
+      new Testament: New Testament
+      new-face: new face
+      pluming: plume
+      school boy: schoolboy
+      sitting-room: sitting room
+      soar system: solar system
+      trade mark: trademark
+      um.: um
+      unforgetable: unforgettable
+      Woman's Liberation: Women's Liberation
+      woman's movement: Women's Movement
+  ngsl:
     path: origin/NGSL-WordList-1.01.csv
-    replaces: [[[\r, g]], [[Word\n]]]
+    tag: GL
     test: '[^\na-z]'
-    output: new_general_service_list.txt
-  - name: ngsls
+    process:
+      - [[\r, g]]
+      - [[Word\n]]
+  ngsls:
     path: origin/NGSL-Spoken_1.2.csv
-    replaces: [[[\r, g]], [['Lemma,SFI,Frequency\n']], [['^,,\n', gm]], [['^(\w+?),.*$', gm], $1]]
+    tag: GS
     test: '[^\na-zI]'
-    output: new_general_service_list_spoken.txt
-  - name: nawl
+    process:
+      - [[\r, g]]
+      - [['Lemma,SFI,Frequency\n']]
+      - [['^,,\n', gm]]
+      - [['^(\w+?),.*$', gm], $1]
+  nawl:
     path: origin/NAWL_1.0_lemmatized.csv
-    replaces: [[[\r, g]], [['^(\w+?),.*$', gm], $1]]
+    tag: AW
     test: '[^\na-z]'
-    output: new_academic_word_list.txt
-    revision: "founds :found\nneo :neo-\npre :pre-"
-  - name: tsl
+    process:
+      - [[\r, g]]
+      - [['^(\w+?),.*$', gm], $1]
+    revision:
+      founds: found
+      neo: neo-
+      pre: pre-
+  tsl:
     path: origin/TSL_1.1_lemmatized.txt
-    replaces: [[[^\uFEFF]], [[\r, g]], [['^##.*\n+', gm]], [[Ã©, g], e], [['^([\w -]+?),.*$', gm], $1]]
+    tag: TS
     test: '[^\na-z ''-]'
-    output: toeic_word_list.txt
-    revision: "advisor :adviser\nunauthorize :unauthorized"
-  - name: bsl
+    process:
+      - [[^\uFEFF]]
+      - [[\r, g]]
+      - [['^##.*\n+', gm]]
+      - [[Ã©, g], e]
+      - [['^([\w -]+?),.*$', gm], $1]
+    revision:
+      advisor: adviser
+      unauthorize: unauthorized
+  bsl:
     path: origin/BSL_1.01_lemmatized.txt
-    replaces: [[[\r, g]], [['^([\w-]+?),.*$', gm], $1]]
+    tag: BS
     test: '[^\na-z-]'
-    output: business_service_list.txt
-    revision: "advisor :adviser\nneo :neo-\npre :pre-\nstockmarket :stock market"
-  - name: ndl
+    process:
+      - [[\r, g]]
+      - [['^([\w-]+?),.*$', gm], $1]
+    revision:
+      advisor: adviser
+      neo: neo-
+      pre: pre-
+      stockmarket: stock market
+  ndl:
     path: origin/NDL_1.0_lemmatized.txt
-    replaces: [[[\r, g]], [['^(\w+?),.*$', gm], $1]]
+    tag: DL
     test: '[^\nA-Za-z'']'
-    output: new_dolch_list.txt
-  - name: fel
+    process:
+      - [[\r, g]]
+      - [['^(\w+?),.*$', gm], $1]
+  fel:
     path: origin/FEL_1.0_lemmatized.txt
-    replaces: [[[\r, g]], [['^##.*\n', gm]], [['^(\w+?),.*$', gm], $1]]
+    tag: FE
     test: '[^\na-z]'
-    output: fitness_english_list.txt
-    revision: "bodybuild :body build\nbodyweight\nchaturanga\nfascial :fascia\nglycemic :glycemia\nmindfully :mindful\nobliques :oblique\npre :pre-\npushup :push-up\nshavasana :Savasana\nsuperset\nvinyasa :Vinyasa yoga"
-  - name: coca
+    process:
+      - [[\r, g]]
+      - [['^##.*\n', gm]]
+      - [['^(\w+?),.*$', gm], $1]
+    revision:
+      bodybuild: body build
+      bodyweight: null
+      chaturanga: null
+      fascial: fascia
+      glycemic: glycemia
+      mindfully: mindful
+      obliques: oblique
+      pre: pre-
+      pushup: push-up
+      shavasana: Savasana
+      superset: null
+      vinyasa: Vinyasa yoga
+  coca:
     path: origin/Coca_Top_5000_Word_Frequency.csv
-    replaces: [[[\r, g]], [[.+?\n]], [['^\d+\t([\w''/-]+)\t.+$', gm], $1], [[^\d+\n, gm]]]
+    tag: CA
     test: '[^\na-z01/''-]'
-    output: coca_word_frequency_top_5000.txt
-    revision: "african :African\nafrican-american :African American\namerican :American\napril :April\narab :Arab\nasian :Asian\nbritish :British\ncanadian :Canadian\nceo :CEO\nchinese :Chinese\nchristian :Christian\nchristianity :Christianity\nchristmas :Christmas\ndecember :December\ndepending :depend\ndna :DNA\nenglish :English\neuropean :European\nfaster :fast\nfebruary :February\nfrench :French\nfriday :Friday\ngop :GOP\ngreek :Greek\nhalloween :Halloween\nhealth-care :healthcare\nhispanic :Hispanic\nindian :Indian\nipad :iPad\niphone :iPhone\niranian :Iranian\niraqi :Iraqi\nirish :Irish\nislam :Islam\nislamic :Islamic\nisraeli :Israeli\nitalian :Italian\njanuary :January\njapanese :Japanese\njewish :Jewish\njuly :July\njune :June\nkorean :Korean\nlatin :Latin\nmexican :Mexican\nmonday :Monday\nmuslim :Muslim\nn't :-n't\nnovember :November\noctober :October\nok :OK\nolympic :Olympic\nolympics :Olympics\npalestinian :Palestinian\nrussian :Russian\nsaturday :Saturday\nseptember :September\nspanish :Spanish\nsunday :Sunday\nsyrian :Syrian\nt-shirt :T-shirt\nthursday :Thursday\ntuesday :Tuesday\nwednesday :Wednesday"
-  - name: bnc
+    process:
+      - [[\r, g]]
+      - [[.+?\n]]
+      - [['^\d+\t([\w''/-]+)\t.+$', gm], $1]
+      - [[^\d+\n, gm]]
+    revision:
+      african-american: African American
+      aids: AIDS
+      ceo: CEO
+      depending: depend
+      faster: fast
+      gop: GOP
+      health-care: healthcare
+      ipad: iPad
+      iphone: iPhone
+      n't: '-n''t'
+      ok: OK
+      t-shirt: T-shirt
+  bnc:
     path: origin/BNC_Word_Frequency.txt
-    replaces: [[[\r, g]], [[.+\n]], [['~', g], '-'], [['^\t?[&*@�].*\n', gm]], [[\*, g]], [['^\t?([\w ''%/,.()-]+)\*?\t.+?$', gm], $1], [['^(?:[\w'']|[\d,]+(?:st|th|%)?)\n', gm]], [[^(\w+) \(/(\w+)\), gm], "$1\n$2"], [['^[A-Z] / [a-z]\n', gm]], [['^[IV]{2,3} / [iv]{2,3}\n', gm]], [[(?<!and) ?/ ?, g], "\n"], [[^(\w+) \((\w+)\), gm], "$1\n$1 $2"]]
+    tag: BN
     test: '[^\nA-Za-z ''/.-]'
-    output: bnc_word_frequency_top_5000.txt
-    revision: "ai- :ai\nArsenal :arsenal\naway from\nby now\ncharacterise :characterize\nco-operation :cooperation\ndepending on\nEl :el\nEnd :end\neven when\nfaster :fast\nGreat :great\nHewlett-Packard\nin response to\nin touch with :touch\nInc :inc.\nIntel :intel\nIsland :island\nKingdom :kingdom\nKong\nkorean :Korean\nle\nLe\nLea\nLos\nNew :new\nnineteenth-century\nno matter how\nNorthern :northern\nonce again :once again once more\nprivatisation :privatization\nprovided that\nresulting :result\nRobyn :Robin\nstarting :start\nUnited :united\nUnix :UNIX\nvarying :vary\nVice-President :vice president\nvideo-taped :videotape"
-  - name: hsee
+    process:
+      - [[\r, g]]
+      - [[.+\n]]
+      - [['~', g], '-']
+      - [['^\t?[&*@�].*\n', gm]]
+      - [[\*, g]]
+      - [['^\t?([\w ''%/,.()-]+)\*?\t.+?$', gm], $1]
+      - [['^(?:[\w'']|[\d,]+(?:st|th|%)?)\n', gm]]
+      - [[^(\w+) \(/(\w+)\), gm], "$1\n$2"]
+      - [['^[A-Z] / [a-z]\n', gm]]
+      - [['^[IV]{2,3} / [iv]{2,3}\n', gm]]
+      - [[(?<!and) ?/ ?, g], "\n"]
+      - [[^(\w+) \((\w+)\), gm], "$1\n$1 $2"]
+    revision:
+      ai-: ai
+      Arsenal: arsenal
+      away from: null
+      by now: null
+      characterise: characterize
+      co-operation: cooperation
+      depending on: depend on
+      El: el
+      End: end
+      even when: null
+      faster: fast
+      Great: great
+      Hewlett-Packard: null
+      in response to: null
+      in touch with: touch
+      Inc: inc.
+      Intel: intel
+      Island: island
+      Kingdom: kingdom
+      Kong: null
+      le: null
+      Le: null
+      Lea: LEA
+      Los: null
+      New: new
+      nineteenth-century: null
+      no matter how: null
+      Northern: northern
+      once again: once again once more
+      privatisation: privatization
+      provided that: null
+      resulting: result
+      Robyn: Robin
+      starting: start
+      United: united
+      Unix: UNIX
+      varying: vary
+      Vice-President: vice president
+      video-taped: videotape
+  hsee2:
     path: origin/ChuZhong_2.json
-    wordPath: [headWord]
-    output: high_school_entrance_examination_youdao.txt
-    revision: "Rusia :Russia\nsocks :sock\nWheel :wheel"
-  - name: hsee
+    tag: ZK
+    wordPath:
+      - headWord
+    revision:
+      Rusia: Russia
+      socks: sock
+      Wheel: wheel
+  hsee3:
     path: origin/ChuZhong_3.json
-    wordPath: [headWord]
-    output: high_school_entrance_examination_xindongfang.txt
-  - name: ncee
+    tag: ZK
+    wordPath:
+      - headWord
+  ncee2:
     path: origin/GaoZhong_2.json
-    wordPath: [headWord]
-    output: national_college_entrance_examination_youdao.txt
-    revision: "Baby :baby\nbeancurd :bean curd\nbeddings :bedding\nbehavious :behaviour\nDynamic :dynamic\nDynasty :dynasty\nFALSE :false\ngrandparents :grandparent\nhandtruck :hand truck\nheadteacher :head teacher\nhur\nIndicate :indicate\nLost :lost\nMom :mom\nskillfully :skilfully\nsouvenirs :souvenir\nTRUE :true\nwalkman :Walkman"
-  - name: ncee
+    tag: GK
+    wordPath:
+      - headWord
+    revision:
+      Baby: baby
+      beancurd: bean curd
+      beddings: bedding
+      behavious: behaviour
+      Dynamic: dynamic
+      Dynasty: dynasty
+      grandparents: grandparent
+      handtruck: hand truck
+      headteacher: head teacher
+      hur: null
+      Indicate: indicate
+      Lost: lost
+      Mom: mom
+      Mosquito: mosquito
+      refreshments: refreshment
+      skillfully: skilfully
+      souvenirs: souvenir
+  ncee3:
     path: origin/GaoZhong_3.json
-    wordPath: [headWord]
-    output: national_college_entrance_examination_xindongfang.txt
-    revision: "beddings :bedding\nchain stores :chain store"
-  - name: npee
+    tag: GK
+    wordPath:
+      - headWord
+    revision:
+      beddings: bedding
+      chain stores: chain store
+  npee1:
     path: origin/KaoYan_1.json
-    wordPath: [headWord]
-    output: national_postgraduate_entrance_examination_youdao_zhenti.txt
-  - name: npee
+    tag: KY
+    wordPath:
+      - headWord
+  npee2:
     path: origin/KaoYan_2.json
-    wordPath: [headWord]
-    output: national_postgraduate_entrance_examination_youdao.txt
-    revision: "april :April\nchrist :Christ\nchristian :Christian\nchristmas :Christmas\ncigaret :cigarette\ndecember :December\neaster :Easter\nfebruary :February\nfriday :Friday\ngoodby :goodbye\njanuary :January\njuly :July\njune :June\nmarxist :Marxist\nmonday :Monday\nnegro :Negro\nnovember :November\noctober :October\nsaturday :Saturday\nseptember :September\nsunday :Sunday\nthursday :Thursday\ntuesday :Tuesday"
-  - name: npee
+    tag: KY
+    wordPath:
+      - headWord
+    revision:
+      cigaret: cigarette
+      goodby: goodbye
+  npee3:
     path: origin/KaoYan_3.json
-    wordPath: [headWord]
-    output: national_postgraduate_entrance_examination_xindongfang.txt
-    revision: "a. :catholic\nby-pass :bypass\ncharacterise :characterize\nencyclopaedia :encyclopedia\nfertiliser :fertilizer\nresumé :resume"
-  - name: cet4
+    tag: KY
+    wordPath:
+      - headWord
+    revision:
+      a.: catholic
+      by-pass: bypass
+      characterise: characterize
+      encyclopaedia: encyclopedia
+      fertiliser: fertilizer
+  cet41:
     path: origin/CET4_1.json
-    wordPath: [headWord]
-    output: college_english_test_level_4_youdao_zhenti.txt
-  - name: cet4
+    tag: T4
+    wordPath:
+      - headWord
+  cet42:
     path: origin/CET4_2.json
-    wordPath: [headWord]
-    output: college_english_test_level_4_youdao.txt
-    revision: "cigaret :cigarette\nFALSE :false\njewish :Jewish\nreservior :reservoir"
-  - name: cet4
+    tag: T4
+    wordPath:
+      - headWord
+    revision:
+      cigaret: cigarette
+      reservior: reservoir
+  cet43:
     path: origin/CET4_3.json
-    wordPath: [headWord]
-    output: college_english_test_level_4_xindongfang.txt
-    revision: 'world-wide :worldwide'
-  - name: cet6
+    tag: T4
+    wordPath:
+      - headWord
+    revision:
+      world-wide: worldwide
+  cet61:
     path: origin/CET6_1.json
-    wordPath: [headWord]
-    output: college_english_test_level_6_youdao_zhenti.txt
-    revision: "Automatically :automatically\nproximately :proximate\ntradeoff :trade-off"
-  - name: cet6
+    tag: T6
+    wordPath:
+      - headWord
+    revision:
+      Automatically: automatically
+      proximately: proximate
+      tradeoff: trade-off
+  cet62:
     path: origin/CET6_2.json
-    wordPath: [headWord]
-    output: college_english_test_level_6_youdao.txt
-    revision: "commonsense :common sense\ngeometrical :geometric\nHeaven :heaven"
-  - name: cet6
+    tag: T6
+    wordPath:
+      - headWord
+    revision:
+      commonsense: common sense
+      geometrical: geometric
+      Heaven: heaven
+  cet63:
     path: origin/CET6_3.json
-    wordPath: [headWord]
-    output: college_english_test_level_6_xindongfang.txt
-  - name: toefl
+    tag: T6
+    wordPath:
+      - headWord
+  toefl2:
     path: origin/TOEFL_2.json
-    wordPath: [headWord]
-    output: test_of_english_as_a_foreign_language_youdao.txt
-    revision: "agriculturally :agricultural\nallende :Allende\nantarctica :Antarctica\nanthropologically :anthropology\nappalachian :Appalachian\nbaedeker :Baedeker\nbalkan :Balkan\nbasaltic :basalt\nbeng\nberingia :Beringia\nboxlike :box\nbrea :Brea\nbrewster :Brewster\nbroadway :Broadway\nbryn :Brynhild\nbureaucratization :bureaucratize\ncajun :Cajun\ncaledonian :Caledonian\ncanoes :canoe\ncaucasian :Caucasian\ncelsius :Celsius\ncenotes :cenote\ncenozoic :Cenozoic\nchicopee :Chicopee\nchondritic :chondrite\nchristian :Christian\ncircumstantially :circumstantial\ncloudlike :cloud\ncolumbian :Columbian\ncommonsense :common sense\ncondenses :condense\nconestoga :Conestoga wagon\nconnecticut :Connecticut\ncynthia :Cynthia\ndatebase :database\ndependably :dependable\ndeteriorates :deteriorate\ndictaphone :Dictaphone\ndifferentiating :differentiate\ndiffuses :diffuse\ndimply :dimple\ndomelike :dome\nduchenne :Duchenne dystrophy\nductless :duct\nearning :earn\neaster :Easter\negyptian :Egyptian\neka :eka-\neletricity :electricity\nelliot :Elliot\nendotherms :endotherm\neocene :Eocene\nerectus :Homo erectus\nethological :ethology\neverest :Everest\nfaçade :facade\nfahrenheit :Fahrenheit\nfanners :fanner\nfaunal :fauna\nfavorably :favourably\nforbes :Forbes\nforesightedness :foresight\nfreudian :Freudian\ngeometrical :geometric\ngibraltar :Gibraltar\nglasslike :glass\ngobi :Gobi\ngondwanaland :Gondwanaland\ngrande :grande dame\ngrandparents :grandparent\nguilde :guilder\nhairlike :hair\nhamlin :Hamlin\nHealth :health\nHimalaya :Himalayas\nhohokam :Hohokam\nholocene :Holocene\nhomeownership :homeowner\nhopewell :Hopewell\nhumanlike :human\nhumanness :human\nhydrologic :hydrology\nhydrological :hydrology\nhydroponic :hydroponics\nhydroponically :hydroponics\nhyksos :Hyksos\nimagist :imagism\nInterstate :interstate\nIsle :isle\nisotopic :isotope\njupiter :Jupiter\njurassic :Jurassic\nkeplerian :Kepler\nkohoutek :Kohoutek\nlaurasia :Laurasia\nleo :Leo\nlesley :Leslie\nloder :loader\nlomas :Lomas\nlondoner :Londoner\nLowa :lowa\nlvory :ivory\nlys :lysine\nmacdonald :MacDonald\nmandan :Mandan\nmarvelously :marvellously\nmennonite :Mennonite\nmerchandis :merchandise\nmesopotamian :Mesopotamian\nmesozoic :Mesozoic\nmeteoritic :meteorite\nmiasmic :miasma\nmicronesian :Micronesian\nmidcontinent\nmidocean :mid-ocean ridge\nmidwest :Midwest\nmidwestern :Midwestern\nmineralization :mineralize\nmiocene :Miocene\nmisinterprete :misinterpret\nmormon :Mormon\nmuscularly :muscular\nnarrower :narrow\nnebular :nebula\nnegligibly :negligible\nNetherland :Netherlands\nnewberry\nnile :Nile\nnss\noceanographic :oceanography\nogallala\noliver :Oliver\noppositely :opposite\noverirrigation :irrigation\noxfordshire :Oxfordshire\npaleoecologist :paleoecology\npaleolithic :Paleolithic\npangaea :Pangaea\npantomimic :pantomime\nparticipator :participate\npella :Pella\npermian :Permian\npermineralization\npersian :Persian\nperuvian :Peruvian\nplantlike :plant\npleistocene :Pleistocene\npluto :Pluto\nprairies :prairie\nproficiently :proficient\nproterozoic :Proterozoic\npullman :Pullman\npulverization :pulverize\nquickest :quick\nquincy :Quincy\nrainer\nrarer :rare\nreaumur :Reaumur\nreelection :re-election\nregionalist :regionalism\nsahara :Sahara\nsargeant\nsaturday :Saturday\nsaturn :Saturn\nscandinavia :Scandinavia\nscandinavian :Scandinavian\nscrubbiness :scrubby\nsemimolten\nsentimentalized :sentimentalize\nseptember :September\nserigraphy :serigraph\nsignaler :signaller\nsilurian :Silurian\nskeletally :skeletal\nskillfully :skilfully\nstorehouses :storehouse\nstruggler :struggle\nsubtropic :subtropics\nsuccessional :succession\nsugarlike :sugar\nsumerian :Sumerian\nsuperorganisms :superorganism\nsurvivability :survivable\ntavernkeeper :tavern\ntaxes :taxis\nterylene :Terylene\ntethys :Tethys\nthreadlike :thread\ntriassic :Triassic\nunderlies :underlie\nunfavorably :unfavourably\nuranus :Uranus\nvaguest :vague\nvenus :Venus\nverbalizable\nviennese :Viennese\nvirgo :Virgo\nwatercourses :watercourse\nwaxes :wax\nweldon :Weldon\nwelland :Welland\nyellowstone :Yellowstone\nYucatan\nzagros :Zagros Mountains"
-  - name: toefl
+    tag: TF
+    wordPath:
+      - headWord
+    revision:
+      agriculturally: agricultural
+      anthropologically: anthropology
+      basaltic: basalt
+      beng: null
+      boxlike: box
+      bryn: Brynhild
+      bureaucratization: bureaucratize
+      canoes: canoe
+      cenotes: cenote
+      chondritic: chondrite
+      circumstantially: circumstantial
+      cloudlike: cloud
+      commonsense: common sense
+      condenses: condense
+      conestoga: Conestoga wagon
+      datebase: database
+      dependably: dependable
+      deteriorates: deteriorate
+      differentiating: differentiate
+      diffuses: diffuse
+      dimply: dimple
+      domelike: dome
+      duchenne: Duchenne dystrophy
+      ductless: duct
+      earning: earn
+      eka: eka-
+      eletricity: electricity
+      endotherms: endotherm
+      erectus: Homo erectus
+      ethological: ethology
+      fanners: fanner
+      faunal: fauna
+      favorably: favourably
+      foresightedness: foresight
+      geometrical: geometric
+      glasslike: glass
+      grande: grande dame
+      grandparents: grandparent
+      guilde: guilder
+      hairlike: hair
+      Health: health
+      Himalaya: Himalayas
+      homeownership: homeowner
+      humanlike: human
+      humanness: human
+      hydrologic: hydrology
+      hydrological: hydrology
+      hydroponic: hydroponics
+      hydroponically: hydroponics
+      imagist: imagism
+      Interstate: interstate
+      Isle: isle
+      isotopic: isotope
+      keplerian: Kepler
+      lesley: Leslie
+      loder: loader
+      Lowa: lowa
+      lvory: ivory
+      lys: lysine
+      marvelously: marvellously
+      merchandis: merchandise
+      meteoritic: meteorite
+      miasmic: miasma
+      midcontinent: null
+      midocean: mid-ocean ridge
+      mineralization: mineralize
+      misinterprete: misinterpret
+      muscularly: muscular
+      narrower: narrow
+      nebular: nebula
+      negligibly: negligible
+      Netherland: Netherlands
+      newberry: null
+      nowcasting: nowcast
+      nss: null
+      oceanographic: oceanography
+      ogallala: null
+      oppositely: opposite
+      overirrigation: irrigation
+      paleoecologist: paleoecology
+      pantomimic: pantomime
+      participator: participate
+      permineralization: null
+      plantlike: plant
+      prairies: prairie
+      proficiently: proficient
+      pulverization: pulverize
+      quickest: quick
+      rainer: null
+      rarer: rare
+      reelection: re-election
+      regionalist: regionalism
+      sargeant: null
+      scrubbiness: scrubby
+      semimolten: null
+      sentimentalized: sentimentalize
+      serigraphy: serigraph
+      signaler: signaller
+      skeletally: skeletal
+      skillfully: skilfully
+      storehouses: storehouse
+      struggler: struggle
+      subtropic: subtropics
+      successional: succession
+      sugarlike: sugar
+      superorganisms: superorganism
+      survivability: survivable
+      tavernkeeper: tavern
+      taxes: taxis
+      threadlike: thread
+      underlies: underlie
+      unfavorably: unfavourably
+      vaguest: vague
+      verbalizable: null
+      watercourses: watercourse
+      waxes: wax
+      Yucatan: null
+      zagros: Zagros Mountains
+  toefl3:
     path: origin/TOEFL_3.json
-    wordPath: [headWord]
-    output: test_of_english_as_a_foreign_language_xindongfang.txt
-    revision: "imagist :imagism\nsynchronizer :synchronize"
-  - name: ielts
+    tag: TF
+    wordPath:
+      - headWord
+    revision:
+      imagist: imagism
+      synchronizer: synchronize
+  ielts2:
     path: origin/IELTS_2.json
-    wordPath: [headWord]
-    output: international_english_language_testing_system_youdao.txt
-    revision: "aupair :au pair\nchiche :cliche\nfahrenheit :Fahrenheit\ngroa :groan\nrelinguish :relinquish"
-  - name: ielts
+    tag: IS
+    wordPath:
+      - headWord
+    revision:
+      aupair: au pair
+      chiche: null
+      groa: groan
+      relinguish: relinquish
+  ielts3:
     path: origin/IELTS_3.json
-    wordPath: [headWord]
-    output: international_english_language_testing_system_xindongfang.txt
-    revision: "a calculated crime\nexhaustible :exhaust\nfertilise :fertilize\nfreefone :Freefone\ngullibly :gullible\ninductive reasoning :inductive :reason\nKung Fu :kung fu\nstabilise :stabilize\nsynchronise :synchronize\ntropospheric :troposphere\nutilisation :utilization\nworld-wide :worldwide"
-  - name: sat
+    tag: IS
+    wordPath:
+      - headWord
+    revision:
+      a calculated crime: null
+      exhaustible: exhaust
+      fertilise: fertilize
+      gullibly: gullible
+      inductive reasoning: inductive
+      Kung Fu: kung fu
+      stabilise: stabilize
+      synchronise: synchronize
+      tropospheric: troposphere
+      utilisation: utilization
+      world-wide: worldwide
+  sat:
     path: origin/SAT_3.json
-    wordPath: [headWord]
-    output: scholastic_assessment_test_xindongfang.txt
-    revision: "a. 灵巧的， 熟练的 :skillful\nAluminum :aluminum\nAluminumAl: Al\nanaerobic respiration :anaerobic :respiration\nante-room :anteroom\nantibiotics :antibiotic\nartificial fertilization :artificial :fertilization\nassonant :assonance\ndistingusihed :distinguished\nelocutionist :elocution\nfactorable :factor\nhomologous chromosome :homologous chromosomes\nIron :iron\nIron Fe: Fe\nOxygen :oxygen\nOxygen O\nparallel lines :parallel :line\nPhosphorusP\nprojector lens :projector :lens\nprokaryotic cell :prokaryotic :cell\nsulfur disoxide :sulfur :dioxide\ntemperate forest :temperate :forest\ntemperate grassland :temperate :grassland\ntransgenic animals :transgenic :animal\nundersize d :undersized"
-  - name: gre
+    tag: ST
+    wordPath:
+      - headWord
+    revision:
+      _: [animal, artificial, cell, dioxide, lens, line, respiration, temperate]
+      a. 灵巧的， 熟练的: skillful
+      Aluminum: aluminum
+      AluminumAl: Al
+      anaerobic respiration: anaerobic
+      ante-room: anteroom
+      antibiotics: antibiotic
+      artificial fertilization: fertilization
+      assonant: assonance
+      cliche: null
+      distingusihed: distinguished
+      elocutionist: elocution
+      factorable: factor
+      homologous chromosome: homologous chromosomes
+      Iron: iron
+      Iron Fe: Fe
+      Oxygen: oxygen
+      Oxygen O: null
+      parallel lines: parallel
+      PhosphorusP: null
+      projector lens: projector
+      prokaryotic cell: prokaryotic
+      sulfur disoxide: sulfur
+      temperate forest: forest
+      temperate grassland: grassland
+      transgenic animals: transgenic
+      undersize d: undersized
+  gre2:
     path: origin/GRE_2.json
-    wordPath: [headWord]
-    output: graduate_record_examinations_youdao.txt
-    revision: "absinth :absinthe\nabstentious :abstention\napprobatory :approbation\naspermous :spermous\ncaptivation :captivate\ndecumbence :decumbency\ngropingly :groping\ngroveler :grovel\ngruntling :gruntle\njesting :jest\njesuitical :Jesuitical\nlampooner :lampoon\nlilliputian :Lilliputian\nlitterbin :litter bin\nminacity :minacious\nneodoxy\nogreish :ogre\npaleolithic :Paleolithic\npoohed :pooh\npositiveness :positive\nprorogation :prorogate\nquizzable :quiz\nreeky :reek\nslouching :slouch\ntecnology :technology\nvolubility :voluble"
-  - name: gre
+    tag: GR
+    wordPath:
+      - headWord
+    revision:
+      absinth: absinthe
+      abstentious: abstention
+      approbatory: approbation
+      aspermous: spermous
+      captivation: captivate
+      decumbence: decumbency
+      gropingly: groping
+      groveler: grovel
+      gruntling: gruntle
+      jesting: jest
+      lampooner: lampoon
+      litterbin: litter bin
+      minacity: minacious
+      'n': null
+      neodoxy: null
+      ogreish: ogre
+      poohed: pooh
+      positiveness: positive
+      prorogation: prorogate
+      quizzable: quiz
+      reeky: reek
+      slouching: slouch
+      tecnology: technology
+      volubility: voluble
+  gre3:
     path: origin/GRE_3.json
-    wordPath: [headWord]
-    output: graduate_record_examinations_xindongfang.txt
-    revision: "abstentious :abstention\nantiquarianism :antiquarian\narchetypally :archetypal\nassuredness :assured\nboastfulness :boastful\nbrattish :brat\nchaffing :chaff\ncometary :comet\ncommonsense :common sense\ncorrelated :correlate\ncosycozy :cosy :cozy\ndamped :damp\ndumbbell-like :dumbbell\negoistical :egoistic\nequivocator :equivocate\nexhaustiveness :exhaustive\nfactorable :factor\nformalized :formalize\nhardbitten :hard-bitten\nidiosyncracy :idiosyncrasy\nill-paying :ill :pay\nill-repute :ill repute\nill-will :ill will\nimpermeability :impermeable\nincorrigibility :incorrigible\ninelasticity :inelastic\ninferable :infer\ningeniousness :ingenious\nintangibility :intangible\ninterlocking :interlock\nintruding :intrude\nintrusively :intrusive\njesting :jest\njudiciousness :judicious\nleisureliness :leisurely\nmerited :merit\nnegligibly :negligible\nobliqueness :oblique\npaleolithic :Paleolithic\npiousness :pious\npithiness :pithy\npoohed :pooh\npositiveness :positive\npurposiveness :purposive\nrestored :restore\nself-adulation :adulation\nself-procession :procession\nsemimolten :molten\nshortrange :short-range\nslipperiness :slippery\nsloping :slope\nspined :spine\nspiritedness :spirited\nsun-bronzed :bronzed\ntapering :taper\nthreadlike :thread\ntined :tine\ntransitoriness :transitory\nunderestimated :underestimate"
-  - name: gmat
+    tag: GR
+    wordPath:
+      - headWord
+    revision:
+      _: [pay]
+      abstentious: abstention
+      antiquarianism: antiquarian
+      archetypally: archetypal
+      assuredness: assured
+      boastfulness: boastful
+      brattish: brat
+      chaffing: chaff
+      cliche: null
+      cometary: comet
+      commonsense: common sense
+      correlated: correlate
+      cosycozy: cosy
+      damped: damp
+      dumbbell-like: dumbbell
+      egoistical: egoistic
+      equivocator: equivocate
+      exhaustiveness: exhaustive
+      factorable: factor
+      formalized: formalize
+      hardbitten: hard-bitten
+      idiosyncracy: idiosyncrasy
+      ill-paying: ill
+      ill-repute: ill repute
+      ill-will: ill will
+      impermeability: impermeable
+      incorrigibility: incorrigible
+      inelasticity: inelastic
+      inferable: infer
+      ingeniousness: ingenious
+      intangibility: intangible
+      interlocking: interlock
+      intruding: intrude
+      intrusively: intrusive
+      jesting: jest
+      judiciousness: judicious
+      leisureliness: leisurely
+      merited: merit
+      negligibly: negligible
+      obliqueness: oblique
+      piousness: pious
+      pithiness: pithy
+      poohed: pooh
+      positiveness: positive
+      purposiveness: purposive
+      restored: restore
+      self-adulation: adulation
+      self-procession: procession
+      semimolten: molten
+      shortrange: short-range
+      slipperiness: slippery
+      sloping: slope
+      spined: spine
+      spiritedness: spirited
+      sun-bronzed: bronzed
+      tapering: taper
+      threadlike: thread
+      tined: tine
+      transitoriness: transitory
+      underestimated: underestimate
+  gmat2:
     path: origin/GMAT_2.json
-    wordPath: [headWord]
-    output: graduate_management_admission_test_youdao.txt
-    revision: "antibiotics :antibiotic\nbiophysicist :biophysics\ncalligraphic :calligraphy\nconstructivist :constructivism\nexcluder :exclude\nhemolytic :hemolysis\nhydroponic :hydroponics\nhypertherm :Hypertherm\ninfringer :infringe\ninverted :invert\nlegitimation :legitimate\nmagmatic :magma\nmosaics :mosaic\nnonbiodegradable :non-biodegradable\nnucleons :nucleon\npaleoclimatologist :paleoclimatology\npaleolithic :Paleolithic\npermutations :permutation\nprocreative :procreate\nprotons :proton\ntens :ten\ntenths :tenth\nvertice :vertices"
-  - name: gmat
+    tag: GM
+    wordPath:
+      - headWord
+    revision:
+      antibiotics: antibiotic
+      biophysicist: biophysics
+      calligraphic: calligraphy
+      constructivist: constructivism
+      excluder: exclude
+      hemolytic: hemolysis
+      hydroponic: hydroponics
+      infringer: infringe
+      inverted: invert
+      legitimation: legitimate
+      magmatic: magma
+      mosaics: mosaic
+      nonbiodegradable: non-biodegradable
+      nucleons: nucleon
+      paleoclimatologist: paleoclimatology
+      permutations: permutation
+      procreative: procreate
+      protons: proton
+      tens: ten
+      tenths: tenth
+      vertice: vertices
+  gmat3:
     path: origin/GMAT_3.json
-    wordPath: [headWord]
-    output: graduate_management_admission_test_xindongfang.txt
-    revision: "antibiotics :antibiotic\nbiophysicist :biophysics\ncalligraphic :calligraphy\ncompensatorily :compensatory\nconstructivist :constructivism\nexcluder :exclude\nhydroponic :hydroponics\ninfringer :infringe\ninverted :invert\nlegitimation :legitimate\nmagmatic :magma\nmass-transit :mass transit\nmosaics :mosaic\nnonbiodegradable :non-biodegradable\npaleoclimatologist :paleoclimatology\npaleolithic :Paleolithic\npaleozoologist :paleozoology\nprocreative :procreate\nsingle-entry :single entry\nunreimbursed :reimburse\nvertice :vertices"
-  - name: bec
+    tag: GM
+    wordPath:
+      - headWord
+    revision:
+      antibiotics: antibiotic
+      biophysicist: biophysics
+      calligraphic: calligraphy
+      compensatorily: compensatory
+      constructivist: constructivism
+      excluder: exclude
+      hydroponic: hydroponics
+      infringer: infringe
+      inverted: invert
+      legitimation: legitimate
+      magmatic: magma
+      mass-transit: mass transit
+      mosaics: mosaic
+      nonbiodegradable: non-biodegradable
+      paleoclimatologist: paleoclimatology
+      paleozoologist: paleozoology
+      procreative: procreate
+      single-entry: single entry
+      unreimbursed: reimburse
+      vertice: vertices
+  bec:
     path: origin/BEC_3.json
-    wordPath: [headWord]
-    output: business_environment_and_concepts_section_of_certified_public_accountant_exam_xindongfang.txt
-    revision: "averaging :average\nb/e :B/E :bill of exchange\nback-up :backup\nCBA :cba\ncounterfeits :counterfeit\ndictaphone :Dictaphone\ndown time :downtime\nEncl. :encl.\nend-product :end product\nevaluator :evaluate\nfast-expanding :fast :expand\nHRD\nlineskipper\nmanning\nmulti-brand :brand\nneomercantilist :neomercantilism\nout-goings :outgoings\nover-demand :demand\novervalued :overvalue\npoint-of-sales :point-of-sale\npseudo-academic :academic\ntake-over :takeover\ntransshipment :transship\nungeared :ungear\nwalk-out :walkout\nworld-wide :worldwide\nXD :xd"
+    tag: BE
+    wordPath:
+      - headWord
+    revision:
+      _: [fast]
+      averaging: average
+      b/e: B/E
+      back-up: backup
+      CBA: cba
+      counterfeits: counterfeit
+      down time: downtime
+      Encl.: encl.
+      end-product: end product
+      evaluator: evaluate
+      fast-expanding: expand
+      HRD: null
+      lineskipper: null
+      manning: null
+      multi-brand: brand
+      neomercantilist: neomercantilism
+      out-goings: outgoings
+      over-demand: demand
+      overvalued: overvalue
+      point-of-sales: point-of-sale
+      pseudo-academic: academic
+      take-over: takeover
+      transshipment: transship
+      ungeared: ungear
+      walk-out: walkout
+      world-wide: worldwide
+      XD: xd
+revision:
+  'FALSE': 'false'
+  'TRUE': 'true'
+  monday: Monday
+  tuesday: Tuesday
+  wednesday: Wednesday
+  thursday: Thursday
+  friday: Friday
+  saturday: Saturday
+  sunday: Sunday
+  january: January
+  february: February
+  april: April
+  june: June
+  july: July
+  august: August
+  september: September
+  october: October
+  november: November
+  december: December
+  Communism: communism
+  Communist: communist
+  african: African
+  allende: Allende
+  american: American
+  antarctica: Antarctica
+  appalachian: Appalachian
+  arab: Arab
+  asian: Asian
+  baedeker: Baedeker
+  balkan: Balkan
+  beringia: Beringia
+  brea: Brea
+  brewster: Brewster
+  broadway: Broadway
+  british: British
+  cajun: Cajun
+  caledonian: Caledonian
+  canadian: Canadian
+  caucasian: Caucasian
+  celsius: Celsius
+  cenozoic: Cenozoic
+  chicopee: Chicopee
+  chinese: Chinese
+  christ: Christ
+  christian: Christian
+  christianity: Christianity
+  christmas: Christmas
+  columbian: Columbian
+  connecticut: Connecticut
+  cynthia: Cynthia
+  dictaphone: Dictaphone
+  dna: DNA
+  easter: Easter
+  egyptian: Egyptian
+  elliot: Elliot
+  eocene: Eocene
+  european: European
+  everest: Everest
+  english: English
+  fahrenheit: Fahrenheit
+  forbes: Forbes
+  freefone: Freefone
+  french: French
+  freudian: Freudian
+  gibraltar: Gibraltar
+  gobi: Gobi
+  gondwanaland: Gondwanaland
+  gothic: Gothic
+  greek: Greek
+  halloween: Halloween
+  hamlin: Hamlin
+  hispanic: Hispanic
+  hohokam: Hohokam
+  holocene: Holocene
+  hopewell: Hopewell
+  hyksos: Hyksos
+  hypertherm: Hypertherm
+  indian: Indian
+  iranian: Iranian
+  iraqi: Iraqi
+  irish: Irish
+  islam: Islam
+  islamic: Islamic
+  israeli: Israeli
+  italian: Italian
+  japanese: Japanese
+  jesuitical: Jesuitical
+  jewish: Jewish
+  jupiter: Jupiter
+  jurassic: Jurassic
+  kohoutek: Kohoutek
+  korean: Korean
+  laurasia: Laurasia
+  latin: Latin
+  leo: Leo
+  lilliputian: Lilliputian
+  lomas: Lomas
+  londoner: Londoner
+  lumiere: null
+  macdonald: MacDonald
+  mandan: Mandan
+  marxist: Marxist
+  mennonite: Mennonite
+  mesopotamian: Mesopotamian
+  mesozoic: Mesozoic
+  mexican: Mexican
+  micronesian: Micronesian
+  midwest: Midwest
+  midwestern: Midwestern
+  miocene: Miocene
+  mormon: Mormon
+  muslim: Muslim
+  negro: Negro
+  nile: Nile
+  oliver: Oliver
+  olympic: Olympic
+  olympics: Olympics
+  oxfordshire: Oxfordshire
+  palestinian: Palestinian
+  paleolithic: Paleolithic
+  pangaea: Pangaea
+  pella: Pella
+  permian: Permian
+  persian: Persian
+  peruvian: Peruvian
+  pleistocene: Pleistocene
+  pluto: Pluto
+  proterozoic: Proterozoic
+  pullman: Pullman
+  quincy: Quincy
+  reaumur: Reaumur
+  russian: Russian
+  sahara: Sahara
+  saturn: Saturn
+  scandinavia: Scandinavia
+  scandinavian: Scandinavian
+  silurian: Silurian
+  spanish: Spanish
+  sumerian: Sumerian
+  syrian: Syrian
+  terylene: Terylene
+  tethys: Tethys
+  triassic: Triassic
+  uranus: Uranus
+  valium: Valium
+  venus: Venus
+  viennese: Viennese
+  virgo: Virgo
+  weldon: Weldon
+  welland: Welland
+  yellowstone: Yellowstone
+  walkman: Walkman

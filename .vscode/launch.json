@@ -9,6 +9,7 @@
             "name": "Launch Program",
             "type": "node",
             "program": "${workspaceFolder}/mod.ts",
+            "args": ["-s", "longmand"],
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/usr/local/bin/deno",
             "runtimeArgs": [

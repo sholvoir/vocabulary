@@ -569,7 +569,6 @@ ai: BN
 aid: B2,BE,BN,CA,GK,GL,KY,L5,S2,T4,T6,TF,VA,W2,ZK
 aide: C1,CA,L2,TF
 AIDS: B2,BN,CA,GK,L4
-aids: CA
 aie: TF
 ail: GR,TF
 ailing: L1
@@ -1479,7 +1478,6 @@ atmospheric: IS,L1,T4,TF
 atom: AW,BN,BS,GK,GM,KY,L2,LD,MC,ST,T4,T6,TF,VA
 atomic: AW,BN,GR,IS,L2,T4,TF
 atomization: TF
-atomize: TF
 atonal: GR
 atone: GR,ST
 atonement: GR,ST
@@ -1550,8 +1548,7 @@ augment: GR,IS,KY,L1,ST,TF
 augmentation: GR
 augur: ST
 augury: GR
-August: A1,BN,GK,L4,MC,T4,TF,ZK
-august: CA,GR,KY,ST
+August: A1,BN,CA,GK,GR,KY,L4,MC,ST,T4,TF,ZK
 aunt: A1,BN,CA,DL,GK,GL,KY,L4,S3,T4,W3,WK,ZK
 aura: GM,L1
 aural: KY,L1,ST,T4,TF
@@ -2165,7 +2162,6 @@ bilingual: AW,BE,GR,IS,L1,ST,TF
 bilingualism: TF
 bilious: GR
 bilk: GR,ST
-bill of exchange: BE
 bill: A1,B2,BE,BN,CA,GK,GL,GS,L4,LD,MC,S1,T4,TF,VA,W1,ZK
 Bill: BN
 billboard: BE,L1
@@ -3557,7 +3553,7 @@ chine: GR
 Chinese: BN,CA,GK,T4,TF,ZK
 chink: GR,IS
 chinless: GR
-chip: A2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,T4,T6,TF,W3,ZK
+chip: A2,BE,BN,CA,GL,GM,GR,IS,KY,L3,S2,T4,T6,TF,W3,ZK
 chipmunk: GR,TF
 chipper: GR
 chips: GK
@@ -3795,7 +3791,6 @@ clerk: B2,BE,BN,CA,GK,IS,KY,L2,LD,S3,T4,T6,TF,TS,ZK
 Cleveland: BN
 clever: A2,AW,BN,BS,CA,GK,KY,L3,LD,MC,S2,T4,TF,WK,ZK
 cleverness: TF
-cliche: GR,IS,L1,ST
 click: AW,B1,BS,CA,FE,GK,IS,KY,L2,S3,T4,TF,TS
 client: AW,B1,BE,BN,BS,CA,FE,GM,IS,KY,L3,S2,T4,T6,TF,TS,W1
 clientele: BE,GR,IS,L1,ST
@@ -4820,7 +4815,6 @@ country: A1,BE,BN,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,VA,W1,WK,ZK
 countryman: L1
 countryside: B1,BE,BN,BS,GK,KY,L3,MC,S3,T4,TF,TS,W3,ZK
 county council: L1
-county home: L1
 county: B2,BN,CA,GL,IS,KY,L4,T4,TF,W2
 coup d'etat: L1
 coup: BN,BS,C1,GR,L3,ST
@@ -9253,7 +9247,6 @@ gospel: BN,CA,GR,L2,TF
 gossamer: GR,ST,TF
 gossip: IS,KY,L2,ST,T6,TF,TS
 got: L5
-gothic: BN
 Gothic: BN,L1,TF
 gouache: TF
 gouge: GR,L1,TF
@@ -9435,7 +9428,6 @@ groove: GM,GR,L2,T6,TF
 groovy: L1
 grope: GR,IS,KY,L1,T6,TF
 groping: GR
-gross domestic income: L1
 gross domestic product: L1
 gross: AW,BE,BN,BS,C1,CA,GR,IS,KY,L3,S3,ST,T4,T6,TF
 grotesque: GR,L1
@@ -12199,7 +12191,6 @@ lb: BN
 lb.: L2
 LCD: L1
 LEA: BN
-Lea: BN
 leach: GM,GR,TF
 lead singer: L1
 lead: A2,B1,BE,BN,CA,DL,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WK,ZK
@@ -12753,7 +12744,6 @@ lullaby: GR
 lulu: GR
 lumber: GM,GR,KY,L1,T4,TF
 lumen: GR
-lumiere: TF
 luminary: BE,GR,L1,ST
 luminescent: ST
 luminosity: GM,TF
@@ -12805,7 +12795,6 @@ macabre: GR,L1,ST
 macadam: GR
 macaque: TF
 MacDonald: BN,TF
-Macdonald: TF
 mace: GR
 macerate: GR
 machination: GR,ST
@@ -12944,7 +12933,7 @@ mammalian: GM,TF
 mammonism: GR
 mammoth: L1,TF
 man-made: L1
-man: A1,BE,BN,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
+man: A1,BN,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
 manacle: GR,IS
 manage: A2,BE,BN,CA,GK,GL,KY,L4,LD,MC,S1,T4,TF,W1,ZK
 manageable: TF
@@ -13848,7 +13837,6 @@ mosaic: BN,GM,GR,IS,KY,L1,TF
 Moscow: BN,GK
 Moslem: GK,T6
 mosque: B2,BS,GM,L2,T6
-Mosquito: GK
 mosquito: GK,GM,IS,KY,L1,T4,TF,TS
 moss: IS,KY,L1,T6,TF
 most: A1,BN,CA,DL,GK,GL,GS,IS,L5,LD,MC,S1,T4,VA,W1,WK,ZK
@@ -14058,7 +14046,6 @@ mythical: TF
 mythological: TF
 mythology: GM,GR,IS,L1,ST,TF
 myxoma: TF
-n: GR
 N.A.: L1
 n/a: L1
 nab: GR,L1
@@ -14509,7 +14496,7 @@ novocaine: GM
 now that: BN
 now: A1,B1,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,W3,WK,ZK
 nowadays: B2,BE,BN,GK,GL,KY,L2,S2,T4,TF
-nowcasting: TF
+nowcast: TF
 nowhere: A2,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,TF,VA
 noxious: GM,GR,IS,ST,TF
 nozzle: GR,L1,TF
@@ -14577,7 +14564,6 @@ nylon: BE,GK,IS,KY,L1,T4,TF
 nymph: GR,L1
 nystatin: TF
 O level: L1
-O: ST
 o'clock: BN,CA,DL,L3,LD,MC,S1,TS,W3
 oafish: GR
 oak: BN,CA,GR,IS,KY,L2,ST,T4,T6,TF,ZK
@@ -15250,7 +15236,6 @@ oystercatcher: TF
 oz.: L2
 ozone layer: L1
 ozone: BN,GM,IS,KY,L2,ST,T6
-P: ST
 p.a.: BE
 p.m.: L2
 PA: BE
@@ -17011,7 +16996,6 @@ protective: BN,C1,CA,GR,L2,LD,T4,TF,TS
 protector: L1,TF
 protege: GM,L1
 protein: B2,BN,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF,VA
-proteins: VA
 Proterozoic: TF
 protest: B1,BN,CA,GL,GR,IS,KY,L4,LD,MC,OG,T4,T6,TF,VA,W3
 protestant: BN,GM,L2
@@ -17119,8 +17103,8 @@ publishing: B2,BN,CA,L3
 pucker: GR
 pudding: BN,IS,L2,S3,T6
 puddle: GR,L1,TF
-pueblo: TF
 Pueblo: TF
+pueblo: TF
 puerile: GR,ST
 puerility: GR
 puff: FE,KY,L1,T6,TF
@@ -17537,7 +17521,6 @@ razor: GK,GR,KY,L1
 razzle: GR
 RC: L2
 Rd: L2
-Rd.: L2
 re-: LD,VA
 re-elect: L2
 re-election: CA,TF
@@ -17596,7 +17579,7 @@ reappear: L1,TF
 reapply: TF
 rear: BN,C1,GL,GM,IS,KY,L3,T4,T6,TF
 rearrange: BE,L1,ST,T4,TF,TS
-reason: A1,BE,BN,CA,DL,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,ZK
+reason: A1,BE,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,ZK
 reasonable: B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S1,ST,T4,TF,VA,W2
 reasonably: B2,BN,GL,S2,TF,W3
 reasoned: L1
@@ -17816,7 +17799,6 @@ refresh: BE,GK,GR,IS,KY,L1,T4,T6,TF,TS
 refresher: BE,IS
 refreshing: IS,L2,T4,T6,TF
 refreshment: BE,GK,IS,KY,L1,T6,TF,TS
-refreshments: GK
 refrigerate: GR,L1,TF
 refrigeration: TF
 refrigerator: GK,IS,L1,S3,T4,TF,TS,ZK
@@ -20535,7 +20517,7 @@ starling: TF
 start: A1,A2,BE,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,T6,TF,VA,W1,W2,WK,ZK
 starter: CA,L2
 starting point: L1
-starting: BN,CA
+starting: CA
 startle: GR,IS,KY,L2,T4,T6,TF
 startling: L2,TF
 startlingly: GM
@@ -24160,7 +24142,6 @@ yet: A2,B2,BN,CA,DL,GK,GL,GS,L5,LD,MC,S1,TF,VA,W1,W2,WK,ZK
 yew: L1,TF
 yield: BE,BN,C1,CA,GL,GM,IS,KY,L3,T4,T6,TF
 yielding: GR
-yin: ZK
 Yin: ZK
 yip: ST
 yo-yo: L1

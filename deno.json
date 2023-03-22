@@ -1,6 +1,6 @@
 {
   "imports": {
-    "std/": "https://deno.land/std@0.179.0/",
+    "std/": "https://deno.land/std@0.180.0/",
     "micinfotech/": "https://www.micinfotech.com/generic/",
     "marked": "npm:marked@4.2.12/lib/marked.esm.js"
   },
