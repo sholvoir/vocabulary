@@ -1,20 +1,11 @@
 // deno-lint-ignore-file no-explicit-any no-cond-assign no-empty
 import { parse as parseArgs } from 'std/flags/mod.ts';
-import { readLines } from 'std/io/read_lines.ts';
 import { readConfig, writeConfig } from './config.ts';
 import { Tags } from './tags.ts';
 
 function sortCaseInsensitive(array: Array<string>) {
     return array.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 }
-// function splitAndDo({ text, separator, func }: { text: string, separator: string, func: (line: string) => void }) {
-//     for (let line of text.split(separator)) (line = line.trim()) && func(line);
-// }
-// async function readAndDo(path: string, func: (line: string) => void) {
-//     const file = await Deno.open(path);
-//     for await (let line of readLines(file)) (line = line.trim()) && func(line);
-//     file.close();
-// }
 
 export class Vocabulary extends Map<string, Tags> {
     addWord(word: string, tags: Iterable<string>) {
@@ -25,21 +16,6 @@ export class Vocabulary extends Map<string, Tags> {
         const [word, ...tags] = item.split(/[,:] */).map(w => w.trim());
         if (word) this.addWord(word, tags);
     }
-    // addWords(words: string, tags: Iterable<string>, separator = '\n') {
-    //     splitAndDo({ text: words, separator, func: (word: string) => this.addWord(word, tags) });
-    // }
-    // addItems(items: string, separator = '\n') {
-    //     splitAndDo({ text: items, separator, func: this.addItem.bind(this) });
-    // }
-    // merge(that: Vocabulary) {
-    //     for (const [word, tags] of that) this.addWord(word, tags);
-    // }
-    // async addWordsFromFile(path: string, tags: Array<string>) {
-    //     await readAndDo(path, word => this.addWord(word, tags));
-    // }
-    // async addItemsFromFile(path: string) {
-    //     await readAndDo(path, this.addItem.bind(this));
-    // }
     removeTags(word: string, tags: Iterable<string>) {
         const otags = this.get(word);
         if (otags) otags.remove(tags);
@@ -50,15 +26,9 @@ export class Vocabulary extends Map<string, Tags> {
             this.delete(word);
         }
     }
-    // clearTags(tags: Iterable<string>) {
-    //     for (const [word] of this) this.removeTags(word, tags);
-    // }
     toArray() {
         return Array.from(this).map(([word, tags]) => `${word}${tags.size ? `: ${tags.toString()}` : ''}`);
     }
-    // async writeFile(path: string) {
-    //     await writeToFile(path, this.toArray());
-    // }
 }
 
 async function run() {
@@ -97,11 +67,7 @@ async function run() {
     let functionIndex = 0;
     // read init data
     const vocabulary = new Vocabulary();
-    try {
-        const file = await Deno.open(args.init);
-        for await (let line of readLines(file)) (line = line.trim()) && vocabulary.addItem(line);
-        file.close();
-    } catch { }
+    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch { }
     // start run tasks
     const encoder = new TextEncoder();
     const tasks = args._.length ? args._ as Array<string> : Object.keys(config.inputs);
