@@ -21,10 +21,8 @@ export class Vocabulary extends Map<string, Tags> {
         if (otags) otags.remove(tags);
     }
     removeWordsWithoutTags() {
-        for (const [word, tags] of this) if (!tags.size) {
-            console.log(`Without Tags remove word "${word}".`);
-            this.delete(word);
-        }
+        for (const [word, tags] of this) if (!tags.size)
+            this.delete(word) && console.log(`Without Tags remove word "${word}".`);
     }
     toArray() {
         return Array.from(this).map(([word, tags]) => `${word}${tags.size ? `: ${tags.toString()}` : ''}`);
@@ -34,10 +32,10 @@ export class Vocabulary extends Map<string, Tags> {
 async function run() {
     // get command line args and read config file
     const args = parseArgs(Deno.args, {
-        boolean: ['step-out', 'spell-check'],
+        boolean: ['step-out', 'no-spell-check'],
         string: ['config', 'init', 'output'],
-        alias: { 'step-out': 'p', config: 'c', init: 'i', output: 'o', 'spell-check': 's' },
-        default: { 'step-out': false, config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt' }
+        alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'no-spell-check': 's' },
+        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt' }
     });
     const config = await readConfig(args.config);
     // ready for spell check functions
@@ -76,7 +74,7 @@ async function run() {
         if (!conf) continue;
         console.log(`Dealing ${task}...`);
         // read file and process
-        if (conf.revision?._) for (const word of conf.revision._) vocabulary.addWord(word, [conf.tag as string])
+        if (conf.revision?._) for (const word of conf.revision._) vocabulary.addWord(word, [conf.tag!])
         let text = await Deno.readTextFile(conf.path);
         const miss: Record<string, Array<string>> = {};
         let words: () => Generator<Array<string>, void, unknown>;
@@ -140,12 +138,12 @@ async function run() {
             }
         }
         if (Object.keys(miss).length) conf.miss = miss;
-        // write to file
-        const file = await Deno.open(args.output, { write: true, create: true, truncate: true });
-        for (const line of sortCaseInsensitive(vocabulary.toArray()))
-            await Deno.write(file.rid, encoder.encode(`${line}\n`));
-        file.close();
     }
+    // write to file
+    const file = await Deno.open(args.output, { write: true, create: true, truncate: true });
+    for (const line of sortCaseInsensitive(vocabulary.toArray()))
+        await Deno.write(file.rid, encoder.encode(`${line}\n`));
+    file.close();
     // write config
     for (const conf of Object.values(config.inputs)) if (conf.miss) {
         await writeConfig(args.config, config);

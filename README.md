@@ -1,9 +1,9 @@
-# glossary
+# Vocabulary
 
-本工具使用JavaScript编写, 运行环境为Deno, 请自行到 [Deno官网](https://deno.land/) 下载安装.
+词书生成工具，使用TypeScript编写, 运行环境为Deno。
 
 if you want to build all data by youself, you need run it use [Deno](https://deno.land/).  
-I strongly recommend you to select one and download it directly.
+You can download **vocabulary.txt** directly.
 
 How to run:
 ```bash

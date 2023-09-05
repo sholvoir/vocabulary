@@ -1,8 +1,7 @@
 {
+  "lock": false,
   "imports": {
-    "std/": "https://deno.land/std@0.180.0/",
-    "micinfotech/": "https://www.micinfotech.com/generic/",
-    "marked": "npm:marked@4.2.12/lib/marked.esm.js"
+    "std/": "https://deno.land/std@0.201.0/"
   },
   "tasks": {
     "run": "deno run -A mod.ts",
