@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any no-cond-assign no-empty
-import { parse as parseArgs } from 'std/flags/mod.ts';
+import { parseArgs } from '$std/cli/parse_args.ts';
 import { readConfig, writeConfig } from './config.ts';
 import { type Tag, TagSet } from './tag.ts';
 
