@@ -1,22 +1,22 @@
 // deno-lint-ignore-file no-explicit-any no-cond-assign no-empty
 import { parse as parseArgs } from 'std/flags/mod.ts';
 import { readConfig, writeConfig } from './config.ts';
-import { Tags } from './tags.ts';
+import { type Tag, TagSet } from './tag.ts';
 
 function sortCaseInsensitive(array: Array<string>) {
     return array.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 }
 
-export class Vocabulary extends Map<string, Tags> {
-    addWord(word: string, tags: Iterable<string>) {
+export class Vocabulary extends Map<string, TagSet> {
+    addWord(word: string, tags: Iterable<Tag>) {
         if (this.has(word)) this.get(word)!.attach(tags);
-        else this.set(word, new Tags(tags));
+        else this.set(word, new TagSet(tags));
     }
     addItem(item: string) {
         const [word, ...tags] = item.split(/[,:] */).map(w => w.trim());
-        if (word) this.addWord(word, tags);
+        if (word) this.addWord(word, tags as Array<Tag>);
     }
-    removeTags(word: string, tags: Iterable<string>) {
+    removeTags(word: string, tags: Iterable<Tag>) {
         const otags = this.get(word);
         if (otags) otags.remove(tags);
     }
@@ -114,7 +114,7 @@ async function run() {
             if (!word) continue;
             // spell check
             if (!args['spell-check'] || vocabulary.has(word)) {
-                vocabulary.addWord(word, tags);
+                vocabulary.addWord(word, tags as Array<Tag>);
                 continue;
             }  
             console.log(`  Checking ${word}`);
@@ -125,7 +125,7 @@ async function run() {
                 const entries = await spellCheckFunctions[funIndex](word);
                 if (found = entries.find(entry => entry === word)) {
                     console.log(`    Found in ${funIndex}`);
-                    vocabulary.addWord(word, tags);
+                    vocabulary.addWord(word, tags as Array<Tag>);
                     break;
                 } else {
                     console.log(`    Not found in ${funIndex}`);

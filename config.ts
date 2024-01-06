@@ -1,12 +1,13 @@
 // deno-lint-ignore-file no-explicit-any
 import { parse } from 'std/yaml/parse.ts';
 import { stringify } from 'std/yaml/stringify.ts';
+import { Tag } from "./tag.ts";
 
 export interface Config {
     version: string;
     inputs: Record<string, {
         path: string;
-        tag?: string;
+        tag?: Tag;
         wordPath?: Array<string | number>;
         tagPath?: Array<string | number>;
         test?: string;
