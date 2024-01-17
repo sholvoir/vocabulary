@@ -15497,8 +15497,7 @@ pastoralist: TF
 pastry: GR,L2,T6,TS
 pasture: GM,IS,KY,L1,T6,TF
 pasty: GR
-Pat: BN
-pat: KY,L2,T4
+pat: BN,KY,L2,T4
 patch: BN,BS,C1,CA,GM,GR,IS,KY,L2,T4,TF
 patchwork: GR,L1
 patchy: L1,TF
