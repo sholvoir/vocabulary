@@ -343,6 +343,7 @@ inputs:
     revision:
       ai-: ai
       Arsenal: arsenal
+      Kim: null
       away from: null
       by now: null
       characterise: characterize

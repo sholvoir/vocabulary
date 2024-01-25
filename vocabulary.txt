@@ -11913,7 +11913,6 @@ kilogram: FE,GK,L1,LD,MC,T4,TF,TS
 kilometer: AW,LD,TF,TS,ZK
 kilometre: A1,BN,GK,KY,L3,MC,S3,T4,W3
 kilowatt: T6
-Kim: BN
 kin: GM,GR,IS,KY,L1
 kind: A1,B1,BN,CA,DL,GK,GL,GS,L2,L5,LD,MC,OG,S1,S2,T4,VA,W1,W3,WK,ZK
 kinda: CA
