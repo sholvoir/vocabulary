@@ -341,6 +341,7 @@ inputs:
       - [[(?<!and) ?/ ?, g], "\n"]
       - [[^(\w+) \((\w+)\), gm], "$1\n$1 $2"]
     revision:
+      Aberdeen: null
       ai-: ai
       Arsenal: arsenal
       Kim: null
@@ -372,6 +373,8 @@ inputs:
       Northern: northern
       once again: once again once more
       Pat: pat
+      Pete: null
+      Peter: peter
       privatisation: privatization
       provided that: null
       resulting: result

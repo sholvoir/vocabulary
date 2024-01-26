@@ -57,7 +57,6 @@ abduction: ST
 abductor: FE
 abecedarian: GR
 abed: ST
-Aberdeen: BN
 aberrant: GR,TF
 aberration: GR,L1,ST
 abet: GR,ST
@@ -15854,9 +15853,7 @@ pestilential: GR,TF
 pestle: GR
 pet: A2,BN,BS,CA,DL,GK,KY,L3,LD,MC,T4,TF,TS,ZK
 petal: GR,IS,L1,TF
-Pete: BN
-Peter: BN
-peter: GR,L1
+peter: GR,L1,BN
 petiole: TF
 petite: L1
 petition: BE,BN,BS,C1,CA,GM,GR,IS,KY,L2,T6,TF,TS
