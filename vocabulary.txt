@@ -13075,7 +13075,6 @@ marvelous: IS,KY,T4,TF
 Marx: BN
 Marxism: L1,T4
 Marxist: BN,KY,L2,T4
-Mary: BN
 mascara: L1
 mascot: GR,L1
 masculine: GM,IS,KY,L1,T4,T6
@@ -18760,7 +18759,6 @@ salvageable: ST
 salvation: BN,GR,KY,L2,T6
 salve: GR
 salvo: GR,L1
-Sam: BN
 same: A1,BN,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 sample: B1,B2,BE,BN,CA,GL,GM,IS,KY,L3,S3,T4,T6,TF,W2
 sampler: GR,L1

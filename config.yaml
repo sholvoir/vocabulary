@@ -380,6 +380,7 @@ inputs:
       provided that: null
       resulting: result
       Robyn: Robin
+      Sam: null
       starting: start
       United: united
       Unix: UNIX
@@ -557,6 +558,9 @@ inputs:
       Interstate: interstate
       Isle: isle
       isotopic: isotope
+      John: null
+      Johnny: null
+      Johnson: null
       keplerian: Kepler
       lesley: Leslie
       loder: loader
