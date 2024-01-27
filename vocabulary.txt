@@ -11746,9 +11746,6 @@ jocund: GR,ST
 Joe: BN
 jog: BE,FE,GK,GR,IS,KY,L1,T6,TF,TS
 joggle: ST
-John: BN
-Johnny: BN
-Johnson: BN
 join: A1,BN,CA,DL,GK,GL,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
 joiner: TF
 joinery: TF
