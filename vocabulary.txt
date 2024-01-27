@@ -18757,9 +18757,7 @@ salvo: GR,L1
 same: A1,BN,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 sample: B1,B2,BE,BN,CA,GL,GM,IS,KY,L3,S3,T4,T6,TF,W2
 sampler: GR,L1
-Samuel: BN
 samurai: GM
-San: BN
 sanatorium: GR
 sanctimonious: GR,ST,TF
 sanction: BE,BN,C1,CA,GL,GM,GR,IS,KY,L4,ST,T4,T6,TF
