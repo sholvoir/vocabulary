@@ -11662,7 +11662,6 @@ jamb: GR
 jamboree: GR
 James: BN
 Jan: BN,L2
-Jane: BN
 jangle: L1
 janitor: GR,IS
 January: A1,BN,CA,GK,KY,L4,MC,T4,TF,ZK
