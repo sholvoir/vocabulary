@@ -1,13 +1,10 @@
-// deno-lint-ignore-file no-explicit-any no-cond-assign no-empty
+// deno-lint-ignore-file no-explicit-any
 import { parseArgs } from '$std/cli/parse_args.ts';
-import { readConfig, writeConfig } from './config.ts';
+import { readConfig, writeConfig, readRevision } from './config.ts';
 import { type Tag, TagSet } from './tag.ts';
+import { spellCheck } from './spell-check.ts';
 
-function sortCaseInsensitive(array: Array<string>) {
-    return array.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
-}
-
-export class Vocabulary extends Map<string, TagSet> {
+class Vocabulary extends Map<string, TagSet> {
     addWord(word: string, tags: Iterable<Tag>) {
         if (this.has(word)) this.get(word)!.attach(tags);
         else this.set(word, new TagSet(tags));
@@ -32,56 +29,30 @@ export class Vocabulary extends Map<string, TagSet> {
 async function run() {
     // get command line args and read config file
     const args = parseArgs(Deno.args, {
-        boolean: ['step-out', 'no-spell-check'],
-        string: ['config', 'init', 'output'],
-        alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'no-spell-check': 's' },
-        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt' }
+        boolean: ['step-out', 'spell-check'],
+        string: ['config', 'init', 'output', 'revision'],
+        alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'spell-check': 's' },
+        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.yaml' }
     });
-    const config = await readConfig(args.config);
-    // ready for spell check functions
-    const entitiesRegex = /&(quot|apos|amp|lt|gt|#(x?\d+));/g;
-    const entities: { [key: string]: string } = { quot: '"', apos: "'", amp: '&', lt: '<', gt: '>' };
-    const decodeEntities = (_: string, p1: string, p2: string) => p2 ? String.fromCharCode(+`0${p2}`) : entities[p1];
-    const getSpellCheckFunction = (baseUri: string, regex: RegExp, index = 1) => async (word: string) => {
-        try {
-            const html = await (await fetch(`${baseUri}${encodeURIComponent(word)}`)).text();
-            return Array.from(html.matchAll(regex)).map(match => match[index].trim().replaceAll(entitiesRegex, decodeEntities));
-        } catch (e) {
-            console.log(e);
-            return [];
-        }
-    };
-    const spellCheckFunctions = [
-        getSpellCheckFunction('https://www.merriam-webster.com/dictionary/',
-            /<h1 class="hword">(?:<span.*?>)?(.+?)(?:<\/span>)?<\/h1>/g),
-        getSpellCheckFunction('https://www.collinsdictionary.com/search/?dictCode=english&q=',
-            /<h2 class="h2_entry"><span class="orth">(.+?)<\/span>/g),
-        getSpellCheckFunction('https://www.dictionary.com/browse/',
-            /<h1 data-first-headword="true" class=".+?">(.+?)<\/h1>/g),
-        getSpellCheckFunction('https://www.oxfordlearnersdictionaries.com/search/english/?q=',
-            /<h1.+?>(.+?)(?:<span.+?>.+?<\/span>)?<\/h1>/g)
-    ];
-    spellCheckFunctions.length;
-    let functionIndex = 0;
+    const configs = await readConfig(args.config);
+    const revision = await readRevision(args.revision);
     // read init data
     const vocabulary = new Vocabulary();
-    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch { }
+    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); }
+    catch (e) { console.log('init data read error', e); }
     // start run tasks
-    const encoder = new TextEncoder();
-    const tasks = args._.length ? args._ as Array<string> : Object.keys(config.inputs);
-    for (const task of tasks) {
-        const conf = config.inputs[task];
-        if (!conf) continue;
-        console.log(`Dealing ${task}...`);
+    const tasks = args._ as Array<string>;
+    for (const conf of configs) {
+        if (tasks.length && !tasks.includes(conf.name)) continue;
+        console.log(`Dealing ${conf.name}...`);
         // read file and process
-        if (conf.revision?._) for (const word of conf.revision._) vocabulary.addWord(word, [conf.tag!])
         let text = await Deno.readTextFile(conf.path);
         const miss: Record<string, Array<string>> = {};
         let words: () => Generator<Array<string>, void, unknown>;
         if (!conf.wordPath) {
             if (conf.process) for (const [index, [[pattern, flags], replacement = '']] of conf.process.entries()) {
                 text = text.replace(new RegExp(pattern, flags), replacement);
-                if (args["step-out"]) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `debug/$1-${index}.txt`), text);
+                if (args["step-out"]) await Deno.writeTextFile(conf.path.replace(/.*?([^/]*)$/, `debug_$1-${index}.txt`), text);
             }
             if (conf.test && new RegExp(conf.test).test(text)) {
                 console.log(`There is still some special char in ${conf.path}.`);
@@ -107,47 +78,31 @@ async function run() {
                 }
             }
         }
-        for (let [word, ...tags] of words()) {
+        for (const [word, ...tags] of words()) {
             // revision
-            if (config.revision?.hasOwnProperty(word)) word = config.revision[word];
-            else if (conf.revision?.hasOwnProperty(word)) word = conf.revision[word];
-            if (!word) continue;
-            // spell check
-            if (!args['spell-check'] || vocabulary.has(word)) {
-                vocabulary.addWord(word, tags as Array<Tag>);
-                continue;
-            }  
-            console.log(`  Checking ${word}`);
-            const replaces = new Set<string>();
-            let found;
-            for (let i = 0; i < spellCheckFunctions.length; i++) {
-                const funIndex = functionIndex++ % spellCheckFunctions.length;
-                const entries = await spellCheckFunctions[funIndex](word);
-                if (found = entries.find(entry => entry === word)) {
-                    console.log(`    Found in ${funIndex}`);
-                    vocabulary.addWord(word, tags as Array<Tag>);
-                    break;
-                } else {
-                    console.log(`    Not found in ${funIndex}`);
-                    entries.forEach(entry => replaces.add(entry));
-                }
-            }
-            if (!found) {
-                console.log('    Not found in all dict!');
-                miss[word] = Array.from(replaces);
+            if (!word) continue
+            const ws = conf.replace?.[word] || [word];
+            for (let w of ws) {
+                if (revision[w]) w = revision[w];
+                // spell check
+                let replaces;
+                if (args['spell-check'] && !vocabulary.has(w) && (replaces = await spellCheck(w)))
+                    miss[w] = replaces!;
+                else vocabulary.addWord(w, tags as Array<Tag>);
             }
         }
         if (Object.keys(miss).length) conf.miss = miss;
     }
     // write to file
+    const encoder = new TextEncoder();
     const file = await Deno.open(args.output, { write: true, create: true, truncate: true });
-    for (const line of sortCaseInsensitive(vocabulary.toArray()))
+    for (const line of vocabulary.toArray().sort())
         await Deno.write(file.rid, encoder.encode(`${line}\n`));
     file.close();
     // write config
-    for (const conf of Object.values(config.inputs)) if (conf.miss) {
-        await writeConfig(args.config, config);
-        return;
+    for (const input of configs) if (input.miss) {
+        await writeConfig(args.config, configs);
+        break;
     }
 }
 

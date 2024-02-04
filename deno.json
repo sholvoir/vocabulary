@@ -1,10 +1,9 @@
 {
   "lock": false,
   "imports": {
-    "$std/": "https://deno.land/std@0.211.0/"
+    "$std/": "https://deno.land/std@0.213.0/"
   },
   "tasks": {
-    "run": "deno run -A mod.ts",
-    "release": "deno run -A release.ts"
+    "run": "deno run -A mod.ts"
   }
 }
