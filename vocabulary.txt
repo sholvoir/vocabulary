@@ -99,11 +99,13 @@ Antioch: WB
 Appalachian: TF
 Apr: L2
 April: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
+Aquarius: LH
 Arab: BN,BW,CA,TF
 Arabian: T4,TF
 Arabic: GK,WB
 Arctic: GK
 Argentine: WB
+Aries: LH
 Armenian: WB
 Arnold: BN
 Arthur: BN,BS,BW
@@ -219,9 +221,11 @@ Cambridge: BN,BS,BW
 Campbell: BN
 Canada: BN,BW,GK,T4,TF,ZK
 Canadian: BN,CA,GK,T4
+Cancer: LH
 Canterbury: BN
 Cantonese: IS
 Capetian: WB
+Capricorn: LH
 Capt: L2
 Cardiff: BN,BW
 Caribbean: TF
@@ -462,6 +466,7 @@ Gallic: L1
 Gandhian: WB
 Gary: BN,BS,BW
 Gaulle: BN
+Gemini: LH
 Gen.: BN
 Geneva: BN
 Geoff: BN,BS
@@ -723,7 +728,7 @@ Lebanon: BN
 Lee: BN,BS,BW
 Leeds: BN,BS,BW
 Leicester: BN,BS
-Leo: TF
+Leo: LH,TF
 Leonard: BN
 Les: BN,BS
 Levitical: WB
@@ -731,6 +736,7 @@ Lewis: BN,BS,BW
 Lib Dem: L1
 Liberal Democrat: L2
 Liberal party: L1
+Libra: LH
 Libyan: WB
 Lilliputian: GR
 Lily: BN
@@ -996,6 +1002,7 @@ Philip: BN,BS,BW
 Philippine: TF
 Phillips: BN
 Phosphorus: ST
+Pisces: LH
 Platonism: WB
 Pleistocene: GM,TF,WB
 Pluto: TF
@@ -1078,6 +1085,7 @@ Russian: BN,BS,BW,CA,GK,TF,WB,ZK
 Ruth: BN,BS,BW
 Sac: TF
 Safavid: WB
+Sagittarius: LH
 Sahara: TF
 Sally: BN,BS
 Sam: BN,BS,BW
@@ -1098,6 +1106,7 @@ Savasana: FE
 Saxon: L1
 Scandinavia: TF
 Scandinavian: TF
+Scorpio: LH
 Scotch: L1
 Scotland: BN,BS,BW,GK,TF
 Scots: BN,L2
@@ -1177,6 +1186,7 @@ Tarot: L1
 Tasman: WB
 Tasmania: TF
 Tasmanian: WB
+Taurus: LH
 Taylor: BN,BS,BW
 Ted: BN
 Tennessee: TF
@@ -1261,7 +1271,7 @@ Vietnam: BN,BW
 Viking: L1,WB
 Virginia: BN
 Virginian: TF
-Virgo: TF
+Virgo: LH,TF
 WHO: BN
 WWII: WB
 Wagnerian: WB

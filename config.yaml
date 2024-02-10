@@ -1,3 +1,7 @@
+- name: lorhur
+  path: origin/Lorhur.txt
+  tag: LH
+  test: '[^\na-zA-Z]'
 - name: ogden
   path: origin/Odgens_Basic_English_Vocabulary.html
   tag: OG
