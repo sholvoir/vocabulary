@@ -1,8 +1,9 @@
 // deno-lint-ignore-file no-explicit-any
 import { parseArgs } from '$std/cli/parse_args.ts';
-import { readConfig, writeConfig, readRevision } from './config.ts';
+import { readConfig, writeConfig } from './config.ts';
 import { type Tag, TagSet } from './tag.ts';
 import { spellCheck } from './spell-check.ts';
+const delimiterItem = /[,:] */;
 
 class Vocabulary extends Map<string, TagSet> {
     addWord(word: string, tags: Iterable<Tag>) {
@@ -10,7 +11,7 @@ class Vocabulary extends Map<string, TagSet> {
         else this.set(word, new TagSet(tags));
     }
     addItem(item: string) {
-        const [word, ...tags] = item.split(/[,:] */).map(w => w.trim());
+        const [word, ...tags] = item.split(delimiterItem).map(w => w.trim());
         if (word) this.addWord(word, tags as Array<Tag>);
     }
     removeTags(word: string, tags: Iterable<Tag>) {
@@ -32,10 +33,15 @@ async function run() {
         boolean: ['step-out', 'spell-check'],
         string: ['config', 'init', 'output', 'revision'],
         alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'spell-check': 's' },
-        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.yaml' }
+        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.txt' }
     });
     const configs = await readConfig(args.config);
-    const revision = await readRevision(args.revision);
+    const revision = {} as Record<string, string>;
+    const delimiter = /: */;
+    for (const line of (await Deno.readTextFile(args.revision)).split('\n')) {
+        const [word, replace] = line.split(delimiter);
+        if (word) revision[word] = replace;
+    }
     // read init data
     const vocabulary = new Vocabulary();
     try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); }
@@ -61,7 +67,7 @@ async function run() {
             words = function*() {
                 for (let line of text.split('\n')) {
                     if (!(line = line.trim())) continue;
-                    yield conf.tag ? [line, conf.tag] : line.split(/[,:] */).map(w => w.trim());
+                    yield conf.tag ? [line, conf.tag] : line.split(delimiterItem).map(w => w.trim());
                 }
             }
         } else {
@@ -71,7 +77,6 @@ async function run() {
                     const root = JSON.parse(line);
                     let word = root;
                     for (const item of conf.wordPath!) word = word[item];
-                    word = word.replaceAll('é', 'e').replaceAll('ç', 'c');
                     let tag: any = conf.tag;
                     if (conf.tagPath) (tag = root) && conf.tagPath.forEach(item => tag = tag[item]);
                     yield [word, tag];

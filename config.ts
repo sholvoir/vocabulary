@@ -15,10 +15,6 @@ export type Config = {
     miss?: Record<string, Array<string>>;
 };
 
-export async function readRevision(path: string) {
-    return parse(await Deno.readTextFile(path)) as Record<string, string>;
-}
-
 export async function readConfig(path: string) {
     return parse(await Deno.readTextFile(path)) as Array<Config>;
 }

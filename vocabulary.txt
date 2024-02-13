@@ -3718,12 +3718,12 @@ blank: A2,AW,BE,BL,BN,BS,CA,GK,IS,KY,L2,S3,T4,T6,ZK
 blanket: B2,BN,CA,FE,GK,IS,KY,L2,T4,TF,TL,VA
 blare: GR,L1
 blarney: GR
-blase: GR,ST
 blaspheme: ST
 blasphemous: GR
 blasphemy: GR,L1
 blast: BL,C1,CA,GM,IS,KY,L3,T4,T6,TF
 blastomycosis: WB
+blasé: GR,ST
 blatant: GR,L1,ST
 blather: GR
 blaze: IS,KY,L2,ST,T4,T6,TF,WB
@@ -19513,7 +19513,7 @@ protrusive: GR
 protuberance: GR
 protuberant: GR
 protuberate: ST
-protégé: L1
+protégé: GM,L1
 proud: B1,BN,BS,BW,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,ZK
 proudly: MC,TF
 provable: BE
@@ -21298,7 +21298,7 @@ ruthless: GR,IS,KY,L2,ST,T6,TF
 ruthlessly: TF
 ruthlessness: GR
 rye: L1,TF
-résumé: TL
+résumé: KY,TL
 sable: GR
 sabotage: GR,IS,L1,VA
 saboteur: L1

@@ -212,7 +212,7 @@
     - [[\r, g]]
     - [[.+?\n]]
     - [['^\d+\t([\w''/-]+)\t.+$', gm], $1]
-    - [[^\d+\n, gm]]
+    - [['^\d+$|^[\w]$', gm]]
     - [[/, g], "\n"]
 - name: iweb
   path: origin/iweb_wordFreq_sample_lemmas.txt
@@ -222,6 +222,7 @@
     - [[\r, g]]
     - [['(?:.*\n){32}', m]]
     - [['\d+\t\d+\t([\w/-]+)\t.+$', gm], $1]
+    - [['^[b-zA-HJ-Z1-9]\n', gm]]
     - [[/, g], "\n"]
   replace:
     distro: []
@@ -461,7 +462,7 @@
     - [['^\t([\w'' *-]+?)\t.+$', gm], $1]
     - [[\*, g]]
     - [['^.*[~/].*$', gm]]
-    - [['^''$', gm]]
+    - [[^'$, gm]]
   replace:
     away from: [away, from]
     a little bit: [a little, bit]
@@ -544,6 +545,7 @@
     - headWord
   replace:
     encyclopaedia: [encyclopedia]
+    resumé: [résumé]
 - name: cet4
   path: origin/CET4_1.json
   tag: T4
@@ -665,7 +667,7 @@
   wordPath:
     - headWord
   replace:
-    n: []
+    'n': []
     quizzable: [quiz]
     tecnology: [technology]
     neodoxy: []
