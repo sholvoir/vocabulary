@@ -1653,7 +1653,10 @@ Mountains: mountain
 movements: movement
 moves: move
 movies: movie
+Mr: Mr.
 mrna: mRNA
+Mrs: Mrs.
+Ms: Ms.
 mulled: mull
 multi-brand: brand
 multi-directional: multidirectional

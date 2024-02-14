@@ -873,11 +873,9 @@ Moscow: BN,BW,GK
 Moslem: GK,T6
 Mosquito: GK
 Mozart: BN
-Mr.: BN,BW,ZK
-Mr: BN,BS,BW,L5
-Mrs.: BN,BW
-Mrs: BN,BS,BW,L5
-Ms: BN,L5
+Mr.: BN,BS,BW,L5,ZK
+Mrs.: BN,BS,BW,L5
+Ms.: BN,L5
 Mt.: L1
 Murray: BN
 Muslim: CA,L4,MC
