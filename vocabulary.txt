@@ -1159,7 +1159,6 @@ Stephen: BN,BS,BW
 Steve: BN,BS,BW
 Steven: BN,BS
 Stewart: BN,BW
-Story: L5
 Stuart: BN,BS,BW
 Sue: BN,BS
 Suffolk: BN,BS
@@ -23538,7 +23537,7 @@ storiette: GR
 storm: A2,BN,BW,CA,GK,GL,KY,L3,LD,MC,T6,TF,VA,W3,WB,WK,ZK
 stormwater: WB
 stormy: L1,TF,WB
-story: A1,BN,BS,BW,CA,DL,GK,GL,GS,KY,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
+story: A1,BN,BS,BW,CA,DL,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
 storyline: IS,L1
 storyteller: L1,TF
 storytelling: TF

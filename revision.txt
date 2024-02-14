@@ -2531,6 +2531,7 @@ stop-gap: stopgap
 stored: store
 storehouses: storehouse
 stories: story
+Story: story
 straight-a: straight A
 strangling: strangle
 strategies: strategy
