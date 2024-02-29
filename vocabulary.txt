@@ -18498,9 +18498,8 @@ plagiarize: GR,IS
 plague: BL,GM,GR,IS,KY,L2,ST,T4,T6,TF,WB
 plaice: L1
 plaid: L1
-plain: B2,BN,BS,BW,CA,GK,GL,GR,KY,L3,LD,MC,S2,T4,T6,TF,W3,ZK
+plain: B2,BN,BS,BW,CA,FS,GK,GL,GR,KY,L3,LD,MC,S2,T4,T6,TF,W3,ZK
 plainly: BL,L1
-plains: FS
 plainsong: WB
 plainspoken: GR,TF
 plaint: TF,WB

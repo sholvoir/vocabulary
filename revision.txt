@@ -1927,6 +1927,7 @@ pithiness: pithy
 placed: place
 places: place
 plagued: plague
+plains: plain
 planes: plane
 planets: planet
 plans: plan
