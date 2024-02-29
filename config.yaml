@@ -9,6 +9,20 @@
   process:
     - [[\s, g]]
     - [['[,./]', g], "\n"]
+- name: fry
+  path: origin/FrySightWords.html
+  tag: FS
+  test: '[^\na-zA-Z'']'
+  process:
+    - [[</?ul>, g]]
+    - [[<a href=.+?>.+?</a>, g]]
+    - [['\n\(#\d+-\d+\)\n', g]]
+    - [['<li(?: style=.*?)?></li>', g]]
+    - [[\s*<li>\n, g]]
+    - [[\s, g]]
+    - [[</li>, g], "\n"]
+    - [[’, g], '''']
+    - [[', *', g], "\n"]
 - name: macmillan
   path: origin/Macmillan Dictionary Defining Vocabulary.html
   tag: MC

@@ -375,6 +375,7 @@ cenotes: cenote
 cenozoic: Cenozoic
 centralisation: centralize
 centres: centre
+cents: cent
 centuries: century
 ceo: CEO
 cerebellar: cerebellum
@@ -1927,6 +1928,7 @@ placed: place
 places: place
 plagued: plague
 planes: plane
+planets: planet
 plans: plan
 plantarflexion: plantar flexion
 planted: plant
@@ -2599,6 +2601,7 @@ swarming: swarm
 sweets: sweet
 switched: switch
 switcher: switch
+syllables: syllable
 symbols: symbol
 sympathiser: sympathize
 symptoms: symptom
