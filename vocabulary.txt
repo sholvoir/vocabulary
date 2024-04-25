@@ -605,6 +605,7 @@ Inca: TF
 India: BN,BS,BW,GK,T4,TF,ZK
 Indian: BN,BS,BW,CA,FS,GK,T4,TF,ZK
 Indiana: TF
+Indic: LH
 Indonesia: TF
 Indus: TF
 Inland Revenue: L1
@@ -4343,7 +4344,6 @@ busing: WB
 bust: BE,BL,GR,L2,T6,TF
 bustle: GR,L1,ST,TF
 bustling: GR
-busty: LH
 busy: A1,BN,BS,BW,CA,DL,GK,GL,KY,L3,LD,MC,S1,T4,TF,VA,W2,WK,ZK
 but: A1,B2,BN,BS,BW,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,S2,T4,VA,W1,W3,WK,ZK
 butadiene: WB
@@ -8749,6 +8749,7 @@ emirate: L1
 emissary: GR
 emission: AW,B2,BL,BN,CA,GM,GR,IS,L2,T4,T6,TF
 emit: AW,GM,GR,IS,KY,L1,ST,T4,TF
+emoji: LH
 emollient: GR,ST
 emolument: GR
 emote: GR

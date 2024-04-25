@@ -1,11 +1,12 @@
 {
     "name": "@sholvoir/vocabulary",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "lock": false,
     "imports": {
         "$std/": "https://deno.land/std@0.218.2/"
     },
     "tasks": {
-        "run": "deno run -A mod.ts"
+        "run": "deno run -A mod.ts",
+        "deploy": "deno run -A deploy.ts"
     }
 }
