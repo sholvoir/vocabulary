@@ -4927,7 +4927,7 @@ chaparral: WB
 chapbook: TF
 chapeau: WB
 chapel: BN,BS,BW,IS,L2,T6,TF
-chaperon: GR
+chaperone: GR
 chaplain: L1,WB
 chappy: GR
 chapter: B1,BN,BS,BW,CA,DL,GK,GL,KY,L4,S3,T4,TF,W1

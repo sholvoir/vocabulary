@@ -392,6 +392,7 @@ chances: chance
 changed: change
 changes: change
 channels: channel
+chaperon: chaperone
 chapters: chapter
 characterise: characterize
 charges: charge
