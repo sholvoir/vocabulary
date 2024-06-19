@@ -1,6 +1,6 @@
 {
     "name": "@sholvoir/vocabulary",
-    "version": "0.0.9",
+    "version": "0.0.12",
     "lock": false,
     "imports": {
         "$std/": "https://deno.land/std@0.218.2/"
