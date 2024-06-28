@@ -10,5 +10,8 @@
     "run": "deno run -A main.ts",
     "deploy": "sh deploy.sh"
   },
-  "exports": "./mod.ts"
+  "exports": "./mod.ts",
+  "publish": {
+    "exclude": ["origin", "backup"]
+  }
 }
