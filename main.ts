@@ -3,7 +3,7 @@ import { parseArgs } from '@std/cli/parse-args';
 import { readConfig, writeConfig } from './config.ts';
 import { spellCheck } from './spell-check.ts';
 import { Vocabulary, delimiterItem } from "./vocabulary.ts";
-import { type Tag } from "./mod.ts";
+import type { Tag } from "./mod.ts";
 
 async function run() {
     // get command line args and read config file

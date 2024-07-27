@@ -1,6 +1,6 @@
 {
   "name": "@sholvoir/vocabulary",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "lock": false,
   "imports": {
     "@std/cli": "jsr:@std/cli@^0.224.7",

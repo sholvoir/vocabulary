@@ -1,6 +1,6 @@
 export const Tags = ['OG','FS','MC','LD','S1','S2','S3','W1','W2','W3','VA','WK','A1','A2',
     'B1','B2','C1','L1','L2','L3','L4','L5','GL','GS','AW','TL','BL','DL','FE','CA','WB',
-    'BN','BS','BW','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH'] as const;
+    'BN','BS','BW','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH', '__'] as const;
 export type Tag = typeof Tags[number];
 
 export const TagName: Record<Tag, string> = {
@@ -49,7 +49,8 @@ export const TagName: Record<Tag, string> = {
     GR: 'GRE',
     GM: 'GMAT',
     BE: 'BEC',
-    LH: 'Lorhur'
+    LH: 'Lorhur',
+    __: 'ALL'
 }
 
 export const TagCode: Record<string, Tag> = {
