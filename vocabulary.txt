@@ -24045,6 +24045,7 @@ sustained: BN,GR
 sustenance: GM,GR,IS,ST,TF
 suture: GR
 svelte: GR
+swag: LH
 swagger: GR,L1
 swallow: B2,BN,CA,GK,GR,IS,KY,L2,LD,MC,T4,TF,VA,WB
 swamp: BE,GR,IS,KY,L2,ST,T6,TF
