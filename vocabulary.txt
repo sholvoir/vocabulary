@@ -3278,7 +3278,8 @@ basketball: A2,CA,GK,KY,L2,LD,MC,T4,TL,ZK
 basketmaking: TF
 basketry: TF,WB
 basketwork: TF
-bass: C1,L2,ST
+bass1: C1,L2,ST
+bass2: C1,L2,ST
 bassinet: WB
 bassoon: GR
 bastard: BN,BS,CA,L2
@@ -3985,7 +3986,8 @@ bourse: BE
 bout: FE,GR,L2,WB
 boutique: L1
 bovine: GR,TF
-bow: BN,C1,CA,FE,GK,IS,KY,L1,L2,T4,TF,WB,ZK
+bow1: BN,C1,CA,FE,GK,IS,KY,L1,L2,T4,TF,WB,ZK
+bow2: BN,C1,CA,FE,GK,IS,KY,L1,L2,T4,TF,WB,ZK
 bowdlerize: GR,ST
 bowel: BN,KY,L2,T6,TF
 bower: GM,GR,L1
@@ -4228,7 +4230,8 @@ budworm: GM
 buff: GR,L1,WB
 buffalo: GM,IS,L1,T6,TF
 buffer: BL,C1,GM,GR,L1,ST,TF,WB
-buffet: GK,GR,KY,L1,TL
+buffet1: GK,GR,KY,L1,TL
+buffet2: GK,GR,KY,L1,TL
 buffoon: GR,ST
 buffoonery: ST
 bug: B2,BL,CA,GR,KY,L2,S3,ST,T6,TL
@@ -6112,7 +6115,8 @@ contemptible: GR,ST
 contemptuous: GM,GR,L1,ST
 contend: BE,BL,C1,CA,GM,GR,IS,KY,L2,ST,T6,TF
 contender: C1,L2,TF,WB
-content: B1,BE,BN,BS,BW,C1,CA,GK,GL,GR,IS,L2,L3,S3,T4,T6,TF,W2,WB
+content1: B1,BE,BN,BS,BW,C1,CA,GK,GL,GR,IS,L2,L3,S3,T4,T6,TF,W2,WB
+content2: B1,BE,BN,BS,BW,C1,CA,GK,GL,GR,IS,L2,L3,S3,T4,T6,TF,W2,WB
 contented: GR,L1
 contention: C1,GR,IS,L2,T6,TF
 contentious: GR,L1,ST,WB
@@ -14311,7 +14315,8 @@ leach: GM,GR,TF
 leachate: WB
 lead singer: L1
 lead-off: WB
-lead: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WB,WK,ZK
+lead1: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WB,WK,ZK
+lead2: LH
 leader: A2,BE,BN,BS,BW,CA,GK,GL,L5,MC,S2,T4,TF,W1,ZK
 leadership: B2,BE,BN,BS,BW,CA,GL,IS,KY,L4,MC,S3,T4,TF,W2
 leading article: L1
@@ -14683,7 +14688,8 @@ liturgical: GR
 liturgy: GR
 livable: GR,TF
 live-in: L3
-live: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L3,L5,LD,MC,S1,S3,T4,VA,W1,W3,WK,ZK
+live1: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L3,L5,LD,MC,S1,S3,T4,VA,W1,W3,WK,ZK
+live2: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L3,L5,LD,MC,S1,S3,T4,VA,W1,W3,WK,ZK
 lived: BN,BS,BW
 livelihood: IS,L1,TF,WB
 liveliness: TF
@@ -20244,7 +20250,8 @@ reconstitute: L1,TF
 reconstruct: AW,L1,TF
 reconstruction: BL,BN,C1,IS,TF
 reconvene: GM,L1
-record: A2,BE,BN,BS,BW,CA,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S3,T4,VA,W1,W2,WK,ZK
+record1: A2,BE,BN,BS,BW,CA,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S3,T4,VA,W1,W2,WK,ZK
+record2: A2,BE,BN,BS,BW,CA,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S3,T4,VA,W1,W2,WK,ZK
 recorder: BS,GK,KY,L2,T4,TF,ZK
 recordholder: WB
 recording: A2,BN,BS,BW,CA,L3,W3
@@ -21201,7 +21208,8 @@ route: A2,BE,BN,BS,BW,CA,GL,IS,KY,L4,S3,T4,TF,W2,ZK
 routine: A1,B2,BE,BN,BW,CA,GK,GL,GR,IS,KY,L3,T4,T6,TF,W3
 routinely: BL,T4,TF,WB
 rove: GR
-row: B1,BN,BS,BW,CA,DL,FS,GK,GL,KY,L2,L3,LD,MC,S2,T4,T6,TF,W2,ZK
+row1: B1,BN,BS,BW,CA,DL,FS,GK,GL,KY,L2,L3,LD,MC,S2,T4,T6,TF,W2,ZK
+row2: B1,BN,BS,BW,CA,DL,FS,GK,GL,KY,L2,L3,LD,MC,S2,T4,T6,TF,W2,ZK
 rowdy: GR,L1,ST
 rowing: L1
 royal family: L2
@@ -22059,7 +22067,8 @@ severely: B2,BL,BN,MC,ST,TF
 severity: T6,TF
 sew: GK,KY,L1,LD,MC,S3,T4,T6,TF,TL
 sewage: GM,L1,TF
-sewer: GR,IS,L1,TF,TL
+sewer1: GR,IS,L1,TF,TL
+sewer2: GR,IS,L1,TF,TL
 sewerage: TF
 sewing machine: L1
 sewing: L1,MC
@@ -24355,7 +24364,8 @@ teamster: WB
 teamwork: GK,IS
 teapot: GK,L1,TF
 tear-gas: WB
-tear: B2,CA,GK,GL,GR,IS,L3,L4,LD,MC,S2,S3,TF,VA,W3,WK
+tear1: B2,CA,GK,GL,GR,IS,L3,L4,LD,MC,S2,S3,TF,VA,W3,WK
+tear2: B2,CA,GK,GL,GR,IS,L3,L4,LD,MC,S2,S3,TF,VA,W3,WK
 tearful: L1,WB
 tears: BN,BW,VA
 tease: GK,GR,IS,KY,L2,T6,WB
@@ -25089,7 +25099,8 @@ transparency: AW,BL,C1,L1,WB
 transparent: BL,C1,GK,GR,IS,KY,L1,LD,MC,ST,T4,TF
 transpire: GR,L1,ST
 transplant: AW,GM,IS,KY,L2,ST,T6,TF,WB
-transport: A2,B1,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,MC,OG,S2,T4,T6,TF,VA,W2
+transport1: A2,B1,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,MC,OG,S2,T4,T6,TF,VA,W2
+transport2: A2,B1,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,MC,OG,S2,T4,T6,TF,VA,W2
 transportation: B2,BE,CA,GL,GM,IS,L2,T4,TF,VA,W3,ZK
 transpose: GR,TF
 transposition: ST,WB
@@ -27005,7 +27016,8 @@ win: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,TF,VA,W1,W3,WK,ZK
 wince: GR,L1,WB
 winch: L1
 wind-up: L1
-wind: A2,B2,BN,BS,BW,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,S3,T4,T6,VA,W2,W3,WB,WK,ZK
+wind1: A2,B2,BN,BS,BW,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,S3,T4,T6,VA,W2,W3,WB,WK,ZK
+wind2: A2,B2,BN,BS,BW,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,S3,T4,T6,VA,W2,W3,WB,WK,ZK
 windage: WB
 windblown: WB
 windbreaker: GK
