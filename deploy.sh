@@ -10,7 +10,6 @@ git push
 deno publish
 
 mkdir ../sholvoir.github.io/vocabulary/$version
-cp revision.txt ../sholvoir.github.io/vocabulary/$version/
 cp vocabulary.txt ../sholvoir.github.io/vocabulary/$version/
 
 cd ../sholvoir.github.io
