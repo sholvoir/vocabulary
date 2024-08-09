@@ -14872,7 +14872,8 @@ low: A2,B2,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,WK,ZK
 lowa: TF
 lowborn: WB
 lowbred: GR
-lower: B2,BN,BS,BW,CA,IS,KY,L3,LD,MC,S3,T4,TF,W3,WB,WK
+lower1: B2,BN,BS,BW,CA,IS,KY,L3,LD,MC,S3,T4,TF,W3,WB,WK
+lower2: LH
 lowercase: WB
 lowland: TF
 lowly: L1
