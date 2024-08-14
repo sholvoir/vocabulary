@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
 import { parse, stringify } from '@std/yaml';
-import { Tag } from "./tag.ts";
+import type { Tag } from "./tag.ts";
 
 export type Config = {
     name: string;
