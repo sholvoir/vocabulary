@@ -197,13 +197,13 @@
     - [[.*\n]]
     - [['^([\w-]+?),.*$', gm], $1]
 - name: ndl
-  path: origin/NDL_1.01_stats.csv
+  path: origin/NDL_1.1_stats.csv
   tag: DL
   test: '[^\nA-Za-z'']'
   process:
     - [[\r, g]]
     - [[.*\n]]
-    - [['^\d+,([\w'']+?),.*$', gm], $1]
+    - [['^\d+\.,([\w''-]+?),.*$', gm], $1]
 - name: fel
   path: origin/FEL_1.2_stats.csv
   tag: FE
