@@ -6,27 +6,12 @@
     "configurations": [
         {
             "request": "launch",
-            "name": "spell-check",
-            "type": "node",
-            "program": "${workspaceFolder}/spell-check.ts",
-            "args": ["John"],
-            "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "/usr/local/bin/deno",
-            "runtimeArgs": [
-                "run",
-                "--inspect-wait",
-                "--allow-all"
-            ],
-            "attachSimplePort": 9229
-        },
-        {
-            "request": "launch",
             "name": "mod",
             "type": "node",
-            "program": "${workspaceFolder}/mod.ts",
-            "args": ["-s", "toefl"],
+            "program": "${workspaceFolder}/src/main.ts",
+            "args": ["-p", "longmand"],
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "/usr/local/bin/deno",
+            "runtimeExecutable": "/usr/bin/deno",
             "runtimeArgs": [
                 "run",
                 "--inspect-wait",

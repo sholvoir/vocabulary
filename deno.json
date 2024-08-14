@@ -3,14 +3,14 @@
     "version": "0.0.13",
     "lock": false,
     "imports": {
-        "@std/cli": "jsr:@std/cli@^0.224.7",
-        "@std/yaml": "jsr:@std/yaml@^0.224.3"
+        "@std/cli": "jsr:@std/cli@^1.0.3",
+        "@std/yaml": "jsr:@std/yaml@^1.0.2"
     },
     "tasks": {
-        "run": "deno run -A main.ts",
+        "run": "deno run -A src/main.ts",
         "deploy": "sh deploy.sh"
     },
-    "exports": "./mod.ts",
+    "exports": "./src/mod.ts",
     "publish": {
         "exclude": [
             "origin",
