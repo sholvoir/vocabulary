@@ -1,6 +1,6 @@
 import { type Tag, TagSet } from './tag.ts';
 
-export const delimiterItem = /[,:] */;
+export const delimiter = /[,:] */;
 
 export class Vocabulary extends Map<string, TagSet> {
     addWord(word: string, tags: Iterable<Tag>) {
@@ -8,7 +8,7 @@ export class Vocabulary extends Map<string, TagSet> {
         else this.set(word, new TagSet(tags));
     }
     addItem(item: string) {
-        const [word, ...tags] = item.split(delimiterItem).map(w => w.trim());
+        const [word, ...tags] = item.split(delimiter).map(w => w.trim());
         if (word) this.addWord(word, tags as Array<Tag>);
     }
     removeTags(word: string, tags: Iterable<Tag>) {

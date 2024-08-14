@@ -586,7 +586,7 @@ I'd: L5
 I'll: FS,L5
 I'm: L5
 I've: L5
-I: A1,BS,DL,FS,GK,GL,GS,L5,OG,S1,T4,VA,W1,WK,ZK
+I: A1,BS,CA,DL,FS,GK,GL,GS,L5,OG,S1,T4,VA,W1,WK,ZK
 IBM: BN,BW
 ICI: BN
 ID: B2,L1,TF
@@ -14316,7 +14316,7 @@ leachate: WB
 lead singer: L1
 lead-off: WB
 lead1: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WB,WK,ZK
-lead2: LH
+lead2: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WB,WK,ZK
 leader: A2,BE,BN,BS,BW,CA,GK,GL,L5,MC,S2,T4,TF,W1,ZK
 leadership: B2,BE,BN,BS,BW,CA,GL,IS,KY,L4,MC,S3,T4,TF,W2
 leading article: L1
@@ -14873,7 +14873,7 @@ lowa: TF
 lowborn: WB
 lowbred: GR
 lower1: B2,BN,BS,BW,CA,IS,KY,L3,LD,MC,S3,T4,TF,W3,WB,WK
-lower2: LH
+lower2: B2,BN,BS,BW,CA,IS,KY,L3,LD,MC,S3,T4,TF,W3,WB,WK
 lowercase: WB
 lowland: TF
 lowly: L1
@@ -15700,7 +15700,7 @@ mindful: FE,L1,WB
 mindfulness: FE
 mindless: L1
 mindset: FE
-mine: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,L2,L5,LD,MC,OG,S1,S2,T4,TF,VA,W3,WB,ZK
+mine: A2,B1,BE,BN,BS,BW,CA,FS,GK,GL,GS,L2,L5,LD,MC,OG,S1,S2,T4,TF,VA,W3,WB,ZK
 minefield: L1
 miner: B2,BN,BS,L3,T4,TF
 mineral water: L1
@@ -19499,7 +19499,6 @@ protection: B2,BN,BS,BW,CA,GK,GL,L4,LD,MC,S2,T4,TF,W2
 protectionist: TF
 protective: BN,C1,CA,GR,L2,LD,T4,TF,TL,WB
 protector: L1,TF
-protege: GM
 protein: B2,BN,BW,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF
 proteins: BN,VA
 proteomics: WB

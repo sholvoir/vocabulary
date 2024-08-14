@@ -226,7 +226,7 @@
     - [[\r, g]]
     - [[.+?\n]]
     - [['^\d+\t([\w''/-]+)\t.+$', gm], $1]
-    - [['^\d+$|^[\w]$', gm]]
+    - [['^\d+$', gm]]
     - [[/, g], "\n"]
 - name: iweb
   path: origin/iweb_wordFreq_sample_lemmas.txt

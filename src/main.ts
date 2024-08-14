@@ -1,8 +1,9 @@
 // deno-lint-ignore-file no-explicit-any
 import { parseArgs } from '@std/cli/parse-args';
+import { parse as yamlParse } from "@std/yaml";
 import { readConfig, writeConfig } from './config.ts';
 import { spellCheck } from './spell-check.ts';
-import { Vocabulary, delimiterItem } from "./vocabulary.ts";
+import { Vocabulary, delimiter } from "./vocabulary.ts";
 import type { Tag } from "./mod.ts";
 
 async function run() {
@@ -11,15 +12,10 @@ async function run() {
         boolean: ['step-out', 'spell-check'],
         string: ['config', 'init', 'output', 'revision'],
         alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'spell-check': 's' },
-        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.txt' }
+        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.yaml' }
     });
     const configs = await readConfig(args.config);
-    const revision = {} as Record<string, string>;
-    const delimiter = /: */;
-    for (const line of (await Deno.readTextFile(args.revision)).split('\n')) {
-        const [word, replace] = line.split(delimiter);
-        if (word) revision[word] = replace;
-    }
+    const revision = yamlParse(await Deno.readTextFile(args.revision)) as Record<string, Array<string>>;
     // read init data
     const vocabulary = new Vocabulary();
     try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); }
@@ -45,7 +41,7 @@ async function run() {
             words = function*() {
                 for (let line of text.split('\n')) {
                     if (!(line = line.trim())) continue;
-                    yield conf.tag ? [line, conf.tag] : line.split(delimiterItem).map(w => w.trim());
+                    yield conf.tag ? [line, conf.tag] : line.split(delimiter).map(w => w.trim());
                 }
             }
         } else {
@@ -61,19 +57,18 @@ async function run() {
                 }
             }
         }
-        for (const [word, ...tags] of words()) {
-            // revision
-            if (!word) continue
-            const ws = conf.replace?.[word] || [word];
-            for (let w of ws) {
-                if (revision[w]) w = revision[w];
-                // spell check
-                let replaces;
-                if (args['spell-check'] && !vocabulary.has(w) && (replaces = await spellCheck(w)))
-                    miss[w] = replaces!;
-                else vocabulary.addWord(w, tags as Array<Tag>);
-            }
+        const revisionAndAddWord = async (w: string, tags: Array<Tag>) => {
+            const ws = revision[w]
+            if (!ws) {
+                let reps;
+                if (args['spell-check'] && !vocabulary.has(w) && (reps = await spellCheck(w)))
+                    miss[w] = reps!;
+                else vocabulary.addWord(w, tags);
+            } else for (const x of ws) await revisionAndAddWord(x, tags);
         }
+        for (const [word, ...tags] of words())
+            if (word) for (const replace of conf.replace?.[word] || [word])
+                if (replace) await revisionAndAddWord(replace, tags as Array<Tag>);
         if (Object.keys(miss).length) conf.miss = miss;
     }
     // write to file

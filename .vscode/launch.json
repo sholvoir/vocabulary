@@ -9,7 +9,7 @@
             "name": "mod",
             "type": "node",
             "program": "${workspaceFolder}/src/main.ts",
-            "args": ["-p", "longmand"],
+            "args": ["-p", "bnc"],
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/usr/bin/deno",
             "runtimeArgs": [

@@ -1,5 +1,6 @@
 const entitiesRegex = /&(quot|apos|amp|lt|gt|#(x?\d+));/g;
 const markRegex = /<.*?>/g;
+const spliteNum = /^([A-Za-zèé /&''.-]+)(\d*)/;
 const entities: Record<string, string> = { quot: '"', apos: "'", amp: '&', lt: '<', gt: '>' };
 const decodeEntities = (_: string, p1: string, p2: string) => p2 ? String.fromCharCode(+`0${p2}`) : entities[p1];
 const getScfunc = (baseUri: string, regex: RegExp, index = 1) => async (word: string) => {
@@ -23,12 +24,16 @@ const scfuncs = [
 ];
 let functionIndex = 0;
 export const spellCheck = async (word: string): Promise<string[]|undefined> => {
+    const m = spliteNum.exec(word);
+    if (!m) throw new Error("Error");
+    const rword = m[1];
+
     console.log(`  Checking ${word}`);
     const replaces = new Set<string>();
     for (let i = 0; i < scfuncs.length; i++) {
         const funIndex = functionIndex++ % scfuncs.length;
-        const entries = await scfuncs[funIndex](word);
-        if (entries.includes(word)) {
+        const entries = await scfuncs[funIndex](rword);
+        if (entries.includes(rword)) {
             console.log(`    Found in ${funIndex}`);
             return undefined;
         } else {
