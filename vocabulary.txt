@@ -24038,7 +24038,8 @@ survivor: B2,CA,GR,L1,T4,TF
 susceptibility: L1
 susceptible: AW,GM,GR,IS,KY,L1,ST,T6,TF
 susceptive: GR
-suspect: B2,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L4,S2,ST,T4,T6,TF,VA,W3
+suspect1: B2,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L4,S2,ST,T4,T6,TF,VA,W3
+suspect2: B2,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L4,S2,ST,T4,T6,TF,VA,W3
 suspend: B2,CA,GL,GR,IS,KY,L3,ST,T4,T6,TF,VA
 suspended: BN,BW
 suspender: TF,WB
