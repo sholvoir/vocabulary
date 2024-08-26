@@ -153,6 +153,7 @@
     soar system: [solar system]
     woman's movement: []
     Woman's Liberation: []
+    oestrogen: [estrogen]
 - name: ngsl
   path: origin/NGSL_1.2_stats.csv
   tag: GL
@@ -418,6 +419,7 @@
     worse-case: [worse, case]
     erhu: []
     storeowner: [store, owner]
+    oestradiol: [estradiol]
 - name: bnc
   path: origin/BNC-1_2_all_freq.txt
   tag: BN

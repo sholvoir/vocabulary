@@ -9154,10 +9154,12 @@ estimable: GR
 estimate: B2,BE,BN,BS,BW,CA,GL,GM,IS,KY,L4,S3,T4,T6,TF,VA,W2,WB
 estimated: BN,BW,CA
 estimation: AW,BL
+estradiol: WB
 estrange: GR,IS,ST
 estranged: GR,L1
 estrangement: GR
 estriol: WB
+estrogen: L1
 estuarine: TF
 estuary: GR,IS,L1,TF
 esurience: GR
@@ -16979,8 +16981,6 @@ odorous: ST,TF
 odour: IS,KY,L1,T4
 odyssey: BE,IS,L1
 oesophagus: GR
-oestradiol: WB
-oestrogen: L1
 of course: BN,BS,BW,L5,S1,W1
 of: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,ZK
 off duty: L1
