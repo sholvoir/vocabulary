@@ -9310,7 +9310,8 @@ exception: B2,BE,BN,BS,BW,CA,GL,GR,KY,L3,S3,T4,T6,TF,W2
 exceptionable: GR
 exceptional: BL,BN,C1,GM,GR,IS,KY,L2,ST,T6,TL
 exceptionally: TF,WB
-excerpt: GM,GR,IS,KY,L3,ST
+excerpt1: GM,GR,IS,KY,L3,ST
+excerpt2: GM,GR,IS,KY,L3,ST
 excess: BE,BN,C1,GL,GR,IS,KY,L3,ST,T4,T6,TF,WB
 excessive: B2,BE,BL,BN,CA,FE,GM,GR,IS,KY,L2,T4,T6,TF,TL
 excessively: GR,T6,TF
