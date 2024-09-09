@@ -9475,7 +9475,8 @@ explosively: TF
 expo: TF
 exponent: GR,L1,ST,TF
 exponential: AW,TF
-export: B1,BE,BN,BW,CA,GK,GL,GM,IS,KY,L4,T4,TF,VA,W2
+export1: B1,BE,BN,BW,CA,GK,GL,GM,IS,KY,L4,T4,TF,VA,W2
+export2: B1,BE,BN,BW,CA,GK,GL,GM,IS,KY,L4,T4,TF,VA,W2
 exportation: TF
 exporter: BE,BL
 expose: B2,BE,CA,GK,GL,IS,KY,L3,T4,T6,TF,W3,WB
@@ -14322,7 +14323,8 @@ lead2: A2,B1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,IS,L2,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W
 leader: A2,BE,BN,BS,BW,CA,GK,GL,L5,MC,S2,T4,TF,W1,ZK
 leadership: B2,BE,BN,BS,BW,CA,GL,IS,KY,L4,MC,S3,T4,TF,W2
 leading article: L1
-leading: B1,BE,BN,BS,BW,CA,GK,KY,L4,MC,T4,W2
+leading1: B1,BE,BN,BS,BW,CA,GK,KY,L4,MC,T4,W2
+leading2: B1,BE,BN,BS,BW,CA,GK,KY,L4,MC,T4,W2
 leaf: AW,B1,BN,CA,GK,KY,L3,LD,MC,OG,S2,T4,TF,W2,WB,WK,ZK
 leafcutter: TF
 leaflet: B2,BE,BN,BS,GR,IS,KY,L2,ST,T6,TF
@@ -25063,7 +25065,8 @@ transcribe: AW,GR,IS,L1,ST,TF
 transcript: C1,IS,L2,ST
 transcription: AW,GR,IS,ST
 transept: WB
-transfer: B2,BE,BN,BS,BW,CA,GL,GM,GR,IS,KY,L4,S3,ST,T4,T6,TF,W2
+transfer1: B2,BE,BN,BS,BW,CA,GL,GM,GR,IS,KY,L4,S3,ST,T4,T6,TF,W2
+transfer2: B2,BE,BN,BS,BW,CA,GL,GM,GR,IS,KY,L4,S3,ST,T4,T6,TF,W2
 transferable: GR
 transfigure: GR,ST
 transfix: GR
