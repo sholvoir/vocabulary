@@ -6160,7 +6160,8 @@ contradistinction: WB
 contraindication: WB
 contrary to: BN
 contrary: AW,BL,BN,C1,GK,GR,IS,KY,L2,T4,T6,TF,TL
-contrast: B1,BN,BW,CA,GL,GM,IS,KY,L3,T4,T6,TF,W2
+contrast1: B1,BN,BW,CA,GL,GM,IS,KY,L3,T4,T6,TF,W2
+contrast2: B1,BN,BW,CA,GL,GM,IS,KY,L3,T4,T6,TF,W2
 contrastive: WB
 contravene: GR,L1
 contravention: GR
