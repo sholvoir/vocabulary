@@ -24032,7 +24032,8 @@ surrounded: BN,BW
 surrounding: B2,BN,CA,GK,T4,TF
 surroundings: BN,IS,KY,L2,T4
 surveillance: BL,C1,CA,GR,IS,L2
-survey: A2,B2,BE,BN,BS,BW,CA,GL,GM,IS,KY,L4,S2,T4,T6,TF,W2,ZK
+survey1: A2,B2,BE,BN,BS,BW,CA,GL,GM,IS,KY,L4,S2,T4,T6,TF,W2,ZK
+survey2: A2,B2,BE,BN,BS,BW,CA,GL,GM,IS,KY,L4,S2,T4,T6,TF,W2,ZK
 surveyor: TF
 survivable: TF
 survival: B2,BN,BW,CA,GK,GL,IS,KY,T4,T6,TF,W3,WB
