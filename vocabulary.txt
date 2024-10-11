@@ -19371,7 +19371,8 @@ program: A2,B1,BN,BS,BW,CA,DL,GL,GS,L4,LD,MC,T4,T6,TF,VA,W1,WB,ZK
 programme: A1,BE,BN,BS,BW,GK,KY,L5,MC,S1,TF,W1,WB
 programmer: BL,T4,TF,TL
 programming: B2,BN,CA,T4,WB
-progress: A2,B2,BE,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
+progress1: A2,B2,BE,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
+progress2: A2,B2,BE,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
 progression: AW,FE,GM,L1,ST,TF
 progressive: AW,B2,BL,BN,CA,GM,KY,L2,T4,T6,TF,WB
 progressively: TF
