@@ -19709,7 +19709,8 @@ purlieus: GR
 purloin: GR,ST
 purple: A1,BN,BS,CA,DL,GK,KY,L2,LD,MC,S3,T4,TF,ZK
 purplish: TF
-purport: GM,GR,L1,ST
+purport1: GM,GR,L1,ST
+purport2: GM,GR,L1,ST
 purported: GR
 purpose-built: L1,WB
 purpose: A2,BE,BN,BS,BW,CA,GK,GL,GS,IS,KY,L4,LD,MC,OG,S2,T4,TF,VA,W2,WB,ZK
