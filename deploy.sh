@@ -9,8 +9,7 @@ git push
 
 #deno publish
 
-mkdir ../sholvoir.github.io/vocabulary/$version
-cp vocabulary.txt ../sholvoir.github.io/vocabulary/$version/
+cp vocabulary.txt ../sholvoir.github.io/vocabulary/vocabulary-$version.txt
 
 cd ../sholvoir.github.io
 git add .

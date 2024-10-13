@@ -20083,6 +20083,7 @@ raze: GR,ST
 razor: GK,GR,KY,L1
 razzle: GR
 re-: LD,VA
+re-create: IS,L1,ST,TF,WB
 re-elect: L2,WB
 re-election: CA,TF
 re-emergence: WB
