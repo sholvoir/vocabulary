@@ -8935,9 +8935,6 @@ enormity: GR
 enormous: A2,BE,BN,BS,BW,CA,GL,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,W3
 enormously: AW,TF
 enough: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,W2,WK,ZK
-enquire: BE,C1,IS,KY,T4
-enquiries: BN,BS
-enquiry: B2,BE,BN,BS,GK,IS,KY,S2,T4,W2
 enrage: GR,L1,ST
 enrapture: GR,ST
 enrich: BL,C1,GM,IS,KY,L1,T4,T6,TF
@@ -13301,9 +13298,9 @@ inorganic: T6,TF
 input: B2,BE,BN,BS,BW,CA,GL,IS,KY,L2,ST,T4,T6,TF,W3
 inquest: L1
 inquietude: GR
-inquire: BE,IS,KY,L2,T4,T6,TF,TL
+inquire: BE,C1,IS,KY,L2,T4,T6,TF,TL
 inquirer: WB
-inquiry: B2,BN,BW,CA,GL,GR,KY,L3,T4,W2
+inquiry: B2,BE,BN,BS,BW,CA,GK,GL,GR,IS,KY,L3,S2,T4,W2
 inquisitive: GM,GR,L1
 inroad: GR
 inroads: L1
