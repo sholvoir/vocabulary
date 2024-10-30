@@ -6121,7 +6121,8 @@ contented: GR,L1
 contention: C1,GR,IS,L2,T6,TF
 contentious: GR,L1,ST,WB
 contentment: ST,WB
-contest: B2,BN,CA,GL,GR,IS,KY,L3,ST,T4,T6,TF,W3
+contest1: B2,BN,CA,GL,GR,IS,KY,L3,ST,T4,T6,TF,W3
+contest2: B2,BN,CA,GL,GR,IS,KY,L3,ST,T4,T6,TF,W3
 contestant: L1,ST,T6,TL
 contestation: WB
 context: A2,BN,BS,BW,CA,GL,GR,IS,KY,L3,S2,ST,T4,T6,TF,W2
