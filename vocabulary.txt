@@ -13405,7 +13405,8 @@ insulate: GM,GR,IS,KY,L1,ST,T6,TF
 insulation: IS,T6,TF
 insulator: ST,T6,TF
 insulin: FE,GM,GR,L1,ST,TF
-insult: C1,IS,KY,L2,LD,MC,T4,TF,VA
+insult1: C1,IS,KY,L2,LD,MC,T4,TF,VA
+insult2: C1,IS,KY,L2,LD,MC,T4,TF,VA
 insulting: GR,MC
 insuperable: GM,GR
 insurable: WB
