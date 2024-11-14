@@ -4321,6 +4321,7 @@ burning: BN,BS,CA,FS,GR,L2,ST,WB
 burnish: GR,ST
 burnt-out: L1
 burnt: BN,BS,MC
+burp: LH
 burpee: FE
 burrow: GM,GR,IS,L1,TF
 bursar: ST,WB
