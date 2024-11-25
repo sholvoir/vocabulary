@@ -13773,6 +13773,7 @@ itch: L1
 item: A2,BE,BN,BS,BW,CA,DL,GL,GS,IS,KY,L4,S3,T4,T6,TF,W2
 itemize: WB
 iterate: GR
+iteration: LH
 iterative: WB
 itinerant: GR
 itinerary: BE,GR,IS,L1,ST,TL
