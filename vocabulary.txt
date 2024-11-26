@@ -20084,7 +20084,7 @@ raze: GR,ST
 razor: GK,GR,KY,L1
 razzle: GR
 re-: LD,VA
-re-create: IS,L1,ST,TF,WB
+re-create: WB
 re-elect: L2,WB
 re-election: CA,TF
 re-emergence: WB
@@ -20271,7 +20271,7 @@ recourse: GM,GR,IS,L1,ST
 recover: B2,BE,BN,BW,CA,GK,GL,GM,IS,KY,L3,ST,T4,T6,TF,VA,W2
 recovery: B2,BE,BN,BS,BW,CA,GL,KY,L3,T4,T6,TF,W3
 recreant: GR,ST
-recreate: IS,L1,ST,TF,WB
+recreate: IS,L1,ST,TF
 recreation: GK,GM,GR,IS,KY,L2,T4,T6,TF,TL
 recreational: GM,GR,IS,T4,TF,TL,WB
 recriminate: GR,ST
