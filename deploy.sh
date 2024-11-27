@@ -7,7 +7,7 @@ git add .
 git commit -m "$version"
 git push
 
-deno publish
+#deno publish
 
 cp vocabulary.txt ../sholvoir.github.io/vocabulary/vocabulary-$version.txt
 

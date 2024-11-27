@@ -2670,7 +2670,8 @@ arthroscope: WB
 artichoke: L1
 article: A1,BE,BN,BS,BW,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,TF,W1,ZK
 articles: BN,BW
-articulate: AW,BE,C1,GM,GR,IS,KY,L2,T6,TF
+articulate1: AW,BE,C1,GM,GR,IS,KY,L2,T6,TF
+articulate2: AW,BE,C1,GM,GR,IS,KY,L2,T6,TF
 artifact: AW,GM,GR,ST,TF
 artifice: GR,ST,TF
 artificial intelligence: L1
