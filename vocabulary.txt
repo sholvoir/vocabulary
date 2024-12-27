@@ -677,7 +677,7 @@ Juliet: BN
 July: A1,BN,BS,BW,CA,KY,L4,MC,T4,TF,ZK
 Jun.: L2
 June: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
-Jupiter: T6,TF
+Jupiter: T6,TF,LH
 Jurassic: TF
 Kama: WB
 Karen: BN,BS
@@ -796,7 +796,7 @@ Margaret: BN,BS,BW
 Maria: BN,BW
 Marie: BN,BS
 Mark: BN,BS,BW
-Mars: T6,ZK
+Mars: T6,ZK,LH
 Marseille: TF
 Marshall: BN
 Martin: BN,BS,BW
@@ -820,6 +820,7 @@ Mediterranean: IS,L2,T4,TF
 Member of Parliament: L2
 Mennonite: TF
 Menshevik: WB
+Mercury: LH
 Merovingian: WB
 Merseyside: BN
 Mesolithic: TF
@@ -899,6 +900,7 @@ Neil: BN,BS,BW
 Nelson: BN
 Nemean: WB
 Neolithic: TF
+Neptune: LH
 Netherlands: BN,TF
 Nevada: TF
 New Age: L1
@@ -1100,7 +1102,7 @@ Sassanian: WB
 Sat.: L2
 Satan: L1
 Saturday: A1,BN,BS,BW,CA,DL,GK,KY,L4,MC,TF,ZK
-Saturn: T6,TF
+Saturn: T6,TF,LH
 Savasana: FE
 Saxon: L1
 Scandinavia: TF
@@ -1244,7 +1246,7 @@ Union: BN
 United Kingdom: L2
 Univ.: L1
 Upper House: L1
-Uranus: TF
+Uranus: TF,LH
 Utah: TF
 Ute: TF
 Utopian: TF
@@ -1260,7 +1262,7 @@ Vancouver: TF
 Vatican: L2
 Venezuelan: WB
 Venice: BN,TF
-Venus: T6,TF
+Venus: T6,TF,LH
 Victoria: BN,BS,BW
 Victorian: BN,BW,L2,TF
 Vienna: BN
