@@ -6745,7 +6745,8 @@ cupola: WB
 cupreous: GR
 cur: GR
 curandero: WB
-curate: L1,WB
+curate_1: L1,WB
+curate_2: L1,WB
 curative: IS,TF
 curator: GR,L1,TF
 curb: BL,GM,GR,IS,KY,L2,T4,T6
