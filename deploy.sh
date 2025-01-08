@@ -1,7 +1,7 @@
 #!/bin/sh
 set -euo pipefail
 
-version=$(deno run -A jsr:@sholvoir/generic@0.0.14/update-version)
+version=$(deno run -A jsr:@sholvoir/generic@0.0.15/update-version)
 
 git add .
 git commit -m "$version"

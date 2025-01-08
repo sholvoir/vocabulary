@@ -11009,6 +11009,7 @@ germinate: GR,IS,L1,ST,TF
 germination: ST,TF
 gerontocracy: GR
 gerontology: GR
+gerund: LH
 gesso: TF
 gestate: GR,ST
 gestation: GR
