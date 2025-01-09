@@ -17141,6 +17141,7 @@ ontology: GR
 onus: BE,GR,L1,ST
 onward: L1,TF
 onwards: AW,BN,IS,WB
+onyx: LH
 ooh: BN,BS,CA,DL,FE,L2,WB
 oolong: WB
 oomph: GR
