@@ -15880,7 +15880,8 @@ model: A1,B2,BE,BN,BS,BW,CA,DL,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W1,WK,ZK
 modeling: TF,WB
 modem: GK,GM,IS,TF,TL
 moderate-income: WB
-moderate: BE,BN,C1,CA,GL,GM,GR,IS,KY,L3,ST,T4,TF,VA,WB
+moderate_1: BE,BN,C1,CA,GL,GM,GR,IS,KY,L3,ST,T4,TF,VA,WB
+moderate_2: BE,BN,C1,CA,GL,GM,GR,IS,KY,L3,ST,T4,TF,VA,WB
 moderately: GR,T6,TF
 moderation: IS,L1
 moderato: GR
