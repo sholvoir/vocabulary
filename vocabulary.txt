@@ -2528,7 +2528,8 @@ appropriately: B2,BL,TF
 appropriation: GM,GR,T6
 approval: B2,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L3,LD,MC,OG,S2,ST,T4,T6,TF,W3
 approve: B2,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,LD,MC,S3,T4,T6,TF,VA,W2,WB
-approximate: AW,BL,GM,GR,IS,KY,L2,S3,T4,TF,TL,W3
+approximate_1: AW,BL,GM,GR,IS,KY,L2,S3,T4,TF,TL,W3
+approximate_2: AW,BL,GM,GR,IS,KY,L2,S3,T4,TF,TL,W3
 approximately: B1,BE,BN,BS,BW,CA,GK,GL,IS,ST,T4,T6
 approximation: AW,BE,BL,GM,ST,TF
 apricot: L1,WB
