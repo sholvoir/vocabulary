@@ -11333,10 +11333,10 @@ grapple: L1,TF,WB
 grasp: AW,BL,C1,CA,FE,GK,IS,KY,L2,T4,T6,TF
 grasping: GR
 grass cloth: WB
-grass roots: L1
 grass: A2,BN,BS,BW,CA,FS,GK,GL,KY,L3,LD,MC,OG,S2,T4,TF,VA,W2,WB,WK,ZK
 grasshopper: ST,T6,TF
 grassland: L1,ST,TF
+grassroots: L1
 grassy: IS,L1,T6,TF
 grate: GR,IS,L2,WB
 grateful: B1,BE,BN,BS,BW,CA,GK,GL,GR,IS,KY,L2,LD,MC,S3,T4,T6,TF,W3,WB
