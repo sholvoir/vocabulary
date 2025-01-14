@@ -4582,6 +4582,7 @@ capitalize: BE,BL,GM,L1
 capitation: GR
 capitulate: GR,L1,ST
 capitulation: GR
+cappuccino: LH
 caprice: GR,ST
 capricious: GR,ST
 capsize: IS,L1,TF
@@ -9143,6 +9144,7 @@ especially: A2,BN,BS,BW,CA,FS,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W1,WB,ZK
 espionage: GR,L1
 espousal: GR
 espouse: GR,L1,ST,TF
+espresso: LH
 espy: GR,ST
 essay: A2,BN,BS,CA,GK,GL,IS,KY,L2,S3,T4,TF,ZK
 essence: AW,BL,BN,BW,C1,CA,GM,IS,KY,L2,ST,T6,TF
@@ -14266,6 +14268,7 @@ latifundium: GR
 latitude: GM,GR,IS,KY,L1,T6,TF
 latke: WB
 lats: FE
+latte: LH
 latter-day: L1
 latter: BN,BW,C1,CA,GK,GL,KY,L3,T4,TF,W2,WB
 lattice: GR,T6

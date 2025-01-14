@@ -24,3 +24,6 @@ Uranus
 Neptune
 gerund
 onyx
+espresso
+cappuccino
+latte
