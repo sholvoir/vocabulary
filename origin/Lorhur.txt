@@ -27,3 +27,5 @@ onyx
 espresso
 cappuccino
 latte
+Jerusalem
+Passover

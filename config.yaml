@@ -600,6 +600,7 @@
   wordPath:
     - headWord
   replace:
+    dy: []
     ogallala: []
     Yucatan: []
     Himalaya: [Himalayas]

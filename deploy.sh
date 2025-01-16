@@ -15,3 +15,6 @@ cd ../sholvoir.github.io
 git add .
 git commit -m "vocabulary $version"
 git push
+
+cd ../dict
+deno task set-vocabulary-version $version
