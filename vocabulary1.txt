@@ -24377,7 +24377,7 @@ tidewater: WB
 tidily: MC
 tidy: A2,BS,GK,GR,IS,KY,L2,MC,S3,T4,TL,WB,WK,ZK
 tie-dyed: WB
-tie: A2,BE,BN,BS,CA,GK,GL,GM,GR,KY,L4,LD,MC,S2,S3,TF,VA,W3,WB,WK,ZK
+tie: A2,BE,BN,BS,CA,GK,GL,GM,GR,KY,L4,LD,MC,S2,S3,TF,VA,W3,WK,ZK
 tieback: TF
 tied up: L1
 tied: BN,BS,BW,FS
@@ -24443,7 +24443,7 @@ tipsy: ST
 tiptoe: FE,L1
 tiptop: BE
 tirade: GR,ST
-tire: A1,BN,BS,BW,CA,DL,GK,GL,GR,KY,L1,L3,LD,MC,OG,S1,T4,TF,VA,W2,WB,ZK
+tire: CA,DL,GK,GL,GR,KY,L1,LD,T4,TF
 tiredness: TF
 tireless: L1
 tiresome: GK,KY,L1,T6
@@ -24530,7 +24530,7 @@ top-heavy: WB
 top-level: L1
 top-shelf: WB
 top-up: L1
-top: A2,BN,BS,BW,C1,CA,DL,FS,GK,GL,GS,L1,L5,LD,MC,OG,S1,TF,VA,W1,W2,WB,WK,ZK
+top: A2,BN,BS,BW,C1,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,TF,VA,W1,W2,WB,WK,ZK
 tope: GR
 topi: TF
 topic: A1,BN,BS,BW,CA,GK,GL,KY,L2,S3,T4,TF,W2,ZK
@@ -24593,7 +24593,7 @@ toward: BN,CA,DL,FS,GK,GL,GS,LD,TF,VA,ZK
 towards: A2,BN,BS,BW,CA,GK,L5,MC,S1,T6,W1,ZK
 towel: A2,CA,FE,GK,IS,KY,L2,S3,T4,TF,TL,ZK
 tower block: L1
-tower: A2,BN,BS,BW,CA,GK,GL,GR,KY,L1,L3,LD,MC,S3,T4,T6,TF,W3,ZK
+tower: A2,BN,BS,BW,CA,GK,GL,KY,L3,LD,MC,S3,T4,T6,TF,W3,ZK
 town hall: L1
 town: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WK,ZK
 townscape: IS
@@ -24621,7 +24621,7 @@ trade union: L2
 trade unionist: L1
 trade-in: L2
 trade-off: BE,L1
-trade: B1,B2,BN,BS,BW,CA,FS,GK,GL,GS,KY,L5,LD,MC,OG,S3,T4,T6,TF,VA,W1,W2,WB,ZK
+trade: B1,BN,BS,BW,CA,FS,GK,GL,GS,KY,L5,LD,MC,OG,S3,T4,T6,TF,VA,W1,W2,WB,ZK
 trademark: BE,BL,C1,GR,KY,L1,T6,TL
 tradeoff: T6
 trader: BL,BN,L3,T6,TF
@@ -24640,7 +24640,7 @@ tragedy: B2,BN,CA,GM,GR,IS,KY,L3,T4,T6,TF,ZK
 tragic: B2,BN,CA,GR,IS,KY,L2,T6,TF,VA
 trail: BE,BN,C1,CA,GL,IS,KY,L3,T4,TF,WB
 trailer: C1,CA,GR,L2,S3
-train: A1,A2,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,L4,LD,MC,OG,S1,S2,TF,VA,W1,W2,WK,ZK
+train: A1,A2,BN,BS,BW,CA,DL,FS,GK,GL,GS,L4,LD,MC,OG,S1,TF,VA,W2,WK,ZK
 trainable: WB
 trainee: BE,BL,L1,TL
 trainer: A2,BN,BS,CA,FE,GK,L1,S3,TF,TL
@@ -24820,7 +24820,7 @@ tricyclic: WB
 tried: BN,BS,BW,L1
 triennial: ST
 tries: BN,BS
-trifle: GR,IS,KY,L1,ST,T6,TF,WB
+trifle: GR,IS,KY,L1,ST,T6,TF
 trig: GR
 trigger: B2,C1,CA,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF,WB
 triglyceride: FE
@@ -24829,7 +24829,7 @@ trilateral: WB
 trillion: B2,CA,L2,TF
 trilobite: TF
 trilogy: GR,L1,TF
-trim: BL,GR,IS,KY,L1,L2,T4,T6,TF,WB
+trim: BL,GR,IS,KY,L2,T4,T6,TF,WB
 trimaran: WB
 trimester: IS
 trinket: GR,IS
@@ -24882,7 +24882,7 @@ trowel: GR
 truancy: GR
 truant: GR,IS
 truce: GM,GR,IS,L2,VA
-truck: A2,BN,CA,DL,FS,GK,GL,L3,LD,MC,S2,TF,VA,W3,WB,ZK
+truck: A2,BN,CA,DL,FS,GK,GL,L3,LD,MC,S2,TF,VA,W3,ZK
 trucker: L1
 truckstop: WB
 truculence: GR
@@ -24902,12 +24902,12 @@ truncated: ST
 trundle: L1
 trunk: CA,FE,GK,GM,GR,IS,KY,L2,LD,T4,TF
 trust fund: L1
-trust: B2,BE,BN,BS,BW,CA,GK,GL,KY,L1,L4,LD,MC,S1,S2,T4,TF,VA,W2,W3,WK,ZK
+trust: B2,BE,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S1,S2,T4,TF,VA,W2,W3,WK,ZK
 trustee: BL,BN,BS,C1,L2
 trustworthy: GR,IS,L1
 truth: B1,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S1,T4,TF,W2,ZK
 truthful: L1
-try: A1,B2,BN,BS,BW,CA,DL,FS,GK,GL,GS,L1,L5,LD,MC,S1,S3,TF,VA,W1,WK,ZK
+try: A1,B2,BN,BS,BW,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,S3,TF,VA,W1,WK,ZK
 tryptophan: GM
 tsar: L1
 tsunami: B2
@@ -24955,7 +24955,7 @@ turkey: CA,GK,KY,L1,TF,ZK
 turmeric: TF
 turmoil: BL,GR,IS,KY,L2,ST,TF
 turn of the century: WB
-turn: A1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L1,L5,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
+turn: A1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WK,ZK
 turnaround: L1,WB
 turncoat: GR
 turning point: L1
@@ -24998,9 +24998,9 @@ twilight: IS,L1,T6
 twin: A2,BN,CA,GK,GL,KY,L3,T4,TF,ZK
 twine: TF
 twinge: GR,ST
-twinkle: IS,KY,L1,TF,WB
+twinkle: IS,KY,L1
 twirl: GR,L1
-twist: BN,C1,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,T4,T6,TF,WB
+twist: C1,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,T4,T6,TF,WB
 twit: GR
 twitch: FE,L1
 twitter: CA
@@ -25016,7 +25016,7 @@ two-way: L1
 two: A1,BN,BS,BW,CA,DL,FS,GK,GS,L5,LD,MC,ZK
 twofold: IS
 tycoon: BE,GR,L1,TF
-type: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,L1,L4,LD,MC,S1,T4,W1,WK,ZK
+type: A1,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,L4,LD,MC,S1,T4,W1,WK,ZK
 typecast: WB
 typeface: WB
 typesetter: WB
@@ -25246,7 +25246,7 @@ undersigned: WB
 undersize: ST
 undersized: ST
 understaffed: BE
-understand: A1,A2,BN,BS,BW,CA,DL,FS,GK,GL,GM,GS,IS,KY,L3,L5,LD,MC,S1,T4,VA,W1,W3,WB,WK,ZK
+understand: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,S1,VA,W1,WK,ZK
 understandable: IS,L2,TF
 understandably: TF
 understate: GR,L1,ST,TF
@@ -25256,7 +25256,7 @@ understeer: WB
 understood: BN,BS,BW
 understory: TF
 understudy: GR
-undertake: B2,BE,BN,BW,CA,GK,GL,GM,GR,IS,KY,L1,L2,T4,T6,TF,W3
+undertake: B2,BE,BN,BW,CA,GK,GL,GM,GR,IS,KY,L2,T4,T6,TF,W3
 undertaker: L1
 underuse: BE,WB
 underutilized: GR,WB
@@ -25284,7 +25284,7 @@ undisputed: L1,TF
 undistorted: GR
 undisturbed: GR,L1,TF
 undivided: GK
-undo: GK,GR,IS,KY,L1,LD,T4
+undo: GK,IS,KY,L1,LD,T4
 undocumented: T6
 undoubted: L2
 undoubtedly: BL,BN,BW,C1,IS,KY,T4,TF
@@ -25341,7 +25341,7 @@ unfertilized: GR,TF,WB
 unfettered: GR
 unfilled: WB
 unfinished: L1
-unfit: GK,L1,T6,WB
+unfit: GK,L1,T6
 unflappable: GR
 unfocused: TF
 unfold: B2,CA,GK,GR,IS,KY,L2,T6,TF
@@ -25567,7 +25567,7 @@ unseemly: GR
 unseen: L1,TF
 unselective: TF
 unselfish: TF,WB
-unsettle: GR,L1,ST,TF,WB
+unsettle: GR,L1,ST,TF
 unshaped: WB
 unsheathe: WB
 unsightly: L1
@@ -25682,7 +25682,7 @@ upholstered: GM,L1
 upholstery: GR,L1
 upkeep: BE,IS,L1
 upland: L1,TF
-uplift: AW,FE,L1,TF
+uplift: AW,FE,TF
 upliftment: WB
 upload: FE
 upmarket: L1,WB
@@ -25971,7 +25971,7 @@ verve: GR,L1
 vervet: WB
 very: A1,B2,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S2,VA,W1,WK,ZK
 vessel: BN,C1,CA,GL,GM,GR,IS,KY,L3,OG,T4,T6,TF
-vest: BL,GK,GR,IS,KY,L2,TF,WB
+vest: BL,GK,GR,KY,L2,TF
 vestal: WB
 vested interest: L1
 vestige: GM,GR,L1,ST,TF
@@ -26169,7 +26169,7 @@ vortices: GM
 votary: GR,ST
 vote of confidence: L1
 vote of no confidence: L1
-vote: B1,B2,BN,BS,BW,CA,GK,GL,GS,KY,L5,LD,MC,S2,T4,TF,VA,W2
+vote: B1,BN,BS,BW,CA,GK,GL,GS,KY,L5,LD,MC,S2,T4,TF,VA,W2
 voter: BN,BW,CA,GL,L4,MC,TF,WB
 votive: ST
 vouch: GR
@@ -26212,7 +26212,7 @@ waist: BN,FE,GK,IS,KY,L2,LD,MC,T4,TF
 waistband: WB
 waistcoat: L1
 waistline: FE
-wait: A1,A2,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
+wait: A1,A2,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,S1,TF,VA,W1,WK,ZK
 waiter: A1,GK,L2,TL,ZK
 waiting list: L1
 waiting room: L1
@@ -26228,7 +26228,7 @@ walk of life: L1
 walk-on: L1
 walk-through: WB
 walk-up: L1
-walk: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L1,L5,LD,MC,OG,S1,S2,TF,VA,W1,W2,WK,ZK
+walk: A1,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S2,TF,VA,W1,W2,WK,ZK
 walker: L1,TF
 walkout: BE,L1
 walkover: WB
