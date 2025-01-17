@@ -57,7 +57,7 @@ Alaska: TF
 Alaskan: TF,WB
 Albanian: WB
 Albert: BN,BS,BW
-Albigenses: WB
+Albigensian: WB
 Alex: BN,BS
 Alexander: BN,BW
 Alfred: BN
@@ -75,7 +75,7 @@ America: BN,BS,BW,FS,GK,T4,ZK
 American football: L1,MC
 American: BN,BS,BW,CA,GK,MC,T4,ZK
 Americana: TF
-Americanism: TF,WB
+Americanism: TF
 Amsterdam: TF
 Amy: BS
 Anderson: BN
@@ -94,7 +94,7 @@ Annie: BN
 Antarctic: GK,L1
 Antarctica: TF
 Anthony: BN,BS,BW
-Antioch: WB
+Antiochian: WB
 Appalachian: TF
 Apr: L2
 April: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
@@ -178,7 +178,7 @@ Bradford: BN
 Brazil: BN
 Brazilian: ZK
 Brea: TF
-Brecht: WB
+Brechtian: WB
 Brenda: BS
 Brewster: TF
 Brian: BN,BS,BW
@@ -334,6 +334,7 @@ Danny: BS
 Darlington: BN,BW
 Darwin: BN,BS
 Darwinism: WB
+Darwinist: WB
 Dave: BN,BS,BW
 David: BN,BS,BW
 Davies: BN,BW
@@ -342,7 +343,7 @@ Dawn: BS
 Day: BN
 Dean: BN,BW
 Debbie: BS
-Dec.: BN,BW,L2
+Dec: BN,BW,L2
 December: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
 Dee: BS
 Denmark: BN,TF
@@ -419,7 +420,7 @@ FBI: L2
 FM: L2
 Fahrenheit: GM,IS,T4,TF
 Far East: L1
-Feb.: BN,BW,L2
+Feb: BN,BW,L2
 February: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
 FedEx: WB
 Ferguson: BN
@@ -599,7 +600,6 @@ Ice Age: L1
 Iceland: GK,TF
 Illinois: TF
 Impressionism: TF
-Inc.: BW
 Inca: TF
 India: BN,BS,BW,GK,T4,TF,ZK
 Indian: BN,BS,BW,CA,FS,GK,T4,TF,ZK
@@ -635,6 +635,7 @@ Jacksonian: WB
 Jacuzzi: L1
 James: BN,BS,BW
 Jan: BN,BS,BW,L2
+Jane: BN,BS,BW
 Janet: BS
 January: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
 Japan: BN,BS,BW,GK,T4,TF,ZK
@@ -652,6 +653,7 @@ Jew: BN,BW,L3,MC,ZK
 Jewett: TF
 Jewish: BN,BW,CA,MC,T4,WB
 Jim: BN,BS,BW
+Jimmy: BN,BS,BW
 Jnr: L1
 Jo: BS
 Joan: BN,BS
@@ -668,13 +670,13 @@ Joy: BS
 Joyce: BN,BS
 Jr.: L2
 Judaism: L1,WB
-Jul.: L2
+Jul: L2
 Jules: TF
 Julia: BN
 Julie: BN,BS
 Juliet: BN
 July: A1,BN,BS,BW,CA,KY,L4,MC,T4,TF,ZK
-Jun.: L2
+Jun: L2
 June: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
 Jupiter: LH,T6,TF
 Jurassic: TF
@@ -782,13 +784,13 @@ Maj.: L1
 Major: BN,BS,BW
 Malay: WB
 Malcolm: BN,BS
-Mali: WB
+Malian: WB
 Manchego: WB
 Manchester: BN,BS,BW
 Mandan: TF
 Manhattan: TF
 Mansfield: BS
-Mar.: L2
+Mar: L2
 March: A1,BN,BS,BW,GK,KY,L4,MC,T4,ZK
 Marcus: BN
 Margaret: BN,BS,BW
@@ -900,6 +902,7 @@ Nelson: BN
 Nemean: WB
 Neolithic: TF
 Neptune: LH
+Netherland: TF
 Netherlands: BN,TF
 Nevada: TF
 New Age: L1
@@ -929,22 +932,24 @@ Norwich: BN,BS
 Nottingham: BN,BS
 Nottinghamshire: BS
 Notts: BS
-Nov.: BN,BW,L2
+Nov: BN,BW,L2
 November: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
 O level: L1
 OK: A1,BN,BS,CA,GK,S1,WB,ZK
 OPEC: L2
 Oakland: TF
 Oceania: GK,T4,TF
-Oct.: BN,BW,L2
+Oct: BN,BW,L2
 October: A1,BN,BS,BW,CA,GK,KY,L4,MC,T4,TF,ZK
-Ohio: TF,WB
+Ohio: TF
+Ohioan: WB
 Oklahoma: TF
 Old Testament: L1
 Oliver: BN,BS,BW,TF
 Olympic Games: L2
-Olympic: BN,CA,WB
+Olympic: BN,CA
 Olympics: CA
+Olympism: WB
 Ontario: TF
 Open University: L1
 Oregon: TF
@@ -995,6 +1000,7 @@ Permian: TF
 Persian: TF
 Peru: TF
 Peruvian: TF
+Pete: BN,BS
 Peter: BN,BS,BW
 PhD: L1
 Phil: BN,BS
@@ -1121,8 +1127,8 @@ Selby: BS
 Semitic: L1,TF
 Senate: VA
 Senegalese: WB
-Sep.: L2
-Sept.: BN,BW,L2
+Sep: L2
+Sept: BN,BW,L2
 September: A1,BN,BS,BW,CA,GK,KY,L4,MC,TF,ZK
 Septuagint: WB
 Sessions: BN,BW
@@ -1150,7 +1156,7 @@ Soviet: BN,BS,BW,TF
 Spain: BN,BS,BW,GK,TF
 Spanish: BN,BW,CA,GK,TF
 Special Branch: L1
-Spencer: BN
+Spencer: BN,BS
 St: BN,BS,BW
 Stamford: TF
 Stanley: BN
@@ -1199,10 +1205,11 @@ Thames: BN,BS,TF
 Thanatos: WB
 Thanksgiving: KY,T6
 Thatcher: BN,BS,BW
-Thatcherism: WB
+Thatcherite: WB
 Third World: L3
 Thomas: BN,BS,BW
-Thomism: WB
+Thomist: WB
+Thomistic: WB
 Thompson: BN
 Thurs: L2
 Thursday: A1,BN,BS,BW,CA,GK,KY,L4,MC,WB,ZK
@@ -1420,7 +1427,7 @@ absent-minded: ST
 absent: BE,BN,C1,GK,GR,IS,KY,L2,LD,T4,T6,TF,TL,ZK
 absentee: L1
 absenteeism: BE,GM,IS,TF,WB
-absentminded: WB
+absentmindedly: WB
 absinthe: GR
 absolute: B2,BE,BN,BS,BW,CA,GK,GL,IS,KY,L3,S2,T4,TF,W3
 absolutely: B1,BN,BS,BW,CA,GL,GS,L4,S1,T4,T6,TF,W3
@@ -1432,6 +1439,7 @@ absorption: AW,BL,FE,ST,T6,TF
 abstain: BE,GR,L1,ST
 abstemious: GR,ST
 abstention: GR
+abstentious: GR
 abstinence: L1
 abstinent: GR,WB
 abstract: B2,BE,BN,BW,CA,GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF
@@ -1467,7 +1475,8 @@ acceptance: BE,BL,BN,BW,C1,CA,GM,KY,L2,T4,T6,TF,TL
 access: B1,BE,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,W1
 accessary: T4
 accessibility: TF
-accessible: BE,BL,BN,C1,CA,GK,GM,GR,IS,L2,ST,T4,TF,TL,WB
+accessible: BE,BL,BN,C1,CA,GK,GM,GR,IS,L2,ST,T4,TF,TL
+accessibly: WB
 accession: ST
 accessory: BE,GR,IS,KY,L2,ST,T6,TF,TL,ZK
 accident-prone: WB
@@ -1619,7 +1628,8 @@ adaptable: GR,L1,TF
 adaptation: AW,C1,CA,FE,GK,GM,IS,L1,T6,TF
 adapted: BN
 adapter: GM,TL
-adaptive: AW,GR,TF,WB
+adaptive: AW,GR,TF
+adaptivity: WB
 add-on: BE
 add: A1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GM,GS,L1,L5,LD,MC,S1,ST,T4,VA,W1,WK,ZK
 addendum: BE,GR,ST
@@ -1656,7 +1666,8 @@ adjacent: AW,BE,BN,C1,GM,GR,IS,KY,L1,T6,TF,TL
 adjective: DL,FS,KY,L1,LD,MC,T4,VA,WB
 adjoin: IS,KY,L1,T6,TF
 adjourn: BE,GR,L1
-adjudicate: GR,WB
+adjudicate: GR
+adjudicative: WB
 adjunct: GR,IS,ST,TF
 adjuration: ST
 adjure: GR
@@ -1676,7 +1687,8 @@ admirable: GK,L2,TF
 admiral: L2,TF
 admiration: LD,MC,T4,T6,TF,WB
 admire: B1,BE,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF
-admissible: ST,WB
+admissibility: WB
+admissible: ST
 admission: AW,BE,BL,BN,BW,C1,CA,GK,IS,KY,L2,T4,TF,TL,W3
 admit: B1,BE,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,LD,MC,S2,T4,T6,TF,VA,W1
 admittance: BE,ST
@@ -1695,7 +1707,8 @@ adopted: BN,BS,BW
 adoptee: WB
 adoption: BL,BN,C1,CA,GM,T6,TF
 adoptive: T4
-adorable: GR,L1,WB
+adorable: GR,L1
+adorableness: WB
 adoration: GR,ST
 adore: GK,GR,IS,KY,L2,T6,WB
 adorn: GR,L1,ST,TF
@@ -1724,8 +1737,9 @@ advent: GM,GR,IS,KY,L1,ST,TF
 adventitious: GR,TF
 adventure: A2,BE,BN,CA,GK,GL,IS,KY,L2,LD,T4,T6,TF
 adventurer: L1,T6,TF
-adventurism: WB
-adventurous: GR,IS,L1,TF,WB
+adventurist: WB
+adventurous: GR,IS,L1,TF
+adventurously: WB
 adverb: KY,LD,MC,T4,ZK
 adversarial: BE,WB
 adversary: GR,L1,TF
@@ -1752,7 +1766,8 @@ aeration: IS
 aerator: WB
 aerial: GR,IS,KY,L1,ST,T6,TF
 aero: TF
-aerobic: FE,GM,WB
+aerobic: FE,GM
+aerobically: WB
 aerobics: IS,L1,TF
 aerodigestive: WB
 aerodynamic: GM,TF
@@ -1778,7 +1793,8 @@ affectation: GR,ST
 affection: BN,C1,GK,GR,IS,KY,L2,T4,T6,TF
 affectional: TF
 affectionate: GR,L1,T4
-affective: GR,WB
+affective: GR
+affectively: WB
 afferent: WB
 affidavit: GR,L1
 affiliate: BE,BL,GR,IS,KY,L2,ST,T6,TF
@@ -1866,11 +1882,13 @@ agony: GR,IS,KY,L2,T4,T6
 agoraphobic: GR
 agrarian: GM,GR,L1,ST,TF
 agree: A1,BE,BN,BS,BW,CA,DL,GK,GL,GS,KY,L5,LD,MC,S1,T4,TF,VA,W1,WB,WK,ZK
-agreeable: GR,IS,KY,L1,T6,TF,WB
+agreeable: GR,IS,KY,L1,T6,TF
+agreeably: WB
 agreed: BN,BS,BW,FS,L1,WB
 agreement: B1,BE,BN,BS,BW,CA,GK,GL,GR,IS,KY,L4,LD,MC,OG,S2,ST,T4,TF,W1,ZK
 agricultural: BE,BN,BS,BW,C1,CA,GK,GL,L3,TF
 agriculturalist: TF
+agriculturally: TF
 agriculture: AW,B2,BE,BL,BN,BS,BW,CA,GK,IS,KY,L3,T4,TF,VA,W2
 agronomist: GR
 aground: L1
@@ -1880,13 +1898,15 @@ aha: BN,BS,WB
 ahead of: BN,BS,BW,L3
 ahead: B1,BE,BN,BS,BW,CA,FS,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,W2,WB
 ahold: WB
-aid: B2,BE,BN,BS,BW,CA,GK,GL,KY,L5,S2,T4,T6,TF,VA,W2,WB,ZK
+aid: B2,BE,BN,BS,BW,CA,GK,GL,KY,L5,S2,T4,T6,TF,VA,W2,ZK
 aide: C1,CA,L2,TF
+aider: WB
 aie: TF
 ail: GR,L1,TF
 ailment: BE,GM,GR,IS,L1,ST,TF
 aim: B1,BE,BN,BS,BW,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
 aimless: L1,WB
+aimlessness: WB
 ain't: L2
 air base: L1
 air force: L3,MC,VA
@@ -1918,12 +1938,12 @@ airstrip: L1
 airtight: GR,IS,WB
 airwaves: L1
 airway: L2,TF
-airworthy: WB
+airworthiness: WB
 airy: L1,ST,TF
 aisle: CA,IS,KY,L1,T6,TL
 aka: L1
 akin: GR,L1,ST,TF
-al-Qaeda: WB
+al-Qa'ida: WB
 ala: TF
 alabaster: GR
 alacrity: ST
@@ -1933,8 +1953,9 @@ alas: BL,L1,T6
 albedo: TF
 albeit: BL,BN,C1,GR,IS,L2,ST,WB
 album: B1,BE,BN,BW,CA,GK,GL,IS,KY,L4,S3,ST,T4,T6,VA,W3,ZK
+alchemical: WB
 alchemist: IS,TF
-alchemy: GR,ST,WB
+alchemy: GR,ST
 alcohol: B1,BE,BN,BS,BW,CA,GK,GL,IS,KY,L3,LD,MC,ST,T4,T6,TF,VA,W3,WB
 alcoholic: B1,GK,L2,MC,WB
 alcove: GR,L1,ST
@@ -2015,8 +2036,9 @@ allowance: BE,BL,BN,BS,BW,C1,GK,GM,GR,IS,KY,L2,S2,T4,T6,W3,WB
 allowed: BE,BN,BS,BW,WB
 alloy: GR,IS,KY,L1,ST,T4,T6,TF,WB
 allude: GM,GR,L1,ST,TF
-allure: GR,IS,L1,TF,WB
+allure: GR,IS,L1,TF
 allurement: GR,WB
+alluringly: WB
 allusion: GR,L1,ST,TF
 allusive: GR
 alluvial: GM,GR,IS,TF
@@ -2061,7 +2083,8 @@ alto: ST
 altogether: B2,BE,BN,BS,BW,CA,GK,GL,KY,L3,S2,T4,TF,W3
 altruism: GM,GR,ST
 altruist: ST
-altruistic: BE,IS,ST,TF,WB
+altruistic: BE,IS,ST,TF
+altruistically: WB
 alumina: TF
 aluminium: BN,C1,GK,GR,IS,KY,L2,T4
 aluminum: AW,BL,GK,GM,KY,ST,TF,WB
@@ -2090,7 +2113,8 @@ ambidextrous: GR,ST,TF
 ambience: GR,L1,TF
 ambient: T6,TF,WB
 ambiguity: GM,GR,IS,TF
-ambiguous: GK,GM,GR,IS,KY,L2,ST,T6,TF,WB
+ambiguous: GK,GM,GR,IS,KY,L2,ST,T6,TF
+ambiguously: WB
 ambition: B1,BE,BL,BN,CA,GK,IS,KY,L3,T4,T6,TF,W3
 ambitious: B1,BE,BL,BN,CA,GM,GR,IS,KY,L2,ST,T4,T6,TF,TL
 ambivalence: GR
@@ -2113,7 +2137,8 @@ amenorrhea: WB
 amerce: GR
 amethyst: GR
 amiability: GR
-amiable: GR,KY,L1,ST,TF,WB
+amiable: GR,KY,L1,ST,TF
+amiably: WB
 amicable: GR,L1,ST
 amicably: GR
 amid: BL,BN,C1,CA,IS,KY,L3,T4,TF
@@ -2172,15 +2197,15 @@ analog: GM,KY
 analogous: GR,IS,ST,T6,TF
 analogue: GM,KY,L1,T6,WB
 analogy: AW,C1,GM,GR,IS,KY,L1,ST,T6,TF
-analyse: B1,BE,BN,BW,GK,IS,KY,L2,T4,T6,W3,WB
-analyses: BN
 analysis: B1,BE,BN,BS,BW,CA,GK,GL,IS,KY,L3,S3,ST,T4,T6,TF,W1
 analyst: B2,BE,BN,CA,GL,L4,ST,TF,W2
 analyte: WB
-analytic: BL,GM,KY,WB
+analytic: BL,GM,KY
 analytical: BL,GM,IS,KY,L1,T6
+analytically: WB
 analyzation: WB
-analyze: BE,CA,GK,GL,KY,ST,T4,TF
+analyze: B1,BE,BN,BW,CA,GK,GL,IS,KY,L2,ST,T4,T6,TF,W3
+analyzer: WB
 anarchic: GR,L1
 anarchist: L1,TF
 anarchy: GR,L1,ST,VA
@@ -2270,10 +2295,12 @@ anode: GR,ST,T6
 anodyne: GR
 anoint: WB
 anole: GM
-anomalous: GR,TF,WB
+anomalous: GR,TF
+anomalously: WB
 anomaly: GM,GR,L1,ST,TF
 anomie: TF,WB
 anonymity: GR
+anonymization: WB
 anonymize: WB
 anonymous: BN,C1,CA,GM,GR,IS,KY,L2,ST,T4,T6,TF
 anorak: L1
@@ -2309,9 +2336,11 @@ anthology: GR,IS,L1,ST
 anthropogenic: WB
 anthropoid: GR,ST
 anthropological: TF
+anthropologically: TF
 anthropologist: GM,IS,ST,TF
 anthropology: AW,BE,GR,IS,L1,ST,TF,WB
 anthropomorphism: TF
+anti-Americanism: WB
 anti-Semitism: L1
 anti-Zionist: WB
 anti-feminist: WB
@@ -2342,7 +2371,8 @@ antidumping: BE
 antifebrile: GR
 antifreeze: GM
 antifungal: TF
-antigen: GR,WB
+antigen: GR
+antigenically: WB
 antigravity: WB
 antilogy: ST
 antioxidant: FE
@@ -2350,7 +2380,8 @@ antipathetic: GR
 antipathy: GR,L1,ST,TF
 antipodes: ST
 antipope: WB
-antiquarian: GR,ST
+antiquarian: ST
+antiquarianism: GR
 antiquary: ST
 antiquate: ST,TF
 antiquated: GM,GR,IS,L1
@@ -2367,6 +2398,7 @@ antitoxin: ST
 antitrust: BE,BL,GM,L1
 antivirus: WB
 antler: GR,WB
+antlerless: WB
 antonym: IS,ST,TF,WB
 anurous: GR
 anus: WB
@@ -2433,8 +2465,9 @@ apparition: GR,ST
 appeal: B2,BE,BN,BS,BW,C1,CA,GK,GL,GM,GR,IS,KY,L1,L4,S2,S3,ST,T4,T6,TF,VA,W1,W3
 appear: A2,BE,BN,BS,BW,CA,FS,GK,GL,IS,L5,LD,MC,S2,T4,VA,W1,WK,ZK
 appearance: A2,BE,BN,BW,CA,GK,GL,IS,KY,L4,LD,MC,T4,T6,TF,W2
-appease: GR,L1,ST,T6,TF,WB
+appease: GR,L1,ST,T6,TF
 appeasement: GR
+appeaser: WB
 appellate: ST
 appellation: GR,L1,ST
 append: ST,TF
@@ -2444,6 +2477,7 @@ appendix: AW,BE,BN,BS,GK,IS,KY,L1,T6,TL
 appertain: ST
 appetite: BE,BL,C1,GK,GM,GR,IS,KY,L2,T4,TF,WB
 appetizer: TL
+appetizing: GR
 applaud: C1,GK,GR,IS,KY,L2,T6,TF
 applause: AW,FE,KY,L2,T4,T6
 apple: A1,AW,BL,BN,BS,BW,CA,DL,FE,FS,GK,KY,L3,LD,MC,OG,S2,T4,TF,TL,W3,WK,ZK
@@ -2483,6 +2517,7 @@ apprise: GR,TF
 approach: B2,BE,BN,BS,BW,CA,GK,GL,GR,IS,KY,L4,S2,T4,T6,TF,W1,W2,WB
 approachable: GR
 approbation: GM,GR,ST
+approbatory: GR
 appropriate: B2,BE,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L3,LD,S2,ST,T4,T6,TF,W1
 appropriately: B2,BL,TF
 appropriation: GM,GR,T6
@@ -2495,9 +2530,10 @@ approximation: AW,BE,BL,GM,ST,TF
 apricot: L1,WB
 apron: GK,GR,L1
 apropos: GR
-apt: GR,IS,KY,L2,T6,WB
+apt: GR,IS,KY,L2,T6
 aptitude: BE,GR,IS,L1,ST,TF
 aptly: T6,TF
+aptness: WB
 aqua: L1
 aquarium: GM,IS,L1,TF
 aquatic: GM,GR,IS,L1,ST,TF
@@ -2531,11 +2567,12 @@ archaeology: AW,GM,GR,KY,L2,ST,TF
 archaeopteryx: GM,TF
 archaic: GR,IS,L1,ST,TF
 archbishop: BN,ST
-archdiocese: WB
+archdiocesan: WB
 arched: L1
 archenemy: GM
 archeology: KY,VA
 archer: GR
+archetypally: GR
 archetype: GR,L1,ST
 archipelago: GR,ST,TF
 architect: A2,AW,BL,BN,CA,GK,GM,GR,IS,KY,L2,T4,T6,TF,TL,W3
@@ -2628,7 +2665,7 @@ artesian: TF
 artful: L1,ST,WB
 arthritis: GM,GR,IS,L2,TF
 arthropod: TF
-arthroscope: WB
+arthroscopically: WB
 artichoke: L1
 article: A1,BE,BN,BS,BW,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,TF,W1,ZK
 articles: BN,BW
@@ -2673,7 +2710,8 @@ ascertain: BE,GR,IS,KY,L1,T6,TF
 ascetic: GR,ST
 asceticism: GR
 ascribe: GM,GR,IS,L1,ST,T6,TF
-aseptic: GR,WB
+aseptic: GR
+aseptically: WB
 asexual: ST
 ash: C1,CA,GK,IS,KY,L2,LD,T4,TF,VA,WB
 ashamed: B2,BN,CA,GK,GL,IS,KY,L2,LD,MC,S3,T4
@@ -2693,6 +2731,7 @@ asparagus: GR,L1
 aspect: AW,B2,BE,BL,BN,BS,BW,CA,FE,GK,GM,GR,IS,KY,L4,MC,S2,T4,T6,TF,TL,W1
 aspen: GM,GR,L1
 asperity: GR,ST
+aspermous: GR
 aspersion: GM,GR
 asphalt: GM,GR,TF
 asphyxia: GR
@@ -2746,6 +2785,7 @@ association: B2,BN,BS,BW,CA,GK,GL,GM,IS,KY,L4,LD,S3,T4,T6,TF,W1,ZK
 associative: TF
 assoil: GR
 assonance: ST
+assonant: ST
 assonate: ST
 assort: TF
 assorted: GR,IS,L1
@@ -2757,6 +2797,7 @@ assurance: BE,BL,BN,BS,C1,GR,IS,KY,L2,ST,T6,TL
 assure: B2,BS,CA,GL,GR,IS,KY,L2,S2,T4,T6,TF,W3
 assured: BN,BW,GR,L3
 assuredly: WB
+assuredness: GR
 asterisk: GR
 asteroid: GM,GR,L1,TF
 asthenosphere: TF
@@ -2773,10 +2814,12 @@ astrobiology: WB
 astrolabe: GR
 astrologer: L1
 astrological: TF,WB
-astrology: GR,IS,L1,WB
+astrologically: WB
+astrology: GR,IS,L1
 astronaut: GK,IS,KY,L1,T4,TF,VA
 astronomer: CA,GK,L2,TF
-astronomical: GM,GR,T6,TF,WB
+astronomical: GM,GR,T6,TF
+astronomically: WB
 astronomy: GK,GM,IS,KY,L2,MC,T6,TF,VA
 astrophysics: T4
 astute: GR,L1,ST,TF
@@ -2816,7 +2859,8 @@ atrabilious: GR
 atrocious: GR,L1,ST
 atrocity: C1,GR,L2,ST
 atrophy: GR,TF
-attach: B1,BE,CA,GK,GL,GR,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W2,WB
+attach: B1,BE,CA,GK,GL,GR,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W2
+attachable: WB
 attache: ST
 attached: BN,BS,BW,L2
 attachment: B2,GL,T6,TF
@@ -2929,6 +2973,7 @@ autonomic: TF
 autonomous: BE,BL,BN,GK,GR,L2,ST,T6,TF
 autonomy: AW,BE,BL,BN,BW,C1,GM,GR,IS,KY,ST,T6,TF
 autopsy: GR,L1,ST,WB
+autoregressive: WB
 autotype: GR
 autumn: A1,BE,BN,BS,BW,GK,GL,KY,L3,MC,T4,TF,VA,W3,WK,ZK
 autumnal: ST
@@ -2966,6 +3011,7 @@ avocational: GR,TF
 avoid: A2,BE,BN,BS,BW,CA,GK,GL,GM,GR,IS,KY,L4,LD,MC,S2,T4,T6,TF,VA,W1,WB,ZK
 avoidable: TF
 avoidance: BE,L1,TF
+avoider: WB
 avouch: GR
 avow: GR,ST
 avowal: GR
@@ -4667,7 +4713,6 @@ caviar: L1
 cavil: GR,ST
 cavity: GR,IS,L1,T6,TF
 cavort: GR,IS
-cba: BE
 cd: CA
 cease: BL,BN,C1,CA,GM,IS,KY,L3,T4,TF,W3
 ceased: BN
@@ -12483,7 +12528,7 @@ inaugurate: GR,IS,KY,L1,T6,TF
 inauthentic: WB
 inborn: GR,IS,ST,TF
 inbound: GR
-inc: BN
+inc: BN,BW
 incalculable: T6
 incandescent: GM,GR,ST,TF
 incapable: L1,T6,TF
@@ -13411,7 +13456,6 @@ jam-pack: WB
 jam: A2,BE,BS,GK,IS,KY,L2,S3,T4,T6,TL
 jamb: GR
 jamboree: GR
-jane: BN,BS,BW
 jangle: L1,WB
 janitor: GR,IS
 jape: GR,WB
@@ -13465,7 +13509,7 @@ jigsaw: GR,L1
 jihad: L1
 jilt: BE,GR
 jiltee: GR
-jimmy: BN,BS,BW,WB
+jimmy: WB
 jingle: L2,T6
 jingoism: GR,ST
 jink: GR,WB
@@ -14412,13 +14456,12 @@ long-suffering: L1
 long-term: BN,BW,CA,IS,L4,W3,WB
 long-time: L3
 long-winded: GR
-long: A1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,L2,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,ZK
+long: A1,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,L1,L2,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,WB,WK,ZK
 longboard: WB
 longer: BN,BS,BW,TF
 longevity: GM,GR,L1,ST,T6,TF
 longhand: WB
 longhorn: WB
-longing: L1,T6,TF
 longitude: GR,IS,KY,T6,TF
 longitudinal: AW,GM,IS
 longtime: CA,TF
@@ -14502,7 +14545,7 @@ loyal: B2,BL,BN,CA,IS,KY,L2,LD,MC,T4,T6,TF,TL,VA
 loyalist: L1,TF
 loyally: TF
 loyalty: BE,BL,BN,C1,CA,IS,KY,L2,LD,MC,T4,T6,TF,TL
-ltd: BW
+ltd: BN,BW
 lubber: GR
 lubricant: GR,L1,TF
 lubricate: IS,KY,L1,T6,TF
@@ -17856,7 +17899,6 @@ pestilential: GR,TF
 pestle: GR,WB
 pet: A2,BL,BN,BS,CA,DL,GK,KY,L3,LD,MC,T4,TF,TL,ZK
 petal: GR,IS,L1,TF
-pete: BN,BS
 peter: GR,L1,WB
 petiole: TF
 petite: L1
@@ -19121,8 +19163,7 @@ protection: B2,BN,BS,BW,CA,GK,GL,L4,LD,MC,S2,T4,TF,W2
 protectionist: TF
 protective: BN,C1,CA,GR,L2,LD,T4,TF,TL,WB
 protector: L1,TF
-protein: B2,BN,BW,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF
-proteins: BN,VA
+protein: B2,BN,BW,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF,VA
 proteomics: WB
 protest: B1,BN,BW,CA,GL,GR,IS,KY,L4,LD,MC,OG,T4,T6,TF,VA,W3
 protestant: BN,GM,L2
@@ -19150,13 +19191,11 @@ provender: GR
 proverb: GR,ST,T6
 proverbial: L1
 proverbially: GR
-provide: A2,BE,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,S1,T4,VA,W1,WK,ZK
-provided: BN,BS,BW,CA,GM,IS,KY,L2,S3,T4,T6,W2
+provide: A2,BE,BN,BS,BW,CA,DL,FS,GK,GL,GM,GS,IS,KY,L1,L2,L5,LD,MC,S1,S2,S3,T4,T6,VA,W1,W2,WK,ZK
 providence: GR,L1,TF
 provident: GR,ST
 providential: GR
 provider: BE,BL,CA,TL
-providing: BN,BS,BW,GM,L1,S2,T4
 province: BN,BW,C1,CA,GK,GL,KY,L3,T4,T6,TF,ZK
 provincial: BE,BL,BN,C1,GR,L2,ST
 provincialism: TF
@@ -19166,9 +19205,7 @@ provisionally: BE
 proviso: BE,GM
 provocation: GR,L1,T4
 provocative: BE,GR,L1,ST,T6,TF
-provoke: BL,C1,GM,GR,IS,KY,L3,ST,T4,T6,TF
-provoked: BN
-provoking: GR
+provoke: BL,BN,C1,GM,GR,IS,KY,L3,ST,T4,T6,TF
 prowess: GR,IS,L1,ST
 prowl: GR,L1,TF
 proximate: GR,T6
@@ -19185,7 +19222,6 @@ prurience: GR
 prurient: GR
 prussic: WB
 pry: GR,IS,L1,TF
-prying: GR
 ps: BS
 psalm: GR
 psephology: GR
@@ -19233,11 +19269,9 @@ publicist: L1
 publicity: B2,BE,BL,BN,BS,BW,IS,KY,L3,S3,T4,T6,TF,TL,W3
 publicize: BE,GR,L2,T4,T6,TF,TL
 publicly: BL,BN,CA,GK,LD,MC,TF
-publish: A2,AW,BE,BL,BN,CA,FE,GK,KY,L4,MC,S3,T4,TF,TL,VA,W1
-published: BN,BS,BW
+publish: A2,AW,B2,BE,BL,BN,BS,BW,CA,FE,GK,KY,L3,L4,MC,S3,T4,TF,TL,VA,W1
 publisher: BN,CA,GL,L3,MC,TF,W3
 publishing house: L1
-publishing: B2,BN,BW,CA,L3
 pucker: GR
 pudding: BS,IS,L2,S3,T6
 puddle: GR,L1,TF
@@ -19291,9 +19325,8 @@ puncture: GR,IS,L1,TF
 pundit: GR,L1,ST
 pungency: GR
 pungent: GR,IS,L1,ST
-punish: AW,B1,BL,CA,GK,KY,L2,LD,MC,T4,TF,VA,WB,WK,ZK
+punish: AW,B1,BL,CA,GK,KY,L1,L2,LD,MC,T4,TF,VA,WB,WK,ZK
 punishable: GM
-punishing: L1
 punishment: AW,B1,BL,BN,BW,CA,GK,GR,L2,LD,MC,OG,TF,W3
 punitive: L1,ST
 punk: B2,L2,WB
@@ -19342,8 +19375,6 @@ purslane: WB
 pursuance: WB
 pursuant: BL,WB
 pursue: B2,BN,BS,BW,CA,GL,GM,KY,L3,S3,ST,T4,T6,TF,W2
-pursued: BN
-pursuing: BN
 pursuit: B2,BL,BN,CA,GR,IS,KY,L2,T6,TF
 pursy: GR
 purulent: WB
@@ -19351,10 +19382,8 @@ purvey: GR
 purveyance: GR
 purview: GM,GR
 push-up: FE,L1
-push: A2,B1,BN,BS,BW,CA,DL,GK,GL,GS,KY,L4,LD,MC,OG,S1,T4,TF,VA,W2,WK,ZK
+push: A2,B1,BN,BS,BW,CA,DL,FS,GK,GL,GS,KY,L4,LD,MC,OG,S1,T4,TF,VA,W2,WB,WK,ZK
 pushcart: WB
-pushed: BN,BS,BW,FS,WB
-pushing: BN,BS,BW
 pushy: GR
 pusillanimous: GR,ST
 pussy: L1
@@ -19373,9 +19402,7 @@ putt: L2,TF,WB
 puttee: GR
 putter: L1
 putty: GM
-puzzle: AW,B2,BL,CA,GK,GR,IS,KY,L2,T4,T6,TF,TL
-puzzled: BN,GK
-puzzling: T4,T6
+puzzle: AW,B2,BL,BN,CA,GK,GR,IS,KY,L2,T4,T6,TF,TL
 pygmy: GR
 pyjamas: L1,T6
 pylon: GR,TF
@@ -20061,7 +20088,7 @@ regnant: GR,ST
 regolith: TF
 regress: GR,L1,ST,WB
 regression: AW,BL
-regressive: GM,GR,WB
+regressive: GM,GR
 regret: B2,BE,CA,GK,GL,GM,KY,L3,OG,T4,TF,VA,W3,ZK
 regretfully: GR
 regrettable: L1,TF
@@ -22697,7 +22724,6 @@ spellbind: GR,TF
 spelling: A1,BS,GK,KY,L1,MC,S2,T4
 spelt: BS
 spelunker: GR
-spencer: BS
 spend: A1,BE,BN,BS,BW,CA,DL,GK,GL,GS,KY,L5,LD,MC,S1,TF,VA,W1,WK,ZK
 spender: L1
 spending money: L1
@@ -22705,7 +22731,6 @@ spending: B1,BN,BS,BW,CA
 spendthrift: GR
 spent: BN,BS,BW
 sperm: AW,L2
-spermous: GR
 spew: GR,L1,TF
 sphagnum: GR
 sphenoid: WB
@@ -25419,8 +25444,7 @@ unit trust: L1
 unit: A2,BE,BN,BS,BW,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,ST,T4,TF,W2,WK,ZK
 unitard: WB
 unitary: L1
-unite: B2,CA,GK,GL,KY,L2,LD,MC,T4,VA
-united: A2,BN,BS,BW,CA,L3,S2,W3
+unite: A2,B2,BN,BS,BW,CA,GK,GL,KY,L2,L3,LD,MC,S2,T4,VA,W3
 units: BN,BS,BW,GM
 unity: AW,B2,BL,BN,BW,CA,KY,L3,T4,T6,TF,W3
 universal: B2,BN,BW,CA,GK,GL,GR,IS,KY,L2,T4,TF,W3,WB
@@ -26857,7 +26881,6 @@ wrought: GR,IS
 wry: GR,L1,ST
 wryly: WB
 x-ray: VA,ZK
-xd: BE
 xenon: TF
 xenophobe: ST,WB
 xenophobia: GR
