@@ -94,11 +94,12 @@ Jun.: [Jun]
 Mar.: [Mar]
 co-ordinate: [coordinate]
 # lemmatize
-waiting: [wait]
 Americans: ["American"]
 Germans: ["German"]
 Indians: ["Indian"]
 Jews: ["Jew"]
+goes: [go]
+waiting: [wait]
 # unconfirmed
 Mom: ["mom"]
 Mr: ["Mr."]

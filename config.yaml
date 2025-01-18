@@ -3,12 +3,34 @@
   tag: LH
   test: '[^\na-zA-Z]'
 - name: ogden
-  path: origin/Odgens_Basic_English_Vocabulary.html
+  path: https://zbenglish.net/sites/basic/words.html
   tag: OG
   test: '[^\na-zI]'
   process:
-    - [[\s, g]]
+    - [['[\r\n]', g]]
+    - [['.*<UL>']]
+    - [['<hr color=maroon><font size=-1>.*$']]
+    - [['<H3>.*?</H3>', g]]
+    - [['<.*?>', g]]
+    - [['\s', g]]
     - [['[,./]', g], "\n"]
+- name: dolch
+  path: https://sightwords.com/sight-words/dolch/
+  tag: DS
+  test: '[^\na-zA-Z '']'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<h1 style="margin-top: 30px;" id="lists">Dolch Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(\d+ words\)<br/>', g]]
+    - [['<li>.*?<br/>.*?<p>', g]]
+    - [['<li.*?</li>', g]]
+    - [['</p></li>', g], ","]
+    - [['<.*?>', g]]
+    - [['\s+', g], ' ']
+    - [["’", g], "'"]
+    - [[', *', g], "\n"]
+    - [[' +']]
 - name: fry
   path: origin/FrySightWords.html
   tag: FS
