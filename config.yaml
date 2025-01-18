@@ -107,15 +107,16 @@
   test: '[^\nA-Za-zé ''-]'
   process:
     - [[\r, g]]
-    - [['\s+(?:class|id)=".*?"', g]]
-    - [[' *</?(?:div|ul)>\n?', g]]
-    - [['\n? *<h2>[A-Z]</h2>\n?', g]]
+    - [['\s+<ul class="sw-selector-list">', g]]
+    - [['\s+<h2 class="select-title">[A-Z]</h2>', g]]
+    - [['(<div.*?>|</ul>|</div>)\s*', g]]
     - [[' *<li>(.+?)</li>$', gm], $1]
+    - [[' +$', gm]]
   replace:
     approve of: [approve, of]
     based on: [base, 'on']
-    law-making: [law, make]
-    relating to: [relate, to]
+    law-making: [lawmaking]
+    relating to: [relate to]
 - name: longmand
   path: origin/Longman American Defining Vocabulary.txt
   tag: LD

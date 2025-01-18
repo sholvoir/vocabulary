@@ -14093,6 +14093,7 @@ lawless: L1
 lawlessness: WB
 lawlike: TF
 lawmaker: CA,L2
+lawmaking: MC
 lawn mower: WB
 lawn: BN,C1,CA,IS,KY,L2,T4,T6,TF,TL
 lawsuit: BL,C1,CA,IS,L2,T6,TF
@@ -20209,7 +20210,8 @@ rejoinder: GR
 rejuvenate: GR,L1,ST,TF
 rekindle: GM,GR,IS,L1,TF
 relapse: GR,IS,L1,ST,WB
-relate: B1,BN,CA,GK,GL,GS,IS,KY,L3,MC,S2,T4,TF,W1,WB
+relate to: MC
+relate: B1,BN,CA,GK,GL,GS,IS,KY,L3,S2,T4,TF,W1,WB
 related: B1,BN,CA,L3,LD,MC,S2,W3
 relatedness: WB
 relation: B1,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,TF,W1,ZK
