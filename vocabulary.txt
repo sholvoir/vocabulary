@@ -1693,7 +1693,7 @@ adventurer: L1,T6,TF
 adventurist: WB
 adventurous: GR,IS,L1,TF
 adventurously: WB
-adverb: KY,LD,MC,T4,ZK
+adverb: KY,LD,MC,T4,VA,ZK
 adversarial: BE,WB
 adversary: GR,L1,TF
 adverse: AW,BE,BL,BN,C1,GM,GR,IS,KY,L2,ST,T6,TF
@@ -2140,7 +2140,7 @@ amused: L1
 amusement: BE,BN,GK,L1,LD,OG,ST,T6,TF,WB
 amusing: B2,L2,LD,T4
 amylose: WB
-an: BN,DS,FS,LD,MC,S1,W1,WK,WS,ZK
+an: BN,DS,FS,LD,MC,S1,VA,W1,WK,WS,ZK
 anabiosis: GR
 anabolic: FE,WB
 anachronism: GR,ST
@@ -4090,7 +4090,7 @@ broiled: WB
 broiling: GR
 broke: BE,L1
 broken-down: L1
-broken: A2,BN,CA,FS,GK,L1,MC,OG,T4
+broken: A2,BN,CA,FS,GK,L1,MC,OG,T4,VA
 broker: BE,BL,BN,GM,L3,TF,TL
 brokerage: BE,BL,GM,L1,ST,WB
 bromide: GR
@@ -4240,7 +4240,7 @@ burglar: BE,GK,IS,KY,L1,T6
 burglarize: GM
 burglary: L1
 burgundy: L1
-burial: BN,C1,GK,GR,L1,T6,TF
+burial: BN,C1,GK,GR,L1,T6,TF,VA
 burin: TF
 burlap: GR
 burlesque: GR,WB
@@ -6860,7 +6860,7 @@ deaerate: GR
 deaf: BN,GK,IS,KY,L2,MC,T4,TF,VA,W3,ZK
 deafen: L1,T6
 deafening: L1
-deafness: MC
+deafness: MC,VA
 deal with: LD,MC
 deal: A2,B1,BE,BN,CA,FS,GK,GL,GS,KY,L3,L5,LD,MC,S1,T4,T6,TF,VA,W1,ZK
 dealer: B2,BE,BN,CA,GL,IS,KY,L3,T6,TF,W3
@@ -14839,6 +14839,7 @@ maisonette: GR
 maize: IS,L1,TF
 majestic: GR,IS,L1,TF
 majesty: BN,KY,L2,T6
+major depressive disorder: VA
 major: A2,B2,BE,BN,CA,FS,GK,GL,GS,IS,L5,MC,S1,T4,TF,VA,W1,WB,ZK
 majority: BN,CA,GK,GL,IS,KY,L4,MC,S2,T4,T6,TF,VA,W1
 make into: LD
@@ -15170,7 +15171,7 @@ mediate: AW,GM,IS,L2,T6,TF
 mediation: BE
 mediator: ST
 medic: L1
-medical: A2,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,TF,W2,ZK
+medical: A2,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,TF,VA,W2,ZK
 medicalize: WB
 medicate: GR
 medication: B2,CA,GM,IS,L2,T4,T6,TF,TL
@@ -16554,6 +16555,7 @@ nozzle: GR,L1,TF
 nr.: L1
 nuance: GR,IS,L1,ST
 nubile: GR,WB
+nuclear fission: VA
 nuclear reactor: L1
 nuclear: B1,BE,BN,CA,GK,GL,GM,IS,KY,L4,MC,T4,TF,VA,W2
 nuclease: WB

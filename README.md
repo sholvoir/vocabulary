@@ -17,6 +17,14 @@ name: run "name" section only.
 奥格登基础英语850词 Odgen's BASIC ENGLISH VOCABULARY  
 数据来自 <http://ogden.basic-english.org/words.html>
 
+## Wik
+维基词典1000基础词汇 Appendix: 1000 basic English words  
+数据来自 <https://en.wiktionary.org/wiki/Appendix:1000_basic_English_words>
+
+## VOA
+VOA慢速英语1500基础词汇 VOA Special English Word Book  
+数据来自 <https://simple.wikipedia.org/wiki/Wikipedia:VOA_Special_English_Word_Book>
+
 ## Macmillan
 麦克米伦词典2500释义词汇 Clear Definitions From Macmillan Dictionary  
 数据来自 <https://www.macmillandictionary.com/learn/clear_definitions/>
@@ -28,14 +36,6 @@ name: run "name" section only.
 ## LongmanC
 朗文通讯3000词 Longman Communication 3000  
 数据来自 <https://www.lextutor.ca/freq/lists_download/longman_3000_list.pdf>
-
-## VOA
-VOA慢速英语1500基础词汇 VOA Special English Word Book  
-数据来自 <https://simple.wikipedia.org/wiki/Wikipedia:VOA_Special_English_Word_Book>
-
-## Wik
-维基词典1000基础词汇 Appendix: 1000 basic English words  
-数据来自 <https://en.wiktionary.org/wiki/Appendix:1000_basic_English_words>
 
 ## Oxford
 牛津5000词汇, Oxford 5000, 分为A1,A2,B1,B2,C1五个级别  

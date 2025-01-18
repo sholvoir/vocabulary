@@ -75,6 +75,32 @@
     - [["'''[A-Z]''' *:", g]]
     - [['\[\[', g]]
     - [['\]\][,.] *', g], "\n"]
+- name: voa
+  path: https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
+  tag: VA
+  test: '[^\nA-Za-z -]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*\[\[#Organs of the body\|Organs of the body\]\]\|\}']]
+    - [['\[\[category:VOA Special English words\]\].*$']]
+    - [['==.+?==', g]]
+    - [['\* *', g], "\n"]
+    - [[' (–|:|&amp;ndash;) .*$', gm]]
+    - [['(\[\[\w+\]\] \([\w.]+\)) and (\[\[\w+\]\] \([\w.]+\))', g], "$1\n$2"]
+    - [[' *\((\[\[\w+\]\])\)', g], "\n$1"]
+    - [[' \(\w+\.\)', g]]
+    - [['&lt;span style="color:[#\w]+">([\w-]+)&lt;/span>', g], "$1"]
+    - [['\[\[:?wikt:([\w ]+)\|(\1)\]\]', g], "$1"]
+    - [['\[\[:?wikt:([\w ]+)\|([\w ]+)\]\]', g], "$1\n$2"]
+    - [['\[\[([\w ]+)\|([\w ]+)\]\]', g], "$1\n$2"]
+    - [['\[\[([\w -]+)\]\]', g], "$1"]
+    - [[' \((\w+)\)', g], "\n$1"]
+    - [['(\w+)\(ing\)', g], "$1\n$1ing"]
+    - [['\n']]
+  replace:
+    Major depressive disorder: [major depressive disorder]
+    Nuclear fission: [nuclear fission]
+    pass a bill: [pass, a, bill]
 - name: macmillan
   path: origin/Macmillan Dictionary Defining Vocabulary.html
   tag: MC
@@ -120,20 +146,6 @@
     - [['\n ?([SW][123])', g], ' $1']
     - [['([SW][123]), ([SW][123])', g], '$1,$2']
     - [[' ([SW][123])', g], ': $1']
-- name: voa
-  path: origin/VOA Special English Word Book.html
-  tag: VA
-  test: '[^\nA-Za-z -]'
-  process:
-    - [[\r, g]]
-    - [[' +(?:class|style|title|href|id)=".*?"', g]]
-    - [[' *<h2><span>(?:<a>)?.*?(?:</a>)?</span></h2>\n?', g]]
-    - [[</?ul>, g]]
-    - [[' *<li><a>([\w -]+)</a>.*?</li>\n?', g], "$1\n"]
-    - [[' *<li><span>([\w -]+)</span>.*?</li>\n?', g], "$1\n"]
-    - [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]
-  replace:
-    pass a bill: [pass, a, bill]
 - name: oxford
   path: origin/Oxford_5000.html
   test: '[^\n\w: ]'
