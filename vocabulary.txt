@@ -9912,7 +9912,7 @@ firstly: A2,BN,GL,L1,S3
 fiscal year: L1
 fiscal: BE,BL,BN,CA,GM,GR,KY,L3,T6,TL
 fish-finder: WB
-fish: A1,A2,BN,CA,DL,DS,FS,GK,GL,L4,LD,MC,OG,S1,S3,T4,TF,VA,W1,WK,ZK
+fish: A1,A2,BN,CA,DL,DS,FS,GK,GL,L4,LD,MC,OG,S1,S3,T4,TF,VA,W1,ZK
 fishable: WB
 fisherman: BN,GK,KY,L2,T4,TF,ZK
 fishery: GR,L2,TF
@@ -11189,7 +11189,7 @@ gravitation: L1,ST,TF
 gravitational: GM,GR,TF
 gravity: AW,BN,C1,CA,FE,GK,GR,IS,KY,L2,ST,T4,TF,VA
 gravy: L1
-gray: CA,GL,LD,OG,T4,TF,VA,WB,WK
+gray: CA,GL,LD,OG,T4,TF,VA,WB
 graze: FE,GR,IS,KY,L2,T6,TF,WB
 grazing: TF
 grease: IS,KY,L1,T6,WB
@@ -11217,7 +11217,7 @@ gregarious: GM,GR,IS,ST,TF
 gregariousness: GR
 grenade: L1
 grew: FS
-grey: A1,BN,GK,KY,L5,MC,OG,S2,T4,W2
+grey: A1,BN,GK,KY,L5,MC,OG,S2,T4,W2,WK
 greyhound: L1
 grid: AW,BL,BN,C1,CA,IS,L1,T4,TF,WB
 griddle: GR
@@ -25075,7 +25075,7 @@ tyro: GR,ST
 tyrosine: GM
 ubiquitous: GR,L1,ST,TF
 ugh: L1
-ugly: B1,BN,CA,GK,GL,GR,IS,KY,L2,LD,MC,S3,T4,WK,ZK
+ugly: B1,BN,CA,GK,GL,GR,IS,KY,L2,LD,MC,S3,T4,ZK
 uh huh: L2
 uh-huh: CA
 uh: CA
@@ -26339,7 +26339,7 @@ warship: L1
 wart: L1
 wartime: BN,L2,TF
 wary: BL,GM,GR,IS,L2,ST,TF
-was: DS,FS,WK,WS
+was: DS,FS,WS
 wash: A1,A2,BN,CA,DL,DS,FS,GK,GL,KY,L3,LD,MC,OG,S1,TF,VA,W3,WK,ZK
 washer: L1
 washing machine: L1
@@ -26499,7 +26499,7 @@ welt: TF
 welter: GR
 wend: GR
 went: DS,FS,WS
-were: DS,FS,WK,WS
+were: DS,FS,WS
 weren't: L4
 west: A1,BN,CA,FS,GK,GL,KY,L5,LD,MC,OG,S1,TF,VA,W2,WK,ZK
 westerly: WB
@@ -26830,7 +26830,7 @@ worsen: BL,L2,T4,TF
 worship: BN,C1,GR,IS,KY,L2,MC,T4,T6,TF
 worshipful: WB
 worshipper: TF
-worst: A2,B1,B2,GK,KY,L1,LD,MC,T4,TF,ZK
+worst: A2,B1,B2,GK,KY,L1,LD,MC,T4,TF,WK,ZK
 worth: B1,B2,BE,BN,CA,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W2,W3,WB,ZK
 worthiness: TF,WB
 worthless: GK,L1,T4,WB
@@ -26873,12 +26873,12 @@ writ: BE,GR,L1
 writable: WB
 write-in: WB
 write-off: BE,L1
-write: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WB,WS,ZK
+write: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WB,WK,WS,ZK
 writer: A1,BN,CA,GL,MC,S3,T4,TF,W2,WB,ZK
 writhe: L1,ST,TF
 writing: A1,BN,CA,GK,KY,L4,MC,OG,S2,T4,TF,W3
 written: B1,BN,CA,FS,L3,MC
-wrong: A1,B1,B2,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,MC,OG,S1,S2,TF,VA,W1,ZK
+wrong: A1,B1,B2,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,MC,OG,S1,S2,TF,VA,W1,WK,ZK
 wrongdoing: L1,WB
 wrongful: L1
 wrongheaded: GR
@@ -26906,7 +26906,7 @@ yammer: WB
 yank: GR,L1
 yap: WB
 yard work: WB
-yard: B1,BN,CA,FS,GK,GL,GM,IS,KY,L4,LD,S2,T4,TF,W2,WB,WK,ZK
+yard: B1,BN,CA,FS,GK,GL,GM,IS,KY,L4,LD,S2,T4,TF,W2,WB,ZK
 yardage: WB
 yardstick: L1,TF
 yarn: BN,GR,IS,L1,TF
@@ -26919,13 +26919,13 @@ yeanling: GR
 year-end: WB
 year-long: L1
 year-round: L1
-year: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WB,WS,ZK
+year: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WB,WK,WS,ZK
 yearling: ST
 yearly: BE,BL,KY,L1,LD,T4,TL
 yearn: GR,IS,T6
 yearslong: WB
 yeast: AW,GM,GR,T6,TF
-yell: BN,C1,CA,GK,KY,L2,T6,WK
+yell: BN,C1,CA,GK,KY,L2,T6
 yellow: A1,BN,CA,DL,DS,FS,GK,GL,KY,L3,LD,MC,OG,S2,TF,VA,W3,WB,ZK
 yellowfin tuna: WB
 yellowish: MC
@@ -26933,7 +26933,7 @@ yelp: TF,WB
 yen: BE,BL,GM,GR,L3,TL
 yeoman: GR,WB
 yep: BN,CA,DL,FE,S1
-yes: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,MC,OG,S1,VA,W1,ZK
+yes: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,MC,OG,S1,VA,W1,WK,ZK
 yesterday: A1,BN,CA,DL,GK,GL,GS,KY,L5,LD,OG,S1,VA,W1,WK,ZK
 yesteryear: TF
 yet: A2,B2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,TF,VA,W1,W2,WK,ZK
@@ -26995,7 +26995,7 @@ zippy: GR
 zirconium: TF
 zodiac: L1
 zone: B2,BN,CA,GK,GL,GR,IS,KY,L3,T4,TF,W3
-zoo: DL,GK,KY,L2,TF,TL,VA,WK,ZK
+zoo: DL,GK,KY,L2,TF,TL,VA,ZK
 zoological: IS
 zoologist: TF
 zoology: IS,L1,TF

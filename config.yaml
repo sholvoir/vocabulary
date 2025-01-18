@@ -64,6 +64,17 @@
     - [[\s+, g], " "]
     - [[', *', g], "\n"]
     - [[' +']]
+- name: wik
+  path: https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
+  tag: WK
+  test: '[^\nA-Za-z]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*!-- Keep the number of words at 1000. -->']]
+    - [['===See also===.*$']]
+    - [["'''[A-Z]''' *:", g]]
+    - [['\[\[', g]]
+    - [['\]\][,.] *', g], "\n"]
 - name: macmillan
   path: origin/Macmillan Dictionary Defining Vocabulary.html
   tag: MC
@@ -123,16 +134,6 @@
     - [[' *<li>([\w ]+?) – .*?</li>\n?', g], "$1\n"]
   replace:
     pass a bill: [pass, a, bill]
-- name: wik
-  path: origin/Wiktionary_1000_basic_English_words.html
-  tag: WK
-  test: '[^\nA-Za-z]'
-  process:
-    - [[\r, g]]
-    - [['\s+(?:title|class|href|id)=".*?"', g]]
-    - [['\s*<h4><span>[A-Z]</span></h4>\s*', g]]
-    - [['</?d[ld]>', g]]
-    - [['\s*<a>(\w+)</a>[,.]', g], "$1\n"]
 - name: oxford
   path: origin/Oxford_5000.html
   test: '[^\n\w: ]'
