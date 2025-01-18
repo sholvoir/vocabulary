@@ -32,19 +32,22 @@
     - [[', *', g], "\n"]
     - [[' +']]
 - name: fry
-  path: origin/FrySightWords.html
+  path: https://sightwords.com/sight-words/fry/
   tag: FS
   test: '[^\na-zA-Z'']'
   process:
-    - [[</?ul>, g]]
+    - [['[\r\n]', g]]
+    - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(#\d+-\d+\)', g]]
     - [[<a href=.+?>.+?</a>, g]]
-    - [['\n\(#\d+-\d+\)\n', g]]
     - [['<li(?: style=.*?)?></li>', g]]
-    - [[\s*<li>\n, g]]
-    - [[\s, g]]
-    - [[</li>, g], "\n"]
-    - [[’, g], '''']
+    - [['</li>', g], ","]
+    - [['<.*?>', g]]
+    - [[\s+, g], " "]
+    - [[’, g], "'"]
     - [[', *', g], "\n"]
+    - [[' +']]
 - name: macmillan
   path: origin/Macmillan Dictionary Defining Vocabulary.html
   tag: MC
