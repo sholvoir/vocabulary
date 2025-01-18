@@ -40,12 +40,28 @@
     - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
     - [['<section id="comments">.*$']]
     - [['\(#\d+-\d+\)', g]]
-    - [[<a href=.+?>.+?</a>, g]]
+    - [['<a href=.+?>.+?</a>', g]]
     - [['<li(?: style=.*?)?></li>', g]]
     - [['</li>', g], ","]
     - [['<.*?>', g]]
     - [[\s+, g], " "]
     - [[’, g], "'"]
+    - [[', *', g], "\n"]
+    - [[' +']]
+- name: written
+  path: https://sightwords.com/sight-words/top-150/
+  tag: WS
+  test: '[^\na-zI]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<h1 style="margin-top: 30px;" id="lists">Top 150 Written Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(\d+ words\)', g]]
+    - [['<a.+?>.+?</a>', g]]
+    - [['<li(?: style=.*?)?></li>', g]]
+    - [['</p>', g], ","]
+    - [['<.*?>', g]]
+    - [[\s+, g], " "]
     - [[', *', g], "\n"]
     - [[' +']]
 - name: macmillan
