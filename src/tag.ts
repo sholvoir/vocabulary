@@ -1,6 +1,6 @@
-export const Tags = ['__', 'OG','FS','MC','LD','S1','S2','S3','W1','W2','W3','VA','WK','A1','A2',
-    'B1','B2','C1','L1','L2','L3','L4','L5','GL','GS','AW','TL','BL','DL','FE','CA','WB',
-    'BN','BS','BW','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH'] as const;
+export const Tags = ['__', 'OG','FS','MC','LD','S1','S2','S3','W1','W2','W3','VA','WK',
+    'A1','A2','B1','B2','C1','L1','L2','L3','L4','L5','GL','GS','AW','TL','BL','DL','FE',
+    'CA','WB','BN','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH'] as const;
 export type Tag = typeof Tags[number];
 
 export const TagName: Record<Tag, string> = {
@@ -37,8 +37,6 @@ export const TagName: Record<Tag, string> = {
     CA: 'COCA',
     WB: 'iWeb',
     BN: 'BNC',
-    BS: 'BNCS',
-    BW: 'BNCW',
     ZK: 'HSEE',
     GK: 'NECC',
     KY: 'NPEE',
@@ -86,8 +84,6 @@ export const TagCode: Record<string, Tag> = {
     coca:       'CA',
     iweb:       'WB',
     bnc:        'BN',
-    bncs:       'BS',
-    bncw:       'BW',
     hsee:       'ZK',
     ncee:       'GK',
     npee:       'KY',

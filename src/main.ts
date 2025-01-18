@@ -1,10 +1,10 @@
-// deno-lint-ignore-file no-explicit-any
+// deno-lint-ignore-file no-explicit-any no-empty
 import { parseArgs } from '@std/cli/parse-args';
 import { parse as yamlParse } from "@std/yaml";
 import { readConfig, writeConfig } from './config.ts';
 import { spellCheck } from './spell-check.ts';
 import { Vocabulary, delimiter } from "./vocabulary.ts";
-import type { Tag } from "./mod.ts";
+import type { Tag } from "./tag.ts";
 
 async function run() {
     // get command line args and read config file
@@ -18,15 +18,19 @@ async function run() {
     const revision = yamlParse(await Deno.readTextFile(args.revision)) as Record<string, Array<string>>;
     // read init data
     const vocabulary = new Vocabulary();
-    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); }
-    catch (e) { console.log('init data read error', e); }
+    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch {}
     // start run tasks
     const tasks = args._ as Array<string>;
     for (const conf of configs) {
         if (tasks.length && !tasks.includes(conf.name)) continue;
         console.log(`Dealing ${conf.name}...`);
         // read file and process
-        let text = await Deno.readTextFile(conf.path);
+        let text: string;
+        if (conf.path.startsWith('http')) {
+            const resp = await fetch(conf.path, { cache: 'force-cache' });
+            if (!resp.ok) throw new Error(`Network Error: Can not access ${conf.path}`);
+            text = await resp.text();
+        } else text = await Deno.readTextFile(conf.path);
         const miss: Record<string, Array<string>> = {};
         let words: () => Generator<Array<string>, void, unknown>;
         if (!conf.wordPath) {
