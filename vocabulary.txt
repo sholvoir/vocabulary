@@ -1,26 +1,5 @@
--able: LD
--al: LD
--ance: LD
--ation: LD
--ed: LD
--ence: LD
--er: LD
--ful: LD
--ic: LD
--ical: LD
--ing: LD
--ion: LD
--ish: LD
--ity: LD
--ive: LD
--less: LD
--ly: LD
--ment: LD
 -n't: CA
--ness: LD
--th: LD
 -tion: L4
--y: LD
 A level: L2
 A-road: L1
 ABC: L2
@@ -464,7 +443,7 @@ Gloucester: BN
 Gloucestershire: BN
 Gobi: TF
 God-given: WB
-God: BN,FS,LD,T4
+God: BN,FS,T4
 Goliath: WB
 Gondwanaland: TF
 Gorbachev: BN
@@ -1304,7 +1283,7 @@ abbess: ST
 abbey: BN,L2,ST,TF
 abbreviate: GR,ST,TF
 abbreviated: WB
-abbreviation: BE,GR,IS,LD,MC,T6
+abbreviation: BE,GR,IS,MC,T6
 abdicate: GM,GR,ST
 abdication: BE
 abdomen: FE,GR,KY,L1,ST
@@ -1331,7 +1310,7 @@ abjection: WB
 abjure: GR,ST
 ablate: GR
 ablaze: GR,L1,TF
-able: A2,BE,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,TF,VA,W1,ZK
+able: A2,BE,BN,CA,DL,FS,GK,GL,GS,L5,MC,OG,S1,T4,TF,VA,W1,ZK
 ablution: GR,ST
 abnegate: GR,ST
 abnegation: GR
@@ -1457,7 +1436,7 @@ accomplish: B2,BE,CA,GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF
 accomplished: GR,L2
 accomplishment: BE,BL,C1,CA,L1,TF,TL
 accord: BN,GL,GM,GR,IS,KY,L5,T4,T6,TF
-accordance: BL,C1,KY,L1,T4,T6,WB
+accordance: BL,C1,KY,L1,LD,T4,T6,WB
 according to: BN,L5,LD,MC,S2,W1
 according: CA,LD,T4
 accordingly: BL,BN,C1,GM,KY,L2,T4,TF,TL
@@ -1498,9 +1477,9 @@ acerbic: GR,ST
 acerbity: GR,ST
 acetate: TF
 acetazolamide: WB
-ache: GK,KY,L2,T4,ZK
+ache: GK,KY,L2,LD,T4,ZK
 achievable: BE,TF
-achieve: A2,BN,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,W1,ZK
+achieve: A2,BN,CA,GK,GL,IS,KY,L4,MC,S2,T4,T6,TF,W1,ZK
 achievement: B1,BE,BN,CA,GK,GL,IS,L2,MC,S3,T4,T6,TF,W2
 achiever: L1
 achingly: TF
@@ -1561,7 +1540,7 @@ actor: A1,BN,CA,GK,GL,KY,L3,LD,MC,T4,TF,VA,W3
 actress: A1,BN,CA,GK,KY,L3,LD,MC,T4,TF,TL
 actual: B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S1,T4,TF,W2
 actuality: L1
-actually: A2,BE,BN,CA,FS,GL,GS,L5,LD,S1,T4,W1,WB
+actually: A2,BE,BN,CA,FS,GL,GS,L5,S1,T4,W1,WB
 actuals: BE
 actuary: ST
 actuate: GR,ST
@@ -1646,7 +1625,7 @@ admissibility: WB
 admissible: ST
 admission: AW,BE,BL,BN,C1,CA,GK,IS,KY,L2,T4,TF,TL,W3
 admit: B1,BE,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,S2,T4,T6,TF,VA,W1
-admittance: BE,ST
+admittance: BE,LD,ST
 admittedly: L1,TF,WB
 admix: GR
 admonish: GR,ST
@@ -1680,8 +1659,8 @@ adulterate: GR,ST
 adultery: L1
 adulthood: TF
 adumbrate: GR,ST
-advance: B2,BE,BN,CA,GK,GL,IS,KY,L4,S2,T4,TF,W2,W3,WB
-advanced: B1,BE,BN,CA,IS,KY,L3,LD,MC,T4,TF,W3
+advance: B2,BE,BN,CA,GK,GL,IS,KY,L4,LD,S2,T4,TF,W2,W3,WB
+advanced: B1,BE,BN,CA,IS,KY,L3,MC,T4,TF,W3
 advancement: BE,L1,T4,TF,TL
 advantage: A2,BE,BN,CA,GK,GL,GR,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,W1,ZK
 advantageous: IS,L1,ST,T6,TF
@@ -1741,7 +1720,7 @@ aestival: GR
 afar: TF,WB
 affable: GR,L1,ST,TF
 affair: B2,BE,BN,CA,GK,GL,KY,L4,LD,S2,ST,T4,TF,W1
-affect: A2,BE,BN,CA,GK,GL,GS,IS,KY,L4,LD,MC,S2,T4,TF,VA,W1
+affect: A2,BE,BN,CA,GK,GL,GS,IS,KY,L4,MC,S2,T4,TF,VA,W1
 affectation: GR,ST
 affected: GR,ST
 affection: BN,C1,GK,GR,IS,KY,L2,T4,T6,TF
@@ -1793,8 +1772,8 @@ aftermarket: BE
 aftermath: C1,GM,GR,L2,TF
 afternoon: A1,BN,CA,DL,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,W2,ZK
 afterthought: ST
-afterward: AW,BL,CA,FE,GK,KY,LD,T4,TF,TL,WB
-afterwards: B2,BN,GK,KY,L3,S2,TF,W3
+afterward: AW,BL,CA,FE,GK,KY,T4,TF,TL,WB
+afterwards: B2,BN,GK,KY,L3,LD,S2,TF,W3
 again: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,WS,ZK
 against: A2,BE,BN,CA,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,ZK
 agape: GR,ST
@@ -1867,7 +1846,7 @@ aimless: L1,WB
 aimlessness: WB
 ain't: L2
 air base: L1
-air force: L3,MC,VA
+air force: L3,LD,MC,VA
 air power: L1
 air raid: L1
 air strike: L1,WB
@@ -1878,7 +1857,7 @@ air-conditioning: L1,T6
 air: A1,BE,BN,CA,DL,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,ZK
 airborne: GR,L1,TF
 aircraft carrier: L1
-aircraft: B2,BN,CA,GK,GL,KY,L4,MC,S2,T4,TF,W2
+aircraft: B2,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,W2
 airfare: TL,WB
 airfield: L1
 airflow: TF
@@ -1888,7 +1867,7 @@ airline: A2,BE,BN,CA,GK,GL,KY,L4,S2,T4,W3,ZK
 airliner: GM,L1
 airmail: BE,GK
 airman: L1
-airplane: AW,CA,FE,GK,L2,LD,T4,TF,TL,VA,ZK
+airplane: AW,CA,FE,GK,L2,T4,TF,TL,VA,ZK
 airport: A1,BE,BL,BN,CA,GK,KY,L4,LD,MC,S3,T4,TF,TL,VA,W3,ZK
 airship: L1
 airspace: GK
@@ -1941,7 +1920,7 @@ alienation: GR,IS
 alight: GR,IS,L1,ST
 align: BE,BL,C1,CA,FE,L2,TF,WB
 alignment: C1,FE,GM,IS,L1,T6
-alike: BE,BL,BN,C1,CA,GK,KY,L2,T4,TF,TL,WB
+alike: BE,BL,BN,C1,CA,GK,KY,L2,LD,T4,TF,TL,WB
 aliment: ST
 alimentary: ST
 alimentation: WB
@@ -2012,7 +1991,7 @@ along with: BN
 along: A2,BE,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,T4,TF,VA,W1,WK,ZK
 alongside: B2,BN,CA,GK,GL,IS,KY,L3,T4,T6,TF,W3
 aloof: GR,L1,ST,TF
-aloud: DL,GK,KY,L1,T4,TF,ZK
+aloud: DL,GK,KY,L1,LD,T4,TF,ZK
 alp: TF
 alpha: BL,BN,CA,GM,TF
 alphabet: GK,KY,L1,LD,MC,T4,TF
@@ -2036,7 +2015,7 @@ altimeter: GR,ST
 altiplano: WB
 altitude: AW,GK,GM,IS,KY,L1,ST,T4,TF
 alto: ST
-altogether: B2,BE,BN,CA,GK,GL,KY,L3,S2,T4,TF,W3
+altogether: B2,BE,BN,CA,GK,GL,KY,L3,LD,S2,T4,TF,W3
 altruism: GM,GR,ST
 altruist: ST
 altruistic: BE,IS,ST,TF
@@ -2228,7 +2207,7 @@ animated: GR,L2
 animation: B2,GR,TF
 animosity: GM,GR,L1,ST
 animus: GR
-ankle: A2,BN,CA,FE,GK,GR,KY,L2,T4,T6,TF
+ankle: A2,BN,CA,FE,GK,GR,KY,L2,LD,T4,T6,TF
 annalist: ST
 annals: ST
 anneal: GR
@@ -2239,11 +2218,11 @@ annihilation: ST
 anniversary: B2,BL,BN,CA,GK,IS,KY,L3,T4,T6,TL,VA
 annotate: GR,ST
 annotation: GR,TF
-announce: B1,BE,BN,CA,GK,GL,GM,GR,IS,KY,L5,LD,MC,S2,T4,T6,TF,VA,W1,ZK
-announcement: B1,BN,CA,GK,GL,GM,L3,LD,MC,S3,W3
+announce: B1,BE,BN,CA,GK,GL,GM,GR,IS,KY,L5,MC,S2,T4,T6,TF,VA,W1,ZK
+announcement: B1,BN,CA,GK,GL,GM,L3,MC,S3,W3
 announcer: BE,L1,T4,TL
 annoy: B1,BE,GK,GR,IS,KY,L1,LD,MC,S3,T4,T6,TL
-annoyance: GM,L1
+annoyance: GM,L1,LD
 annoyed: B1,GM,L1,MC,TF,WB
 annoying: B1,L1,MC,WB
 annual: B2,BE,BN,CA,GK,GL,IS,KY,L4,S2,ST,T4,T6,TF,W2,WB
@@ -2273,7 +2252,7 @@ anoxia: GR
 answer: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,T6,VA,W1,W2,WK,ZK
 answerable: GM
 answering machine: L1
-ant: BN,DL,GK,L1,OG,T4,TF,WB,ZK
+ant: BN,DL,GK,L1,LD,OG,T4,TF,WB,ZK
 antacid: WB
 antagonism: GM,GR,IS,L1,ST,TF,WB
 antagonist: GR,L1,ST
@@ -2370,8 +2349,8 @@ anxious: B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,S3,ST,T4,TF,W3,ZK
 anxiously: TF
 any: A1,A2,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,S2,T4,VA,W1,WK,WS,ZK
 anybody: A2,BN,CA,GK,GL,GS,L3,S1,T4,T6,W3,ZK
-anyhow: GK,IS,KY,L1,S3,T4,TL
-anymore: CA,GL,L2,LD,TF,ZK
+anyhow: GK,IS,KY,L1,LD,S3,T4,TL
+anymore: CA,GL,L2,TF,ZK
 anyone: A1,BN,CA,DL,GK,GL,GS,L4,LD,MC,S1,T4,TF,W1,WK,ZK
 anyplace: TF
 anything: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,T4,TF,W1,WK,ZK
@@ -2383,7 +2362,7 @@ apace: IS,TF
 apart from: BN
 apart: B1,BN,CA,GK,GL,IS,KY,L3,L4,LD,MC,S2,T4,TF,W1
 apartheid: L2
-apartment: A1,BN,CA,GK,GL,KY,L3,LD,S2,T4,T6,TF,W3
+apartment: A1,BN,CA,GK,GL,KY,L3,S2,T4,T6,TF,W3
 apathetic: GR,ST
 apathy: GR,L1,ST,T6
 ape: IS,KY,L1,TF
@@ -2420,7 +2399,7 @@ app: A2,CA,FE
 appal: GR,KY,L3
 appall: GR,KY,ST
 appalling: BN,GR,L1,ST,WB
-apparatus: BN,C1,GM,IS,KY,L1,OG,ST,T4,T6,TF
+apparatus: BN,C1,GM,IS,KY,L1,LD,OG,ST,T4,T6,TF
 apparel: GM,GR,L1
 apparent: B2,BN,CA,GK,GL,GM,IS,KY,L3,ST,T4,T6,TF,W2,WB
 apparently: B2,BN,CA,GL,IS,L4,S1,W2
@@ -2452,7 +2431,7 @@ applicable: BL,BN,C1,GM,GR,KY,L1,T4,T6,TF,TL
 applicant: B2,BE,BL,BN,GK,GR,IS,L2,T4,T6,TF,TL
 application: B1,BE,BN,CA,GK,GL,IS,KY,L3,S1,T4,T6,TF,W1
 apply: A2,BE,BN,CA,GK,GL,GR,GS,IS,KY,L4,MC,S1,T4,T6,TF,W1,WB
-appoint: BE,BN,C1,CA,GK,GL,GM,GR,IS,KY,L3,S2,T4,T6,TF,VA,W2
+appoint: BE,BN,C1,CA,GK,GL,GM,GR,IS,KY,L3,LD,S2,T4,T6,TF,VA,W2
 appointed: WB
 appointee: BE,L1
 appointment: B1,BE,BN,CA,GK,GL,IS,KY,L3,S2,T4,TF,W2,ZK
@@ -2480,7 +2459,7 @@ approachable: GR
 approaching: GR
 approbation: GM,GR,ST
 approbatory: GR
-appropriate: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,LD,S2,ST,T4,T6,TF,W1
+appropriate: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,W1
 appropriately: B2,BL,TF
 appropriation: GM,GR,T6
 approval: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,OG,S2,ST,T4,T6,TF,W3
@@ -2521,7 +2500,7 @@ arboriculture: ST
 arc: GM,IS,L1,ST,T6,TF,TL
 arcade: IS,L1,ST,TF
 arcane: GR,L1
-arch: BN,FE,GK,GM,IS,KY,L2,OG,T6,TF
+arch: BN,FE,GK,GM,IS,KY,L2,LD,OG,T6,TF
 archaeocyte: TF
 archaeological: GM,GR,TF
 archaeologist: GM,ST,TF
@@ -2579,14 +2558,14 @@ armful: ST
 armistice: GR
 armless: WB
 armload: WB
-armor: T6,TF
+armor: LD,T6,TF
 armored: GR
 armory: ST,TF
 armour: IS,L2
 armoury: L1
 armpit: FE,L1,WB
 arms race: L1
-arms: B2,FS,VA
+arms: B2,FS,LD,VA
 army: A2,BN,CA,FS,GK,GL,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
 aroma: GR,L1,ST,TF
 aromatherapy: L1,WB
@@ -2636,7 +2615,7 @@ artificial: AW,B2,BL,BN,CA,GK,GM,GR,IS,KY,L2,LD,MC,S3,ST,T4,T6,TF
 artificially: MC,TF
 artillery: GR,IS,L2,T6,VA
 artisan: GM,GR,L1,TF
-artist: A1,BN,CA,DL,GK,GL,KY,L4,LD,MC,S3,T4,W2,ZK
+artist: A1,BN,CA,DL,GK,GL,KY,L4,MC,S3,T4,W2,ZK
 artiste: TF
 artistic: AW,B2,BN,CA,KY,L2,ST,T4,TF,TL
 artistically: TF
@@ -2647,7 +2626,7 @@ as for: BN
 as if: BN
 as it were: BN
 as long as: BN
-as opposed to: BN,LD
+as opposed to: BN
 as soon as: BN
 as though: BN
 as to: BN
@@ -2678,7 +2657,7 @@ ashen: GR,ST
 ashore: KY,L1,T6,TF
 ashram: WB
 ashtray: L1
-aside: B2,BE,BN,CA,GK,GL,KY,L3,S3,T4,TF,W3
+aside: B2,BE,BN,CA,GK,GL,KY,L3,LD,S3,T4,TF,W3
 asinine: GR,ST
 ask: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,T4,TF,VA,W1,WK,ZK
 askance: GR,ST
@@ -2822,7 +2801,7 @@ atrabilious: GR
 atrocious: GR,L1,ST
 atrocity: C1,GR,L2,ST
 atrophy: GR,TF
-attach: B1,BE,BN,CA,GK,GL,GR,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W2
+attach: B1,BE,BN,CA,GK,GL,GR,IS,KY,L3,MC,S2,T4,T6,TF,VA,W2
 attachable: WB
 attache: ST
 attached: L2
@@ -2835,7 +2814,7 @@ attainment: GR,L1,TF
 attempt: B2,BE,BN,CA,GK,GL,GM,IS,KY,L5,LD,MC,OG,S2,T4,T6,TF,VA,W1,W2,ZK
 attempted: L2
 attend: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,S2,T4,TF,VA,W2
-attendance: BE,BN,C1,CA,GL,GM,IS,KY,L2,T4,T6,TF
+attendance: BE,BN,C1,CA,GL,GM,IS,KY,L2,LD,T4,T6,TF
 attendant: IS,KY,L2,T6,TF,TL,ZK
 attendee: BE,GM,TL
 attention: A2,BE,BN,CA,DL,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,TF,W1,ZK
@@ -2846,7 +2825,7 @@ attenuation: GR
 attest: GR,L1,ST,TF
 attic: GR,L1,TF
 attire: GR,TF,TL,WB
-attitude: B1,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,W1,WB,ZK
+attitude: B1,BE,BN,CA,GK,GL,IS,KY,L4,MC,S2,T4,T6,TF,W1,WB,ZK
 attn: BE
 attorney: BL,C1,CA,GM,GR,IS,KY,L3,S2,T4,T6,TF,TL,W3
 attosecond: BE
@@ -2885,7 +2864,7 @@ augment: GR,IS,KY,L1,ST,TF
 augmentation: GR,WB
 augur: ST
 augury: GR,WB
-aunt: A1,BN,CA,DL,GK,GL,KY,L4,S3,T4,W3,WK,ZK
+aunt: A1,BN,CA,DL,GK,GL,KY,L4,LD,S3,T4,W3,WK,ZK
 auntie: WB
 aura: GM,L1
 aural: KY,L1,ST,T4,TF
@@ -2908,7 +2887,7 @@ authorise: IS
 authoritarian: L1,WB
 authoritative: GM,GR,IS,L1,T4,T6,TF
 authorities: T6
-authority: AW,B1,BE,BL,BN,CA,GK,GM,IS,KY,L5,LD,MC,OG,T4,T6,TF,TL,W1,ZK
+authority: AW,B1,BE,BL,BN,CA,GK,GM,IS,KY,L5,MC,OG,T4,T6,TF,TL,W1,ZK
 authorization: BE,BL,GR,T6,TF,TL
 authorize: BE,BL,C1,CA,GM,GR,IS,L2,T6,TF,TL
 autism: GR
@@ -2938,13 +2917,13 @@ autonomy: AW,BE,BL,BN,C1,GM,GR,IS,KY,ST,T6,TF
 autopsy: GR,L1,ST,WB
 autoregressive: WB
 autotype: GR
-autumn: A1,BE,BN,GK,GL,KY,L3,MC,T4,TF,VA,W3,WK,ZK
+autumn: A1,BE,BN,GK,GL,KY,L3,LD,MC,T4,TF,VA,W3,WK,ZK
 autumnal: ST
 auxiliary: GR,IS,KY,L1,ST,T4,T6,TF
 auxin: GR
 avail: IS,KY,L1,T4,T6,TF
 availability: AW,BE,BL,BN,C1,CA,GM,IS,T6,TF,TL
-available: A2,BE,BN,CA,GK,GL,GS,IS,KY,L5,LD,MC,S1,T4,T6,TF,W1,ZK
+available: A2,BE,BN,CA,GK,GL,GS,IS,KY,L5,MC,S1,T4,T6,TF,W1,ZK
 avalanche: GM,GR,IS,L1,ST,TF
 avant-garde: L1,ST
 avant: TF
@@ -3064,7 +3043,7 @@ backwater: GM,L1,WB
 backyard: CA,L1
 bacon: GK,GR,KY,L2,S3,T4,T6,TF
 bacteremia: WB
-bacteria: AW,B2,CA,GR,L2,MC,ST,T4,T6,TF,TL,VA
+bacteria: AW,B2,CA,GR,L2,LD,MC,ST,T4,T6,TF,TL,VA
 bacterial: AW,IS,TF
 bacterium: BN,GK,GM,GR,KY,ST,T6,TF
 bad debt: L1
@@ -3134,7 +3113,7 @@ bamboozle: GR
 ban: B1,BE,BN,CA,GK,GL,GR,KY,L4,ST,T4,VA,W3
 banal: GR,L1,ST
 banality: GR,WB
-banana: A1,CA,DL,FE,GK,KY,L2,T4,TF,ZK
+banana: A1,CA,DL,FE,GK,KY,L2,LD,T4,TF,ZK
 band-pass filter: WB
 band: A1,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,T6,TF,W2,ZK
 bandage: GK,KY,L1,T6
@@ -3177,10 +3156,10 @@ barberry: WB
 barbershop: GK,WB
 barbie: WB
 bard: GR,TF
-bare: BN,C1,CA,GK,GR,IS,KY,L3,T4,TF,WB
+bare: BN,C1,CA,GK,GR,IS,KY,L3,LD,T4,TF,WB
 barefaced: GR,WB
 barefoot: L1
-barely: B2,BN,CA,GL,IS,KY,L3,LD,T4,T6,TF,WB
+barely: B2,BN,CA,GL,IS,KY,L3,T4,T6,TF,WB
 bargain: AW,B2,BE,BL,BN,GK,GR,IS,KY,L3,T4,T6,TF,TL
 bargaining: BE,BN,GM
 barge: GR,IS,T6,TF
@@ -3199,7 +3178,7 @@ barracks: GM
 barrage: GR,IS,L1
 barranca: GR
 barred: GR
-barrel: AW,BL,BN,C1,CA,GM,IS,KY,L3,ST,T4,TF,WB
+barrel: AW,BL,BN,C1,CA,GM,IS,KY,L3,LD,ST,T4,TF,WB
 barrelful: TF
 barren: GM,GR,IS,KY,L1,ST,T6,TF
 barricade: GR,L2,T6
@@ -3212,7 +3191,7 @@ basalt: TF
 base rate: L1
 base runner: WB
 base: B1,BE,BN,CA,FS,GK,GL,GM,GR,GS,KY,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WB,WK
-baseball: A2,BL,CA,KY,L3,LD,MC,S3,T4,T6,TF,TL,W2,ZK
+baseball: A2,BL,CA,KY,L3,MC,S3,T4,T6,TF,TL,W2,ZK
 based: A2,L5
 baseline: BL,L1
 basement: B2,BE,CA,GK,KY,L2,T6,TF,TL
@@ -3220,7 +3199,7 @@ baseplate: WB
 bash: L2,WB
 bashful: GR,WB
 bashfulness: GR
-basic: B1,BE,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,W1,ZK
+basic: B1,BE,BN,CA,GK,GL,KY,L4,MC,S2,T4,TF,W1,ZK
 basically: B2,BN,CA,GL,GS,L3,S1,T4,TF
 basics: L1
 basil: L1
@@ -3230,7 +3209,7 @@ basis point: L1
 basis: B1,BN,CA,GK,GL,IS,KY,L4,S2,T4,T6,W1
 bask: GR,L1,ST,TF
 basket: B2,BL,BN,CA,GK,KY,L2,LD,MC,OG,S3,T4,TF,TL,WK,ZK
-basketball: A2,CA,GK,KY,L2,LD,MC,T4,TL,ZK
+basketball: A2,CA,GK,KY,L2,MC,T4,TL,ZK
 basketmaking: TF
 basketry: TF,WB
 basketwork: TF
@@ -3246,12 +3225,12 @@ bat: AW,B2,BN,C1,CA,DL,FE,GK,KY,L3,S3,T4,TF,WB
 batch: BE,BL,GM,GR,IS,KY,L2,T6,TF
 bate: GR
 bath: A1,BN,CA,GK,GL,KY,L3,LD,MC,OG,S2,T4,TF,W3,WB,WK
-bathe: GK,KY,L2,T4,TF
+bathe: GK,KY,L2,LD,T4,TF
 bather: WB
 bathhouse: TF
 bathrobe: GK
 bathroom: A1,BN,CA,GK,KY,L3,MC,S2,T4,TL,W3,ZK
-bathtub: GK,LD
+bathtub: GK
 baton: GR,L1,ST
 batsman: L2
 battalion: GM,L2,ST
@@ -3271,7 +3250,7 @@ bay: BN,C1,CA,GK,IS,KY,L3,T4,TF
 bayonet: L1
 bazaar: GR,L1,T6
 be: A1,BN,CA,DL,DS,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,WS,ZK
-beach: A1,BN,CA,DL,GK,GL,KY,L3,LD,MC,S2,T4,TF,W2,WB,ZK
+beach: A1,BN,CA,DL,GK,GL,KY,L3,MC,S2,T4,TF,W2,WB,ZK
 beacon: GR,L1,TF
 bead: GM,IS,L1,T6,TF
 beaded: GR,WB
@@ -3325,7 +3304,7 @@ bedrock: L1,TF
 bedroom: A1,BN,CA,DL,GK,GL,L3,MC,S1,TF,W2,WB,WK,ZK
 bedside: L1,WB
 bedtime: L1
-bee: B1,BN,CA,DL,GK,KY,L2,OG,T4,TF,ZK
+bee: B1,BN,CA,DL,GK,KY,L2,LD,OG,T4,TF,ZK
 beef: A2,BL,BN,CA,GK,KY,L2,S3,T4,TF,ZK
 beefy: GR
 beehive: GK,GM,IS
@@ -3343,7 +3322,7 @@ beforehand: BE,IS,L1,S3,T6,TL
 befoul: GR
 befriend: GR,L1,ST,TF
 befuddle: GR,ST
-beg: B2,BE,BN,CA,GK,KY,L2,T4,TF
+beg: B2,BE,BN,CA,GK,KY,L2,LD,T4,TF
 began: FS
 beget: GR,ST,WB
 beggar: L1,T4,TF,WB
@@ -3552,7 +3531,7 @@ bimonthly: WB
 bin: A2,BN,GL,GR,IS,KY,L2,S2
 binary: AW,L1,TF
 binational: WB
-bind: BN,C1,CA,GL,GM,IS,KY,L2,T4,TF,WB
+bind: BN,C1,CA,GL,GM,IS,KY,L2,LD,T4,TF,WB
 binder: BE,L1
 binding: BN,L2
 binge: GR,L1,TF,WB
@@ -3603,7 +3582,7 @@ birds: FS
 birth control: L1
 birth rate: L1
 birth: A2,BE,BN,CA,GK,GL,KY,L3,LD,MC,OG,S2,T4,TF,W2,WK,ZK
-birthday: A1,BN,CA,DL,DS,GK,KY,L3,MC,S1,T4,TF,TL,W3,WK,ZK
+birthday: A1,BN,CA,DL,DS,GK,KY,L3,LD,MC,S1,T4,TF,TL,W3,WK,ZK
 birthplace: GK,L1
 birthrate: WB
 birthright: GR,ST,TF
@@ -3616,7 +3595,7 @@ bishop: BN,C1,CA,GK,T6
 bison: TF,WB
 bisphosphonate: WB
 bistro: IS,WB
-bit: A2,BN,CA,DL,FS,GK,GL,GS,IS,L5,MC,OG,S1,T4,TF,W1,WB,WK,ZK
+bit: A2,BN,CA,DL,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,TF,W1,WB,WK,ZK
 bitch: CA,L2,WB
 bitchy: WB
 bite: B1,BE,BN,CA,GK,GL,KY,L5,LD,MC,OG,S2,S3,T4,TF,VA,WK
@@ -3687,7 +3666,7 @@ blench: GR
 blend: BL,C1,CA,FE,IS,KY,L2,T4,TF
 blender: FE
 blepharoplasty: WB
-bless: BN,C1,CA,GK,GL,GR,KY,L2,S3,T4,TF
+bless: BN,C1,CA,GK,GL,GR,KY,L2,LD,S3,T4,TF
 blessed: L1,WB
 blessing: C1,CA,L2
 blight: GR,L1,ST,WB
@@ -3869,9 +3848,9 @@ border: B1,B2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S3,T4,T6,TF,VA,W2,WK,ZK
 borderline: L1
 bore: GL,GR,IS,KY,L3,T4,T6,TF
 boreal: GM,GR
-bored: A1,BN,GK,L2,LD,MC,S3,ZK
+bored: A1,BN,GK,L2,MC,S3,ZK
 boredom: GR,L1,TF
-boring: A1,BN,CA,GK,GR,L2,LD,MC,S2,T4,T6,ZK
+boring: A1,BN,CA,GK,GR,L2,MC,S2,T4,T6,ZK
 born: A1,BN,CA,FS,GK,KY,L4,LD,MC,S1,T4,VA,W2,WK,ZK
 borne: WB
 boron: TF
@@ -3926,6 +3905,7 @@ bow_1: BN,C1,CA,FE,GK,IS,KY,L1,L2,T4,TF,WB,ZK
 bow_2: BN,C1,CA,FE,GK,IS,KY,L1,L2,T4,TF,WB,ZK
 bowdlerize: GR,ST
 bowel: BN,KY,L2,T6,TF
+bowels: LD
 bower: GM,GR,L1
 bowerbird: GM
 bowhunting: WB
@@ -3973,7 +3953,7 @@ brandy: KY,L1,T4
 brant: TF
 branzino: WB
 brash: GR,L1
-brass: BN,GM,IS,KY,L2,OG,T4,TF
+brass: BN,GM,IS,KY,L2,LD,OG,T4,TF
 brasserie: L1
 brassy: GR
 brat: GR,L1
@@ -3996,7 +3976,7 @@ bread: A1,BN,CA,DL,DS,FS,GK,GL,KY,L3,LD,MC,OG,S2,T4,TF,VA,W3,WK,ZK
 breadbasket: TF
 breadcrumb: L1
 breadfruit: TF
-breadth: KY,L1,T4,TF
+breadth: KY,L1,LD,T4,TF
 break down: L2
 break-in: L2
 break-up: L2
@@ -4240,7 +4220,7 @@ burglar: BE,GK,IS,KY,L1,T6
 burglarize: GM
 burglary: L1
 burgundy: L1
-burial: BN,C1,GK,GR,L1,T6,TF,VA
+burial: BN,C1,GK,GR,L1,LD,T6,TF,VA
 burin: TF
 burlap: GR
 burlesque: GR,WB
@@ -4356,7 +4336,7 @@ cadre: L1
 cafeteria: GK,IS,KY,L1,T4,T6,TF,TL
 caffeine: FE,GM,L1
 café: A1,CA,L2,MC,T4,TL
-cage: BE,BN,CA,FE,GK,KY,L2,T4,TF,TL,WB,ZK
+cage: BE,BN,CA,FE,GK,KY,L2,LD,T4,TF,TL,WB,ZK
 cagey: GR
 caitiff: ST
 cajole: GR,L1,ST
@@ -4373,7 +4353,7 @@ calculate: B2,BE,BN,CA,GK,GL,GM,IS,KY,L2,LD,MC,S2,T4,T6,TF,W3,WB
 calculated: L3
 calculating: L1
 calculation: AW,BL,BN,C1,CA,MC,S2,T4,T6,TF,TL
-calculator: AW,BL,L1,S3,T4,TL,ZK
+calculator: AW,BL,L1,LD,S3,T4,TL,ZK
 calculus: AW,GM,ST,T6,TF
 calefaction: GM
 calefy: GR
@@ -4444,12 +4424,12 @@ candid: GR,L1,ST,TF
 candidacy: GR,L1
 candidate: B1,BE,BN,CA,GK,GL,GM,IS,KY,L4,ST,T4,T6,TF,VA,W2
 candidature: GR
-candle: B2,BN,CA,GK,KY,L2,S3,T4,TF,WK,ZK
+candle: B2,BN,CA,GK,KY,L2,LD,S3,T4,TF,WK,ZK
 candlelight: TF
 candlelit: WB
 candlestick: L1
 candor: GR,ST,WB
-candy: CA,GK,KY,L1,LD,S3,T4,TL,ZK
+candy: CA,GK,KY,L1,S3,T4,TL,ZK
 cane: IS,L2,T6,TF
 canine: GR,ST
 canister: L1,WB
@@ -4513,7 +4493,7 @@ capricious: GR,ST
 capsize: IS,L1,TF
 capstan: WB
 capsule: GK,GM,GR,IS,KY,L1,T6
-captain: B1,BL,BN,CA,DL,FS,GK,KY,L4,T4,TF,TL,W3,WB,ZK
+captain: B1,BL,BN,CA,DL,FS,GK,KY,L4,LD,T4,TF,TL,W3,WB,ZK
 captaincy: L1
 caption: BE,GK,GR,IS,L4,ST,T6,TF
 captious: GR,ST
@@ -4544,7 +4524,7 @@ carcinogen: GM
 carcinogenic: GM,WB
 carcinoma: WB
 card: A1,BE,BN,CA,DL,GK,GL,GS,KY,L4,LD,MC,OG,S1,T4,TF,W2,WK,ZK
-cardboard: L1,TF,WB
+cardboard: L1,LD,TF,WB
 cardiac: GM,GR,L1,ST,TF
 cardigan: GR,L1
 cardinal: GM,GR,IS,KY,L2,ST,T6,TF
@@ -4604,7 +4584,7 @@ carrion: GR,ST
 carrot: A1,GK,IS,KY,L2,S3,T4,TF,ZK
 carry out: VA
 carry: A1,BE,BN,CA,DL,DS,FS,GK,GL,GS,IS,KY,L5,LD,MC,S1,T4,T6,VA,W1,WK,ZK
-cart: BN,CA,IS,KY,L2,OG,T4,TF,TL
+cart: BN,CA,IS,KY,L2,LD,OG,T4,TF,TL
 carte: WB
 cartel: BE,BL,GM,L2
 cartilage: GM,L1,ST,TF
@@ -4724,8 +4704,8 @@ cedar: L1,TF
 cede: BE,GR,L1
 cefotaxime: WB
 cefuroxime: WB
-ceiling: B1,BE,BL,BN,CA,FE,GK,KY,L2,LD,MC,S3,T4,TF,TL,W3,ZK
-celebrate: A2,BN,CA,GK,GL,IS,KY,L3,LD,MC,ST,T4,TF,VA,W3,ZK
+ceiling: B1,BE,BL,BN,CA,FE,GK,KY,L2,MC,S3,T4,TF,TL,W3,ZK
+celebrate: A2,BN,CA,GK,GL,IS,KY,L3,MC,ST,T4,TF,VA,W3,ZK
 celebrated: GR,L2,ST
 celebration: B1,BE,BN,CA,GK,GL,L3,MC,S3,TF,WB
 celebratory: TF
@@ -4743,7 +4723,7 @@ cellphone: S2,TL,W3
 cellular: GM,GR,L1,TF
 cellulite: L1
 cellulose: TF
-cement: BE,GR,IS,KY,L2,T4,T6,TF
+cement: BE,GR,IS,KY,L2,LD,T4,T6,TF
 cementation: TF
 cemetery: C1,GR,IS,KY,L2,T6
 cenote: TF
@@ -4817,13 +4797,13 @@ chain store: GK
 chain: B1,B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,T4,T6,TF,W2
 chair: A1,B2,BE,BN,CA,DL,DS,GK,GL,KY,L4,LD,MC,S1,T4,TF,W2,WK,ZK
 chairman: B2,BN,CA,GK,GL,KY,L4,S3,T4,VA,W1,ZK
-chairperson: TL
+chairperson: LD,TL
 chairwoman: GK
 chaise: GM
 chakra: FE
 chalet: L1
 chalice: GM,WB
-chalk: GK,KY,L1,OG,T4,TF,ZK
+chalk: GK,KY,L1,LD,OG,T4,TF,ZK
 chalky: TF
 challenge: B1,B2,BE,BN,CA,GK,GL,IS,KY,L4,S2,S3,T4,T6,TF,W2,W3,ZK
 challenged: L2
@@ -4877,7 +4857,7 @@ charismatic: GR,L1,TF
 charitable: BL,GR,L2,TF,TL
 charity: A2,BN,CA,GL,GM,GR,IS,KY,L3,S3,T4,W3,ZK
 charlatan: GR,ST,WB
-charm: BN,C1,CA,GL,GR,IS,KY,L2,T4,T6,TF
+charm: BN,C1,CA,GL,GR,IS,KY,L2,LD,T4,T6,TF
 charmed: L1
 charming: B2,BN,L2,ST,T4,WB
 charred: L1
@@ -4927,7 +4907,7 @@ cheek: B2,BN,CA,GK,GL,KY,L2,LD,MC,T4,W3
 cheekbone: L1
 cheeky: GR,L1
 cheep: TF
-cheer: AW,B2,BL,BN,CA,DL,GK,IS,KY,L3,T4,TF,TL,VA,ZK
+cheer: AW,B2,BL,BN,CA,DL,GK,IS,KY,L3,LD,T4,TF,TL,VA,ZK
 cheerful: B1,BE,BN,GK,L2,LD,T4,TF
 cheerleader: L1
 cheerleading: WB
@@ -4947,7 +4927,7 @@ chemosensory: WB
 chemotherapy: AW,L1
 chemurgy: TF
 chenille: WB
-cheque: BE,BL,BN,GK,KY,L2,MC,S2,T4
+cheque: BE,BL,BN,GK,KY,L2,LD,MC,S2,T4
 chequebook: BE
 cherish: IS,KY,L1,ST,T4,T6,TF,WB
 cherry-pick: WB
@@ -4959,7 +4939,7 @@ chesterfield: WB
 chestnut: L1,T6
 chesty: GR
 chevron: GR,L1
-chew: BN,CA,GK,IS,KY,L2,LD,T4,T6,TF,ZK
+chew: BN,CA,GK,IS,KY,L2,T4,T6,TF,ZK
 chewy: WB
 chiasmus: WB
 chic: GR,IS,L1,TF
@@ -4978,7 +4958,7 @@ child: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,T4,VA,W1,WB,WK,ZK
 childbearing: WB
 childbirth: L1
 childcare: L1
-childhood: B1,BN,CA,GK,GL,KY,L3,T4,TF,W3
+childhood: B1,BN,CA,GK,GL,KY,L3,LD,T4,TF,W3
 childish: L1,T4
 childless: L1,TF
 childlike: L1
@@ -4990,7 +4970,7 @@ chilly: L1,ST,TF,TL
 chime: L1,WB
 chimera: GR
 chimerical: GR,ST,WB
-chimney: GK,KY,L1,T4,TF
+chimney: GK,KY,L1,LD,T4,TF
 chimp: TF,WB
 chimpanzee: L1,TF
 chin: BN,CA,FE,IS,KY,L2,LD,MC,OG,T4
@@ -5094,7 +5074,7 @@ cilia: ST
 ciliate: GR,ST
 cinch: GR
 cinder: GR
-cinema: A1,AW,BL,BN,GK,KY,L3,MC,S3,T4,TF,TL,ZK
+cinema: A1,AW,BL,BN,GK,KY,L3,LD,MC,S3,T4,TF,TL,ZK
 cinematography: IS
 cinnamon: L1
 cipher: GR,ST,TF
@@ -5149,7 +5129,7 @@ civilian: BN,C1,CA,GK,GL,GR,IS,KY,L3,T4,T6,TF,VA
 civilisation: KY
 civilise: KY
 civility: GR,TF
-civilization: AW,B2,CA,GK,GM,IS,KY,L2,T4,TF
+civilization: AW,B2,CA,GK,GM,IS,KY,L2,LD,T4,TF
 civilize: KY,L1,T4
 civilized: L1,T4
 clack: WB
@@ -5271,7 +5251,7 @@ clobber: L1
 clock: A1,BN,CA,DL,GK,GL,GS,KY,L3,LD,MC,OG,S2,T4,TF,VA,W3,WK,ZK
 clockmaker: TF
 clockwise: GM,IS,KY,L1,ST,T6,TF
-clockwork: L1
+clockwork: L1,LD
 cloddish: GR
 clodhopping: GR
 clog: GM,GR,L1,TF
@@ -5605,8 +5585,8 @@ commotion: GR,IS,L1,ST
 communal: GM,GR,L2,TF
 communally: TF
 commune: L1,TF
-communicate: A2,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,T6,TF,VA,W3,ZK
-communication: B1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,T6,TF,W1,ZK
+communicate: A2,BN,CA,GK,GL,KY,L3,MC,S3,T4,T6,TF,VA,W3,ZK
+communication: B1,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,T6,TF,W1,ZK
 communicative: AW,ST,TF
 communion: L1
 communiqué: L1
@@ -5624,7 +5604,7 @@ compaction: TF
 compactness: TF
 compadre: WB
 compages: GR
-companion: BN,C1,CA,GK,IS,KY,L2,T4,T6,TF
+companion: BN,C1,CA,GK,IS,KY,L2,LD,T4,T6,TF
 companionate: GM
 companionship: L1,TF
 company car: L1
@@ -5674,7 +5654,7 @@ complaisant: GR,ST
 complement: AW,BE,BL,C1,GM,IS,KY,L2,ST,T4,T6,TF
 complementary: GR,IS,KY,L1,ST,TF
 complete: A1,BE,BN,CA,DL,FS,GK,GL,IS,KY,L5,LD,MC,OG,S2,T4,VA,W1,WK,ZK
-completely: A2,BN,CA,GL,GS,LD,MC,S1,T4,W2
+completely: A2,BN,CA,GL,GS,MC,S1,T4,W2
 completion: B2,BL,BN,T6,TF,TL,WB
 complex: B1,B2,BE,BN,CA,GK,GL,GM,IS,KY,L4,OG,S3,ST,T4,T6,TF,VA,W2
 complexion: GR,IS,L1,T6
@@ -5682,7 +5662,7 @@ complexity: BE,BN,C1,CA,GL,IS,L2,T6,TF
 compliance: BL,BN,C1,CA,GR,IS,L1,TL
 compliant: GR,ST
 complicate: BE,GL,GR,IS,KY,L1,ST,T4,TF
-complicated: B2,BE,BN,CA,IS,KY,L3,LD,MC,S2,T4,T6,TF
+complicated: B2,BE,BN,CA,IS,KY,L3,MC,S2,T4,T6,TF
 complication: AW,BN,C1,GM,IS,KY,L2,ST,T6,TF,TL
 complicity: GR,L1,ST
 compliment: BE,GR,IS,KY,L2,ST,T6,TF,TL
@@ -5895,7 +5875,7 @@ conjurer: GR
 connate: GR
 connect: A2,BN,CA,GK,GL,IS,L2,LD,MC,S2,T4,TF,VA,W2,ZK
 connected: A2,L2,WB
-connection: B1,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,T4,T6,TF,W2,WB
+connection: B1,BE,BN,CA,GK,GL,IS,KY,L3,MC,OG,S3,T4,T6,TF,W2,WB
 connective tissue: ST
 connective: TF
 connectivity: T4
@@ -5911,7 +5891,7 @@ conquer: C1,GR,IS,KY,L2,T4,T6,TF
 conqueror: L1,T6,TF
 conquest: IS,KY,L1,T4,TF
 consanguinity: GR
-conscience: BN,C1,CA,GK,GM,GR,IS,KY,L2,T4
+conscience: BN,C1,CA,GK,GM,GR,IS,KY,L2,LD,T4
 conscientious: GR,IS,KY,L1,ST,T6,TF,WB
 conscious: AW,B2,BL,BN,CA,FE,IS,KY,L3,LD,MC,OG,S2,ST,T4,T6,TF,W3,WB
 consciously: TF
@@ -5955,7 +5935,7 @@ console: GR,IS,KY,L2,T6,TF
 consolidate: BE,BL,C1,GM,GR,IS,KY,L2,T6,TF
 consolidation: BL,IS,TF,WB
 consonance: GR
-consonant: AW,FS,GR,TF
+consonant: AW,FS,GR,LD,TF
 consort: GR,L1,TF
 consortium: BE,BL,GM,IS,L2,TF,WB
 conspecific: WB
@@ -6010,8 +5990,8 @@ contact: B1,BN,CA,GL,GR,GS,IS,KY,L4,S2,ST,T4,T6,TF,W2
 contactor: WB
 contagion: GR
 contagious: GR,KY,L1,TF
-contain: A2,BE,BN,CA,FS,GK,GL,GR,IS,KY,L4,MC,S2,T4,TF,VA,W1,WB,WK
-container: AW,B1,BE,BL,BN,CA,GK,KY,L2,LD,MC,T4,TF,TL,VA
+contain: A2,BE,BN,CA,FS,GK,GL,GR,IS,KY,L4,LD,MC,S2,T4,TF,VA,W1,WB,WK
+container: AW,B1,BE,BL,BN,CA,GK,KY,L2,MC,T4,TF,TL,VA
 containerization: BE
 containerize: WB
 containment: GR,L1
@@ -6028,8 +6008,8 @@ contemptible: GR,ST
 contemptuous: GM,GR,L1,ST
 contend: BE,BL,C1,CA,GM,GR,IS,KY,L2,ST,T6,TF
 contender: C1,L2,TF,WB
-content_1: B1,BE,BN,C1,CA,GK,GL,GR,IS,L2,L3,S3,T4,T6,TF,W2,WB
-content_2: B1,BE,BN,C1,CA,GK,GL,GR,IS,L2,L3,S3,T4,T6,TF,W2,WB
+content_1: B1,BE,BN,C1,CA,GK,GL,GR,IS,L2,L3,LD,S3,T4,T6,TF,W2,WB
+content_2: B1,BE,BN,C1,CA,GK,GL,GR,IS,L2,L3,LD,S3,T4,T6,TF,W2,WB
 contented: GR,L1
 contention: C1,GR,IS,L2,T6,TF
 contentious: GR,L1,ST,WB
@@ -6150,7 +6130,7 @@ cookbook: L1,TL,WB
 cooker: A2,GK,L1,S3,ZK
 cookery: IS,L1
 cookie-cutter: WB
-cookie: CA,DL,GK,L1,LD,S3,TL,W3,WB,ZK
+cookie: CA,DL,GK,L1,S3,TL,W3,WB,ZK
 cooking: A1,BN,CA,L3
 cookout: TF
 cool: A1,B1,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,S2,T4,TF,VA,W3,WK,ZK
@@ -6172,7 +6152,7 @@ copier: TL
 copilot: TF
 copious: GR,L1,ST,TF
 copolymer: WB
-copper: BL,BN,C1,GM,KY,L2,OG,T4,TF,WK
+copper: BL,BN,C1,GM,KY,L2,LD,OG,T4,TF,WK
 copperhead: WB
 coppersmith: TF
 coproduce: WB
@@ -6183,7 +6163,7 @@ copywriter: BE
 coquetry: GR
 coquette: GR
 coral: BN,GK,GM,IS,L1,TF,WB
-cord: AW,CA,GM,IS,KY,L2,OG,T4,T6,TF,TL
+cord: AW,CA,GM,IS,KY,L2,LD,OG,T4,T6,TF,TL
 cordial: GR,IS,KY,L1,ST,T4,T6,TF
 cordiality: GR
 cordite: WB
@@ -6293,7 +6273,7 @@ counseling: CA,T4,TF
 counselling: BN,C1
 counsellor: C1,IS
 counselor: CA,ST,T6,TF,TL
-count: A2,B1,BE,BN,CA,DL,FS,GK,GL,KY,L4,MC,S2,T4,T6,TF,VA,W3,WK,ZK
+count: A2,B1,BE,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,S2,T4,T6,TF,VA,W3,WK,ZK
 countdown: L1
 countenance: GR,L1
 counter-productive: BE,L1
@@ -6372,8 +6352,9 @@ coveted: L1
 covetous: GR
 covin: GR
 cow: A1,BN,CA,DL,DS,FS,GK,GL,GR,KY,L3,LD,MC,OG,S2,T4,TF,VA,ZK
-coward: GR,IS,KY,L1,T4,T6
+coward: GR,IS,KY,L1,LD,T4,T6
 cowardice: GR,WB
+cowardly: LD
 cowboy: CA,GK,L2,TF,WB
 cower: GR,ST
 cowhand: TF
@@ -6432,7 +6413,7 @@ crayfish: TF
 crayon: DL,GK,GR,L1,TF,ZK
 craze: L1,TF
 crazed: L1
-crazy: A2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,ZK
+crazy: A2,BE,BN,CA,GK,GL,KY,L3,MC,S2,T4,TF,ZK
 creak: L1
 cream: A1,B1,BE,BN,CA,GK,GL,KY,L3,LD,MC,T4,ZK
 creamer: WB
@@ -6465,7 +6446,7 @@ credulity: GR,ST
 credulous: GR
 creed: GR,L1,TF,WB
 creek: CA,GR,L1,TF
-creep: BN,C1,GR,IS,KY,L2,T4,TF
+creep: BN,C1,GR,IS,KY,L2,LD,T4,TF
 creeper: TF
 creepy: L1,WB
 crema: WB
@@ -6487,7 +6468,7 @@ crib: GR,L1
 cribber: GR
 cribriform: WB
 crick: WB
-cricket: BN,IS,KY,L3,T4
+cricket: BN,IS,KY,L3,LD,T4
 cricketer: L1
 cricketing: L1
 cried: FS
@@ -6511,8 +6492,8 @@ critic: B2,BN,CA,GL,GM,GR,IS,KY,L4,T4,T6,TF,W3
 critical: B2,BN,CA,GL,GM,GR,IS,KY,L4,S3,T4,T6,TF,W2,WB
 critically: AW,B2,TF
 criticise: BN,IS,KY
-criticism: B2,BN,CA,GL,GM,KY,L4,LD,MC,S3,T4,T6,TF,W2
-criticize: B2,BN,CA,GL,GR,KY,L3,LD,MC,ST,T4,T6,TF,VA,W3,ZK
+criticism: B2,BN,CA,GL,GM,KY,L4,MC,S3,T4,T6,TF,W2
+criticize: B2,BN,CA,GL,GR,KY,L3,MC,ST,T4,T6,TF,VA,W3,ZK
 critique: AW,C1,CA,GM,GR,L1,TF,WB
 critter: WB
 croak: GR
@@ -6568,7 +6549,7 @@ crude: AW,BL,BN,C1,GM,GR,IS,KY,L2,ST,T4,TF
 crudely: TF
 crudity: GR,WB
 cruel: B1,BE,BN,CA,GK,IS,KY,L2,LD,MC,OG,S3,T4,TF,WB,ZK
-cruelty: T4,T6
+cruelty: LD,T4,T6
 cruise missile: L1
 cruise: B2,BL,CA,IS,KY,L3,T4,T6,TF,TL
 cruiser: L1
@@ -6624,7 +6605,7 @@ culpable: GR,ST,TF
 culprit: GR,KY,L1
 cult: BN,C1,GM,GR,L2,TF,WB
 cultch: GR
-cultivate: BE,C1,FE,GM,GR,IS,KY,L2,T4,T6,TF
+cultivate: BE,C1,FE,GM,GR,IS,KY,L2,LD,T4,T6,TF
 cultivated: GM,GR,L1
 cultivation: GM,IS,TF
 cultural: B1,BN,CA,GL,IS,L3,TF,W2
@@ -6670,7 +6651,7 @@ curriculum: AW,B2,BE,BN,CA,GK,GM,IS,KY,L2,T4,T6,TF,WB
 currier: TF
 currish: GR
 curry: BE,IS,L1
-curse: IS,KY,L2,T4,T6
+curse: IS,KY,L2,LD,T4,T6
 cursed: L1
 cursive: GR
 cursorial: GM
@@ -6692,7 +6673,7 @@ custodial: TF
 custodian: GR,IS,L1,ST,TF
 custody: BN,C1,CA,GR,L2
 custom-made: WB
-custom: B1,BN,CA,GK,GL,IS,KY,L2,MC,T4,T6,TF,VA,W3,ZK
+custom: B1,BN,CA,GK,GL,IS,KY,L2,LD,MC,T4,T6,TF,VA,W3,ZK
 customarily: TF
 customary: GR,IS,KY,L1,T6,TF
 customer: A1,BE,BN,CA,GK,GL,KY,L4,LD,MC,S1,T4,TF,W1
@@ -6718,7 +6699,7 @@ cyanide: L1,TF
 cyanoacrylate: WB
 cyberspace: BE,KY
 cyclase: WB
-cycle: A2,BE,BN,CA,GK,GL,KY,L3,S3,T4,T6,TF,W3
+cycle: A2,BE,BN,CA,GK,GL,KY,L3,LD,S3,T4,T6,TF,W3
 cyclic: AW,GM,TF
 cyclical: BL,GR,L1,ST
 cyclin: WB
@@ -6791,9 +6772,9 @@ danseuse: GR
 dapper: GR
 dapple: TF
 dappled: GR
-dare: B2,BN,CA,GK,GL,KY,L3,S3,T4,T6,TF,W3,WB,ZK
+dare: B2,BN,CA,GK,GL,KY,L3,LD,S3,T4,T6,TF,W3,WB,ZK
 daredevil: GR
-daring: L2,T4
+daring: L2,LD,T4
 dark: A1,A2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,T4,TF,VA,W1,WK,ZK
 darken: L1,TF
 darkened: L1
@@ -6861,14 +6842,14 @@ deaf: BN,GK,IS,KY,L2,MC,T4,TF,VA,W3,ZK
 deafen: L1,T6
 deafening: L1
 deafness: MC,VA
-deal with: LD,MC
+deal with: MC
 deal: A2,B1,BE,BN,CA,FS,GK,GL,GS,KY,L3,L5,LD,MC,S1,T4,T6,TF,VA,W1,ZK
 dealer: B2,BE,BN,CA,GL,IS,KY,L3,T6,TF,W3
 dealership: GM,L1,TL
 dealing: BN,TF
 dealings: L2
 dean: IS,KY,L1,T6
-dear: A1,A2,BE,BN,CA,DL,GK,GL,GS,KY,L3,OG,S1,S2,T4,W2,ZK
+dear: A1,A2,BE,BN,CA,DL,GK,GL,GS,KY,L3,LD,OG,S1,S2,T4,W2,ZK
 dearest: L1
 dearly: L1
 dearth: GR,IS,ST,TF
@@ -6936,7 +6917,7 @@ decidedly: L1,T6
 deciduous: GR,TF
 deciliter: WB
 decimal point: ST
-decimal: BE,BL,FS,GM,IS,KY,ST,T6,TF
+decimal: BE,BL,FS,GM,IS,KY,LD,ST,T6,TF
 decimate: GM,GR,L1
 decipher: BE,GM,GR,IS,L1,TF,WB
 decision-making: BE,BN,L2
@@ -6947,8 +6928,8 @@ deck: B2,BN,CA,IS,KY,L3,T4,TF,TL,WB
 deckchair: WB
 declaim: GR,ST
 declamation: GR
-declaration: BE,BL,BN,C1,CA,IS,KY,L3,T4,T6,TF
-declare: B2,BE,BN,CA,GK,GL,IS,KY,L4,T4,TF,VA,W2
+declaration: BE,BL,BN,C1,CA,IS,KY,L3,LD,T4,T6,TF
+declare: B2,BE,BN,CA,GK,GL,IS,KY,L4,LD,T4,TF,VA,W2
 declassify: GR
 declension: GM
 declination: GR
@@ -6995,7 +6976,7 @@ deep-seated: L1
 deep: A2,B1,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,T4,TF,VA,W1,W3,WK,ZK
 deepen: FE,L2,T4,T6,TF
 deeply: B2,BE,BN,CA,GK,GL,W3
-deer: CA,GK,KY,L2,T4,TF,WB,WK
+deer: CA,GK,KY,L2,LD,T4,TF,WB,WK
 deface: GR
 defalcate: GR
 defamation: GR
@@ -7031,7 +7012,7 @@ defile: GR,IS
 defilement: WB
 define: B1,BN,CA,GL,GM,IS,KY,L3,S2,T4,T6,TF,VA,W2,WB
 defined: L1,WB
-definite: AW,B1,BE,BN,GR,IS,KY,L2,LD,MC,S3,ST,T4,T6,TF,TL
+definite: AW,B1,BE,BN,GR,IS,KY,L2,MC,S3,ST,T4,T6,TF,TL
 definitely: A2,BN,CA,GL,GS,L3,MC,S1,T4,T6
 definition: B1,BN,CA,GL,GM,GR,IS,KY,L3,S2,T4,T6,TF,W2,WB
 definitive: GM,GR,IS,L2,T6,TF
@@ -7084,7 +7065,7 @@ delegitimize: WB
 delete: B2,BE,BL,CA,GK,GR,IS,KY,L1,T4,TL
 deleterious: GM,GR,ST
 delft: TF
-deliberate: B2,BL,BN,GM,GR,IS,KY,L3,LD,MC,ST,T4,T6,TF
+deliberate: B2,BL,BN,GM,GR,IS,KY,L3,MC,ST,T4,T6,TF
 deliberately: AW,B2,BL,BN,CA,GK,MC,S3,T6,TF
 deliberation: GR,L1,TF
 delicacy: GM,L1
@@ -7092,7 +7073,7 @@ delicate: BN,C1,CA,GK,GM,GR,IS,KY,L2,LD,MC,OG,T4,T6,TF,TL
 delicateness: WB
 delicatessen: WB
 delicious: A1,BN,CA,DL,GK,IS,KY,L2,T4,TL,WB,ZK
-delight: B2,BN,GK,GL,GR,KY,L3,T4,TF
+delight: B2,BN,GK,GL,GR,KY,L3,LD,T4,TF
 delighted: B2,BN,GK,L3
 delightful: BN,L2,T4,TF
 delimit: GR,WB
@@ -7265,14 +7246,14 @@ derrick: TF
 desalination: TF
 desalinize: GR
 descant: GR
-descend: BN,C1,CA,FE,GM,GR,IS,KY,L2,T4,T6,TF
+descend: BN,C1,CA,FE,GM,GR,IS,KY,L2,LD,T4,T6,TF
 descendant: GR,KY,L1,T6,TF
 descended: L1
 descendent: AW,ST
 descent: BN,C1,IS,KY,L1,T6,TF
 describe: A1,BN,CA,DL,FS,GK,GL,IS,KY,L5,LD,MC,S2,T4,T6,VA,W1,ZK
 description: A1,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,S2,T4,TF,W2
-descriptive: GR,L1,T6,TF,TL
+descriptive: GR,L1,LD,T6,TF,TL
 descriptor: AW
 descry: GR,ST
 desecrate: GR,L1
@@ -7289,7 +7270,7 @@ desiccant: GR,ST
 desiccate: GR,ST
 desiccation: TF
 desideratum: GR
-design: A1,BE,BN,CA,FS,GK,GL,IS,KY,L5,LD,MC,OG,S2,S3,T4,T6,VA,W1,ZK
+design: A1,BE,BN,CA,FS,GK,GL,IS,KY,L5,MC,OG,S2,S3,T4,T6,VA,W1,ZK
 designate: BE,BL,BN,C1,GM,GR,IS,KY,L2,ST,T6,TF,TL
 designation: BE,GR,TF
 designee: WB
@@ -7309,7 +7290,7 @@ desperately: B2,BN,CA
 desperation: L1
 despicable: GR,ST
 despise: GM,GR,IS,KY,L1,T4,T6,TF
-despite: B1,BE,BN,CA,GL,IS,KY,L4,LD,MC,S3,T4,T6,TF,W1
+despite: B1,BE,BN,CA,GL,IS,KY,L4,MC,S3,T4,T6,TF,W1
 despoil: GR,IS,ST,TF
 despondency: WB
 despondent: GR,ST,TF
@@ -7392,7 +7373,7 @@ deviant: GR,L1,TF
 deviate: GM,GR,IS,KY,L1,T6,TF,WB
 deviation: AW,BL,GM,GR,T6,TF
 device: A2,BN,CA,GL,IS,KY,L3,S3,T4,T6,TF,VA,W2,WB
-devil: BN,C1,CA,KY,L2,S3,T4
+devil: BN,C1,CA,KY,L2,LD,S3,T4
 devilish: WB
 devious: GR,L1,ST
 devise: BE,BL,BN,C1,GM,GR,IS,KY,L2,T4,T6,TF
@@ -7427,7 +7408,7 @@ dialect: AW,BE,GM,GR,IS,KY,L1,ST,T4,TF
 dialog: DL,GL,KY,T4
 dialogue: A1,BN,CA,GK,L3,TF,ZK
 diameter: AW,BN,GM,IS,KY,L2,ST,T4,TF
-diamond: B1,BL,BN,CA,GK,L2,S3,T4,TF,TL
+diamond: B1,BL,BN,CA,GK,L2,LD,S3,T4,TF,TL
 diamondback: WB
 diaper: GM,L1
 diaphanous: GR,ST
@@ -7570,7 +7551,7 @@ dirk: GR
 dirt: B1,BE,BN,CA,GK,KY,L2,LD,MC,S3,T4,TF,VA
 dirty trick: L1
 dirty: A1,BE,BN,CA,DL,GK,GL,KY,L3,LD,MC,OG,S2,T4,W3,WB,WK,ZK
-dis-: LD,VA
+dis-: VA
 disability: AW,B2,BL,BN,CA,GK,GM,L2,TF,WB
 disable: BL,IS,KY,L1,T4,T6,TL
 disabled: B2,BN,CA,GK,L2,MC,S3,W3,ZK
@@ -7651,8 +7632,9 @@ discordance: WB
 discordant: GR
 discount: B1,B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S3,ST,T4,T6,TF
 discountenance: ST
-discourage: B2,BL,BN,CA,GK,GR,IS,KY,L2,T4,T6,TF
+discourage: B2,BL,BN,CA,GK,GR,IS,KY,L2,LD,T4,T6,TF
 discouraged: WB
+discouragement: LD
 discouraging: GR
 discourse: AW,BN,C1,CA,GR,KY,L1,ST,T6,TF
 discourteous: GR,IS,ST
@@ -7673,11 +7655,11 @@ discrimination: AW,BL,BN,C1,CA,GK,L2,T4,T6,TF,WB
 discriminatory: GR,L1
 discursive: GR
 discus: WB
-discuss: A1,BE,BN,CA,GK,GL,GS,L4,LD,MC,S2,T4,VA,W1,ZK
-discussion: A2,BN,CA,GK,GL,GS,L4,LD,MC,OG,S2,T4,TF,W1,ZK
+discuss: A1,BE,BN,CA,GK,GL,GS,L4,MC,S2,T4,VA,W1,ZK
+discussion: A2,BN,CA,GK,GL,GS,L4,MC,OG,S2,T4,TF,W1,ZK
 disdain: GR,IS,L1,ST,TF
 disdainful: GM,GR
-disease: A2,BE,BN,CA,GK,GL,KY,L4,LD,MC,OG,S3,T4,T6,TF,VA,W1,WB,ZK
+disease: A2,BE,BN,CA,GK,GL,KY,L4,MC,OG,S3,T4,T6,TF,VA,W1,WB,ZK
 diseased: L1,WB
 disembodied: GR
 disembosom: GR
@@ -7705,7 +7687,7 @@ disgruntled: GR,L1,WB
 disguise: BL,GR,IS,KY,L2,ST,T4,T6,TF
 disgust: GR,IS,KY,L2,OG,T4,T6,TF,TL
 disgusted: L1
-disgusting: GK,L1,LD,S2
+disgusting: GK,L1,S2
 dish: A1,BE,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,WK,ZK
 dishabituate: TF
 disharmony: IS
@@ -7881,7 +7863,7 @@ disturbed: L2
 disturbing: BN,C1,CA,GK
 disuse: TF
 disused: L1
-ditch: IS,KY,L2,T4,TF
+ditch: IS,KY,L2,LD,T4,TF
 dither: GR,L1
 ditzy: WB
 diuretic: L1
@@ -7913,7 +7895,7 @@ diviner: GR,TF
 diving: L1,WB
 divinity: L1
 divisible: GM,ST
-division: B2,BE,BN,CA,FS,GK,GL,GM,IS,KY,L4,MC,OG,S3,ST,T4,T6,TF,W1
+division: B2,BE,BN,CA,FS,GK,GL,GM,IS,KY,L4,LD,MC,OG,S3,ST,T4,T6,TF,W1
 divisional: IS
 divisive: GM,GR,L1
 divisor: ST
@@ -7934,7 +7916,7 @@ doctoral: IS,T4
 doctorate: GM,IS,KY,L1
 doctrinaire: GR,ST,WB
 doctrine: BL,BN,C1,CA,GM,GR,IS,KY,L2,T6,TF
-document: A2,B2,BN,CA,GK,GL,GR,GS,IS,KY,L4,LD,MC,S2,T4,TF,VA,W2,WB
+document: A2,B2,BN,CA,GK,GL,GR,GS,IS,KY,L4,MC,S2,T4,TF,VA,W2,WB
 documentary: B1,CA,KY,L2,T6,TF,TL,WB,ZK
 documentation: BE,BL,BN,C1,GM,IS,L1,TF,TL
 doddle: GR
@@ -8000,7 +7982,7 @@ doorknob: TF
 doorman: TL
 doornail: WB
 doorstep: L1
-doorway: BN,CA,KY,L2,TF,WB
+doorway: BN,CA,KY,L2,LD,TF,WB
 dopant: WB
 dope: L1
 dopey: GR
@@ -8013,7 +7995,7 @@ dory: WB
 dosage: GM,L1,TF
 dose: AW,BL,BN,C1,CA,FE,GM,GR,IS,KY,L2,T4,TF,TL,WB
 dossier: BE,GR,L1
-dot: B2,BL,BN,CA,GK,IS,KY,L2,S2,T4,TF,WB
+dot: B2,BL,BN,CA,GK,IS,KY,L2,LD,S2,T4,TF,WB
 dotage: GR
 dote: GR,TF
 doting: GR
@@ -8071,7 +8053,7 @@ drab: GM,GR,L1,TF
 draconian: GR,L1
 draft: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,T4,T6,TF,W3
 draftsman: WB
-drag: B2,BE,BN,CA,GK,GL,KY,L3,S3,T4,T6,TF,W3
+drag: B2,BE,BN,CA,GK,GL,KY,L3,LD,S3,T4,T6,TF,W3
 dragger: WB
 draggy: GR
 dragon: BN,CA,KY,L2,T4,TF
@@ -8168,7 +8150,7 @@ dross: GR
 drought: B2,GM,GR,IS,KY,L2,ST,T4,T6,TF,TL
 drove: GR
 droves: L1
-drown: BE,BN,C1,CA,GK,IS,KY,L2,T4,T6,TF,VA
+drown: BE,BN,C1,CA,GK,IS,KY,L2,LD,T4,T6,TF,VA
 drowse: IS
 drowsy: GR,L1,ST,TF
 drub: GR,ST
@@ -8364,7 +8346,7 @@ ecological: AW,C1,GR,IS,L2,T6,TF
 ecologist: TF,WB
 ecology: AW,GK,GM,IS,KY,L1,T6,TF,VA
 econobox: WB
-economic: B1,BE,BN,CA,GL,IS,KY,L5,LD,MC,S2,ST,T4,T6,TF,W1
+economic: B1,BE,BN,CA,GL,IS,KY,L5,MC,S2,ST,T4,T6,TF,W1
 economical: BE,IS,KY,L1,ST,T4,T6,TF,TL
 economically: AW,BL,BN,T6,TL
 economics: B2,BE,BN,CA,IS,KY,L4,MC,T6,W3
@@ -8398,7 +8380,7 @@ editor: B1,BN,CA,GK,GL,KY,L4,T4,TF,W2
 editorial: B2,BL,GM,IS,KY,L3,T4,T6,TF,TL
 educable: TF
 educate: B1,BE,BN,CA,GK,GL,KY,L2,LD,MC,T4,TF,ZK
-educated: B1,L2,LD,MC,TF
+educated: B1,L2,MC,TF
 education: A2,BE,BN,CA,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
 educational: B1,BN,CA,GL,L1,MC,S3,T6,TF,W2
 educationally: TF
@@ -8475,7 +8457,7 @@ elaborately: T6
 elaboration: GR,IS,TF
 eland: WB
 elapse: GR,IS,KY,L1,ST,T6,TF
-elastic: AW,BL,GR,IS,KY,L1,OG,T4,T6
+elastic: AW,BL,GR,IS,KY,L1,LD,OG,T4,T6
 elasticity: AW,BL,GR,L1,ST,TF
 elate: GR
 elated: GR,IS,L1,ST
@@ -8508,7 +8490,7 @@ electrolyte: FE,ST,WB
 electromagnet: ST
 electromagnetic: GM,GR,L1,TF,WB
 electron: AW,BN,GM,KY,L2,ST,T4,T6,TF,VA
-electronic: A2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S3,T4,T6,TF,W3
+electronic: A2,BE,BN,CA,GK,GL,IS,KY,L3,MC,S3,T4,T6,TF,W3
 electronically: TF,TL
 electronics: B2,BN,IS,L2,T4,T6
 electrophysiology: WB
@@ -8521,7 +8503,7 @@ element: B1,BE,BN,CA,FS,GL,GM,IS,KY,L4,MC,S2,ST,T4,T6,TF,VA,W1
 elemental: L1,T6,TF
 elementary school: L1
 elementary: AW,B2,CA,GR,IS,KY,L1,T4,T6,TF,ZK
-elephant: A1,BN,CA,DL,GK,KY,L2,MC,T4,TF,TL,WK,ZK
+elephant: A1,BN,CA,DL,GK,KY,L2,LD,MC,T4,TF,TL,WK,ZK
 elephantine: GR
 elevate: AW,C1,FE,GM,GR,IS,KY,L2,ST,T6,TF,TL
 elevated: ST
@@ -8571,7 +8553,7 @@ embankment: GR,IS,L1
 embargo: BE,GM,GR,IS,L2,ST,TF,WB
 embark: BE,BN,C1,GM,IS,KY,L2,T6,TF
 embarkation: BE
-embarrass: GK,GL,GM,GR,IS,KY,L2,LD,ST,T4,T6,TF
+embarrass: GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF
 embarrassed: B1,BE,BN,CA,GM,L2,MC,S3,T4,WB,ZK
 embarrassing: B1,BE,BN,MC
 embarrassment: BN,C1,L2
@@ -8627,7 +8609,7 @@ emoji: LH
 emollient: GR,ST
 emolument: GR
 emote: GR
-emotion: B1,BE,BN,CA,GL,IS,KY,L3,LD,MC,ST,T4,T6,TF,VA,W3,ZK
+emotion: B1,BE,BN,CA,GL,IS,KY,L3,MC,ST,T4,T6,TF,VA,W3,ZK
 emotional: B2,BN,CA,GL,IS,L3,MC,S3,T4,TF,W3,WB
 emotionally: B2,CA,TF
 emotive: L1,TF
@@ -8638,7 +8620,7 @@ empathy: GR,L1,TF
 emperor: AW,BN,CA,GK,IS,KY,L2,T4,TF
 emphasis: B2,BE,BN,CA,GL,GM,IS,KY,L3,MC,S3,ST,T4,T6,TF,W2,WB
 emphasise: BN,KY
-emphasize: B2,BN,CA,GL,GM,IS,KY,L3,LD,MC,S3,ST,T4,T6,TF,W2
+emphasize: B2,BN,CA,GL,GM,IS,KY,L3,MC,S3,ST,T4,T6,TF,W2
 emphatic: GR,L1
 emphatically: L1
 empire: B2,BE,BN,CA,GK,GL,IS,KY,L3,T4,TF,W3
@@ -8687,7 +8669,7 @@ encl.: BE
 enclave: L1
 enclose: BE,BN,GM,IS,KY,L2,LD,MC,T4,TF,TL
 enclosed: MC
-enclosure: BE,GR,IS,KY,L1,T6,TF
+enclosure: BE,GR,IS,KY,L1,LD,T6,TF
 encode: AW,GM,IS,L1,TF
 encomiast: GR
 encomium: GR,WB
@@ -8695,7 +8677,7 @@ encompass: BL,C1,GM,GR,IS,L1,ST,TF
 encore: L1,ST
 encounter: B2,BE,BN,CA,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF,W3,WB
 encourage: B1,BN,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,W1,ZK
-encouragement: BN,C1,GK,L2,TF
+encouragement: BN,C1,GK,L2,LD,TF
 encouraging: BN,C1,CA,L2,S3
 encroach: GM,GR,IS,L1,ST,TF,WB
 encroachment: GR,TF
@@ -8745,7 +8727,7 @@ energetic: FE,GK,IS,KY,L2,ST,T4,T6,TF,TL
 energetically: FE
 energize: GR,L1,T6,WB
 energumen: GR
-energy: A2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,S2,ST,T4,VA,W1,WB,ZK
+energy: A2,BN,CA,DL,FS,GK,GL,KY,L4,MC,S2,ST,T4,VA,W1,WB,ZK
 enervate: GR,ST
 enfeeble: GR,WB
 enfetter: GR
@@ -8780,7 +8762,7 @@ enigma: GR,IS,L1,TF,WB
 enigmatic: GR,L1,ST,TF
 enjoin: GR
 enjoy: A1,BN,CA,DL,FS,GK,GL,GS,L4,LD,MC,S1,T4,TF,VA,W1,WK,ZK
-enjoyable: B2,BE,GK,IS,L2,LD,MC,S3,TF,TL
+enjoyable: B2,BE,GK,IS,L2,MC,S3,TF,TL
 enjoyment: BN,L1,LD,MC,TF
 enkindle: GR
 enlarge: BL,GK,IS,KY,L2,T4,TF
@@ -8875,7 +8857,7 @@ envelope: B2,BN,CA,GK,GL,GM,KY,L2,LD,MC,S3,T4,TF,ZK
 enviable: GR,L1,T6
 envious: L1
 environ: GR
-environment: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S1,T4,T6,VA,W1,ZK
+environment: A2,BE,BN,CA,GK,GL,IS,KY,L4,MC,S1,T4,T6,VA,W1,ZK
 environmental: B1,BN,CA,GL,L4,MC,S2,T6,TF,W2
 environmentalist: L2,TF,WB
 environmentally: TF,TL
@@ -8923,7 +8905,7 @@ eponymous: L1
 epoxy: WB
 equable: GR
 equal: B1,B2,BE,BN,CA,FS,GK,GL,IS,KY,L4,LD,MC,OG,S1,S2,T4,TF,VA,W2,WK
-equality: AW,BL,BN,C1,CA,GK,KY,ST,T4,T6,TF
+equality: AW,BL,BN,C1,CA,GK,KY,LD,ST,T4,T6,TF
 equalize: GM,L2
 equally: B1,BN,CA,GL,L1,MC,S3,W2
 equanimity: GR,ST
@@ -8941,7 +8923,7 @@ equine: GR,L1
 equinox: WB
 equip: B2,BL,BN,CA,GK,GM,IS,KY,L2,T4,T6,TF,TL
 equipage: WB
-equipment: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S2,ST,T4,TF,VA,W2,ZK
+equipment: A2,BE,BN,CA,GK,GL,IS,KY,L4,MC,S2,ST,T4,TF,VA,W2,ZK
 equipoise: ST
 equitable: GR,IS,L1,ST,TF
 equitation: GR
@@ -9008,7 +8990,7 @@ essential: B1,BE,BN,CA,GL,IS,KY,L4,MC,S3,T4,T6,TF,W2,WB
 essentially: AW,B2,BL,BN,CA,FE,GR,L3,S2,T4,W3
 establish: B2,BE,BN,CA,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,VA,W1,WB,ZK
 established: BN,L2
-establishment: BN,C1,CA,GL,GR,KY,L3,T4,TF,W2
+establishment: BN,C1,CA,GL,GR,KY,L3,LD,T4,TF,W2
 estate: B2,BN,CA,GL,GM,GR,IS,KY,L2,L4,S2,T4,T6,TF,W2
 esteem: GM,IS,KY,L2,ST,T4,T6,TF,WB
 esthetic: T6
@@ -9139,7 +9121,7 @@ exact: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S3,ST,T4,TF,VA,WK
 exacting: GR,ST
 exaction: GR
 exactitude: GR
-exactly: A2,BN,CA,FS,GK,GL,GS,L3,LD,MC,S1,T4,W2
+exactly: A2,BN,CA,FS,GK,GL,GS,L3,MC,S1,T4,W2
 exaggerate: BL,C1,FE,GM,GR,IS,KY,L2,ST,T4,T6,TF
 exaggerated: L2,WB
 exaggeration: GR,T6,TF,WB
@@ -9184,7 +9166,7 @@ excision: GR
 excitability: GR,WB
 excitation: TF
 excite: CA,DL,GK,GL,GR,KY,L2,LD,T4,TF,ZK
-excited: A1,BN,CA,L2,MC,WK
+excited: A1,BN,CA,L2,LD,MC,WK
 excitement: B1,BN,CA,GL,IS,KY,L2,MC,S3,T4,TF,W3
 exciting: A1,BN,CA,FS,KY,L3,LD,MC,S2,T4,W3
 exclaim: BN,GR,IS,KY,L1,T4,T6,TF
@@ -9430,7 +9412,7 @@ eyeball: L1,TF
 eyebrow: BN,CA,FE,KY,L2,TF
 eyeglass: WB
 eyelash: L1
-eyelid: L1,TF
+eyelid: L1,LD,TF
 eyepiece: ST
 eyes: FS
 eyesight: GK,IS,KY,L1,T4,TF,WB
@@ -9491,11 +9473,11 @@ faintly: TF
 fair play: L1
 fair: A2,BN,CA,FS,GK,GL,GS,IS,KY,L4,LD,MC,S1,S2,T4,T6,TF,VA,W2,W3,ZK
 fairground: L1,TF
-fairly: B1,BE,BN,CA,GK,GL,GS,IS,L3,LD,MC,S1,T4,W2
+fairly: B1,BE,BN,CA,GK,GL,GS,IS,L3,MC,S1,T4,W2
 fairness: BL,C1,GK,L1
 fairway: L1
 fairy tale: L1
-fairy: GR,KY,L2,T4
+fairy: GR,KY,L2,LD,T4
 fairyland: GR
 faith: B2,BN,CA,GK,GL,GM,IS,KY,L3,LD,S3,T4,T6,TF,W2,WB
 faithful: BE,BN,CA,KY,L2,LD,T4,TF
@@ -9519,7 +9501,7 @@ falsely: TF
 falsification: GR
 falsify: GM,GR,L1,ST
 falter: GR,IS,L1,TF
-fame: B2,BN,CA,IS,KY,L2,T4,TF
+fame: B2,BN,CA,IS,KY,L2,LD,T4,TF
 familiar: B1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S3,T4,TF,W2,WB
 familiarise: IS
 familiarity: GR,ST,TF,TL
@@ -9540,7 +9522,7 @@ fanaticism: GR
 fancied: GR
 fancier: L1
 fanciful: GR,L1,TF
-fancy: B1,BN,CA,GK,GL,IS,KY,L1,L3,S2,S3,T4,TF
+fancy: B1,BN,CA,GK,GL,IS,KY,L1,L3,LD,S2,S3,T4,TF
 fanfare: GR,L1,ST
 fang: GR,L1
 fanner: TF
@@ -9571,12 +9553,12 @@ farmhand: TF
 farmhouse: L1
 farming: A2,BN,L2,MC
 farmland: L1,TF
+farmyard: LD
 farrago: GR
 farrow: GR
 farsighted: TF
 fart: L1
-farther: KY,LD,T4
-farthest: LD
+farther: KY,T4
 fascia: FE,GR
 fascinate: GL,GR,IS,KY,L1,ST,T4,T6,TF
 fascinated: KY,WB
@@ -9599,7 +9581,7 @@ fatalism: ST
 fatalist: WB
 fatalistic: WB
 fatality: GM,GR,L1
-fate: BL,BN,C1,CA,IS,KY,L3,T4,TF
+fate: BL,BN,C1,CA,IS,KY,L3,LD,T4,TF
 fated: L1
 fateful: L1,TF
 father-in-law: L1
@@ -9623,7 +9605,7 @@ faulty: BE,IS,KY,T4,TL
 faun: WB
 fauna: GR,IS,L1,TF
 fava: WB
-favor: CA,GL,KY,T4,T6,TF
+favor: CA,GL,KY,LD,T4,T6,TF
 favorable: BL,GR,KY,LD,T4,TF,TL,WB
 favorite: CA,DL,GL,KY,LD,TF,ZK
 favour: B1,B2,BN,GK,IS,L4,S2,T4,W3,WB
@@ -9652,7 +9634,7 @@ featherlight: WB
 featherweight: L1
 feathery: TF
 feature film: L1
-feature: A2,B1,BN,CA,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,W1,W3,ZK
+feature: A2,B1,BN,CA,GL,IS,KY,L4,MC,S2,T4,T6,TF,W1,W3,ZK
 featureless: TF
 featurette: WB
 febrile: GR
@@ -9689,7 +9671,7 @@ felicity: GR,ST
 feline: GR,WB
 fell: FS,GR,KY,L1,T6
 fella: L1
-fellow: B2,BN,CA,GK,GL,KY,L4,T4,TF,W3,WB
+fellow: B2,BN,CA,GK,GL,KY,L4,LD,T4,TF,W3,WB
 fellowship: IS,KY,L1,T6,TF
 felon: GR
 felonious: GR,ST
@@ -9835,19 +9817,19 @@ filtration: WB
 fin: AW,KY,L2,TF
 finable: GR
 finagle: GR
-final: A1,A2,BN,CA,GK,GL,KY,L5,LD,MC,S1,T4,TF,VA,W1,W3,ZK
+final: A1,A2,BN,CA,GK,GL,KY,L5,MC,S1,T4,TF,VA,W1,W3,ZK
 finale: GR,IS,L1
 finalize: BE,L1,TF,TL
-finally: A2,BN,CA,DL,FS,GL,KY,L4,LD,MC,S2,T4,TF,W1,WB
+finally: A2,BN,CA,DL,FS,GL,KY,L4,MC,S2,T4,TF,W1,WB
 finance: B2,BE,BN,CA,GK,GL,IS,KY,L4,S3,T4,T6,TF,W2,W3,WB
 finances: BE
 financial year: L1
-financial: B1,BE,BN,CA,GL,GR,KY,L5,LD,MC,S2,T4,T6,TF,VA,W1
+financial: B1,BE,BN,CA,GL,GR,KY,L5,MC,S2,T4,T6,TF,VA,W1
 financially: BE,BL,TF
 financier: GM,L1,TF
 financing: BE
 finch: GR,L1,ST,TF
-find out: LD,MC
+find out: MC
 find: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,T4,VA,W1,WK,WS,ZK
 finder: WB
 finding: B2,BN,CA,KY,L2,T4,W2
@@ -9880,7 +9862,7 @@ fireboard: WB
 firefighter: B2,GK,TL
 firefly: GR
 fireman: KY,L1,T4
-fireplace: GK,KY,L1,T6,TF
+fireplace: GK,KY,L1,LD,T6,TF
 firepower: L1
 fireproof: GR
 firewater: WB
@@ -9914,7 +9896,7 @@ fiscal: BE,BL,BN,CA,GM,GR,KY,L3,T6,TL
 fish-finder: WB
 fish: A1,A2,BN,CA,DL,DS,FS,GK,GL,L4,LD,MC,OG,S1,S3,T4,TF,VA,W1,ZK
 fishable: WB
-fisherman: BN,GK,KY,L2,T4,TF,ZK
+fisherman: BN,GK,KY,L2,LD,T4,TF,ZK
 fishery: GR,L2,TF
 fishing: A2,BN,CA,L3,MC,S3,WB
 fissile: GR
@@ -10165,7 +10147,7 @@ following: A2,B1,B2,BN,CA,GK,KY,L4,S3,T4,W1
 folly: BN,GR,L1,TF
 foment: GR,ST,TF
 fomentation: GR
-fond: B2,BN,GK,KY,L2,T4,TF
+fond: B2,BN,GK,KY,L2,LD,T4,TF
 fondle: GR
 fontina: WB
 foo: WB
@@ -10176,9 +10158,9 @@ food stamp: L1
 food: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,ZK
 foodborne: WB
 foodstuff: BE,GR,L1,TF,WB
-fool: B2,BN,CA,GK,GL,KY,L3,T4,VA,WK,ZK
+fool: B2,BN,CA,GK,GL,KY,L3,LD,T4,VA,WK,ZK
 foolhardy: GR,ST
-foolish: BN,GK,KY,L2,OG,T4,TF
+foolish: BN,GK,KY,L2,LD,OG,T4,TF
 foolproof: BE,GR
 foot: A1,BN,CA,DL,FS,GK,GL,GM,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,WK,ZK
 footage: C1,CA,L2
@@ -10193,11 +10175,11 @@ footing: L1
 footle: GR
 footloose: GR
 footnote: AW,BE,L1,T6
-footpath: L1,T6
+footpath: L1,LD,T6
 footplate: WB
 footprint: L1,TF
 footsie: WB
-footstep: KY,L1,T4,WB
+footstep: KY,L1,LD,T4,WB
 footwear: L1,TL
 foozle: GR
 fop: GR
@@ -10242,10 +10224,10 @@ forefinger: L1,T4
 forefront: L1,TF
 foregone: BE
 foreground: L1
-forehead: BN,CA,FE,GK,KY,L2,MC,T4,WB
+forehead: BN,CA,FE,GK,KY,L2,LD,MC,T4,WB
 foreign exchange: L2
 foreign: A2,BE,BN,CA,DL,GK,GL,KY,L2,L5,LD,MC,S3,T4,T6,TF,VA,W1,WB,WK,ZK
-foreigner: BL,BN,C1,GK,KY,L3,T4,ZK
+foreigner: BL,BN,C1,GK,KY,L3,LD,T4,ZK
 foreknowledge: GR
 foreland: IS
 foreleg: TF
@@ -10270,7 +10252,7 @@ forested: GR
 forester: TF
 foretaste: GR,WB
 foretell: ST
-forever: B1,BN,CA,GK,GL,KY,L2,LD,S2,T4,TF,W3
+forever: B1,BN,CA,GK,GL,KY,L2,S2,T4,TF,W3
 foreword: GR
 forfeit: GM,GR,IS,L1,ST,TF,WB
 forfeiture: GR
@@ -10294,7 +10276,7 @@ format: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L2,T4,T6,TF
 formation: B2,BN,CA,GL,GM,GR,KY,L2,T4,TF,W3
 formative: GR,L1
 former: B2,BN,CA,GK,GL,IS,KY,L5,LD,S2,T4,TF,VA,W1
-formerly: B2,BL,BN,L2,T6,TF
+formerly: B2,BL,BN,L2,LD,T6,TF
 formidable: BN,GM,GR,IS,KY,L2,ST,T6,TF,WB
 formidably: GR,WB
 formless: WB
@@ -10306,7 +10288,7 @@ fornicate: GR
 fornix: WB
 forsake: GR,L1,ST,T6,TF
 forswear: GR
-fort: GR,IS,L2,T6,TF
+fort: GR,IS,L2,LD,T6,TF
 forte: GR,IS,ST,TF
 forth: BE,BN,C1,CA,GL,IS,KY,L3,S2,T4,TF
 forthcoming: BE,BL,BN,C1,GM,IS,KY,L2,T6
@@ -10322,7 +10304,7 @@ fortuitous: GR,ST,TF
 fortuitously: TF
 fortunate: B2,BN,GK,GL,L2,LD,S3,ST,T4,TF
 fortunately: A2,BN,CA,L2,T4,TF,TL
-fortune: B2,BN,CA,GK,GL,KY,L3,S3,T4,TF,W3
+fortune: B2,BN,CA,GK,GL,KY,L3,LD,S3,T4,TF,W3
 forty: A1,BN,CA,GK,GS,L5,T4,TF,ZK
 forum: AW,B2,BL,BN,CA,GR,IS,KY,L2,T4,T6,TF,TL
 forward: A2,B2,BE,BN,CA,DL,FS,GK,GL,GR,GS,KY,L4,LD,MC,OG,S1,S2,T4,T6,TF,VA,W1,W3,WB,ZK
@@ -10359,7 +10341,7 @@ fourth degree: WB
 fourth: A1,BN,CA,GK,L4,LD,MC,T4,TF,WB,ZK
 fovea: WB
 fowl: L1,OG,T6
-fox: BN,GK,L2,T4,TF,WK,ZK
+fox: BN,GK,L2,LD,T4,TF,WK,ZK
 foxglove: WB
 foyer: GR,L1
 fracas: GR
@@ -10532,7 +10514,7 @@ fugitive: GR,L1
 fugue: ST
 fulcrum: GR
 fulfil: B2,BN,IS,KY,L3,T4,W3
-fulfill: BE,GL,KY,T4,T6,TF
+fulfill: BE,GL,KY,LD,T4,T6,TF
 fulfillment: IS
 full-blooded: WB
 full-blown: GR,L1
@@ -10588,7 +10570,7 @@ furl: WB
 furlong: L1
 furlough: GR,ST
 furnace: GM,IS,KY,L1,T4,TF
-furnish: BE,BL,BN,IS,KY,L1,T4,T6,TF,TL
+furnish: BE,BL,BN,IS,KY,L1,LD,T4,T6,TF,TL
 furnished: GK,L1
 furnishing: TF
 furnishings: L1
@@ -10651,7 +10633,7 @@ galleon: GR
 gallery: A2,BE,BN,CA,GK,GL,IS,KY,L3,T4,T6,TF,W3,ZK
 galley: GR,L1
 gallium: TF
-gallon: BL,C1,CA,GK,KY,L2,LD,T4,TF,TL
+gallon: BL,C1,CA,GK,KY,L2,T4,TF,TL
 gallop: GR,IS,KY,L1,ST,TF
 gallows: GR
 gally: GR
@@ -10696,7 +10678,7 @@ gargoyle: GR
 garish: GR,L1
 garland: GR,L1,TF
 garlic: CA,GK,KY,L2,S3,T4,T6
-garment: BE,BN,GK,GM,GR,IS,KY,L2,T6,TL
+garment: BE,BN,GK,GM,GR,IS,KY,L2,LD,T6,TL
 garner: GR,L1,ST
 garnish: GR,L1,ST,WB
 garnishment: WB
@@ -10772,7 +10754,7 @@ generality: WB
 generalization: AW,GM,T4,T6,TF,TL,WB
 generalize: AW,BL,GR,IS,KY,L1,ST,T6,TF,WB
 generalized: L1
-generally: B1,BN,CA,GL,L4,LD,MC,S2,T4,TF,W1
+generally: B1,BN,CA,GL,L4,MC,S2,T4,TF,W1
 generate: B2,BN,CA,GL,GM,GR,IS,KY,L3,S3,T4,T6,TF,W2,WB
 generation: B1,BN,CA,GK,GL,GR,KY,L4,S3,ST,T4,TF,W2
 generational: GM
@@ -10802,7 +10784,7 @@ gent: L1
 genteel: GR,L1
 gentility: TF,WB
 gentle: B1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S3,T4,TF,VA,W3,ZK
-gentleman: B1,BN,CA,GK,GL,KY,L3,S2,T4,TF,W2,WK,ZK
+gentleman: B1,BN,CA,GK,GL,KY,L3,LD,S2,T4,TF,W2,WK,ZK
 gentlemanly: TF
 gently: BN,CA,GL,KY,MC,T4,TF,W3
 gentry: GM,L1
@@ -10967,7 +10949,7 @@ gloom: GR,L2,T6
 gloomy: BL,GM,GR,IS,KY,L2,ST,T4,T6,TF
 glorify: GR,L1,T6,TF
 glorious: BE,BN,C1,IS,KY,L2,ST,T4,TF,WB
-glory: BN,C1,CA,GK,KY,L2,T4,T6,TF
+glory: BN,C1,CA,GK,KY,L2,LD,T4,T6,TF
 gloss: GR,IS,L1,TF
 glossary: GR,IS,T6,WB
 glossy: GR,IS,L1,TF
@@ -11038,7 +11020,7 @@ gold medal: L2
 gold: A2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,S3,T4,TF,VA,W2,W3,WB,WK,ZK
 goldbrick: GR
 golden age: L1
-golden: B2,BN,CA,GK,GL,KY,L3,MC,T4,TF,W3,ZK
+golden: B2,BN,CA,GK,GL,KY,L3,LD,MC,T4,TF,W3,ZK
 goldfish: L1,TF
 goldsmith: TF
 golf ball: L1
@@ -11096,14 +11078,14 @@ gown: BN,GK,IS,KY,L2,T4,T6,WB
 gp: BN
 grab: B2,BN,CA,GL,IS,KY,L3,S2,T4,T6,TF,W3
 grabber: WB
-grace: BE,BN,C1,CA,FE,IS,KY,L2,T4,TF
+grace: BE,BN,C1,CA,FE,IS,KY,L2,LD,T4,TF
 graceful: KY,L1,LD,MC,T4,TF
 gracile: GR,WB
 gracious: GR,IS,KY,L1,T4,T6
 graciousness: WB
 grackle: WB
 grad: WB
-grade: B1,B2,BE,BN,CA,GK,GL,GS,KY,L3,LD,S2,T4,TF,W3,WB,ZK
+grade: B1,B2,BE,BN,CA,GK,GL,GS,KY,L3,S2,T4,TF,W3,WB,ZK
 grader: WB
 gradient: AW,GM,GR,L1,T6,TF
 grading: TF
@@ -11140,7 +11122,7 @@ grandiose: GR,L1,ST,TF
 grandma: CA,DL,GK,L1,S2,TF,WB
 grandmother: A1,BN,CA,GL,KY,L2,LD,MC,S3,T4,VA,WB,WK
 grandpa: GK,S3
-grandparent: A1,GK,L1,LD,MC,TF,ZK
+grandparent: A1,GK,L1,MC,TF,ZK
 grandson: GK,L1,T4,VA,ZK
 grandstand: GR,L1
 granite: GM,GR,IS,L1,T6,TF
@@ -11223,9 +11205,9 @@ grid: AW,BL,BN,C1,CA,IS,L1,T4,TF,WB
 griddle: GR
 gridiron: GR
 gridlock: L1
-grief: BN,C1,CA,GR,IS,KY,L2,ST,T4,T6
+grief: BN,C1,CA,GR,IS,KY,L2,LD,ST,T4,T6
 grievance: BE,GR,L1,ST,TF
-grieve: GR,IS,KY,L1,T4,T6
+grieve: GR,IS,KY,L1,LD,T4,T6
 grievous: GR,L1,ST,TF
 grig: GR
 grill: GK,GM,GR,IS,L2,TF,TL
@@ -11315,7 +11297,7 @@ guesstimate: T6
 guest: A2,BE,BN,CA,GK,GL,KY,L4,LD,MC,S3,T4,TF,W2,WB,ZK
 guff: WB
 guffaw: GR
-guidance: BE,BL,BN,C1,CA,GK,IS,KY,L2,S3,T4,TF,TL,W3,WB
+guidance: BE,BL,BN,C1,CA,GK,IS,KY,L2,LD,S3,T4,TF,TL,W3,WB
 guide: A2,BE,BN,CA,GK,GL,KY,L4,LD,OG,S3,T4,TF,VA,W2,W3,WB
 guidebook: WB
 guideline: B2,BE,BN,CA,GL,IS,KY,L2,T4,TF
@@ -11325,8 +11307,8 @@ guildhall: WB
 guile: GR,ST
 guileless: GR,ST
 guillotine: GR
-guilt: BN,C1,CA,GR,KY,L2,T4,T6
-guilty: B1,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,ST,T4,TF,VA,W3
+guilt: BN,C1,CA,GR,KY,L2,LD,T4,T6
+guilty: B1,BE,BN,CA,GK,GL,IS,KY,L3,MC,S2,ST,T4,TF,VA,W3
 guinea pig: L1
 guinea: IS,L1
 guise: GR,L1,ST
@@ -11392,7 +11374,7 @@ habit: A2,BE,BN,CA,GK,GL,L3,LD,MC,S3,T4,TF,W3
 habitable: GR,IS,ST
 habitat: AW,B2,BN,CA,GM,GR,IS,KY,L2,TF
 habitation: WB
-habitual: IS,L1,ST,T4,T6,TF,TL
+habitual: IS,L1,LD,ST,T4,T6,TF,TL
 habituate: GR,ST
 habituation: TF,WB
 habitude: ST
@@ -11423,7 +11405,7 @@ hairdo: TF
 hairdresser: L1
 haired: WB
 hairstyle: L1
-hairy: GR,L1,TF
+hairy: GR,L1,LD,TF
 halcyon: GR,L1,ST,WB
 hale: GR,L1,TF
 half hour: WB
@@ -11479,7 +11461,7 @@ handheld: L1
 handicap: BN,GM,IS,KY,L2,T6,TF
 handicapped: BN,IS,L2
 handicraft: TF
-handkerchief: GK,KY,L1,T4
+handkerchief: GK,KY,L1,LD,T4
 handle: B2,BE,BN,CA,GK,GL,GR,IS,KY,L4,LD,MC,S2,S3,T4,T6,TF,W2
 handlebar: GM
 handler: L1
@@ -11542,13 +11524,13 @@ hardback: L1
 hardball: WB
 hardcore: WB
 hardcover: GM
-harden: GM,KY,L2,T4,T6,TF
+harden: GM,KY,L2,LD,T4,T6,TF
 hardheaded: GR
 hardihood: GR,ST
 hardliner: L2
 hardly: B1,BE,BN,CA,GK,GL,L4,LD,S2,T4,TF,W2,ZK
 hardness: TF
-hardship: GK,GR,KY,L2,T4,T6,TF
+hardship: GK,GR,KY,L2,LD,T4,T6,TF
 hardtail: WB
 hardware: BE,BL,BN,C1,CA,IS,KY,L2,T4,TF,TL
 hardwired: WB
@@ -11561,7 +11543,7 @@ hark: L1
 harm: B2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF,VA,W3
 harmful: B2,BE,GK,L2,LD,MC,T4,TF,TL
 harmfully: TF
-harmless: GK,L2,MC,TF
+harmless: GK,L2,LD,MC,TF
 harmonic: GR,L1,TF
 harmonious: L1,ST,T6,TF
 harmonization: WB
@@ -11588,7 +11570,7 @@ hasn't: L4
 hassle: GR,IS,L1
 haste: IS,KY,L1,ST,T4,TF,WB
 hasten: GR,L1,T4,T6
-hasty: GR,IS,KY,L2,T4,T6
+hasty: GR,IS,KY,L2,LD,T4,T6
 hat trick: L1
 hat: A1,BN,CA,DL,FS,GK,GL,L3,LD,MC,OG,S1,T4,TF,VA,W3,WK,ZK
 hatch: GK,GM,GR,IS,KY,L2,T4,T6,TF,WB
@@ -11740,7 +11722,7 @@ helium: GM,L1,TF
 helix: AW,IS,ST
 hell: B2,BN,CA,GL,IS,KY,L3,S1,T4,W3,WB
 hellebore: WB
-hello: A1,BN,CA,DL,GK,GL,L3,LD,MC,S1,T4,WK,ZK
+hello: A1,BN,CA,DL,GK,GL,L3,MC,S1,T4,WK,ZK
 helm: GR,L1
 helmet: B2,CA,GK,GR,KY,L2,T4,TL
 helmsman: GR
@@ -11768,7 +11750,7 @@ hemorrhage: ST
 hemorrhoid: WB
 hemostat: WB
 hemp: L1,TF
-hen: GK,KY,L2,T4,WK,ZK
+hen: GK,KY,L2,LD,T4,WK,ZK
 hence: B2,BN,CA,GL,IS,KY,L2,T4,TF,W3
 henceforth: IS,KY,L1,T6,TF
 henchman: GR
@@ -11855,7 +11837,7 @@ high command: L1
 high ground: L1
 high heels: L1
 high point: L1
-high school: L2,LD
+high school: L2
 high street: L2
 high tech: L2
 high technology: L1
@@ -11907,7 +11889,7 @@ hippie: L1
 hippogriff: WB
 hippopotamus: GR,TF,WB
 hipster: GR,WB
-hire: B1,B2,BE,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,TF,W3
+hire: B1,B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,TF,W3
 hirsute: GR,ST
 his: A1,A2,BN,CA,DS,FS,GK,L5,LD,MC,S1,T4,W1,WB,WK,WS,ZK
 hiss: GR,L1,T6,TF
@@ -11957,7 +11939,7 @@ holdback: WB
 holder: BE,BN,GL,KY,TF,W2
 holdfast: WB
 holding: BN,L2,TF,W3
-hole: A2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S1,T4,TF,VA,W2,WB,WK,ZK
+hole: A2,BN,CA,DL,FS,GK,GL,KY,L4,MC,OG,S1,T4,TF,VA,W2,WB,WK,ZK
 holiday: A1,BN,CA,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W2,WB,WK,ZK
 holidaymaker: L1
 holistic: BE,IS,L1,TF
@@ -12020,14 +12002,14 @@ hon: BN
 hone: GM,GR,L1,ST,TF
 honest: B1,BE,BN,CA,GK,GL,KY,L3,LD,MC,S1,T4,TF,VA,W3,ZK
 honestly: BN,CA,FE,L2,MC,S2,TL
-honesty: B2,L2,MC,T4
+honesty: B2,L2,LD,MC,T4
 honey: BN,CA,FE,GK,KY,L2,S2,T4,TF,ZK
 honeybee: TF
 honeycomb: TF
 honeymoon: L1,T4,WB
 honk: GR,WB
 honor: CA,GL,KY,LD,T4,TF,VA,ZK
-honorable: KY,TF
+honorable: KY,LD,TF
 honorarium: GR,WB
 honorary: L1,T6
 honour: B2,BN,GK,IS,L3,MC,T4,W3
@@ -12050,14 +12032,14 @@ hop: DL,FE,IS,KY,L2,T6,TF
 hope: A1,A2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,S2,T4,TF,VA,W1,W2,WK,ZK
 hopeful: C1,GK,KY,L2,LD,MC,T4,WB
 hopefully: B2,BN,CA,GL,L2,S1
-hopeless: GK,L2,S3,T4,TF
+hopeless: GK,L2,LD,S3,T4,TF
 hopelessly: WB
 hopper: TF
 hoppy: WB
 hopscotch: WB
 horde: GR,L1,TF
 horehound: WB
-horizon: AW,BL,BN,C1,CA,GR,IS,KY,L2,T4,T6,TF
+horizon: AW,BL,BN,C1,CA,GR,IS,KY,L2,LD,T4,T6,TF
 horizontal: AW,BE,BL,BN,GR,IS,KY,L1,T4,TF
 hormonal: TF
 hormone: AW,CA,FE,GM,GR,KY,L2,ST,TF
@@ -12093,7 +12075,7 @@ hospitable: GM,GR,IS,L1,ST,T4,TF
 hospital: A1,BN,CA,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,WK,ZK
 hospitality: BE,GR,IS,KY,L1,T6,TL
 hospitalize: L1,T4,TF
-host: B1,B2,BN,CA,GK,GL,GR,IS,KY,L5,T4,T6,TF,W3,WB,ZK
+host: B1,B2,BN,CA,GK,GL,GR,IS,KY,L5,LD,T4,T6,TF,W3,WB,ZK
 hostage: BN,C1,CA,GR,IS,KY,L4,T6,VA
 hostel: BE,IS,L2
 hostess: BE,GK,KY,L1,T4,T6
@@ -12116,7 +12098,7 @@ hotly: L1
 hottie: WB
 hound: GR,IS,KY,L2,T6
 hour: A1,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,WK,ZK
-hourly: L1,TL
+hourly: L1,LD,TL
 hours: FS
 house arrest: L1
 house-to-house: L1
@@ -12205,7 +12187,7 @@ hundredth: L1,LD,ST
 hundredweight: WB
 hung up: L1
 hunger strike: L1
-hunger: B2,BE,BN,CA,GK,GL,KY,L2,T4,TF,VA,WB,ZK
+hunger: B2,BE,BN,CA,GK,GL,KY,L2,LD,T4,TF,VA,WB,ZK
 hungry: A1,BE,BL,BN,CA,DL,GK,L2,LD,MC,S2,T4,TF,TL,WB,WK,ZK
 hunk: GR,L1
 hunker: GR
@@ -12232,7 +12214,7 @@ hussy: WB
 hustings: GR
 hustle: L1,ST,T6,TF
 hustler: GR,WB
-hut: BN,KY,L2,ST,T4,TF
+hut: BN,KY,L2,LD,ST,T4,TF
 hyaline: GR
 hybrid: BL,GM,GR,IS,L2,TF,WB
 hydra: TF,WB
@@ -12331,7 +12313,7 @@ iconoclast: GR,ST
 iconoclastic: GR
 iconographic: GR,TF
 iconography: GM,TF
-icy: L1,T6,TF,TL
+icy: L1,LD,T6,TF,TL
 idea: A1,BE,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WK,ZK
 ideal: A2,B2,BE,BN,CA,GL,IS,KY,L4,S3,T4,T6,TF,W3
 idealism: GR,L1,T6
@@ -12381,7 +12363,7 @@ ignominy: GR
 ignoramus: GR
 ignorance: BN,C1,CA,GR,IS,KY,T4,T6,TF,WB
 ignorant: CA,GR,IS,KY,L2,T4,TF,WB
-ignore: B1,BN,CA,GK,GL,GR,IS,KY,L4,LD,MC,S2,T4,T6,TF,W2,WB
+ignore: B1,BN,CA,GK,GL,GR,IS,KY,L4,MC,S2,T4,T6,TF,W2,WB
 iguana: GR
 ikat: WB
 ilk: GR,WB
@@ -12394,7 +12376,7 @@ ill-prepared: GR
 ill-tempered: WB
 ill-timed: WB
 ill: A2,BN,GK,GL,GR,L4,LD,MC,OG,S3,T4,TF,W2,ZK
-illegal: B1,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,ST,T4,T6,VA,W3
+illegal: B1,BE,BN,CA,GK,GL,GM,IS,KY,L3,MC,ST,T4,T6,VA,W3
 illegality: GR
 illegally: MC
 illegible: GR,ST,TF,WB
@@ -12402,7 +12384,7 @@ illegitimate: GR,L1
 illiberal: GR
 illicit: GM,GR,L1
 illiterate: GM,GR,IS,KY,L1,ST,T6,TF
-illness: A2,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF,W3,ZK
+illness: A2,BN,CA,GK,GL,KY,L3,MC,S3,T4,TF,W3,ZK
 illogical: L1,TL
 illuminate: BE,GM,GR,IS,KY,L1,ST,T6,TF
 illuminated: L1
@@ -12418,7 +12400,6 @@ illustrative: GR,TF
 illustrator: TF
 illustrious: GR,L1,ST
 ilmenite: GM
-im-: LD
 image: A2,BE,BN,CA,GL,IS,KY,L4,LD,MC,S2,ST,T4,TF,VA,W1,WB
 imagery: C1,L1,TF
 imaginable: L1
@@ -12449,8 +12430,8 @@ immaturity: TF,WB
 immeasurable: T4,WB
 immeasurably: TF,WB
 immediacy: GR,WB
-immediate: B1,BE,BN,CA,GK,GL,KY,L4,LD,MC,S3,ST,T4,TF,VA,W2
-immediately: A2,BN,CA,GK,GL,IS,L4,LD,MC,S2,T4,W1,ZK
+immediate: B1,BE,BN,CA,GK,GL,KY,L4,MC,S3,ST,T4,TF,VA,W2
+immediately: A2,BN,CA,GK,GL,IS,L4,MC,S2,T4,W1,ZK
 immemorial: GR
 immense: BE,BN,C1,GR,IS,KY,L2,ST,T4,T6,TF
 immensely: L1,T6,TF
@@ -12591,7 +12572,7 @@ impression: B1,BN,CA,GK,GL,IS,KY,L3,S2,ST,T4,TF,W2
 impressionable: BE,GR
 impressionist: L1,TF,WB
 impressionistic: TF
-impressive: B1,BN,CA,GL,GR,IS,KY,L3,LD,MC,T4,TF,W3
+impressive: B1,BN,CA,GL,GR,IS,KY,L3,MC,T4,TF,W3
 impressively: TF,WB
 imprint: GR,L1,ST,TF,WB
 imprison: C1,L2,T4,T6,WB
@@ -12648,7 +12629,6 @@ in that: BN
 in the light of: BN
 in vain: IS
 in view of: BN
-in-: LD
 in-app: WB
 in-between: WB
 in-group: WB
@@ -12705,7 +12685,7 @@ incertitude: GR
 incessant: GR,L1,ST,TF
 incessantly: TF
 incest: L1,WB
-inch: B2,BE,BN,CA,FS,GK,GL,GM,GR,KY,L3,LD,S2,T4,TF,W3,ZK
+inch: B2,BE,BN,CA,FS,GK,GL,GM,GR,KY,L3,S2,T4,TF,W3,ZK
 inchoate: GR,ST
 inchworm: TF
 incidence: AW,BN,C1,GR,IS,KY,L1,T4,T6
@@ -12828,7 +12808,7 @@ indenter: WB
 indenture: GM,GR,WB
 independence: B2,BN,CA,GK,GL,GM,IS,KY,MC,T4,T6,TF,W2,WB
 independency: WB
-independent: A2,BE,BN,CA,GK,GL,GM,IS,KY,L5,LD,MC,S2,ST,T4,TF,VA,W2,WB
+independent: A2,BE,BN,CA,GK,GL,GM,IS,KY,L5,MC,S2,ST,T4,TF,VA,W2,WB
 independently: AW,BL,BN,T4
 indescribable: GR,WB
 indestructible: GR
@@ -12999,7 +12979,7 @@ inflict: BN,C1,GM,GR,IS,L2,T6
 infliction: GR
 inflow: BL,L1,TF
 influence: B1,BE,BN,CA,GK,GL,GR,IS,KY,L4,LD,MC,S3,T4,T6,VA,W1,W2,ZK
-influential: AW,BL,BN,C1,CA,GR,IS,KY,L2,ST,T4,T6,TF,TL
+influential: AW,BL,BN,C1,CA,GR,IS,KY,L2,LD,ST,T4,T6,TF,TL
 influenza: GM,IS,TF
 influx: BE,GM,GR,IS,L1,ST,TF,WB
 info: B2,BL,CA,FE,L1
@@ -13073,10 +13053,10 @@ inject: AW,BN,C1,IS,KY,L2,ST,T6,TF,VA
 injection: AW,BL,BN,C1,GM,L2,T4
 injera: WB
 injunction: BN,GR,L1
-injure: B1,BE,BN,CA,GK,GL,KY,L1,LD,MC,T4,TF,VA,W3,ZK
+injure: B1,BE,BN,CA,GK,GL,KY,L1,MC,T4,TF,VA,W3,ZK
 injured: B1,BN,L3,MC
 injurious: GR,ST,TF
-injury: A2,BE,BN,CA,GK,GL,KY,L4,LD,MC,S3,T4,TF,W2
+injury: A2,BE,BN,CA,GK,GL,KY,L4,MC,S3,T4,TF,W2
 injustice: C1,L2,T6
 ink: B2,BL,GK,KY,L2,LD,MC,OG,T4,TF,TL,WB,ZK
 inkling: GR,ST
@@ -13111,9 +13091,9 @@ inorganic: T6,TF
 input: B2,BE,BN,CA,GL,IS,KY,L2,ST,T4,T6,TF,W3
 inquest: L1
 inquietude: GR
-inquire: BE,BN,C1,IS,KY,L2,T4,T6,TF,TL
+inquire: BE,BN,C1,IS,KY,L2,LD,T4,T6,TF,TL
 inquirer: WB
-inquiry: B2,BE,BN,CA,GK,GL,GR,IS,KY,L3,S2,T4,W2
+inquiry: B2,BE,BN,CA,GK,GL,GR,IS,KY,L3,LD,S2,T4,W2
 inquisitive: GM,GR,L1
 inroad: GR
 inroads: L1
@@ -13192,11 +13172,11 @@ instinctive: BE,GR,L2,TF
 instinctively: T6,TF
 instinctual: IS,TF
 institute: B2,BE,BL,BN,CA,FE,GK,GM,GR,IS,KY,L4,T4,T6,TF,TL,W3
-institution: B2,BN,CA,GK,GL,GM,GR,IS,KY,L4,LD,MC,T4,T6,TF,W1
+institution: B2,BN,CA,GK,GL,GM,GR,IS,KY,L4,MC,T4,T6,TF,W1
 institutional: BN,C1,CA,GL,L2
 institutionalize: GR,L1
 institutionalized: GR
-instruct: BL,BN,C1,CA,GK,GM,IS,KY,L3,ST,T4,T6,TF,TL
+instruct: BL,BN,C1,CA,GK,GM,IS,KY,L3,LD,ST,T4,T6,TF,TL
 instruction: A2,BE,BN,CA,DL,GK,GL,KY,L2,LD,MC,S3,T4,TF,W2,ZK
 instructional: CA,T6
 instructive: GR,L1,TF
@@ -13216,8 +13196,8 @@ insulate: GM,GR,IS,KY,L1,ST,T6,TF
 insulation: IS,T6,TF
 insulator: ST,T6,TF
 insulin: FE,GM,GR,L1,ST,TF
-insult_1: C1,IS,KY,L2,LD,MC,T4,TF,VA
-insult_2: C1,IS,KY,L2,LD,MC,T4,TF,VA
+insult_1: C1,IS,KY,L2,MC,T4,TF,VA
+insult_2: C1,IS,KY,L2,MC,T4,TF,VA
 insulting: GR,MC
 insuperable: GM,GR
 insurable: WB
@@ -13251,8 +13231,8 @@ intellectualism: WB
 intellectuality: WB
 intellectualize: WB
 intellectually: TF
-intelligence: B1,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,S3,ST,T4,TF,VA,W3
-intelligent: A2,BL,BN,CA,IS,KY,L3,LD,MC,S3,T4,T6,TF,VA
+intelligence: B1,BN,CA,GK,GL,GM,IS,KY,L3,MC,S3,ST,T4,TF,VA,W3
+intelligent: A2,BL,BN,CA,IS,KY,L3,MC,S3,T4,T6,TF,VA
 intelligently: TF
 intelligentsia: L1,WB
 intelligible: GR,IS,KY,ST,T6,TF
@@ -13361,7 +13341,7 @@ interrogate: GR,IS,L1,ST,TF
 interrogation: GR
 interrogative: GR
 interrupt: AW,B2,BE,BN,CA,GK,GR,IS,KY,L2,LD,MC,ST,T4,T6,TF,TL
-interruption: BE,GR,MC,T4,TF
+interruption: BE,GR,LD,MC,T4,TF
 intersect: GM,GR,ST,TF
 intersection: GM,GR,IS,KY,T6,TF,TL
 interservice: GM
@@ -13451,7 +13431,7 @@ invective: GR,ST
 inveigh: GR,ST
 inveigle: GR
 invent: A2,BE,BN,CA,GK,GL,KY,L2,LD,MC,T4,TF,VA,WB,WK,ZK
-invention: A2,BL,BN,CA,GK,GR,KY,L2,MC,OG,T4,TF,TL,ZK
+invention: A2,BL,BN,CA,GK,GR,KY,L2,LD,MC,OG,T4,TF,TL,ZK
 inventive: GR,IS,L1,ST
 inventor: GK,L1,T4,TF,WB
 inventory: BE,BL,CA,GM,GR,IS,KY,L2,T6,TF,TL
@@ -13485,11 +13465,11 @@ invoice: BE,BL,GR,IS,L1,T6,TL
 invoke: BN,C1,GM,GR,IS,L1,ST,TF
 involuntary: GR,L1
 involute: GR
-involve: A2,BE,BN,CA,GL,GR,GS,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,VA,W1
+involve: A2,BE,BN,CA,GL,GR,GS,IS,KY,L4,MC,S2,ST,T4,T6,TF,VA,W1
 involved: B1,BN,CA,GR,L4,S2,W3
 involvement: BN,C1,CA,GL,GM,GR,L3,T4,T6,TF,W3
 invulnerable: GR
-inward: FE,KY,L1,LD,T4,TF
+inward: FE,KY,L1,T4,TF
 inwards: L1,LD,MC
 iodine: GR,L1,TF
 ion: AW,BE,GM,IS,L1,ST,T6,TF
@@ -13497,7 +13477,6 @@ ionize: TF,WB
 ionizer: WB
 ionomer: WB
 iota: GR
-ir-: LD
 irascible: GR,ST
 irate: GM,GR,ST
 ire: GR,ST
@@ -13625,14 +13604,14 @@ jawbone: TF
 jay: L1,TF
 jazz: A2,AW,BN,CA,GK,KY,L3,MC,T4,TF,TL,ZK
 jazzy: L1
-jealous: BE,CA,IS,KY,L2,T4
-jealousy: GR,T6,TF
+jealous: BE,CA,IS,KY,L2,LD,T4
+jealousy: GR,LD,T6,TF
 jean: T6,TF
 jeans: A1,BN,CA,GK,KY,L2,T4,TF,TL,ZK
 jeep: GK
 jeer: GR,IS,L1
 jejune: GR
-jelly: L1,OG,T6,TF,WK
+jelly: L1,LD,OG,T6,TF,WK
 jellyfish: TF
 jeopardise: IS,WB
 jeopardize: GM,GR,IS,L1,ST,T6,TF
@@ -13696,10 +13675,10 @@ journal: B1,BE,BN,CA,GL,IS,KY,L4,T4,TF
 journalism: B2,CA,L2,MC,TF,TL
 journalist: A2,BN,CA,GK,GL,IS,KY,L4,MC,T4,TF,W3
 journalistic: GR
-journey: A1,BN,CA,GK,GL,KY,L3,MC,OG,S3,T4,TF,W2
+journey: A1,BN,CA,GK,GL,KY,L3,LD,MC,OG,S3,T4,TF,W2
 journeyman: TF,WB
 jovial: GR,ST,WB
-joy: B2,BN,CA,GK,GL,KY,L3,T4,TF,W3,ZK
+joy: B2,BN,CA,GK,GL,KY,L3,LD,T4,TF,W3,ZK
 joyful: L1,T4,WB
 joyous: L1,TF
 joyride: WB
@@ -13771,7 +13750,7 @@ kayak: GR
 kea: TF
 keel: L1,TF,WB
 keelboat: TF,WB
-keen: B1,BE,BN,GL,GR,IS,KY,L3,MC,S3,T4,T6,TF,W3,WB,ZK
+keen: B1,BE,BN,GL,GR,IS,KY,L3,LD,MC,S3,T4,T6,TF,W3,WB,ZK
 keenly: T4,TF
 keep-fit: L1
 keep: A1,BN,CA,DL,DS,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,VA,W1,WK,ZK
@@ -13821,7 +13800,7 @@ killer: BL,BN,CA,L3
 killing: B1,BN,CA,L3
 killjoy: GR
 kiln: L1,ST,TF
-kilo: GK,KY,L1,ZK
+kilo: GK,KY,L1,LD,ZK
 kilocalorie: FE
 kilogram: FE,GK,L1,LD,MC,T4,TF,TL
 kilometer: AW,LD,TF,TL,ZK
@@ -13839,7 +13818,7 @@ kinetic: GM,GR,ST,T6,TF
 kinetoscope: TF
 kinfolk: TF
 king: A2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,T4,TF,W1,WK,ZK
-kingdom: BN,C1,CA,GK,KY,L2,T4,TF
+kingdom: BN,C1,CA,GK,KY,L2,LD,T4,TF
 kingfisher: L1
 kinglet: TF
 kink: TF
@@ -13918,7 +13897,7 @@ lab: A2,AW,BE,BL,BN,CA,GK,KY,L2,S3,T4,TL,ZK
 label: B1,BE,BN,CA,GL,IS,KY,L3,MC,S3,T4,T6,TF,W3
 labellum: TF
 labile: GR
-labor: BE,CA,GL,KY,TF,VA,WB,ZK
+labor: BE,CA,GL,KY,LD,TF,VA,WB,ZK
 laboratory: B1,BN,CA,GL,IS,KY,L3,MC,T4,TF,VA,W3,WB,ZK
 laborer: BE,TF
 laborious: GR,IS,L1,ST,T4,TF
@@ -13951,7 +13930,7 @@ lactose: ST
 lacuna: TF
 lacy: L1
 lad: BN,C1,KY,L3,S2,T4,TF,W3
-ladder: B2,BN,GK,KY,L2,S3,T4,TL,WK
+ladder: B2,BN,GK,KY,L2,LD,S3,T4,TL,WK
 lade: TF
 laden: IS,L1
 lady: A2,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,S1,T4,TF,W2,WK,ZK
@@ -14105,7 +14084,7 @@ lay-off: BE
 lay: B1,BE,BN,CA,DL,FS,GK,GL,IS,KY,L4,LD,S1,T4,TF,W2,WB,ZK
 layabout: GR
 layback: WB
-layer: B1,BN,CA,GL,IS,KY,L3,LD,MC,S3,T4,T6,TF,W3,WB
+layer: B1,BN,CA,GL,IS,KY,L3,MC,S3,T4,T6,TF,W3,WB
 layered: L1
 layman: GR,IS,KY,L1,T6,TF
 layoff: BE,IS,KY,L1,T6,TL
@@ -14157,7 +14136,7 @@ lecherous: GR,ST
 lechery: GR
 lecture: A2,BE,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,TF,W3
 lecturer: AW,BN,L2,TL
-led: FS,LD
+led: FS
 ledge: L1,TF
 ledger: BE,BL,GR
 leech: L1
@@ -14236,8 +14215,6 @@ lesson: A1,BN,CA,DL,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,WK,ZK
 lessor: BE,BL,WB
 lest: KY,L1,T4,T6
 let alone: BN
-let go of: LD
-let out: LD
 let's: BN,FS,L4
 let: A1,BE,BN,CA,DL,DS,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,TF,VA,W1,WK,ZK
 lethal: C1,GM,GR,IS,L2,ST,TF
@@ -14307,7 +14284,6 @@ lick: IS,KY,L1,S3,T4
 lid: BN,GK,KY,L2,LD,MC,S3,T4,TF
 lidded: WB
 lido: GR
-lie down: LD
 lie-down: L1
 lie-in: L1
 lie: A1,B1,BN,CA,DL,FS,GK,GL,KY,L3,L4,LD,MC,S2,S3,T4,TF,VA,W1,W3,WB,WK,ZK
@@ -14353,7 +14329,7 @@ lighthouse: L1,TF
 lighting: B2,BN,L2,S3,ZK
 lightly: BN,CA,T4,TF
 lightness: TF
-lightning: CA,GK,KY,L2,T4,TF,VA
+lightning: CA,GK,KY,L2,LD,T4,TF,VA
 lightweight: L2,TF,TL
 ligneous: GR
 lignite: WB
@@ -14370,7 +14346,7 @@ liking: L1
 lilac: L1
 lily: L1,T6,TF
 liman: GR
-limb: AW,BN,C1,CA,FE,GR,IS,KY,L2,T4,T6,TF
+limb: AW,BN,C1,CA,FE,GR,IS,KY,L2,LD,T4,T6,TF
 limber: GR,WB
 limbo: GR,L1
 lime: IS,L2,T4,TF
@@ -14546,11 +14522,12 @@ locution: GR
 lodestone: GR,WB
 lodge: BE,BN,GM,GR,IS,KY,L2,ST,T4,TF
 lodger: GR,L1
-lodging: IS,L1,T6
+lodging: IS,L1,LD,T6
+lodgings: LD
 loess: TF
 loft: GR,L1,TF
 lofty: GR,IS,KY,L1,T6,TF
-log: BN,C1,CA,GL,GR,IS,KY,L2,S3,T4,T6,TF,WB
+log: BN,C1,CA,GL,GR,IS,KY,L2,LD,S3,T4,T6,TF,WB
 logarithm: GM
 logged: GR
 logger: L1,TF
@@ -14597,7 +14574,7 @@ longueur: GR
 loo: L1
 loofah: WB
 look after: MC
-look for: LD,MC
+look for: MC
 look: A1,A2,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,WS,ZK
 lookout: L1,ZK
 loom: BE,BL,C1,GM,GR,IS,KY,L2,T6,TF
@@ -14615,7 +14592,7 @@ lop: GR,TF
 lope: GR,TF
 lopsided: GR,TF
 loquacious: GR,ST
-lord: B2,BN,CA,KY,L4,S3,T4,TF,W2
+lord: B2,BN,CA,KY,L4,LD,S3,T4,TF,W2
 lordly: TF
 lordship: BN
 lore: GM,GR,L1,TF
@@ -14681,7 +14658,7 @@ lucid: IS,L1,ST
 lucidity: WB
 luck: A2,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,VA,W3,WB,WK,ZK
 luckily: L1,S3,TF
-lucky: A2,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,ZK
+lucky: A2,BN,CA,GK,GL,KY,L3,MC,S2,T4,TF,W3,ZK
 lucrative: BE,BL,GM,GR,IS,L2,ST,TF
 lucre: GR
 lucubrate: GR
@@ -14702,7 +14679,7 @@ luminescent: ST,WB
 luminosity: GM,TF
 luminous: GM,GR,IS,L1,T6,TF
 lump sum: L1
-lump: AW,BE,BL,BN,GM,GR,IS,KY,L2,MC,S2,T4,T6,TF
+lump: AW,BE,BL,BN,GM,GR,IS,KY,L2,LD,MC,S2,T4,T6,TF
 lumpish: GR
 lumpy: L1
 lunacy: GR,WB
@@ -14769,7 +14746,7 @@ macrophage: GM,ST
 macroscopic: WB
 macula: GR
 mad cow disease: L1
-mad: B1,BE,BN,CA,GK,GL,KY,L3,S2,T4,TF,W3,ZK
+mad: B1,BE,BN,CA,GK,GL,KY,L3,LD,S2,T4,TF,W3,ZK
 madam: GK,L1,S3,T4,ZK
 madame: BN,KY
 madcap: WB
@@ -14791,7 +14768,7 @@ magenta: GR,TF
 maggot: GR,L2
 magic: B1,BN,CA,DL,GK,GL,IS,KY,L3,LD,MC,T4,TF,W3,ZK
 magical: C1,CA,L2,TF,WB
-magician: L1,T6
+magician: L1,LD,T6
 magisterial: GR
 magistracy: GR
 magistrate: BN,C1,GR,IS,KY,L2,T6
@@ -14843,8 +14820,7 @@ majesty: BN,KY,L2,T6
 major depressive disorder: VA
 major: A2,B2,BE,BN,CA,FS,GK,GL,GS,IS,L5,MC,S1,T4,TF,VA,W1,WB,ZK
 majority: BN,CA,GK,GL,IS,KY,L4,MC,S2,T4,T6,TF,VA,W1
-make into: LD
-make up: LD,MC
+make up: MC
 make-believe: WB
 make-up: BN,L3
 make: A1,B2,BE,BN,CA,DL,DS,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,T4,VA,W1,WK,WS,ZK
@@ -15020,7 +14996,7 @@ marquee: L1
 marquetry: GR
 marquis: L1
 marriage: B1,BE,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,W2,ZK
-married: A1,BE,BN,CA,GK,KY,L3,LD,MC,OG,S2,T4,W2
+married: A1,BE,BN,CA,GK,KY,L3,MC,OG,S2,T4,W2
 marrow: AW,GM,GR,IS,L1,TF
 marry: A2,BE,BN,CA,DL,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W2,WK,ZK
 marsh: GR,IS,L1,ST,T6,TF
@@ -15060,7 +15036,7 @@ massif: TF
 massive: B2,BE,BN,CA,GL,GR,IS,KY,L3,S2,T4,T6,TF,W3
 massless: WB
 mast: GR,L1,T6,TF
-master: B2,BE,BN,CA,GK,GL,KY,L4,S2,T4,TF,W2,ZK
+master: B2,BE,BN,CA,GK,GL,KY,L4,LD,S2,T4,TF,W2,ZK
 masterful: WB
 mastermind: BE,GR,L1,ST
 masterpiece: BE,IS,KY,L2,T4,T6,TF
@@ -15070,7 +15046,7 @@ masticate: GR
 mastiff: WB
 mastodon: GM,GR,TF
 masturbate: L1
-mat: FE,GK,GR,KY,L1,T4,TF
+mat: FE,GK,GR,KY,L1,LD,T4,TF
 matador: GR
 match: A1,BE,BN,CA,DL,FS,GK,GL,IS,KY,L5,LD,MC,OG,S2,S3,T4,TF,W2,ZK
 matched: L1
@@ -15090,7 +15066,7 @@ matey: GR
 math: CA,L1,S2,ZK
 mathematical: AW,BL,BN,C1,KY,L2,T4
 mathematician: L1,TF
-mathematics: A2,BE,BN,CA,GK,GL,GS,L2,LD,MC,T4,TF,VA
+mathematics: A2,BE,BN,CA,GK,GL,GS,L2,MC,T4,TF,VA
 maths: A2,KY,L1,MC,S2,T4,ZK
 matinee: WB
 matriarch: GM
@@ -15240,7 +15216,7 @@ men: DS,FS
 menace: BE,GR,IS,KY,L1,ST,T6
 menacing: L1,ST,WB
 menagerie: GR
-mend: GK,GR,KY,L1,T4,T6,ZK
+mend: GK,GR,KY,L1,LD,T4,T6,ZK
 mendacious: GR,ST
 mendacity: GR
 mender: WB
@@ -15254,7 +15230,7 @@ mensch: WB
 menstrual: L1
 menstruate: L1
 menswear: BE
-mental: B1,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W2
+mental: B1,BE,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,T6,TF,VA,W2
 mentality: IS,L1
 mentally: BN,CA,FE,GK,MC,TF
 mentee: WB
@@ -15289,7 +15265,7 @@ meritorious: GR,ST,WB
 mermaid: GR,L1,TF
 merriment: ST
 merry-go-round: WB
-merry: GK,KY,L2,T4
+merry: GK,KY,L2,LD,T4
 mesa: GR,WB
 mesenchymal: WB
 mesenchyme: WB
@@ -15299,12 +15275,12 @@ mesmerize: GR,L1,TF,WB
 mesothelioma: GM,WB
 mesotherapy: WB
 mesquite: TF
-mess: B1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,T6,TF,ZK
+mess: B1,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,T6,TF,ZK
 message: A1,BN,CA,GK,GL,KY,L4,LD,MC,S1,T4,T6,TF,VA,W2,WB,ZK
-messenger: AW,KY,L1,T4,T6,TL
+messenger: AW,KY,L1,LD,T4,T6,TL
 messiah: L1
 messuage: GR
-messy: GK,L1,LD,S3,TF
+messy: GK,L1,S3,TF
 metabisulfite: WB
 metabolic: FE,GM,L1,ST,T6,TF
 metabolism: AW,FE,GM,GR,IS,L1,ST,TF
@@ -15351,7 +15327,7 @@ meticulous: GR,IS,L1,ST,TF,WB
 meticulously: TF,WB
 metre: A1,BN,GK,KY,L3,MC,S2,T4,W3
 metric ton: L1
-metric: BL,GM,IS,KY,L1,T4,TF
+metric: BL,GM,IS,KY,L1,LD,T4,TF
 metrical: GR
 metro: IS,L1
 metropolis: KY,L1,TF
@@ -15387,7 +15363,7 @@ microorganism: GM,ST,TF
 micropayment: WB
 microphone: KY,L2,ST,T4,TL
 microprocessor: IS,L1,T6,TF
-microscope: BE,GK,IS,KY,L1,ST,T4,TF,TL,VA
+microscope: BE,GK,IS,KY,L1,LD,ST,T4,TF,TL,VA
 microscopic: GM,GR,L1,T6,TF
 microscopy: TF
 microwave: GK,L2,T6,TF,TL,WB,ZK
@@ -15761,7 +15737,7 @@ monument: B2,BN,CA,GK,KY,L2,T4,TF,TL
 monumental: GM,GR,IS,L1,TF
 moo: ST
 mooch: GR
-mood: B1,BN,CA,GL,IS,KY,L3,LD,MC,S3,T4,TF,W3
+mood: B1,BN,CA,GL,IS,KY,L3,MC,S3,T4,TF,W3
 moody: GR,L2,TF,WB
 moon: A2,BN,CA,DL,FS,GK,GL,KY,L3,LD,MC,OG,T4,TF,VA,W3,WK,ZK
 moonlight: L1
@@ -15786,6 +15762,7 @@ moralistic: GR,TF
 morality: AW,BN,C1,CA,IS,KY,L2,ST,T6,TF
 moralize: TF
 morally: MC,TF
+morals: LD
 morass: GR,ST
 moratorium: BE,GR,L1,ST
 morbid: GR,IS,L1,ST,WB
@@ -15888,9 +15865,9 @@ mouthful: GK,L1,T4
 mouthpiece: L1
 movable: TF,WB
 move: A1,B1,BN,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,S2,T4,T6,VA,W1,WK,ZK
-movement: A2,BE,BN,CA,FS,GK,GL,GR,KY,L4,LD,MC,S1,T4,VA,W1
+movement: A2,BE,BN,CA,FS,GK,GL,GR,KY,L4,MC,S1,T4,VA,W1
 mover: L1
-movie: A1,BN,CA,DL,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W2,ZK
+movie: A1,BN,CA,DL,GK,GL,GS,KY,L4,MC,S1,T4,TF,VA,W2,ZK
 moviegoer: WB
 moving: B2,L2
 mow: GM,L1,TF
@@ -16034,7 +16011,7 @@ myositis: WB
 myriad: GR,IS,L1,ST,TF
 myrmecophagous: GM
 myrrh: WB
-myself: A2,BN,CA,DL,DS,GK,GL,GS,L4,S1,T4,W1,ZK
+myself: A2,BN,CA,DL,DS,GK,GL,GS,L4,LD,S1,T4,W1,ZK
 mysterious: B2,BN,CA,IS,KY,L2,LD,MC,T4,TF,ZK
 mysteriously: T6,TF
 mystery: B1,BN,CA,GL,KY,L3,LD,MC,T4,T6,TF,VA,W3,ZK
@@ -16122,7 +16099,7 @@ natty: GR
 natural gas: L1
 natural history: L1
 natural resources: L1
-natural: A1,BN,CA,FS,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,VA,W1,WB,ZK
+natural: A1,BN,CA,FS,GK,GL,IS,KY,L4,MC,OG,S2,T4,VA,W1,WB,ZK
 naturalism: TF
 naturalist: L1,TF
 naturalistic: GR,ST,TF
@@ -16136,7 +16113,7 @@ nausea: GR,IS,L1,ST
 nauseate: GR,ST
 nauseous: ST,TF
 nautical: GR,IS,L1,ST
-naval: BN,C1,IS,KY,L3,ST,T4,TF,WB
+naval: BN,C1,IS,KY,L3,LD,ST,T4,TF,WB
 nave: GR
 navel-gazing: WB
 navel: FE,GR,L1
@@ -16183,7 +16160,7 @@ needy: GM,L1,ST,T4,T6,TF,TL
 nefarious: GR,ST
 negate: GR,L1,ST,TF
 negation: GR,IS
-negative: A1,B2,BE,BN,CA,GL,GM,IS,KY,L3,LD,MC,S2,T4,T6,TF,W2,WB,ZK
+negative: A1,B2,BE,BN,CA,GL,GM,IS,KY,L3,MC,S2,T4,T6,TF,W2,WB,ZK
 neglect: BN,C1,GL,IS,KY,L2,T4,T6,TF
 negligence: BL,BN,GM,GR,IS,ST
 negligent: GR,L1,ST,TF
@@ -16194,8 +16171,8 @@ negotiating table: L1
 negotiation: B2,BN,CA,GL,GM,L4,S3,T6,TF,W2,WB
 negotiator: BL
 neigh: GR
-neighbor: CA,GL,KY,TF,WB,ZK
-neighborhood: CA,GL,KY,T4,T6,TF
+neighbor: CA,GL,KY,LD,TF,WB,ZK
+neighborhood: CA,GL,KY,LD,T4,T6,TF
 neighborly: WB
 neighbour: A1,BN,GK,L3,MC,S2,T4,W2,WK
 neighbourhood: B1,BN,GK,KY,L2,S3,T4,W3,WB
@@ -16354,7 +16331,8 @@ no-nonsense: L1
 no-one: BN
 no: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WB,WK,WS,ZK
 nobility: IS,L1,TF
-noble: AW,BN,C1,GK,KY,L2,T4,TF,WK
+noble: AW,BN,C1,GK,KY,L2,LD,T4,TF,WK
+nobleman: LD
 nobly: WB
 nobody: A1,BN,CA,GK,GL,GS,L4,S1,T4,TF,W2,WB,ZK
 nocturnal: GM,GR,IS,L1,ST,TF
@@ -16379,7 +16357,6 @@ nominally: GR
 nominate: BE,BL,BN,C1,CA,GM,GR,IS,KY,L2,ST,T6,TF,TL,VA
 nomination: BL,C1,CA,GR,TL
 nominee: C1,CA,IS,L2,ST,TF
-non-: LD
 non-American: WB
 non-aligned: L1
 non-biodegradable: GM
@@ -16482,7 +16459,7 @@ nope: L1,S3
 nor: B1,BN,CA,GK,GL,L4,LD,MC,S2,T4,TF,W1,WK,ZK
 norepinephrine: WB
 norm: AW,B2,BL,BN,CA,GR,IS,KY,L2,T6,TF,WB
-normal: A2,B1,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S1,T4,TF,VA,W1,ZK
+normal: A2,B1,BE,BN,CA,GK,GL,IS,KY,L4,MC,OG,S1,T4,TF,VA,W1,ZK
 normalization: KY,T6
 normalize: L1
 normally: A2,BN,CA,GL,GS,L3,MC,S1,T4,TF,W2
@@ -16518,7 +16495,7 @@ notate: GR,TF
 notation: AW,IS,T6,TF
 notch: GR,IS,L1,TF
 notched: GR
-note: A1,B1,BN,CA,DL,FS,GK,GL,GM,GS,L4,LD,MC,OG,S1,S3,T4,TF,VA,W1,ZK
+note: A1,B1,BN,CA,DL,FS,GK,GL,GM,GS,L4,MC,OG,S1,S3,T4,TF,VA,W1,ZK
 notebook: B2,BE,BN,GK,KY,L2,T4,TF,ZK
 noted: L3,T6,TF,WB
 notepad: BE
@@ -16617,7 +16594,7 @@ nutritive: TF
 nutty: L1,WB
 nuzzle: GR
 nyctalopia: GR
-nylon: BE,GK,IS,KY,L1,T4,TF
+nylon: BE,GK,IS,KY,L1,LD,T4,TF
 nymph: GR,L1
 nystatin: TF
 o'clock: BN,CA,DL,L3,LD,MC,S1,TL,W3
@@ -16631,8 +16608,8 @@ oatmeal: L1
 oats: GM,L1
 obbligato: GR
 obdurate: GR,ST
-obedience: KY,T6,TF
-obedient: GR,IS,KY,L1,T6,TF
+obedience: KY,LD,T6,TF
+obedient: GR,IS,KY,L1,LD,T6,TF
 obeisance: GR
 obese: GM,GR,L1,ST
 obesity: B2,FE,GR,KY,ST,T6
@@ -16874,7 +16851,7 @@ one-way: L1,WB
 one: A1,BN,CA,DL,DS,FS,GK,GL,GS,IS,L5,LD,MC,S1,T4,W1,WK,WS,ZK
 oneness: TF
 onerous: GR,L1,ST
-oneself: GK,KY,L1,T4,ZK
+oneself: GK,KY,L1,LD,T4,ZK
 onetime: TF
 ongoing: B2,BL,CA,GM,GR,IS,L2,T6,TF,TL
 onion: A1,BN,CA,GK,KY,L2,LD,MC,S3,T4,TF,ZK
@@ -16887,7 +16864,7 @@ onset: AW,GM,GR,IS,L1,ST,TF
 onslaught: GR,IS,L1,TF
 onstage: L1,TF
 ontic: GR
-onto: A2,BN,CA,DL,GK,GL,L3,LD,MC,S1,T4,TF,W2
+onto: A2,BN,CA,DL,GK,GL,L3,MC,S1,T4,TF,W2
 ontogenetic: WB
 ontology: GR
 onus: BE,GR,L1,ST
@@ -16945,7 +16922,7 @@ opponent: B2,BE,BN,CA,GL,GR,IS,KY,L3,LD,MC,ST,T4,T6,TF,W3,WB
 opportune: GR,ST,WB
 opportunist: L1,TF,WB
 opportunistic: L1,TF
-opportunity: A2,BE,BN,CA,GL,GS,IS,KY,L4,LD,MC,S1,T4,TF,W1,WB,ZK
+opportunity: A2,BE,BN,CA,GL,GS,IS,KY,L4,MC,S1,T4,TF,W1,WB,ZK
 oppose: B2,BN,CA,GK,GL,GR,IS,KY,L3,LD,MC,S3,T4,T6,TF,VA,W3
 opposed: B2,CA,GR,L3,TF
 opposing: L1
@@ -17021,7 +16998,7 @@ organism: AW,BN,CA,GR,IS,KY,L2,T4,TF,VA,WB
 organist: WB
 organization: A2,BE,BN,CA,GK,GL,GM,KY,L4,LD,MC,OG,S2,T4,TF,W1
 organizational: BE,BL,C1,TF,TL,WB
-organize: A2,BE,BN,CA,GL,IS,KY,L4,LD,MC,S1,T4,TF,VA,W2,WB,ZK
+organize: A2,BE,BN,CA,GL,IS,KY,L4,MC,S1,T4,TF,VA,W2,WB,ZK
 organized crime: L1
 organized: B1,L3,S3
 organizer: B1,TL
@@ -17036,7 +17013,7 @@ oriented: GM,L2,WB
 orifice: GR,ST
 origami: WB
 origin: B2,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,ST,T4,T6,TF,W2
-original: A2,B1,BE,BN,CA,GL,GR,IS,KY,L4,LD,MC,S1,ST,T4,T6,TF,W1,ZK
+original: A2,B1,BE,BN,CA,GL,GR,IS,KY,L4,MC,S1,ST,T4,T6,TF,W1,ZK
 originalism: WB
 originality: GM,GR,TF
 originally: B1,BE,BN,CA,GL,L3,MC,S2,TF,W2
@@ -17085,7 +17062,7 @@ other than: BN
 other-directed: GR
 other: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WK,WS,ZK
 otherness: WB
-otherwise: B2,BN,CA,GK,GL,IS,L4,S1,T4,T6,TF,W2,WB
+otherwise: B2,BN,CA,GK,GL,IS,L4,LD,S1,T4,T6,TF,W2,WB
 otherworldly: GR,WB
 otiose: GR
 otter: L1,TF
@@ -17095,7 +17072,7 @@ ought: B1,BN,CA,GK,GL,GS,L3,LD,T4,T6,TF,WB
 ounce: BE,BL,CA,FE,IS,KY,L2,S3,T4,TF
 our: A1,BN,CA,DS,FS,GK,L5,LD,MC,S1,T4,TF,VA,W1,WK,WS,ZK
 ours: B1,BN,CA,GK,L2,LD,MC,S1,T4,WB,ZK
-ourselves: A2,BN,CA,GK,GL,L3,S1,T4,TF,W3,ZK
+ourselves: A2,BN,CA,GK,GL,L3,LD,S1,T4,TF,W3,ZK
 oust: BL,GM,GR,IS,L2,ST,TF,VA
 out of touch: L1
 out of work: L1
@@ -17315,12 +17292,13 @@ ovulate: GM,L1,WB
 ovulatory: WB
 ovum: ST
 owe: B2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W3
+owing to: LD
 owing: BE,KY,T4
 owl: BN,GR,IS,KY,L2,T4,T6,TF
 own goal: L1
 own-brand: BE
 own: A1,A2,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,S2,T4,VA,W1,W2,WK,ZK
-owner: A2,BE,BN,CA,GK,GL,KY,L4,LD,MC,OG,S2,T4,W2,WB,ZK
+owner: A2,BE,BN,CA,GK,GL,KY,L4,MC,OG,S2,T4,W2,WB,ZK
 ownership: B2,BN,CA,GK,GL,IS,KY,L3,ST,T4,TF,W3,WB
 ox: GK,KY,L1,T4,TF
 oxidation: FE
@@ -17351,11 +17329,11 @@ pacifist: GR,L1
 pacify: GR,IS,L1,ST
 pack: A2,B1,BN,CA,GK,GL,GR,IS,KY,L4,LD,S2,T4,TF,W3,WB,ZK
 packable: WB
-package: B1,B2,BE,BN,CA,GK,GL,KY,L4,LD,S2,T4,T6,TF,W2,WB,ZK
+package: B1,B2,BE,BN,CA,GK,GL,KY,L4,S2,T4,T6,TF,W2,WB,ZK
 packaging: L2
 packed: GR,L2,TF
 packer: BE,TF
-packet: B2,BE,BL,BN,GK,KY,L2,S2,T4,TL,WB
+packet: B2,BE,BL,BN,GK,KY,L2,LD,S2,T4,TL,WB
 packing: BE,L2,WB
 pact: BL,BN,GM,GR,KY,L3,T6,TF
 pad: BN,C1,CA,FE,GM,IS,KY,L2,S3,T4,TL
@@ -17388,7 +17366,7 @@ painting: A1,BN,CA,GK,KY,L4,LD,MC,S3,T4,W2
 pair: A1,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,S2,T4,TF,W2,WK,ZK
 pairing: L1
 pal: CA,GR,L2,T6,WB
-palace: A2,BE,BN,CA,GK,KY,L3,T4,TF,W3,ZK
+palace: A2,BE,BN,CA,GK,KY,L3,LD,T4,TF,W3,ZK
 palatable: GM,GR,IS,L1,ST,TF
 palate: GR,L1,TF
 palatial: BE,GR,ST
@@ -17448,7 +17426,7 @@ pantheon: GM,GR,L1
 panther: L1,T6
 pantomime: GR,L1,ST,TF
 pantry: GR,T6
-pants: A2,FE,IS,KY,L2,LD,S3,T4,T6,TF
+pants: A2,FE,IS,KY,L2,S3,T4,T6,TF
 papa: L1
 papal: L1
 paper: A1,BE,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,WK,ZK
@@ -17500,7 +17478,7 @@ parasitology: WB
 parasol: GR
 parathyroid: GR
 paratrooper: L1
-parcel: AW,BE,BN,GK,IS,KY,L2,MC,OG,S3,T4,TF,TL
+parcel: AW,BE,BN,GK,IS,KY,L2,LD,MC,OG,S3,T4,TF,TL
 parch: GR,ST
 parchment: GR
 pardon: AW,BN,GK,IS,KY,L2,S2,T4,TF,VA,ZK
@@ -17523,7 +17501,7 @@ parkland: L1
 parkway: TF
 parky: GR
 parley: GR
-parliament: B2,BL,BN,CA,GM,IS,KY,L4,MC,T4,TF,VA,W2
+parliament: B2,BL,BN,CA,GM,IS,KY,L4,LD,MC,T4,TF,VA,W2
 parliamentarian: L1
 parliamentary: BL,BN,C1,GR,L3
 parlor: GM,TF
@@ -17557,7 +17535,7 @@ participant: B2,BE,BN,CA,GL,IS,KY,L2,T6,TF
 participate: B1,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF,W3,WB
 participation: B2,BN,CA,GL,GM,GR,IS,TF
 participatory: GM
-participle: MC
+participle: LD,MC
 particle: AW,BL,BN,CA,GM,IS,KY,L2,ST,T4,T6,TF,VA
 particular: A2,BE,BN,CA,FS,GK,GL,GM,GR,GS,IS,KY,L4,LD,MC,S1,T4,T6,TF,W1,ZK
 particularity: GR
@@ -17567,7 +17545,7 @@ particulate: GM,GR,IS
 parting: L1
 partisan: GM,GR,IS,L1,WB
 partition: AW,BL,GR,IS,L1,ST,T6,TF,WB
-partly: B2,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W2
+partly: B2,BN,CA,GK,GL,KY,L3,MC,S2,T4,TF,W2
 partner: A1,BN,CA,DL,GK,GL,KY,L4,LD,MC,S2,T4,TF,W2,WK,ZK
 partnership: B2,BE,BN,CA,GL,L3,TF,W3
 partridge: GM
@@ -17613,7 +17591,7 @@ pastor: C1,CA,GR,L1
 pastoral: GM,GR,L1,ST,TF
 pastoralism: TF
 pastoralist: TF
-pastry: GR,L2,T6,TL
+pastry: GR,L2,LD,T6,TL
 pasturage: WB
 pasture: GM,IS,KY,L1,T6,TF
 pasty: GR
@@ -17773,7 +17751,7 @@ penalize: BE,GR,IS,L1,TL
 penalty area: L1
 penalty: B2,BE,BN,CA,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF,W3
 penance: GR,WB
-pence: BN
+pence: BN,LD
 penchant: GR,L1,ST,TF
 pencil: A1,BN,DL,GK,KY,L2,LD,MC,OG,S2,T4,TF,WK,ZK
 pendant: TF
@@ -17852,7 +17830,7 @@ perfidious: GR,ST
 perfidy: GR
 perforate: GR,ST
 perform: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S3,ST,T4,TF,VA,W2,ZK
-performance: B1,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,S2,T4,T6,TF,W1,WB
+performance: B1,BN,CA,GK,GL,GM,IS,KY,L4,MC,S2,T4,T6,TF,W1,WB
 performer: BL,BN,CA,GK,MC,TF,TL
 perfume: GK,GR,IS,KY,L2,T6,TF
 perfumed: L1
@@ -17891,7 +17869,7 @@ perky: GR
 perm: L1,TF,WB
 permafrost: TF
 permanence: TF
-permanent: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,S2,ST,T4,T6,TF,VA,W2
+permanent: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,MC,S2,ST,T4,T6,TF,VA,W2
 permanently: B2,BL,BN,MC,TL
 permeability: TF
 permeable: GR,ST,TF,WB
@@ -17899,7 +17877,7 @@ permeate: GM,GR,IS,KY,L1,T6,TF,WB
 permissible: IS,L1,T6,WB
 permission: A2,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,TF,W3,ZK
 permissive: GM,GR
-permit: B2,BN,CA,GK,GL,GM,IS,KY,L3,T4,TF,VA,W3
+permit: B2,BN,CA,GK,GL,GM,IS,KY,L3,LD,T4,TF,VA,W3
 permutation: GM,GR,ST
 permute: GR
 pernicious: GM,GR,L1,ST,TF,WB
@@ -17999,7 +17977,7 @@ petrify: GR,ST,TF
 petrochemical: L1,TF
 petrol bomb: L1
 petrol station: L1
-petrol: A2,BE,BL,BN,GK,IS,KY,L2,MC,S3,T4,WK
+petrol: A2,BE,BL,BN,GK,IS,KY,L2,LD,MC,S3,T4,WK
 petroleum: BE,GM,GR,IS,KY,L2,T4,TF
 petrology: GR
 petticoat: TF
@@ -18077,7 +18055,7 @@ photogrammetry: TF,WB
 photograph: A1,A2,BN,CA,GK,GL,L4,LD,MC,S2,T4,TF,W2,WK,ZK
 photographer: B1,BN,CA,GK,MC,TF,TL
 photographic: AW,BE,L2
-photography: B1,BN,CA,IS,L2,ST,T6,TF,TL
+photography: B1,BN,CA,IS,L2,LD,ST,T6,TF,TL
 photojournalism: TF
 photolithography: WB
 photon: GM,L1,ST
@@ -18112,7 +18090,7 @@ piazza: GR,L1
 pic: L1
 picayunish: GR
 piccolo: WB
-pick up: LD,MC
+pick up: MC
 pick-and-roll: WB
 pick-up: L3
 pick: A2,B2,BE,BN,CA,DL,DS,GK,GL,GS,IS,L4,LD,S1,T4,TF,W1,WK,ZK
@@ -18547,7 +18525,7 @@ poppy: L1
 poppycock: WB
 populace: GR,IS,L1,ST
 popular: A1,BN,CA,DL,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W1,WK,ZK
-popularity: B2,BL,BN,CA,IS,MC,T4,T6,TF,TL,ZK
+popularity: B2,BL,BN,CA,IS,LD,MC,T4,T6,TF,TL,ZK
 popularize: IS,L1,T4,TF,WB
 popularly: L1,TF
 populate: IS,L1,TF
@@ -18593,7 +18571,7 @@ posit: GM,GR,ST,TF
 position: A2,B2,BE,BN,CA,FS,GK,GL,GS,IS,KY,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,WK,ZK
 positioner: WB
 positioning: BE
-positive: A1,B2,BN,CA,GK,GL,GM,GR,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,W2,ZK
+positive: A1,B2,BN,CA,GK,GL,GM,GR,IS,KY,L4,MC,S2,ST,T4,T6,TF,W2,ZK
 positively: AW,BL,BN,L1,T6
 positivism: WB
 positivity: WB
@@ -18737,7 +18715,7 @@ precession: ST
 precinct: GR,L1
 preciosity: GR
 precious metal: L1
-precious: B2,BE,BL,BN,CA,GK,IS,KY,L2,T4,T6,TF
+precious: B2,BE,BL,BN,CA,GK,IS,KY,L2,LD,T4,T6,TF
 precipice: GR,IS,ST
 precipitant: GR
 precipitate: AW,GM,GR,IS,L1,ST,T6,TF,WB
@@ -18796,7 +18774,7 @@ prefabricated: GR,WB
 preface: GR,IS,KY,L1,ST,T4,WB
 prefatory: WB
 prefect: L1
-prefer: A1,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,W2,WB,ZK
+prefer: A1,BN,CA,GK,GL,KY,L4,MC,S2,T4,TF,W2,WB,ZK
 preferable: IS,KY,L2,ST,T4,T6,TF
 preferably: GR,TF
 preference: B2,BE,BN,CA,GK,GL,GM,IS,KY,L2,ST,T4,T6,TF,W3
@@ -18876,7 +18854,7 @@ prescript: GR,ST
 prescription: BL,BN,C1,CA,GK,GM,GR,IS,KY,L2,ST,T4,T6,TF,TL
 prescriptive: BE
 preselect: WB
-presence: B2,BN,CA,GL,IS,KY,L4,S3,T4,TF,W2
+presence: B2,BN,CA,GL,IS,KY,L4,LD,S3,T4,TF,W2
 present-day: L1
 present: A1,A2,BN,CA,DL,FS,GK,GL,GS,KY,L2,L4,LD,MC,OG,S2,T4,T6,VA,W1,W2,W3,WB,WK,ZK
 presentation: B1,BE,BN,CA,GK,GL,GM,GR,IS,L2,S2,T4,T6,TF,W3
@@ -18938,8 +18916,8 @@ preventative: IS
 prevention: BL,BN,C1,CA,FE,T6,TF
 preventive: GM,L1,T4,TF
 preview: GK,GR,L2,T6,TL
-previous: B1,BE,BN,CA,GK,GL,GM,GR,IS,KY,L4,LD,MC,S1,T4,T6,TF,W1,WB
-previously: B1,BN,CA,GL,L3,LD,MC,S3,T4,W2
+previous: B1,BE,BN,CA,GK,GL,GM,GR,IS,KY,L4,MC,S1,T4,T6,TF,W1,WB
+previously: B1,BN,CA,GL,L3,MC,S3,T4,W2
 prevision: GR
 prey: AW,BN,C1,GM,GR,IS,KY,L2,T6,TF,WB
 price tag: L1
@@ -18948,8 +18926,8 @@ price: A1,B2,BN,CA,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,TF,VA,W1,WB,WK,ZK
 priceless: L1,T6
 prick: GR,KY,L1,T6
 prickle: GR,ST,WB
-prickly: GR,L1,TF
-pride: B2,BN,CA,GK,GL,KY,L3,S3,T4,TF,W3,ZK
+prickly: GR,L1,LD,TF
+pride: B2,BN,CA,GK,GL,KY,L3,LD,S3,T4,TF,W3,ZK
 prier: GR
 priest: B1,BN,CA,GM,KY,L3,LD,MC,T4,T6,TF,W3
 priestess: L1,TF
@@ -19024,9 +19002,9 @@ pro-choice: WB
 pro-life: L1,WB
 pro: CA,GL,L2,WB,ZK
 proactive: TF
-probability: B2,BE,BN,CA,GL,GM,IS,KY,L1,ST,T4,T6,TF
-probable: B2,BE,BL,BN,GK,IS,KY,L1,OG,T4,TF,TL
-probably: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,T4,VA,W1,WK,ZK
+probability: B2,BE,BN,CA,GL,GM,IS,KY,L1,LD,ST,T4,T6,TF
+probable: B2,BE,BL,BN,GK,IS,KY,L1,LD,OG,T4,TF,TL
+probably: A1,BN,CA,DL,FS,GK,GL,GS,L5,MC,S1,T4,VA,W1,WK,ZK
 probate: ST,WB
 probation officer: L1
 probation: BE,GR,IS,L1,ST
@@ -19045,7 +19023,7 @@ proceedings: CA,WB
 proceeds: BE,C1,GM,GR
 process: A2,B2,BE,BN,CA,FS,GK,GL,GM,GS,IS,KY,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1,WB
 processing: BN,C1,CA,T6
-procession: GR,IS,KY,L2,T4
+procession: GR,IS,KY,L2,LD,T4
 processor: AW,BE,BL,BN,C1,CA,IS,L2,TF
 proclaim: BL,BN,C1,GM,GR,IS,KY,L2,ST,T6,TF
 proclamation: GR,L1,ST
@@ -19101,12 +19079,12 @@ progeny: GR,ST
 progesterone: L1
 prognosis: GM,GR,L1
 prognosticate: GR
-program: A2,B1,BN,CA,DL,GL,GS,L4,LD,MC,T4,T6,TF,VA,W1,WB,ZK
+program: A2,B1,BN,CA,DL,GL,GS,L4,MC,T4,T6,TF,VA,W1,WB,ZK
 programme: A1,BE,BN,GK,KY,L5,MC,S1,TF,W1,WB
 programmer: BL,T4,TF,TL
 programming: B2,BN,CA,T4,WB
-progress_1: A2,B2,BE,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
-progress_2: A2,B2,BE,BN,CA,GK,GL,KY,L4,LD,MC,S2,T4,TF,VA,W2,ZK
+progress_1: A2,B2,BE,BN,CA,GK,GL,KY,L4,MC,S2,T4,TF,VA,W2,ZK
+progress_2: A2,B2,BE,BN,CA,GK,GL,KY,L4,MC,S2,T4,TF,VA,W2,ZK
 progression: AW,FE,GM,L1,ST,TF
 progressive: AW,B2,BL,BN,CA,GM,KY,L2,T4,T6,TF,WB
 progressively: TF
@@ -19171,7 +19149,7 @@ propel: GR,IS,KY,L1,ST,T6,TF
 propellant: IS,ST
 propeller: GM,GR,L1,T6
 propensity: GR,L1,TF
-proper: B1,BN,CA,GK,GL,KY,L4,S1,T4,T6,TF,W2,WK,ZK
+proper: B1,BN,CA,GK,GL,KY,L4,LD,S1,T4,T6,TF,W2,WK,ZK
 properly: B1,BN,CA,GK,GL,MC,S1,TF,W2
 property: B1,BE,BN,CA,FS,GL,GM,IS,KY,L4,LD,MC,OG,S2,T4,T6,TF,VA,W1
 prophecy: GR,IS,L1,T6
@@ -19194,7 +19172,7 @@ proportionally: TF
 proportionate: L1,ST
 proportionately: TF
 proportioned: WB
-proposal: B2,BE,BN,CA,GL,IS,KY,L4,LD,MC,S2,T4,TF,W1
+proposal: B2,BE,BN,CA,GL,IS,KY,L4,MC,S2,T4,TF,W1
 propose: B2,BN,CA,GL,IS,KY,L4,S2,T4,T6,TF,VA,W2
 proposed: BN,CA,W3
 proposition: AW,BL,BN,C1,CA,GR,IS,KY,L2,T6
@@ -19237,7 +19215,7 @@ protective: BN,C1,CA,GR,L2,LD,T4,TF,TL,WB
 protector: L1,TF
 protein: B2,BN,CA,GL,GM,IS,KY,L3,MC,ST,T4,T6,TF,VA
 proteomics: WB
-protest: B1,BN,CA,GL,GR,IS,KY,L4,LD,MC,OG,T4,T6,TF,VA,W3
+protest: B1,BN,CA,GL,GR,IS,KY,L4,MC,OG,T4,T6,TF,VA,W3
 protestant: BN,GM,L2
 protester: B2,BL,CA,WB
 protocol: AW,BL,BN,C1,CA,FE,GM,GR,IS,L1,ST,T4
@@ -19273,7 +19251,7 @@ providing: GM,L1,S2,T4
 province: BN,C1,CA,GK,GL,KY,L3,T4,T6,TF,ZK
 provincial: BE,BL,BN,C1,GR,L2,ST
 provincialism: TF
-provision: BE,BN,C1,CA,GL,GM,GR,IS,KY,L3,S3,T4,T6,TF,W1
+provision: BE,BN,C1,CA,GL,GM,GR,IS,KY,L3,LD,S3,T4,T6,TF,W1
 provisional: BE,GM,GR,IS,L2
 provisionally: BE
 proviso: BE,GM
@@ -19343,7 +19321,7 @@ publication: B2,BE,BN,CA,GL,KY,L3,T4,TF,VA,W2
 publicist: L1
 publicity: B2,BE,BL,BN,IS,KY,L3,S3,T4,T6,TF,TL,W3
 publicize: BE,GR,L2,T4,T6,TF,TL
-publicly: BL,BN,CA,GK,LD,MC,TF
+publicly: BL,BN,CA,GK,MC,TF
 publish: A2,AW,BE,BL,BN,CA,FE,GK,KY,L4,MC,S3,T4,TF,TL,VA,W1
 publisher: BN,CA,GL,L3,MC,TF,W3
 publishing house: L1
@@ -19411,7 +19389,7 @@ punt: L1
 punter: L1
 puny: GR
 pup: GM,L1,WB
-pupil: B2,BN,GK,GL,GR,IS,KY,L3,S2,T4,TF,W1,WK,ZK
+pupil: B2,BN,GK,GL,GR,IS,KY,L3,LD,S2,T4,TF,W1,WK,ZK
 puppet: KY,L1,TF
 puppetry: WB
 puppy: FE,GR,L1,T6
@@ -19586,7 +19564,7 @@ quirky: L1,WB
 quisling: GR
 quit: B1,BE,BL,BN,CA,GK,IS,KY,L2,S3,T4,TF,TL
 quitclaim: WB
-quite: A1,BN,CA,DL,FS,GK,GL,GS,L5,OG,S1,T4,TF,W1,WB,WK,ZK
+quite: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,OG,S1,T4,TF,W1,WB,WK,ZK
 quittance: BE
 quitter: GR,TF
 quiver: GR,IS,KY,L1,T6,TF
@@ -19666,8 +19644,8 @@ rail: B2,BN,CA,GK,GL,GR,IS,KY,L3,OG,S2,ST,T4,TF,W2
 railhead: TF
 railing: L1
 raillery: GR
-railroad: BE,CA,GM,KY,L1,LD,T4,TF,VA,WB
-railway: A2,BE,BL,BN,GK,KY,L3,MC,S2,T4,TF,TL,W2,ZK
+railroad: BE,CA,GM,KY,L1,T4,TF,VA,WB
+railway: A2,BE,BL,BN,GK,KY,L3,LD,MC,S2,T4,TF,TL,W2,ZK
 rain: A1,BN,CA,DL,DS,FS,GK,GL,KY,L4,LD,MC,OG,S2,S3,T4,TF,VA,W2,WB,WK,ZK
 rainbow: BN,GK,KY,L2,T4,TF
 raincoat: GK,L1,TL,ZK
@@ -19799,7 +19777,7 @@ rayon: TF
 raze: GR,ST
 razor: GK,GR,KY,L1
 razzle: GR
-re-: LD,VA
+re-: VA
 re-create: WB
 re-elect: L2,WB
 re-election: CA,TF
@@ -19813,9 +19791,9 @@ reabsorb: TF,WB
 reach: A2,B2,BE,BN,CA,DL,FS,GK,GL,L5,LD,MC,S1,T4,TF,VA,W1,WB,WK,ZK
 reachable: TF
 reaches: L1
-react: A2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF,VA,W3
+react: A2,BE,BN,CA,GK,GL,KY,L3,MC,S3,T4,TF,VA,W3
 reactance: WB
-reaction: B1,BE,BN,CA,GL,L4,LD,MC,OG,S2,ST,T4,T6,TF,W2
+reaction: B1,BE,BN,CA,GL,L4,MC,OG,S2,ST,T4,T6,TF,W2
 reactionary: GR,L1,ST
 reactivate: GR
 reactive: AW,L1,TF
@@ -19847,7 +19825,7 @@ realistically: L1,TF
 reality: B1,BE,BN,CA,GK,GL,KY,L4,S2,T4,TF,W2,WB
 realizable: BL
 realization: BL,C1,T6,TF
-realize: A2,BE,BN,CA,DL,GK,GL,GS,L4,LD,MC,S1,T4,TF,W1,ZK
+realize: A2,BE,BN,CA,DL,GK,GL,GS,L4,MC,S1,T4,TF,W1,ZK
 reallocate: BE
 really: A1,BN,CA,DL,GL,GS,L5,LD,MC,S1,T4,W1,WK,ZK
 realm: AW,BN,C1,CA,GM,GR,IS,KY,L2,ST,T4,T6,TF
@@ -19946,7 +19924,7 @@ recline: FE,GR,IS,L1,ST,TF
 recluse: GM,GR,ST
 reclusive: GR,ST
 recognise: BE,BN,GK,KY,WB
-recognition: B2,BE,BN,CA,GL,IS,KY,L3,S3,T4,T6,TF,W2
+recognition: B2,BE,BN,CA,GL,IS,KY,L3,LD,S3,T4,T6,TF,W2
 recognizable: L1,TF
 recognize: A2,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S1,T4,T6,TF,VA,W1,WB
 recoil: GR,L1,ST,TF
@@ -20217,12 +20195,12 @@ relatedness: WB
 relation: B1,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S2,T4,TF,W1,ZK
 relational: BL,TF
 relations: VA
-relationship: A2,BE,BN,CA,GK,GL,GS,KY,L4,LD,MC,S1,T4,W1
+relationship: A2,BE,BN,CA,GK,GL,GS,KY,L4,MC,S1,T4,W1
 relative to: BN
 relative: B1,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,S3,T4,T6,TF,W2,W3,ZK
 relatively: B2,BE,BN,CA,GL,S2,W2
 relativity: GM,KY,L1,T4
-relax: A1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S3,T4,TF,W3,ZK
+relax: A1,BN,CA,GK,GL,IS,KY,L3,MC,S3,T4,TF,W3,ZK
 relaxation: BN,FE,GR,TF,TL
 relaxed: B1,BN,MC
 relaxing: B1,MC
@@ -20422,7 +20400,7 @@ reproof: GR,ST
 reprove: GR
 reptile: GM,IS,KY,L1,ST,T6,TF,WB
 reptilian: GR,TF
-republic: AW,BL,BN,C1,CA,GK,KY,L4,MC,T4,TF,W2,WB
+republic: AW,BL,BN,C1,CA,GK,KY,L4,LD,MC,T4,TF,W2,WB
 republican: BN,CA,GM,KY,L4,T4,TF
 republish: TF
 repudiate: GM,GR,L1,ST,TF
@@ -20510,7 +20488,7 @@ respectable: BN,L2,T6,TF,WB
 respectant: GR
 respected: L2
 respecter: GR
-respectful: GM,L1,T4,WB
+respectful: GM,L1,LD,T4,WB
 respective: BL,BN,C1,GM,GR,KY,L1,T4,T6,TF
 respectively: BN,C1,CA,GL,L2,T4,TF,W3
 respiration: GR,IS,ST,TF
@@ -20547,7 +20525,7 @@ restore: B2,BE,BN,CA,GL,GM,GR,IS,KY,L3,T4,T6,TF,W3
 restrain: BL,GM,GR,IS,KY,L2,T4,T6,TF,VA
 restrained: L1
 restraint: BL,BN,C1,GR,KY,L2,T4,T6,TF
-restrict: B2,BN,CA,GK,GL,GM,GR,IS,KY,L2,LD,ST,T4,T6,TF,VA,W3
+restrict: B2,BN,CA,GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF,VA,W3
 restricted: L2
 restriction: B2,BN,CA,GK,GL,IS,T4,TF,W3
 restrictive: BL,L1,TF
@@ -20834,7 +20812,7 @@ rocker: L1
 rocket: B2,BL,CA,GK,KY,L3,T4,TF,VA,ZK
 rocketeer: WB
 rocky: GR,L1,TF
-rod: BN,C1,CA,KY,L2,OG,T4,TF
+rod: BN,C1,CA,KY,L2,LD,OG,T4,TF
 rodent: GM,GR,L1,TF
 rodeo: L1,TF,WB
 roe: GR,TF
@@ -20858,7 +20836,7 @@ roman: CA,TF
 romance: B2,BN,CA,GR,IS,KY,L2,T6,TF
 romancer: TF
 romanize: TF
-romantic: B1,BN,CA,GL,KY,L3,LD,MC,T4,T6,TF
+romantic: B1,BN,CA,GL,KY,L3,MC,T4,T6,TF
 romantically: TF,WB
 romanticism: L1,TF
 romanticize: TF
@@ -21077,7 +21055,7 @@ salad: A1,BN,CA,FE,GK,KY,L2,MC,S2,T4,TF,TL,ZK
 salal: TF
 salamander: ST,TF
 salaried: L1
-salary: A2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3
+salary: A2,BE,BN,CA,GK,GL,KY,L3,MC,S2,T4,TF,W3
 sale: A2,BE,BN,CA,GK,GL,GS,L5,LD,MC,S1,TF,W1,ZK
 saleable: T6
 sales tax: L1
@@ -21273,7 +21251,7 @@ scavenge: GM,GR,L1,TF,WB
 scavenger: GR,TF
 scenario: AW,B2,BE,BL,CA,GR,KY,L2,TF
 scene: A2,BN,CA,GK,GL,KY,L4,LD,MC,S2,TF,W2,WB,ZK
-scenery: GK,IS,KY,L1,T4,TF,TL,WB
+scenery: GK,IS,KY,L1,LD,T4,TF,TL,WB
 scenic: GR,L1,TF,WB
 scent: BN,GM,GR,IS,KY,L2,T6,TF
 scented: L1
@@ -21370,7 +21348,7 @@ screamo: WB
 scree: GR
 screech: L1
 screed: GR
-screen: A2,B2,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,S2,T4,TF,W2,WB,ZK
+screen: A2,B2,BN,CA,GK,GL,GM,IS,KY,L4,MC,S2,T4,TF,W2,WB,ZK
 screening: B2,CA,TF
 screenplay: L1
 screenwriter: L1
@@ -21607,7 +21585,7 @@ self-storage: WB
 self-styled: L1
 self-sufficient: GR,L1
 self-winding: WB
-self: B2,BN,CA,GK,GL,GR,L3,LD,OG,S2,TF,VA,W3,WB
+self: B2,BN,CA,GK,GL,GR,L3,OG,S2,TF,VA,W3,WB
 selfish: GK,KY,L2,T4,TF
 selfless: L1,TF,WB
 sell-off: L1
@@ -21656,7 +21634,7 @@ sensational: GM,GR,IS,L1,ST,T6,TF,WB
 sensationalism: TF,WB
 sense of humour: L2
 sense: A2,B2,BN,CA,FS,GK,GL,GS,KY,L5,LD,OG,S1,TF,VA,W1,WB,ZK
-senseless: L1,T6
+senseless: L1,LD,T6
 sensibility: L1,ST,TF
 sensible: AW,B1,BE,BL,BN,GM,GR,IS,KY,L3,LD,MC,S3,T4,T6,TF,W3
 sensitive: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,LD,MC,S3,ST,T4,T6,TF,W3
@@ -21709,10 +21687,10 @@ serenity: GR,ST,WB
 sergeant: BN,CA,L2,T6,TF
 serial: BL,C1,GR,IS,KY,L2,T6,TL
 seriation: WB
-series: A2,BN,CA,GL,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,VA,W1
+series: A2,BN,CA,GL,IS,KY,L4,MC,S2,ST,T4,T6,TF,VA,W1
 serigraph: TF
 serious: A2,BN,CA,GK,GL,L5,LD,MC,OG,S1,TF,VA,W1,ZK
-seriously: B1,BN,CA,GL,L3,LD,MC,S2,W2
+seriously: B1,BN,CA,GL,L3,MC,S2,W2
 seriousness: GR,MC,TF
 sermon: GR,L1,T6
 sermonize: ST
@@ -21871,7 +21849,7 @@ shepherd: IS,KY,L2,T6,TF,WB
 sheriff: CA,GR,L1,T6
 sherry: L2
 shibboleth: GR
-shield: BL,BN,CA,GM,GR,IS,KY,L2,ST,T4,T6,TF
+shield: BL,BN,CA,GM,GR,IS,KY,L2,LD,ST,T4,T6,TF
 shielding: WB
 shift: B1,B2,BE,BN,CA,GL,IS,KY,L3,S3,T4,T6,TF,W3
 shifting: GR,L2
@@ -21885,7 +21863,7 @@ shine: B1,BN,CA,GK,GL,KY,L2,LD,MC,S3,TF,VA,WK,ZK
 shingle: GR,L1
 shining: L2
 shinny: WB
-shiny: B1,GR,L2,LD,MC,TF,ZK
+shiny: B1,GR,L2,MC,TF,ZK
 ship: A2,B2,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S2,TF,VA,W2,WB,WK,ZK
 shipbuilding: L1,T6,TF
 shipmaster: WB
@@ -21919,7 +21897,7 @@ shooter: L1
 shooting: B2,BN,CA,GK,L2
 shop assistant: L1
 shop: A1,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,MC,S1,TF,W1,WK,ZK
-shopkeeper: BE,GK,KY,L1
+shopkeeper: BE,GK,KY,L1,LD
 shoplift: L1
 shopper: BL,TF,TL
 shopping centre: L1
@@ -22006,7 +21984,7 @@ shutoff: WB
 shutout: WB
 shutter: IS,KY,L1,T6,TF,WB
 shuttle: AW,CA,GK,GM,GR,IS,KY,L2,T6,TF,TL
-shy: B1,BN,CA,GK,KY,L2,LD,MC,TF,WB,ZK
+shy: B1,BN,CA,GK,KY,L2,MC,TF,WB,ZK
 shyness: TF
 shyster: GR
 sibilant: GR
@@ -22020,7 +21998,7 @@ sicken: IS,L1
 sickening: L1
 sickle: L1
 sickly: L1
-sickness: BN,GK,L2,LD,TF,VA,WB
+sickness: BN,GK,L2,TF,VA,WB
 side-effect: L2
 side-on: L1
 side: A2,BN,CA,DL,FS,GK,GL,GM,GS,KY,L5,LD,MC,OG,S1,ST,VA,W1,WK,ZK
@@ -22055,7 +22033,7 @@ sigmoid: WB
 sign: A2,BE,BN,CA,DL,FS,GK,GL,GS,IS,KY,L5,LD,MC,OG,S2,S3,T4,T6,TF,VA,W2,WB,ZK
 signal: B1,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,T6,TF,VA,W2,WB,WK
 signatory: L1
-signature: B2,BL,BN,CA,GK,GM,GR,IS,KY,L2,S3,T4,TF,TL
+signature: B2,BL,BN,CA,GK,GM,GR,IS,KY,L2,LD,S3,T4,TF,TL
 signer: TF
 significance: B2,BN,CA,GK,GL,GM,IS,KY,L2,T4,TF,W2
 significant: B2,BE,BN,CA,GL,GM,GR,IS,KY,L4,S2,ST,T4,T6,TF,W1
@@ -22340,7 +22318,7 @@ small-scale: L1
 small: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WB,WK,ZK
 smallholding: WB
 smarmy: GR
-smart: B1,BN,CA,GK,GL,IS,KY,L3,LD,S2,T4,T6,W2,ZK
+smart: B1,BN,CA,GK,GL,IS,KY,L3,S2,T4,T6,W2,ZK
 smartly: L1,WB
 smartphone: A2,TL
 smarty: WB
@@ -22521,7 +22499,7 @@ soldiery: WB
 sole: BE,BL,BN,C1,CA,FE,IS,KY,L2,T4,TF,W3,WB
 solecism: GR,ST
 solely: BL,BN,C1,CA,T4,TF
-solemn: GR,IS,KY,L2,ST,T4,T6,TF
+solemn: GR,IS,KY,L2,LD,ST,T4,T6,TF
 solemnity: GR
 solicit: GR,L1,TF
 solicitation: GR
@@ -22544,8 +22522,8 @@ soloist: L1,TF
 solstice: L1
 soluble: AW,IS,KY,L1,ST,T4,T6,TF
 solute: AW,ST
-solution: A2,BE,BN,CA,FS,GL,GM,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,W1,ZK
-solve: A2,BE,BN,CA,FS,GL,IS,KY,L3,LD,MC,S2,T4,TF,VA,W3,WB,ZK
+solution: A2,BE,BN,CA,FS,GL,GM,IS,KY,L4,MC,S2,ST,T4,T6,TF,W1,ZK
+solve: A2,BE,BN,CA,FS,GL,IS,KY,L3,MC,S2,T4,TF,VA,W3,WB,ZK
 solvency: BE,GM,GR,WB
 solvent: AW,BE,GR,IS,L1,ST,TF
 somatic: GR
@@ -22663,7 +22641,7 @@ spa: L1,TL
 space shuttle: L1
 space station: L1
 space: A1,BE,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,OG,S1,ST,VA,W1,WB,WK,ZK
-spacecraft: IS,KY,L1,T4,TF
+spacecraft: IS,KY,L1,LD,T4,TF
 spaceship: GK,KY,TF
 spacesuit: WB
 spacey: WB
@@ -22705,7 +22683,7 @@ spawn: GM,GR,L1,TF
 speak: A1,BN,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,S1,TF,VA,W1,WK,ZK
 speaker: A2,BE,BN,CA,GK,GL,KY,L3,MC,S2,TF,W2,ZK
 speaking: L2
-spear: GK,GR,KY,L1,TF
+spear: GK,GR,KY,L1,LD,TF
 speargun: WB
 spearhead: L1,TF,WB
 spec: L1
@@ -22714,7 +22692,7 @@ special needs: L1
 special offer: L1
 special: A1,BN,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
 specialise: BN,IS,KY
-specialist: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,S3,T4,T6,TF,W3
+specialist: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,LD,S3,T4,T6,TF,W3
 speciality: IS,KY,L1,TF
 specialization: BL,GM,GR,TF
 specialize: B2,BE,CA,GL,GM,GR,IS,KY,L3,T4,T6,TF
@@ -22722,7 +22700,7 @@ specialized: C1,L2,WB
 specially: BN,L1,TF,TL,ZK
 specialty: AW,BE,BL,IS,KY,L1,ST,T6,TL
 species: B2,BN,CA,GL,GM,IS,KY,L3,ST,T4,T6,TF,W2
-specific: A2,BE,BN,CA,GK,GL,GM,GS,IS,KY,L4,LD,MC,S1,ST,T4,T6,TF,W1,ZK
+specific: A2,BE,BN,CA,GK,GL,GM,GS,IS,KY,L4,MC,S1,ST,T4,T6,TF,W1,ZK
 specifically: B1,BN,CA,GL,L3,S2,T4,TF,W3,ZK
 specification: AW,BE,BL,BN,C1,IS,KY,L1,T6,TF,TL
 specifics: GR,L1
@@ -22812,13 +22790,13 @@ spiritualist: WB
 spirituality: WB
 spiritualize: WB
 spit: BN,CA,GK,IS,KY,L2,T4,TF,WB
-spite: B2,BE,BL,CA,GR,IS,KY,L3,T4,T6,TF,TL,W3
+spite: B2,BE,BL,CA,GR,IS,KY,L3,LD,T4,T6,TF,TL,W3
 spiteful: GM,WB
 splash: IS,KY,L2,T6,TF
 splashy: GR
 splatter: L1,WB
 spleen: GR,L1,WB
-splendid: BN,GK,GR,IS,KY,L2,T4
+splendid: BN,GK,GR,IS,KY,L2,LD,T4
 splendor: GR
 splendour: L1
 splenetic: GR
@@ -22863,7 +22841,6 @@ sport: A1,BN,CA,DL,GK,GL,GR,KY,L4,LD,MC,S2,TF,VA,W2,WB,WK,ZK
 sporting: B2,BN,L2
 sportive: GR
 sports car: L1
-sports: LD
 sportsman: KY,L1,T4
 sporty: L1
 spot-on: L1
@@ -23037,7 +23014,7 @@ state: A2,B1,BN,CA,FS,GK,GL,GM,GS,KY,L5,LD,MC,S1,S3,TF,VA,W2,WB,ZK
 statehood: L1
 stately home: L1
 stately: GR,L1,TF
-statement: A1,BE,BN,CA,FS,GK,GL,GS,IS,KY,L4,LD,MC,OG,S2,ST,T4,T6,TF,W1,ZK
+statement: A1,BE,BN,CA,FS,GK,GL,GS,IS,KY,L4,MC,OG,S2,ST,T4,T6,TF,W1,ZK
 statesman: GK,IS,KY,L2,T6,TF
 statewide: L1
 static: AW,BL,BN,FE,GM,GR,IS,KY,L1,ST,T4,TF
@@ -23290,7 +23267,7 @@ stria: WB
 striate: GR
 striated: GR
 stricken: L1
-strict: B2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF,ZK
+strict: B2,BE,BN,CA,GK,GL,KY,L3,MC,S3,T4,TF,ZK
 strictly: AW,B2,BL,BN,CA,L2,MC,TF,TL
 stricture: GR
 stride: BN,GR,IS,KY,L2,T6,TF,WB
@@ -23313,7 +23290,7 @@ stripling: GR,ST
 stripper: L1
 striptease: WB
 strive: BE,BL,BN,C1,CA,GM,GR,IS,KY,L2,T6,TF
-stroke: B2,BN,CA,GL,GM,GR,IS,KY,L3,S3,T4,T6,TF
+stroke: B2,BN,CA,GL,GM,GR,IS,KY,L3,LD,S3,T4,T6,TF
 stroll: GM,GR,KY,L2,T6
 strong: A1,BN,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WK,ZK
 stronghold: GR,L1,TF
@@ -23528,7 +23505,7 @@ suicide: AW,BL,BN,C1,CA,IS,KY,L3,T4,T6
 suit: A2,B1,BN,CA,GK,GL,KY,L4,LD,MC,S2,S3,T4,T6,TF,W3,ZK
 suitable: B1,BN,GK,GL,IS,KY,L3,LD,MC,S3,TF,W2,WK,ZK
 suitably: L1,TF
-suitcase: BE,GK,IS,L2,LD,MC,T6,TF,TL,ZK
+suitcase: BE,GK,IS,L2,MC,T6,TF,TL,ZK
 suite: BE,BL,BN,C1,CA,GK,IS,KY,L2,T6,TF,TL
 suited: L1,WB
 suitor: GR,L1
@@ -23895,7 +23872,6 @@ tailor: BE,BL,GK,KY,L2,T4,TF,TL,WB
 tailored: WB
 tailwater: WB
 taint: GR,L1,TF
-take care of: LD
 take off: MC
 take part in: MC
 take place: MC
@@ -24033,7 +24009,7 @@ teasing: WB
 teaspoon: CA,L2
 teat: GR
 tech: AW,BL,CA,FE,TL,WB
-technical: B1,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,TF,VA,W2,WB
+technical: B1,BE,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,TF,VA,W2,WB
 technicality: L1
 technically: AW,BL,BN,CA,L1
 technician: BE,IS,KY,L2,T4,TF,TL
@@ -24094,7 +24070,7 @@ telly: L1,S2
 temblor: GM
 temerity: GR,ST
 temp: BE,GR
-temper: BN,GR,IS,KY,L2,ST,T4,T6,TF
+temper: BN,GR,IS,KY,L2,LD,ST,T4,T6,TF
 tempera: TF
 temperament: IS,KY,L1,T6
 temperamental: GR,WB
@@ -24104,18 +24080,18 @@ temperature: A2,BE,BN,CA,FS,GK,GL,KY,L3,LD,MC,S2,ST,VA,W2,WB,ZK
 tempest: GR
 tempestuous: GR,ST
 template: BE,BL,TF
-temple: B2,BN,CA,GK,KY,L3,T4,TF
+temple: B2,BN,CA,GK,KY,L3,LD,T4,TF
 tempo: GR,IS,KY,L1,T6,TF
 temporal: AW,GR,L1,ST,TF
 temporality: WB
 temporarily: B2,BE,BL,BN,MC,TF,TL
-temporary: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,LD,MC,S3,ST,T4,TF,VA,W3
+temporary: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,MC,S3,ST,T4,TF,VA,W3
 temporize: GR
 tempt: AW,BL,BN,C1,GM,IS,KY,L1,ST,T4,T6,TF,TL
 temptation: BE,BN,GK,GR,IS,KY,L2,T4,T6
 tempted: L2
 tempting: GR,T4,T6
-ten: A1,BN,CA,DL,DS,FS,GK,GM,GS,L5,LD,MC,TF,WK,ZK
+ten: A1,BN,CA,DL,DS,FS,GK,GM,GS,L5,MC,TF,WK,ZK
 tenable: GR,IS,ST
 tenacious: GR,IS,L1,ST
 tenacity: GR,L1,ST
@@ -24124,7 +24100,7 @@ tenant: BE,BL,BN,C1,GM,IS,KY,L2,T6,TF,TL
 tend: B1,BN,CA,GK,GL,GR,GS,IS,KY,L4,LD,MC,S1,T4,TF,W1
 tendency: B2,BN,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,ST,T4,T6,TF,W3
 tendentious: GR
-tender: BE,BN,C1,CA,GL,GR,IS,KY,L2,T4,TF,WB
+tender: BE,BN,C1,CA,GL,GR,IS,KY,L2,LD,T4,TF,WB
 tenderfoot: GR
 tendon: FE,L1,TF
 tenebrous: GR
@@ -24143,7 +24119,7 @@ tentacle: IS,L1,TF
 tentacled: WB
 tentative: GK,GM,GR,IS,KY,L2,ST,T6,TF
 tentatively: GR,TF
-tenth: BN,GM,L4,LD,MC,TF,ZK
+tenth: BN,GM,L4,MC,TF,ZK
 tenuous: GR,L1,ST,TF
 tenure: BL,C1,GM,GR,L1,ST
 tepee: TF,WB
@@ -24243,7 +24219,7 @@ them: A1,CA,DS,FS,GK,L5,LD,MC,S1,VA,W1,WS,ZK
 thematic: GR
 theme park: L1
 theme: B1,BN,CA,GK,GL,GM,IS,KY,L3,S2,T4,T6,TF,W2,ZK
-themselves: A2,BN,CA,FS,GK,GL,GS,L5,MC,S1,TF,W1,ZK
+themselves: A2,BN,CA,FS,GK,GL,GS,L5,LD,MC,S1,TF,W1,ZK
 then: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WB,WK,WS,ZK
 thenceforth: WB
 theocracy: BE,GR
@@ -24308,8 +24284,8 @@ third party: L1
 third-party: WB
 third: A1,A2,BN,CA,FS,GK,L4,LD,MC,TF,VA,WK,ZK
 thirdly: L1
-thirst: GK,GL,IS,KY,L1,TF
-thirsty: A1,GK,IS,KY,L1,MC,T4,TL,WB,ZK
+thirst: GK,GL,IS,KY,L1,LD,TF
+thirsty: A1,GK,IS,KY,L1,LD,MC,T4,TL,WB,ZK
 thirteen: A1,BN,GK,KY,L5,TF,WB,ZK
 thirteenth: L4,ZK
 thirtieth: L4,WB,ZK
@@ -24384,10 +24360,10 @@ thug: L1
 thumb: AW,B2,BL,BN,CA,FE,IS,KY,L2,LD,MC,OG,T4,TF,WB
 thump: GR,L1
 thumping: L1
-thunder: GK,IS,KY,L2,OG,T4,TF
+thunder: GK,IS,KY,L2,LD,OG,T4,TF
 thunderous: L1,TF
 thunderstorm: GK,L1,TF,TL
-thus: B2,BN,CA,FS,GK,GL,L4,T4,TF,W1
+thus: B2,BN,CA,FS,GK,GL,L4,LD,T4,TF,W1
 thwart: GR,L1,ST,TF
 thy: L1
 thyme: L1
@@ -24404,7 +24380,7 @@ tidal: L1,TF
 tide: BL,BN,C1,CA,IS,KY,L3,T4,TF
 tidewater: WB
 tidily: MC
-tidy: A2,GK,GR,IS,KY,L2,MC,S3,T4,TL,WB,WK,ZK
+tidy: A2,GK,GR,IS,KY,L2,LD,MC,S3,T4,TL,WB,WK,ZK
 tie-dyed: WB
 tie: A2,BE,BN,CA,GK,GL,GM,GR,KY,L4,LD,MC,S2,S3,TF,VA,W3,WK,ZK
 tieback: TF
@@ -24413,7 +24389,7 @@ tied: FS
 tier: BL,L1,WB
 tiff: GR
 tiffany: TF,WB
-tiger: BN,CA,GK,KY,L1,ZK
+tiger: BN,CA,GK,KY,L1,LD,ZK
 tight: B1,BE,BN,CA,GK,GL,KY,L3,LD,MC,OG,S2,TF,W3
 tighten: BE,BL,BN,C1,FE,IS,L2,T4,T6
 tightfisted: GR
@@ -24447,13 +24423,13 @@ timely: BL,C1,GR,IS,KY,L1,T6,TF,TL
 timer: FE,L1,ST,TF,TL
 times: GM
 timescale: BE,TF
-timetable: BL,BN,GK,L2,TL
+timetable: BL,BN,GK,L2,LD,TL
 timeworn: GR
 timid: GR,IS,KY,L1,T6,TF
 timidity: IS,ST,TF
 timing: B2,BN,CA,L2
 timorous: GR,ST
-tin: B1,BN,GK,KY,L2,OG,S2,T4,TF
+tin: B1,BN,GK,KY,L2,LD,OG,S2,T4,TF
 tinder: GR
 tine: GR,TF
 tinge: GR,IS,L1,TF
@@ -24473,11 +24449,11 @@ tiptoe: FE,L1
 tiptop: BE
 tirade: GR,ST
 tire: CA,DL,GK,GL,GR,KY,L1,LD,T4,TF
-tired: A1,BN,CA,GK,KY,L3,LD,MC,OG,S1,VA,W2,WB,ZK
+tired: A1,BN,CA,GK,KY,L3,MC,OG,S1,VA,W2,WB,ZK
 tiredness: TF
 tireless: L1
 tiresome: GK,KY,L1,T6
-tiring: L1,LD,MC,WB
+tiring: L1,MC,WB
 tissue: B2,BN,CA,GK,GL,GM,GR,IS,KY,L3,T4,T6,TF,VA
 tit: L1
 titanic: GR
@@ -24507,7 +24483,7 @@ toffee: WB
 together: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 toggle: WB
 toil: GR,IS,KY,L1,TF,WB
-toilet: A1,BN,CA,GK,L2,LD,MC,S2,T4,ZK
+toilet: A1,BN,CA,GK,L2,MC,S2,T4,ZK
 toiletry: BE,TL
 toilsome: ST,WB
 token: BE,IS,KY,L2,ST,T6,TF,WB
@@ -24613,7 +24589,7 @@ tough: B2,BE,BN,CA,GK,GL,IS,KY,L4,S2,T4,T6,TF,W2
 toughen: L1
 toupee: GR,WB
 tour operator: L1
-tour: A2,B1,BE,BN,CA,GK,GL,L4,S3,ST,T4,TF,W2,WB,ZK
+tour: A2,B1,BE,BN,CA,GK,GL,L4,LD,S3,ST,T4,TF,W2,WB,ZK
 tourism: A2,BN,GK,GL,IS,L2,TF
 tourist: A1,BE,BN,CA,GK,GL,KY,L3,LD,MC,T4,TF,W3,WB,ZK
 tourmaline: WB
@@ -24622,8 +24598,8 @@ tourniquet: GR,TF
 tousle: GR
 tout: GR,L1,ST,TF,WB
 tow: IS,KY,L2,T6,TF,TL
-toward: BN,CA,DL,FS,GK,GL,GS,LD,TF,VA,ZK
-towards: A2,BN,CA,GK,L5,MC,S1,T6,W1,ZK
+toward: BN,CA,DL,FS,GK,GL,GS,TF,VA,ZK
+towards: A2,BN,CA,GK,L5,LD,MC,S1,T6,W1,ZK
 towel: A2,BN,CA,FE,GK,IS,KY,L2,S3,T4,TF,TL,ZK
 tower block: L1
 tower: A2,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,T6,TF,W3,ZK
@@ -24660,8 +24636,8 @@ tradeoff: T6
 trader: BL,BN,L3,T6,TF
 tradesman: T6
 trading: B2,BN,CA
-tradition: A2,BN,CA,GK,GL,IS,KY,L3,LD,MC,S2,T4,TF,VA,W2,WB
-traditional: A2,BE,BN,CA,GK,GL,IS,L4,LD,MC,S3,TF,W1,ZK
+tradition: A2,BN,CA,GK,GL,IS,KY,L3,MC,S2,T4,TF,VA,W2,WB
+traditional: A2,BE,BN,CA,GK,GL,IS,L4,MC,S3,TF,W1,ZK
 traditionalist: L1
 traditionally: AW,BL,BN,CA,MC,TF,TL
 traduce: GR
@@ -24679,7 +24655,7 @@ trainable: WB
 trainee: BE,BL,BN,L1,TL
 trainer: A2,BN,CA,FE,GK,L1,S3,TF,TL
 training camp: L1
-training: A2,BE,BN,CA,GK,LD,MC,S2,W1,ZK
+training: A2,BE,BN,CA,GK,MC,S2,W1,ZK
 trainload: TF
 traipse: GR,WB
 trait: AW,B2,BE,BL,CA,GM,GR,IS,KY,L1,ST,T4,T6,TF,WB
@@ -24808,7 +24784,7 @@ tree: A1,BN,CA,DL,DS,FS,GK,GL,KY,L4,LD,MC,OG,S1,VA,W1,WK,ZK
 treeless: TF
 treetop: TF
 trek: GR,IS,L2,TF,WB
-tremble: BN,GK,IS,KY,L2,T4
+tremble: BN,GK,IS,KY,L2,LD,T4
 tremendous: AW,BE,BL,BN,C1,CA,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,TL
 tremendously: TF
 tremor: GR,L1,ST
@@ -24909,7 +24885,7 @@ troublesome: GK,KY,L1,T4,T6
 trough: BE,L1,ST
 trounce: BE,GR
 troupe: GR,IS,L1,TF
-trousers: A1,BN,GK,KY,L2,MC,OG,S2,ZK
+trousers: A1,BN,GK,KY,L2,LD,MC,OG,S2,ZK
 trout: GM,L1,TF,WB
 trouvaille: GR
 trove: ST,TF
@@ -24917,7 +24893,7 @@ trowel: GR
 truancy: GR
 truant: GR,IS
 truce: GM,GR,IS,L2,VA
-truck: A2,BN,CA,DL,FS,GK,GL,L3,LD,MC,S2,TF,VA,W3,ZK
+truck: A2,BN,CA,DL,FS,GK,GL,L3,MC,S2,TF,VA,W3,ZK
 trucker: L1
 trucking: WB
 truckstop: WB
@@ -25052,7 +25028,7 @@ two-speed: WB
 two-story: WB
 two-thirds: BN,L2,WB
 two-way: L1
-two: A1,BN,CA,DL,DS,FS,GK,GS,L5,LD,MC,WS,ZK
+two: A1,BN,CA,DL,DS,FS,GK,GS,L5,MC,WS,ZK
 twofold: IS
 tycoon: BE,GR,L1,TF
 tying: WB
@@ -25074,7 +25050,7 @@ tyrannical: GR,IS,TF
 tyrannosaurus: GM
 tyranny: GR,L1,ST,T6,WB
 tyrant: GR,L1,T6
-tyre: B1,BN,GK,IS,L2,MC,S3,T4
+tyre: B1,BN,GK,IS,L2,LD,MC,S3,T4
 tyro: GR,ST
 tyrosine: GM
 ubiquitous: GR,L1,ST,TF
@@ -25102,7 +25078,7 @@ umbrage: GR
 umbrella: A1,GK,KY,L2,OG,T4,TL,ZK
 umpire: BE,GR,L2,WB
 umpteen: GR
-un-: LD,VA
+un-: VA
 un-American: WB
 unabashed: GR
 unabashedly: WB
@@ -25305,7 +25281,7 @@ underutilized: GR,WB
 undervalue: BL,L1,ST,T4,WB
 underwater: GR,L1,TF,ZK
 underway: L2,TL
-underwear: B1,GK,L1,LD,MC,T6
+underwear: B1,GK,L1,MC,T6
 underwing: TF
 underworld: L1,TF
 underwrite: BL,GM,GR,IS,L2
@@ -25467,7 +25443,7 @@ unite: B2,BN,CA,GK,GL,KY,L2,LD,MC,T4,VA
 united: A2,BN,CA,L3,S2,W3
 units: GM
 unity: AW,B2,BL,BN,CA,KY,L3,T4,T6,TF,W3
-universal: B2,BN,CA,GK,GL,GR,IS,KY,L2,T4,TF,W3,WB
+universal: B2,BN,CA,GK,GL,GR,IS,KY,L2,LD,T4,TF,W3,WB
 universality: GR,TF
 universally: T6,TF
 universe: B2,BN,CA,GK,GL,IS,KY,L3,LD,MC,T4,T6,TF,VA,W3
@@ -25484,7 +25460,7 @@ unlawful: L1,WB
 unleaded: L1
 unleash: GR,L2
 unleavened: GM
-unless: B1,BN,CA,GK,GL,GS,L4,LD,MC,S1,T4,TF,VA,W1,WB,ZK
+unless: B1,BN,CA,GK,GL,GS,L4,MC,S1,T4,TF,VA,W1,WB,ZK
 unlettered: WB
 unlike: B1,BN,CA,GK,GL,KY,L3,T4,TF,W3
 unlikelihood: WB
@@ -25777,7 +25753,7 @@ urbanize: GM,GR,TF
 urchin: GM,ST,TF
 urea: ST
 urethra: WB
-urge: B2,BE,BN,CA,GK,GL,IS,KY,L4,T4,T6,TF,VA,W3,WB
+urge: B2,BE,BN,CA,GK,GL,IS,KY,L4,LD,T4,T6,TF,VA,W3,WB
 urgency: GR,ST,TF
 urgent: B2,BE,BL,BN,GK,IS,KY,L3,LD,MC,S3,ST,T4,T6,TF,TL,VA
 urgently: TL
@@ -25825,7 +25801,7 @@ vacancy: BE,GR,IS,L1,TF,TL
 vacant: BE,GK,GM,IS,KY,L1,T4,T6,TF,TL
 vacate: GR,L1,ST,TF,TL
 vacated: WB
-vacation: A1,BE,BL,CA,GK,IS,KY,L2,LD,S2,T4,TF,TL,W3,WB,ZK
+vacation: A1,BE,BL,CA,GK,IS,KY,L2,S2,T4,TF,TL,W3,WB,ZK
 vaccinate: GM,L1,ST,T6,TF
 vaccination: GM,GR
 vaccine: BL,CA,GM,GR,KY,L2,ST,TF
@@ -25908,7 +25884,7 @@ variously: L1,TF
 varnish: GR,L1,TF,WB
 varsity: GM
 varve: TF
-vary: B2,BE,BN,CA,GL,IS,KY,L3,S3,T4,T6,TF,W2
+vary: B2,BE,BN,CA,GL,IS,KY,L3,LD,S3,T4,T6,TF,W2
 vas: TF
 vascular: GR,TF
 vase: GK,KY,L1,TF,TL
@@ -26087,7 +26063,7 @@ vigour: L1,T6
 vile: GR,IS,L1,ST
 vilify: GR,ST
 villa: BN,L2,T6
-village: A1,BN,CA,DL,FS,GK,GL,KY,L4,MC,S1,TF,VA,W1,WK,ZK
+village: A1,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,S1,TF,VA,W1,WK,ZK
 villager: C1,GK,L2,TF
 villain: L1
 villainous: GR,ST
@@ -26227,7 +26203,7 @@ vouch: GR
 voucher: BE,BL,GR,IS,L2,TL
 vow: BL,C1,IS,L2,T6,TF
 vowel: AW,FS,KY,L1,LD,MC,T6,TF
-voyage: GK,IS,KY,L2,T4,TF
+voyage: GK,IS,KY,L2,LD,T4,TF
 voyager: TF
 voyeur: GR
 vroom: DL,WB
@@ -26251,7 +26227,7 @@ waft: GR,L1
 wag: GK,GR,L1,T6
 wage: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,T4,TF,W2,WB
 wager: IS,L1
-wages: VA
+wages: LD,VA
 waggish: GR
 waggle: TF
 waggon: IS,KY,T4,T6
@@ -26265,7 +26241,7 @@ waistband: WB
 waistcoat: L1
 waistline: FE
 wait: A1,A2,BN,CA,DL,FS,GK,GL,GS,KY,L5,LD,MC,OG,S1,TF,VA,W1,WB,WK,ZK
-waiter: A1,BN,GK,L2,TL,ZK
+waiter: A1,BN,GK,L2,LD,TL,ZK
 waiting list: L1
 waiting room: L1
 waitress: GK,KY,L1,T6,TL
@@ -26328,7 +26304,7 @@ warmonger: GR
 warmth: BN,GK,KY,L2,LD,MC,T4,TF
 warmup: FE
 warn: B1,BN,CA,GK,GL,KY,L4,LD,MC,S3,TF,VA,W2,ZK
-warning: B1,BN,CA,GK,L3,LD,MC,S3,T6,W2
+warning: B1,BN,CA,GK,L3,MC,S3,T6,W2
 warp: GR,L1,TF
 warplane: L1
 warrant: BL,BN,C1,CA,GR,IS,KY,L2,ST,T6,TF
@@ -26574,7 +26550,7 @@ whiskey: KY,L1
 whisky: BN,KY,L2,S3,WB
 whisper: B2,BN,CA,GK,GL,GR,IS,KY,L3,LD,T4,T6,W3
 whispered: WB
-whistle: GK,GR,IS,KY,L2,OG,T4,TF,WB
+whistle: GK,GR,IS,KY,L2,LD,OG,T4,TF,WB
 whit: GR
 white-collar: BE,L1
 white: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,S3,T6,TF,VA,W1,W2,WK,ZK
@@ -26587,7 +26563,7 @@ whizz: L1
 whizzy: WB
 who: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 whoa: CA,DL,FE
-whoever: AW,B2,BN,CA,L2,S2,T4,T6,TF,TL
+whoever: AW,B2,BN,CA,L2,LD,S2,T4,T6,TF,TL
 whole: A2,B1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,S2,TF,VA,W1,W2,ZK
 wholehearted: L1
 wholemeal: L1
@@ -26602,10 +26578,10 @@ whoop: GR,L1
 whoosh: GR
 whore: L1
 whorl: WB
-whose: A2,BN,CA,FS,GK,L5,LD,MC,S2,TF,W1,ZK
+whose: A2,BN,CA,FS,GK,L5,MC,S2,TF,W1,ZK
 why: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 wick: TF
-wicked: BN,GR,IS,KY,L2,S3,T4
+wicked: BN,GR,IS,KY,L2,LD,S3,T4
 wicker: L1,TF
 wicket: BN,L3,WB
 wide-eyed: L1
@@ -26613,7 +26589,7 @@ wide-ranging: L1,WB
 wide: A2,BN,CA,FS,GK,GL,L5,LD,MC,OG,S1,S3,TF,VA,W1,W3,WB,WK,ZK
 widely: B2,BN,CA,GL,T6,W2
 widen: BL,BN,C1,FE,L2,T4,T6,TF
-widespread: AW,B2,BE,BL,BN,CA,GK,IS,KY,L3,ST,T4,T6,TF,W3
+widespread: AW,B2,BE,BL,BN,CA,GK,IS,KY,L3,LD,ST,T4,T6,TF,W3
 widget: BE
 widow: BN,C1,GK,KY,L2,T4,TF,WB
 widowed: L1
@@ -26725,7 +26701,7 @@ within: B1,BN,CA,FS,GK,GL,GS,L5,LD,MC,S1,W1
 without: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 withstand: BE,GM,GR,IS,KY,L1,ST,T4,TF
 witling: ST
-witness: B2,BN,CA,GK,GL,IS,KY,L3,S2,ST,T4,T6,TF,W3
+witness: B2,BN,CA,GK,GL,IS,KY,L3,LD,S2,ST,T4,T6,TF,W3
 witticism: ST
 wittingly: ST
 witty: GR,L2,T6
@@ -26746,7 +26722,7 @@ womanhood: TF
 womb: GM,IS,L1
 women: FS
 won't: FS,L5
-wonder: B1,BE,BN,CA,DL,FS,GK,GL,GS,IS,L4,S1,T6,TF,VA,W2,WK,ZK
+wonder: B1,BE,BN,CA,DL,FS,GK,GL,GS,IS,L4,LD,S1,T6,TF,VA,W2,WK,ZK
 wonderful: A1,BN,CA,DL,GK,GL,GS,KY,L4,S1,TF,VA,W2,ZK
 wonderfully: TF
 wonderland: L1
@@ -26773,7 +26749,7 @@ woodworker: TF
 woodworking: TF
 woody: TF,WB
 wool: B1,BE,BN,KY,L2,LD,MC,OG,S3,T4,TF,TL
-woolen: GK,TF
+woolen: GK,LD,TF
 woollen: GK,L1
 woolly: GR,L1,WB
 wooly: WB
@@ -26831,7 +26807,7 @@ worry: A2,B1,BN,CA,DL,GK,GL,GS,L4,LD,MC,S1,S2,TF,VA,W2,WK,ZK
 worrying: BN,L2,S3
 worse: A2,B1,B2,GK,KY,L1,LD,MC,S2,S3,VA,W2,W3,WB,ZK
 worsen: BL,L2,T4,TF
-worship: BN,C1,GR,IS,KY,L2,MC,T4,T6,TF
+worship: BN,C1,GR,IS,KY,L2,LD,MC,T4,T6,TF
 worshipful: WB
 worshipper: TF
 worst: A2,B1,B2,GK,KY,L1,LD,MC,T4,TF,WK,ZK
@@ -26839,7 +26815,8 @@ worth: B1,B2,BE,BN,CA,GK,GL,GS,KY,L4,LD,MC,S1,T4,TF,VA,W2,W3,WB,ZK
 worthiness: TF,WB
 worthless: GK,L1,T4,WB
 worthwhile: BE,BL,BN,C1,GK,GR,IS,KY,L2,T4,T6,TF,TL
-worthy: BE,BL,BN,C1,CA,GK,GR,IS,KY,L2,T4,T6,TF,WB
+worthy of: LD
+worthy: BE,BL,BN,C1,CA,GK,GR,IS,KY,L2,LD,T4,T6,TF,WB
 would-be: L1
 would: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,W1,WS,ZK
 wouldn't: FS,L5
@@ -26858,7 +26835,7 @@ wrath: GR,L1,ST,T6
 wreak: GM,GR,L1,ST
 wreath: GM,KY,L1,WB
 wreathe: GR,IS
-wreck: GM,IS,KY,L2,T4,T6,TF,VA
+wreck: GM,IS,KY,L2,LD,T4,T6,TF,VA
 wreckage: BE,GR,L1,VA
 wren: L1,TF
 wrench: GR,IS,KY,L1,T6,TF,WB
@@ -26883,7 +26860,7 @@ writhe: L1,ST,TF
 writing: A1,BN,CA,GK,KY,L4,MC,OG,S2,T4,TF,W3
 written: B1,BN,CA,FS,L3,MC
 wrong: A1,B1,B2,BN,CA,DL,FS,GK,GL,GS,KY,L4,LD,MC,OG,S1,S2,TF,VA,W1,WK,ZK
-wrongdoing: L1,WB
+wrongdoing: L1,LD,WB
 wrongful: L1
 wrongheaded: GR
 wrongly: MC
@@ -26937,7 +26914,7 @@ yelp: TF,WB
 yen: BE,BL,GM,GR,L3,TL
 yeoman: GR,WB
 yep: BN,CA,DL,FE,S1
-yes: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,MC,OG,S1,VA,W1,WK,ZK
+yes: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 yesterday: A1,BN,CA,DL,GK,GL,GS,KY,L5,LD,OG,S1,VA,W1,WK,ZK
 yesteryear: TF
 yet: A2,B2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,TF,VA,W1,W2,WK,ZK
@@ -26966,7 +26943,7 @@ your: A1,BN,CA,DS,FS,GK,L5,LD,MC,S1,TF,W1,WK,WS,ZK
 yours: A2,BN,CA,GK,L3,LD,MC,S1,W3,WB,ZK
 yourself: A1,BN,CA,DL,FS,GK,GL,GS,L4,LD,MC,S1,W2,ZK
 yourselves: GK,ZK
-youth: B1,BN,CA,GK,GL,KY,L4,S2,T4,TF,W2
+youth: B1,BN,CA,GK,GL,KY,L4,LD,S2,T4,TF,W2
 youthful: L1,WB
 yowl: GR
 yuan: BL

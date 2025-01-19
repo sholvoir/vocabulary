@@ -118,21 +118,19 @@
     law-making: [lawmaking]
     relating to: [relate to]
 - name: longmand
-  path: origin/Longman American Defining Vocabulary.txt
+  path: https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
   tag: LD
   test: '[^\nA-Za-z ''-]'
   process:
-    - [['[\r\t]', g]]
-    - [[’, g], '''']
-    - [[18\d+\n, g]]
-    - [[T A B L E S\n, g]]
-    - [['\n? ?[A-Z]$', gm]]
-    - [[' ?determine\n?r,?', g]]
-    - [[' ?(?:past part|conj|prep|pron|adj|adv|n|v)\.,?', g]]
-    - [[' \(and for\ncamera\)']]
-    - [[(\w+)( )?\((\w+)\), g], "$1\n$1$2$3"]
-    - [[', |/', g], "\n"]
-    - [['\n{2,}', g], "\n"]
+    - [['[\r\n\t]', g]]
+    - [['.*<table border="1" cellpadding="3"><tbody><tr>']]
+    - [['</tr></tbody></table>.*']]
+    - [['</td><td valign="top">', g]]
+    - [['</font><font size="-1">', g]]
+    - [['<td valign="top"><font size="-1">']]
+    - [['<br></font></td>']]
+    - [['<br>', g], "\n"]
+    - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
 - name: longmanc
   path: origin/Longman Communication 3000.txt
   test: '[^\n\w ,:''-]'
