@@ -6486,7 +6486,7 @@ crisis: B2,BE,BN,CA,GL,IS,KY,L4,S3,T4,T6,TF,VA,W2
 crisp: IS,KY,L2,T6,WB
 criss-cross: GR,TF
 crisscross: L1,TF,WB
-criteria: CA,GL,GM,T6,TF
+criteria: AW,CA,GL,GM,T6,TF
 criterion: B2,BE,BN,GK,GM,GR,IS,KY,L2,T6,TF,W2
 critic: B2,BN,CA,GL,GM,GR,IS,KY,L4,T4,T6,TF,W3
 critical: B2,BN,CA,GL,GM,GR,IS,KY,L4,S3,T4,T6,TF,W2,WB
@@ -10320,7 +10320,7 @@ foster: BL,BN,C1,CA,GM,GR,IS,KY,L2,ST,T6,TF,TL
 foul-up: WB
 foul: GR,IS,KY,L2,T6,TF
 fouling: WB
-found: B2,BN,CA,DS,FS,GK,GL,L4,T4,TF,ZK
+found: AW,B2,BN,CA,DS,FS,GK,GL,L4,T4,TF,ZK
 foundation: B2,BN,CA,GL,IS,KY,L3,T4,T6,TF,W2
 foundational: WB
 founded: L1
@@ -11628,8 +11628,8 @@ headmistress: GK,L1
 headnote: WB
 headphone: TL
 headphones: L1
-headquarter: BL,T4,TF,TL
-headquarters: AW,B2,BE,BN,CA,GM,IS,KY,L3,T4,T6,VA,W3
+headquarter: AW,BL,T4,TF,TL
+headquarters: B2,BE,BN,CA,GM,IS,KY,L3,T4,T6,VA,W3
 headshot: WB
 headstand: WB
 headstone: WB

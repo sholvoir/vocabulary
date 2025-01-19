@@ -212,6 +212,15 @@
     - [[\r, g]]
     - [['^#.*\n*', gm]]
     - [['^(\w+),.*$', gm], $1]
+- name: nawl
+  path: https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
+  tag: AW
+  test: '[^\na-z]'
+  process:
+    - [[\r, g]]
+    - [['^(\w+),.*$', gm], $1]
+  replace:
+    founds: [found]
 - name: ngsls
   path: origin/NGSL-Spoken_1.2_stats.csv
   tag: GS
@@ -220,17 +229,6 @@
     - [[\r, g]]
     - [[.*\n]]
     - [['^(\w+?),.*$', gm], $1]
-- name: nawl
-  path: origin/NAWL_1.2_stats.csv
-  tag: AW
-  test: '[^\na-z]'
-  process:
-    - [[\r, g]]
-    - [[.*\n]]
-    - [['^(\w+?),.*$', gm], $1]
-  replace:
-    neo: [neo-]
-    pre: [pre-]
 - name: tsl
   path: origin/TSL_1.2_stats.csv
   tag: TL
