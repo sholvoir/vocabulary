@@ -102,7 +102,7 @@
     Nuclear fission: [nuclear fission]
     pass a bill: [pass, a, bill]
 - name: macmillan
-  path: origin/Macmillan Dictionary Defining Vocabulary.html
+  path: origin/8.MacmillanDictionaryDefiningVocabulary.html
   tag: MC
   test: '[^\nA-Za-zé ''-]'
   process:
@@ -132,7 +132,7 @@
     - [['<br>', g], "\n"]
     - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
 - name: longmanc
-  path: origin/9.LongmanCommunication3000.txt
+  path: origin/10.LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
   process:
     - [[\r, g]]
@@ -142,7 +142,7 @@
     - [[', ', g], ","]
     - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
 - name: oxford
-  path: origin/10.Oxford5000.html
+  path: origin/11.Oxford5000.html
   test: '[^\n\w: ]'
   process:
     - [['[\r\n]', g]]
@@ -153,28 +153,28 @@
     - [['\bb(?=[12])', g], B]
     - [['\bc(?=[12])', g], C]
 - name: collins
-  path: origin/11.Collins5.csv
+  path: origin/12.Collins5.csv
   tag: L5
   test: '[^\nA-Za-z '']'
   process:
     - [[\r, g]]
     - [['^([A-Za-z '']+)\t.*$', gm], $1]
 - name: collins
-  path: origin/12.Collins4.csv
+  path: origin/13.Collins4.csv
   tag: L4
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 - name: collins
-  path: origin/13.Collins3.csv
+  path: origin/14.Collins3.csv
   tag: L3
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 - name: collins
-  path: origin/14.Collins2.csv
+  path: origin/15.Collins2.csv
   tag: L2
   test: '[^\nA-Za-z .''-]'
   process:
@@ -184,7 +184,7 @@
   replace:
     ple: []
 - name: collins
-  path: origin/15.Collins1.csv
+  path: origin/16.Collins1.csv
   tag: L1
   test: '[^\nA-Za-zéè &/.''-]'
   process:
@@ -205,12 +205,12 @@
     oestrogen: [estrogen]
     Longing: [long]
 - name: ngsl
-  path: origin/NGSL_1.2_stats.csv
+  path: https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
   tag: GL
   test: '[^\na-zA-Z]'
   process:
     - [[\r, g]]
-    - [[.*\n]]
+    - [['^#.*\n*', gm]]
     - [['^(\w+),.*$', gm], $1]
 - name: ngsls
   path: origin/NGSL-Spoken_1.2_stats.csv
