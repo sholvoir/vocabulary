@@ -221,22 +221,15 @@
     - [['^(\w+),.*$', gm], $1]
   replace:
     founds: [found]
-- name: ngsls
-  path: origin/NGSL-Spoken_1.2_stats.csv
-  tag: GS
-  test: '[^\na-zA-Z]'
-  process:
-    - [[\r, g]]
-    - [[.*\n]]
-    - [['^(\w+?),.*$', gm], $1]
 - name: tsl
-  path: origin/TSL_1.2_stats.csv
+  path: https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
   tag: TL
   test: '[^\na-zé ''-]'
   process:
     - [[\r, g]]
-    - [[.*\n]]
-    - [['^([\wé'' -]+?),.*$', gm], $1]
+    - [['�', g], 'é']
+    - [['^#.*\n*', gm]]
+    - [['^([\wé ''-]+?),.*$', gm], $1]
 - name: bsl
   path: origin/BSL_1.20_stats.csv
   tag: BL
@@ -267,6 +260,14 @@
     chaturanga: []
     superset: []
     vinyasa: []
+- name: ngsls
+  path: origin/NGSL-Spoken_1.2_stats.csv
+  tag: GS
+  test: '[^\na-zA-Z]'
+  process:
+    - [[\r, g]]
+    - [[.*\n]]
+    - [['^(\w+?),.*$', gm], $1]
 - name: coca
   path: origin/Coca_Top_5000_Word_Frequency.csv
   tag: CA
