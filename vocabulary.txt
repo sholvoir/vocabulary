@@ -17092,7 +17092,7 @@ outcome: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,ST,T4,T6,TF,W3
 outcrop: TF
 outcry: IS,L1,ST,T6,TF
 outdate: TL
-outdated: BE,GR,IS,L1,T6,TL
+outdated: BE,GR,IS,L1,T6
 outdo: IS,L1,ST
 outdoor: B1,BN,CA,KY,L2,LD,MC,T4,TF,TL,ZK
 outdoors: B1,GK,L1,LD,T4
@@ -25116,7 +25116,7 @@ unassociated: WB
 unassuming: GR,ST
 unattended: TL
 unattractive: L1,TF
-unauthorized: L1,TL
+unauthorized: BL,L1
 unavailable: GM,L1,TF,TL
 unavailing: GR,WB
 unavoidable: GR,L1,TF
