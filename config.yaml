@@ -1,5 +1,5 @@
 - name: lorhur
-  path: origin/Lorhur.txt
+  path: origin/1.Lorhur.txt
   tag: LH
   test: '[^\na-zA-Z]'
 - name: ogden
@@ -132,19 +132,15 @@
     - [['<br>', g], "\n"]
     - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
 - name: longmanc
-  path: origin/Longman Communication 3000.txt
+  path: origin/9.LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
   process:
     - [[\r, g]]
-    - [[’, g], '''']
-    - [['^S[123] = .*$\n', gm]]
-    - [['^(?:\d+ )?LONGMAN COMMUNICATION 3000(?: \d+)?\n', gmi]]
-    - [[' (?:in)?definite article,?', g]]
-    - [['\n? ?(?:(?:pre)?determiner|interjection),?', g]]
-    - [[' ?\b(?:auxiliary|number|modal|conj|prep|pron|adj|adv|n|v)\b,?', g]]
-    - [['\n ?([SW][123])', g], ' $1']
-    - [['([SW][123]), ([SW][123])', g], '$1,$2']
-    - [[' ([SW][123])', g], ': $1']
+    - [['’', g], "'"]
+    - [['indefinite article', g], "indefinite_article"]
+    - [['definite article', g], "definite_article"]
+    - [[', ', g], ","]
+    - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
 - name: oxford
   path: origin/Oxford_5000.html
   test: '[^\n\w: ]'

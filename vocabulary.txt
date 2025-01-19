@@ -14523,7 +14523,6 @@ lodestone: GR,WB
 lodge: BE,BN,GM,GR,IS,KY,L2,ST,T4,TF
 lodger: GR,L1
 lodging: IS,L1,LD,T6
-lodgings: LD
 loess: TF
 loft: GR,L1,TF
 lofty: GR,IS,KY,L1,T6,TF
@@ -16550,7 +16549,7 @@ nudge: GR,L1
 nudity: GR
 nugae: GR
 nugatory: GR,ST
-nuisance: BN,GM,IS,KY,L1,S1,S3,ST,T4,T6,W1,WB
+nuisance: BN,GM,IS,KY,L1,S3,ST,T4,T6,WB
 null: AW,BL,IS
 nullify: BE,GR,IS,ST
 nulliparous: WB
@@ -16558,7 +16557,7 @@ nullity: GR
 numb: GK,GR,IS,KY,L1
 number one: L2
 number plate: L1
-number: A1,A2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,T4,T6,VA,WB,WK,WS,ZK
+number: A1,A2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,T6,VA,W1,WB,WK,WS,ZK
 numeral: FS,TF
 numerate: IS
 numeration: ST
