@@ -16578,9 +16578,9 @@ nurse: A1,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,ZK
 nursery school: L1
 nursery: BN,C1,GK,IS,KY,L2,T4,T6,TF
 nursing home: L1
-nursing: A2,BN,GK,TF
+nursing: B2,BN,GK,TF
 nurture: GR,IS,KY,L2,ST,T6,TF,WB
-nut: BN,CA,FE,GK,KY,L2,LD,MC,OG,S3,T4,T6,TF
+nut: A2,BN,CA,FE,GK,KY,L2,LD,MC,OG,S3,T4,T6,TF
 nutmeg: L1
 nutrient: AW,FE,GM,GR,IS,L2,TF,VA,WB
 nutriment: ST

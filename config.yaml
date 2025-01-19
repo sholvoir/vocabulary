@@ -142,12 +142,12 @@
     - [[', ', g], ","]
     - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
 - name: oxford
-  path: origin/Oxford_5000.html
+  path: origin/10.Oxford5000.html
   test: '[^\n\w: ]'
   process:
     - [['[\r\n]', g]]
-    - [[<ul class="top-g"> +]]
-    - [[' +</ul>']]
+    - [['.*<ul class="top-g"> +']]
+    - [[' +</ul> *</div> *<div id="wordlistsOverlay".+$']]
     - [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"]
     - [['\ba(?=[12])', g], A]
     - [['\bb(?=[12])', g], B]
