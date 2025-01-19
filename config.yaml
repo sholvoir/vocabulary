@@ -153,28 +153,28 @@
     - [['\bb(?=[12])', g], B]
     - [['\bc(?=[12])', g], C]
 - name: collins
-  path: origin/Collins5.csv
+  path: origin/11.Collins5.csv
   tag: L5
   test: '[^\nA-Za-z '']'
   process:
     - [[\r, g]]
     - [['^([A-Za-z '']+)\t.*$', gm], $1]
 - name: collins
-  path: origin/Collins4.csv
+  path: origin/12.Collins4.csv
   tag: L4
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 - name: collins
-  path: origin/Collins3.csv
+  path: origin/13.Collins3.csv
   tag: L3
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 - name: collins
-  path: origin/Collins2.csv
+  path: origin/14.Collins2.csv
   tag: L2
   test: '[^\nA-Za-z .''-]'
   process:
@@ -184,7 +184,7 @@
   replace:
     ple: []
 - name: collins
-  path: origin/Collins1.csv
+  path: origin/15.Collins1.csv
   tag: L1
   test: '[^\nA-Za-zéè &/.''-]'
   process:
