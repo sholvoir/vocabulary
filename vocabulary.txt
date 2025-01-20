@@ -955,6 +955,7 @@ Sikh: L2
 Silurian: TF
 Simon: BN
 Smith: BN
+So: L5
 Somerset: BN
 Sophie: BN
 South: BN
@@ -20192,7 +20193,7 @@ so that: BN
 so-and-so: L1
 so-called: BE,BN,CA,KY,L3,T4,TF,W3
 so-so: L1
-so: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,W3,WK,WS,ZK
+so: A1,BN,CA,DL,DS,FS,GK,GL,GS,LD,MC,OG,S1,VA,W1,W3,WK,WS,ZK
 soak: C1,GR,IS,KY,L2,T4,TF
 soaked: GR
 soap opera: L1

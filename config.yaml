@@ -173,6 +173,7 @@
     Book: ["book"]
     Both: ["both"]
     Country: ["country"]
+    So: ["so"]
 - name: collins
   path: origin/13.Collins4.csv
   tag: L4
@@ -180,6 +181,12 @@
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+  replace:
+    Protect: ["protect"]
+    Protest: ["protest"]
+    Prove: ["prove"]
+    Pull: ["pull"]
+    Push: ["push"]
 - name: collins
   path: origin/14.Collins3.csv
   tag: L3
@@ -202,6 +209,8 @@
   replace:
     ple: [pile]
     DJ.: ["DJ"]
+    National curriculum: ["National Curriculum"]
+    Rd.: ["R&D"]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -333,7 +342,11 @@
     Le: []
     Lea: [LEA]
     Los: []
+    New: ["new"]
+    Northern: ["northern"]
+    Pat: ["pat"]
     Richardson: []
+    Robyn: ["Robin"]
     Stirling: []
     United: [united]
     Vice-President: [vice president]
@@ -516,23 +529,24 @@
   replace:
     Aluminum: [aluminum]
     AluminumAl: [aluminum]
+    Iron Fe: [iron]
     Iron: ["iron"]
-    parallel lines: [parallel, line]
+    Oxygen O: [oxygen]
+    Oxygen: ["oxygen"]
+    PhosphorusP: [phosphorus]
+    a. 灵巧的， 熟练的: [skillful]
+    anaerobic respiration: [anaerobic, respiration]
+    artificial fertilization: [artificial, fertilization]
     distingusihed: [distinguished]
     homologous chromosome: [homologous, chromosome]
-    PhosphorusP: [phosphorus]
-    undersize d: [undersized]
+    parallel lines: [parallel, line]
     projector lens: [projector, lens]
-    anaerobic respiration: [anaerobic, respiration]
-    temperate forest: [temperate, forest]
-    Oxygen O: [oxygen]
-    Iron Fe: [iron]
-    a. 灵巧的， 熟练的: [skillful]
-    temperate grassland: [temperate, grassland]
-    artificial fertilization: [artificial, fertilization]
-    sulfur disoxide: [sulfur dioxide]
-    transgenic animals: [transgenic, animal]
     prokaryotic cell: [prokaryotic, cell]
+    sulfur disoxide: [sulfur dioxide]
+    temperate forest: [temperate, forest]
+    temperate grassland: [temperate, grassland]
+    transgenic animals: [transgenic, animal]
+    undersize d: [undersized]
 - name: gre
   path: origin/GRE_2.json
   tag: GR
