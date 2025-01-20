@@ -182,7 +182,7 @@
     - [['^[A-Z]\n', gm]]
     - [[' {2,}', g], ' ']
   replace:
-    ple: []
+    ple: [pile]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -193,6 +193,7 @@
     - [['^[A-Z]\t\n', gm]]
     - [[\t$, gm]]
   replace:
+    Alzheimer's Disease: ["Alzheimer's disease"]
     balance of payment: [balance of payments]
     bother-in-law: [brother-in-law]
     county house: [country house]
@@ -377,6 +378,8 @@
   tag: T6
   wordPath:
     - headWord
+  replace:
+    Automatically: ["automatically"]
 - name: cet6
   path: origin/CET6_2.json
   tag: T6
@@ -454,6 +457,7 @@
   wordPath:
     - headWord
   replace:
+    Aluminum: [aluminum]
     AluminumAl: [aluminum]
     parallel lines: [parallel, line]
     distingusihed: [distinguished]

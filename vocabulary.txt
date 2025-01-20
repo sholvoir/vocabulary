@@ -65,6 +65,7 @@ Arabic: GK
 Arctic: GK
 Aries: LH
 Arnold: BN
+Arsenal: BN
 Arthur: BN
 Ashley: BN
 Asia: BN,GK,T4,TF,ZK
@@ -2311,7 +2312,7 @@ arrogant: GR,IS,KY,L2,ST,T6,TF
 arrogate: GR,ST
 arrow: AW,B2,BN,CA,FE,GK,KY,L2,T4,TF
 arroyo: GR
-arsenal: BN,L1,TF
+arsenal: L1,TF
 arsenic: GR,TF
 arson: GR,L1
 arsonist: GR
@@ -16310,7 +16311,7 @@ pigmentation: TF
 pigsty: GR
 pike: L1,TF
 pile-up: L1
-pile: B2,BE,BN,CA,GK,GL,KY,L3,LD,MC,S2,ST,T4,TF
+pile: B2,BE,BN,CA,GK,GL,KY,L2,L3,LD,MC,S2,ST,T4,TF
 pilfer: GR
 pilgrim: GR,IS,KY,L2,T6
 pilgrimage: L1
