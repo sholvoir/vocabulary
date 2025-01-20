@@ -113,6 +113,8 @@
     - [[' *<li>(.+?)</li>$', gm], $1]
     - [[' +$', gm]]
   replace:
+    Communism: ["communism"]
+    Communist: ["communist"]
     approve of: [approve, of]
     based on: [base, 'on']
     law-making: [lawmaking]
@@ -159,6 +161,10 @@
   process:
     - [[\r, g]]
     - [['^([A-Za-z '']+)\t.*$', gm], $1]
+  replace:
+    Book: ["book"]
+    Both: ["both"]
+    Country: ["country"]
 - name: collins
   path: origin/13.Collins4.csv
   tag: L4
@@ -173,6 +179,10 @@
   process:
     - [[\r, g]]
     - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+  replace:
+    Fighter: ["fighter"]
+    Fine: ["fine"]
+    Initial: ["initial"]
 - name: collins
   path: origin/15.Collins2.csv
   tag: L2
@@ -194,17 +204,23 @@
     - [[\t$, gm]]
   replace:
     Alzheimer's Disease: ["Alzheimer's disease"]
+    Countess: ["countess"]
+    Intermediary: ["intermediary"]
+    Long-haul: [long-haul]
+    Longevity: ["longevity"]
+    Longing: [long]
+    Lubricant: ["lubricant"]
+    Metro: ["metro"]
+    Woman's Liberation: []
     balance of payment: [balance of payments]
     bother-in-law: [brother-in-law]
-    county house: [country house]
     county club: [country club]
+    county house: [country house]
     equessrian: [equestrian]
     gross domestic: [gross domestic product]
+    oestrogen: [estrogen]
     soar system: [solar system]
     woman's movement: []
-    Woman's Liberation: []
-    oestrogen: [estrogen]
-    Longing: [long]
 - name: ngsl
   path: https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
   tag: GL
@@ -288,15 +304,22 @@
     Ch: []
     E.R.: [ER]
     El: []
+    End: ["end"]
     Fraser: []
+    Great: ["great"]
     Hewlett-Packard: []
     Hong: []
+    Inc: ["inc"]
     Intel: []
+    Island: [island]
+    Kingdom: ["kingdom"]
     Kong: []
     Le: []
+    Lea: [LEA]
     Los: []
     Richardson: []
     Stirling: []
+    United: [united]
     Vice-President: [vice president]
     ac: [AC]
     away from: [away, from]
@@ -329,6 +352,11 @@
   wordPath:
     - headWord
   replace:
+    Baby: ["baby"]
+    Dynamic: ["dynamic"]
+    Dynasty: ["dynasty"]
+    Indicate: ["indicate"]
+    Lost: ["lost"]
     behavious: [behavior]
     hur: []
 - name: ncee
@@ -385,6 +413,8 @@
   tag: T6
   wordPath:
     - headWord
+  replace:
+    Heaven: ["heaven"]
 - name: cet6
   path: origin/CET6_3.json
   tag: T6
@@ -396,38 +426,42 @@
   wordPath:
     - headWord
   replace:
-    dy: []
-    ogallala: []
-    Yucatan: []
+    Health: ["health"]
     Himalaya: [Himalayas]
-    faunal: [fauna]
-    eka: [eka-]
-    lys: []
-    elliot: []
-    nss: []
-    guilde: [guild, guilder]
-    lesley: []
-    erectus: []
-    conestoga: [Conestoga wagon]
-    nowcasting: []
-    duchenne: []
-    semimolten: []
-    keplerian: []
-    eletricity: [electricity]
-    zagros: [Zagros Mountains]
-    lvory: [ivory]
-    loder: []
-    permineralization: []
-    misinterprete: [misinterpret]
+    Interstate: ["interstate"]
+    Yucatan: []
+    Isle: ["isle"]
+    Lowa: ["lowa"]
     beng: []
-    datebase: [database]
-    rainer: [trainer]
-    midocean: []
-    merchandis: [merchandise]
-    newberry: []
-    sargeant: [sergeant]
     bryn: []
+    conestoga: [Conestoga wagon]
+    datebase: [database]
+    duchenne: []
+    dy: []
+    eka: [eka-]
+    eletricity: [electricity]
+    elliot: []
+    erectus: []
+    faunal: [fauna]
+    guilde: [guild, guilder]
+    keplerian: []
+    lesley: []
+    loder: []
     lumiere: []
+    lvory: [ivory]
+    lys: []
+    merchandis: [merchandise]
+    midocean: []
+    misinterprete: [misinterpret]
+    newberry: []
+    nowcasting: []
+    nss: []
+    ogallala: []
+    permineralization: []
+    rainer: [trainer]
+    sargeant: [sergeant]
+    semimolten: []
+    zagros: [Zagros Mountains]
 - name: toefl
   path: origin/TOEFL_3.json
   tag: TF
@@ -449,6 +483,7 @@
   wordPath:
     - headWord
   replace:
+    Kung Fu: ["kung fu"]
     inductive reasoning: [inductive, reason]
     a calculated crime: [a, calculate, crime]
 - name: sat
@@ -459,6 +494,7 @@
   replace:
     Aluminum: [aluminum]
     AluminumAl: [aluminum]
+    Iron: ["iron"]
     parallel lines: [parallel, line]
     distingusihed: [distinguished]
     homologous chromosome: [homologous, chromosome]
@@ -523,6 +559,7 @@
     - headWord
   replace:
     CBA: []
+    Encl.: ["encl."]
     HRD: []
     XD: []
     fast-expanding: [fast, expand]
