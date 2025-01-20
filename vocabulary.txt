@@ -150,7 +150,6 @@ CIF: BE
 CO: BN
 CV: BE,L1
 Ca: BN
-Cajun: TF
 Caledonian: TF
 California: BN,TF
 Californian: TF
@@ -190,7 +189,6 @@ Cheltenham: BN
 Cheshire: BN
 Chester: BN
 Chicago: BN,TF
-Chicopee: TF
 Chief Constable: L1
 Chief Justice: L1
 Chile: TF
@@ -3915,7 +3913,8 @@ calibre: GR,IS,L1
 call-up: L1
 call: A1,BE,BN,CA,DL,DS,FS,GK,GL,GS,KY,L5,LD,MC,S1,T4,VA,W1,WK,WS,ZK
 caller: CA,GM,L2,TL
-calligraphy: GM,GR
+calligraphic: GM
+calligraphy: GR
 calling: L1
 callisthenics: GR
 callosity: ST
@@ -4033,6 +4032,7 @@ caption: BE,GK,GR,IS,L4,ST,T6,TF
 captious: GR,ST
 captivate: GM,GR,L1,ST,TF
 captivating: GR
+captivation: GR
 captive: GM,IS,KY,L2,T4,T6,TF
 captivity: IS,L1,TF
 captor: L1
@@ -4500,6 +4500,7 @@ choleric: GR,ST
 cholesterol: CA,FE,GM,IS,L2,T6,TF
 chomp: TF
 chondrite: TF
+chondritic: TF
 chondrule: TF
 choose: A1,BE,BN,CA,DL,FS,GK,GL,GS,L4,LD,MC,S1,T4,TF,VA,W1,WK,ZK
 choosy: GR,TF
@@ -4579,7 +4580,8 @@ circumnavigate: ST
 circumscribe: GR,IS,ST,TF
 circumspect: GM,GR,ST
 circumstance: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,S2,T4,T6,TF,W1
-circumstantial: GR,TF
+circumstantial: GR
+circumstantially: TF
 circumvent: GM,GR,L1,ST,TF
 circus: GK,IS,KY,L2,T6,TL
 cismontane: GR
@@ -4745,8 +4747,9 @@ clothed: L1
 clothes: A1,BN,CA,DL,FS,GK,GL,KY,L4,LD,MC,S2,T4,VA,W2,WK,ZK
 clothier: ST
 clothing: A2,BN,CA,GK,GL,KY,L3,LD,MC,T4,ZK
-cloud: A2,BN,CA,FS,GK,GL,KY,L3,LD,MC,OG,S3,T4,TF,VA,W3,WK,ZK
+cloud: A2,BN,CA,FS,GK,GL,KY,L3,LD,MC,OG,S3,T4,VA,W3,WK,ZK
 cloudburst: GR
+cloudlike: TF
 cloudy: GK,KY,L1,T4,T6,TF,TL,WK,ZK
 clout: BL,GR,L1
 clove: L1
@@ -4958,7 +4961,8 @@ comely: GR,ST
 comer: L1,TF
 comestible: GR,ST
 comestibles: ST
-comet: GM,GR,IS,KY,L2,T6,TF
+comet: GM,IS,KY,L2,T6,TF
+cometary: GR
 comeuppance: GR
 comfort: B2,BN,CA,GK,GL,KY,L3,LD,OG,T4,TF,W3
 comfortable: A2,BN,CA,GK,GL,KY,L3,LD,MC,S2,T4,TF,W3,WK,ZK
@@ -5008,11 +5012,12 @@ commodious: GR,ST
 commodity: AW,BE,BL,BN,C1,CA,GM,GR,IS,KY,L2,ST,T6,TF
 commodore: L1
 common market: L1
-common sense: GR,L2,T6,TF
+common sense: L2
 common: A1,BN,CA,FS,GK,GL,KY,L1,L5,LD,MC,OG,S1,T4,VA,W1,WK,ZK
 commoner: GM,L1
 commonly: AW,B2,BL,BN,CA,T4,TL
 commonplace: GM,GR,IS,KY,L1,ST,T6,TF
+commonsense: GR,T6,TF
 commonwealth: BN,IS,KY,L2,T6
 commotion: GR,IS,L1,ST
 communal: GM,GR,L2,TF
@@ -5060,6 +5065,7 @@ compendious: GR
 compendium: GR,IS
 compensate: AW,BE,BL,BN,C1,GK,GM,GR,IS,KY,L2,ST,T4,T6,TF,TL
 compensation: BE,BN,C1,CA,GL,GM,IS,KY,L3,T4,T6,TF
+compensatorily: GM
 compensatory: BE,GR,TF
 compere: GR
 compete: A2,BE,BN,CA,GK,GL,IS,KY,L3,LD,MC,S3,T4,T6,TF,VA,W3
@@ -5378,6 +5384,7 @@ construct: B2,BN,CA,GK,GL,GM,GR,IS,KY,L3,T4,T6,TF,W3
 construction: B2,BN,CA,GK,GL,GM,GR,IS,KY,L3,S3,T4,T6,TF,W2
 constructive: BL,GR,L2,ST,T4,TF
 constructivism: GM
+constructivist: GM
 construe: GR,L1
 consul: GR,L1,T6
 consular: L1

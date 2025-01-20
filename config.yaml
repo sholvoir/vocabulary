@@ -42,10 +42,6 @@
   # https://sightwords.com/sight-words/fry/
   tag: FS
   test: '[^\na-zA-Z'']'
-  replace:
-    arrived: ["arrive"]
-    bones: ["bone"]
-    branches: ["branch"]
   process:
     - [['[\r\n]', g]]
     - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
@@ -59,6 +55,17 @@
     - [[’, g], "'"]
     - [[', *', g], "\n"]
     - [[' +']]
+  replace:
+    arrived: ["arrive"]
+    bones: ["bone"]
+    branches: ["branch"]
+    called: ["call"]
+    cells: ["cell"]
+    cents: ["cent"]
+    climbed: ["climb"]
+    conditions: ["condition"]
+    cows: ["cow"]
+    crops: ["crop"]
 - name: written
   path: origin/05.Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -76,6 +83,8 @@
     - [[\s+, g], " "]
     - [[', *', g], "\n"]
     - [[' +']]
+  replace:
+    called: ["call"]
 - name: wik
   path: origin/06.Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
@@ -114,6 +123,7 @@
   replace:
     Major depressive disorder: [major depressive disorder]
     Nuclear fission: [nuclear fission]
+    crops: ["crop"]
     pass a bill: [pass, a, bill]
 - name: macmillan
   path: origin/08.MacmillanDictionaryDefiningVocabulary.html
@@ -152,6 +162,7 @@
   replace:
     airforce: [air force]
     lodgings: [lodging]
+    contents: ["content"]
 - name: longmanc
   path: origin/10.LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -229,6 +240,9 @@
     National curriculum: ["National Curriculum"]
     Rd.: ["R&D"]
     break-through: ["breakthrough"]
+    chief of Staff: ["chief of staff"]
+    cm.: ["cm"]
+    come-down: ["comedown"]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -255,6 +269,8 @@
     black smith: ["blacksmith"]
     brother-hood: ["brotherhood"]
     bother-in-law: [brother-in-law]
+    check-list: ["checklist"]
+    comers: ["comer"]
     county club: [country club]
     county house: [country house]
     equessrian: [equestrian]
@@ -346,6 +362,11 @@
     arab: ["Arab"]
     asian: ["Asian"]
     british: ["British"]
+    canadian: ["Canadian"]
+    ceo: ["CEO"]
+    chinese: ["Chinese"]
+    christianity: ["Christianity"]
+    christmas: ["Christmas"]
 - name: bnc
   path: origin/25.BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
@@ -392,6 +413,7 @@
     ac: [AC]
     away from: [away, from]
     by now: [by, now]
+    co-operation: ["cooperation"]
     co-ordinate: [coordinate]
     depending on: [depend on]
     ed: []
@@ -430,6 +452,7 @@
     beancurd: ["bean curd"]
     beddings: ["bedding"]
     behavious: [behavior]
+    chain stores: ["chain store"]
     hur: []
 - name: npee
   path: origin/28.KaoYan.json
@@ -439,6 +462,8 @@
   replace:
     april: ["April"]
     by-pass: ["bypass"]
+    christmas: ["Christmas"]
+    christ: ["Christ"]
     encyclopaedia: [encyclopedia]
     goodby: [goodbye]
     resumé: [résumé]
@@ -481,7 +506,19 @@
     brewster: []
     broadway: ["Broadway"]
     boxlike: ["box"]
+    cajun: []
+    caledonian: []
+    canoes: ["canoe"]
+    caucasian: ["Caucasian"]
+    celsius: ["Celsius"]
+    cenotes: ["cenote"]
+    cenozoic: ["Cenozoic"]
+    chicopee: []
+    columbian: ["Columbian"]
+    condenses: ["condense"]
     conestoga: [Conestoga wagon]
+    connecticut: ["Connecticut"]
+    cynthia: ["Cynthia"]
     datebase: [database]
     duchenne: []
     dy: []
@@ -559,6 +596,10 @@
     'n': []
     absinth: ["absinthe"]
     blase: ["blasé"]
+    chaffing: ["chaff"]
+    chaperon: ["chaperone"]
+    cliche: ["cliché"]
+    correlated: ["correlate"]
     cosycozy: [cozy]
     idiosyncracy: [idiosyncrasy]
     ill-paying: [ill, pay]
@@ -586,6 +627,7 @@
     averaging: ["average"]
     b/e: ["BE"]
     back-up: ["backup"]
+    counterfeits: ["counterfeit"]
     fast-expanding: [fast, expand]
     lineskipper: [line, skipper]
     over-demand: [over, demand]
