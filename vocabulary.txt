@@ -1349,7 +1349,6 @@ abrogate: BE,GR,ST
 abrupt: GK,GR,IS,KY,L2,ST,T6,TF
 abruptly: BN,T4,TF
 abruptness: TF
-abs: FE
 abscissa: GM
 abscond: GR,ST
 absence: BE,BN,C1,CA,GK,GL,KY,L3,LD,S3,ST,T4,T6,TF,W2
@@ -3765,6 +3764,7 @@ body language: L1
 body: A1,BN,CA,DL,FS,GL,GS,L5,LD,MC,OG,S1,ST,T4,T6,VA,W1,WB,WK,ZK
 bodybuilder: FE
 bodyguard: GR,L2,WB
+bodyweight: FE
 bodywork: BE
 boffin: WB
 bog: L2,TF
@@ -4510,7 +4510,6 @@ caramel: L1
 carapace: GR
 carat: GR,L1
 caravan: BN,L1,TF
-carb: FE
 carbohydrate: CA,FE,GM,GR,KY,L2,ST,TF
 carbon dioxide: L2,ST
 carbon monoxide: L1,ST
@@ -4529,7 +4528,6 @@ cardiac: GM,GR,L1,ST,TF
 cardigan: GR,L1
 cardinal: GM,GR,IS,KY,L2,ST,T6,TF
 cardinality: WB
-cardio: FE
 cardiologist: GR
 cardiopulmonary: GM
 cardiovascular: FE,GM,IS,L1
@@ -4881,6 +4879,7 @@ chateau: GR,L1,ST,TF
 chattel: ST
 chatter: GM,L1,T6
 chatty: GM
+chaturanga: FE
 chauffeur: L1
 chauvinism: GM,GR,L1
 chauvinistic: GR
@@ -7089,7 +7088,6 @@ deliverable: BL
 delivery: B2,BE,BN,CA,GL,IS,KY,L3,S3,T4,TF,W3,WB
 delta: AW,BL,GM,GR,IS,L1,TF
 deltoid: FE
-delts: FE
 delude: GR,IS,ST
 deluge: GR,IS,L1,ST,TF
 delusion: GR,L1,ST,T6
@@ -10964,7 +10962,6 @@ glum: GR,L1,WB
 glut: GR,L1
 glutamate: IS
 glutamine: FE
-glutes: FE
 gluteus: FE
 glutinous: GR,ST
 gluttonous: GR,ST
@@ -20317,7 +20314,7 @@ reorganization: BL,GM,WB
 reorganize: L2,TF
 reorient: IS,TF
 reorientate: BE
-rep: CA,FE,L1
+rep: CA,L1
 repack: IS
 repaint: IS
 repair: A2,B1,BE,BN,CA,GK,GL,KY,L3,LD,MC,S3,T4,TF,VA,W3,WB,WK,ZK
@@ -23596,6 +23593,7 @@ superorganism: TF
 superpower: L2
 superpowerful: WB
 supersede: GM,GR,IS,L1,ST,TF
+superset: FE
 supersonic: GM,IS,KY,L1,T6,TF
 superstar: L1
 superstition: GR,IS,KY,L1,T6
@@ -26080,6 +26078,7 @@ vineyard: L2
 vinifera: WB
 vintage: BE,GR,L2
 vintner: GR
+vinyasa: FE
 vinyl: L2,WB
 viola: L1
 violate: BL,C1,CA,GK,GM,GR,IS,KY,L3,T4,T6,TF,TL,VA

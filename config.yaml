@@ -237,6 +237,14 @@
   process:
     - [[\r, g]]
     - [['^([\w-]+?),.*$', gm], $1]
+- name: fel
+  path: https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
+  tag: FE
+  test: '[^\na-z]'
+  process:
+    - [[\r, g]]
+    - [['^#.*\n*', gm]]
+    - [['^(\w+),.*$', gm], $1]
 - name: ndl
   path: origin/NDL_1.1_stats.csv
   tag: DL
@@ -245,20 +253,6 @@
     - [[\r, g]]
     - [[.*\n]]
     - [['^\d+\.,([\w''-]+?),.*$', gm], $1]
-- name: fel
-  path: origin/FEL_1.2_stats.csv
-  tag: FE
-  test: '[^\na-z]'
-  process:
-    - [[\r, g]]
-    - [['(?:.*\n){6}']]
-    - [['^([\w/ ]+?),.*$', gm], $1]
-    - [[( */ *), g], "\n"]
-  replace:
-    bodyweight: []
-    chaturanga: []
-    superset: []
-    vinyasa: []
 - name: ngsls
   path: origin/NGSL-Spoken_1.2_stats.csv
   tag: GS
