@@ -408,20 +408,15 @@
     provided that: [provided, that]
     waiting: [wait]
 - name: hsee
-  path: origin/ChuZhong_2.json
+  path: origin/26.ChuZhong.json
   tag: ZK
   wordPath:
     - headWord
   replace:
     Rusia: [Russia]
     Wheel: ["wheel"]
-- name: hsee
-  path: origin/ChuZhong_3.json
-  tag: ZK
-  wordPath:
-    - headWord
 - name: ncee
-  path: origin/GaoZhong_2.json
+  path: origin/27.GaoZhong.json
   tag: GK
   wordPath:
     - headWord
@@ -436,73 +431,34 @@
     beddings: ["bedding"]
     behavious: [behavior]
     hur: []
-- name: ncee
-  path: origin/GaoZhong_3.json
-  tag: GK
-  wordPath:
-    - headWord
-  replace:
-    beddings: ["bedding"]
 - name: npee
-  path: origin/KaoYan_1.json
-  tag: KY
-  wordPath:
-    - headWord
-- name: npee
-  path: origin/KaoYan_2.json
+  path: origin/28.KaoYan.json
   tag: KY
   wordPath:
     - headWord
   replace:
-    goodby: [goodbye]
     april: ["April"]
-- name: npee
-  path: origin/KaoYan_3.json
-  tag: KY
-  wordPath:
-    - headWord
-  replace:
-    encyclopaedia: [encyclopedia]
-    resumé: [résumé]
     by-pass: ["bypass"]
+    encyclopaedia: [encyclopedia]
+    goodby: [goodbye]
+    resumé: [résumé]
 - name: cet4
-  path: origin/CET4_1.json
-  tag: T4
-  wordPath:
-    - headWord
-- name: cet4
-  path: origin/CET4_2.json
+  path: origin/29.CET4.json
   tag: T4
   wordPath:
     - headWord
   replace:
     reservior: [reservoir]
-- name: cet4
-  path: origin/CET4_3.json
-  tag: T4
-  wordPath:
-    - headWord
 - name: cet6
-  path: origin/CET6_1.json
+  path: origin/30.CET6.json
   tag: T6
   wordPath:
     - headWord
   replace:
     Automatically: ["automatically"]
-- name: cet6
-  path: origin/CET6_2.json
-  tag: T6
-  wordPath:
-    - headWord
-  replace:
     Heaven: ["heaven"]
-- name: cet6
-  path: origin/CET6_3.json
-  tag: T6
-  wordPath:
-    - headWord
 - name: toefl
-  path: origin/TOEFL_2.json
+  path: origin/31.TOEFL.json
   tag: TF
   wordPath:
     - headWord
@@ -553,32 +509,21 @@
     sargeant: [sergeant]
     semimolten: []
     zagros: [Zagros Mountains]
-- name: toefl
-  path: origin/TOEFL_3.json
-  tag: TF
-  wordPath:
-    - headWord
 - name: ielts
-  path: origin/IELTS_2.json
-  tag: IS
-  wordPath:
-    - headWord
-  replace:
-    aupair: []
-    relinguish: [relinquish]
-    groa: []
-    chiche: []
-- name: ielts
-  path: origin/IELTS_3.json
+  path: origin/32.IELTS.json
   tag: IS
   wordPath:
     - headWord
   replace:
     Kung Fu: ["kung fu"]
-    inductive reasoning: [inductive, reason]
     a calculated crime: [a, calculate, crime]
+    aupair: []
+    chiche: []
+    groa: []
+    inductive reasoning: [inductive, reason]
+    relinguish: [relinquish]
 - name: sat
-  path: origin/SAT_3.json
+  path: origin/33.SAT.json
   tag: ST
   wordPath:
     - headWord
@@ -606,7 +551,7 @@
     transgenic animals: [transgenic, animal]
     undersize d: [undersized]
 - name: gre
-  path: origin/GRE_2.json
+  path: origin/34.GRE.json
   tag: GR
   wordPath:
     - headWord
@@ -614,43 +559,22 @@
     'n': []
     absinth: ["absinthe"]
     blase: ["blasé"]
-    quizzable: [quiz]
-    tecnology: [technology]
-    neodoxy: []
-- name: gre
-  path: origin/GRE_3.json
-  tag: GR
-  wordPath:
-    - headWord
-  replace:
     cosycozy: [cozy]
-    sun-bronzed: [sun, bronzed]
-    self-adulation: [self, adulation]
-    self-procession: [self, procession]
     idiosyncracy: [idiosyncrasy]
     ill-paying: [ill, pay]
+    neodoxy: []
+    quizzable: [quiz]
+    self-adulation: [self, adulation]
+    self-procession: [self, procession]
+    sun-bronzed: [sun, bronzed]
+    tecnology: [technology]
 - name: gmat
-  path: origin/GMAT_2.json
-  tag: GM
-  wordPath:
-    - headWord
-- name: gmat
-  path: origin/GMAT_3.json
+  path: origin/35.GMAT.json
   tag: GM
   wordPath:
     - headWord
 - name: bec
-  path: origin/BEC_2.json
-  tag: BE
-  wordPath:
-    - headWord
-  replace:
-    HRD: []
-    CBA: []
-    XD: []
-    averaging: ["average"]
-- name: bec
-  path: origin/BEC_3.json
+  path: origin/36.BEC.json
   tag: BE
   wordPath:
     - headWord
