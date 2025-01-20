@@ -6471,6 +6471,7 @@ departure: B1,BE,BL,BN,CA,GK,GM,IS,KY,T4,TF,TL,W3
 depend on: BN,MC
 depend: A2,BE,BN,CA,GK,GL,GS,IS,KY,L4,LD,S1,T4,TF,VA,W2,WK,ZK
 dependable: GR,L1,TF,TL
+dependably: TF
 dependant: L1,T6
 dependence: AW,BL,BN,C1,GM,KY,L1,TF,TL
 dependency: BL,L1
@@ -6769,7 +6770,8 @@ diminuendo: GR
 diminution: GM,GR,TF
 diminutive: GR,L1,ST
 dimly: TF
-dimple: GR,TF
+dimple: GR
+dimply: TF
 din: GR,IS,L1
 dine: GK,IS,KY,L2,T6,TL
 diner: L1,TL
@@ -7187,6 +7189,7 @@ dolt: GR
 doltish: GR
 domain: AW,BL,BN,C1,CA,GM,GR,IS,KY,L1,ST,T6,TF
 dome: GR,IS,KY,L2,ST,T6,TF
+domelike: TF
 domestic: B2,BE,BN,CA,GL,GM,IS,KY,L4,ST,T4,T6,TF,W2
 domestically: TF
 domesticate: GM,GR,IS,L1,TF
@@ -7392,6 +7395,7 @@ duck: BN,CA,DL,DS,FE,GK,KY,L2,LD,S3,T4,TF,WK,ZK
 ducky: GR
 duct: L1,TF
 ductile: GM,GR,ST,TF
+ductless: TF
 dud: L1
 dude: CA,L1,S3
 due to: BN
@@ -12947,7 +12951,7 @@ lightning: CA,GK,KY,L2,LD,T4,TF,VA
 lightweight: L2,TF,TL
 ligneous: GR
 like-minded: L1
-like: A1,B1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,W3,WK,WS,ZK
+like: A1,B1,BN,CA,DL,DS,FS,GK,GL,GR,GS,L5,LD,MC,OG,S1,T4,VA,W1,W3,WK,WS,ZK
 likeable: L1
 likelihood: AW,BL,BN,C1,CA,IS,KY,L2,ST,T6,TF
 likely: A2,BE,BN,CA,GK,GL,KY,L5,LD,MC,S1,T4,W1

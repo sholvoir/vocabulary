@@ -66,6 +66,10 @@
     conditions: ["condition"]
     cows: ["cow"]
     crops: ["crop"]
+    details: ["detail"]
+    died: ["die"]
+    discovered: ["discover"]
+    dollars: ["dollar"]
 - name: written
   path: origin/05.Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -144,6 +148,7 @@
     based on: [base, 'on']
     law-making: [lawmaking]
     relating to: [relate to]
+    damaged: ["damage"]
 - name: longmand
   path: origin/09.TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
@@ -243,6 +248,7 @@
     chief of Staff: ["chief of staff"]
     cm.: ["cm"]
     come-down: ["comedown"]
+    down stairs: ["downstairs"]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -367,6 +373,8 @@
     chinese: ["Chinese"]
     christianity: ["Christianity"]
     christmas: ["Christmas"]
+    depending: ["depend"]
+    dna: ["DNA"]
 - name: bnc
   path: origin/25.BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
@@ -520,6 +528,9 @@
     connecticut: ["Connecticut"]
     cynthia: ["Cynthia"]
     datebase: [database]
+    deteriorates: ["deteriorate"]
+    differentiating: ["differentiate"]
+    diffuses: ["diffuse"]
     duchenne: []
     dy: []
     eka: [eka-]
@@ -601,6 +612,7 @@
     cliche: ["cliché"]
     correlated: ["correlate"]
     cosycozy: [cozy]
+    damped: ["damp"]
     idiosyncracy: [idiosyncrasy]
     ill-paying: [ill, pay]
     neodoxy: []
@@ -609,6 +621,8 @@
     self-procession: [self, procession]
     sun-bronzed: [sun, bronzed]
     tecnology: [technology]
+    decumbence: ["decumbency"]
+    dumbbell-like: ["dumbbell", like]
 - name: gmat
   path: origin/35.GMAT.json
   tag: GM
@@ -628,6 +642,8 @@
     b/e: ["BE"]
     back-up: ["backup"]
     counterfeits: ["counterfeit"]
+    dictaphone: ["Dictaphone"]
+    down time: ["downtime"]
     fast-expanding: [fast, expand]
     lineskipper: [line, skipper]
     over-demand: [over, demand]
