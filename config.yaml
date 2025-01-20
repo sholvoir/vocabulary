@@ -133,6 +133,8 @@
     - [['<br></font></td>']]
     - [['<br>', g], "\n"]
     - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
+  replace:
+    airforce: [air force]
 - name: longmanc
   path: origin/10.LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -204,6 +206,7 @@
     - [[\t$, gm]]
   replace:
     Alzheimer's Disease: ["Alzheimer's disease"]
+    Chancellor of Exchequer: ["Chancellor of the Exchequer"]
     Countess: ["countess"]
     Intermediary: ["intermediary"]
     Long-haul: [long-haul]
@@ -324,6 +327,7 @@
     ac: [AC]
     away from: [away, from]
     by now: [by, now]
+    co-ordinate: [coordinate]
     depending on: [depend on]
     ed: []
     even when: [even, when]
