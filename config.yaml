@@ -14,6 +14,8 @@
     - [['<.*?>', g]]
     - [['\s', g]]
     - [['[,./]', g], "\n"]
+  replace:
+    waiting: [wait]
 - name: dolch
   path: https://sightwords.com/sight-words/dolch/
   tag: DS
@@ -31,6 +33,8 @@
     - [["’", g], "'"]
     - [[', *', g], "\n"]
     - [[' +']]
+  replace:
+    goes: [go]
 - name: fry
   path: https://sightwords.com/sight-words/fry/
   tag: FS
@@ -115,6 +119,7 @@
   replace:
     Communism: ["communism"]
     Communist: ["communist"]
+    Jews: ["Jew"]
     approve of: [approve, of]
     based on: [base, 'on']
     law-making: [lawmaking]
@@ -135,6 +140,7 @@
     - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
   replace:
     airforce: [air force]
+    lodgings: [lodging]
 - name: longmanc
   path: origin/10.LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -195,6 +201,7 @@
     - [[' {2,}', g], ' ']
   replace:
     ple: [pile]
+    DJ.: ["DJ"]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -214,6 +221,7 @@
     Longing: [long]
     Lubricant: ["lubricant"]
     Metro: ["metro"]
+    N.A: []
     Woman's Liberation: []
     balance of payment: [balance of payments]
     bother-in-law: [brother-in-law]
@@ -304,7 +312,9 @@
     - [[' ?/ ?', g], "\n"]
     - [['^(\w|\d[,%\w]*|\w*~\w*)\n', gm]]
   replace:
+    "'cos": ["cos"]
     Ch: []
+    Dr.: [Dr]
     E.R.: [ER]
     El: []
     End: ["end"]
@@ -312,6 +322,9 @@
     Great: ["great"]
     Hewlett-Packard: []
     Hong: []
+    II: []
+    III: []
+    IV: []
     Inc: ["inc"]
     Intel: []
     Island: [island]
@@ -331,13 +344,17 @@
     depending on: [depend on]
     ed: []
     even when: [even, when]
+    ii: []
+    iii: []
     in response to: [in, response, to]
     in touch with: [in, touch, with]
+    iv: []
     le: []
     nineteenth-century: [nineteenth, century]
     no matter how: ["no", matter, how]
     once again: [once, again]
     provided that: [provided, that]
+    waiting: [wait]
 - name: hsee
   path: origin/ChuZhong_2.json
   tag: ZK
@@ -361,6 +378,7 @@
     Dynasty: ["dynasty"]
     Indicate: ["indicate"]
     Lost: ["lost"]
+    Mom: ["mom"]
     behavious: [behavior]
     hur: []
 - name: ncee

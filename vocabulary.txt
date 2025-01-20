@@ -736,7 +736,6 @@ Ms.: BN,L5
 Mt.: L1
 Murray: BN
 Muslim: CA,L4,MC
-N.A.: L1
 NASA: L2
 NATO: BN
 NB: L1
