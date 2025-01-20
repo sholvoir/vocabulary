@@ -3761,10 +3761,10 @@ bodily: AW,L2
 boding: GR
 body build: FE
 body language: L1
+body weight: FE
 body: A1,BN,CA,DL,FS,GL,GS,L5,LD,MC,OG,S1,ST,T4,T6,VA,W1,WB,WK,ZK
 bodybuilder: FE
 bodyguard: GR,L2,WB
-bodyweight: FE
 bodywork: BE
 boffin: WB
 bog: L2,TF
