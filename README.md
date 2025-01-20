@@ -57,7 +57,6 @@ VOA慢速英语1500基础词汇 VOA Special English Word Book
 
 ## COCA
 当代美国英语语料库 Corpus of Contemporary American English (COCA) top5000  
-iWeb语料库 top5000
 数据来自 <https://www.wordfrequency.info/>
 
 ## BNC

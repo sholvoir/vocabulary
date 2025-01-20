@@ -1,6 +1,6 @@
 export const Tags = ['__', 'OG','DS','FS','WS','WK','VA','MC','LD','S1','S2','S3','W1','W2','W3',
     'A1','A2','B1','B2','C1','L1','L2','L3','L4','L5','GL','GS','AW','TL','BL','DL','FE',
-    'CA','WB','BN','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH'] as const;
+    'CA','BN','ZK','GK','KY','T4','T6','TF','IS','ST','GR','GM','BE','LH'] as const;
 export type Tag = typeof Tags[number];
 
 export const TagName: Record<Tag, string> = {
@@ -37,7 +37,6 @@ export const TagName: Record<Tag, string> = {
     DL: 'NDL',
     FE: 'FEL',
     CA: 'COCA',
-    WB: 'iWeb',
     BN: 'BNC',
     ZK: 'HSEE',
     GK: 'NECC',
@@ -84,7 +83,6 @@ export const TagCode: Record<string, Tag> = {
     ndl:        'DL',
     fel:        'FE',
     coca:       'CA',
-    iweb:       'WB',
     bnc:        'BN',
     hsee:       'ZK',
     ncee:       'GK',
