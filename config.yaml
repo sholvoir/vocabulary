@@ -44,6 +44,8 @@
   test: '[^\na-zA-Z'']'
   replace:
     arrived: ["arrive"]
+    bones: ["bone"]
+    branches: ["branch"]
   process:
     - [['[\r\n]', g]]
     - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
@@ -226,6 +228,7 @@
     DJ.: ["DJ"]
     National curriculum: ["National Curriculum"]
     Rd.: ["R&D"]
+    break-through: ["breakthrough"]
 - name: collins
   path: origin/16.Collins1.csv
   tag: L1
@@ -249,6 +252,8 @@
     Woman's Liberation: []
     aka.: ["aka"]
     balance of payment: [balance of payments]
+    black smith: ["blacksmith"]
+    brother-hood: ["brotherhood"]
     bother-in-law: [brother-in-law]
     county club: [country club]
     county house: [country house]
@@ -305,6 +310,7 @@
     - [['^(\w+?),.*$', gm], $1]
   replace:
     bodyweight: [body weight]
+    bodybuild: ["body build"]
 - name: ndl
   path: origin/22.NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
@@ -339,6 +345,7 @@
     april: ["April"]
     arab: ["Arab"]
     asian: ["Asian"]
+    british: ["British"]
 - name: bnc
   path: origin/25.BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
@@ -425,6 +432,8 @@
     Indicate: ["indicate"]
     Lost: ["lost"]
     Mom: ["mom"]
+    beancurd: ["bean curd"]
+    beddings: ["bedding"]
     behavious: [behavior]
     hur: []
 - name: ncee
@@ -432,6 +441,8 @@
   tag: GK
   wordPath:
     - headWord
+  replace:
+    beddings: ["bedding"]
 - name: npee
   path: origin/KaoYan_1.json
   tag: KY
@@ -453,6 +464,7 @@
   replace:
     encyclopaedia: [encyclopedia]
     resumé: [résumé]
+    by-pass: ["bypass"]
 - name: cet4
   path: origin/CET4_1.json
   tag: T4
@@ -506,6 +518,13 @@
     appalachian: ["Appalachian"]
     beng: []
     bryn: []
+    baedeker: []
+    balkan: ["Balkan"]
+    beringia: ["Beringia"]
+    brea: []
+    brewster: []
+    broadway: ["Broadway"]
+    boxlike: ["box"]
     conestoga: [Conestoga wagon]
     datebase: [database]
     duchenne: []
@@ -575,6 +594,7 @@
     anaerobic respiration: [anaerobic, respiration]
     ante-room: ["anteroom"]
     artificial fertilization: [artificial, fertilization]
+    blase: ["blasé"]
     distingusihed: [distinguished]
     homologous chromosome: [homologous, chromosome]
     parallel lines: [parallel, line]
@@ -592,10 +612,11 @@
     - headWord
   replace:
     'n': []
+    absinth: ["absinthe"]
+    blase: ["blasé"]
     quizzable: [quiz]
     tecnology: [technology]
     neodoxy: []
-    absinth: ["absinthe"]
 - name: gre
   path: origin/GRE_3.json
   tag: GR
@@ -639,6 +660,8 @@
     HRD: []
     XD: []
     averaging: ["average"]
+    b/e: ["BE"]
+    back-up: ["backup"]
     fast-expanding: [fast, expand]
     lineskipper: [line, skipper]
     over-demand: [over, demand]

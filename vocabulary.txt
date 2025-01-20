@@ -81,15 +81,14 @@ Australian: BN,GK,T4,TF,ZK
 Austria: BN
 Austrian: TF
 B-school: BE
-B/E: BE
 BA: BE,L1
 BBC: BN
 BC: BN,L1
+BE: BE
 BR: BN
 BS: L1
 BSc: L1
 Babylonian: TF
-Baedeker: TF
 Baker: BN
 Balkan: TF
 Baltic: TF
@@ -123,8 +122,6 @@ Br.: L2
 Bradford: BN
 Brazil: BN
 Brazilian: ZK
-Brea: TF
-Brewster: TF
 Brian: BN
 Brighton: BN
 Bristol: BN
@@ -2858,6 +2855,7 @@ barrister: BE,GR,L2,ST
 barter: GR,L1,TF
 baryonic: GM
 basalt: TF
+basaltic: TF
 base rate: L1
 base: B1,BE,BN,CA,FS,GK,GL,GM,GR,GS,KY,L5,LD,MC,OG,S1,S2,ST,T4,TF,VA,W1,W2,WK
 baseball: A2,BL,CA,KY,L3,MC,S3,T4,T6,TF,TL,W2,ZK
@@ -3194,7 +3192,7 @@ biology: A2,AW,BN,CA,GK,KY,L2,MC,ST,T4,TF,TL,VA,ZK
 biome: TF
 biomedical: GM
 biometrics: IS
-biophysics: GM
+biophysicist: GM
 biosphere: GM,GR,L1
 biotechnology: L1,T4
 biotic: TF
@@ -3358,7 +3356,7 @@ boarding school: L1
 boardinghouse: GM
 boardroom: L1,TL
 boast: BL,BN,C1,GR,IS,KY,L2,T4,T6,TF
-boastful: GR
+boastfulness: GR
 boat people: L2
 boat: A1,BN,CA,DL,DS,FS,GK,GL,KY,L4,LD,MC,OG,S1,T4,TF,VA,W2,WK,ZK
 boating: GK,L1
@@ -3549,6 +3547,7 @@ brass: BN,GM,IS,KY,L2,LD,OG,T4,TF
 brasserie: L1
 brassy: GR
 brat: GR,L1
+brattish: GR
 bravado: GR,L1,ST
 brave: B1,BL,BN,CA,GK,L3,LD,MC,S3,T4,TF,VA,WK,ZK
 bravely: TF
@@ -3777,7 +3776,7 @@ bureau: BE,BN,CA,GM,IS,KY,L2,ST,T4,TF
 bureaucracy: BE,BL,BN,C1,GR,IS,KY,L2,ST,T6,TF
 bureaucrat: BL,L2
 bureaucratic: BL,GK
-bureaucratize: TF
+bureaucratization: TF
 burgeon: GR,IS,L1,ST,TF
 burger: CA,L1
 burgess: TF
