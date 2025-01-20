@@ -3,7 +3,8 @@
   tag: LH
   test: '[^\na-zA-Z]'
 - name: ogden
-  path: https://zbenglish.net/sites/basic/words.html
+  path: origin/02.OgdensBasicEnglishWords.html
+  # https://zbenglish.net/sites/basic/words.html
   tag: OG
   test: '[^\na-zI]'
   process:
@@ -17,7 +18,8 @@
   replace:
     waiting: [wait]
 - name: dolch
-  path: https://sightwords.com/sight-words/dolch/
+  path: origin/03.DolchSightWordsList.html
+  # https://sightwords.com/sight-words/dolch/
   tag: DS
   test: '[^\na-zA-Z '']'
   process:
@@ -36,7 +38,8 @@
   replace:
     goes: [go]
 - name: fry
-  path: https://sightwords.com/sight-words/fry/
+  path: origin/04.FrySightWordsList.html
+  # https://sightwords.com/sight-words/fry/
   tag: FS
   test: '[^\na-zA-Z'']'
   process:
@@ -53,7 +56,8 @@
     - [[', *', g], "\n"]
     - [[' +']]
 - name: written
-  path: https://sightwords.com/sight-words/top-150/
+  path: origin/05.Top150WrittenSightWords.html
+  # https://sightwords.com/sight-words/top-150/
   tag: WS
   test: '[^\na-zI]'
   process:
@@ -69,7 +73,8 @@
     - [[', *', g], "\n"]
     - [[' +']]
 - name: wik
-  path: https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
+  path: origin/06.Wiktionary1000BasicEnglishWords.html
+  # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
   tag: WK
   test: '[^\nA-Za-z]'
   process:
@@ -80,7 +85,8 @@
     - [['\[\[', g]]
     - [['\]\][,.] *', g], "\n"]
 - name: voa
-  path: https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
+  path: origin/07.VOASpecialEnglishWordBook.html
+  # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
   tag: VA
   test: '[^\nA-Za-z -]'
   process:
@@ -125,7 +131,8 @@
     law-making: [lawmaking]
     relating to: [relate to]
 - name: longmand
-  path: https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
+  path: origin/09.TheLongmanDefiningVocabulary.html
+  # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
   tag: LD
   test: '[^\nA-Za-z ''-]'
   process:
@@ -174,6 +181,8 @@
     Both: ["both"]
     Country: ["country"]
     So: ["so"]
+    State: ["state"]
+    Story: ["story"]
 - name: collins
   path: origin/13.Collins4.csv
   tag: L4
@@ -198,6 +207,10 @@
     Fighter: ["fighter"]
     Fine: ["fine"]
     Initial: ["initial"]
+    Statistic: ["statistic"]
+    Suitable: ["suitable"]
+    Tissue: ["tissue"]
+    Upset: ["upset"]
 - name: collins
   path: origin/15.Collins2.csv
   tag: L2
@@ -242,7 +255,8 @@
     soar system: [solar system]
     woman's movement: []
 - name: ngsl
-  path: https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
+  path: origin/17.NGSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
   tag: GL
   test: '[^\na-zA-Z]'
   process:
@@ -250,7 +264,8 @@
     - [['^#.*\n*', gm]]
     - [['^(\w+?),.*$', gm], $1]
 - name: nawl
-  path: https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
+  path: origin/18.NAWL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
   tag: AW
   test: '[^\na-z]'
   process:
@@ -259,7 +274,8 @@
   replace:
     founds: [found]
 - name: tsl
-  path: https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
+  path: origin/19.TSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
   tag: TL
   test: '[^\na-zé ''-]'
   process:
@@ -268,14 +284,16 @@
     - [['^#.*\n*', gm]]
     - [['^([\wé ''-]+?),.*$', gm], $1]
 - name: bsl
-  path: https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
+  path: origin/20.BSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
   tag: BL
   test: '[^\na-z-]'
   process:
     - [[\r, g]]
     - [['^([\w-]+?),.*$', gm], $1]
 - name: fel
-  path: https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
+  path: origin/21.FEL1.2LemmatizedForTeaching.txt
+  # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
   tag: FE
   test: '[^\na-z]'
   process:
@@ -285,14 +303,16 @@
   replace:
     bodyweight: [body weight]
 - name: ndl
-  path: https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
+  path: origin/22.NDL1.1LemmatizedForTeaching.txt
+  # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
   tag: DL
   test: '[^\nA-Za-z'']'
   process:
     - [[\r, g]]
     - [['^([\w'']+?),.*$', gm], $1]
 - name: ngsls
-  path: https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
+  path: origin/23.NGSLSpoken1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
   tag: GS
   test: '[^\na-z]'
   process:
@@ -309,7 +329,8 @@
     - [['^\d+$', gm]]
     - [[/, g], "\n"]
 - name: bnc
-  path: https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
+  path: origin/25.BncAllAlpha.txt
+  # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
   tag: BN
   test: '[^\nA-Za-z ''.-]'
   process:
@@ -375,6 +396,7 @@
     - headWord
   replace:
     Rusia: [Russia]
+    Wheel: ["wheel"]
 - name: hsee
   path: origin/ChuZhong_3.json
   tag: ZK
