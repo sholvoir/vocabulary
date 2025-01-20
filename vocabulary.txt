@@ -31,7 +31,6 @@ Alison: BN
 Allah: L1
 Allan: BN
 Allen: BN
-Allende: TF
 Alzheimer's disease: L1
 America: BN,FS,GK,T4,ZK
 American football: L1,MC
@@ -75,7 +74,7 @@ Athens: BN,TF
 Atlantic: BN,GK,T4,TF,ZK
 Attorney General: L1
 Aug: BN,L2
-August: A1,BN,CA,GK,GR,KY,L4,MC,ST,T4,TF,ZK
+August: A1,BN,GK,L4,MC,T4,TF,ZK
 Aussie: L1
 Australia: BN,GK,T4,TF,ZK
 Australian: BN,GK,T4,TF,ZK
@@ -2574,6 +2573,7 @@ augment: GR,IS,KY,L1,ST,TF
 augmentation: GR
 augur: ST
 augury: GR
+august: CA,GR,KY,ST
 aunt: A1,BN,CA,DL,GK,GL,KY,L4,LD,S3,T4,W3,WK,ZK
 aura: GM,L1
 aural: KY,L1,ST,T4,TF

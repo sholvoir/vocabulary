@@ -9,16 +9,16 @@ import type { Tag } from "./tag.ts";
 async function run() {
     // get command line args and read config file
     const args = parseArgs(Deno.args, {
-        boolean: ['step-out', 'spell-check'],
+        boolean: ['step-out', 'spell-check', 'read-init'],
         string: ['config', 'init', 'output', 'revision'],
-        alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'spell-check': 's' },
+        alias: { config: 'c', init: 'i', output: 'o', 'read-init': 'r', 'step-out': 'p', 'spell-check': 's' },
         default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.yaml' }
     });
     const configs = await readConfig(args.config);
     const revision = yamlParse(await Deno.readTextFile(args.revision)) as Record<string, Array<string>>;
     // read init data
     const vocabulary = new Vocabulary();
-    try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch {}
+    if (args["read-init"]) try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch {}
     // start run tasks
     const tasks = args._ as Array<string>;
     for (const conf of configs) {

@@ -42,6 +42,8 @@
   # https://sightwords.com/sight-words/fry/
   tag: FS
   test: '[^\na-zA-Z'']'
+  replace:
+    arrived: ["arrive"]
   process:
     - [['[\r\n]', g]]
     - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
@@ -245,6 +247,7 @@
     Metro: ["metro"]
     N.A: []
     Woman's Liberation: []
+    aka.: ["aka"]
     balance of payment: [balance of payments]
     bother-in-law: [brother-in-law]
     county club: [country club]
@@ -328,6 +331,14 @@
     - [['^\d+\t([\w''/-]+)\t.+$', gm], $1]
     - [['^\d+$', gm]]
     - [[/, g], "\n"]
+  replace:
+    aids: ["AIDS"]
+    african-american: ["African American"]
+    african: ["African"]
+    american: ["American"]
+    april: ["April"]
+    arab: ["Arab"]
+    asian: ["Asian"]
 - name: bnc
   path: origin/25.BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
@@ -433,6 +444,7 @@
     - headWord
   replace:
     goodby: [goodbye]
+    april: ["April"]
 - name: npee
   path: origin/KaoYan_3.json
   tag: KY
@@ -489,6 +501,9 @@
     Yucatan: []
     Isle: ["isle"]
     Lowa: ["lowa"]
+    allende: []
+    antarctica: ["Antarctica"]
+    appalachian: ["Appalachian"]
     beng: []
     bryn: []
     conestoga: [Conestoga wagon]
@@ -558,6 +573,7 @@
     PhosphorusP: [phosphorus]
     a. 灵巧的， 熟练的: [skillful]
     anaerobic respiration: [anaerobic, respiration]
+    ante-room: ["anteroom"]
     artificial fertilization: [artificial, fertilization]
     distingusihed: [distinguished]
     homologous chromosome: [homologous, chromosome]
@@ -579,6 +595,7 @@
     quizzable: [quiz]
     tecnology: [technology]
     neodoxy: []
+    absinth: ["absinthe"]
 - name: gre
   path: origin/GRE_3.json
   tag: GR
@@ -610,6 +627,7 @@
     HRD: []
     CBA: []
     XD: []
+    averaging: ["average"]
 - name: bec
   path: origin/BEC_3.json
   tag: BE
@@ -620,6 +638,7 @@
     Encl.: ["encl."]
     HRD: []
     XD: []
+    averaging: ["average"]
     fast-expanding: [fast, expand]
     lineskipper: [line, skipper]
     over-demand: [over, demand]
