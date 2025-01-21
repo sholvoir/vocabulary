@@ -1,27 +1,3 @@
-# case replace
-"FALSE": ["false"]
-"TRUE": ["true"]
-christian: ["Christian"]
-december: ["December"]
-dictaphone: ["Dictaphone"]
-i: ["I"]
-# variants to common
-Mr: ["Mr."]
-Mrs: ["Mrs."]
-Ms: ["Ms."]
-# month
-Jan.: [Jan]
-Feb.: [Feb]
-Mar.: [Mar]
-Jun.: [Jun]
-Jul.: [Jul]
-Aug.: [Aug]
-Sep.: [Sep]
-Oct.: [Oct]
-Nov.: [Nov]
-Dec.: [Dec]
-Sept.: [Sept]
-# split same spell
 approximate: ["approximate_1", "approximate_2"]
 articulate: ["articulate_1", "articulate_2"]
 bass: ["bass_1", "bass_2"]
