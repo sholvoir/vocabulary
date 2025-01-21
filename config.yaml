@@ -464,8 +464,6 @@
   tag: T4
   wordPath:
     - headWord
-  replace:
-    reservior: [reservoir]
 - name: cet6
   path: origin/CET6.json
   tag: T6
