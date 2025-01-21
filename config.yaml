@@ -89,6 +89,10 @@
     laughed: ["laugh"]
     legs: ["leg"]
     lifted: ["lift"]
+    members: ["member"]
+    molecules: ["molecule"]
+    months: ["month"]
+    mountains: ["mountain"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -274,6 +278,9 @@
     down stairs: ["downstairs"]
     fed up.: ["fed up"]
     frontiers: ["frontier"]
+    main land: ["mainland"]
+    main stream: ["mainstream"]
+    man date: ["mandate"]
 - name: collins
   path: origin/Collins1.csv
   tag: L1
@@ -610,6 +617,7 @@
     interlocking: ["interlock"]
     intruding: ["intrude"]
     jesting: ["jest"]
+    merited: ["merit"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM
@@ -618,6 +626,8 @@
   replace:
     paleolithic: ["Paleolithic"]
     inverted: ["invert"]
+    mass-transit: ["mass transit"]
+    mosaics: ["mosaic"]
 - name: bec
   path: origin/BEC.json
   tag: BE

@@ -11398,7 +11398,8 @@ magical: C1,CA,L2
 magician: L1,LD
 magistrate: BN,C1,KY,L2,T6
 maglev: TF
-magma: GM,IS,TF
+magma: IS,TF
+magmatic: GM
 magnanimous: ST
 magnate: L1
 magnesium: GM,L1,TF
@@ -11894,6 +11895,7 @@ mince: GR,L1
 mind: A2,BN,CA,DL,FS,GK,GL,GS,L3,L5,LD,MC,OG,S1,VA,W1,W2,WK,ZK
 minder: L1
 mindful: FE,L1
+mindfully: FE
 mindfulness: FE
 mindless: L1
 mindset: FE
