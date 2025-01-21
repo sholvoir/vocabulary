@@ -93,6 +93,10 @@
     molecules: ["molecule"]
     months: ["month"]
     mountains: ["mountain"]
+    plains: ["plain"]
+    planets: ["planet"]
+    pounds: ["pound"]
+    products: ["product"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -153,6 +157,7 @@
     crops: ["crop"]
     genes: ["gene"]
     pass a bill: [pass, a, bill]
+    proteins: [protein]
 - name: macmillan
   path: origin/MacmillanDictionaryDefiningVocabulary.html
   tag: MC
@@ -194,6 +199,7 @@
     lodgings: [lodging]
     contents: ["content"]
     good-bye: ["goodbye"]
+    provisions: ["provision"]
 - name: longmanc
   path: origin/LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -327,6 +333,7 @@
     new Testament: ["New Testament"]
     new-face: ["new face"]
     oestrogen: [estrogen]
+    pluming: ["plume"]
     soar system: [solar system]
     valium: ["Valium"]
     Woman's Liberation: []
@@ -351,6 +358,7 @@
   replace:
     founds: [found]
     neo: ["neo-"]
+    pre: ["pre-"]
 - name: tsl
   path: origin/TSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
@@ -371,6 +379,7 @@
     - [['^([\w-]+?),.*$', gm], $1]
   replace:
     neo: ["neo-"]
+    pre: ["pre-"]
 - name: fel
   path: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
@@ -385,6 +394,8 @@
     bodybuild: ["body build"]
     shavasana: ["Savasana"]
     obliques: ["oblique"]
+    pre: ["pre-"]
+    pushup: ["push-up"]
 - name: ndl
   path: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
@@ -538,6 +549,7 @@
     nineteenth-century: [nineteenth, century]
     no matter how: ["no", matter, how]
     once again: [once, again]
+    privatisation: ["privatization"]
     provided that: [provided, that]
     waiting: [wait]
 - name: hsee
@@ -624,6 +636,7 @@
     intruding: ["intrude"]
     jesting: ["jest"]
     merited: ["merit"]
+    poohed: ["pooh"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM

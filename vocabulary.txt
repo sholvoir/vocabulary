@@ -13300,9 +13300,9 @@ palate: GR,L1,TF
 palatial: BE,GR,ST
 palaver: GR
 pale: B1,BN,CA,GK,GL,L3,LD,MC,TF,W3
-paleoclimatology: GM
+paleoclimatologist: GM
 paleontologist: GM
-paleozoology: GM
+paleozoologist: GM
 palette: GR,L1,ST
 pall: GM,GR,L1
 palliate: GR,ST
@@ -13883,6 +13883,7 @@ pint: BN,GK,KY,L2,S2,T4
 pioneer: BL,C1,L2,TF,ZK
 pioneering: L1
 pious: GR,L1,ST
+piousness: GR
 pip: L1
 pipe: B1,BN,CA,GL,L3,LD,MC,OG,S2,TF,VA,W3
 pipeline: BE,BL,C1,CA,L2
@@ -13905,6 +13906,7 @@ pitcher: CA,GR,L1
 piteous: GR,ST
 pitfall: BE,GR,L1
 pith: GR
+pithiness: GR
 pithy: GR,ST
 pitiful: GR,L1
 pitiless: GR
@@ -14176,6 +14178,7 @@ position: A2,B2,BE,BN,CA,FS,GK,GL,GS,IS,L5,LD,MC,OG,S1,TF,VA,W1,WK,ZK
 positioning: BE
 positive: A1,B2,BN,CA,GK,GL,GM,GR,IS,KY,L4,MC,S2,ST,T4,T6,TF,W2,ZK
 positively: AW,BL,BN,L1
+positiveness: GR
 posse: L1,ST
 possess: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L2,LD,ST,T4,T6,TF,VA,W3
 possessed: GR,L1
@@ -14498,8 +14501,8 @@ private sector: L2
 private: B1,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,OG,S1,T4,VA,W1,WK,ZK
 privately: BL,BN,L1
 privation: GR
-privatization: BE,BL,C1
-privatize: BE,BL,BN,L3
+privatization: BE,BL,BN,C1
+privatize: BE,BL,L3
 privilege: BE,BN,C1,CA,GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF,W3
 privileged: L2
 privy: GM,L1
@@ -14532,7 +14535,7 @@ proclaim: BL,BN,C1,GM,GR,IS,KY,L2,ST,T6,TF
 proclamation: GR,L1,ST
 proclivity: GR
 procrastinate: GR,IS,ST
-procreate: GM
+procreative: GM
 procrustean: GR
 proctor: ST
 procure: BE,GM,L1,ST
@@ -14836,7 +14839,7 @@ purported: GR
 purpose-built: L1
 purpose: A2,BE,BN,CA,GK,GL,GS,IS,L4,LD,MC,OG,S2,VA,W2,ZK
 purposeful: L1,ST
-purposive: GR
+purposiveness: GR
 purr: L1
 purse: CA,GR,KY,L2,S3,T4,TL,ZK
 purser: TL
