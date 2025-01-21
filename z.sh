@@ -1,2 +1,3 @@
 deno task run
+echo comparing...
 deno -A compare.ts
