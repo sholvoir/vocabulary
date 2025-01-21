@@ -1,3 +1,5 @@
+-n't: CA
+-tion: L4
 A level: L2
 A-road: L1
 ABC: L2
@@ -657,6 +659,7 @@ Old Testament: L1
 Oliver: BN
 Olympic Games: L2
 Olympic: BN,CA
+Olympics: CA
 Open University: L1
 Orient: L1
 Owen: BN
@@ -1265,8 +1268,7 @@ advertising: A2,BE,BN,CA,GM,MC,W3
 advice: A1,BE,BN,CA,GK,GL,IS,L4,LD,MC,S2,W2,ZK
 advisable: GR,IS,KY,L1,T4,T6,TF,TL
 advise: B1,BE,BN,CA,GK,GL,L3,LD,MC,S2,VA,W2
-adviser: BN,CA,GL,L3,MC,S3,W3
-advisor: BL,TL
+adviser: BL,BN,CA,GL,L3,MC,S3,TL,W3
 advisory: BL,BN,L2,ST,TF,TL
 advocacy: GM,GR,L1,ST
 advocate: BE,BN,C1,CA,GK,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF
@@ -3341,10 +3343,9 @@ cadenza: ST
 cadet: GR,L1
 cadge: GR
 cadre: L1
-cafe: A1,CA,L2
 cafeteria: GK,IS,KY,L1,T6,TF,TL
 caffeine: FE,GM,L1
-café: MC,TL
+café: A1,CA,L2,MC,TL
 cage: BE,BN,CA,FE,L2,LD,TL,ZK
 caitiff: ST
 cajole: GR,L1,ST
@@ -3744,7 +3745,6 @@ chaplain: L1
 chapter: B1,BN,CA,DL,GK,GL,KY,L4,S3,T4,W1
 char: GR,L1
 character: A2,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,S1,T4,T6,W1,ZK
-characterise: BN,KY
 characteristic: B2,BE,BN,CA,GK,GL,GR,IS,KY,L3,MC,S3,ST,T4,T6,TF,W2
 characterization: AW,GM,GR,L1
 characterize: BN,C1,CA,GL,GR,KY,L2,ST,T4,T6,TF,W3
@@ -6627,7 +6627,6 @@ ellipse: TF
 elliptical: GM,GR,ST,TF
 elm: L1,TF
 elocution: GR,ST
-elocutionist: ST
 elongate: GM,GR,ST,TF
 eloquence: GR,ST
 eloquent: GM,GR,KY,L1,T6,TF
@@ -6835,8 +6834,6 @@ enormity: GR
 enormous: A2,BE,BN,CA,GL,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,W3
 enormously: AW
 enough: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,W2,WK,ZK
-enquire: BE,BN,C1,IS,KY,T4
-enquiry: B2,BE,BN,GK,IS,KY,S2,T4,W2
 enrage: GR,L1,ST
 enrapture: GR,ST
 enrich: BL,C1,GM,IS,KY,L1,T6,TF
@@ -6954,7 +6951,6 @@ equivalence: AW
 equivalent: B2,BE,BN,CA,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF,W3
 equivocal: GR,ST
 equivocate: GR,ST
-equivocator: GR
 er: BN
 era: B2,BN,CA,GL,GM,IS,KY,L3,ST,T4,TF,W3
 eradicate: GM,GR,L1,ST,TF
@@ -7054,7 +7050,6 @@ evacuee: L1
 evade: GM,GR,KY,L1,ST,TF
 evaluate: B2,BE,BN,CA,GK,GL,GM,IS,KY,L2,T4,T6,TF
 evaluation: B2,BN,CA,GL,GR,IS,T4
-evaluator: BE
 evanescent: GR,ST
 evangelical: L1
 evaporate: GM,IS,KY,L1,ST,TF,VA
@@ -7146,7 +7141,6 @@ exciting: A1,BN,CA,FS,L3,LD,MC,S2,W3
 exclaim: BN,GR,KY,L1,T4,T6,TF
 exclamation: GR
 exclude: B2,BN,CA,GL,GM,IS,KY,L2,ST,T4,T6,TF,W3
-excluder: GM
 excluding: L1
 exclusion: BL,BN,C1,GM,L2
 exclusive: BE,BL,BN,C1,CA,GR,IS,KY,L2,ST,T4,T6,TF,TL
@@ -7180,10 +7174,8 @@ exhalation: FE
 exhale: FE,GM,GR,IS,L1,ST,TF
 exhaust: BN,GL,GM,GR,IS,KY,L3,ST,T4,T6,TF
 exhausted: ST
-exhaustible: IS
 exhaustion: IS
 exhaustive: GM,GR,IS,L1,ST
-exhaustiveness: GR
 exhibit: B2,BE,BN,CA,GL,IS,KY,L2,T4,T6,TF
 exhibition: B1,BE,BN,CA,GK,GL,IS,L3,MC,W2,ZK
 exhibitor: L1
@@ -7355,7 +7347,7 @@ fabric: AW,B2,BN,CA,GM,GR,KY,L3,T4,T6,TF,TL
 fabricate: GR,KY,L1,ST,T6,TF
 fabrication: IS
 fabulous: B2,FE,GR,IS,KY,L2,ST,TF
-facade: L1
+facade: IS,L1,TF
 face value: L1
 face: A1,B1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,ST,VA,W1,WK,ZK
 faceless: L1
@@ -7374,8 +7366,7 @@ fact: A1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 faction: BL,BN,C1,GM,L3,ST,TF
 factious: ST
 factitious: GR
-factor: A2,BE,BN,CA,GL,GM,KY,L4,S3,ST,T4,T6,TF,W1
-factorable: GR,ST
+factor: A2,BE,BN,CA,GL,GM,GR,KY,L4,S3,ST,T4,T6,TF,W1
 factorage: BE
 factorial: AW
 factoring: BE
@@ -7464,7 +7455,6 @@ farmland: L1
 farmyard: LD
 fart: L1
 fascia: FE
-fascial: FE
 fascinate: GL,GR,IS,KY,L1,ST,T4,T6,TF
 fascinated: KY
 fascinating: B1,BE,BN,CA,GR,IS,S3,T4,TF
@@ -7510,7 +7500,6 @@ favourite: A1,BN,GK,IS,KY,L4,S3,T4,W3
 fawn: L1,ST
 fax: BL,BN,GK,L2,TL,ZK
 faze: GR
-façade: IS,TF
 fealty: GR
 fear: A2,B1,BN,CA,FS,GK,GL,L5,LD,MC,OG,S3,VA,W1,W2,WK,ZK
 fearful: KY,L2,T4
@@ -7582,11 +7571,9 @@ ferromagnetic: GR
 ferrous: GM
 ferry: BE,BN,GK,IS,KY,L2,T6,TL
 fertile: GR,IS,KY,L2,OG,ST,T4,TF,VA
-fertilise: IS
-fertiliser: KY
 fertility: AW,BN,GM
 fertilization: ST
-fertilize: GR,L1
+fertilize: GR,IS,L1
 fertilized: GM
 fertilizer: GM,GR,KY,L2,MC,T4,T6
 fervent: GM,GR,L1,ST
@@ -8499,7 +8486,7 @@ glutamine: FE
 gluteus: FE
 glutinous: GR,ST
 gluttonous: GR,ST
-glycemic: FE
+glycemia: FE
 glycerol: ST
 glycogen: FE,ST
 gm: L2
@@ -8761,8 +8748,7 @@ guitar: A1,BN,CA,GL,KY,L3,MC,S3,T4,W3
 gulch: GR
 gulf: CA,KY,T4,TF
 gull: TF
-gullible: GR,L1,ST
-gullibly: IS
+gullible: GR,IS,L1,ST
 gully: L1
 gulp: GR,L1
 gum: GR,KY,L2,T4,TL
@@ -9446,7 +9432,7 @@ hydraulic: L1,ST,TF
 hydrocarbon: L1,ST
 hydrogen: AW,BL,BN,C1,GK,GM,KY,L2,ST,T4,TF
 hydrolysis: ST
-hydroponic: GM
+hydroponics: GM
 hydrothermal: TF
 hydroxide: ST
 hygiene: KY,L1,TF,TL
@@ -9570,7 +9556,7 @@ imagination: B2,BN,CA,GL,IS,KY,L3,LD,MC,S3,T4,W3
 imaginative: BN,IS,KY,L2,ST,T6,TF
 imagine: A1,BE,BN,CA,DL,GK,GL,GS,IS,KY,L4,LD,MC,S1,VA,W2,ZK
 imaging: L1
-imagist: TF
+imagism: TF
 imam: L1
 imbalance: BL,FE,GM,L1
 imbecile: GR
@@ -9642,7 +9628,6 @@ imperialism: L1
 imperil: GR,IS,ST
 imperious: GR,ST
 impermanent: GR
-impermeability: GR
 impermeable: GR,TF
 impermissible: GR
 impersonal: GR,L1,TF
@@ -9842,7 +9827,6 @@ inconvenient: GR,L1,ST,TF
 incorporate: B2,BN,CA,GL,GM,GR,IS,KY,L2,ST,T6,TF,W3
 incorporation: BL
 incorrect: B2,BE,BL,L1,MC
-incorrigibility: GR
 incorrigible: GR,ST
 incorruptible: GR
 increase: A2,BE,BN,CA,FS,GK,GL,GS,L5,LD,MC,OG,S2,VA,W1,WK,ZK
@@ -9955,7 +9939,6 @@ inefficacious: ST
 inefficiency: BE,BL
 inefficient: BL,GM,GR,L2,TL
 inelastic: GR
-inelasticity: GR
 ineligible: GR
 ineluctable: GR
 inept: GR,L1,ST
@@ -9991,7 +9974,6 @@ infectious: AW,GM,GR,KY,L1,LD,MC,T6,TF
 infelicitous: GR
 infelicity: GR
 infer: B2,GM,GR,IS,KY,L1,T4,TL
-inferable: GR
 inference: AW,BL,IS,KY,L1,T4,TL
 inferential: IS
 inferior: AW,BE,GM,GR,IS,KY,L2,T4,T6,TF
@@ -10040,14 +10022,12 @@ infrared: GM,GR,KY,L1,ST,TF
 infrastructure: B2,BE,BL,BN,CA,GM,IS,KY,L2,TF
 infrequent: L1
 infrequently: GR
-infringe: BE,GR,IS,L1,ST
+infringe: BE,GM,GR,IS,L1,ST
 infringement: BE,GM
-infringer: GM
 infuriate: GR,L1,ST,TF
 infuse: GM,GR,L1,ST
 infusion: L1
 ingenious: GM,GR,KY,L1,ST,T6,TF
-ingeniousness: GR
 ingenuity: L1
 ingenuous: GR,ST
 ingenuously: GR
@@ -10120,8 +10100,8 @@ inoffensive: GR
 inordinate: GR,L1,ST
 input: B2,BE,BN,CA,GL,IS,KY,L2,ST,T4,T6,W3
 inquest: L1
-inquire: BE,KY,L2,LD,T4,TF,TL
-inquiry: B2,BN,CA,GL,GR,KY,L3,LD,T4,W2
+inquire: BE,BN,C1,IS,KY,L2,LD,T4,TF,TL
+inquiry: B2,BE,BN,CA,GK,GL,GR,IS,KY,L3,LD,S2,T4,W2
 inquisitive: GM,GR,L1
 inroad: GR
 inroads: L1
@@ -10376,8 +10356,7 @@ introvert: GR,IS,ST
 intrude: GR,KY,L1,TF
 intruder: L1,ST
 intrusion: IS,L1,TF
-intrusive: L1
-intrusively: GR
+intrusive: GR,L1
 intuition: FE,GM,GR,KY,L1,ST,T6
 intuitive: GM,GR,L1,TF
 inundate: GR,IS,L1,ST
@@ -10601,7 +10580,6 @@ judicature: ST
 judicial: BE,BL,BN,C1,CA,GM,GR,KY,L2
 judiciary: L2
 judicious: GR,IS,L1,ST
-judiciousness: GR
 judo: L1
 jug: GR,KY,L1
 juggle: L1
@@ -10960,12 +10938,10 @@ legislator: L1,ST
 legislature: BL,C1,CA,GM,GR,L2,TF,VA
 legitimacy: BL,IS
 legitimate: AW,BL,BN,C1,CA,GM,IS,KY,L2,ST,T6,TF
-legitimation: GM
 legitimize: IS,L1
 leisure centre: L1
 leisure: AW,B1,BE,BL,BN,IS,KY,L2,ST,T4,T6,TF,TL,W3
-leisureliness: GR
-leisurely: L1
+leisurely: GR,L1
 lemon: A2,BE,BN,CA,FE,KY,L2,MC,T4
 lemonade: L1
 lend: A2,BE,BN,CA,GL,L3,LD,MC,S3,VA,W3,WK,ZK

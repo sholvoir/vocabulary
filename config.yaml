@@ -70,6 +70,25 @@
     died: ["die"]
     discovered: ["discover"]
     dollars: ["dollar"]
+    ears: ["ear"]
+    eggs: ["egg"]
+    elements: ["element"]
+    entered: ["enter"]
+    factories: ["factory"]
+    farmers: ["farmer"]
+    filled: ["fill"]
+    fingers: ["finger"]
+    flowers: ["flower"]
+    friends: ["friend"]
+    happened: ["happen"]
+    inches: ["inch"]
+    insects: ["insect"]
+    instruments: ["instrument"]
+    joined: ["join"]
+    jumped: ["jump"]
+    laughed: ["laugh"]
+    legs: ["leg"]
+    lifted: ["lift"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -128,6 +147,7 @@
     Major depressive disorder: [major depressive disorder]
     Nuclear fission: [nuclear fission]
     crops: ["crop"]
+    genes: ["gene"]
     pass a bill: [pass, a, bill]
 - name: macmillan
   path: origin/MacmillanDictionaryDefiningVocabulary.html
@@ -149,6 +169,7 @@
     law-making: [lawmaking]
     relating to: [relate to]
     damaged: ["damage"]
+    grandparents: ["grandparent"]
 - name: longmand
   path: origin/TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
@@ -168,6 +189,7 @@
     airforce: [air force]
     lodgings: [lodging]
     contents: ["content"]
+    good-bye: ["goodbye"]
 - name: longmanc
   path: origin/LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -216,6 +238,7 @@
     Prove: ["prove"]
     Pull: ["pull"]
     Push: ["push"]
+    tion: []
 - name: collins
   path: origin/Collins3.csv
   tag: L3
@@ -249,6 +272,8 @@
     cm.: ["cm"]
     come-down: ["comedown"]
     down stairs: ["downstairs"]
+    fed up.: ["fed up"]
+    frontiers: ["frontier"]
 - name: collins
   path: origin/Collins1.csv
   tag: L1
@@ -259,30 +284,43 @@
     - [['^[A-Z]\t\n', gm]]
     - [[\t$, gm]]
   replace:
+    aka.: ["aka"]
     Alzheimer's Disease: ["Alzheimer's disease"]
+    balance of payment: [balance of payments]
+    black smith: ["blacksmith"]
+    bother-in-law: [brother-in-law]
+    brother-hood: ["brotherhood"]
     Chancellor of Exchequer: ["Chancellor of the Exchequer"]
+    check-list: ["checklist"]
+    comers: ["comer"]
     Countess: ["countess"]
+    county club: [country club]
+    county house: [country house]
+    equessrian: [equestrian]
+    fl.oz.: ["fl oz"]
+    grass roots: ["grassroots"]
+    gross domestic: [gross domestic product]
+    ground work: ["groundwork"]
+    head way: ["headway"]
+    hifi: ["hi-fi"]
+    high Command: ["high command"]
+    high lands: ["Highlands"]
+    home owner: ["homeowner"]
     Intermediary: ["intermediary"]
+    light-house: ["lighthouse"]
+    likeminded: ["like-minded"]
     Long-haul: [long-haul]
     Longevity: ["longevity"]
     Longing: [long]
     Lubricant: ["lubricant"]
     Metro: ["metro"]
     N.A: []
-    Woman's Liberation: []
-    aka.: ["aka"]
-    balance of payment: [balance of payments]
-    black smith: ["blacksmith"]
-    brother-hood: ["brotherhood"]
-    bother-in-law: [brother-in-law]
-    check-list: ["checklist"]
-    comers: ["comer"]
-    county club: [country club]
-    county house: [country house]
-    equessrian: [equestrian]
-    gross domestic: [gross domestic product]
+    new Age: ["New Age"]
+    new Testament: ["New Testament"]
     oestrogen: [estrogen]
     soar system: [solar system]
+    valium: ["Valium"]
+    Woman's Liberation: []
     woman's movement: []
 - name: ngsl
   path: origin/NGSL1.2LemmatizedForTeaching.csv
@@ -333,6 +371,7 @@
   replace:
     bodyweight: [body weight]
     bodybuild: ["body build"]
+    shavasana: ["Savasana"]
 - name: ndl
   path: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
@@ -375,6 +414,54 @@
     christmas: ["Christmas"]
     depending: ["depend"]
     dna: ["DNA"]
+    english: ["English"]
+    european: ["European"]
+    faster: ["fast"]
+    february: ["February"]
+    french: ["French"]
+    friday: ["Friday"]
+    gop: ["GOP"]
+    greek: ["Greek"]
+    halloween: ["Halloween"]
+    health-care: ["healthcare"]
+    hispanic: ["Hispanic"]
+    indian: ["Indian"]
+    ipad: ["iPad"]
+    iphone: ["iPhone"]
+    iranian: ["Iranian"]
+    iraqi: ["Iraqi"]
+    irish: ["Irish"]
+    islam: ["Islam"]
+    islamic: ["Islamic"]
+    israeli: ["Israeli"]
+    italian: ["Italian"]
+    january: ["January"]
+    japanese: ["Japanese"]
+    jewish: ["Jewish"]
+    july: ["July"]
+    june: ["June"]
+    korean: ["Korean"]
+    latin: ["Latin"]
+    mexican: ["Mexican"]
+    monday: ["Monday"]
+    muslim: ["Muslim"]
+    n't: []
+    november: ["November"]
+    october: ["October"]
+    ok: ["OK"]
+    olympic: ["Olympic"]
+    olympics: ["Olympic"]
+    palestinian: ["Palestinian"]
+    russian: ["Russian"]
+    saturday: ["Saturday"]
+    september: ["September"]
+    spanish: ["Spanish"]
+    sunday: ["Sunday"]
+    syrian: ["Syrian"]
+    t-shirt: ["T-shirt"]
+    thursday: ["Thursday"]
+    tuesday: ["Tuesday"]
+    wednesday: ["Wednesday"]
 - name: bnc
   path: origin/BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
@@ -426,11 +513,14 @@
     depending on: [depend on]
     ed: []
     even when: [even, when]
+    faster: ["fast"]
+    gothic: ["Gothic"]
     ii: []
     iii: []
     in response to: [in, response, to]
     in touch with: [in, touch, with]
     iv: []
+    korean: ["Korean"]
     le: []
     nineteenth-century: [nineteenth, century]
     no matter how: ["no", matter, how]
@@ -483,6 +573,7 @@
     Kung Fu: ["kung fu"]
     a calculated crime: [a, calculate, crime]
     inductive reasoning: [inductive, reason]
+    freefone: ["Freefone"]
 - name: sat
   path: origin/SAT.json
   tag: ST
@@ -504,17 +595,29 @@
     correlated: ["correlate"]
     cosycozy: []
     damped: ["damp"]
+    egoistical: ["egoistic"]
     idiosyncracy: [idiosyncrasy]
     ill-paying: [ill, pay]
     self-adulation: [self, adulation]
     self-procession: [self, procession]
     sun-bronzed: [sun, bronzed]
     dumbbell-like: ["dumbbell", like]
+    paleolithic: ["Paleolithic"]
+    formalized: ["formalize"]
+    hardbitten: ["hard-bitten"]
+    ill-repute: ["ill repute"]
+    ill-will: ["ill will"]
+    interlocking: ["interlock"]
+    intruding: ["intrude"]
+    jesting: ["jest"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM
   wordPath:
     - headWord
+  replace:
+    paleolithic: ["Paleolithic"]
+    inverted: ["invert"]
 - name: bec
   path: origin/BEC.json
   tag: BE

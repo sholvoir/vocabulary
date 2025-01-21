@@ -81,6 +81,7 @@ async function run() {
     // write to file
     const encoder = new TextEncoder();
     const file = await Deno.open(args.output, { write: true, create: true, truncate: true });
+    // (a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'})
     for (const line of vocabulary.toArray().sort())
         await file.write(encoder.encode(`${line}\n`));
     file.close();
