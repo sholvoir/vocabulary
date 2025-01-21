@@ -116,6 +116,9 @@
     things: ["thing"]
     thousands: ["thousand"]
     tools: ["tool"]
+    waves: ["wave"]
+    workers: ["worker"]
+    years: ["year"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -136,6 +139,7 @@
   replace:
     called: ["call"]
     things: ["thing"]
+    years: ["year"]
 - name: wik
   path: origin/Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
@@ -179,6 +183,7 @@
     pass a bill: [pass, a, bill]
     proteins: [protein]
     seeking: ["seek"]
+    x-rays: ["x-ray"]
 - name: macmillan
   path: origin/MacmillanDictionaryDefiningVocabulary.html
   tag: MC
@@ -361,6 +366,8 @@
     sitting-room: ["sitting room"]
     soar system: [solar system]
     trade mark: ["trademark"]
+    um.: ["um"]
+    unforgetable: ["unforgettable"]
     valium: ["Valium"]
     Woman's Liberation: []
     woman's movement: []
@@ -395,6 +402,8 @@
     - [['�', g], 'é']
     - [['^#.*\n*', gm]]
     - [['^([\wé ''-]+?),.*$', gm], $1]
+  replace:
+    unauthorize: ["authorize"]
 - name: bsl
   path: origin/BSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
@@ -579,6 +588,8 @@
     privatisation: ["privatization"]
     provided that: [provided, that]
     resulting: ["result"]
+    varying: ["vary"]
+    video-taped: ["videotape"]
     waiting: [wait]
 - name: hsee
   path: origin/ChuZhong.json
@@ -607,6 +618,8 @@
   tag: T4
   wordPath:
     - headWord
+  replace:
+    world-wide: ["worldwide"]
 - name: cet6
   path: origin/CET6.json
   tag: T6
@@ -627,6 +640,8 @@
     a calculated crime: [a, calculate, crime]
     inductive reasoning: [inductive, reason]
     freefone: ["Freefone"]
+    utilisation: ["utilization"]
+    world-wide: ["worldwide"]
 - name: sat
   path: origin/SAT.json
   tag: ST
@@ -634,9 +649,10 @@
     - headWord
   replace:
     Aluminum: [aluminum]
+    antibiotics: ["antibiotic"]
+    blase: ["blasé"]
     Iron: ["iron"]
     Oxygen: ["oxygen"]
-    blase: ["blasé"]
 - name: gre
   path: origin/GRE.json
   tag: GR
@@ -671,17 +687,21 @@
     sloping: ["slope"]
     tapering: ["taper"]
     tined: ["tine"]
+    underestimated: ["underestimate"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM
   wordPath:
     - headWord
   replace:
-    paleolithic: ["Paleolithic"]
+    antibiotics: ["antibiotic"]
     inverted: ["invert"]
     mass-transit: ["mass transit"]
     mosaics: ["mosaic"]
+    paleolithic: ["Paleolithic"]
     single-entry: ["single entry"]
+    unreimbursed: ["reimburse"]
+    vertice: ["vertex"]
 - name: bec
   path: origin/BEC.json
   tag: BE
@@ -694,3 +714,4 @@
     averaging: ["average"]
     counterfeits: ["counterfeit"]
     overvalued: ["overvalue"]
+    ungeared: ["ungear"]

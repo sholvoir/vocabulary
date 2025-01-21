@@ -19854,8 +19854,9 @@ version: B1,BE,BN,CA,GK,GL,GM,IS,KY,L4,S2,ST,T4,T6,TF,VA,W2
 versus: C1,CA,GL,IS,KY,L2,T6,TF
 vertebra: FE,L1
 vertebrate: GM,GR,IS,TF
-vertex: GM,GR,ST
+vertex: GR,ST
 vertical: AW,B2,BL,BN,FE,GK,GM,GR,IS,KY,L2,ST,T4,T6,TF
+vertices: GM
 vertigo: GR,ST
 verve: GR,L1
 very: A1,B2,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,S2,VA,W1,WK,WS,ZK
