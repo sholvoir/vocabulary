@@ -15,10 +15,8 @@ const run = async () => {
         }
     for (const word of oldVocabulary) newVocabulary.delete(word);
     if (newVocabulary.size) {
-        console.log('adding...');
         for (const word of Array.from(newVocabulary).sort()) console.log(word);
     }
-    console.log('done!');
 }
 
 if (import.meta.main) run();

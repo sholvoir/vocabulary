@@ -499,24 +499,16 @@
   wordPath:
     - headWord
   replace:
-    'n': []
-    absinth: ["absinthe"]
-    blase: ["blasé"]
     chaffing: ["chaff"]
-    chaperon: ["chaperone"]
     cliche: ["cliché"]
     correlated: ["correlate"]
-    cosycozy: [cozy]
+    cosycozy: []
     damped: ["damp"]
     idiosyncracy: [idiosyncrasy]
     ill-paying: [ill, pay]
-    neodoxy: []
-    quizzable: [quiz]
     self-adulation: [self, adulation]
     self-procession: [self, procession]
     sun-bronzed: [sun, bronzed]
-    tecnology: [technology]
-    decumbence: ["decumbency"]
     dumbbell-like: ["dumbbell", like]
 - name: gmat
   path: origin/GMAT.json
