@@ -469,9 +469,6 @@
   tag: T6
   wordPath:
     - headWord
-  replace:
-    Automatically: ["automatically"]
-    Heaven: ["heaven"]
 - name: toefl
   path: origin/TOEFL.json
   tag: TF
