@@ -97,6 +97,22 @@
     planets: ["planet"]
     pounds: ["pound"]
     products: ["product"]
+    questions: ["question"]
+    reached: ["reach"]
+    rolled: ["roll"]
+    scientists: ["scientist"]
+    seeds: ["seed"]
+    shoes: ["shoe"]
+    shouted: ["shout"]
+    smiled: ["smile"]
+    soldiers: ["soldier"]
+    stars: ["star"]
+    stretched: ["stretch"]
+    students: ["student"]
+    substances: ["substance"]
+    suggested: ["suggest"]
+    syllables: ["syllable"]
+    symbols: ["symbol"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -158,6 +174,7 @@
     genes: ["gene"]
     pass a bill: [pass, a, bill]
     proteins: [protein]
+    seeking: ["seek"]
 - name: macmillan
   path: origin/MacmillanDictionaryDefiningVocabulary.html
   tag: MC
@@ -287,6 +304,7 @@
     main land: ["mainland"]
     main stream: ["mainstream"]
     man date: ["mandate"]
+    sic.: ["sic"]
 - name: collins
   path: origin/Collins1.csv
   tag: L1
@@ -334,6 +352,8 @@
     new-face: ["new face"]
     oestrogen: [estrogen]
     pluming: ["plume"]
+    school boy: ["schoolboy"]
+    sitting-room: ["sitting room"]
     soar system: [solar system]
     valium: ["Valium"]
     Woman's Liberation: []
@@ -380,6 +400,7 @@
   replace:
     neo: ["neo-"]
     pre: ["pre-"]
+    stockmarket: ["stock market"]
 - name: fel
   path: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
@@ -551,6 +572,7 @@
     once again: [once, again]
     privatisation: ["privatization"]
     provided that: [provided, that]
+    resulting: ["result"]
     waiting: [wait]
 - name: hsee
   path: origin/ChuZhong.json
@@ -637,6 +659,10 @@
     jesting: ["jest"]
     merited: ["merit"]
     poohed: ["pooh"]
+    restored: ["restore"]
+    semimolten: ["molten"]
+    shortrange: ["short-range"]
+    sloping: ["slope"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM
@@ -647,6 +673,7 @@
     inverted: ["invert"]
     mass-transit: ["mass transit"]
     mosaics: ["mosaic"]
+    single-entry: ["single entry"]
 - name: bec
   path: origin/BEC.json
   tag: BE

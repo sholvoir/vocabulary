@@ -17029,6 +17029,7 @@ slink: GR
 slip: B2,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,OG,S3,T4,T6,TF,W2,WK
 slippage: GR
 slipper: KY,L1,ZK
+slipperiness: GR
 slippery: GR,IS,KY,L1,LD,T4,T6
 slipshod: GR
 slit: GR,KY,L1,ST
@@ -17411,7 +17412,8 @@ spinach: GM,L1
 spinal: FE,GR,L1
 spindle: L1,ST
 spindly: GR
-spine: BN,C1,FE,GM,GR,IS,KY,L2,T6
+spine: BN,C1,FE,GM,IS,KY,L2,T6
+spined: GR
 spineless: GR,ST
 spinet: TF
 spinning: GR,TF
@@ -17420,7 +17422,8 @@ spiny: GR,TF
 spiral: FE,GM,GR,IS,KY,L2,T6,TF
 spire: L1
 spirit: B1,BN,CA,GK,GL,L4,LD,MC,S2,VA,W2,ZK
-spirited: GR,L1
+spirited: L1
+spiritedness: GR
 spiritual: B2,BN,CA,FE,GK,GR,IS,KY,L3,MC,T4,W3
 spit: BN,CA,GK,IS,KY,L2,T4
 spite: B2,BE,BL,CA,GR,IS,KY,L3,LD,T4,T6,TL,W3
@@ -17521,8 +17524,9 @@ squirrel: DS,GM,KY,L1,TF
 squirt: GR,L1,TF
 stab: BN,C1,GR,IS,KY,L2,T6,VA
 stabbing: L1
+stabilise: IS
 stability: BE,BN,C1,CA,GL,KY,ST,T6
-stabilize: AW,BL,C1,FE,GM,GR,IS,L2,T6
+stabilize: AW,BL,C1,FE,GM,GR,L2,T6
 stable: B2,BE,BN,CA,GK,GL,IS,KY,L4,T4,T6,TF,W3
 stack: AW,BL,CA,FE,IS,KY,L2,T4,T6,TF,TL
 stadium: AW,B1,BN,CA,GK,KY,L3,T4,TF,TL
@@ -18227,8 +18231,10 @@ symposium: KY,L1,T6
 symptom: B1,BE,BN,CA,GK,GL,GM,IS,KY,L3,T4,TF
 symptomatic: GR,L1,ST
 synagogue: L1
+synchronise: IS
 synchronization: GR
-synchronize: GM,IS,L1,TF
+synchronize: GM,L1,TF
+synchronizer: TF
 synchronous: GR,ST
 syncretize: GR
 syndicate: BL,L2
