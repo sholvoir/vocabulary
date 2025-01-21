@@ -6,10 +6,9 @@
     "configurations": [
         {
             "request": "launch",
-            "name": "mod",
+            "name": "comp",
             "type": "node",
-            "program": "${workspaceFolder}/src/main.ts",
-            "args": ["-p", "bnc"],
+            "program": "${workspaceFolder}/compare.ts",
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/usr/bin/deno",
             "runtimeArgs": [

@@ -482,11 +482,7 @@
   replace:
     Kung Fu: ["kung fu"]
     a calculated crime: [a, calculate, crime]
-    aupair: []
-    chiche: []
-    groa: []
     inductive reasoning: [inductive, reason]
-    relinguish: [relinquish]
 - name: sat
   path: origin/SAT.json
   tag: ST
