@@ -12717,6 +12717,7 @@ oblige: BE,BL,C1,GR,KY,L2,T4,TL
 obliged: BN
 obliging: GR,L1
 oblique: FE,GM,GR,L1,ST
+obliqueness: GR
 obliterate: GR,L1,ST,TF
 oblivion: L1,ST
 oblivious: GR,L1,ST,TF

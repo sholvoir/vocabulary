@@ -384,6 +384,7 @@
     bodyweight: [body weight]
     bodybuild: ["body build"]
     shavasana: ["Savasana"]
+    obliques: ["oblique"]
 - name: ndl
   path: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
@@ -644,3 +645,4 @@
     XD: []
     averaging: ["average"]
     counterfeits: ["counterfeit"]
+    overvalued: ["overvalue"]
