@@ -1,9 +1,9 @@
 - name: lorhur
-  path: origin/01.Lorhur.txt
+  path: origin/Lorhur.txt
   tag: LH
   test: '[^\na-zA-Z]'
 - name: ogden
-  path: origin/02.OgdensBasicEnglishWords.html
+  path: origin/OgdensBasicEnglishWords.html
   # https://zbenglish.net/sites/basic/words.html
   tag: OG
   test: '[^\na-zI]'
@@ -18,7 +18,7 @@
   replace:
     waiting: [wait]
 - name: dolch
-  path: origin/03.DolchSightWordsList.html
+  path: origin/DolchSightWordsList.html
   # https://sightwords.com/sight-words/dolch/
   tag: DS
   test: '[^\na-zA-Z '']'
@@ -38,7 +38,7 @@
   replace:
     goes: [go]
 - name: fry
-  path: origin/04.FrySightWordsList.html
+  path: origin/FrySightWordsList.html
   # https://sightwords.com/sight-words/fry/
   tag: FS
   test: '[^\na-zA-Z'']'
@@ -71,7 +71,7 @@
     discovered: ["discover"]
     dollars: ["dollar"]
 - name: written
-  path: origin/05.Top150WrittenSightWords.html
+  path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
   tag: WS
   test: '[^\na-zI]'
@@ -90,7 +90,7 @@
   replace:
     called: ["call"]
 - name: wik
-  path: origin/06.Wiktionary1000BasicEnglishWords.html
+  path: origin/Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
   tag: WK
   test: '[^\nA-Za-z]'
@@ -102,7 +102,7 @@
     - [['\[\[', g]]
     - [['\]\][,.] *', g], "\n"]
 - name: voa
-  path: origin/07.VOASpecialEnglishWordBook.html
+  path: origin/VOASpecialEnglishWordBook.html
   # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
   tag: VA
   test: '[^\nA-Za-z -]'
@@ -130,7 +130,7 @@
     crops: ["crop"]
     pass a bill: [pass, a, bill]
 - name: macmillan
-  path: origin/08.MacmillanDictionaryDefiningVocabulary.html
+  path: origin/MacmillanDictionaryDefiningVocabulary.html
   tag: MC
   test: '[^\nA-Za-zé ''-]'
   process:
@@ -150,7 +150,7 @@
     relating to: [relate to]
     damaged: ["damage"]
 - name: longmand
-  path: origin/09.TheLongmanDefiningVocabulary.html
+  path: origin/TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
   tag: LD
   test: '[^\nA-Za-z ''-]'
@@ -169,7 +169,7 @@
     lodgings: [lodging]
     contents: ["content"]
 - name: longmanc
-  path: origin/10.LongmanCommunication3000.txt
+  path: origin/LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
   process:
     - [[\r, g]]
@@ -179,7 +179,7 @@
     - [[', ', g], ","]
     - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
 - name: oxford
-  path: origin/11.Oxford5000.html
+  path: origin/Oxford5000.html
   test: '[^\n\w: ]'
   process:
     - [['[\r\n]', g]]
@@ -190,7 +190,7 @@
     - [['\bb(?=[12])', g], B]
     - [['\bc(?=[12])', g], C]
 - name: collins
-  path: origin/12.Collins5.csv
+  path: origin/Collins5.csv
   tag: L5
   test: '[^\nA-Za-z '']'
   process:
@@ -204,7 +204,7 @@
     State: ["state"]
     Story: ["story"]
 - name: collins
-  path: origin/13.Collins4.csv
+  path: origin/Collins4.csv
   tag: L4
   test: '[^\nA-Za-z ''-]'
   process:
@@ -217,7 +217,7 @@
     Pull: ["pull"]
     Push: ["push"]
 - name: collins
-  path: origin/14.Collins3.csv
+  path: origin/Collins3.csv
   tag: L3
   test: '[^\nA-Za-z ''-]'
   process:
@@ -232,7 +232,7 @@
     Tissue: ["tissue"]
     Upset: ["upset"]
 - name: collins
-  path: origin/15.Collins2.csv
+  path: origin/Collins2.csv
   tag: L2
   test: '[^\nA-Za-z .''-]'
   process:
@@ -250,7 +250,7 @@
     come-down: ["comedown"]
     down stairs: ["downstairs"]
 - name: collins
-  path: origin/16.Collins1.csv
+  path: origin/Collins1.csv
   tag: L1
   test: '[^\nA-Za-zéè &/.''-]'
   process:
@@ -285,7 +285,7 @@
     soar system: [solar system]
     woman's movement: []
 - name: ngsl
-  path: origin/17.NGSL1.2LemmatizedForTeaching.csv
+  path: origin/NGSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
   tag: GL
   test: '[^\na-zA-Z]'
@@ -294,7 +294,7 @@
     - [['^#.*\n*', gm]]
     - [['^(\w+?),.*$', gm], $1]
 - name: nawl
-  path: origin/18.NAWL1.2LemmatizedForTeaching.csv
+  path: origin/NAWL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
   tag: AW
   test: '[^\na-z]'
@@ -304,7 +304,7 @@
   replace:
     founds: [found]
 - name: tsl
-  path: origin/19.TSL1.2LemmatizedForTeaching.csv
+  path: origin/TSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
   tag: TL
   test: '[^\na-zé ''-]'
@@ -314,7 +314,7 @@
     - [['^#.*\n*', gm]]
     - [['^([\wé ''-]+?),.*$', gm], $1]
 - name: bsl
-  path: origin/20.BSL1.2LemmatizedForTeaching.csv
+  path: origin/BSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
   tag: BL
   test: '[^\na-z-]'
@@ -322,7 +322,7 @@
     - [[\r, g]]
     - [['^([\w-]+?),.*$', gm], $1]
 - name: fel
-  path: origin/21.FEL1.2LemmatizedForTeaching.txt
+  path: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
   tag: FE
   test: '[^\na-z]'
@@ -334,7 +334,7 @@
     bodyweight: [body weight]
     bodybuild: ["body build"]
 - name: ndl
-  path: origin/22.NDL1.1LemmatizedForTeaching.txt
+  path: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
   tag: DL
   test: '[^\nA-Za-z'']'
@@ -342,7 +342,7 @@
     - [[\r, g]]
     - [['^([\w'']+?),.*$', gm], $1]
 - name: ngsls
-  path: origin/23.NGSLSpoken1.2LemmatizedForTeaching.csv
+  path: origin/NGSLSpoken1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
   tag: GS
   test: '[^\na-z]'
@@ -350,7 +350,7 @@
     - [[\r, g]]
     - [['^(\w+?),.*$', gm], $1]
 - name: coca
-  path: origin/24.CocaTop5000WordFrequency.csv
+  path: origin/CocaTop5000WordFrequency.csv
   tag: CA
   test: '[^\na-z''-]'
   process:
@@ -376,7 +376,7 @@
     depending: ["depend"]
     dna: ["DNA"]
 - name: bnc
-  path: origin/25.BncAllAlpha.txt
+  path: origin/BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
   tag: BN
   test: '[^\nA-Za-z ''.-]'
@@ -438,12 +438,12 @@
     provided that: [provided, that]
     waiting: [wait]
 - name: hsee
-  path: origin/26.ChuZhong.json
+  path: origin/ChuZhong.json
   tag: ZK
   wordPath:
     - headWord
 - name: ncee
-  path: origin/27.GaoZhong.json
+  path: origin/GaoZhong.json
   tag: GK
   wordPath:
     - headWord
@@ -460,7 +460,7 @@
     chain stores: ["chain store"]
     hur: []
 - name: npee
-  path: origin/28.KaoYan.json
+  path: origin/KaoYan.json
   tag: KY
   wordPath:
     - headWord
@@ -473,14 +473,14 @@
     goodby: [goodbye]
     resumé: [résumé]
 - name: cet4
-  path: origin/29.CET4.json
+  path: origin/CET4.json
   tag: T4
   wordPath:
     - headWord
   replace:
     reservior: [reservoir]
 - name: cet6
-  path: origin/30.CET6.json
+  path: origin/CET6.json
   tag: T6
   wordPath:
     - headWord
@@ -488,12 +488,12 @@
     Automatically: ["automatically"]
     Heaven: ["heaven"]
 - name: toefl
-  path: origin/31.TOEFL.json
+  path: origin/TOEFL.json
   tag: TF
   wordPath:
     - headWord
 - name: ielts
-  path: origin/32.IELTS.json
+  path: origin/IELTS.json
   tag: IS
   wordPath:
     - headWord
@@ -506,7 +506,7 @@
     inductive reasoning: [inductive, reason]
     relinguish: [relinquish]
 - name: sat
-  path: origin/33.SAT.json
+  path: origin/SAT.json
   tag: ST
   wordPath:
     - headWord
@@ -534,7 +534,7 @@
     transgenic animals: [transgenic, animal]
     undersize d: [undersized]
 - name: gre
-  path: origin/34.GRE.json
+  path: origin/GRE.json
   tag: GR
   wordPath:
     - headWord
@@ -559,12 +559,12 @@
     decumbence: ["decumbency"]
     dumbbell-like: ["dumbbell", like]
 - name: gmat
-  path: origin/35.GMAT.json
+  path: origin/GMAT.json
   tag: GM
   wordPath:
     - headWord
 - name: bec
-  path: origin/36.BEC.json
+  path: origin/BEC.json
   tag: BE
   wordPath:
     - headWord
