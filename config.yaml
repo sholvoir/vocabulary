@@ -448,17 +448,7 @@
   wordPath:
     - headWord
   replace:
-    Baby: ["baby"]
-    Dynamic: ["dynamic"]
-    Dynasty: ["dynasty"]
-    Indicate: ["indicate"]
-    Lost: ["lost"]
-    Mom: ["mom"]
-    beancurd: ["bean curd"]
-    beddings: ["bedding"]
-    behavious: [behavior]
     chain stores: ["chain store"]
-    hur: []
 - name: npee
   path: origin/KaoYan.json
   tag: KY
