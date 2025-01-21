@@ -18,7 +18,10 @@ async function run() {
     const revision = yamlParse(await Deno.readTextFile(args.revision)) as Record<string, Array<string>>;
     // read init data
     const vocabulary = new Vocabulary();
-    if (args["read-init"]) try { for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line); } catch {}
+    if (args["read-init"]) try {
+        console.log('reading init...');
+        for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line);
+    } catch {}
     // start run tasks
     const tasks = args._ as Array<string>;
     for (const conf of configs) {

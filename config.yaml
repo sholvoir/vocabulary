@@ -449,19 +449,20 @@
     - headWord
   replace:
     chain stores: ["chain store"]
+    beddings: [bedding]
 - name: npee
   path: origin/KaoYan.json
   tag: KY
   wordPath:
     - headWord
-  replace:
-    april: ["April"]
-    by-pass: ["bypass"]
-    christmas: ["Christmas"]
-    christ: ["Christ"]
-    encyclopaedia: [encyclopedia]
-    goodby: [goodbye]
-    resumé: [résumé]
+  # replace:
+  #   april: ["April"]
+  #   by-pass: ["bypass"]
+  #   christmas: ["Christmas"]
+  #   christ: ["Christ"]
+  #   encyclopaedia: [encyclopedia]
+  #   goodby: [goodbye]
+  #   resumé: [résumé]
 - name: cet4
   path: origin/CET4.json
   tag: T4
