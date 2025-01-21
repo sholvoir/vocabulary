@@ -323,7 +323,9 @@
     Metro: ["metro"]
     N.A: []
     new Age: ["New Age"]
+    new found: ["newfound"]
     new Testament: ["New Testament"]
+    new-face: ["new face"]
     oestrogen: [estrogen]
     soar system: [solar system]
     valium: ["Valium"]
@@ -348,6 +350,7 @@
     - [['^(\w+?),.*$', gm], $1]
   replace:
     founds: [found]
+    neo: ["neo-"]
 - name: tsl
   path: origin/TSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
@@ -366,6 +369,8 @@
   process:
     - [[\r, g]]
     - [['^([\w-]+?),.*$', gm], $1]
+  replace:
+    neo: ["neo-"]
 - name: fel
   path: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt

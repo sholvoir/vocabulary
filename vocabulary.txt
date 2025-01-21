@@ -12415,6 +12415,7 @@ neglect: BN,C1,GL,IS,KY,L2,T4,T6,TF
 negligence: BL,BN,GM,GR,ST
 negligent: GR,L1,ST,TF
 negligible: GM,GR,KY,L1,ST,T6,TF
+negligibly: GR
 negotiable: BE,BL,GR,L1
 negotiate: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L4,S3,ST,T4,T6,TF,VA,W3
 negotiating table: L1
@@ -12546,7 +12547,6 @@ nominate: BE,BL,BN,C1,CA,GM,GR,KY,L2,ST,T6,TF,TL,VA
 nomination: BL,C1,CA,TL
 nominee: C1,CA,L2,ST,TF
 non-aligned: L1
-non-biodegradable: GM
 non-existent: L1
 non-proliferation: L1
 non-smoker: L1
@@ -12555,6 +12555,7 @@ non-stop: GK,L1
 non-violent: L1
 non-white: L1
 non: AW,BL,FE
+nonbiodegradable: GM
 nonchalance: GR
 nonchalant: GR,L1,ST
 nonchalantly: GR
