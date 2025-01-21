@@ -522,16 +522,7 @@
     - headWord
   replace:
     CBA: []
-    Encl.: ["encl."]
     HRD: []
     XD: []
     averaging: ["average"]
-    b/e: ["BE"]
-    back-up: ["backup"]
     counterfeits: ["counterfeit"]
-    dictaphone: ["Dictaphone"]
-    down time: ["downtime"]
-    fast-expanding: [fast, expand]
-    lineskipper: [line, skipper]
-    over-demand: [over, demand]
-    pseudo-academic: [pseudo, academic]
