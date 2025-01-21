@@ -442,9 +442,6 @@
   tag: ZK
   wordPath:
     - headWord
-  replace:
-    Rusia: [Russia]
-    Wheel: ["wheel"]
 - name: ncee
   path: origin/27.GaoZhong.json
   tag: GK
