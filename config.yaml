@@ -455,14 +455,10 @@
   tag: KY
   wordPath:
     - headWord
-  # replace:
-  #   april: ["April"]
-  #   by-pass: ["bypass"]
-  #   christmas: ["Christmas"]
-  #   christ: ["Christ"]
-  #   encyclopaedia: [encyclopedia]
-  #   goodby: [goodbye]
-  #   resumé: [résumé]
+  replace:
+    by-pass: ["bypass"]
+    encyclopaedia: [encyclopedia]
+    resumé: [résumé]
 - name: cet4
   path: origin/CET4.json
   tag: T4

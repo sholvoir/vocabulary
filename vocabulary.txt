@@ -3527,7 +3527,6 @@ by no means: BN
 by way of: BN
 by-election: L1
 by-law: TL
-by-pass: KY
 by-product: BE,L1,TF
 by: A1,B1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,T4,VA,W1,WK,WS,ZK
 bye: A1,BN,CA,DL,FE,L3,S1,S3,TL
@@ -7331,7 +7330,6 @@ encrust: TF
 encryption: BE
 encumber: GR,ST
 encumbrance: GR
-encyclopaedia: KY
 encyclopedia: BL,GM,GR,IS,KY,L1,ST
 encyclopedic: GR
 end product: BE
@@ -17306,7 +17304,6 @@ resultant: KY,L1,T6
 results: BE
 resume: BL,BN,C1,CA,GM,GR,IS,KY,L1,L3,T4,T6,TF,TL
 resumption: GR,ST
-resumé: KY
 resurface: L1
 resurge: GR
 resurgence: GM,GR,L1
@@ -17693,7 +17690,7 @@ rut: GR,L1
 ruthless: GR,IS,KY,L2,ST,T6,TF
 ruthlessness: GR
 rye: L1
-résumé: TL
+résumé: KY,TL
 sable: GR
 sabotage: GR,IS,L1,VA
 saboteur: L1
