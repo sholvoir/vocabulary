@@ -113,6 +113,9 @@
     suggested: ["suggest"]
     syllables: ["syllable"]
     symbols: ["symbol"]
+    things: ["thing"]
+    thousands: ["thousand"]
+    tools: ["tool"]
 - name: written
   path: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
@@ -132,6 +135,7 @@
     - [[' +']]
   replace:
     called: ["call"]
+    things: ["thing"]
 - name: wik
   path: origin/Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
@@ -196,6 +200,7 @@
     relating to: [relate to]
     damaged: ["damage"]
     grandparents: ["grandparent"]
+    trained: ["train"]
 - name: longmand
   path: origin/TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
@@ -355,6 +360,7 @@
     school boy: ["schoolboy"]
     sitting-room: ["sitting room"]
     soar system: [solar system]
+    trade mark: ["trademark"]
     valium: ["Valium"]
     Woman's Liberation: []
     woman's movement: []
@@ -663,6 +669,8 @@
     semimolten: ["molten"]
     shortrange: ["short-range"]
     sloping: ["slope"]
+    tapering: ["taper"]
+    tined: ["tine"]
 - name: gmat
   path: origin/GMAT.json
   tag: GM

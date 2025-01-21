@@ -18609,8 +18609,9 @@ thousandfold: GR
 thousandth: LD
 thrall: ST
 thrash: GR,L1
-thread: AW,BN,C1,CA,FE,GR,L2,LD,OG,TF
+thread: AW,BN,C1,CA,FE,L2,LD,OG,TF
 threadbare: GR
+threadlike: GR
 threat: B2,BN,CA,GL,GR,KY,L4,LD,MC,S3,T4,TF,W2,WK
 threaten: B2,BE,BN,CA,GL,GM,GR,IS,KY,L4,LD,MC,S3,T4,T6,VA,W2
 threatened: L1
@@ -18915,6 +18916,7 @@ transistor: KY,L1,ST,T6
 transit: BE,BL,C1,CA,GM,GR,IS,KY,L2,T6,TF,TL
 transition: B2,BN,CA,GL,GM,IS,L3,ST,T6,TF,W3
 transitional: GR
+transitoriness: GR
 transitory: GR,ST
 translate: B1,BN,CA,GK,GL,IS,L2,LD,MC,S3,ZK
 translation: AW,B1,BL,BN,CA,KY,L2,MC,ST,T4,TF,TL
@@ -18934,7 +18936,7 @@ transport_2: A2,B1,BE,BN,CA,GK,GL,GM,IS,KY,L4,MC,OG,S2,T4,T6,TF,VA,W2
 transportation: B2,BE,CA,GL,GM,IS,L2,T4,TF,VA,W3,ZK
 transpose: GR
 transposition: ST
-transship: BE
+transshipment: BE
 transverse: ST
 transvestite: L1
 trap: B2,BN,CA,GK,GL,IS,L3,LD,T4,VA
@@ -19031,7 +19033,8 @@ trophy: BN,C1,L2
 tropic: KY,TF
 tropical: AW,B2,BN,CA,GM,IS,KY,L2,LD,MC,ST,T4,TL
 tropics: L1
-troposphere: IS,TF
+troposphere: TF
+tropospheric: IS
 trot: L1
 troubadour: ST
 trouble: A2,B2,BN,CA,DL,FS,GK,GL,GS,L4,LD,MC,OG,S1,VA,W2,WK,ZK
