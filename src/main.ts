@@ -1,6 +1,5 @@
-// deno-lint-ignore-file no-explicit-any no-empty
+// deno-lint-ignore-file no-explicit-any
 import { parseArgs } from '@std/cli/parse-args';
-import { parse as yamlParse } from "@std/yaml";
 import { readConfig, writeConfig } from './config.ts';
 import { spellCheck } from './spell-check.ts';
 import { Vocabulary, delimiter } from "./vocabulary.ts";
@@ -9,22 +8,21 @@ import type { Tag } from "./tag.ts";
 async function run() {
     // get command line args and read config file
     const args = parseArgs(Deno.args, {
-        boolean: ['step-out', 'spell-check', 'read-init'],
-        string: ['config', 'init', 'output', 'revision'],
-        alias: { config: 'c', init: 'i', output: 'o', 'read-init': 'r', 'step-out': 'p', 'spell-check': 's' },
-        default: {config: 'config.yaml', init: 'vocabulary.txt', output: 'vocabulary.txt', revision: 'revision.yaml' }
+        boolean: ['step-out', 'spell-check'],
+        string: ['config', 'init', 'output'],
+        alias: { config: 'c', init: 'i', output: 'o', 'step-out': 'p', 'spell-check': 's' },
+        default: {config: 'config.yaml', output: 'vocabulary.txt' }
     });
-    const configs = await readConfig(args.config);
-    const revision = yamlParse(await Deno.readTextFile(args.revision)) as Record<string, Array<string>>;
+    const config = await readConfig(args.config);
     // read init data
     const vocabulary = new Vocabulary();
-    if (args["read-init"]) try {
+    if (args.init) try {
         console.log('reading init...');
         for (const line of (await Deno.readTextFile(args.init)).split('\n')) vocabulary.addItem(line);
-    } catch {}
+    } catch (e) { console.error(e); }
     // start run tasks
     const tasks = args._ as Array<string>;
-    for (const conf of configs) {
+    for (const conf of config.wordlists) {
         if (tasks.length && !tasks.includes(conf.name)) continue;
         console.log(`Dealing ${conf.name}...`);
         // read file and process
@@ -65,7 +63,7 @@ async function run() {
             }
         }
         const revisionAndAddWord = async (w: string, tags: Array<Tag>) => {
-            const ws = revision[w]
+            const ws = config.revision[w]
             if (!ws) {
                 let reps;
                 if (args['spell-check'] && !vocabulary.has(w) && (reps = await spellCheck(w)))
@@ -85,8 +83,8 @@ async function run() {
         await file.write(encoder.encode(`${line}\n`));
     file.close();
     // write config
-    for (const input of configs) if (input.miss) {
-        await writeConfig(args.config, configs);
+    for (const conf of config.wordlists) if (conf.miss) {
+        await writeConfig(args.config, config);
         break;
     }
 }

@@ -13,10 +13,10 @@ const run = async () => {
             let [word] = line.split(delimiter);
             if (word = word.trim()) newVocabulary.add(word);
         }
-    for (const word of oldVocabulary) newVocabulary.delete(word);
-    if (newVocabulary.size) {
-        for (const word of Array.from(newVocabulary).sort()) console.log(word);
-    }
+    console.log('...removing...');
+    for (const word of Array.from(oldVocabulary.difference(newVocabulary)).sort()) console.log(word);
+    console.log('...adding...');
+    for (const word of Array.from(newVocabulary.difference(oldVocabulary)).sort()) console.log(word);
 }
 
 if (import.meta.main) run();

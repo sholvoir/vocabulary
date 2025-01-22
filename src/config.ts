@@ -2,7 +2,7 @@
 import { parse, stringify } from '@std/yaml';
 import type { Tag } from "./tag.ts";
 
-export type Config = {
+export interface WordlistConfig {
     name: string;
     path: string;
     tag?: Tag;
@@ -14,10 +14,15 @@ export type Config = {
     miss?: Record<string, Array<string>>;
 };
 
-export async function readConfig(path: string) {
-    return parse(await Deno.readTextFile(path)) as Array<Config>;
+export interface Config {
+    wordlists: Array<WordlistConfig>;
+    revision: Record<string, Array<string>>;
 }
 
-export async function writeConfig(path: string, config: Array<Config>) {
-    await Deno.writeTextFile(path, stringify(config as any, { flowLevel: 3 }));
+export async function readConfig(path: string) {
+    return parse(await Deno.readTextFile(path)) as Config;
+}
+
+export async function writeConfig(path: string, config: Config) {
+    await Deno.writeTextFile(path, stringify(config as any, { flowLevel: 4 }));
 }

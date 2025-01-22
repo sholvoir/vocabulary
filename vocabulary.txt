@@ -390,7 +390,6 @@ affirmative action: L1
 affirmative: GM,L1,TL
 affix: GR,ST
 afflict: GM,GR,IS,T6,TF
-afflicting: IS
 affliction: GR
 affluence: ST
 affluent: BE,GM,GR,IS,KY,L1,ST,TF
@@ -972,7 +971,6 @@ apprentice: BE,GM,GR,L1,ST,TL
 apprenticeship: GM,L1,TF
 apprise: GR,TF
 approach: B2,BE,BN,CA,GK,GL,GR,IS,KY,L4,S2,T4,T6,TF,W1,W2
-approaching: GR
 approbation: GM,GR,ST
 appropriate: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,ST,T4,T6,TF,W1
 appropriately: B2,BL
@@ -1462,7 +1460,7 @@ backhand: TF
 backhander: BE
 backing: BE,BN,C1,L3
 backlash: L1
-backlighting: TF
+backlight: TF
 backlog: BE,L1
 backpack: TL
 backset: GR
@@ -1495,11 +1493,10 @@ bail: BE,BL,C1,KY,L2
 bailiff: L1,ST
 bailment: BE
 bait: GR,KY,L2,TF
-bake: B1,CA,L3,LD,MC,S3,T4,TF,TL
+bake: B1,CA,L1,L3,LD,MC,S3,T4,TF,TL
 Baker: BN
 baker: L1,TL
 bakery: GK,L1,TL
-baking: L1
 balance of payments: L1
 balance of power: L1
 balance sheet: L1
@@ -1571,7 +1568,6 @@ barefaced: GR
 barefoot: L1
 barely: B2,BN,CA,GL,IS,KY,L3,T4,T6
 bargain: AW,B2,BE,BL,BN,GK,GR,IS,KY,L3,T4,T6,TF,TL
-bargaining: BE,BN
 barge: IS,TF
 baritone: L1
 bark: DL,GK,GM,IS,KY,L2,T4,TF
@@ -1764,7 +1760,6 @@ bemused: GR,L1
 Ben: BN
 bench: BN,C1,CA,FE,GK,L2,S2,TL,W3
 benchmark: BE,BL,C1,GM,L1
-benchmarking: BE
 bend: B1,BE,BN,CA,GK,GL,L3,LD,MC,S3,W3
 beneath: BE,BN,C1,CA,GK,GL,IS,KY,L3,LD,T4,W2
 benediction: ST
@@ -2046,8 +2041,7 @@ boardroom: L1,TL
 boast: BL,BN,C1,GR,IS,KY,L2,T4,TF
 boastfulness: GR
 boat people: L2
-boat: A1,BN,CA,DL,DS,FS,GL,L4,LD,MC,OG,S1,VA,W2,WK,ZK
-boating: L1
+boat: A1,BN,CA,DL,DS,FS,GL,L1,L4,LD,MC,OG,S1,VA,W2,WK,ZK
 boatswain: ST
 Bob: BN
 bob: GR,L2
@@ -2303,8 +2297,7 @@ bring: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 brink: GR,L2,T6
 briny: GR
 brisk: GR,KY,L2,T6,TF
-bristle: L1,ST
-bristling: GR
+bristle: GR,L1,ST
 Bristol: BN
 Brit: L2
 Britain: BN
@@ -2315,7 +2308,6 @@ broad: B2,BE,BN,CA,GL,L4,LD,S2,W2
 broadband: BL,C1
 broadcast: B2,BE,BN,CA,GK,GL,L3,LD,MC,TF,VA
 broadcaster: B2,L2
-broadcasting: BN,L3
 broaden: BL,L1,TL
 broadly: AW,B2,BL,BN,L2
 broccoli: L1
@@ -2461,8 +2453,7 @@ burp: LH
 burpee: FE
 burrow: GM,GR,IS,L1,TF
 bursar: ST
-burst: BE,BN,C1,CA,GK,GL,GR,IS,L3,LD,MC,OG,T4,VA,W3
-bursting: L1
+burst: BE,BN,C1,CA,GK,GL,GR,IS,L1,L3,LD,MC,OG,T4,VA,W3
 bury: B1,BN,CA,GK,GL,IS,L3,LD,MC,VA,W3
 bus stop: L1
 bus: A1,BN,CA,DL,GL,GS,L3,LD,MC,S1,VA,W2,WK,ZK
