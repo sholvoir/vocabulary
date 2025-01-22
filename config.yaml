@@ -16,8 +16,6 @@ wordlists:
       - [['<.*?>', g]]
       - [['\s', g]]
       - [['[,./]', g], "\n"]
-    replace:
-      waiting: [wait]
   - name: dolch
     path: origin/DolchSightWordsList.html
     # https://sightwords.com/sight-words/dolch/
@@ -291,7 +289,6 @@ wordlists:
       - [[\r, g]]
       - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
     replace:
-      broadcasting: [broadcast]
       Fighter: ["fighter"]
       Fine: ["fine"]
       Initial: ["initial"]
@@ -344,16 +341,13 @@ wordlists:
     replace:
       aka.: ["aka"]
       Alzheimer's Disease: ["Alzheimer's disease"]
-      baking: [bake]
       balance of payment: [balance of payments]
       black smith: ["blacksmith"]
-      boating: [boat]
       bother-in-law: [brother-in-law]
       brother-hood: ["brotherhood"]
       bursting: [burst]
       Chancellor of Exchequer: ["Chancellor of the Exchequer"]
       check-list: ["checklist"]
-      coding: [code]
       comers: ["comer"]
       Countess: ["countess"]
       counting: [count]
@@ -374,7 +368,7 @@ wordlists:
       likeminded: ["like-minded"]
       Long-haul: [long-haul]
       Longevity: ["longevity"]
-      Longing: [long]
+      Longing: [longing]
       Lubricant: ["lubricant"]
       Metro: ["metro"]
       N.A: []
@@ -571,8 +565,6 @@ wordlists:
       "'cos": ["cos"]
       ac: [AC]
       away from: [away, from]
-      bargaining: [bargain]
-      broadcasting: [broadcast]
       by now: [by, now]
       Ch: []
       changing: [change]
@@ -624,7 +616,7 @@ wordlists:
       privatisation: ["privatization"]
       provided that: [provided, that]
       resulting: ["result"]
-      Reading: [read]
+      Reading: [reading]
       Richardson: []
       Robyn: ["Robin"]
       Stirling: []
@@ -632,7 +624,6 @@ wordlists:
       varying: ["vary"]
       Vice-President: [vice president]
       video-taped: ["videotape"]
-      waiting: [wait]
   - name: hsee
     path: origin/ChuZhong.json
     tag: ZK
@@ -672,8 +663,6 @@ wordlists:
     tag: TF
     wordPath:
       - headWord
-    replace:
-      backlighting: [backlight]
   - name: ielts
     path: origin/IELTS.json
     tag: IS
@@ -764,8 +753,6 @@ wordlists:
       overvalued: ["overvalue"]
       ungeared: ["ungear"]
       dictaphone: ["Dictaphone"]
-      bargaining: [bargain]
-      benchmarking: [benchmark]
 revision:
   approximate: ["approximate_1", "approximate_2"]
   articulate: ["articulate_1", "articulate_2"]

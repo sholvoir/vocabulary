@@ -1462,7 +1462,7 @@ backhand: TF
 backhander: BE
 backing: BE,BN,C1,L3
 backlash: L1
-backlight: TF
+backlighting: TF
 backlog: BE,L1
 backpack: TL
 backset: GR
@@ -1495,10 +1495,11 @@ bail: BE,BL,C1,KY,L2
 bailiff: L1,ST
 bailment: BE
 bait: GR,KY,L2,TF
-bake: B1,CA,L1,L3,LD,MC,S3,T4,TF,TL
+bake: B1,CA,L3,LD,MC,S3,T4,TF,TL
 Baker: BN
 baker: L1,TL
 bakery: GK,L1,TL
+baking: L1
 balance of payments: L1
 balance of power: L1
 balance sheet: L1
@@ -1570,6 +1571,7 @@ barefaced: GR
 barefoot: L1
 barely: B2,BN,CA,GL,IS,KY,L3,T4,T6
 bargain: AW,B2,BE,BL,BN,GK,GR,IS,KY,L3,T4,T6,TF,TL
+bargaining: BE,BN
 barge: IS,TF
 baritone: L1
 bark: DL,GK,GM,IS,KY,L2,T4,TF
@@ -1762,6 +1764,7 @@ bemused: GR,L1
 Ben: BN
 bench: BN,C1,CA,FE,GK,L2,S2,TL,W3
 benchmark: BE,BL,C1,GM,L1
+benchmarking: BE
 bend: B1,BE,BN,CA,GK,GL,L3,LD,MC,S3,W3
 beneath: BE,BN,C1,CA,GK,GL,IS,KY,L3,LD,T4,W2
 benediction: ST
@@ -2043,7 +2046,8 @@ boardroom: L1,TL
 boast: BL,BN,C1,GR,IS,KY,L2,T4,TF
 boastfulness: GR
 boat people: L2
-boat: A1,BN,CA,DL,DS,FS,GL,L1,L4,LD,MC,OG,S1,VA,W2,WK,ZK
+boat: A1,BN,CA,DL,DS,FS,GL,L4,LD,MC,OG,S1,VA,W2,WK,ZK
+boating: L1
 boatswain: ST
 Bob: BN
 bob: GR,L2
@@ -2310,6 +2314,7 @@ broad: B2,BE,BN,CA,GL,L4,LD,S2,W2
 broadband: BL,C1
 broadcast: B2,BE,BN,CA,GK,GL,L3,LD,MC,TF,VA
 broadcaster: B2,L2
+broadcasting: BN,L3
 broaden: BL,L1,TL
 broadly: AW,B2,BL,BN,L2
 broccoli: L1
@@ -3396,11 +3401,12 @@ coda: GR
 coddle: GR,ST
 code of conduct: L1
 code of practice: L1
-code: A2,BN,CA,GL,GM,GR,IS,KY,L1,L3,S2,TF,W2
+code: A2,BN,CA,GL,GM,GR,IS,KY,L3,S2,TF,W2
 coded: L1
 codetermination: BE
 codicil: ST
 codify: GM,GR,TF
+coding: L1
 coefficient: AW,BL,ST,TF
 coerce: GR,L1,ST
 coercion: GR,ST
@@ -10841,9 +10847,10 @@ long-suffering: L1
 long-term: BN,CA,IS,L4,W3
 long-time: L3
 long-winded: GR
-long: A1,BE,BN,CA,DL,DS,FS,GL,GS,L1,L2,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
+long: A1,BE,BN,CA,DL,DS,FS,GL,GS,L2,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 longer: BN
 longevity: GM,L1,ST,T6,TF
+longing: L1
 longitude: IS,KY,TF
 longitudinal: AW,GM,IS
 longtime: CA
@@ -20014,10 +20021,11 @@ wail: L1
 waist: BN,FE,GK,IS,L2,LD,MC,T4
 waistcoat: L1
 waistline: FE
-wait: A1,A2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
+wait: A1,A2,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 waiter: A1,BN,L2,LD,TL,ZK
 waiting list: L1
 waiting room: L1
+waiting: BN,OG
 waitress: L1,TL
 waive: GR,L1,ST,TL
 waiver: BE,L1
