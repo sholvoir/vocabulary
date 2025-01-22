@@ -142,9 +142,10 @@ accomplice: GR,L1,ST
 accomplish: B2,BE,CA,GK,GL,GM,GR,IS,KY,L2,ST,T4,T6,TF
 accomplished: GR,L2
 accomplishment: BE,BL,C1,CA,L1,TF,TL
-accord: BN,CA,GL,GM,KY,L5,LD,T4,T6,TF
+accord: BN,GL,GM,KY,L5,T4,T6,TF
 accordance: BL,C1,KY,L1,LD,T4,T6
 according to: BN,L5,LD,MC,S2,W1
+according: CA,LD,T4
 accordingly: BL,BN,C1,GM,KY,L2,T4,TL
 accordion: L1,TF
 accost: GR,ST
@@ -390,6 +391,7 @@ affirmative action: L1
 affirmative: GM,L1,TL
 affix: GR,ST
 afflict: GM,GR,IS,T6,TF
+afflicting: IS
 affliction: GR
 affluence: ST
 affluent: BE,GM,GR,IS,KY,L1,ST,TF
@@ -2949,7 +2951,6 @@ chancy: GR
 chandelier: GR,L1
 change: A1,BE,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 changeable: GK
-changing: BN,CA
 channel: B1,BE,BN,CA,GK,GL,IS,KY,L4,S3,T4,TF,W2
 chant: DL,FE,GK,GR,L2,T6,TF
 chantey: GR
@@ -3395,12 +3396,11 @@ coda: GR
 coddle: GR,ST
 code of conduct: L1
 code of practice: L1
-code: A2,BN,CA,GL,GM,GR,IS,KY,L3,S2,TF,W2
+code: A2,BN,CA,GL,GM,GR,IS,KY,L1,L3,S2,TF,W2
 coded: L1
 codetermination: BE
 codicil: ST
 codify: GM,GR,TF
-coding: L1
 coefficient: AW,BL,ST,TF
 coerce: GR,L1,ST
 coercion: GR,ST
@@ -4044,10 +4044,9 @@ cookery: IS,L1
 cookie: CA,DL,L1,S3,TL,W3,ZK
 cooking: A1,BN,CA,L3
 cookout: TF
-cool: A1,B1,BN,CA,DL,FS,GL,GS,L4,LD,S2,VA,W3,WK,ZK
+cool: A1,B1,BN,CA,DL,FS,GL,GS,L4,LD,S2,ST,VA,W3,WK,ZK
 cooldown: FE
 cooler: L1,TL
-cooling: ST
 Cooper: BN
 cooperate: C1,CA,GM,IS,KY,T4,TL,VA
 cooperation: BE,BN,CA,GL,IS,S3,TF,W3
@@ -4149,7 +4148,7 @@ counseling: CA,TF
 counselling: BN,C1
 counsellor: C1,IS
 counselor: CA,ST,TF,TL
-count: A2,B1,BE,BN,CA,DL,FS,GK,GL,L4,LD,MC,S2,TF,VA,W3,WK,ZK
+count: A2,B1,BE,BN,CA,DL,FS,GK,GL,L1,L4,LD,MC,S2,TF,VA,W3,WK,ZK
 Count: L1
 countdown: L1
 countenance: GR,L1
@@ -4171,7 +4170,6 @@ counterproductive: GM,GR,IS
 countersign: BE
 countervail: GM
 countess: L1
-counting: BE,L1
 countless: C1,CA,GR,L2,ST
 countrified: GR
 country club: L1

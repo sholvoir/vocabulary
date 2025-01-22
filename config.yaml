@@ -224,7 +224,6 @@ wordlists:
       - [['<br>', g], "\n"]
       - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
     replace:
-      according: [accord]
       airforce: [air force]
       lodgings: [lodging]
       contents: ["content"]
@@ -354,8 +353,10 @@ wordlists:
       bursting: [burst]
       Chancellor of Exchequer: ["Chancellor of the Exchequer"]
       check-list: ["checklist"]
+      coding: [code]
       comers: ["comer"]
       Countess: ["countess"]
+      counting: [count]
       county club: [country club]
       county house: [country house]
       equessrian: [equestrian]
@@ -486,7 +487,6 @@ wordlists:
       - [['^\d+$', gm]]
       - [[/, g], "\n"]
     replace:
-      according: [accord]
       african-american: ["African American"]
       african: ["African"]
       aids: ["AIDS"]
@@ -497,6 +497,7 @@ wordlists:
       british: ["British"]
       canadian: ["Canadian"]
       ceo: ["CEO"]
+      changing: [change]
       chinese: ["Chinese"]
       christian: ["Christian"]
       christianity: ["Christianity"]
@@ -574,6 +575,7 @@ wordlists:
       broadcasting: [broadcast]
       by now: [by, now]
       Ch: []
+      changing: [change]
       co-operation: ["cooperation"]
       co-ordinate: [coordinate]
       Dec.: [Dec]
@@ -660,7 +662,6 @@ wordlists:
       - headWord
     replace:
       world-wide: ["worldwide"]
-      according: [accord]
   - name: cet6
     path: origin/CET6.json
     tag: T6
@@ -685,7 +686,6 @@ wordlists:
       freefone: ["Freefone"]
       utilisation: ["utilization"]
       world-wide: ["worldwide"]
-      afflicting: [afflict]
   - name: sat
     path: origin/SAT.json
     tag: ST
@@ -697,6 +697,7 @@ wordlists:
       blase: ["blasé"]
       Iron: ["iron"]
       Oxygen: ["oxygen"]
+      cooling: [cool]
   - name: gre
     path: origin/GRE.json
     tag: GR
@@ -759,6 +760,7 @@ wordlists:
       XD: []
       averaging: ["average"]
       counterfeits: ["counterfeit"]
+      counting: [count]
       overvalued: ["overvalue"]
       ungeared: ["ungear"]
       dictaphone: ["Dictaphone"]
@@ -794,4 +796,4 @@ revision:
   wind: ["wind_1", "wind_2"]
   survey: ["survey_1", "survey_2"]
   suspect: ["suspect_1", "suspect_2"]
-current: c77ing
+current: d
