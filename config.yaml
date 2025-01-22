@@ -184,6 +184,7 @@
     proteins: [protein]
     seeking: ["seek"]
     x-rays: ["x-ray"]
+    wages: [wage]
 - name: macmillan
   path: origin/MacmillanDictionaryDefiningVocabulary.html
   tag: MC
@@ -222,11 +223,13 @@
     - [['<br>', g], "\n"]
     - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
   replace:
+    according: [accord]
     airforce: [air force]
     lodgings: [lodging]
     contents: ["content"]
     good-bye: ["goodbye"]
     provisions: ["provision"]
+    wages: [wage]
 - name: longmanc
   path: origin/LongmanCommunication3000.txt
   test: '[^\n\w ,:''-]'
@@ -478,6 +481,7 @@
     - [['^\d+$', gm]]
     - [[/, g], "\n"]
   replace:
+    according: [accord]
     african-american: ["African American"]
     african: ["African"]
     aids: ["AIDS"]
@@ -591,6 +595,7 @@
     Island: [island]
     iv: []
     IV: []
+    King: [king]
     Kingdom: ["kingdom"]
     Kong: []
     korean: ["Korean"]
@@ -610,6 +615,7 @@
     privatisation: ["privatization"]
     provided that: [provided, that]
     resulting: ["result"]
+    Reading: [read]
     Richardson: []
     Robyn: ["Robin"]
     Stirling: []
@@ -647,6 +653,7 @@
     - headWord
   replace:
     world-wide: ["worldwide"]
+    according: [accord]
 - name: cet6
   path: origin/CET6.json
   tag: T6
