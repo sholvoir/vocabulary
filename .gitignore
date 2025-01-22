@@ -107,4 +107,4 @@ dist
 /public
 /debug
 /deploy.ts
-/rc.sh
+/invalid*

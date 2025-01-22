@@ -809,7 +809,6 @@ annually: B2,BL,BN,CA,TL
 annuity: BE,BL,L1,ST
 annul: BE,GR,TF
 annulment: BE
-annum: BL
 anode: ST
 anole: GM
 anomalous: GR,TF
@@ -1281,7 +1280,7 @@ atrocious: GR,L1,ST
 atrocity: C1,GR,L2,ST
 atrophy: GR,TF
 attach: B1,BE,BN,CA,GK,GL,GR,IS,KY,L3,MC,S2,T4,T6,TF,VA,W2
-attache: ST
+attaché: ST
 attached: L2
 attachment: B2,GL
 attack: A2,BE,BN,CA,GK,GL,IS,L5,LD,MC,OG,S2,S3,T4,T6,VA,W2,WK
@@ -1853,12 +1852,12 @@ biennial: BE,ST
 bifurcate: GR
 bifurcation: GM
 big business: L1
-big city: L1
 big deal: L1
 big fish: L1
 big money: L1
 big name: L1
 big time: L1
+big-city: L1
 big: A1,BN,CA,DL,DS,FS,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 bigamist: ST
 bigamy: ST
@@ -2061,9 +2060,9 @@ body: A1,BN,CA,DL,FS,GL,GS,L5,LD,MC,OG,S1,ST,VA,W1,WK,ZK
 bodybuilder: FE
 bodyguard: L2
 bodywork: BE
+bog down: L1
 bog: L2
 bogey: L1
-bogged down: L1
 boggle: GR,L1
 bogus: GR,L1
 bohemian: L1
@@ -2177,8 +2176,7 @@ bovine: GR
 bow_1: BN,C1,CA,FE,GK,IS,KY,L1,L2,ZK
 bow_2: BN,C1,CA,FE,GK,IS,KY,L1,L2,ZK
 bowdlerize: GR,ST
-bowel: BN,KY,L2,T6
-bowels: LD
+bowel: BN,KY,L2,LD,T6
 bower: GM,L1
 bowl: A2,BN,CA,DL,GL,L3,LD,MC,S2,W3,WK,ZK
 bowlegged: GR
@@ -2587,10 +2585,9 @@ cameral: IS
 cameraman: L1
 camomile: L1
 camouflage: GR,IS,L1,ST,TF
-camp: A2,BN,CA,GK,GL,L4,LD,MC,S3,VA,W3,ZK
+camp: A2,BN,CA,GK,GL,L1,L4,LD,MC,S3,VA,W3,ZK
 campaign: B1,BE,BN,CA,GK,GL,GM,IS,KY,L5,S2,ST,T4,TF,VA,W1
 Campbell: BN
-camped: L1
 camper: IS,L1
 campfire: IS
 camping: A2
@@ -2645,8 +2642,7 @@ canvass: BE,GR,L1,TF
 canyon: GM,GR,L1,TF
 cap: B1,BN,CA,GL,IS,L3,LD,S3,WK,ZK
 capability: BN,C1,CA,GL,L2,TF
-capable of: MC
-capable: B2,BE,BN,CA,GL,IS,KY,L3,S2,T4,T6,W2
+capable: B2,BE,BN,CA,GL,IS,KY,L3,MC,S2,T4,T6,W2
 capacious: GR,ST
 capacitor: ST
 capacity: B2,BE,BN,CA,GL,GM,IS,KY,L3,S3,T4,T6,TF,W2
@@ -2654,7 +2650,7 @@ cape: KY,L2,T6,TF
 caper: GR,L1
 capillary: AW,L1,ST,TF
 capita: BL
-capital gains: L2
+capital gain: L2
 capital punishment: L1
 capital: A1,BE,BN,CA,FS,GL,L5,LD,MC,S2,S3,VA,W1,W3,ZK
 capitalism: AW,BL,BN,C1,CA,L2,VA
@@ -2890,8 +2886,8 @@ central: B1,BN,CA,GK,GL,L5,LD,MC,S1,W1,WK
 centrality: GM
 centralization: BE,GR
 centralize: BE,BL,L1
+centre forward: L1
 centre stage: L1
-centre-forward: L1
 centre: A1,B1,BN,L5,MC,S1,W1,ZK
 centrepiece: L1
 centric: TF
@@ -3041,8 +3037,7 @@ cheeseburger: TL
 chef: A2,CA,GK,IS,KY,L2,TL
 Chelsea: BN
 Cheltenham: BN
-chemical: B1,BN,CA,GK,GL,IS,L4,LD,MC,OG,S3,T4,W3
-chemicals: VA
+chemical: B1,BN,CA,GK,GL,IS,L4,LD,MC,OG,S3,T4,VA,W3
 chemist: BN,KY,L2,S3,T4
 chemistry: A2,AW,BN,CA,L2,LD,MC,S2,TL,VA,ZK
 chemotherapy: AW,L1
@@ -6363,7 +6358,6 @@ estimated: BN,CA
 estimation: AW,BL
 estrange: GR,IS,ST
 estranged: GR,L1
-estrogen: L1
 estuary: IS,L1
 et al: BN,GM
 et al.: L2
@@ -7933,6 +7927,7 @@ God: BN,FS
 goddamn: CA
 goddess: FE,L2
 godfather: L1
+goes: DS
 goggle: GR,L1
 goggles: IS
 going to: BN
@@ -8049,10 +8044,10 @@ graphology: IS
 grapple: L1
 grasp: AW,BL,BN,C1,CA,FE,GK,IS,KY,L2,T4,TF
 grasping: GR
+grass roots: L1
 grass: A2,BN,CA,DS,FS,GL,L3,LD,MC,OG,S2,VA,W2,WK
 grasshopper: ST,TF
 grassland: L1
-grassroots: L1
 grassy: IS,L1
 grate: GR,L2
 grateful: B1,BE,BN,CA,GK,GL,GR,IS,KY,L2,LD,MC,S3,T4,W3
@@ -10075,12 +10070,13 @@ jet lag: L1
 jet: B2,BE,BL,BN,CA,GK,KY,L3,T4,TL
 jettison: GR,L1
 jetty: L1
-Jew: BN,L3,MC,ZK
+Jew: BN,L3,ZK
 jewel: KY,L2,LD,MC,OG,T4,VA
 jeweller: L1
 jewellery: A2,BN,KY,L2,MC
 jewelry: CA,GK,KY,LD,TF,TL
 Jewish: BN,CA,MC
+Jews: MC
 jibe: GR,L1
 jig: L1
 jigsaw: L1
@@ -10820,6 +10816,7 @@ locution: GR
 lodge: BE,BN,GM,KY,L2,ST,T4,TF
 lodger: L1
 lodging: L1,LD
+lodgings: LD
 loft: L1
 lofty: KY,L1,T6,TF
 log: BN,C1,CA,GL,GR,IS,KY,L2,LD,S3,T4,TF
@@ -12523,6 +12520,7 @@ odorless: GR
 odorous: ST,TF
 odour: IS,KY,L1
 odyssey: BE,L1
+oestrogen: L1
 of course: BN,L5,S1,W1
 of: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 off duty: L1
@@ -13373,7 +13371,7 @@ pep: L1
 pepper: A1,BN,CA,FE,GK,IS,KY,L3,LD,MC,S3,T4,TF,TL,WK
 peppermint: L1
 pepsin: ST
-per annum: L1
+per annum: BL,L1
 per capita: GM,L1
 per cent: BN
 per: A2,BE,BN,CA,FS,GL,GS,KY,LD,S3,T4,W1,WK
@@ -13697,8 +13695,9 @@ plagiarize: GR
 plague: BL,GM,GR,KY,L2,ST,T6,TF
 plaice: L1
 plaid: L1
-plain: B2,BN,CA,FS,GK,GL,GR,L3,LD,MC,S2,W3,ZK
+plain: B2,BN,CA,GK,GL,GR,L3,LD,MC,S2,W3,ZK
 plainly: BL,L1
+plains: FS
 plainspoken: GR
 plaintiff: BE,BL,BN,GM,KY,L1,ST
 plaintive: GR,L1,ST
@@ -14465,7 +14464,8 @@ protection: B2,BN,CA,GL,L4,LD,MC,S2,T4,W2
 protective: BN,C1,CA,GR,L2,LD,T4,TL
 protector: L1
 protégé: GM,L1
-protein: B2,BN,CA,GL,GM,KY,L3,MC,ST,T4,T6,TF,VA
+protein: B2,BN,CA,GL,GM,KY,L3,MC,ST,T4,T6,TF
+proteins: VA
 protest: B1,BN,CA,GL,GR,KY,L4,MC,OG,T4,T6,TF,VA,W3
 protestant: BN,GM,L2
 Protestant: MC
@@ -20010,8 +20010,9 @@ wafer: L1
 waffle: L1
 waft: L1
 wag: GK,L1
-wage: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,LD,S2,VA,W2
+wage: B2,BE,BN,CA,GK,GL,GM,GR,IS,KY,L3,S2,W2
 wager: L1
+wages: LD,VA
 waggish: GR
 waggle: TF
 waggon: KY

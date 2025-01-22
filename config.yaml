@@ -34,8 +34,6 @@ wordlists:
       - [["’", g], "'"]
       - [[', *', g], "\n"]
       - [[' +']]
-    replace:
-      goes: [go]
   - name: fry
     path: origin/FrySightWordsList.html
     # https://sightwords.com/sight-words/fry/
@@ -92,7 +90,6 @@ wordlists:
       molecules: ["molecule"]
       months: ["month"]
       mountains: ["mountain"]
-      plains: ["plain"]
       planets: ["planet"]
       pounds: ["pound"]
       products: ["product"]
@@ -180,10 +177,9 @@ wordlists:
       crops: ["crop"]
       genes: ["gene"]
       pass a bill: [pass, a, bill]
-      proteins: [protein]
       seeking: ["seek"]
       x-rays: ["x-ray"]
-      wages: [wage]
+      chemicals: [chemical]
   - name: macmillan
     path: origin/MacmillanDictionaryDefiningVocabulary.html
     tag: MC
@@ -198,7 +194,6 @@ wordlists:
     replace:
       Communism: ["communism"]
       Communist: ["communist"]
-      Jews: ["Jew"]
       approve of: [approve, of]
       based on: [base, 'on']
       law-making: [lawmaking]
@@ -206,6 +201,7 @@ wordlists:
       damaged: ["damage"]
       grandparents: ["grandparent"]
       trained: ["train"]
+      capable of: [capable, of]
   - name: longmand
     path: origin/TheLongmanDefiningVocabulary.html
     # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
@@ -223,11 +219,10 @@ wordlists:
       - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
     replace:
       airforce: [air force]
-      lodgings: [lodging]
       contents: ["content"]
       good-bye: ["goodbye"]
       provisions: ["provision"]
-      wages: [wage]
+      bowels: [bowel]
   - name: longmanc
     path: origin/LongmanCommunication3000.txt
     test: '[^\n\w ,:''-]'
@@ -307,6 +302,7 @@ wordlists:
     replace:
       break-through: ["breakthrough"]
       chief of Staff: ["chief of staff"]
+      capital gains: [capital gain]
       cm.: ["cm"]
       come-down: ["comedown"]
       Dec.: [Dec]
@@ -342,11 +338,15 @@ wordlists:
       aka.: ["aka"]
       Alzheimer's Disease: ["Alzheimer's disease"]
       balance of payment: [balance of payments]
+      big city: [big-city]
+      camped: [camp]
+      bogged down: [bog down]
       black smith: ["blacksmith"]
       bother-in-law: [brother-in-law]
       brother-hood: ["brotherhood"]
       bursting: [burst]
       Chancellor of Exchequer: ["Chancellor of the Exchequer"]
+      centre-forward: [centre forward]
       check-list: ["checklist"]
       comers: ["comer"]
       Countess: ["countess"]
@@ -355,7 +355,6 @@ wordlists:
       county house: [country house]
       equessrian: [equestrian]
       fl.oz.: ["fl oz"]
-      grass roots: ["grassroots"]
       gross domestic: [gross domestic product]
       ground work: ["groundwork"]
       head way: ["headway"]
@@ -376,7 +375,6 @@ wordlists:
       new found: ["newfound"]
       new Testament: ["New Testament"]
       new-face: ["new face"]
-      oestrogen: [estrogen]
       pluming: ["plume"]
       school boy: ["schoolboy"]
       sitting-room: ["sitting room"]
@@ -436,6 +434,7 @@ wordlists:
       neo: ["neo-"]
       pre: ["pre-"]
       stockmarket: ["stock market"]
+      annum: [per annum]
   - name: fel
     path: origin/FEL1.2LemmatizedForTeaching.txt
     # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
@@ -687,6 +686,7 @@ wordlists:
       Iron: ["iron"]
       Oxygen: ["oxygen"]
       cooling: [cool]
+      attache: [attaché]
   - name: gre
     path: origin/GRE.json
     tag: GR

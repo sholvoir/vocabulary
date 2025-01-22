@@ -6,6 +6,21 @@
     "configurations": [
         {
             "request": "launch",
+            "name": "spell",
+            "type": "node",
+            "program": "${workspaceFolder}/src/spell-check.ts",
+            "args": ["adrenalin"],
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "/usr/bin/deno",
+            "runtimeArgs": [
+                "run",
+                "--inspect-wait",
+                "--allow-all"
+            ],
+            "attachSimplePort": 9229
+        },
+        {
+            "request": "launch",
             "name": "comp",
             "type": "node",
             "program": "${workspaceFolder}/compare.ts",
