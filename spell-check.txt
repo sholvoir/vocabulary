@@ -40,6 +40,7 @@ agreement
 air
 all
 almost
+also
 always
 am
 among
@@ -50,6 +51,7 @@ and
 angle
 angry
 animal
+another
 answer
 ant
 any
@@ -280,6 +282,7 @@ drop
 dry
 duck
 dust
+each
 ear
 early
 earth
@@ -555,7 +558,9 @@ money
 monkey
 month
 moon
+more
 morning
+most
 mother
 motion
 mountain
@@ -636,6 +641,7 @@ payment
 peace
 pen
 pencil
+people
 person
 physical
 pick
@@ -943,6 +949,7 @@ up
 upon
 us
 use
+used
 value
 verse
 very
@@ -999,6 +1006,7 @@ woman
 wood
 wool
 word
+words
 work
 worm
 would

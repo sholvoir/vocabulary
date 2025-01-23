@@ -1,0 +1,20 @@
+# https://sightwords.com/sight-words/top-150/
+input: origin/Top150WrittenSightWords.html
+output: dest/Top150WrittenSightWords.txt
+test: '[^\na-zI]'
+process:
+  - [['[\r\n]', g]]
+  - [['.*<h1 style="margin-top: 30px;" id="lists">Top 150 Written Word Lists</h1>']]
+  - [['<section id="comments">.*$']]
+  - [['\(\d+ words\)', g]]
+  - [['<a.+?>.+?</a>', g]]
+  - [['<li(?: style=.*?)?></li>', g]]
+  - [['</p>', g], ","]
+  - [['<.*?>', g]]
+  - [[\s+, g], " "]
+  - [[', *', g], "\n"]
+  - [[' +']]
+replace:
+  called: ["call"]
+  things: ["thing"]
+  years: ["year"]

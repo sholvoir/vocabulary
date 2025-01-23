@@ -1,6 +1,6 @@
 # https://zbenglish.net/sites/basic/words.html
 input: origin/OgdensBasicEnglishWords.html
-output: dest/Ogdens.txt
+output: dest/OgdensBasicEnglishWords.txt
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]

@@ -1,24 +1,3 @@
-- name: written
-  input: origin/Top150WrittenSightWords.html
-  # https://sightwords.com/sight-words/top-150/
-  output: dest/WS.txt
-  test: '[^\na-zI]'
-  process:
-    - [['[\r\n]', g]]
-    - [['.*<h1 style="margin-top: 30px;" id="lists">Top 150 Written Word Lists</h1>']]
-    - [['<section id="comments">.*$']]
-    - [['\(\d+ words\)', g]]
-    - [['<a.+?>.+?</a>', g]]
-    - [['<li(?: style=.*?)?></li>', g]]
-    - [['</p>', g], ","]
-    - [['<.*?>', g]]
-    - [[\s+, g], " "]
-    - [[', *', g], "\n"]
-    - [[' +']]
-  replace:
-    called: ["call"]
-    things: ["thing"]
-    years: ["year"]
 - name: wik
   input: origin/Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
