@@ -1,0 +1,12 @@
+# https://zbenglish.net/sites/basic/words.html
+input: origin/OgdensBasicEnglishWords.html
+output: dest/Ogdens.txt
+test: '[^\na-zI]'
+process:
+  - [['[\r\n]', g]]
+  - [['.*<UL>']]
+  - [['<hr color=maroon><font size=-1>.*$']]
+  - [['<H3>.*?</H3>', g]]
+  - [['<.*?>', g]]
+  - [['\s', g]]
+  - [['[,./]', g], "\n"]

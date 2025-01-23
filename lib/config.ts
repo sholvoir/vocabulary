@@ -5,10 +5,9 @@ export interface Config {
     input: string;
     output: string;
     wordPath?: Array<string | number>;
-    tagPath?: Array<string | number>;
     test?: string;
     process?: Array<[[string, string], string]>;
-    replace?: Record<string, Array<string>>
+    replace?: Record<string, Array<string>>;
     miss?: Record<string, Array<string>>;
 };
 
@@ -17,5 +16,5 @@ export async function readConfig(path: string) {
 }
 
 export async function writeConfig(path: string, config: Config) {
-    await Deno.writeTextFile(path, stringify(config as any, { flowLevel: 4 }));
+    await Deno.writeTextFile(path, stringify(config as any, { flowLevel: 2 }));
 }

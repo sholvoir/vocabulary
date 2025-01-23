@@ -1,3 +1,0 @@
-input: Lorhur.txt
-output: ../Lorhur.txt
-test: '[^\na-zA-Z]'

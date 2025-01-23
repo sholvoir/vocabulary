@@ -1,0 +1,3 @@
+input: origin/Lorhur.txt
+output: dest/Lorhur.txt
+test: '[^\na-zA-Z]'
