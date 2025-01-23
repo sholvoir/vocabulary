@@ -97,6 +97,7 @@ wordlists:
       genes: ["gene"]
       pass a bill: [pass, a, bill]
       seeking: ["seek"]
+      troops: [troop]
       x-rays: ["x-ray"]
       chemicals: [chemical]
   - name: macmillan
@@ -210,6 +211,7 @@ wordlists:
       Fighter: ["fighter"]
       Fine: ["fine"]
       Initial: ["initial"]
+      savings: [saving]
       Statistic: ["statistic"]
       Suitable: ["suitable"]
       Tissue: ["tissue"]
@@ -224,10 +226,12 @@ wordlists:
       - [[' {2,}', g], ' ']
     replace:
       break-through: ["breakthrough"]
-      chief of Staff: ["chief of staff"]
       capital gains: [capital gain]
+      chief of Staff: ["chief of staff"]
       cm.: ["cm"]
+      Cold War: [cold war]
       come-down: ["comedown"]
+      Crown Court: [crown court]
       Dec.: [Dec]
       DJ.: ["DJ"]
       down stairs: ["downstairs"]
@@ -250,12 +254,17 @@ wordlists:
       Oct.: [Oct]
       ple: [pile]
       Rd.: ["R&D"]
+      respected: [respect]
+      sense of humour: [sense, of, humour]
       Sep.: [Sep]
       Sept.: [Sept]
+      shifting: [shift]
       sic.: ["sic"]
+      side-effect: [side effect]
+      tempted: [tempt]
+      two-thirds: [two, third]
       vocals: [vocal]
-      Cold War: [cold war]
-      Crown Court: [crown court]
+      uh huh: [uh-huh]
   - name: ngsl
     path: origin/NGSL1.2LemmatizedForTeaching.csv
     # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
@@ -415,6 +424,7 @@ wordlists:
       olympic: ["Olympic"]
       olympics: ["Olympic"]
       palestinian: ["Palestinian"]
+      proceedings: [proceeding]
       russian: ["Russian"]
       saturday: ["Saturday"]
       september: ["September"]
@@ -422,6 +432,7 @@ wordlists:
       sunday: ["Sunday"]
       syrian: ["Syrian"]
       t-shirt: ["T-shirt"]
+      talking: [talk]
       thursday: ["Thursday"]
       tuesday: ["Tuesday"]
       wednesday: ["Wednesday"]
@@ -505,14 +516,20 @@ wordlists:
       no matter how: ["no", matter, how]
       Northern: ["northern"]
       once again: [once, again]
+      over there: [over, there]
       Pat: ["pat"]
+      printed: [print]
       privatisation: ["privatization"]
       provided that: [provided, that]
       Reading: [reading]
       resulting: ["result"]
       Richardson: []
       Robyn: ["Robin"]
+      Ron: []
+      Shah: [shah]
+      specified: [specify]
       Stirling: []
+      two-thirds: [two, third]
       United: [united]
       varying: ["vary"]
       Vice-President: [vice president]
@@ -539,6 +556,7 @@ wordlists:
       by-pass: ["bypass"]
       encyclopaedia: [encyclopedia]
       resumé: [résumé]
+      Thanksgiving: [thanksgiving]
   - name: cet4
     path: origin/CET4.json
     tag: T4
@@ -546,11 +564,14 @@ wordlists:
       - headWord
     replace:
       world-wide: ["worldwide"]
+      systematical: [systematic]
   - name: cet6
     path: origin/CET6.json
     tag: T6
     wordPath:
       - headWord
+    replace:
+      Thanksgiving: [thanksgiving]
   - name: toefl
     path: origin/TOEFL.json
     tag: TF
@@ -558,21 +579,24 @@ wordlists:
       - headWord
     replace:
       lost-and-found: [lost and found]
+      smelting: [smelt]
   - name: ielts
     path: origin/IELTS.json
     tag: IS
     wordPath:
       - headWord
     replace:
-      Kung Fu: ["kung fu"]
       a calculated crime: [a, calculate, crime]
-      inductive reasoning: [inductive, reason]
       freefone: ["Freefone"]
-      utilisation: ["utilization"]
-      world-wide: ["worldwide"]
-      water-borne: [waterborne]
       front-line: [frontline]
+      inductive reasoning: [inductive, reason]
+      Kung Fu: ["kung fu"]
       MasterCard: []
+      overlapping: [overlap]
+      utilisation: ["utilization"]
+      water-borne: [waterborne]
+      world-wide: ["worldwide"]
+      solar-powered: [solar power]
   - name: sat
     path: origin/SAT.json
     tag: ST
@@ -594,36 +618,41 @@ wordlists:
       - headWord
     replace:
       antibiotics: ["antibiotic"]
+      compensatorily: [compensatory]
       et al: [et al.]
       etched: [etch]
       inverted: ["invert"]
       mass-transit: ["mass transit"]
       mosaics: ["mosaic"]
       paleolithic: ["Paleolithic"]
+      repousse: [repoussé]
       single-entry: ["single entry"]
+      spiced: [spice]
       unreimbursed: ["reimburse"]
+      upholstered: [upholster]
       vertice: ["vertex"]
       vortices: [vortex]
-      upholstered: [upholster]
-      compensatorily: [compensatory]
   - name: bec
     path: origin/BEC.json
     tag: BE
     wordPath:
       - headWord
     replace:
-      CBA: []
-      HRD: []
-      XD: []
-      ERP: []
       averaging: ["average"]
+      CBA: []
       counterfeits: ["counterfeit"]
       counting: [count]
-      overvalued: ["overvalue"]
-      ungeared: ["ungear"]
       dictaphone: ["Dictaphone"]
+      ERP: []
       facilities: [facility]
       finances: [finance]
+      HRD: []
+      overvalued: ["overvalue"]
+      papers: [paper]
+      results: [result]
+      savings: [saving]
+      ungeared: ["ungear"]
+      XD: []
 revision:
   approximate: ["approximate_1", "approximate_2"]
   articulate: ["articulate_1", "articulate_2"]

@@ -4394,8 +4394,7 @@ eager: BE,BL,BN,C1,CA,GK,L3,LD,TF,TL
 eagle: BN,CA,FE,KY,L2,T4,T6
 ear: A1,BN,CA,DL,GL,L3,LD,MC,OG,S2,W2,WK,ZK
 earl: BN
-earliest: L2
-early: A1,BN,CA,DL,GK,GL,GS,L4,L5,LD,MC,OG,S1,VA,W1,WK,ZK
+early: A1,BN,CA,DL,GK,GL,GS,L2,L4,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 earn: A2,BE,BN,CA,GK,GL,L4,LD,MC,S2,VA,W2,WK
 earnest: BE,KY,L2,ST,T4,TF
 earnings: BE,BN,C1,CA,L3
@@ -6611,7 +6610,7 @@ hummingbird: TF
 humor: CA,GL,KY,LD,OG,VA
 humorous: B2,GK,KY,LD,MC,ST,T4,TF,ZK
 humorously: MC
-humour: B2,BN,GK,IS,KY,L3,MC,T4
+humour: B2,BN,GK,IS,KY,L2,L3,MC,T4
 hundred: A1,BN,CA,DL,GS,L5,LD,WK,ZK
 hundredth: LD,ST
 Hungary: BN
@@ -9269,7 +9268,7 @@ odorous: ST,TF
 odour: IS,KY
 odyssey: BE
 of course: BN,L5,S1,W1
-of: A1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
+of: A1,BN,CA,DL,DS,GK,GL,GS,L2,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 off-season: GM
 off: A1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 offence: B2,BN,GK,L3,MC,S3,W2
@@ -9514,7 +9513,6 @@ outwards: GK,MC
 outweigh: BE,BL,IS,ST,TF
 oval: BE,GK,GM,KY,L2,T4,TF,TL
 oven: A2,BN,CA,KY,L2,MC,OG,S3,T4,TL
-over there: BN
 over: A1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 overact: TF
 overall: B2,BE,BN,CA,GL,GM,IS,KY,L4,S3,T4,TF,W2
@@ -9538,7 +9536,6 @@ overhaul: BL,KY,TF
 overhead: AW,BE,BL,FE,GK,IS,KY,L2,T4,T6,TL
 overhear: KY,T6
 overlap: AW,BL,GM,IS,KY,L2,ST,T6,TF
-overlapping: IS
 overlay: GM
 overleap: ST
 overlie: GM,IS
@@ -9666,7 +9663,6 @@ pantomime: ST
 pants: A2,FE,KY,L2,S3,T4,TF
 paper: A1,BE,BN,CA,DL,DS,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 paperback: KY,L2,T6,TL
-papers: BE
 paperwork: GK,TL
 par: AW,BL,GM,L2
 para: BN
@@ -10511,7 +10507,6 @@ princess: B1,BN,CA,KY,L4,MC,W3
 principal: B2,BE,BN,C1,CA,GL,GM,IS,KY,L3,ST,T4,T6,TF,W2
 principle: B2,BN,CA,GK,GL,GM,IS,KY,L4,LD,MC,S2,ST,T4,T6,TF,W1
 print: A2,B2,BE,BN,CA,GK,GL,L4,LD,MC,OG,S2,W3,ZK
-printed: BN
 printer: A2,BE,BN,GL,L2,MC,S3,W3
 printing: B1,BN
 prior to: BN
@@ -10546,8 +10541,7 @@ problem: A1,BE,BN,CA,DL,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 problematic: AW,C1
 procedure: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,S2,ST,T4,T6,TF,W2
 proceed: B2,BN,CA,GL,GM,IS,KY,L3,S3,ST,T4,TF,W3
-proceeding: BN,C1,KY,L2,T6,W2
-proceedings: CA
+proceeding: BN,C1,CA,KY,L2,T6,W2
 proceeds: BE,C1,GM
 process: A2,B2,BE,BN,CA,GK,GL,GM,GS,IS,KY,L5,LD,MC,OG,S1,T4,T6,TF,VA,W1
 processing: BN,C1,CA,T6
@@ -11394,7 +11388,7 @@ reporter: A2,BN,CA,GL,KY,L4,S3,T4
 reporting: B2,BN,CA,L4
 reposition: BE
 repository: ST
-repousse: GM
+repoussé: GM
 reprehend: ST
 reprehensible: ST
 represent: B1,BE,BN,CA,GK,GL,IS,KY,L4,LD,MC,S2,T4,T6,TF,VA,W1,ZK
@@ -11472,9 +11466,8 @@ resonate: ST
 resort: B2,BN,CA,GL,GM,IS,KY,L3,T4,T6,TF,W3
 resource: B1,BE,BN,CA,GL,IS,KY,L4,S2,ST,T4,TF,VA,W1
 resourceful: ST
-respect: B1,BE,BN,CA,GK,GL,IS,L4,LD,MC,OG,S1,T4,TF,W1
+respect: B1,BE,BN,CA,GK,GL,IS,L2,L4,LD,MC,OG,S1,T4,TF,W1
 respectable: BN,L2
-respected: L2
 respectful: LD
 respective: BL,BN,C1,GM,KY,T4,T6,TF
 respectively: BN,C1,CA,GL,L2,T4,W3
@@ -11509,7 +11502,6 @@ restroom: TL,ZK
 restructure: BL,GM,L2
 result: A1,B1,BE,BN,CA,GK,GL,GS,L5,LD,MC,S1,T4,VA,W1,W2,WK,ZK
 resultant: KY,T6
-results: BE
 resume: BL,BN,C1,CA,GM,IS,KY,L3,T4,T6,TF,TL
 résumé: KY,TL
 resumption: ST
@@ -11686,7 +11678,6 @@ romance: B2,BN,CA,IS,KY,L2,T6
 Romania: BN
 romantic: B1,BN,CA,GL,KY,L3,MC,T4,TF
 Rome: BN
-Ron: BN
 roof: A2,BN,CA,GL,L3,LD,MC,OG,S2,W2
 rookie: CA,ST
 room: A1,BE,BN,CA,DL,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
@@ -11874,8 +11865,7 @@ savage: KY,L2,ST,T6,TF
 Savasana: FE
 save: A2,BE,BN,CA,DL,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 saver: BE,BL
-saving: B2,BN,CA,KY,S3,T4,W3
-savings: BE,L3
+saving: B2,BE,BN,CA,KY,L3,S3,T4,W3
 savor: ST
 savour: IS
 saw: DS,KY
@@ -12075,8 +12065,7 @@ senior: B2,BN,CA,GK,GL,IS,KY,L4,MC,T4,TF,W2
 seniority: BE
 sensation: AW,BN,C1,CA,FE,GM,IS,KY,L2,LD,ST,T6
 sensational: GM,IS,ST,T6,TF
-sense of humour: L2
-sense: A2,B2,BN,CA,GK,GL,GS,L5,LD,OG,S1,TF,VA,W1,ZK
+sense: A2,B2,BN,CA,GK,GL,GS,L2,L5,LD,OG,S1,TF,VA,W1,ZK
 senseless: LD
 sensibility: ST
 sensible: AW,B1,BE,BL,BN,GM,IS,KY,L3,LD,MC,S3,T4,T6,TF,W3
@@ -12162,7 +12151,7 @@ shabby: GK,KY,T6
 shade: B2,BN,CA,GK,GL,IS,L3,LD,OG,TF,WK
 shadow: B2,BN,CA,GK,GL,L3,LD,MC,S3,W2,WK
 shaft: BN,IS,KY,L2,T6
-Shah: BN
+shah: BN
 shake: A2,B1,BN,CA,DL,GK,GL,L4,LD,MC,OG,S3,VA,W2,WK,ZK
 Shakespeare: BN
 shaky: BE
@@ -12204,8 +12193,7 @@ shepherd: KY,L2,T6
 sheriff: CA
 sherry: L2
 shield: BL,BN,CA,GM,KY,L2,LD,ST,T4,T6,TF
-shift: B1,B2,BE,BN,CA,GL,IS,KY,L3,S3,T4,TF,W3
-shifting: L2
+shift: B1,B2,BE,BN,CA,GL,IS,KY,L2,L3,S3,T4,TF,W3
 shiftless: ST
 shilling: BN,IS,KY
 shimmer: GM
@@ -12274,7 +12262,7 @@ sibling: B2,CA,GM
 sic: L2
 sick: A1,BN,CA,DL,GK,GL,L3,LD,MC,S1,VA,W3,WK,ZK
 sickness: BN,L2,VA
-side-effect: L2
+side effect: L2
 side: A2,BN,CA,DL,GL,GS,L5,LD,MC,OG,S1,ST,VA,W1,WK,ZK
 sidebar: CA,TF
 sideline: BE
@@ -12449,8 +12437,7 @@ smartphone: A2,TL
 smash: BE,BN,C1,KY,L3,OG,T4,T6,VA
 smear: GM,IS,L2,TF
 smell: A2,BN,CA,DL,GK,GL,IS,L3,LD,MC,OG,S2,VA,W3,WK,ZK
-smelt: GM,ST
-smelting: TF
+smelt: GM,ST,TF
 smile: A2,BN,CA,DL,GK,GL,L4,LD,MC,OG,S2,S3,W1,W2,WK,ZK
 smirk: TF
 Smith: BN
@@ -12518,7 +12505,7 @@ softly: BN,CA
 software: B1,BE,BN,CA,GK,GL,KY,L3,MC,S3,T4,W2
 soil: B1,BN,CA,GL,L3,LD,MC,VA,W2
 solace: ST
-solar-powered: IS
+solar power: IS
 solar: B2,BN,CA,GK,GL,GM,IS,KY,L2,ST,T4,TF
 solder: ST,TF
 soldier: A2,BN,CA,DL,GL,L4,LD,MC,S3,VA,W2,ZK
@@ -12643,7 +12630,6 @@ species: B2,BN,CA,GL,GM,IS,KY,L3,ST,T4,T6,TF,W2
 specific: A2,BE,BN,CA,GK,GL,GM,GS,IS,KY,L4,MC,S1,ST,T4,T6,TF,W1,ZK
 specifically: B1,BN,CA,GL,L3,S2,T4,W3,ZK
 specification: AW,BE,BL,BN,C1,IS,KY,T6,TL
-specified: BN
 specify: B2,BE,BN,CA,GL,GM,IS,KY,L2,T4,TF,W3
 specimen: AW,BE,BN,C1,GM,IS,KY,L2,ST,T4,TF
 specious: GM,ST
@@ -12671,8 +12657,7 @@ spew: TF
 sphere: AW,BN,C1,CA,GM,IS,KY,L2,ST,T4,TF
 spherical: GM,TF
 spheroid: ST,TF
-spice: B2,IS,L2,T6,TF
-spiced: GM
+spice: B2,GM,IS,L2,T6,TF
 spicy: B1,KY
 spider: A2,BN,KY,L2,ST,T4,ZK
 spike: L2,TF
@@ -13303,7 +13288,6 @@ Syrian: CA
 syrup: TF
 system: A2,BE,BN,CA,GK,GL,GS,KY,L5,LD,MC,OG,S1,T4,VA,W1
 systematic: AW,BL,BN,C1,GK,IS,KY,L2,ST,T4,TF
-systematical: T4
 systematize: TF
 T-shirt: BN,CA,L2
 tab: CA,IS
@@ -13342,7 +13326,6 @@ tale: B2,BN,CA,GL,L3,W3,ZK
 talent: B1,BE,BN,CA,GK,GL,KY,L4,T4,TF,W3,ZK
 talented: B1,CA,ZK
 talk: A1,A2,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
-talking: CA
 tall: A1,BN,CA,DL,GL,L3,LD,MC,OG,S2,VA,W2,WK,ZK
 tally: TF
 tame: KY,T4,T6,TF
@@ -13444,9 +13427,8 @@ tempo: KY,T6,TF
 temporal: AW,ST
 temporarily: B2,BE,BL,BN,MC,TL
 temporary: B2,BE,BN,CA,GK,GL,GM,IS,KY,L3,MC,S3,ST,T4,TF,VA,W3
-tempt: AW,BL,BN,C1,GM,IS,KY,ST,T6,TF,TL
+tempt: AW,BL,BN,C1,GM,IS,KY,L2,ST,T6,TF,TL
 temptation: BE,BN,L2,T4
-tempted: L2
 ten: A1,BN,CA,DL,DS,GS,L5,MC,WK,ZK
 tenable: IS,ST
 tenacious: ST
@@ -13509,8 +13491,7 @@ thank you: MC
 thank: A1,BN,CA,DL,DS,GL,GS,L5,LD,MC,S1,VA,W2,ZK
 thankfully: C1
 thanks: A1,BN,CA,S1,W3
-thanksgiving: CA
-Thanksgiving: KY,T6
+thanksgiving: CA,KY,T6
 that is: BN
 that: A1,B1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,W2,WK,WS,ZK
 that's: L5
@@ -13562,7 +13543,7 @@ thing: A1,BN,CA,DL,DS,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 think: A1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,S1,VA,W1,WK,WS,ZK
 thinking: A2,BN,CA,GK,L4,T4
 Third World: L3
-third: A1,A2,BN,CA,L4,LD,MC,VA,WK,ZK
+third: A1,A2,BN,CA,L2,L4,LD,MC,VA,WK,ZK
 thirst: GK,GL,KY,LD
 thirsty: A1,IS,LD,MC,T4,TL,ZK
 thirteen: A1,BN,L5,ZK
@@ -13891,8 +13872,7 @@ trivialize: IS,TF
 trolley: KY
 trolleybus: GK
 trolly: KY
-troop: B2,BN,CA,GL,KY,L4,T4,W2
-troops: VA
+troop: B2,BN,CA,GL,KY,L4,T4,VA,W2
 trophy: BN,C1,L2
 tropic: KY,TF
 tropical: AW,B2,BN,CA,GM,IS,KY,L2,LD,MC,ST,T4,TL
@@ -13983,8 +13963,7 @@ twinkling: TF
 twist: BN,C1,CA,GK,GL,IS,KY,L3,LD,MC,OG,S3,T4,T6,TF
 twitch: FE
 twitter: CA
-two-thirds: BN,L2
-two: A1,BN,CA,DL,DS,GS,L5,MC,WS,ZK
+two: A1,BN,CA,DL,DS,GS,L2,L5,MC,WS,ZK
 twofold: IS
 tycoon: BE,TF
 type: A1,B1,BN,CA,DL,GK,GL,GS,L4,LD,MC,S1,W1,WK,ZK
@@ -14002,8 +13981,7 @@ tyre: B1,BN,L2,LD,MC,S3,T4
 tyro: ST
 ubiquitous: ST
 ugly: B1,BN,CA,GK,GL,L2,LD,MC,S3,T4,ZK
-uh huh: L2
-uh-huh: CA
+uh-huh: CA,L2
 uh: CA
 UK: BN
 ulcer: BN
