@@ -210,6 +210,7 @@ wordlists:
       Suitable: ["suitable"]
       Tissue: ["tissue"]
       Upset: ["upset"]
+      co-operate: [cooperate]
   - name: collins
     path: origin/Collins2.csv
     tag: L2
@@ -245,6 +246,8 @@ wordlists:
       Sept.: [Sept]
       sic.: ["sic"]
       vocals: [vocal]
+      Cold War: [cold war]
+      Crown Court: [crown court]
   - name: ngsl
     path: origin/NGSL1.2LemmatizedForTeaching.csv
     # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
@@ -429,6 +432,7 @@ wordlists:
       changing: [change]
       co-operation: ["cooperation"]
       co-ordinate: [coordinate]
+      Corp: [corp]
       Dec.: [Dec]
       depending on: [depend on]
       Dr.: [Dr]
@@ -483,6 +487,7 @@ wordlists:
       varying: ["vary"]
       Vice-President: [vice president]
       video-taped: ["videotape"]
+      Des: []
   - name: hsee
     path: origin/ChuZhong.json
     tag: ZK
@@ -548,43 +553,7 @@ wordlists:
       Oxygen: ["oxygen"]
       cooling: [cool]
       attache: [attaché]
-  - name: gre
-    path: origin/GRE.json
-    tag: GR
-    wordPath:
-      - headWord
-    replace:
-      approaching: [approach]
-      bristling: [bristle]
-      chaffing: ["chaff"]
-      cliche: ["cliché"]
-      correlated: ["correlate"]
-      cosycozy: []
-      damped: ["damp"]
-      egoistical: ["egoistic"]
-      idiosyncracy: [idiosyncrasy]
-      ill-paying: [ill, pay]
-      self-adulation: [self, adulation]
-      self-procession: [self, procession]
-      sun-bronzed: [sun, bronzed]
-      dumbbell-like: ["dumbbell", like]
-      paleolithic: ["Paleolithic"]
-      formalized: ["formalize"]
-      hardbitten: ["hard-bitten"]
-      ill-repute: ["ill repute"]
-      ill-will: ["ill will"]
-      interlocking: ["interlock"]
-      intruding: ["intrude"]
-      jesting: ["jest"]
-      merited: ["merit"]
-      poohed: ["pooh"]
-      restored: ["restore"]
-      semimolten: ["molten"]
-      shortrange: ["short-range"]
-      sloping: ["slope"]
-      tapering: ["taper"]
-      tined: ["tine"]
-      underestimated: ["underestimate"]
+      comestibles: [comestible]
   - name: gmat
     path: origin/GMAT.json
     tag: GM
@@ -601,6 +570,7 @@ wordlists:
       vertice: ["vertex"]
       vortices: [vortex]
       upholstered: [upholster]
+      compensatorily: [compensatory]
   - name: bec
     path: origin/BEC.json
     tag: BE
@@ -646,4 +616,3 @@ revision:
   wind: ["wind_1", "wind_2"]
   survey: ["survey_1", "survey_2"]
   suspect: ["suspect_1", "suspect_2"]
-current: d

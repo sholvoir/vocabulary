@@ -15,7 +15,7 @@ const run = async () => {
         }
     const result = Array.from(invalid.intersection(vocabulary));
     for (const word of result) console.log(word);
-    await Deno.writeTextFile('invalid4.txt', result.join('\n'));
+    await Deno.writeTextFile('invalid5.txt', result.join('\n'));
 }
 
 if (import.meta.main) run();
