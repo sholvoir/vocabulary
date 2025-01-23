@@ -1,11 +1,9 @@
 // deno-lint-ignore-file no-explicit-any
 import { parse, stringify } from '@std/yaml';
-import type { Tag } from "./tag.ts";
 
-export interface WordlistConfig {
-    name: string;
-    path: string;
-    tag?: Tag;
+export interface Config {
+    input: string;
+    output: string;
     wordPath?: Array<string | number>;
     tagPath?: Array<string | number>;
     test?: string;
@@ -13,11 +11,6 @@ export interface WordlistConfig {
     replace?: Record<string, Array<string>>
     miss?: Record<string, Array<string>>;
 };
-
-export interface Config {
-    wordlists: Array<WordlistConfig>;
-    revision: Record<string, Array<string>>;
-}
 
 export async function readConfig(path: string) {
     return parse(await Deno.readTextFile(path)) as Config;

@@ -9,7 +9,7 @@
             "name": "spell",
             "type": "node",
             "program": "${workspaceFolder}/src/spell-check.ts",
-            "args": ["adrenalin"],
+            "args": ["mother"],
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/usr/bin/deno",
             "runtimeArgs": [
