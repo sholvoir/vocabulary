@@ -1,0 +1,24 @@
+input: origin/MacmillanDictionaryDefiningVocabulary.html
+output: dest/MacmillanDictionaryDefiningVocabulary.txt
+test: '[^\nA-Za-zé ''-]'
+process:
+  - [[\r, g]]
+  - [[\s+<ul class="sw-selector-list">, g]]
+  - [['\s+<h2 class="select-title">[A-Z]</h2>', g]]
+  - [[(<div.*?>|</ul>|</div>)\s*, g]]
+  - [[' *<li>(.+?)</li>$', gm], $1]
+  - [[' +$', gm]]
+replace:
+  Communism: [communism]
+  Communist: [communist]
+  approve of: [approve, of]
+  based on: [base, 'on']
+  capable of: [capable, of]
+  damaged: [damage]
+  give birth: [give, birth]
+  grandparents: [grandparent]
+  in order to: [in, order, to]
+  law-making: [lawmaking]
+  relating to: [relate to]
+  take part in: [take, part, in]
+  trained: [train]

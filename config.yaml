@@ -1,25 +1,4 @@
-- name: macmillan
-  input: origin/MacmillanDictionaryDefiningVocabulary.html
-  output: dest/MC.txt
-  test: '[^\nA-Za-zé ''-]'
-  process:
-    - [[\r, g]]
-    - [['\s+<ul class="sw-selector-list">', g]]
-    - [['\s+<h2 class="select-title">[A-Z]</h2>', g]]
-    - [['(<div.*?>|</ul>|</div>)\s*', g]]
-    - [[' *<li>(.+?)</li>$', gm], $1]
-    - [[' +$', gm]]
-  replace:
-    Communism: ["communism"]
-    Communist: ["communist"]
-    approve of: [approve, of]
-    based on: [base, 'on']
-    law-making: [lawmaking]
-    relating to: [relate to]
-    damaged: ["damage"]
-    grandparents: ["grandparent"]
-    trained: ["train"]
-    capable of: [capable, of]
+
 - name: longmand
   input: origin/TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html

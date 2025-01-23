@@ -8,8 +8,8 @@
             "request": "launch",
             "name": "spell",
             "type": "node",
-            "program": "${workspaceFolder}/src/spell-check.ts",
-            "args": ["mother"],
+            "program": "${workspaceFolder}/lib/spell-check.ts",
+            "args": ["depend on", "1"],
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/usr/bin/deno",
             "runtimeArgs": [
