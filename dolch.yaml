@@ -1,5 +1,6 @@
 # https://sightwords.com/sight-words/dolch/
 input: origin/DolchSightWordsList.html
+output: dest/DolchSightWords.txt
 test: '[^\na-zA-Z '']'
 process:
   - [['[\r\n]', g]]

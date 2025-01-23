@@ -1,8 +1,7 @@
-- name: dolch
-
 - name: written
   input: origin/Top150WrittenSightWords.html
   # https://sightwords.com/sight-words/top-150/
+  output: dest/WS.txt
   test: '[^\na-zI]'
   process:
     - [['[\r\n]', g]]
@@ -23,6 +22,7 @@
 - name: wik
   input: origin/Wiktionary1000BasicEnglishWords.html
   # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
+  output: dest/WK.txt
   test: '[^\nA-Za-z]'
   process:
     - [['[\r\n]', g]]
@@ -34,6 +34,7 @@
 - name: voa
   input: origin/VOASpecialEnglishWordBook.html
   # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
+  output: dest/VA.txt
   test: '[^\nA-Za-z -]'
   process:
     - [['[\r\n]', g]]
@@ -65,6 +66,7 @@
     chemicals: [chemical]
 - name: macmillan
   input: origin/MacmillanDictionaryDefiningVocabulary.html
+  output: dest/MC.txt
   test: '[^\nA-Za-zé ''-]'
   process:
     - [[\r, g]]
@@ -87,6 +89,7 @@
 - name: longmand
   input: origin/TheLongmanDefiningVocabulary.html
   # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
+  output: dest/LD.txt
   test: '[^\nA-Za-z ''-]'
   process:
     - [['[\r\n\t]', g]]
@@ -128,6 +131,7 @@
     - [['\bc(?=[12])', g], C]
 - name: collins
   input: origin/Collins5.csv
+  output: dest/L5.txt
   test: '[^\nA-Za-z '']'
   process:
     - [[\r, g]]
@@ -144,6 +148,7 @@
     Story: ["story"]
 - name: collins
   input: origin/Collins4.csv
+  output: dest/L4.txt
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
@@ -159,6 +164,7 @@
     earlier: [early]
 - name: collins
   input: origin/Collins3.csv
+  output: dest/L3.txt
   test: '[^\nA-Za-z ''-]'
   process:
     - [[\r, g]]
@@ -176,6 +182,7 @@
     Upset: ["upset"]
 - name: collins
   input: origin/Collins2.csv
+  output: dest/L2.txt
   test: '[^\nA-Za-z .''-]'
   process:
     - [[\r, g]]
@@ -225,6 +232,7 @@
 - name: ngsl
   input: origin/NGSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
+  output: dest/GL.txt
   test: '[^\na-zA-Z]'
   process:
     - [[\r, g]]
@@ -237,6 +245,7 @@
 - name: nawl
   input: origin/NAWL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
+  output: dest/AW.txt
   test: '[^\na-z]'
   process:
     - [[\r, g]]
@@ -249,6 +258,7 @@
 - name: tsl
   input: origin/TSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
+  output: dest/TL.txt
   test: '[^\na-zé ''-]'
   process:
     - [[\r, g]]
@@ -260,6 +270,7 @@
 - name: bsl
   input: origin/BSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
+  output: dest/BL.txt
   test: '[^\na-z-]'
   process:
     - [[\r, g]]
@@ -273,6 +284,7 @@
 - name: fel
   input: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
+  output: dest/FE.txt
   test: '[^\na-z]'
   process:
     - [[\r, g]]
@@ -289,6 +301,7 @@
 - name: ndl
   input: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
+  output: dest/DL.txt
   test: '[^\nA-Za-z'']'
   process:
     - [[\r, g]]
@@ -296,6 +309,7 @@
 - name: ngsls
   input: origin/NGSLSpoken1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
+  output: dest/GS.txt
   test: '[^\na-z]'
   process:
     - [[\r, g]]
@@ -304,6 +318,7 @@
     i: ["I"]
 - name: coca
   input: origin/CocaTop5000WordFrequency.csv
+  output: dest/CA.txt
   test: '[^\na-z''-]'
   process:
     - [[\r, g]]
@@ -388,6 +403,7 @@
 - name: bnc
   input: origin/BncAllAlpha.txt
   # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
+  output: dest/BN.txt
   test: '[^\nA-Za-z ''.-]'
   process:
     - [['[\r\(\)\*]', g]]
@@ -484,10 +500,12 @@
     video-taped: ["videotape"]
 - name: hsee
   input: origin/ChuZhong.json
+  output: dest/ZK.txt
   wordPath:
     - headWord
 - name: ncee
   input: origin/GaoZhong.json
+  output: dest/GK.txt
   wordPath:
     - headWord
   replace:
@@ -495,6 +513,7 @@
     beddings: [bedding]
 - name: npee
   input: origin/KaoYan.json
+  output: dest/KY.txt
   wordPath:
     - headWord
   replace:
@@ -504,6 +523,7 @@
     Thanksgiving: [thanksgiving]
 - name: cet4
   input: origin/CET4.json
+  output: dest/T4.txt
   wordPath:
     - headWord
   replace:
@@ -511,12 +531,14 @@
     systematical: [systematic]
 - name: cet6
   input: origin/CET6.json
+  output: dest/T6.txt
   wordPath:
     - headWord
   replace:
     Thanksgiving: [thanksgiving]
 - name: toefl
   input: origin/TOEFL.json
+  output: dest/TF.txt
   wordPath:
     - headWord
   replace:
@@ -524,6 +546,7 @@
     smelting: [smelt]
 - name: ielts
   input: origin/IELTS.json
+  output: dest/IS.txt
   wordPath:
     - headWord
   replace:
@@ -540,6 +563,7 @@
     solar-powered: [solar power]
 - name: sat
   input: origin/SAT.json
+  output: dest/ST.txt
   wordPath:
     - headWord
   replace:
@@ -553,6 +577,7 @@
     comestibles: [comestible]
 - name: gmat
   input: origin/GMAT.json
+  output: dest/GM.txt
   wordPath:
     - headWord
   replace:
@@ -573,6 +598,7 @@
     vortices: [vortex]
 - name: bec
   input: origin/BEC.json
+  output: dest/BE.txt
   wordPath:
     - headWord
   replace:
