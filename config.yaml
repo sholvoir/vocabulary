@@ -1,15 +1,3 @@
-- name: wik
-  input: origin/Wiktionary1000BasicEnglishWords.html
-  # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
-  output: dest/WK.txt
-  test: '[^\nA-Za-z]'
-  process:
-    - [['[\r\n]', g]]
-    - [['.*!-- Keep the number of words at 1000. -->']]
-    - [['===See also===.*$']]
-    - [["'''[A-Z]''' *:", g]]
-    - [['\[\[', g]]
-    - [['\]\][,.] *', g], "\n"]
 - name: voa
   input: origin/VOASpecialEnglishWordBook.html
   # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
