@@ -1,0 +1,20 @@
+# https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
+input: origin/TheLongmanDefiningVocabulary.html
+output: dest/TheLongmanDefiningVocabulary.txt
+test: '[^\nA-Za-z ''-]'
+process:
+  - [['[\r\n\t]', g]]
+  - [['.*<table border="1" cellpadding="3"><tbody><tr>']]
+  - [['</tr></tbody></table>.*']]
+  - [['</td><td valign="top">', g]]
+  - [['</font><font size="-1">', g]]
+  - [['<td valign="top"><font size="-1">']]
+  - [['<br></font></td>']]
+  - [['<br>', g], "\n"]
+  - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
+replace:
+  airforce: [air force]
+  bowels: [bowel]
+  contents: ["content"]
+  morals: [moral]
+  provisions: ["provision"]
