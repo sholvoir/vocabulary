@@ -10725,7 +10725,7 @@ lion: A1,BN,CA,DL,L2,LD,MC,WK,ZK
 lion's share: L1
 lionize: GR
 lip service: L1
-lip: B1,BN,CA,GL,L3,LD,MC,OG,S3,W2,WK
+lip: B1,BN,CA,GL,L1,L3,LD,MC,OG,S3,W2,WK
 lipid: TF
 lipoprotein: GM
 lipstick: L2
@@ -15048,7 +15048,7 @@ reconstruction: BL,BN,C1,IS,TF
 reconvene: GM,L1
 record_1: A2,BE,BN,CA,FS,GK,GL,GS,L5,LD,MC,OG,S1,S3,VA,W1,W2,WK,ZK
 record_2: A2,BE,BN,CA,FS,GK,GL,GS,L5,LD,MC,OG,S1,S3,VA,W1,W2,WK,ZK
-recorder: BN,KY,L2,T4
+recorder: BN,KY,L1,L2,T4
 recording: A2,BN,CA,L3,W3
 recount: C1,GR,L1,TF
 recoup: BE,GM,L1,TF
@@ -19336,7 +19336,7 @@ ungrudging: GR
 unhappy: A2,BL,BN,L3,MC,S3,TL,ZK
 unharmed: L1
 unhealthy: L1,ZK
-unheard of: L1
+unheard-of: L1
 unhelpful: L1
 unheralded: GR
 unhurt: L1
@@ -19558,7 +19558,7 @@ upheaval: GM,GR,L1,ST,TF
 upheave: ST
 uphill: IS,L1
 uphold: C1,GR,KY,L2,ST,T6,TF
-upholstered: GM,L1
+upholster: GM,L1
 upholstery: L1
 upkeep: BE,L1
 upland: L1
@@ -19568,9 +19568,8 @@ upload: FE
 upmarket: L1
 upon: B1,BN,CA,DS,FS,GK,GL,L4,S2,W1,ZK
 upper class: L1
-Upper House: L1
-upper lip: L1
-upper: B2,BN,CA,GK,GL,IS,KY,L3,LD,MC,T4,W2
+upper house: L1
+upper: B2,BN,CA,GK,GL,IS,KY,L1,L3,LD,MC,T4,W2
 uppercut: FE
 uppermost: L1,TF
 upright: FE,GR,KY,L2,LD,MC,T4,T6
@@ -19850,8 +19849,7 @@ Victoria: BN
 Victorian: BN,L2
 victorious: L1
 victory: B2,BN,CA,GK,GL,L4,LD,MC,VA,W2
-video recorder: L1
-video: A1,BN,CA,DL,GL,KY,L4,MC,S1,T4,W2,ZK
+video: A1,BN,CA,DL,GL,KY,L1,L4,MC,S1,T4,W2,ZK
 videoconference: TL
 videophone: GK
 videotape: BN,L2
@@ -19947,7 +19945,6 @@ vocabulary: AW,BN,CA,GK,KY,L1,MC,ST,T4,ZK
 vocal: C1,CA,GM,KY,L2,ST,T6,TF
 vocalist: L1
 vocalize: TF
-vocals: L2
 vocation: BE,GR,KY,L1,ST,TF
 vocational: BE,BN,IS,L1,T6
 vocative: ST
@@ -19979,8 +19976,7 @@ vomit: IS,L1
 von: BN
 voracious: GM,GR,ST,TF
 voracity: GR
-vortex: L1,ST
-vortices: GM
+vortex: GM,L1,ST
 votary: GR,ST
 vote of confidence: L1
 vote of no confidence: L1
@@ -20113,8 +20109,8 @@ watchdog: L1
 watchful: L1
 watchman: L1
 water supply: L1
-water-borne: IS
 water: A1,B1,BN,CA,DL,DS,FS,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
+waterborne: IS
 watercolour: L1
 watercourse: TF
 watercress: L1
@@ -20154,6 +20150,7 @@ wealthy: B2,BE,BN,CA,GK,GL,IS,KY,L2,T4,T6
 wean: GR,IS,L1,ST
 weapon: B1,BE,BN,CA,GL,IS,L4,LD,MC,S3,T4,VA,W2
 weaponry: L1
+wear out: L1
 wear: A1,BN,CA,DL,FS,GK,GL,GS,L4,LD,MC,S1,TF,VA,W1,WK,ZK
 wearisome: GR,ST
 weary: GR,KY,L2,T6
@@ -20341,6 +20338,7 @@ wimp: L1
 win: A1,B1,BN,CA,DL,FS,GK,GL,GS,L5,LD,MC,S1,VA,W1,W3,WK,ZK
 wince: GR,L1
 winch: L1
+wind up: L1
 wind_1: A2,B2,BN,CA,DL,DS,FS,GL,L4,LD,MC,OG,S2,S3,VA,W2,W3,WK
 wind_2: A2,B2,BN,CA,DL,DS,FS,GL,L4,LD,MC,OG,S2,S3,VA,W2,W3,WK
 wind-up: L1
@@ -20463,7 +20461,6 @@ world: A1,BN,CA,DL,FS,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 worldly: L1
 worldwide: B1,BL,BN,CA,GK,IS,KY,L3,T4,TL,ZK
 worm: B2,BN,IS,L2,LD,OG,T4
-worn out: L1
 worn: GK,L1
 worried: A2,BN,CA,GK,L3,MC,S2,W3
 worry: A2,B1,BN,CA,DL,GK,GL,GS,L4,LD,MC,S1,S2,VA,W2,WK,ZK
@@ -20480,13 +20477,12 @@ worthy: BE,BL,BN,C1,CA,GK,GR,IS,KY,L2,LD,T4,T6
 would-be: L1
 would: A1,BN,CA,DL,DS,FS,GK,GL,GS,L5,LD,MC,S1,W1,WS
 wouldn't: FS,L5
-wound up: L1
 wound: B2,BN,CA,GK,GL,L4,LD,OG,VA,W3,ZK
 woven: GM,MC
 wow: A2,CA,FE,L1
 wrangle: L1,ST
+wrap up: L1
 wrap: B2,BN,CA,GL,GM,IS,KY,L3,LD,MC,S3,T4,TF
-wrapped up: L1
 wrapping: L1
 wrath: GR,L1,ST
 wreak: GM,GR,L1,ST

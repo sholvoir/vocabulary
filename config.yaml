@@ -325,6 +325,7 @@ wordlists:
       Sep.: [Sep]
       Sept.: [Sept]
       sic.: ["sic"]
+      vocals: [vocal]
   - name: collins
     path: origin/Collins1.csv
     tag: L1
@@ -385,6 +386,14 @@ wordlists:
       valium: ["Valium"]
       Woman's Liberation: []
       woman's movement: []
+      wrapped up: [wrap up]
+      wound up: [wind up]
+      worn out: [wear out]
+      video recorder: [video, recorder]
+      upper lip: [upper, lip]
+      Upper House: [upper house]
+      upholstered: [upholster]
+      unheard of: [unheard-of]
   - name: ngsl
     path: origin/NGSL1.2LemmatizedForTeaching.csv
     # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
@@ -674,6 +683,7 @@ wordlists:
       freefone: ["Freefone"]
       utilisation: ["utilization"]
       world-wide: ["worldwide"]
+      water-borne: [waterborne]
   - name: sat
     path: origin/SAT.json
     tag: ST
@@ -738,6 +748,8 @@ wordlists:
       single-entry: ["single entry"]
       unreimbursed: ["reimburse"]
       vertice: ["vertex"]
+      vortices: [vortex]
+      upholstered: [upholster]
   - name: bec
     path: origin/BEC.json
     tag: BE
