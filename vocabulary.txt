@@ -4394,9 +4394,8 @@ eager: BE,BL,BN,C1,CA,GK,L3,LD,TF,TL
 eagle: BN,CA,FE,KY,L2,T4,T6
 ear: A1,BN,CA,DL,GL,L3,LD,MC,OG,S2,W2,WK,ZK
 earl: BN
-earlier: BN,L4
 earliest: L2
-early: A1,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
+early: A1,BN,CA,DL,GK,GL,GS,L4,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 earn: A2,BE,BN,CA,GK,GL,L4,LD,MC,S2,VA,W2,WK
 earnest: BE,KY,L2,ST,T4,TF
 earnings: BE,BN,C1,CA,L3
@@ -4405,7 +4404,6 @@ earthquake: B1,BL,CA,GK,IS,KY,L2,T4,TL,VA,ZK
 earthwork: IS
 earthworm: IS,ST
 ease: BN,C1,CA,GL,GM,KY,L3,T4,TF,VA,W3
-easier: BN
 easily: A2,BN,CA,GL,L3,MC,S2,W1,ZK
 east: A1,BN,CA,GL,L5,LD,MC,OG,S1,VA,W2,WK,ZK
 East: BN
@@ -4443,7 +4441,6 @@ ecstatic: ST
 ecu: L2
 Ed: BN
 ed.: L2
-Eddie: BN
 edge: B1,BE,BN,CA,GK,GL,GM,L4,LD,MC,OG,S2,ST,TF,VA,W2,ZK
 edged: L2
 edible: GM,IS,KY,ST,T6,TF
@@ -4841,7 +4838,6 @@ erm: BN
 erode: BL,GM,IS,L2,ST,TF
 erosion: BN,IS,KY,ST,T6,TF
 erotic: L2
-ERP: BE
 errand: GM,TF
 errant: ST
 erratic: GM,ST,TF
@@ -4873,16 +4869,14 @@ estate: B2,BN,CA,GL,GM,IS,KY,L2,L4,S2,T4,T6,TF,W2
 esteem: GM,IS,KY,L2,ST,TF
 esthetic: T6
 estimate: B2,BE,BN,CA,GL,GM,IS,KY,L4,S3,T4,T6,TF,VA,W2
-estimated: BN,CA
 estimation: AW,BL
 estrange: IS,ST
 estuary: IS
-et al: BN,GM
-et al.: L2
+et al.: BN,GM,L2
 et: CA
 ETA: BE
-etc: BN,CA,L3
-etched: GM
+etc.: BN,CA,L3
+etch: GM
 eternal: C1,CA,GM,IS,KY,L2,ST,T6,TF
 ethanol: BL,GM
 ether: ST
@@ -4967,7 +4961,6 @@ excel: KY
 excellence: BL,C1,L2,TL
 excellent: A2,BN,CA,GK,GL,IS,L4,LD,MC,S1,ST,VA,W2,ZK
 except for: BN
-except that: BN
 except: A2,B1,BN,CA,GK,GL,IS,L4,LD,MC,S2,VA,W2,WK,ZK
 exception: B2,BE,BN,CA,GL,KY,L3,S3,T4,T6,TF,W2
 exceptional: BL,BN,C1,GM,IS,KY,L2,ST,T6,TL
@@ -5158,8 +5151,7 @@ facetious: ST
 facial: GK,GM,IS,L2,TF
 facile: ST
 facilitate: AW,BE,BL,BN,C1,CA,GM,IS,KY,ST,T6,TF,TL
-facilities: BE
-facility: B2,BN,CA,GL,GM,IS,KY,L4,S2,ST,T4,TF,W1
+facility: B2,BE,BN,CA,GL,GM,IS,KY,L4,S2,ST,T4,TF,W1
 facsimile: IS,ST
 fact sheet: IS
 fact: A1,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
@@ -5365,7 +5357,6 @@ finale: IS
 finalize: BE,TF,TL
 finally: A2,BN,CA,DL,GL,L4,MC,S2,T4,W1
 finance: B2,BE,BN,CA,GK,GL,IS,KY,L4,S3,T4,T6,TF,W2,W3
-finances: BE
 financial: B1,BE,BN,CA,GL,KY,L5,MC,S2,T4,T6,TF,VA,W1
 financially: BE,BL
 financier: GM
@@ -5523,7 +5514,6 @@ footnote: AW,BE
 footpath: LD
 footstep: KY,LD,T4
 footwear: TL
-for ever: BN
 for example: BN
 for instance: BN,IS
 for the sake of: IS
@@ -5548,7 +5538,7 @@ forefront: TF
 foregone: BE
 forehead: BN,CA,FE,GK,KY,L2,LD,MC,T4
 foreign exchange: L2
-Foreign Office: L2
+foreign office: L2
 foreign: A2,BE,BN,CA,DL,GK,GL,L2,L5,LD,MC,S3,VA,W1,WK,ZK
 foreigner: BL,BN,C1,L3,LD
 foreland: IS
@@ -5697,9 +5687,9 @@ from time to time: BN
 from: A1,BN,CA,DL,DS,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,WS,ZK
 front line: L2
 front page: L2
-front-line: IS
 front: A1,BN,CA,DL,GK,GL,GS,L5,LD,MC,OG,S1,VA,W1,W2,WK,ZK
 frontier: BL,BN,GK,GM,IS,KY,L2,T4
+frontline: IS
 frost: GK,KY,T4,TF
 frown: BN,IS,KY,L2,T4
 frowzy: ST
@@ -5868,7 +5858,6 @@ gently: BN,CA,GL,KY,MC,W3
 gentry: GM
 genuine: B2,BE,BN,CA,GL,GM,IS,KY,L3,S3,T4,T6,TF,W3
 genuinely: B2,BL,BN
-Geoff: BN
 Geoffrey: BN
 geographic: BL,GM
 geographical: BL,BN,IS,L2
@@ -6679,7 +6668,7 @@ I'll: L5
 I'm: L5
 I've: L5
 Ian: BN
-ibid: L2
+ibid.: L2
 IBM: BN
 ice cream: L2,S2,TL
 ice: A1,BN,CA,DL,GL,L4,LD,MC,OG,S2,VA,W3,WK,ZK
@@ -6832,7 +6821,6 @@ imprisonment: BN,C1
 impromptu: ST
 impropriety: ST
 improve: A1,BE,BN,CA,GK,GL,IS,L4,LD,MC,S2,T4,TF,VA,W1,ZK
-improved: BN,CA
 improvement: B1,BE,BN,CA,GL,IS,L3,LD,MC,S3,T4,W2
 improvise: TF
 imprudent: ST
@@ -7492,7 +7480,6 @@ jealousy: LD
 Jean: BN
 jeans: A1,BN,CA,L2,T4,TF,TL,ZK
 jelly: LD,OG,TF,WK
-Jenny: BN
 jeopardise: IS
 jeopardize: GM,ST,T6,TF
 jerk: FE,IS,L2,T6
@@ -7877,7 +7864,6 @@ lens: B2,CA,IS,KY,L3,ST,T4,T6,TF
 Leo: LH
 Leonard: BN
 leopard: GM,IS
-Les: BN
 lesbian: C1,L2
 less than: BN
 less: A2,BN,CA,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
@@ -8049,8 +8035,7 @@ locate: B1,BN,CA,GL,IS,KY,L2,T4,TF,W3
 located: B1
 location: B1,BE,BN,CA,GL,IS,KY,L3,S3,T4,W2
 loch: BN,GM
-lock: A2,BN,CA,GK,GL,L3,LD,MC,OG,S2,W3,WK,ZK
-locked: L2
+lock: A2,BN,CA,GK,GL,L2,L3,LD,MC,OG,S2,W3,WK,ZK
 locker: CA,KY,TL
 locomotion: GM,TF
 locomotive: BN,GM,KY,L2,T6,TF
@@ -8101,7 +8086,7 @@ lorry: A2,BE,BN,KY,L2,S3,T4
 lose: A1,BE,BN,CA,DL,GK,GL,GS,L5,LD,MC,S1,VA,W1,WK,ZK
 loser: BL,CA,L2
 loss: B1,BE,BN,CA,GK,GL,L4,LD,MC,OG,S2,W1
-lost-and-found: TF
+lost and found: TF
 lost: A2,BN,CA,L3,S2,W3,ZK
 lot: A1,BE,BN,CA,DL,GL,GS,L5,LD,MC,S1,S2,W1,WK,ZK
 Lothian: BN
@@ -8163,8 +8148,7 @@ luxurious: TF
 luxury: B1,BE,BN,GL,IS,KY,L3,T4,T6,TF
 lymph: GM
 lynch: L2
-lyric: B2,KY,L2,ST,TF
-lyrics: CA
+lyric: B2,CA,KY,L2,ST,TF
 lysis: GM
 ma'am: CA,TL
 Maastricht: BN
@@ -8183,7 +8167,7 @@ madam: S3,ZK
 madame: BN
 made-up: L3
 made: DS,L2,WS
-mafia: L2
+Mafia: L2
 magazine: A1,BE,BN,CA,GL,L4,LD,MC,S2,VA,W2,ZK
 Maggie: BN
 maggot: L2
@@ -8353,7 +8337,6 @@ massage: FE,L2,TL
 massive: B2,BE,BN,CA,GL,IS,KY,L3,S2,T4,T6,W3
 mast: TF
 master: B2,BE,BN,CA,GK,GL,KY,L4,LD,S2,W2,ZK
-MasterCard: IS
 mastermind: BE,ST
 masterpiece: BE,KY,L2,T6
 mastery: IS
@@ -8548,7 +8531,6 @@ microphone: KY,L2,ST,T4,TL
 microprocessor: IS,TF
 microscope: BE,GK,IS,KY,LD,ST,T4,TF,TL,VA
 microscopic: GM,TF
-Microsoft: BN
 microwave: GK,L2,TF,TL,ZK
 mid: AW,BL,BN,FE
 midday: BE,MC
@@ -8740,7 +8722,6 @@ monetary: AW,BL,BN,CA,KY,L3,ST,T6,TF
 money: A1,BN,CA,DL,DS,GL,GS,L5,LD,MC,OG,S1,VA,W1,WK,ZK
 monition: ST
 monitor: B2,BE,BN,CA,GL,GM,IS,L3,S3,T4,T6,TF,W3
-monitoring: BN
 monk: BN,C1,L2,ST
 monkey: A2,AW,BN,CA,DL,L2,LD,MC,OG,WK,ZK
 monocracy: ST
@@ -8773,7 +8754,6 @@ moral: B2,BN,CA,GK,GL,GM,IS,KY,L3,LD,MC,S3,T4,T6,TF,VA,W2
 morale: BE,BL,BN,GM,L2,ST,TF,TL
 morality: AW,BN,C1,CA,IS,KY,L2,ST,T6
 morally: MC
-morals: LD
 morass: ST
 moratorium: BE,ST
 morbid: ST
@@ -9093,8 +9073,8 @@ nominal: AW,BE,BL,IS,KY,L2,T6,TF
 nominate: BE,BL,BN,C1,CA,GM,KY,L2,ST,T6,TF,TL,VA
 nomination: BL,C1,CA,TL
 nominee: C1,CA,L2,ST,TF
+non-: AW,BL,FE
 non-stop: GK
-non: AW,BL,FE
 nonbiodegradable: GM
 nonchalant: ST
 noncommercial: GM
