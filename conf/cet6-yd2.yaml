@@ -1,0 +1,8 @@
+input: CET6_2.json
+output: CollegeEnglishTestL6-yd2.txt
+wordPath:
+  - headWord
+replace:
+  Heaven: [heaven]
+  Thanksgiving: [thanksgiving]
+  inasmuch: [inasmuch as]

@@ -917,6 +917,7 @@ aah
 aback
 abandon
 abandoned
+abandonment
 abase
 abash
 abate
@@ -952,6 +953,7 @@ ablution
 abnegate
 abnormal
 abnormality
+abnormally
 aboard
 abode
 abolish
@@ -1231,6 +1233,7 @@ adverb
 adversarial
 adversary
 adverse
+adversely
 adversity
 advert
 advertise
@@ -1805,6 +1808,7 @@ apricot
 apron
 apt
 aptitude
+aptly
 aqua
 aquarium
 aquatic
@@ -1964,6 +1968,7 @@ asperity
 aspersion
 aspirant
 aspiration
+aspirational
 aspire
 aspirin
 aspiring
@@ -2205,6 +2210,7 @@ awkward
 awry
 ax
 axe
+axial
 axiom
 axis
 axle
@@ -2730,6 +2736,7 @@ blockage
 blockbuster
 blog
 bloke
+blond
 blonde
 blood
 blood pressure
@@ -3062,6 +3069,7 @@ buffoon
 buffoonery
 bug
 buggy
+bugle
 build
 build-up
 builder
@@ -3218,6 +3226,7 @@ calefaction
 calendar
 calf
 calibrate
+calibration
 calibre
 call
 call-up
@@ -3293,6 +3302,7 @@ cap
 capability
 capable
 capacious
+capacitance
 capacitor
 capacity
 cape
@@ -3721,6 +3731,7 @@ chromium
 chromosome
 chronic
 chronical
+chronically
 chronicle
 chronological
 chronology
@@ -4100,6 +4111,7 @@ common sense
 commoner
 commonly
 commonplace
+commonsense
 commonwealth
 commotion
 communal
@@ -4801,6 +4813,7 @@ crook
 crooked
 croon
 crop
+cropland
 cross
 cross-border
 cross-country
@@ -5147,7 +5160,9 @@ deflation
 deflect
 deflection
 deforest
+deforestation
 deform
+deformation
 defraud
 defrost
 deft
@@ -5155,6 +5170,7 @@ defunct
 defuse
 defy
 degenerate
+degeneration
 degenerative
 degradation
 degrade
@@ -5613,6 +5629,7 @@ disenchanted
 disenchantment
 disenfranchise
 disengage
+disengagement
 disequilibrium
 disfigure
 disgrace
@@ -5665,6 +5682,7 @@ disparate
 disparity
 dispatch
 dispel
+dispensable
 dispensation
 dispense
 dispenser
@@ -5682,6 +5700,7 @@ dispose
 disposed
 disposition
 disproportionate
+disproportionately
 disprove
 dispute
 disqualify
@@ -5692,6 +5711,7 @@ disrespectful
 disrupt
 disruption
 disruptive
+dissatisfaction
 dissatisfied
 dissatisfy
 dissect
@@ -5728,6 +5748,7 @@ distillery
 distinct
 distinction
 distinctive
+distinctly
 distinguish
 distinguished
 distort
@@ -5969,6 +5990,7 @@ drudgery
 drug
 drugstore
 drum
+drummer
 drunk
 drunken
 dry
@@ -6037,6 +6059,7 @@ dynamism
 dynamite
 dynamo
 dynasty
+dysfunction
 dystrophy
 e-book
 e-mail
@@ -6056,6 +6079,7 @@ earnest
 earnings
 earring
 earth
+earthenware
 earthly
 earthquake
 earthwork
@@ -6166,6 +6190,7 @@ ejaculate
 eject
 ejection
 elaborate
+elaborately
 elaboration
 elapse
 elastic
@@ -6667,6 +6692,7 @@ exceptional
 excerpt
 excess
 excessive
+excessively
 exchange
 exchange rate
 excise
@@ -6675,6 +6701,7 @@ excited
 excitement
 exciting
 exclaim
+exclamation
 exclude
 excluder
 excluding
@@ -6700,6 +6727,7 @@ exempt
 exemption
 exercise
 exert
+exertion
 exhalation
 exhale
 exhaust
@@ -6751,6 +6779,7 @@ experience
 experienced
 experiment
 experimental
+experimentally
 experimentation
 expert
 expertise
@@ -6824,6 +6853,7 @@ extractive
 extracurricular
 extradite
 extraneous
+extraordinarily
 extraordinary
 extrapolate
 extrapolation
@@ -6978,6 +7008,7 @@ fast
 fast food
 fast track
 fasten
+fastener
 fastidious
 fat
 fatal
@@ -7011,7 +7042,9 @@ façade
 fear
 fearful
 fearless
+fearlessly
 fearsome
+feasibility
 feasible
 feast
 feat
@@ -7162,6 +7195,7 @@ find out
 finding
 fine
 fine art
+finely
 finesse
 finger
 fingernail
@@ -7184,6 +7218,7 @@ firework
 fireworks
 firm
 firmly
+firmness
 first
 first aid
 first floor
@@ -7304,6 +7339,7 @@ fluctuate
 fluctuation
 fluency
 fluent
+fluently
 fluff
 fluffy
 fluid
@@ -7534,6 +7570,7 @@ frequently
 fresco
 fresh
 fresh air
+freshen
 freshman
 freshwater
 fret
@@ -7557,6 +7594,7 @@ fringe
 frivolity
 frivolous
 frizzle
+fro
 frock
 frog
 frolic
@@ -7797,6 +7835,7 @@ geological
 geologist
 geology
 geometric
+geometrical
 geometry
 geophysical
 geranium
@@ -7993,6 +8032,7 @@ grammar
 grammar school
 grammatical
 gramme
+gramophone
 gran
 grand
 grand jury
@@ -8102,6 +8142,7 @@ ground
 ground floor
 ground rule
 grounding
+groundless
 groundlessly
 groundsheet
 groundwork
@@ -8137,6 +8178,7 @@ guardian
 guardsman
 guerrilla
 guess
+guesstimate
 guest
 guidance
 guide
@@ -8856,12 +8898,14 @@ identity
 identity card
 ideographic
 ideological
+ideologically
 ideology
 ideomotor
 idiom
 idiosyncrasy
 idiot
 idle
+idleness
 idol
 idolatry
 idyllic
@@ -8920,6 +8964,7 @@ immediately
 immense
 immensely
 immerse
+immersive
 immigrant
 immigrate
 immigration
@@ -9062,10 +9107,12 @@ inalterable
 inanimate
 inanity
 inappropriate
+inasmuch as
 inaugural
 inaugurate
 inborn
 inc
+incalculable
 incandescent
 incapable
 incapacitate
@@ -9107,7 +9154,9 @@ income tax
 incoming
 incommodious
 incomparable
+incompatibility
 incompatible
+incompetence
 incompetent
 incomplete
 incomprehensible
@@ -9183,6 +9232,7 @@ indirectly
 indiscernible
 indiscreet
 indiscriminate
+indiscriminately
 indispensable
 indisputable
 indistinct
@@ -9232,6 +9282,7 @@ inestimable
 inevitable
 inevitably
 inexcusable
+inexhaustible
 inexorable
 inexpensive
 inexperience
@@ -9258,6 +9309,7 @@ infest
 infidelity
 infiltrate
 infinite
+infinitely
 infinitesimal
 infinitive
 infinity
@@ -9358,6 +9410,7 @@ innuendo
 innumerable
 inoculate
 inordinate
+inorganic
 input
 inquest
 inquire
@@ -9421,6 +9474,7 @@ instil
 instill
 instinct
 instinctive
+instinctively
 instinctual
 institute
 institution
@@ -9469,6 +9523,7 @@ intelligible
 intend
 intended
 intense
+intensely
 intensify
 intensity
 intensive
@@ -9609,6 +9664,7 @@ inventive
 inventor
 inventory
 inverse
+inversely
 inversion
 invert
 invertebrate
@@ -9722,6 +9778,7 @@ jazz
 jazzy
 jealous
 jealousy
+jean
 jeans
 jeep
 jeer
@@ -9867,6 +9924,7 @@ kilocalorie
 kilogram
 kilometer
 kilometre
+kilowatt
 kin
 kind
 kinda
@@ -10023,6 +10081,7 @@ lats
 latte
 latter
 latter-day
+lattice
 laud
 laudable
 laudation
@@ -10074,6 +10133,7 @@ leaflet
 leafy
 league
 leak
+leakage
 lean
 leap
 learn
@@ -10345,6 +10405,7 @@ loathe
 loathsome
 lob
 lobby
+lobbyist
 lobe
 lobster
 local
@@ -10411,6 +10472,7 @@ loop
 loophole
 loose
 loose end
+loosely
 loosen
 loot
 lope
@@ -10677,6 +10739,7 @@ marital
 maritime
 mark
 marked
+markedly
 marker
 market
 market forces
@@ -10914,6 +10977,7 @@ metabolism
 metabolize
 metal
 metallic
+metallurgy
 metamorphic
 metaphor
 metaphorical
@@ -11082,7 +11146,9 @@ misinterpret
 misjudge
 mislead
 misleading
+misled
 mismanage
+mismanagement
 misnomer
 misplace
 misplaced
@@ -11107,6 +11173,7 @@ misunderstood
 misuse
 mite
 mitigate
+mitten
 mix
 mixed
 mixed up
@@ -11133,6 +11200,7 @@ model
 modeling
 modem
 moderate
+moderately
 moderation
 modern
 modern-day
@@ -11377,6 +11445,7 @@ myopic
 myriad
 myself
 mysterious
+mysteriously
 mystery
 mystic
 mystical
@@ -11403,6 +11472,7 @@ narcissism
 narcissistic
 narcotic
 narrate
+narration
 narrative
 narrator
 narrow
@@ -11659,6 +11729,7 @@ notify
 notion
 notoriety
 notorious
+notoriously
 notwithstanding
 nought
 noun
@@ -12140,6 +12211,7 @@ overdraw
 overdue
 overeat
 overestimate
+overexcited
 overexploit
 overextend
 overfill
@@ -12297,6 +12369,7 @@ pant
 pantheon
 panther
 pantomime
+pantry
 pants
 papa
 papal
@@ -12488,6 +12561,7 @@ peccadillo
 peccant
 peck
 peculiar
+peculiarity
 pecuniary
 pedagogue
 pedagogy
@@ -12499,6 +12573,7 @@ pedestal
 pedestrian
 pediatrics
 pedigree
+pedlar
 pee
 peek
 peel
@@ -12665,6 +12740,7 @@ pervert
 pervious
 peso
 pessimism
+pessimist
 pessimistic
 pest
 pester
@@ -12716,6 +12792,7 @@ photo
 photocopier
 photocopy
 photodissociation
+photoelectric
 photograph
 photographer
 photographic
@@ -12921,6 +12998,7 @@ plutonium
 ply
 plywood
 pm
+pneumatic
 pneumonia
 pneumonic
 poach
@@ -12949,6 +13027,7 @@ poisonous
 poke
 poker
 polar
+polarity
 polarization
 polarize
 pole
@@ -13075,6 +13154,7 @@ postbox
 postcard
 postcode
 postdate
+postdoctoral
 poster
 posterior
 posterity
@@ -13213,6 +13293,7 @@ preliminary
 preliterate
 prelude
 premature
+prematurely
 premier
 premiere
 premise
@@ -13258,6 +13339,7 @@ presently
 preservation
 preservative
 preserve
+preset
 preside
 presidency
 president
@@ -13479,6 +13561,7 @@ prop
 propaganda
 propagandistic
 propagate
+propagation
 propel
 propellant
 propeller
@@ -13565,6 +13648,7 @@ provocative
 provoke
 prowess
 prowl
+proximately
 proximity
 proxy
 prudent
@@ -13798,6 +13882,7 @@ racket
 raconteur
 racy
 radar
+radial
 radiance
 radiant
 radiate
@@ -13867,6 +13952,7 @@ rap
 rapacious
 rape
 rapid
+rapidity
 rapidly
 rapids
 rapine
@@ -13875,9 +13961,11 @@ rapper
 rapport
 rapprochement
 rapt
+rapture
 rare
 rarely
 rarity
+rascal
 rash
 rasp
 raspberry
@@ -14072,6 +14160,7 @@ recur
 recurrence
 recurrent
 recurring
+recyclable
 recycle
 red
 red light
@@ -14160,6 +14249,7 @@ regarding
 regardless
 regatta
 regenerate
+regenerative
 regent
 reggae
 regime
@@ -14930,6 +15020,7 @@ satiric
 satirical
 satirize
 satisfaction
+satisfactorily
 satisfactory
 satisfied
 satisfy
@@ -15091,11 +15182,13 @@ sealant
 seam
 seaman
 seamless
+seaport
 sear
 search
 searing
 seashell
 seashore
+seasick
 seaside
 season
 season ticket
@@ -15314,6 +15407,7 @@ several
 severance
 severe
 severely
+severity
 sew
 sewage
 sewer
@@ -15412,6 +15506,7 @@ ship
 shipbuilding
 shipment
 shipping
+shipwreck
 shipwright
 shipyard
 shire
@@ -15476,6 +15571,7 @@ showmanship
 shown
 showpiece
 showroom
+shrank
 shrapnel
 shred
 shrewd
@@ -15572,6 +15668,7 @@ sin
 since
 sincere
 sincerely
+sincerity
 sinecure
 sinew
 sing
@@ -15838,6 +15935,7 @@ soft drink
 softball
 soften
 softly
+softness
 software
 soggy
 soil
@@ -15914,6 +16012,7 @@ sore
 sorely
 soreness
 sorrow
+sorrowful
 sorry
 sort
 sort of
@@ -15938,6 +16037,7 @@ south-west
 southeast
 southern
 southerner
+southwards
 southwest
 southwestern
 souvenir
@@ -15945,6 +16045,7 @@ sovereign
 sovereignty
 soviet
 sow
+soy
 soya
 soybean
 spa
@@ -16494,6 +16595,7 @@ subpoena
 subprime
 subscribe
 subscriber
+subscript
 subscription
 subsection
 subsequent
@@ -16539,6 +16641,7 @@ successful
 successfully
 succession
 successive
+successively
 successor
 succinct
 succor
@@ -16740,6 +16843,7 @@ sweet corn
 sweeten
 sweetener
 sweetheart
+sweetness
 swell
 swelling
 swerve
@@ -16807,6 +16911,7 @@ syringe
 syrup
 system
 systematic
+systematically
 systematize
 systemic
 ta
@@ -16865,6 +16970,7 @@ tangential
 tangible
 tangibly
 tangle
+tangled
 tango
 tangy
 tank
@@ -17135,6 +17241,7 @@ thou
 though
 thought
 thoughtful
+thoughtless
 thousand
 thousandth
 thrall
@@ -17148,6 +17255,7 @@ three
 three-dimensional
 three-quarter
 three-quarters
+thresh
 threshold
 thrift
 thrifty
@@ -17366,7 +17474,9 @@ trade unionist
 trade-in
 trade-off
 trademark
+tradeoff
 trader
+tradesman
 trading
 tradition
 traditional
@@ -17487,6 +17597,7 @@ tri-state
 triad
 trial
 triangle
+triangular
 tribal
 tribe
 tribulation
@@ -17669,6 +17780,7 @@ ultimately
 ultimatum
 ultraclean
 ultramontane
+ultrasonic
 ultrasound
 ultraviolet
 um
@@ -17755,6 +17867,7 @@ underdeveloped
 underdog
 underestimate
 underexposure
+underfunded
 undergo
 undergraduate
 underground
@@ -17769,6 +17882,7 @@ underneath
 underpants
 underpin
 underrate
+underrepresented
 underscore
 undersecretary
 undersell
@@ -17801,6 +17915,7 @@ undisputed
 undisturbed
 undivided
 undo
+undocumented
 undoubted
 undoubtedly
 undress
@@ -17818,6 +17933,7 @@ unequal
 unequalled
 unequivocal
 unequivocally
+unethical
 uneven
 unexpected
 unexpectedly
@@ -17850,17 +17966,21 @@ unhelpful
 unhurt
 unidentified
 unification
+unified
 uniform
 uniformity
+uniformly
 unify
 unilateral
 unimaginable
 unimportant
 unimpressed
+uninformed
 uninitiated
 unintelligible
 unintended
 unintentional
+unintentionally
 uninterrupted
 union
 unionism
@@ -17876,6 +17996,7 @@ unite
 united
 unity
 universal
+universally
 universe
 university
 unjust
@@ -17978,6 +18099,7 @@ untidy
 untie
 until
 untimely
+untiring
 unto
 untold
 untouchable
@@ -18124,6 +18246,7 @@ valedictory
 valiant
 valid
 validate
+validation
 validity
 valley
 valor
@@ -18554,6 +18677,7 @@ weather
 weathering
 weatherman
 weave
+weaver
 web
 webpage
 website
@@ -18691,6 +18815,7 @@ wild
 wild flower
 wildcat
 wilderness
+wildfire
 wildlife
 wildly
 wile
@@ -18713,6 +18838,7 @@ wind up
 wind-up
 windbreaker
 windfall
+winding
 windmill
 window
 windscreen
@@ -18741,6 +18867,7 @@ wisdom
 wise
 wisely
 wish
+wishful
 wishful thinking
 wisp
 wispy
@@ -18782,6 +18909,7 @@ wood
 wooded
 wooden
 woodland
+woodpecker
 woodwork
 wool
 woolen
@@ -18812,6 +18940,7 @@ workmanlike
 workmanship
 workmate
 workout
+workpiece
 workplace
 works
 worksheet
@@ -18881,6 +19010,7 @@ wrought iron
 wry
 x-ray
 xenophobe
+xerox
 y-axis
 yacht
 yachting
@@ -18897,6 +19027,7 @@ year-long
 year-round
 yearling
 yearly
+yearn
 yeast
 yell
 yellow

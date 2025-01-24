@@ -1,0 +1,7 @@
+input: CET6_1.json
+output: CollegeEnglishTestL6-yd1.txt
+wordPath:
+  - headWord
+replace:
+  Automatically: [automatically]
+  authorities: [authority]
