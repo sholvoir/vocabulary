@@ -3732,6 +3732,7 @@ churlish
 churn
 cider
 cigar
+cigaret
 cigarette
 cilia
 ciliate
@@ -6947,6 +6948,7 @@ farming
 farmland
 farmyard
 fart
+farther
 fascia
 fascial
 fascinate

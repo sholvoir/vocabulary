@@ -1,0 +1,28 @@
+input: KaoYan_2.json
+output: MasterAdmissionsExamination-yd2.txt
+wordPath:
+  - headWord
+replace:
+  april: [April]
+  christ: [Christ]
+  christian: [Christian]
+  christmas: [Christmas]
+  december: [December]
+  easter: [Easter]
+  february: [February]
+  friday: [Friday]
+  goodby: [goodbye]
+  january: [January]
+  july: [July]
+  june: [June]
+  marxist: [Marxist]
+  monday: [Monday]
+  negro: [Negro]
+  november: [November]
+  october: [October]
+  realise: [realize]
+  saturday: [Saturday]
+  september: [September]
+  sunday: [Sunday]
+  thursday: [Thursday]
+  tuesday: [Tuesday]
