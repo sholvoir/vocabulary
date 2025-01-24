@@ -1,14 +1,5 @@
+- name: 
 
-- name: cet6
-
-- name: toefl
-  input: origin/TOEFL.json
-  output: dest/TF.txt
-  wordPath:
-    - headWord
-  replace:
-    lost-and-found: [lost and found]
-    smelting: [smelt]
 - name: ielts
   input: origin/IELTS.json
   output: dest/IS.txt

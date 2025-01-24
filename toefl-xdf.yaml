@@ -1,0 +1,7 @@
+input: origin/TOEFL_3.json
+output: dest/TOEFL-xdf.txt
+wordPath: [headWord]
+replace:
+  lost-and-found: [lost and found]
+  smelting: [smelt]
+  wedge-shaped: [wedge, shape]
