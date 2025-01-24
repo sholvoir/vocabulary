@@ -6,6 +6,8 @@ AD
 AGM
 AIDS
 Africa
+African
+African American
 Afro
 Afro-Caribbean
 Allah
@@ -18,7 +20,9 @@ Antarctic
 Apr
 April
 Aquarius
+Arab
 Aries
+Asian
 Attorney General
 Aug
 August
@@ -38,10 +42,12 @@ Buddhist
 CD
 CD player
 CD-ROM
+CEO
 CFC
 CIA
 CID
 CV
+Canadian
 Cancer
 Capricorn
 Capt
@@ -51,6 +57,7 @@ Caucasian
 Celsius
 Celt
 Chancellor of the Exchequer
+Chinese
 Christ
 Christian
 Christianity
@@ -83,6 +90,7 @@ England
 English
 Eskimo
 Europe
+European
 Excellency
 Exchequer
 FBI
@@ -104,6 +112,7 @@ GDP
 GI
 GMT
 GNP
+GOP
 GP
 Gaelic
 Gallic
@@ -151,9 +160,14 @@ Indian
 Indic
 Inland Revenue
 Internet
+Iranian
+Iraqi
+Irish
 Iron Curtain
 Islam
 Islamic
+Israeli
+Italian
 Jacuzzi
 Jan
 January
@@ -173,10 +187,12 @@ Jun
 June
 Jupiter
 Koran
+Korean
 Kremlin
 LCD
 LP
 LSD
+Latin
 Latino
 Leo
 Lib Dem
@@ -205,6 +221,7 @@ Mediterranean
 Member of Parliament
 Mercury
 Messrs
+Mexican
 Mickey Mouse
 Middle Ages
 Midlands
@@ -243,6 +260,7 @@ OPEC
 Oct
 October
 Old Testament
+Olympic
 Olympic Games
 Open University
 Orient
@@ -255,6 +273,7 @@ PO box
 POW
 PR
 PS
+Palestinian
 Parmesan
 Passover
 Peace Corps
@@ -281,6 +300,7 @@ Reverend
 Richter scale
 Roman Catholic
 Royal Highness
+Russian
 Sagittarius
 Santa Claus
 Sat.
@@ -300,9 +320,11 @@ Sep
 Sept
 September
 Sikh
+Spanish
 Special Branch
 Sunday
 Sunday school
+Syrian
 T-shirt
 TB
 TV
@@ -340,6 +362,7 @@ Yankee
 Zen
 a
 a.m.
+aah
 aback
 abandon
 abandoned
@@ -576,6 +599,7 @@ affection
 affectionate
 affidavit
 affiliate
+affiliation
 affinity
 affirm
 affirmation
@@ -696,6 +720,7 @@ all-time
 allay
 allegation
 allege
+alleged
 allegedly
 allegiance
 allergic
@@ -816,6 +841,7 @@ anchorage
 anchovy
 ancient
 and
+android
 anecdotal
 anecdote
 anew
@@ -1080,6 +1106,7 @@ assess
 assessment
 assessor
 asset
+asshole
 assiduous
 assign
 assignment
@@ -1169,6 +1196,7 @@ audition
 auditor
 auditorium
 augment
+august
 aunt
 aura
 aural
@@ -1516,6 +1544,7 @@ bewilderment
 beyond
 bias
 biased
+bible
 biblical
 bibliography
 bicep
@@ -1942,6 +1971,7 @@ bulldozer
 bullet
 bulletin
 bullish
+bullshit
 bully
 bum
 bump
@@ -2224,6 +2254,7 @@ cater
 caterer
 caterpillar
 cathedral
+catholic
 cattle
 catwalk
 caucus
@@ -2243,6 +2274,7 @@ cavern
 cavernous
 caviar
 cavity
+cd
 cease
 ceasefire
 cedar
@@ -3058,6 +3090,7 @@ continually
 continuation
 continue
 continued
+continuing
 continuity
 continuous
 continuously
@@ -3191,6 +3224,7 @@ council
 council tax
 councillor
 counsel
+counseling
 counselling
 counsellor
 counselor
@@ -3924,6 +3958,7 @@ din
 dine
 diner
 dinghy
+dining
 dining room
 dining table
 dinner
@@ -4136,6 +4171,7 @@ divorced
 divulge
 dizzy
 do
+doc
 docile
 dock
 dockland
@@ -4275,6 +4311,7 @@ drift
 drill
 drink
 drinker
+drinking
 drinking water
 drip
 drive
@@ -4334,6 +4371,7 @@ dusk
 dust
 dustbin
 dusty
+dutch
 dutiful
 duty
 duty-free
@@ -4347,11 +4385,13 @@ dye
 dying
 dyke
 dynamic
+dynamics
 dynamism
 dynamite
 dynamo
 dynasty
 e-book
+e-mail
 e.g.
 each
 each other
@@ -4378,6 +4418,7 @@ easy
 easy-going
 eat
 eater
+eating
 eavesdrop
 ebullient
 eccentric
@@ -4516,6 +4557,7 @@ emerge
 emergence
 emergency
 emergency services
+emerging
 emigrant
 emigrate
 eminence
@@ -4739,6 +4781,7 @@ estimate
 estimation
 estranged
 estuary
+et
 et al.
 etc.
 etch
@@ -5155,6 +5198,7 @@ feudal
 fever
 feverish
 few
+fewer
 ff.
 fiancé
 fiancée
@@ -5581,6 +5625,8 @@ fry
 frying pan
 ft
 fuchsia
+fuck
+fucking
 fudge
 fuel
 fugitive
@@ -5750,6 +5796,7 @@ geometry
 geranium
 geriatric
 germ
+german
 germinate
 gerund
 gesture
@@ -5845,6 +5892,7 @@ goalkeeper
 goat
 gobble
 god
+goddamn
 goddess
 godfather
 goes
@@ -6013,6 +6061,7 @@ grove
 grow
 grow up
 grower
+growing
 growl
 grown
 grown-up
@@ -6043,6 +6092,7 @@ guinea
 guinea pig
 guise
 guitar
+gulf
 gullible
 gully
 gulp
@@ -6403,6 +6453,7 @@ hitch
 hitherto
 hitter
 hive
+hmm
 hoard
 hoarse
 hoax
@@ -6613,6 +6664,8 @@ hysterectomy
 hysteria
 hysterical
 i.e.
+iPad
+iPhone
 ibid.
 ice
 ice age
@@ -6816,6 +6869,8 @@ incorporate
 incorporation
 incorrect
 increase
+increased
+increasing
 increasingly
 incredible
 incredibly
@@ -7048,6 +7103,7 @@ institutional
 institutionalize
 instruct
 instruction
+instructional
 instructive
 instructor
 instrument
@@ -7399,6 +7455,7 @@ kilometer
 kilometre
 kin
 kind
+kinda
 kindergarten
 kindly
 kindness
@@ -7700,6 +7757,7 @@ lighten
 lighter
 lighthouse
 lighting
+lightly
 lightning
 lightweight
 like
@@ -7839,6 +7897,7 @@ long-time
 longevity
 longing
 longitudinal
+longtime
 loo
 look
 look after
@@ -7861,6 +7920,7 @@ loss
 lost
 lot
 lotion
+lots
 lottery
 lotus
 loud
@@ -7990,6 +8050,7 @@ make up
 make-up
 maker
 makeshift
+makeup
 making
 malaise
 malaria
@@ -8431,6 +8492,9 @@ mixed up
 mixer
 mixture
 ml
+mm
+mm-hmm
+mmm
 moan
 moat
 mob
@@ -8616,6 +8680,7 @@ municipality
 munitions
 mural
 murder
+murderer
 murderous
 murky
 murmur
@@ -8674,6 +8739,7 @@ nappy
 narcotic
 narrate
 narrative
+narrator
 narrow
 nasal
 nasty
@@ -8843,6 +8909,7 @@ none
 nonetheless
 nonlinear
 nonpayment
+nonprofit
 nonsense
 noodle
 noon
@@ -8857,7 +8924,9 @@ normative
 north
 north-east
 north-west
+northeast
 northern
+northwest
 nose
 nostalgia
 nostalgic
@@ -9093,6 +9162,7 @@ openly
 opera
 opera house
 operate
+operating
 operating system
 operation
 operational
@@ -9528,6 +9598,7 @@ payment
 payoff
 payout
 payroll
+pc
 pea
 peace
 peaceful
@@ -9595,6 +9666,7 @@ per
 per annum
 per capita
 perceive
+perceived
 percent
 percentage
 perception
@@ -9729,6 +9801,7 @@ picked
 picket
 picket line
 pickle
+pickup
 picnic
 pictorial
 picture
@@ -9835,6 +9908,7 @@ playground
 playgroup
 playhouse
 playing field
+playoff
 playwright
 plaza
 plc
@@ -9880,6 +9954,7 @@ plush
 plutonium
 ply
 plywood
+pm
 pneumonia
 poach
 pocket
@@ -10529,6 +10604,7 @@ quarrel
 quarry
 quarter
 quarter-final
+quarterback
 quarterly
 quartet
 quasar
@@ -10671,8 +10747,10 @@ raving
 raw
 ray
 razor
+re
 re-
 re-elect
+re-election
 re-enter
 re-examine
 reach
@@ -11065,6 +11143,7 @@ reputed
 request
 requiem
 require
+required
 requirement
 requisite
 rerun
@@ -11321,6 +11400,7 @@ roll up
 roller
 roller-coaster
 rolling
+roman
 romance
 romantic
 romanticism
@@ -11466,6 +11546,7 @@ salad
 salaried
 salary
 sale
+sales
 sales tax
 salesman
 salespeople
@@ -11760,6 +11841,7 @@ semi-final
 semiconductor
 seminal
 seminar
+senate
 senator
 send
 sender
@@ -11879,6 +11961,7 @@ shape
 shaped
 share
 share index
+shared
 shareholder
 shark
 sharp
@@ -11927,6 +12010,7 @@ shipping
 shipyard
 shire
 shirt
+shit
 shiver
 shoal
 shock
@@ -12014,6 +12098,7 @@ sickness
 side
 side effect
 side-on
+sidebar
 sideline
 sidestep
 sidewalk
@@ -12295,6 +12380,7 @@ sofa
 soft
 soft drink
 soften
+softly
 software
 soggy
 soil
@@ -12371,12 +12457,15 @@ sourness
 south
 south-eastern
 south-west
+southeast
 southern
 southerner
+southwest
 southwestern
 souvenir
 sovereign
 sovereignty
+soviet
 sow
 soya
 spa
@@ -12608,6 +12697,7 @@ stare
 stark
 start
 starter
+starting
 starting point
 startle
 startling
@@ -13203,6 +13293,7 @@ teaching
 teak
 team
 team-mate
+teammate
 teapot
 tear
 tearful
@@ -13795,6 +13886,7 @@ turtle
 tussle
 tutor
 tutorial
+tv
 twang
 tweed
 twelfth
@@ -13809,6 +13901,7 @@ twinkle
 twirl
 twist
 twitch
+twitter
 two
 two-edged
 two-piece
@@ -13827,6 +13920,7 @@ tyre
 ubiquitous
 ugh
 ugly
+uh
 uh-huh
 ulcer
 ultimate
@@ -14759,6 +14853,7 @@ workload
 workman
 workout
 workplace
+works
 worksheet
 workshop
 workstation
