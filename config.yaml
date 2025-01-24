@@ -5,26 +5,7 @@
 - name: 
 
 - name: gmat
-  input: origin/GMAT.json
-  output: dest/GM.txt
-  wordPath:
-    - headWord
-  replace:
-    antibiotics: ["antibiotic"]
-    compensatorily: [compensatory]
-    et al: [et al.]
-    etched: [etch]
-    inverted: ["invert"]
-    mass-transit: ["mass transit"]
-    mosaics: ["mosaic"]
-    paleolithic: ["Paleolithic"]
-    repousse: [repoussé]
-    single-entry: ["single entry"]
-    spiced: [spice]
-    unreimbursed: ["reimburse"]
-    upholstered: [upholster]
-    vertice: ["vertex"]
-    vortices: [vortex]
+
 - name: bec
   input: origin/BEC.json
   output: dest/BE.txt
