@@ -75,9 +75,11 @@ Australia
 Australian
 Austria
 Austrian
+B-school
 BA
 BBC
 BC
+BE
 BR
 BS
 BSc
@@ -225,6 +227,7 @@ Crucifixion
 Cuban
 Czechoslovakia
 D.A.
+D/A
 DAT
 DC
 DIY
@@ -1300,6 +1303,7 @@ adaptation
 adapter
 adaptive
 add
+add-on
 added
 addendum
 addict
@@ -2931,6 +2935,7 @@ belong to
 belongings
 beloved
 below
+below-the-line
 belt
 belter
 beluga
@@ -3229,6 +3234,7 @@ blubber
 bludgeon
 blue
 blue chip
+blue-collar
 bluebell
 bluebird
 bluefin
@@ -5526,6 +5532,7 @@ cosset
 cost
 cost of living
 cost-effective
+cost-effectiveness
 costing
 costly
 costume
@@ -5912,6 +5919,8 @@ cut
 cut up
 cut-off
 cut-price
+cut-rate
+cut-throat
 cutback
 cute
 cuticle
@@ -7343,6 +7352,7 @@ dyspeptic
 dysphoria
 dystrophy
 e-book
+e-commerce
 e-mail
 e.g.
 each
@@ -7708,6 +7718,7 @@ enchanting
 enchantment
 encipher
 encircle
+encl.
 enclave
 enclose
 enclosed
@@ -7730,7 +7741,9 @@ encumbrance
 encyclopedia
 encyclopedic
 end
+end product
 end result
+end user
 endanger
 endangered
 endear
@@ -8114,6 +8127,7 @@ evolutionary
 evolve
 ewer
 ex
+ex-dividend
 exacerbate
 exact
 exacting
@@ -8408,6 +8422,7 @@ fabulous
 facade
 face
 face value
+face-to-face
 faceless
 facelift
 facet
@@ -9683,6 +9698,7 @@ gilded
 gilding
 gill
 gilt
+gilt-edged
 gimcrack
 gimmick
 gin
@@ -9795,6 +9811,7 @@ go up
 go-ahead
 go-between
 go-go
+go-slow
 goad
 goal
 goalkeeper
@@ -11014,6 +11031,7 @@ ill health
 ill repute
 ill will
 ill-fated
+ill-mannered
 ill-prepared
 illegal
 illegality
@@ -12276,6 +12294,7 @@ juror
 jury
 just
 just about
+just-in-time
 justice
 justifiable
 justification
@@ -12590,6 +12609,7 @@ lax
 laxative
 laxity
 lay
+lay-off
 layabout
 layer
 layered
@@ -13628,6 +13648,7 @@ mentor
 menu
 mercantile
 mercantilism
+mercantilist
 mercenary
 merchandise
 merchandising
@@ -14605,6 +14626,7 @@ nominee
 non-
 non-aligned
 non-existent
+non-negotiable
 non-proliferation
 non-smoker
 non-stick
@@ -14924,6 +14946,8 @@ off-balance
 off-duty
 off-key
 off-season
+off-the-peg
+off-the-shelf
 off-the-wall
 offal
 offbeat
@@ -15250,6 +15274,7 @@ outflow
 outfox
 outgas
 outgoing
+outgoings
 outgrow
 outgrowth
 outing
@@ -15418,6 +15443,7 @@ owing to
 owl
 own
 own goal
+own-brand
 owner
 ownership
 ox
@@ -15433,6 +15459,7 @@ oystercatcher
 oz.
 ozone
 ozone layer
+p.a.
 p.m.
 pH
 pabulum
@@ -16399,6 +16426,8 @@ poikilothermic
 point
 point of view
 point-blank
+point-of-sale
+point-of-sales
 pointe
 pointed
 pointer
@@ -17206,6 +17235,7 @@ pry
 prying
 psalm
 psephology
+pseudo
 pseudonym
 psyche
 psychedelic
@@ -18599,6 +18629,7 @@ rock
 rock and roll
 rock bottom
 rock garden
+rock-bottom
 rocker
 rocket
 rocky
@@ -19276,6 +19307,7 @@ self-help
 self-image
 self-imposed
 self-interest
+self-made
 self-pity
 self-realization
 self-respect
@@ -19298,6 +19330,7 @@ semen
 semester
 semi
 semi-final
+semi-skilled
 semiannual
 semiarid
 semicircle
@@ -21352,6 +21385,7 @@ take
 take off
 take place
 take steps
+take-up
 takeoff
 takeover
 taker
@@ -21440,6 +21474,7 @@ tax break
 tax evasion
 tax relief
 tax return
+tax-deductible
 tax-free
 taxable
 taxation
@@ -21853,6 +21888,7 @@ tint
 tiny
 tip
 tip-off
+tip-top
 tippy
 tipsy
 tiptoe
@@ -22929,6 +22965,7 @@ up front
 up to
 up to date
 up-and-coming
+up-market
 up-to-date
 upbeat
 upbraid
@@ -23076,6 +23113,7 @@ valuable
 valuables
 valuation
 value
+value-added
 valve
 vamoose
 vamp
@@ -23460,6 +23498,7 @@ waling
 walk
 walk of life
 walk-on
+walk-out
 walk-up
 walker
 walking
@@ -23731,6 +23770,7 @@ wholesale
 wholesaler
 wholesome
 wholly
+wholly-owned
 whom
 whoop
 whoosh
