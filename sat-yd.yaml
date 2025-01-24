@@ -1,0 +1,14 @@
+input: origin/SAT_2.json
+output: dest/SAT-yd.txt
+wordPath: [headWord]
+replace:
+  Aluminum: [aluminum]
+  Iron: [iron]
+  Oxygen: [oxygen]
+  antibiotics: [antibiotic]
+  attache: [attaché]
+  blase: [blasé]
+  comestibles: [comestible]
+  cooling: [cool]
+  flagella: [flagellum]
+  larvae: [larva]

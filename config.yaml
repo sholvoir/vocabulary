@@ -2,20 +2,8 @@
 
 - name: 
 
-- name: sat
-  input: origin/SAT.json
-  output: dest/ST.txt
-  wordPath:
-    - headWord
-  replace:
-    Aluminum: [aluminum]
-    antibiotics: ["antibiotic"]
-    blase: ["blasé"]
-    Iron: ["iron"]
-    Oxygen: ["oxygen"]
-    cooling: [cool]
-    attache: [attaché]
-    comestibles: [comestible]
+- name: 
+
 - name: gmat
   input: origin/GMAT.json
   output: dest/GM.txt
