@@ -1,16 +1,4 @@
 
-- name: tsl
-  input: origin/TSL1.2LemmatizedForTeaching.csv
-  # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
-  output: dest/TL.txt
-  test: '[^\na-zé ''-]'
-  process:
-    - [[\r, g]]
-    - [['�', g], 'é']
-    - [['^#.*\n*', gm]]
-    - [['^([\wé ''-]+?),.*$', gm], $1]
-  replace:
-    unauthorize: ["authorize"]
 - name: bsl
   input: origin/BSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
