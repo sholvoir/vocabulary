@@ -1,14 +1,4 @@
 
-- name: ngsls
-  input: origin/NGSLSpoken1.2LemmatizedForTeaching.csv
-  # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
-  output: dest/GS.txt
-  test: '[^\na-z]'
-  process:
-    - [[\r, g]]
-    - [['^(\w+?),.*$', gm], $1]
-  replace:
-    i: ["I"]
 - name: coca
   input: origin/CocaTop5000WordFrequency.csv
   output: dest/CA.txt
