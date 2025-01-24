@@ -1,0 +1,16 @@
+input: origin/KaoYan_3.json
+output: dest/MasterAdmissionsExamination-xdf.txt
+wordPath: [headWord]
+replace:
+  Thanksgiving: [thanksgiving]
+  by-pass: [bypass]
+  characterise: [characterize]
+  civilisation: [civilization]
+  civilise: [civilize]
+  encyclopaedia: [encyclopedia]
+  fertiliser: [fertilizer]
+  generalise: [generalize]
+  organisation: [organization]
+  organise: [organize]
+  resumé: [résumé]
+  specialise: [specialize]

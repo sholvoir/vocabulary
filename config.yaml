@@ -1,14 +1,4 @@
 
-- name: npee
-  input: origin/KaoYan.json
-  output: dest/KY.txt
-  wordPath:
-    - headWord
-  replace:
-    by-pass: ["bypass"]
-    encyclopaedia: [encyclopedia]
-    resumé: [résumé]
-    Thanksgiving: [thanksgiving]
 - name: cet4
   input: origin/CET4.json
   output: dest/T4.txt

@@ -870,6 +870,7 @@ a bit
 a great deal
 a little
 a lot
+a.
 a.m.
 aah
 aback
@@ -994,6 +995,7 @@ acquisition
 acquit
 acre
 acrimonious
+acrobat
 acronym
 across
 acrylic
@@ -1339,6 +1341,7 @@ anaemia
 anaerobic
 anaesthetic
 anal
+analog
 analogue
 analogy
 analyse
@@ -1457,6 +1460,7 @@ apologize
 apology
 app
 appal
+appall
 appalling
 apparatus
 apparel
@@ -1756,6 +1760,7 @@ autograph
 automate
 automatic
 automatically
+automation
 automobile
 automotive
 autonomous
@@ -1795,6 +1800,7 @@ awful
 awfully
 awhile
 awkward
+ax
 axe
 axiom
 axis
@@ -2085,6 +2091,7 @@ betting shop
 between
 beverage
 beware
+bewilder
 bewildered
 bewilderment
 beyond
@@ -2850,6 +2857,7 @@ cellulite
 cement
 cemetery
 censor
+censorship
 censure
 census
 cent
@@ -3177,6 +3185,7 @@ closing
 closure
 clot
 cloth
+clothe
 clothed
 clothes
 clothing
@@ -3241,6 +3250,7 @@ coherent
 cohesion
 cohesive
 cohort
+coil
 coin
 coincide
 coincidence
@@ -3543,6 +3553,7 @@ connect
 connected
 connection
 connector
+connexion
 connoisseur
 connotation
 conquer
@@ -3695,6 +3706,7 @@ converge
 convergence
 conversation
 converse
+conversely
 conversion
 convert
 converter
@@ -3763,6 +3775,7 @@ correspondent
 corresponding
 corridor
 corroborate
+corrode
 corrugated
 corrupt
 corruption
@@ -3854,6 +3867,7 @@ cowardly
 cowboy
 coworker
 coy
+cozy
 crab
 crack
 crackdown
@@ -4058,6 +4072,7 @@ cutter
 cutting
 cutting edge
 cyanide
+cyberspace
 cycle
 cyclic
 cyclical
@@ -4117,6 +4132,7 @@ date
 datum
 daughter
 daughter-in-law
+daunt
 daunting
 dawn
 day
@@ -4388,6 +4404,7 @@ desk
 desktop
 desolate
 despair
+despatch
 desperate
 desperately
 desperation
@@ -4461,6 +4478,7 @@ devotee
 devotion
 devour
 devout
+dew
 diabetes
 diabetic
 diagnose
@@ -4692,6 +4710,7 @@ distance
 distant
 distaste
 distil
+distill
 distillery
 distinct
 distinction
@@ -4962,6 +4981,7 @@ dye
 dying
 dyke
 dynamic
+dynamical
 dynamics
 dynamism
 dynamite
@@ -5000,6 +5020,7 @@ eat
 eater
 eating
 eavesdrop
+ebb
 ebullient
 eccentric
 ecclesiastical
@@ -5202,6 +5223,7 @@ end result
 endanger
 endear
 endearing
+endeavor
 endeavour
 endemic
 ending
@@ -5663,6 +5685,7 @@ fanfare
 fang
 fantasize
 fantastic
+fantastical
 fantasy
 fanzine
 far
@@ -5684,6 +5707,7 @@ fart
 fascia
 fascial
 fascinate
+fascinated
 fascinating
 fascination
 fascism
@@ -5706,6 +5730,7 @@ father-in-law
 fatherland
 fathom
 fatigue
+fatigued
 fatty
 fault
 faultless
@@ -5923,6 +5948,7 @@ flashy
 flask
 flat
 flatten
+flatter
 flattered
 flattering
 flaunt
@@ -6285,6 +6311,7 @@ futuristic
 fuzzy
 gadget
 gag
+gage
 gain
 gait
 gal
@@ -6307,6 +6334,7 @@ gaming
 gamma
 gang
 gangster
+gaol
 gap
 gape
 garage
@@ -6325,6 +6353,7 @@ gas
 gas mask
 gas station
 gash
+gasolene
 gasoline
 gasp
 gastric
@@ -6557,6 +6586,7 @@ gram
 grammar
 grammar school
 grammatical
+gramme
 gran
 grand
 grand jury
@@ -7019,6 +7049,8 @@ high-ranking
 high-rise
 high-up
 higher education
+highjack
+highland
 highlight
 highly
 highway
@@ -7144,6 +7176,7 @@ horse
 horse racing
 horseback
 horseman
+horsepower
 horseshoe
 hose
 hospice
@@ -7531,6 +7564,7 @@ indifferent
 indigenous
 indigestion
 indignant
+indignation
 indignity
 indigo
 indirect
@@ -7552,6 +7586,7 @@ industrial
 industrial action
 industrial estate
 industrial relations
+industrialise
 industrialist
 industrialization
 industrialize
@@ -7761,6 +7796,7 @@ intellectual
 intelligence
 intelligent
 intelligentsia
+intelligible
 intend
 intended
 intense
@@ -7857,6 +7893,7 @@ invade
 invader
 invalid
 invaluable
+invariable
 invariably
 invasion
 invasive
@@ -7865,6 +7902,7 @@ invention
 inventive
 inventor
 inventory
+inverse
 inversion
 invert
 invest
@@ -8530,6 +8568,7 @@ long-time
 longer
 longevity
 longing
+longitude
 longitudinal
 longtime
 loo
@@ -8803,6 +8842,7 @@ martial law
 martyr
 marvel
 marvellous
+marvelous
 mascara
 mascot
 masculine
@@ -9142,6 +9182,7 @@ mob
 mobile
 mobile home
 mobile phone
+mobilise
 mobility
 mobilize
 mock
@@ -9156,6 +9197,7 @@ modern
 modern-day
 modernism
 modernist
+modernization
 modernize
 modest
 modesty
@@ -9566,6 +9608,7 @@ nope
 nor
 norm
 normal
+normalization
 normalize
 normally
 normative
@@ -9708,6 +9751,7 @@ oddity
 oddly
 odds
 odds-on
+odor
 odour
 odyssey
 oestrogen
@@ -10009,6 +10053,7 @@ overload
 overlook
 overly
 overnight
+overpass
 overpay
 overpower
 overpowering
@@ -10037,6 +10082,7 @@ overwhelming
 overwork
 ovulate
 owe
+owing
 owing to
 owl
 own
@@ -10073,6 +10119,7 @@ page
 pageant
 paid
 paid-up
+pail
 pain
 pained
 painful
@@ -10135,6 +10182,7 @@ paralegal
 parallel
 paralyse
 paralysis
+paralyze
 parameter
 paramilitary
 paramount
@@ -10196,6 +10244,7 @@ passageway
 passed
 passenger
 passer-by
+passerby
 passing
 passion
 passionate
@@ -10233,6 +10282,7 @@ patriarchal
 patriarchy
 patrician
 patriot
+patriotic
 patriotism
 patrol
 patron
@@ -10368,6 +10418,7 @@ perpendicular
 perpetrate
 perpetual
 perpetuate
+perplex
 persecute
 persevere
 persist
@@ -10396,6 +10447,7 @@ perversion
 pervert
 peso
 pessimism
+pessimistic
 pest
 pester
 pesticide
@@ -10819,6 +10871,7 @@ precaution
 precede
 precedence
 precedent
+preceding
 precinct
 precious
 precious metal
@@ -11272,11 +11325,13 @@ quarantine
 quark
 quarrel
 quarry
+quart
 quarter
 quarter-final
 quarterback
 quarterly
 quartet
+quartz
 quasar
 quash
 quasi
@@ -11285,6 +11340,7 @@ quay
 queen
 queer
 quell
+quench
 query
 quest
 question
@@ -11516,6 +11572,7 @@ recognition
 recognizable
 recognize
 recoil
+recollect
 recommend
 recommendation
 reconcile
@@ -11594,6 +11651,7 @@ reflect
 reflection
 reflective
 reflex
+reflexion
 reflexive
 reflexology
 reform
@@ -11799,6 +11857,7 @@ represent
 representation
 representative
 repress
+repression
 repressive
 reprieve
 reprimand
@@ -12480,6 +12539,7 @@ seep
 seethe
 segment
 segmentation
+segregate
 segregated
 seismic
 seize
@@ -13019,12 +13079,14 @@ sniper
 snippet
 snob
 snobbery
+snobbish
 snooker
 snore
 snort
 snow
 snow-white
 snowball
+snowstorm
 snowy
 snub
 snuff
@@ -13123,6 +13185,7 @@ soothe
 sophisticate
 sophisticated
 sophistication
+sophomore
 soprano
 sordid
 sore
@@ -13165,6 +13228,7 @@ space
 space shuttle
 space station
 spacecraft
+spaceship
 spacious
 spade
 spaghetti
@@ -13410,6 +13474,7 @@ statement
 statesman
 statewide
 static
+statical
 station
 stationary
 stationery
@@ -13703,6 +13768,7 @@ suitcase
 suite
 suited
 suitor
+sulfur
 sulk
 sullen
 sulphate
@@ -13742,6 +13808,7 @@ superfluous
 superimpose
 superintendent
 superior
+superiority
 superlative
 supermarket
 supermodel
@@ -13877,6 +13944,7 @@ symbolize
 symmetrical
 symmetry
 sympathetic
+sympathise
 sympathize
 sympathy
 symphony
@@ -13922,6 +13990,7 @@ tact
 tactful
 tactic
 tactical
+tactics
 tag
 tail
 tailbone
@@ -14153,6 +14222,7 @@ thereafter
 thereby
 therefore
 therein
+thereof
 thermal
 thermometer
 thermos
@@ -14311,6 +14381,7 @@ token
 told
 tolerable
 tolerance
+tolerant
 tolerate
 toll
 tomato
@@ -14521,6 +14592,7 @@ trivia
 trivial
 trolley
 trolleybus
+trolly
 troop
 trooper
 trophy
@@ -14623,6 +14695,7 @@ typical
 typically
 typify
 typing
+typist
 tyranny
 tyrant
 tyre
@@ -14914,6 +14987,7 @@ up front
 up to
 up to date
 up-and-coming
+up-to-date
 upbeat
 upbringing
 upcoming
@@ -14977,6 +15051,7 @@ usually
 usurp
 utensil
 uterus
+utilise
 utilitarian
 utility
 utilization
@@ -15020,6 +15095,7 @@ vanilla
 vanish
 vanity
 vantage point
+vapor
 vapour
 variability
 variable
@@ -15210,6 +15286,7 @@ vowel
 voyage
 vroom
 vs
+vs.
 vulgar
 vulnerability
 vulnerable
@@ -15224,6 +15301,7 @@ wag
 wage
 wager
 wages
+waggon
 wagon
 wail
 waist
@@ -15239,6 +15317,7 @@ waive
 waiver
 wake
 wake up
+waken
 walk
 walk of life
 walk-on
