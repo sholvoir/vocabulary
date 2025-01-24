@@ -1,22 +1,7 @@
 - name: 
 
-- name: ielts
-  input: origin/IELTS.json
-  output: dest/IS.txt
-  wordPath:
-    - headWord
-  replace:
-    a calculated crime: [a, calculate, crime]
-    freefone: ["Freefone"]
-    front-line: [frontline]
-    inductive reasoning: [inductive, reason]
-    Kung Fu: ["kung fu"]
-    MasterCard: []
-    overlapping: [overlap]
-    utilisation: ["utilization"]
-    water-borne: [waterborne]
-    world-wide: ["worldwide"]
-    solar-powered: [solar power]
+- name: 
+
 - name: sat
   input: origin/SAT.json
   output: dest/ST.txt

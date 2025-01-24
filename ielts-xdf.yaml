@@ -1,0 +1,23 @@
+input: origin/IELTS_3.json
+output: dest/IELTS-xdf.txt
+wordPath: [headWord]
+replace:
+  Kung Fu: [kung fu]
+  MasterCard: []
+  a calculated crime: [a, calculate, crime]
+  authorise: [authorize]
+  freefone: [Freefone]
+  front-line: [frontline]
+  generalise: [generalize]
+  in addition to: [in, addition, to]
+  in comparison with: [in, comparison, with]
+  in favour of: [in, favour, of]
+  inductive reasoning: [inductive, reason]
+  overlapping: [overlap]
+  solar-powered: [solar power]
+  specialise: [specialize]
+  stabilise: [stabilize]
+  synchronise: [synchronize]
+  utilisation: [utilization]
+  water-borne: [waterborne]
+  world-wide: [worldwide]
