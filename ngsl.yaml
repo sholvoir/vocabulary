@@ -1,6 +1,6 @@
 # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
 input: origin/NGSL1.2LemmatizedForTeaching.csv
-output: dest/NGSL.txt
+output: dest/NewGeneralServiceList.txt
 test: '[^\na-zA-Z]'
 process:
   - [[\r, g]]

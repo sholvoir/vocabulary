@@ -1,17 +1,4 @@
 
-- name: nawl
-  input: origin/NAWL1.2LemmatizedForTeaching.csv
-  # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
-  output: dest/AW.txt
-  test: '[^\na-z]'
-  process:
-    - [[\r, g]]
-    - [['^(\w+?),.*$', gm], $1]
-  replace:
-    founds: [found]
-    neo: ["neo-"]
-    non: [non-]
-    pre: ["pre-"]
 - name: tsl
   input: origin/TSL1.2LemmatizedForTeaching.csv
   # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv

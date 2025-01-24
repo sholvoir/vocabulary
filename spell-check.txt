@@ -346,6 +346,7 @@ abate
 abbey
 abbreviation
 abdomen
+abdominal
 abduct
 aberration
 abide
@@ -376,6 +377,7 @@ absolute
 absolutely
 absorb
 absorbing
+absorption
 abstain
 abstinence
 abstract
@@ -443,6 +445,7 @@ achievement
 achiever
 acid
 acid rain
+acidic
 acknowledge
 acknowledgement
 acne
@@ -463,6 +466,7 @@ action
 activate
 activation
 active
+actively
 activism
 activist
 activity
@@ -480,6 +484,7 @@ adamant
 adapt
 adaptable
 adaptation
+adaptive
 add
 added
 addict
@@ -582,6 +587,7 @@ after-hours
 after-school
 aftermath
 afternoon
+afterward
 afterwards
 again
 against
@@ -659,6 +665,8 @@ alcove
 ale
 alert
 algae
+algebra
+algorithm
 alias
 alibi
 alien
@@ -723,6 +731,7 @@ although
 altitude
 altogether
 aluminium
+aluminum
 alumnus
 always
 am
@@ -748,6 +757,7 @@ amenity
 amiable
 amicable
 amid
+amino
 amino acid
 ammonia
 ammunition
@@ -760,6 +770,7 @@ amphibious
 ample
 amplifier
 amplify
+amplitude
 amputate
 amuse
 amused
@@ -839,6 +850,7 @@ antenna
 anthem
 anthology
 anthropology
+anti
 anti-Semitism
 antibiotic
 antibody
@@ -919,6 +931,7 @@ approval
 approve
 approximate
 approximately
+approximation
 apricot
 apron
 apt
@@ -997,6 +1010,7 @@ arthritis
 artichoke
 article
 articulate
+artifact
 artificial
 artificial intelligence
 artificially
@@ -1190,6 +1204,7 @@ awfully
 awhile
 awkward
 axe
+axiom
 axis
 axle
 aye
@@ -1217,6 +1232,7 @@ backwater
 backyard
 bacon
 bacteria
+bacterial
 bad
 bad debt
 badge
@@ -1401,6 +1417,7 @@ beginning
 behalf
 behave
 behavior
+behavioral
 behaviour
 behavioural
 behind
@@ -1510,6 +1527,7 @@ biographer
 biographical
 biography
 biological
+biologist
 biology
 biosphere
 biotechnology
@@ -1985,6 +2003,7 @@ calculated
 calculating
 calculation
 calculator
+calculus
 calendar
 calf
 calibre
@@ -2556,6 +2575,7 @@ code
 code of practice
 coded
 coding
+coefficient
 coerce
 coercive
 coffee
@@ -2641,6 +2661,7 @@ comic
 comic book
 comical
 coming
+comma
 command
 commandant
 commander
@@ -2678,6 +2699,7 @@ communal
 commune
 communicate
 communication
+communicative
 communion
 communiqué
 communism
@@ -2753,6 +2775,7 @@ comptroller
 compulsion
 compulsive
 compulsory
+computation
 compute
 computer
 computer game
@@ -2800,6 +2823,7 @@ condone
 condor
 conducive
 conduct
+conduction
 conductor
 conduit
 cone
@@ -2847,6 +2871,7 @@ congregation
 congress
 congressional
 congressman
+congruent
 conifer
 conjecture
 conjunction
@@ -2854,6 +2879,7 @@ conjure
 connect
 connected
 connection
+connector
 connoisseur
 connotation
 conquer
@@ -2977,6 +3003,7 @@ contractor
 contractual
 contradict
 contradiction
+contradictory
 contrary
 contrast
 contravene
@@ -2997,6 +3024,7 @@ convent
 convention
 conventional
 converge
+convergence
 conversation
 converse
 conversion
@@ -3348,6 +3376,7 @@ cutting
 cutting edge
 cyanide
 cycle
+cyclic
 cyclical
 cyclist
 cyclone
@@ -3525,6 +3554,7 @@ definition
 definitive
 deflate
 deflect
+deflection
 deforest
 deform
 defraud
@@ -3576,6 +3606,7 @@ demolish
 demon
 demonstrate
 demonstration
+demonstrator
 demoralize
 demote
 den
@@ -3583,6 +3614,7 @@ denial
 denigrate
 denim
 denomination
+denominator
 denote
 denounce
 dense
@@ -3637,10 +3669,12 @@ dermatologist
 descend
 descendant
 descended
+descendent
 descent
 describe
 description
 descriptive
+descriptor
 desecrate
 desert
 desert island
@@ -3713,6 +3747,7 @@ development
 developmental
 deviant
 deviate
+deviation
 device
 devil
 devious
@@ -3761,11 +3796,13 @@ difference
 different
 differential
 differentiate
+differentiation
 differently
 difficult
 difficulty
 diffident
 diffuse
+diffusion
 dig
 digest
 digestion
@@ -3785,6 +3822,7 @@ dilute
 dim
 dime
 dimension
+dimensional
 diminish
 diminutive
 din
@@ -3798,6 +3836,7 @@ dinner party
 dinner table
 dinosaur
 diocese
+dioxide
 dip
 diploma
 diplomacy
@@ -3868,6 +3907,7 @@ discovery
 discredit
 discreet
 discrepancy
+discrete
 discretion
 discretionary
 discriminate
@@ -3916,6 +3956,7 @@ dispel
 dispense
 disperse
 displace
+displacement
 display
 displeasure
 disposable
@@ -3934,6 +3975,7 @@ disrupt
 disruption
 dissatisfied
 dissect
+dissection
 disseminate
 dissent
 dissertation
@@ -4025,6 +4067,7 @@ domesticate
 dominance
 dominant
 dominate
+domination
 dominion
 domino
 don't
@@ -4240,6 +4283,7 @@ ecological
 ecology
 economic
 economical
+economically
 economics
 economist
 economy
@@ -4319,12 +4363,14 @@ elementary
 elementary school
 elephant
 elevate
+elevation
 elevator
 eleven
 eleventh
 elicit
 eligible
 eliminate
+elimination
 elite
 elitist
 elm
@@ -4459,6 +4505,7 @@ enlightenment
 enlist
 enliven
 enormous
+enormously
 enough
 enquire
 enquiry
@@ -4511,6 +4558,7 @@ envy
 enzyme
 epic
 epidemic
+epidemiology
 epilepsy
 episode
 epitome
@@ -4531,6 +4579,7 @@ equip
 equipment
 equitable
 equity
+equivalence
 equivalent
 era
 eradicate
@@ -4566,6 +4615,7 @@ establishment
 estate
 esteem
 estimate
+estimation
 estranged
 estuary
 et al.
@@ -4576,6 +4626,7 @@ eternity
 ethereal
 ethic
 ethical
+ethics
 ethnic
 ethnic cleansing
 ethos
@@ -4621,6 +4672,7 @@ evoke
 evolution
 evolutionary
 evolve
+ex
 exacerbate
 exact
 exactly
@@ -4727,6 +4779,7 @@ explore
 explosion
 explosive
 exponent
+exponential
 export
 expose
 exposed
@@ -4793,6 +4846,7 @@ fact of life
 fact-finding
 faction
 factor
+factorial
 factors
 factory
 factual
@@ -4946,6 +5000,7 @@ ferocious
 ferret
 ferry
 fertile
+fertility
 fertilize
 fertilizer
 fervent
@@ -4955,6 +5010,7 @@ festival
 festive
 festivity
 festoon
+fetal
 fetch
 fete
 fetish
@@ -4968,6 +5024,7 @@ ff.
 fiancé
 fiancée
 fiasco
+fiber
 fibre
 fickle
 fiction
@@ -5509,6 +5566,7 @@ general
 general election
 general public
 general strike
+generalization
 generalize
 generalized
 generally
@@ -5520,6 +5578,7 @@ generous
 generously
 genetic
 genetic engineering
+genetically
 genetics
 genial
 genital
@@ -5696,6 +5755,7 @@ grain
 gram
 grammar
 grammar school
+grammatical
 gran
 grand
 grand jury
@@ -6012,6 +6072,7 @@ headlong
 headmaster
 headmistress
 headphones
+headquarter
 headquarters
 headway
 heady
@@ -6069,6 +6130,7 @@ heir
 held
 helicopter
 helium
+helix
 hell
 hello
 helm
@@ -6171,6 +6233,7 @@ hiss
 historian
 historic
 historical
+historically
 history
 hit
 hit list
@@ -6497,6 +6560,7 @@ impolite
 import
 importance
 important
+importantly
 impose
 imposing
 impossible
@@ -6599,6 +6663,7 @@ indefinite
 indemnity
 independence
 independent
+independently
 index
 indicate
 indication
@@ -6607,6 +6672,7 @@ indicator
 indict
 indictment
 indie
+indifference
 indifferent
 indigenous
 indigestion
@@ -6621,6 +6687,7 @@ indisputable
 indistinguishable
 individual
 individuality
+individually
 indoor
 indoors
 induce
@@ -6632,6 +6699,7 @@ industrial action
 industrial estate
 industrial relations
 industrialist
+industrialization
 industrialize
 industrialized
 industry
@@ -6928,6 +6996,7 @@ invention
 inventive
 inventor
 inventory
+inversion
 invert
 invest
 investigate
@@ -6969,6 +7038,7 @@ irreverent
 irreversible
 irrevocable
 irrigate
+irrigation
 irritable
 irritant
 irritate
@@ -7368,6 +7438,7 @@ lever
 leverage
 levitate
 levy
+lexical
 liability
 liable
 liaise
@@ -7457,6 +7528,7 @@ linesman
 linger
 lingerie
 linguist
+linguistic
 linguistics
 lining
 link
@@ -7514,6 +7586,7 @@ local
 local authority
 local time
 locality
+locally
 locate
 located
 location
@@ -7522,6 +7595,7 @@ lock
 locker
 locker room
 locomotive
+locus
 locust
 lodge
 lodger
@@ -7551,6 +7625,7 @@ long-term
 long-time
 longevity
 longing
+longitudinal
 loo
 look
 look after
@@ -7997,6 +8072,7 @@ metropolis
 metropolitan
 mews
 mg
+micro
 microchip
 microorganism
 microphone
@@ -8004,6 +8080,7 @@ microprocessor
 microscope
 microscopic
 microwave
+mid
 midday
 middle
 middle age
@@ -8041,6 +8118,7 @@ mill
 millennium
 millet
 milligram
+millimeter
 millimetre
 million
 millionaire
@@ -8154,6 +8232,7 @@ moist
 moisture
 moisturize
 mole
+molecular
 molecular biology
 molecule
 molest
@@ -8208,7 +8287,10 @@ moreover
 moribund
 morning
 morphine
+morphological
+morphology
 mortal
+mortality
 mortar
 mortgage
 mosaic
@@ -8281,6 +8363,7 @@ mulch
 mule
 mull
 mullet
+multi
 multilateral
 multimedia
 multimillionaire
@@ -8319,6 +8402,7 @@ mustard
 muster
 mutant
 mutate
+mutation
 mute
 mutilate
 mutiny
@@ -8363,6 +8447,7 @@ national anthem
 national insurance
 national park
 national service
+nationalism
 nationalist
 nationality
 nationalize
@@ -8413,6 +8498,7 @@ neighbour
 neighbourhood
 neighbouring
 neither
+neo-
 neoclassical
 neon
 nephew
@@ -8503,6 +8589,7 @@ nominal
 nominate
 nomination
 nominee
+non-
 non-aligned
 non-existent
 non-proliferation
@@ -8514,6 +8601,7 @@ non-white
 nonchalant
 none
 nonetheless
+nonlinear
 nonpayment
 nonsense
 noodle
@@ -8537,6 +8625,7 @@ nostril
 not
 notable
 notably
+notation
 notch
 note
 notebook
@@ -8572,6 +8661,7 @@ nucleus
 nude
 nudge
 nuisance
+null
 numb
 number
 number one
@@ -8740,6 +8830,7 @@ onstage
 onto
 onus
 onward
+onwards
 onyx
 ooh
 ooze
@@ -8786,6 +8877,7 @@ opt-out
 optic
 optical
 optics
+optimal
 optimism
 optimistic
 optimum
@@ -8836,6 +8928,7 @@ orphanage
 orthodox
 orthodoxy
 oscillate
+oscillation
 ostensible
 ostentatious
 osteoporosis
@@ -9072,6 +9165,7 @@ pare
 parent
 parentage
 parental
+parenthesis
 parenthood
 parenting
 parish
@@ -9341,6 +9435,7 @@ phone
 phone call
 phone-in
 phoney
+phonological
 phosphate
 phosphorus
 photo
@@ -9356,9 +9451,11 @@ physically
 physician
 physicist
 physics
+physiological
 physiology
 physiotherapist
 physique
+pi
 pianist
 piano
 piazza
@@ -9566,6 +9663,7 @@ political asylum
 political correctness
 political prisoner
 political science
+politically
 politician
 politicize
 politics
@@ -9628,6 +9726,7 @@ portfolio
 portion
 portrait
 portray
+portrayal
 pose
 posh
 position
@@ -9702,6 +9801,7 @@ prank
 prawn
 pray
 prayer
+pre-
 pre-eminent
 pre-empt
 pre-tax
@@ -9717,6 +9817,7 @@ precinct
 precious
 precious metal
 precipitate
+precipitation
 precipitous
 precise
 precisely
@@ -9830,6 +9931,7 @@ prime
 prime minister
 prime rate
 prime time
+primer
 primitive
 primrose
 prince
@@ -10231,6 +10333,8 @@ ramshackle
 ran
 ranch
 random
+randomize
+randomly
 range
 ranger
 rank
@@ -10264,6 +10368,7 @@ ratio
 ration
 rational
 rationale
+rationality
 rationalize
 rationing
 rattle
@@ -10476,6 +10581,7 @@ registrar
 registration
 registry
 regress
+regression
 regret
 regrettable
 regroup
@@ -10608,6 +10714,7 @@ replay
 replenish
 replica
 replicate
+replication
 reply
 report
 reportedly
@@ -11306,8 +11413,10 @@ sell
 sell-off
 sell-out
 seller
+semantic
 semblance
 semen
+semester
 semi
 semi-final
 semiconductor
@@ -11859,6 +11968,7 @@ solo
 soloist
 solstice
 soluble
+solute
 solution
 solve
 solvent
@@ -11885,6 +11995,7 @@ soon
 sooner
 soot
 soothe
+sophisticate
 sophisticated
 sophistication
 soprano
@@ -12014,6 +12125,7 @@ splatter
 spleen
 splendid
 splendour
+splice
 splinter
 split
 split second
@@ -12163,7 +12275,9 @@ stationary
 stationery
 statistic
 statistical
+statistically
 statistician
+statistics
 statue
 stature
 status
@@ -12372,6 +12486,7 @@ subscription
 subsequent
 subsequently
 subservient
+subset
 subside
 subsidiarity
 subsidiary
@@ -12385,6 +12500,7 @@ substantiate
 substantive
 substitute
 substitution
+substrate
 subterranean
 subtle
 subtlety
@@ -12614,6 +12730,8 @@ syndrome
 synod
 synonymous
 synopsis
+syntactic
+syntax
 synthesis
 synthesize
 synthesizer
@@ -12720,6 +12838,7 @@ tearful
 tears
 tease
 teaspoon
+tech
 technical
 technicality
 technically
@@ -12849,6 +12968,7 @@ themselves
 then
 theologian
 theology
+theorem
 theoretical
 theorist
 theorize
@@ -12872,6 +12992,7 @@ they've
 thick
 thicken
 thicket
+thickness
 thief
 thigh
 thin
@@ -13128,11 +13249,13 @@ tramp
 trample
 trance
 tranquil
+trans
 transaction
 transatlantic
 transcend
 transcribe
 transcript
+transcription
 transfer
 transform
 transformation
@@ -13263,6 +13386,7 @@ tuition
 tulip
 tumble
 tummy
+tumor
 tumour
 tuna
 tune
@@ -13610,6 +13734,7 @@ upholster
 upholstery
 upkeep
 upland
+uplift
 uplifting
 upmarket
 upon
@@ -13630,6 +13755,7 @@ upstream
 upsurge
 uptown
 upturn
+upward
 upwards
 uranium
 urban
@@ -13698,6 +13824,7 @@ vanish
 vanity
 vantage point
 vapour
+variability
 variable
 variance
 variant
@@ -13714,6 +13841,7 @@ vast
 vastly
 vault
 veal
+vector
 veer
 veg
 vegan
@@ -13853,6 +13981,7 @@ void
 volatile
 volcanic
 volcano
+volition
 volley
 volleyball
 volt
@@ -14299,6 +14428,7 @@ year
 year-long
 year-round
 yearly
+yeast
 yell
 yellow
 yellowish
