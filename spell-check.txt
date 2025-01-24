@@ -1121,6 +1121,7 @@ affirm
 affirmation
 affirmative
 affirmative action
+afflict
 affluent
 afford
 affordable
@@ -1343,6 +1344,7 @@ anaerobic
 anaesthetic
 anal
 analog
+analogous
 analogue
 analogy
 analyse
@@ -1499,6 +1501,7 @@ apprenticeship
 approach
 appropriate
 appropriately
+appropriation
 approval
 approve
 approximate
@@ -1650,6 +1653,7 @@ assiduous
 assign
 assignment
 assimilate
+assimilation
 assist
 assistance
 assistant
@@ -4248,6 +4252,7 @@ defense
 defensive
 defer
 deference
+deferential
 defiance
 defiant
 deficiency
@@ -4658,6 +4663,7 @@ dishonesty
 dishwasher
 disillusion
 disintegrate
+disintegration
 disk
 dislike
 dislocate
@@ -5391,6 +5397,7 @@ established
 establishment
 estate
 esteem
+esthetic
 estimate
 estimation
 estranged
@@ -5460,6 +5467,7 @@ exact
 exactly
 exaggerate
 exaggerated
+exaggeration
 exalt
 exalted
 exam
@@ -5668,6 +5676,7 @@ fallopian tube
 fallout
 false
 false start
+falsehood
 falsify
 falter
 fame
@@ -5786,6 +5795,7 @@ felony
 felt
 female
 feminine
+femininity
 feminism
 feminist
 fen
@@ -6465,6 +6475,7 @@ giver
 glacial
 glacier
 glad
+glamor
 glamorous
 glamour
 glance
@@ -7626,6 +7637,7 @@ infectious
 infer
 inference
 inferior
+inferiority
 inferno
 infertile
 infest
@@ -7780,6 +7792,7 @@ instrumentation
 insufficient
 insular
 insulate
+insulation
 insulin
 insult
 insulting
@@ -7882,6 +7895,7 @@ intractable
 intransigent
 intravenous
 intrepid
+intricacy
 intricate
 intrigue
 intriguing
@@ -10276,6 +10290,7 @@ patchy
 pate
 patent
 paternal
+paternity
 path
 pathetic
 pathological
@@ -10394,6 +10409,7 @@ perch
 percussion
 perennial
 perfect
+perfection
 perfectionist
 perfectly
 perform
@@ -10603,6 +10619,7 @@ plait
 plan
 plane
 planet
+planetary
 plank
 planned
 planner
@@ -10852,6 +10869,7 @@ powerful
 powerhouse
 powerless
 pp
+practicable
 practical
 practicality
 practically
@@ -10896,6 +10914,7 @@ precondition
 precursor
 predator
 predecessor
+predestine
 predetermine
 predicament
 predict
@@ -10938,6 +10957,7 @@ preposition
 preposterous
 prerequisite
 prerogative
+prescient
 prescribe
 prescription
 presence
@@ -11211,6 +11231,7 @@ pry
 psyche
 psychedelic
 psychiatric
+psychiatrist
 psychiatry
 psychic
 psycho
@@ -11281,6 +11302,7 @@ puree
 purely
 purge
 purify
+purity
 purple
 purport
 purpose
@@ -11608,6 +11630,7 @@ recruit
 recruiter
 recruitment
 rectangle
+rectangular
 rectify
 rector
 recuperate
@@ -12295,6 +12318,7 @@ salad
 salaried
 salary
 sale
+saleable
 sales
 sales tax
 salesman
@@ -13689,6 +13713,7 @@ stylized
 sub
 subcommittee
 subconscious
+subculture
 subdue
 subdued
 subject
@@ -15241,6 +15266,7 @@ virtuous
 virulent
 virus
 visa
+visceral
 viscount
 visibility
 visible
@@ -15399,6 +15425,7 @@ waterfront
 watermelon
 waterproof
 watershed
+watertight
 waterway
 watery
 watt
@@ -15560,6 +15587,7 @@ wildlife
 wildly
 wilful
 will
+willful
 willing
 willingness
 willow
@@ -15757,6 +15785,7 @@ yoga
 yoghurt
 yogi
 yogurt
+yoke
 yolk
 you
 you're

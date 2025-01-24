@@ -1,11 +1,6 @@
 
 - name: cet6
-  input: origin/CET6.json
-  output: dest/T6.txt
-  wordPath:
-    - headWord
-  replace:
-    Thanksgiving: [thanksgiving]
+
 - name: toefl
   input: origin/TOEFL.json
   output: dest/TF.txt

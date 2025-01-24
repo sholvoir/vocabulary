@@ -1,0 +1,5 @@
+input: origin/CET6_3.json
+output: dest/CollegeEnglishTestL6-xdf.txt
+wordPath: [headWord]
+replace:
+  Thanksgiving: [thanksgiving]
