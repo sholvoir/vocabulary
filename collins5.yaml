@@ -1,0 +1,16 @@
+input: origin/Collins5.csv
+output: dest/Collins5.txt
+test: '[^\nA-Za-z '']'
+process:
+  - [[\r, g]]
+  - [['^([A-Za-z '']+)\t.*$', gm], $1]
+replace:
+  Book: ["book"]
+  Both: ["both"]
+  Country: ["country"]
+  Mr: ["Mr."]
+  Mrs: ["Mrs."]
+  Ms: ["Ms."]
+  So: ["so"]
+  State: ["state"]
+  Story: ["story"]

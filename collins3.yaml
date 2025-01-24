@@ -1,0 +1,17 @@
+input: origin/Collins3.csv
+output: dest/Collins3.txt
+test: '[^\nA-Za-z ''-]'
+process:
+  - [[\r, g]]
+  - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+replace:
+  co-operate: [cooperate]
+  etc: [etc.]
+  Fighter: [fighter]
+  Fine: [fine]
+  Initial: [initial]
+  savings: [saving]
+  Statistic: [statistic]
+  Suitable: [suitable]
+  Tissue: [tissue]
+  Upset: [upset]

@@ -1,4 +1,5 @@
 // deno-lint-ignore-file no-cond-assign no-empty
+const spellCheckIgnoreFile = `${import.meta.dirname}/../spell-check-ignore.txt`;
 const spellCheckFile = `${import.meta.dirname}/../spell-check.txt`;
 const entitiesRegex = /&(quot|apos|amp|lt|gt|#(x?\d+));/g;
 const markRegex = /<.*?>/g;
@@ -34,6 +35,8 @@ export const spellCheckInit = async () => {
     if (!spellCheckSet) {
         spellCheckSet = new Set<string>();
         try {
+            for (let line of (await Deno.readTextFile(spellCheckIgnoreFile)).split('\n'))
+                if (line = line.trim()) spellCheckSet.add(line);
             for (let line of (await Deno.readTextFile(spellCheckFile)).split('\n'))
                 if (line = line.trim()) spellCheckSet.add(line);
         } catch {}
