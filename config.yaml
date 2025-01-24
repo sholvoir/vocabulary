@@ -1,9 +1,4 @@
 
-- name: hsee
-  input: origin/ChuZhong.json
-  output: dest/ZK.txt
-  wordPath:
-    - headWord
 - name: ncee
   input: origin/GaoZhong.json
   output: dest/GK.txt

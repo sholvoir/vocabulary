@@ -93,6 +93,7 @@ Bosnia
 Br.
 Bradford
 Brazil
+Brazilian
 Brian
 Brighton
 Bristol
@@ -851,9 +852,11 @@ Wood
 Wright
 X-ray
 Xerox
+Yang
 Yank
 Yankee
 Yeltsin
+Yin
 York
 Yorkshire
 Young
@@ -1034,6 +1037,7 @@ adequate
 adequately
 adhere
 adhesive
+adj.
 adjacent
 adjective
 adjoin
@@ -2773,6 +2777,7 @@ casting
 castle
 castrate
 casual
+casually
 casualty
 cat
 catalog
@@ -3007,6 +3012,7 @@ cholesterol
 choose
 chop
 chopper
+chopsticks
 choral
 chord
 chore
@@ -4912,6 +4918,7 @@ dumb
 dumbbell
 dummy
 dump
+dumpling
 dune
 dung
 dunno
@@ -5305,6 +5312,7 @@ er
 era
 eradicate
 erase
+eraser
 erect
 erection
 erm
@@ -12303,12 +12311,14 @@ scholarship
 school
 school board
 school-leaver
+schoolbag
 schoolboy
 schoolchild
 schoolgirl
 schooling
 schoolmaster
 schoolteacher
+schoolwork
 sci-fi
 science
 science fiction
@@ -15257,6 +15267,7 @@ watercress
 watered-down
 waterfall
 waterfront
+watermelon
 waterproof
 watershed
 waterway
@@ -15614,6 +15625,7 @@ yield
 yo
 yo-yo
 yoga
+yoghurt
 yogi
 yogurt
 yolk
@@ -15625,6 +15637,7 @@ youngster
 your
 yours
 yourself
+yourselves
 youth
 youthful
 yuan
@@ -15637,6 +15650,7 @@ zealous
 zebra
 zero
 zest
+zigzag
 zinc
 zip
 zodiac
