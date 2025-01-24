@@ -1,5 +1,5 @@
-input: origin/BEC_2.json
-output: dest/BEC-yd.txt
+input: BEC_2.json
+output: BEC-yd.txt
 wordPath:
   - headWord
 replace:

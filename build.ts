@@ -4,7 +4,6 @@ import { parse as yamlParse } from "@std/yaml";
 import { readConfig, writeConfig } from './lib/config.ts';
 import { spellCheck, spellCheckClose, spellCheckInit } from './lib/spell-check.ts';
 
-const revisionPath = './revision.yaml';
 // const sortFunc = (a: string, b: string) => a.localeCompare(b, undefined, {sensitivity: 'base'});
 
 async function run() {
@@ -12,9 +11,9 @@ async function run() {
     const args = parseArgs(Deno.args, { boolean: ['step-out'], alias: {'step-out': 's'} });
     if (!args._.length) return console.log('No Task Assigned!');
     await spellCheckInit();
-    const revision = yamlParse(await Deno.readTextFile(revisionPath)) as Record<string, Array<string>>;
+    const revision = yamlParse(await Deno.readTextFile('revision.yaml')) as Record<string, Array<string>>;
     for (const path of args._) {
-        const configPath = `./${path}.yaml`;
+        const configPath = `conf/${path}.yaml`;
         const config = await readConfig(configPath);
         const miss: Record<string, Array<string>> = {};
         const vocabulary = new Set<string>();
@@ -26,7 +25,7 @@ async function run() {
                 continue;
             }
             text = await resp.text();
-        } else text = await Deno.readTextFile(config.input);
+        } else text = await Deno.readTextFile(`origin/${config.input}`);
         let words: () => Generator<string, void, unknown>;
         if (!config.wordPath) {
             if (config.process) for (const [index, [[pattern, flags], replacement = '']] of config.process.entries()) {
@@ -64,7 +63,7 @@ async function run() {
             config.miss = miss;
             await writeConfig(configPath, config);
         }
-        await Deno.writeTextFile(config.output, Array.from(vocabulary).sort().join('\n'))
+        await Deno.writeTextFile(`dest/${config.output}`, Array.from(vocabulary).sort().join('\n'))
     }
     await spellCheckClose();
 }

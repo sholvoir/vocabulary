@@ -1,5 +1,5 @@
-input: origin/GaoZhong_3.json
-output: dest/ChinaHighSchool-xdf.txt
+input: GaoZhong_3.json
+output: ChinaHighSchool-xdf.txt
 wordPath: [headWord]
 replace:
   beddings: [bedding]

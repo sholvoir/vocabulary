@@ -1,6 +1,6 @@
 
-  input: origin/Oxford5000.html
-  output: dest/Oxford5000-A1.txt
+  input: Oxford5000.html
+  output: Oxford5000-A1.txt
   test: '[^\n\w: ]'
   process:
     - [['[\r\n]', g]]

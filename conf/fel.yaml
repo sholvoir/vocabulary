@@ -1,5 +1,5 @@
-input: origin/FEL1.2LemmatizedForTeaching.txt
-output: dest/FitnessEnglishList.txt
+input: FEL1.2LemmatizedForTeaching.txt
+output: FitnessEnglishList.txt
 test: '[^\na-z]'
 process:
   - [[\r, g]]

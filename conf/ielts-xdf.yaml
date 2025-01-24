@@ -1,5 +1,5 @@
-input: origin/IELTS_3.json
-output: dest/IELTS-xdf.txt
+input: IELTS_3.json
+output: IELTS-xdf.txt
 wordPath: [headWord]
 replace:
   Kung Fu: [kung fu]

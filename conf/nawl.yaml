@@ -1,6 +1,6 @@
 # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
-input: origin/NAWL1.2LemmatizedForTeaching.csv
-output: dest/NewAcademicWordList.txt
+input: NAWL1.2LemmatizedForTeaching.csv
+output: NewAcademicWordList.txt
 test: '[^\na-z]'
 process:
   - [[\r, g]]

@@ -1,3 +1,3 @@
-input: origin/ChuZhong_3.json
-output: dest/ChinaMiddleSchool-xdf.txt
+input: ChuZhong_3.json
+output: ChinaMiddleSchool-xdf.txt
 wordPath: [headWord]

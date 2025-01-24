@@ -1,5 +1,5 @@
-input: origin/TOEFL_3.json
-output: dest/TOEFL-xdf.txt
+input: TOEFL_3.json
+output: TOEFL-xdf.txt
 wordPath: [headWord]
 replace:
   lost-and-found: [lost and found]

@@ -1,5 +1,5 @@
-input: origin/GMAT_3.json
-output: dest/GMAT-xdf.txt
+input: GMAT_3.json
+output: GMAT-xdf.txt
 wordPath: [headWord]
 replace:
   antibiotics: ["antibiotic"]

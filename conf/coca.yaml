@@ -1,5 +1,5 @@
-input: origin/CocaTop5000WordFrequency.csv
-output: dest/CocaTop5000.txt
+input: CocaTop5000WordFrequency.csv
+output: CocaTop5000.txt
 test: '[^\na-z''-]'
 process:
   - [[\r, g]]

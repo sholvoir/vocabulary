@@ -1,5 +1,5 @@
-input: origin/KaoYan_3.json
-output: dest/MasterAdmissionsExamination-xdf.txt
+input: KaoYan_3.json
+output: MasterAdmissionsExamination-xdf.txt
 wordPath: [headWord]
 replace:
   Thanksgiving: [thanksgiving]

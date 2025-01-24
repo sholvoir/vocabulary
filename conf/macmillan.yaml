@@ -1,5 +1,5 @@
-input: origin/MacmillanDictionaryDefiningVocabulary.html
-output: dest/MacmillanDictionaryDefiningVocabulary.txt
+input: MacmillanDictionaryDefiningVocabulary.html
+output: MacmillanDictionaryDefiningVocabulary.txt
 test: '[^\nA-Za-zé ''-]'
 process:
   - [[\r, g]]

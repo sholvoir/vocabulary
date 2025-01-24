@@ -1,6 +1,6 @@
 # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
-input: origin/TheLongmanDefiningVocabulary.html
-output: dest/TheLongmanDefiningVocabulary.txt
+input: TheLongmanDefiningVocabulary.html
+output: TheLongmanDefiningVocabulary.txt
 test: '[^\nA-Za-z ''-]'
 process:
   - [['[\r\n\t]', g]]

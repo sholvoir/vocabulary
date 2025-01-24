@@ -1,5 +1,5 @@
-input: origin/Collins4.csv
-output: dest/Collins4.txt
+input: Collins4.csv
+output: Collins4.txt
 test: '[^\nA-Za-z ''-]'
 process:
   - [[\r, g]]

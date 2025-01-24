@@ -1,5 +1,5 @@
-input: origin/LongmanCommunication3000.txt
-output: dest/LongmanCommunication3000S1.txt
+input: LongmanCommunication3000.txt
+output: LongmanCommunication3000S1.txt
 test: '[^\n\w ,:''-]'
 process:
   - [[\r, g]]

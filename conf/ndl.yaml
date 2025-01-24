@@ -1,6 +1,6 @@
 # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
-input: origin/NDL1.1LemmatizedForTeaching.txt
-output: dest/NewDolchList.txt
+input: NDL1.1LemmatizedForTeaching.txt
+output: NewDolchList.txt
 test: '[^\nA-Za-z'']'
 process:
   - [[\r, g]]

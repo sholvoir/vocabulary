@@ -1,5 +1,5 @@
-input: origin/FrySightWordsList.html
-output: dest/FrySightWords.txt
+input: FrySightWordsList.html
+output: FrySightWords.txt
 test: '[^\na-zA-Z'']'
 process:
   - [['[\r\n]', g]]
