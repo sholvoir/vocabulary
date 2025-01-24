@@ -1,0 +1,662 @@
+- name: lorhur
+  path: origin/01.Lorhur.txt
+  tag: LH
+  test: '[^\na-zA-Z]'
+- name: ogden
+  path: origin/02.OgdensBasicEnglishWords.html
+  # https://zbenglish.net/sites/basic/words.html
+  tag: OG
+  test: '[^\na-zI]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<UL>']]
+    - [['<hr color=maroon><font size=-1>.*$']]
+    - [['<H3>.*?</H3>', g]]
+    - [['<.*?>', g]]
+    - [['\s', g]]
+    - [['[,./]', g], "\n"]
+  replace:
+    waiting: [wait]
+- name: dolch
+  path: origin/03.DolchSightWordsList.html
+  # https://sightwords.com/sight-words/dolch/
+  tag: DS
+  test: '[^\na-zA-Z '']'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<h1 style="margin-top: 30px;" id="lists">Dolch Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(\d+ words\)<br/>', g]]
+    - [['<li>.*?<br/>.*?<p>', g]]
+    - [['<li.*?</li>', g]]
+    - [['</p></li>', g], ","]
+    - [['<.*?>', g]]
+    - [['\s+', g], ' ']
+    - [["’", g], "'"]
+    - [[', *', g], "\n"]
+    - [[' +']]
+  replace:
+    goes: [go]
+- name: fry
+  path: origin/04.FrySightWordsList.html
+  # https://sightwords.com/sight-words/fry/
+  tag: FS
+  test: '[^\na-zA-Z'']'
+  replace:
+    arrived: ["arrive"]
+    bones: ["bone"]
+    branches: ["branch"]
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<h1 id="lists" style="margin-top: 30px;">Fry Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(#\d+-\d+\)', g]]
+    - [['<a href=.+?>.+?</a>', g]]
+    - [['<li(?: style=.*?)?></li>', g]]
+    - [['</li>', g], ","]
+    - [['<.*?>', g]]
+    - [[\s+, g], " "]
+    - [[’, g], "'"]
+    - [[', *', g], "\n"]
+    - [[' +']]
+- name: written
+  path: origin/05.Top150WrittenSightWords.html
+  # https://sightwords.com/sight-words/top-150/
+  tag: WS
+  test: '[^\na-zI]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<h1 style="margin-top: 30px;" id="lists">Top 150 Written Word Lists</h1>']]
+    - [['<section id="comments">.*$']]
+    - [['\(\d+ words\)', g]]
+    - [['<a.+?>.+?</a>', g]]
+    - [['<li(?: style=.*?)?></li>', g]]
+    - [['</p>', g], ","]
+    - [['<.*?>', g]]
+    - [[\s+, g], " "]
+    - [[', *', g], "\n"]
+    - [[' +']]
+- name: wik
+  path: origin/06.Wiktionary1000BasicEnglishWords.html
+  # https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
+  tag: WK
+  test: '[^\nA-Za-z]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*!-- Keep the number of words at 1000. -->']]
+    - [['===See also===.*$']]
+    - [["'''[A-Z]''' *:", g]]
+    - [['\[\[', g]]
+    - [['\]\][,.] *', g], "\n"]
+- name: voa
+  path: origin/07.VOASpecialEnglishWordBook.html
+  # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
+  tag: VA
+  test: '[^\nA-Za-z -]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*\[\[#Organs of the body\|Organs of the body\]\]\|\}']]
+    - [['\[\[category:VOA Special English words\]\].*$']]
+    - [['==.+?==', g]]
+    - [['\* *', g], "\n"]
+    - [[' (–|:|&amp;ndash;) .*$', gm]]
+    - [['(\[\[\w+\]\] \([\w.]+\)) and (\[\[\w+\]\] \([\w.]+\))', g], "$1\n$2"]
+    - [[' *\((\[\[\w+\]\])\)', g], "\n$1"]
+    - [[' \(\w+\.\)', g]]
+    - [['&lt;span style="color:[#\w]+">([\w-]+)&lt;/span>', g], "$1"]
+    - [['\[\[:?wikt:([\w ]+)\|(\1)\]\]', g], "$1"]
+    - [['\[\[:?wikt:([\w ]+)\|([\w ]+)\]\]', g], "$1\n$2"]
+    - [['\[\[([\w ]+)\|([\w ]+)\]\]', g], "$1\n$2"]
+    - [['\[\[([\w -]+)\]\]', g], "$1"]
+    - [[' \((\w+)\)', g], "\n$1"]
+    - [['(\w+)\(ing\)', g], "$1\n$1ing"]
+    - [['\n']]
+  replace:
+    Major depressive disorder: [major depressive disorder]
+    Nuclear fission: [nuclear fission]
+    pass a bill: [pass, a, bill]
+- name: macmillan
+  path: origin/08.MacmillanDictionaryDefiningVocabulary.html
+  tag: MC
+  test: '[^\nA-Za-zé ''-]'
+  process:
+    - [[\r, g]]
+    - [['\s+<ul class="sw-selector-list">', g]]
+    - [['\s+<h2 class="select-title">[A-Z]</h2>', g]]
+    - [['(<div.*?>|</ul>|</div>)\s*', g]]
+    - [[' *<li>(.+?)</li>$', gm], $1]
+    - [[' +$', gm]]
+  replace:
+    Communism: ["communism"]
+    Communist: ["communist"]
+    Jews: ["Jew"]
+    approve of: [approve, of]
+    based on: [base, 'on']
+    law-making: [lawmaking]
+    relating to: [relate to]
+- name: longmand
+  path: origin/09.TheLongmanDefiningVocabulary.html
+  # https://www.pu-kumamoto.ac.jp/users_site/rlavin/resources/wordlists/LDV.html
+  tag: LD
+  test: '[^\nA-Za-z ''-]'
+  process:
+    - [['[\r\n\t]', g]]
+    - [['.*<table border="1" cellpadding="3"><tbody><tr>']]
+    - [['</tr></tbody></table>.*']]
+    - [['</td><td valign="top">', g]]
+    - [['</font><font size="-1">', g]]
+    - [['<td valign="top"><font size="-1">']]
+    - [['<br></font></td>']]
+    - [['<br>', g], "\n"]
+    - [['(\w+) *\[(\w+)\]', g], "$1\n$2"]
+  replace:
+    airforce: [air force]
+    lodgings: [lodging]
+- name: longmanc
+  path: origin/10.LongmanCommunication3000.txt
+  test: '[^\n\w ,:''-]'
+  process:
+    - [[\r, g]]
+    - [['’', g], "'"]
+    - [['indefinite article', g], "indefinite_article"]
+    - [['definite article', g], "definite_article"]
+    - [[', ', g], ","]
+    - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
+- name: oxford
+  path: origin/11.Oxford5000.html
+  test: '[^\n\w: ]'
+  process:
+    - [['[\r\n]', g]]
+    - [['.*<ul class="top-g"> +']]
+    - [[' +</ul> *</div> *<div id="wordlistsOverlay".+$']]
+    - [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"]
+    - [['\ba(?=[12])', g], A]
+    - [['\bb(?=[12])', g], B]
+    - [['\bc(?=[12])', g], C]
+- name: collins
+  path: origin/12.Collins5.csv
+  tag: L5
+  test: '[^\nA-Za-z '']'
+  process:
+    - [[\r, g]]
+    - [['^([A-Za-z '']+)\t.*$', gm], $1]
+  replace:
+    Book: ["book"]
+    Both: ["both"]
+    Country: ["country"]
+    So: ["so"]
+    State: ["state"]
+    Story: ["story"]
+- name: collins
+  path: origin/13.Collins4.csv
+  tag: L4
+  test: '[^\nA-Za-z ''-]'
+  process:
+    - [[\r, g]]
+    - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+  replace:
+    Protect: ["protect"]
+    Protest: ["protest"]
+    Prove: ["prove"]
+    Pull: ["pull"]
+    Push: ["push"]
+- name: collins
+  path: origin/14.Collins3.csv
+  tag: L3
+  test: '[^\nA-Za-z ''-]'
+  process:
+    - [[\r, g]]
+    - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
+  replace:
+    Fighter: ["fighter"]
+    Fine: ["fine"]
+    Initial: ["initial"]
+    Statistic: ["statistic"]
+    Suitable: ["suitable"]
+    Tissue: ["tissue"]
+    Upset: ["upset"]
+- name: collins
+  path: origin/15.Collins2.csv
+  tag: L2
+  test: '[^\nA-Za-z .''-]'
+  process:
+    - [[\r, g]]
+    - [['^[A-Z]\n', gm]]
+    - [[' {2,}', g], ' ']
+  replace:
+    ple: [pile]
+    DJ.: ["DJ"]
+    National curriculum: ["National Curriculum"]
+    Rd.: ["R&D"]
+    break-through: ["breakthrough"]
+- name: collins
+  path: origin/16.Collins1.csv
+  tag: L1
+  test: '[^\nA-Za-zéè &/.''-]'
+  process:
+    - [[\r, g]]
+    - [[c\to], "c/o\t"]
+    - [['^[A-Z]\t\n', gm]]
+    - [[\t$, gm]]
+  replace:
+    Alzheimer's Disease: ["Alzheimer's disease"]
+    Chancellor of Exchequer: ["Chancellor of the Exchequer"]
+    Countess: ["countess"]
+    Intermediary: ["intermediary"]
+    Long-haul: [long-haul]
+    Longevity: ["longevity"]
+    Longing: [long]
+    Lubricant: ["lubricant"]
+    Metro: ["metro"]
+    N.A: []
+    Woman's Liberation: []
+    aka.: ["aka"]
+    balance of payment: [balance of payments]
+    black smith: ["blacksmith"]
+    brother-hood: ["brotherhood"]
+    bother-in-law: [brother-in-law]
+    county club: [country club]
+    county house: [country house]
+    equessrian: [equestrian]
+    gross domestic: [gross domestic product]
+    oestrogen: [estrogen]
+    soar system: [solar system]
+    woman's movement: []
+- name: ngsl
+  path: origin/17.NGSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
+  tag: GL
+  test: '[^\na-zA-Z]'
+  process:
+    - [[\r, g]]
+    - [['^#.*\n*', gm]]
+    - [['^(\w+?),.*$', gm], $1]
+- name: nawl
+  path: origin/18.NAWL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NAWL_12_lemmatized_for_teaching.csv
+  tag: AW
+  test: '[^\na-z]'
+  process:
+    - [[\r, g]]
+    - [['^(\w+?),.*$', gm], $1]
+  replace:
+    founds: [found]
+- name: tsl
+  path: origin/19.TSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
+  tag: TL
+  test: '[^\na-zé ''-]'
+  process:
+    - [[\r, g]]
+    - [['�', g], 'é']
+    - [['^#.*\n*', gm]]
+    - [['^([\wé ''-]+?),.*$', gm], $1]
+- name: bsl
+  path: origin/20.BSL1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
+  tag: BL
+  test: '[^\na-z-]'
+  process:
+    - [[\r, g]]
+    - [['^([\w-]+?),.*$', gm], $1]
+- name: fel
+  path: origin/21.FEL1.2LemmatizedForTeaching.txt
+  # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
+  tag: FE
+  test: '[^\na-z]'
+  process:
+    - [[\r, g]]
+    - [['^#.*\n*', gm]]
+    - [['^(\w+?),.*$', gm], $1]
+  replace:
+    bodyweight: [body weight]
+    bodybuild: ["body build"]
+- name: ndl
+  path: origin/22.NDL1.1LemmatizedForTeaching.txt
+  # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
+  tag: DL
+  test: '[^\nA-Za-z'']'
+  process:
+    - [[\r, g]]
+    - [['^([\w'']+?),.*$', gm], $1]
+- name: ngsls
+  path: origin/23.NGSLSpoken1.2LemmatizedForTeaching.csv
+  # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
+  tag: GS
+  test: '[^\na-z]'
+  process:
+    - [[\r, g]]
+    - [['^(\w+?),.*$', gm], $1]
+- name: coca
+  path: origin/24.CocaTop5000WordFrequency.csv
+  tag: CA
+  test: '[^\na-z''-]'
+  process:
+    - [[\r, g]]
+    - [[.+?\n]]
+    - [['^\d+\t([\w''/-]+)\t.+$', gm], $1]
+    - [['^\d+$', gm]]
+    - [[/, g], "\n"]
+  replace:
+    aids: ["AIDS"]
+    african-american: ["African American"]
+    african: ["African"]
+    american: ["American"]
+    april: ["April"]
+    arab: ["Arab"]
+    asian: ["Asian"]
+    british: ["British"]
+- name: bnc
+  path: origin/25.BncAllAlpha.txt
+  # https://ucrel.lancs.ac.uk/bncfreq/lists/1_1_all_alpha.txt
+  tag: BN
+  test: '[^\nA-Za-z ''.-]'
+  process:
+    - [['[\r\(\)\*]', g]]
+    - [[.+\n]]
+    - [['^\t', gm]]
+    - [['^[�@&''\t].*\n', gm]]
+    - [['^(.+?)\t.*$', gm], $1]
+    - [[' ?/ ?', g], "\n"]
+    - [['^(\w|\d[,%\w]*|\w*~\w*)\n', gm]]
+  replace:
+    "'cos": ["cos"]
+    Ch: []
+    Dr.: [Dr]
+    E.R.: [ER]
+    El: []
+    End: ["end"]
+    Fraser: []
+    Great: ["great"]
+    Hewlett-Packard: []
+    Hong: []
+    II: []
+    III: []
+    IV: []
+    Inc: ["inc"]
+    Intel: []
+    Island: [island]
+    Kingdom: ["kingdom"]
+    Kong: []
+    Le: []
+    Lea: [LEA]
+    Los: []
+    New: ["new"]
+    Northern: ["northern"]
+    Pat: ["pat"]
+    Richardson: []
+    Robyn: ["Robin"]
+    Stirling: []
+    United: [united]
+    Vice-President: [vice president]
+    ac: [AC]
+    away from: [away, from]
+    by now: [by, now]
+    co-ordinate: [coordinate]
+    depending on: [depend on]
+    ed: []
+    even when: [even, when]
+    ii: []
+    iii: []
+    in response to: [in, response, to]
+    in touch with: [in, touch, with]
+    iv: []
+    le: []
+    nineteenth-century: [nineteenth, century]
+    no matter how: ["no", matter, how]
+    once again: [once, again]
+    provided that: [provided, that]
+    waiting: [wait]
+- name: hsee
+
+- name: hsee
+  path: origin/ChuZhong_3.json
+  tag: ZK
+  wordPath:
+    - headWord
+- name: ncee
+  path: origin/GaoZhong_2.json
+  tag: GK
+  wordPath:
+    - headWord
+  replace:
+    Baby: ["baby"]
+    Dynamic: ["dynamic"]
+    Dynasty: ["dynasty"]
+    Indicate: ["indicate"]
+    Lost: ["lost"]
+    Mom: ["mom"]
+    beancurd: ["bean curd"]
+    beddings: ["bedding"]
+    behavious: [behavior]
+    hur: []
+- name: ncee
+  path: origin/GaoZhong_3.json
+  tag: GK
+  wordPath:
+    - headWord
+  replace:
+    beddings: ["bedding"]
+- name: npee
+  path: origin/KaoYan_1.json
+  tag: KY
+  wordPath:
+    - headWord
+- name: npee
+  path: origin/KaoYan_2.json
+  tag: KY
+  wordPath:
+    - headWord
+  replace:
+    goodby: [goodbye]
+    april: ["April"]
+- name: npee
+  path: origin/KaoYan_3.json
+  tag: KY
+  wordPath:
+    - headWord
+  replace:
+    encyclopaedia: [encyclopedia]
+    resumé: [résumé]
+    by-pass: ["bypass"]
+- name: cet4
+  path: origin/CET4_1.json
+  tag: T4
+  wordPath:
+    - headWord
+- name: cet4
+  path: origin/CET4_2.json
+  tag: T4
+  wordPath:
+    - headWord
+  replace:
+    reservior: [reservoir]
+- name: cet4
+  path: origin/CET4_3.json
+  tag: T4
+  wordPath:
+    - headWord
+- name: cet6
+  path: origin/CET6_1.json
+  tag: T6
+  wordPath:
+    - headWord
+  replace:
+    Automatically: ["automatically"]
+- name: cet6
+  path: origin/CET6_2.json
+  tag: T6
+  wordPath:
+    - headWord
+  replace:
+    Heaven: ["heaven"]
+- name: cet6
+  path: origin/CET6_3.json
+  tag: T6
+  wordPath:
+    - headWord
+- name: toefl
+  path: origin/TOEFL_2.json
+  tag: TF
+  wordPath:
+    - headWord
+  replace:
+    Health: ["health"]
+    Himalaya: [Himalayas]
+    Interstate: ["interstate"]
+    Yucatan: []
+    Isle: ["isle"]
+    Lowa: ["lowa"]
+    allende: []
+    antarctica: ["Antarctica"]
+    appalachian: ["Appalachian"]
+    beng: []
+    bryn: []
+    baedeker: []
+    balkan: ["Balkan"]
+    beringia: ["Beringia"]
+    brea: []
+    brewster: []
+    broadway: ["Broadway"]
+    boxlike: ["box"]
+    conestoga: [Conestoga wagon]
+    datebase: [database]
+    duchenne: []
+    dy: []
+    eka: [eka-]
+    eletricity: [electricity]
+    elliot: []
+    erectus: []
+    faunal: [fauna]
+    guilde: [guild, guilder]
+    keplerian: []
+    lesley: []
+    loder: []
+    lumiere: []
+    lvory: [ivory]
+    lys: []
+    merchandis: [merchandise]
+    midocean: []
+    misinterprete: [misinterpret]
+    newberry: []
+    nowcasting: []
+    nss: []
+    ogallala: []
+    permineralization: []
+    rainer: [trainer]
+    sargeant: [sergeant]
+    semimolten: []
+    zagros: [Zagros Mountains]
+- name: toefl
+  path: origin/TOEFL_3.json
+  tag: TF
+  wordPath:
+    - headWord
+- name: ielts
+  path: origin/IELTS_2.json
+  tag: IS
+  wordPath:
+    - headWord
+  replace:
+    aupair: []
+    relinguish: [relinquish]
+    groa: []
+    chiche: []
+- name: ielts
+  path: origin/IELTS_3.json
+  tag: IS
+  wordPath:
+    - headWord
+  replace:
+    Kung Fu: ["kung fu"]
+    inductive reasoning: [inductive, reason]
+    a calculated crime: [a, calculate, crime]
+- name: sat
+  path: origin/SAT_3.json
+  tag: ST
+  wordPath:
+    - headWord
+  replace:
+    Aluminum: [aluminum]
+    AluminumAl: [aluminum]
+    Iron Fe: [iron]
+    Iron: ["iron"]
+    Oxygen O: [oxygen]
+    Oxygen: ["oxygen"]
+    PhosphorusP: [phosphorus]
+    a. 灵巧的， 熟练的: [skillful]
+    anaerobic respiration: [anaerobic, respiration]
+    ante-room: ["anteroom"]
+    artificial fertilization: [artificial, fertilization]
+    blase: ["blasé"]
+    distingusihed: [distinguished]
+    homologous chromosome: [homologous, chromosome]
+    parallel lines: [parallel, line]
+    projector lens: [projector, lens]
+    prokaryotic cell: [prokaryotic, cell]
+    sulfur disoxide: [sulfur dioxide]
+    temperate forest: [temperate, forest]
+    temperate grassland: [temperate, grassland]
+    transgenic animals: [transgenic, animal]
+    undersize d: [undersized]
+- name: gre
+  path: origin/GRE_2.json
+  tag: GR
+  wordPath:
+    - headWord
+  replace:
+    'n': []
+    absinth: ["absinthe"]
+    blase: ["blasé"]
+    quizzable: [quiz]
+    tecnology: [technology]
+    neodoxy: []
+- name: gre
+  path: origin/GRE_3.json
+  tag: GR
+  wordPath:
+    - headWord
+  replace:
+    cosycozy: [cozy]
+    sun-bronzed: [sun, bronzed]
+    self-adulation: [self, adulation]
+    self-procession: [self, procession]
+    idiosyncracy: [idiosyncrasy]
+    ill-paying: [ill, pay]
+- name: gmat
+  path: origin/GMAT_2.json
+  tag: GM
+  wordPath:
+    - headWord
+- name: gmat
+  path: origin/GMAT_3.json
+  tag: GM
+  wordPath:
+    - headWord
+- name: bec
+  path: origin/BEC_2.json
+  tag: BE
+  wordPath:
+    - headWord
+  replace:
+    HRD: []
+    CBA: []
+    XD: []
+    averaging: ["average"]
+- name: bec
+  path: origin/BEC_3.json
+  tag: BE
+  wordPath:
+    - headWord
+  replace:
+    CBA: []
+    Encl.: ["encl."]
+    HRD: []
+    XD: []
+    averaging: ["average"]
+    b/e: ["BE"]
+    back-up: ["backup"]
+    fast-expanding: [fast, expand]
+    lineskipper: [line, skipper]
+    over-demand: [over, demand]
+    pseudo-academic: [pseudo, academic]

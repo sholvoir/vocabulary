@@ -839,6 +839,7 @@ United Kingdom
 Univ.
 Uranus
 VAT
+VCD
 VCR
 VIP
 Valium
@@ -12152,6 +12153,7 @@ pH
 pace
 pacemaker
 pacesetter
+pacific
 pacifist
 pacify
 pack
@@ -15358,6 +15360,7 @@ shortfall
 shorthand
 shortlist
 shortly
+shorts
 shot
 shotgun
 should
@@ -17176,6 +17179,7 @@ took
 tool
 toot
 tooth
+toothache
 toothbrush
 toothpaste
 top

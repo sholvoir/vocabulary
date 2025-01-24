@@ -1,0 +1,8 @@
+input: ChuZhong_2.json
+output: ChinaMiddleSchool-yd.txt
+wordPath:
+  - headWord
+replace:
+  Rusia: [Russia]
+  Wheel: [wheel]
+  socks: [sock]
