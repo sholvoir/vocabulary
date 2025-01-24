@@ -429,6 +429,7 @@ Hughes
 Hull
 Hungary
 Hunt
+Hypertherm
 I
 I'd
 I'll
@@ -520,6 +521,7 @@ Kate
 Katherine
 Keith
 Kelly
+Kelvin
 Ken
 Kennedy
 Kenneth
@@ -767,6 +769,7 @@ Philippine
 Phillips
 Phosphorus
 Pisces
+Pleistocene
 Poland
 Polaroid
 Pole
@@ -778,6 +781,7 @@ Preston
 Protestant
 Pueblo
 Puritan
+Pythagorean
 QC
 R&B
 R&D
@@ -1095,6 +1099,7 @@ abrogate
 abrupt
 abruptly
 abruptness
+abscissa
 abscond
 absence
 absent
@@ -1462,6 +1467,7 @@ affront
 aficionado
 afield
 afire
+aflatoxin
 afloat
 afoot
 aforementioned
@@ -1616,6 +1622,8 @@ alignment
 alike
 aliment
 alimentary
+aliquant
+aliquot
 alive
 alkali
 alkaline
@@ -1793,6 +1801,7 @@ anabolic
 anachronism
 anachronistic
 anaemia
+anaerobe
 anaerobic
 anaesthetic
 anal
@@ -1838,6 +1847,7 @@ angel
 angelic
 anger
 angina
+angioplasty
 angiosperm
 angiotensin
 angle
@@ -2738,6 +2748,7 @@ barrier
 barring
 barrister
 barter
+baryonic
 basalt
 basaltic
 base
@@ -3057,6 +3068,7 @@ binding
 binge
 bingo
 binoculars
+binomial
 biochemical
 biochemistry
 biodegradable
@@ -3095,6 +3107,7 @@ birthright
 bis
 biscuit
 bisect
+bisector
 bisexual
 bishop
 bison
@@ -3263,6 +3276,7 @@ boiling
 boisterous
 bold
 bole
+boll
 bolster
 bolt
 bomb
@@ -3377,6 +3391,7 @@ bow
 bowdlerize
 bowel
 bower
+bowerbird
 bowl
 bowlegged
 bowler
@@ -3568,6 +3583,7 @@ brutality
 brute
 bubble
 bubbly
+bubonic
 buccal
 buck
 bucket
@@ -3964,6 +3980,7 @@ carnival
 carnivore
 carnivorous
 carol
+carotenoid
 carousal
 carouse
 carousel
@@ -4524,6 +4541,7 @@ clause
 claustrophobia
 claustrophobic
 clavichord
+clavicle
 claw
 clay
 clayware
@@ -4733,6 +4751,7 @@ cold
 cold war
 cold-blooded
 cole
+coleslaw
 colitis
 collaborate
 collaboration
@@ -5440,6 +5459,7 @@ corner
 cornerstone
 cornet
 corniche
+cornstalk
 cornucopia
 corny
 corollary
@@ -5909,6 +5929,7 @@ cypress
 cyst
 cystic fibrosis
 cytology
+cytoplasm
 dab
 dabble
 dad
@@ -6283,6 +6304,7 @@ demystify
 den
 denationalize
 dendrology
+dengue
 denial
 denigrate
 denim
@@ -6536,6 +6558,7 @@ diaphoresis
 diaphragm
 diarrhoea
 diary
+diatom
 diatribe
 dice
 dichotomy
@@ -6679,6 +6702,7 @@ disappointing
 disappointment
 disapproval
 disapprove
+disapproving
 disarm
 disarmament
 disarray
@@ -6942,6 +6966,7 @@ distributorship
 district
 district attorney
 distrust
+distrustful
 disturb
 disturbance
 disturbed
@@ -7105,6 +7130,7 @@ downpour
 downright
 downside
 downsize
+downsizing
 downstairs
 downstream
 downtime
@@ -8392,6 +8418,7 @@ factorable
 factorage
 factorial
 factoring
+factorization
 factors
 factory
 factotum
@@ -9121,6 +9148,7 @@ fork
 forlorn
 form
 formal
+formaldehyde
 formality
 formalize
 formally
@@ -9521,6 +9549,7 @@ gazump
 gear
 gearbox
 gearing
+gecko
 gee
 geezer
 gel
@@ -10416,6 +10445,7 @@ hemline
 hemlock
 hemoglobin
 hemolysis
+hemolytic
 hemorrhage
 hemp
 hen
@@ -10425,6 +10455,7 @@ henchman
 henpecked
 hepatic
 hepatitis
+heptagon
 her
 herald
 herb
@@ -10460,6 +10491,7 @@ herpes
 herring
 hers
 herself
+hesitance
 hesitant
 hesitate
 hesitation
@@ -10549,6 +10581,7 @@ hire
 hirsute
 his
 hiss
+histidine
 histogram
 histology
 historian
@@ -10862,6 +10895,7 @@ hype
 hyper
 hyperactive
 hyperactivity
+hyperbola
 hyperbole
 hyperbolic
 hypercritical
@@ -10894,6 +10928,7 @@ iPad
 iPhone
 ibex
 ibid.
+ibuprofen
 ice
 ice age
 ice cream
@@ -10991,6 +11026,7 @@ illustration
 illustrative
 illustrator
 illustrious
+ilmenite
 image
 imagery
 imaginable
@@ -11415,6 +11451,7 @@ indocile
 indoctrinate
 indolence
 indolent
+indomethacin
 indomitable
 indoor
 indoors
@@ -11908,6 +11945,7 @@ intone
 intoxicant
 intoxicate
 intoxication
+intracellular
 intractable
 intramural
 intransigence
@@ -12254,6 +12292,7 @@ keepsake
 ken
 kennel
 kept
+keratitis
 kerb
 kerfuffle
 kermis
@@ -12642,6 +12681,8 @@ lentil
 lentitude
 leonine
 leopard
+lepidopter
+lepidoptera
 leprosy
 lesbian
 lesion
@@ -12665,6 +12706,7 @@ lettuce
 letup
 leucocyte
 leukaemia
+leukemia
 levee
 level
 levelheaded
@@ -12936,6 +12978,7 @@ loess
 loft
 lofty
 log
+logarithm
 logged
 logger
 loggerhead
@@ -13094,6 +13137,7 @@ luxurious
 luxury
 lymph
 lymphatic
+lymphocyte
 lynch
 lyric
 lyrical
@@ -13322,6 +13366,7 @@ marionette
 marital
 maritime
 mark
+markdown
 marked
 markedly
 marker
@@ -13593,6 +13638,7 @@ mesa
 mesh
 mesmerism
 mesmerize
+mesothelioma
 mesquite
 mess
 message
@@ -13724,6 +13770,7 @@ millennium
 miller
 millet
 milligram
+milliliter
 millimeter
 millimetre
 millinery
@@ -13778,6 +13825,7 @@ minor
 minority
 minstrel
 mint
+minuend
 minuet
 minus
 minuscule
@@ -13981,6 +14029,7 @@ monoid
 monolith
 monolithic
 monologue
+monomial
 mononucleosis
 monopolist
 monopolistic
@@ -14041,6 +14090,7 @@ moron
 morose
 morphemics
 morphine
+morphogenetic
 morphological
 morphology
 morris
@@ -14163,6 +14213,7 @@ multimillionaire
 multinational
 multiple
 multiple sclerosis
+multiplicand
 multiplication
 multiplicative
 multiplicity
@@ -14185,6 +14236,7 @@ munificent
 muniments
 munition
 munitions
+muon
 mural
 murder
 murderer
@@ -14236,6 +14288,7 @@ myofascial
 myopia
 myopic
 myriad
+myrmecophagous
 myself
 mysterious
 mysteriously
@@ -14424,6 +14477,7 @@ neutral
 neutrality
 neutralization
 neutralize
+neutrino
 neutron
 never
 never-ending
@@ -14540,6 +14594,7 @@ non-stop
 non-violent
 non-white
 nonage
+nonagon
 nonagricultural
 nonbiodegradable
 nonchalance
@@ -14563,6 +14618,7 @@ nonhuman
 nonlinear
 nonliving
 nonnative
+nonnegative
 nonobservance
 nonpareil
 nonpayment
@@ -14584,6 +14640,7 @@ nontraditional
 nonverbal
 nonviable
 nonviolent
+nonzero
 noodle
 nook
 noon
@@ -14649,6 +14706,7 @@ novel
 novelist
 novelty
 novice
+novocaine
 now
 now that
 nowadays
@@ -14743,6 +14801,7 @@ objectionable
 objective
 objectively
 objurgate
+oblateness
 oblation
 obligate
 obligated
@@ -15005,6 +15064,7 @@ opinion
 opinion poll
 opinionated
 opium
+opossum
 opponent
 opportune
 opportunist
@@ -15122,6 +15182,7 @@ ossify
 ostensible
 ostentation
 ostentatious
+osteoarthritis
 osteoporosis
 ostracism
 ostracize
@@ -16013,6 +16074,7 @@ phonograph
 phonological
 phony
 phosphate
+phosphodiesterase
 phosphorescence
 phosphorus
 photo
@@ -16028,6 +16090,7 @@ photographic
 photography
 photojournalism
 photon
+photoperiod
 photophilous
 photosensitive
 photosphere
@@ -16349,6 +16412,7 @@ policy-making
 policyholder
 policymaker
 polio
+poliomyelitis
 polish
 politburo
 polite
@@ -16390,6 +16454,7 @@ polygon
 polygraph
 polymath
 polymer
+polynomial
 polyphony
 polysemous
 polytechnic
@@ -16666,6 +16731,7 @@ prehistoric
 prehistory
 preindustrial
 prejudice
+prejudiced
 prejudicial
 prelibation
 preliminary
@@ -17045,6 +17111,7 @@ prospectus
 prosper
 prosperity
 prosperous
+prostaglandin
 prostate
 prostitute
 prostitution
@@ -17062,6 +17129,7 @@ protest
 protestant
 protester
 protocol
+protogalaxy
 proton
 prototype
 protozoan
@@ -17188,6 +17256,7 @@ pullulate
 pulmonary
 pulp
 pulpit
+pulsar
 pulsate
 pulse
 pulverise
@@ -17295,6 +17364,7 @@ quack
 quad
 quadrangle
 quadrant
+quadratic
 quadricep
 quadrilateral
 quadruple
@@ -17412,6 +17482,7 @@ raconteur
 racy
 radar
 radial
+radian
 radiance
 radiant
 radiate
@@ -17467,6 +17538,7 @@ rambling
 rambunctious
 ramification
 ramify
+ramjet
 ramp
 rampage
 rampant
@@ -18382,6 +18454,7 @@ rheumy
 rhinestone
 rhino
 rhinoceros
+rhinovirus
 rhododendron
 rhombus
 rhubarb
@@ -18396,6 +18469,7 @@ ribald
 ribaldry
 ribbon
 ribcage
+ribosome
 rice
 rich
 richly
@@ -18773,6 +18847,7 @@ sanctum
 sand
 sandal
 sandbar
+sandpiper
 sandstone
 sandwich
 sandy
@@ -18973,6 +19048,7 @@ scraggly
 scraggy
 scram
 scramble
+scramjet
 scrap
 scrape
 scraping
@@ -19281,6 +19357,7 @@ seriously
 seriousness
 sermon
 sermonize
+serotonin
 serpent
 serpentine
 serrate
@@ -19658,6 +19735,7 @@ sinkhole
 sinuate
 sinuous
 sinus
+sinusitis
 sip
 siphon
 sir
@@ -21164,6 +21242,7 @@ symbolic
 symbolically
 symbolism
 symbolize
+symmetric
 symmetrical
 symmetry
 sympathetic
@@ -21272,6 +21351,7 @@ tampon
 tan
 tandem
 tang
+tangency
 tangent
 tangential
 tangible
@@ -21725,6 +21805,7 @@ timeline
 timeliness
 timely
 timer
+times
 timescale
 timetable
 timeworn
@@ -22011,6 +22092,7 @@ transpose
 transposition
 transshipment
 transude
+transversal
 transverse
 transvestite
 trap
@@ -22095,6 +22177,7 @@ trifle
 trig
 trigger
 triglyceride
+trigonometry
 trillion
 trilobite
 trilogy
@@ -22102,6 +22185,7 @@ trim
 trimester
 trimming
 trinket
+trinomial
 trio
 trip
 triple
@@ -22171,6 +22255,7 @@ truth
 truthful
 try
 trying
+tryptophan
 tsar
 tsunami
 tub
@@ -22274,10 +22359,12 @@ typist
 typographical
 typography
 tyrannical
+tyrannosaurus
 tyranny
 tyrant
 tyre
 tyro
+tyrosine
 ubiquitous
 ugh
 ugly
@@ -22663,6 +22750,7 @@ unpack
 unpaid
 unpalatable
 unparalleled
+unpatriotic
 unplanned
 unpleasant
 unplug
