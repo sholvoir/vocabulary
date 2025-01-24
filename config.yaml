@@ -1,40 +1,16 @@
-- name: gre
-  path: origin/GRE_2.json
-  tag: GR
-  wordPath:
-    - headWord
-  replace:
-    'n': []
-    absinth: ["absinthe"]
-    blase: ["blasé"]
-    quizzable: [quiz]
-    tecnology: [technology]
-    neodoxy: []
-- name: gre
-  path: origin/GRE_3.json
-  tag: GR
-  wordPath:
-    - headWord
-  replace:
-    cosycozy: [cozy]
-    sun-bronzed: [sun, bronzed]
-    self-adulation: [self, adulation]
-    self-procession: [self, procession]
-    idiosyncracy: [idiosyncrasy]
-    ill-paying: [ill, pay]
 - name: gmat
-  path: origin/GMAT_2.json
-  tag: GM
+  input: origin/GMAT_2.json
+  output: GM
   wordPath:
     - headWord
 - name: gmat
-  path: origin/GMAT_3.json
-  tag: GM
+  input: origin/GMAT_3.json
+  output: GM
   wordPath:
     - headWord
 - name: bec
-  path: origin/BEC_2.json
-  tag: BE
+  input: origin/BEC_2.json
+  output: BE
   wordPath:
     - headWord
   replace:
@@ -43,8 +19,8 @@
     XD: []
     averaging: ["average"]
 - name: bec
-  path: origin/BEC_3.json
-  tag: BE
+  input: origin/BEC_3.json
+  output: BE
   wordPath:
     - headWord
   replace:
