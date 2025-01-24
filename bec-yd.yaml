@@ -1,29 +1,24 @@
-- name: 
-
-- name: 
-
-- name: 
-
-- name: gmat
-
-- name: bec
-  input: origin/BEC.json
-  output: dest/BE.txt
-  wordPath:
-    - headWord
-  replace:
-    averaging: ["average"]
-    CBA: []
-    counterfeits: ["counterfeit"]
-    counting: [count]
-    dictaphone: ["Dictaphone"]
-    ERP: []
-    facilities: [facility]
-    finances: [finance]
-    HRD: []
-    overvalued: ["overvalue"]
-    papers: [paper]
-    results: [result]
-    savings: [saving]
-    ungeared: ["ungear"]
-    XD: []
+input: origin/BEC_2.json
+output: dest/BEC-yd.txt
+wordPath:
+  - headWord
+replace:
+  CBA: []
+  ERP: []
+  HRD: []
+  XD: []
+  averaging: [average]
+  counterfeits: [counterfeit]
+  counting: [count]
+  dictaphone: [Dictaphone]
+  facilities: [facility]
+  finances: [finance]
+  overvalued: [overvalue]
+  papers: [paper]
+  results: [result]
+  savings: [saving]
+  ungeared: [ungear]
+miss:
+  organise: [organize, 'organisation, organise, organiser']
+  debtee: []
+  realise: ['realisation, realise', realize]
