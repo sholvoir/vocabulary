@@ -1,0 +1,9 @@
+input: CET4_2.json
+output: CollegeEnglishTestL4-yd2.txt
+wordPath:
+  - headWord
+replace:
+  'FALSE': ['false']
+  jewish: [Jewish]
+  reservior: [reservoir]
+  systematical: [systematic]

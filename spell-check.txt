@@ -46,6 +46,7 @@ Apr
 April
 Aquarius
 Arab
+Arabian
 Arabic
 Arctic
 Aries
@@ -581,6 +582,7 @@ Milky Way
 Miller
 Milton
 Miss
+Mister
 Mitchell
 Mk
 Mon.
@@ -1016,6 +1018,7 @@ acceptable
 acceptance
 accepted
 access
+accessary
 accessible
 accession
 accessory
@@ -1242,6 +1245,7 @@ advisor
 advisory
 advocacy
 advocate
+advocator
 aerate
 aeration
 aerial
@@ -2171,6 +2175,7 @@ aversion
 avert
 avian
 aviary
+aviate
 aviation
 aviator
 avid
@@ -2229,6 +2234,7 @@ backlighting
 backlog
 backpack
 backside
+backslide
 backstage
 backup
 backward
@@ -2856,6 +2862,7 @@ bottle
 bottleneck
 bottom
 bottom line
+bough
 bought
 boulder
 boulevard
@@ -3339,6 +3346,7 @@ career
 carefree
 careful
 carefully
+caregiver
 careless
 carelessly
 carelessness
@@ -4326,6 +4334,7 @@ conjure
 connect
 connected
 connection
+connectivity
 connector
 connexion
 connoisseur
@@ -5620,6 +5629,7 @@ dishevel
 dishonest
 dishonestly
 dishonesty
+dishonour
 dishwasher
 disillusion
 disillusionment
@@ -5645,6 +5655,7 @@ dismissal
 dismissive
 disobey
 disorder
+disorderly
 disorganized
 disorient
 disorientate
@@ -5663,6 +5674,7 @@ dispiriting
 displace
 displacement
 display
+displease
 displeasure
 disposable
 disposal
@@ -5692,6 +5704,7 @@ dissent
 dissenter
 dissentious
 dissertation
+disservice
 dissever
 dissident
 dissimilar
@@ -6056,6 +6069,7 @@ eastward
 eastwards
 easy
 easy-going
+easygoing
 eat
 eater
 eating
@@ -6772,6 +6786,7 @@ expound
 express
 expression
 expressive
+expressiveness
 expropriate
 expropriation
 expulsion
@@ -8087,6 +8102,8 @@ ground
 ground floor
 ground rule
 grounding
+groundlessly
+groundsheet
 groundwork
 group
 group therapy
@@ -8145,6 +8162,7 @@ gunfire
 gunman
 gunner
 gunpoint
+gunpowder
 gunshot
 gurgle
 guru
@@ -8311,6 +8329,7 @@ hat trick
 hatch
 hatchet
 hate
+hateful
 hatred
 haughty
 haul
@@ -8595,6 +8614,7 @@ homeland
 homeless
 homely
 homemade
+homemaker
 homeopathy
 homeostasis
 homeowner
@@ -8894,6 +8914,7 @@ imitative
 immaculate
 immaterial
 immature
+immeasurable
 immediate
 immediately
 immense
@@ -8941,6 +8962,8 @@ imperial
 imperialism
 imperil
 imperious
+impermanency
+impermanent
 impermeable
 impersonal
 impersonate
@@ -9083,6 +9106,7 @@ income support
 income tax
 incoming
 incommodious
+incomparable
 incompatible
 incompetent
 incomplete
@@ -9463,6 +9487,7 @@ intercept
 intercession
 interchange
 interchangeable
+interconnect
 intercourse
 interdependence
 interdependent
@@ -9508,6 +9533,7 @@ interposition
 interpret
 interpretation
 interpreter
+interracial
 interrelate
 interrelationship
 interrogate
@@ -9627,6 +9653,7 @@ irony
 irradiate
 irradiation
 irrational
+irrationally
 irreconcilable
 irregular
 irregularity
@@ -9801,6 +9828,7 @@ karate
 karma
 keel
 keen
+keenly
 keep
 keep-fit
 keeper
@@ -10347,6 +10375,7 @@ logger
 logging
 logic
 logical
+logically
 login
 logistic
 logistics
@@ -10770,6 +10799,7 @@ meat
 mecca
 mechanic
 mechanical
+mechanically
 mechanics
 mechanism
 mechanization
@@ -11025,6 +11055,7 @@ misanthropy
 misbehave
 misbehavior
 miscalculate
+miscalculation
 miscarriage
 miscarriage of justice
 miscellaneous
@@ -11042,6 +11073,7 @@ misery
 misfit
 misfortune
 misgiving
+misguide
 misguided
 mishandle
 mishap
@@ -12072,6 +12104,7 @@ outsell
 outset
 outside
 outsider
+outskirt
 outskirts
 outsource
 outspoken
@@ -12363,6 +12396,7 @@ passing
 passion
 passionate
 passive
+passively
 passivity
 passport
 password
@@ -12395,6 +12429,7 @@ pathos
 pathway
 patience
 patient
+patiently
 patio
 patriarch
 patriarchal
@@ -12592,6 +12627,7 @@ persecute
 persecution
 persevere
 persist
+persistence
 persistent
 person
 persona
@@ -13161,6 +13197,7 @@ prefer
 preferable
 preference
 preferential
+preferentially
 preferred
 prefigure
 preflight
@@ -13256,6 +13293,7 @@ prevalence
 prevalent
 prevaricate
 prevent
+preventable
 preventative
 prevention
 preventive
@@ -13400,6 +13438,7 @@ progressive
 prohibit
 prohibition
 prohibitive
+prohibitively
 project
 projectile
 projection
@@ -13652,6 +13691,7 @@ putter
 putty
 puzzle
 puzzled
+puzzling
 pyjamas
 pylorus
 pyramid
@@ -13749,6 +13789,7 @@ racecourse
 racehorse
 racer
 racial
+racially
 racing
 racism
 racist
@@ -13763,6 +13804,7 @@ radiate
 radiation
 radiator
 radical
+radically
 radio
 radioactive
 radiocarbon
@@ -14091,6 +14133,7 @@ refract
 refraction
 refractory
 refrain
+reframe
 refresh
 refresher
 refreshing
@@ -14287,6 +14330,7 @@ reparable
 reparation
 repartee
 repatriate
+repave
 repay
 repayment
 repeal
@@ -14432,6 +14476,7 @@ restaurant
 restaurateur
 restitution
 restless
+restock
 restoration
 restorative
 restore
@@ -14602,6 +14647,7 @@ rink
 rinse
 riot
 riot police
+riotous
 rip
 rip-off
 ripe
@@ -15404,6 +15450,7 @@ short-sighted
 short-term
 shortage
 shortcoming
+shortcut
 shorten
 shortfall
 shorthand
@@ -15425,6 +15472,7 @@ show-off
 showcase
 showdown
 shower
+showmanship
 shown
 showpiece
 showroom
@@ -16421,6 +16469,7 @@ subconscious
 subcontract
 subculture
 subdivide
+subdivision
 subdue
 subdued
 subgroup
@@ -16795,6 +16844,7 @@ take
 take off
 take place
 take steps
+takeoff
 takeover
 taker
 takings
@@ -16931,6 +16981,7 @@ temporarily
 temporary
 tempt
 temptation
+tempting
 ten
 tenable
 tenacious
@@ -17630,6 +17681,7 @@ unaccompanied
 unaccountable
 unadorned
 unaffected
+unaffordable
 unaided
 unambiguous
 unanimity
@@ -17807,6 +17859,7 @@ unimportant
 unimpressed
 uninitiated
 unintelligible
+unintended
 unintentional
 uninterrupted
 union
@@ -18295,6 +18348,7 @@ visualize
 vital
 vitality
 vitalize
+vitally
 vitamin
 vitiate
 vitriol

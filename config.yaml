@@ -1,26 +1,4 @@
 
-- name: npee
-  path: origin/KaoYan_1.json
-  tag: KY
-  wordPath:
-    - headWord
-- name: npee
-  path: origin/KaoYan_2.json
-  tag: KY
-  wordPath:
-    - headWord
-  replace:
-    goodby: [goodbye]
-    april: ["April"]
-- name: npee
-  path: origin/KaoYan_3.json
-  tag: KY
-  wordPath:
-    - headWord
-  replace:
-    encyclopaedia: [encyclopedia]
-    resumé: [résumé]
-    by-pass: ["bypass"]
 - name: cet4
   path: origin/CET4_1.json
   tag: T4
