@@ -1426,6 +1426,7 @@ bedtime
 bee
 beef
 been
+beep
 beer
 beet
 beetle
@@ -5280,6 +5281,7 @@ flare
 flare-up
 flash
 flashback
+flashcard
 flashlight
 flashy
 flask
@@ -6577,6 +6579,7 @@ huntsman
 hurdle
 hurdler
 hurl
+hurrah
 hurricane
 hurried
 hurry
@@ -10500,6 +10503,7 @@ puzzle
 pyjamas
 pyramid
 python
+quack
 quad
 quadricep
 quadruple
@@ -14393,6 +14397,7 @@ voucher
 vow
 vowel
 voyage
+vroom
 vs
 vulgar
 vulnerability
@@ -14859,6 +14864,7 @@ yourself
 youth
 youthful
 yuan
+yum
 yummy
 yuppie
 zap
