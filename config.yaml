@@ -1,15 +1,4 @@
 
-- name: oxford
-  input: origin/Oxford5000.html
-  test: '[^\n\w: ]'
-  process:
-    - [['[\r\n]', g]]
-    - [['.*<ul class="top-g"> +']]
-    - [[' +</ul> *</div> *<div id="wordlistsOverlay".+$']]
-    - [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"]
-    - [['\ba(?=[12])', g], A]
-    - [['\bb(?=[12])', g], B]
-    - [['\bc(?=[12])', g], C]
 - name: collins
   input: origin/Collins5.csv
   output: dest/L5.txt
