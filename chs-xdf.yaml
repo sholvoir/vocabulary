@@ -1,0 +1,8 @@
+input: origin/GaoZhong_3.json
+output: dest/ChinaHighSchool-xdf.txt
+wordPath: [headWord]
+replace:
+  beddings: [bedding]
+  chain stores: [chain store]
+  organise: [organize]
+  sunburnt: [sunburn]

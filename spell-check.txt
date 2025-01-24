@@ -45,6 +45,7 @@ Apr
 April
 Aquarius
 Arab
+Arctic
 Aries
 Arnold
 Arthur
@@ -613,6 +614,7 @@ November
 O level
 OK
 OPEC
+Oceania
 Oct
 October
 Old Testament
@@ -1024,6 +1026,7 @@ adaptive
 add
 added
 addict
+addicted
 addiction
 addictive
 addition
@@ -1189,6 +1192,7 @@ airfield
 airlift
 airline
 airliner
+airmail
 airman
 airplane
 airport
@@ -1292,6 +1296,7 @@ amaze
 amazed
 amazing
 ambassador
+ambassadress
 amber
 ambience
 ambiguity
@@ -1799,6 +1804,7 @@ babble
 babe
 baby
 babysit
+bachelor
 back
 back room
 backbencher
@@ -1894,6 +1900,7 @@ barbed
 barbed wire
 barbell
 barber
+barbershop
 bare
 barefoot
 barely
@@ -2415,6 +2422,7 @@ bribery
 brick
 bridal
 bride
+bridegroom
 bridesmaid
 bridge
 bridle
@@ -2470,6 +2478,7 @@ browse
 browser
 bruise
 bruising
+brunch
 brunt
 brush
 brutal
@@ -2847,6 +2856,7 @@ cent
 centenary
 centennial
 center
+centigrade
 centimeter
 centimetre
 central
@@ -2877,6 +2887,7 @@ cessation
 cf.
 chain
 chain reaction
+chain store
 chair
 chairman
 chairperson
@@ -2896,6 +2907,7 @@ chance
 chancellor
 chandelier
 change
+changeable
 channel
 chant
 chaos
@@ -2954,6 +2966,7 @@ cheeky
 cheer
 cheerful
 cheerleader
+cheers
 cheery
 cheese
 cheeseburger
@@ -3983,6 +3996,7 @@ cuddle
 cuddly
 cue
 cuff
+cuisine
 cul-de-sac
 culinary
 cull
@@ -4466,6 +4480,7 @@ diarrhoea
 diary
 dice
 dictate
+dictation
 dictator
 dictatorial
 dictatorship
@@ -4865,6 +4880,7 @@ dressing room
 dressing table
 dribble
 dried
+drier
 drift
 drill
 drink
@@ -4976,6 +4992,8 @@ ease
 easily
 east
 eastern
+eastward
+eastwards
 easy
 easy-going
 eat
@@ -5033,6 +5051,7 @@ effort
 effortless
 eg
 egg
+eggplant
 ego
 eh
 eight
@@ -5957,6 +5976,7 @@ flower
 flu
 fluctuate
 fluctuation
+fluency
 fluent
 fluff
 fluffy
@@ -6398,6 +6418,7 @@ gimmick
 gin
 ginger
 gingerly
+giraffe
 girl
 girlfriend
 give
@@ -6587,8 +6608,10 @@ great
 greater
 greatly
 greed
+greedy
 green
 greenery
+greengrocer
 greenhouse
 greenhouse effect
 greenhouse gas
@@ -6787,6 +6810,7 @@ hard-boiled
 hard-hitting
 hard-line
 hard-pressed
+hard-working
 hardback
 harden
 hardliner
@@ -8925,6 +8949,7 @@ merchandise
 merchandising
 merchant
 merchant bank
+merciful
 mercifully
 merciless
 mercury
@@ -9324,6 +9349,7 @@ mute
 mutilate
 mutiny
 mutter
+mutton
 mutual
 mutual fund
 mutually
@@ -10352,6 +10378,7 @@ personal
 personal best
 personal computer
 personality
+personalization
 personalize
 personally
 personify
@@ -11171,6 +11198,7 @@ pun
 punch
 punctual
 punctuate
+punctuation
 puncture
 pundit
 pungent
@@ -11305,6 +11333,7 @@ radiator
 radical
 radio
 radioactive
+radium
 radius
 radon
 raffle
@@ -11887,6 +11916,7 @@ retainer
 retake
 retaliate
 retarded
+retell
 retention
 rethink
 reticent
@@ -11945,6 +11975,7 @@ revue
 revulsion
 reward
 rewarding
+rewind
 rework
 rewrite
 rhetoric
@@ -12059,6 +12090,7 @@ rooftop
 rookie
 room
 roost
+rooster
 root
 rooted
 rope
@@ -12491,6 +12523,7 @@ semen
 semester
 semi
 semi-final
+semicircle
 semiconductor
 seminal
 seminar
@@ -13315,6 +13348,7 @@ stagnant
 stagnate
 stain
 stained glass
+stainless
 stainless steel
 stair
 staircase
@@ -13428,6 +13462,7 @@ sternum
 steroid
 stew
 steward
+stewardess
 stick
 stick out
 sticker
@@ -13687,6 +13722,7 @@ sumo
 sumptuous
 sun
 sunbathe
+sunburn
 sundry
 sunflower
 sunglasses
@@ -13936,6 +13972,7 @@ task
 task force
 taste
 tasteful
+tasteless
 taster
 tasty
 tattered
@@ -14118,6 +14155,7 @@ therefore
 therein
 thermal
 thermometer
+thermos
 these
 thesis
 they
@@ -14482,6 +14520,7 @@ triumphant
 trivia
 trivial
 trolley
+trolleybus
 troop
 trooper
 trophy
@@ -15071,6 +15110,7 @@ victorious
 victory
 video
 videoconference
+videophone
 videotape
 vie
 view
@@ -15653,6 +15693,7 @@ zest
 zigzag
 zinc
 zip
+zipper
 zodiac
 zone
 zoo

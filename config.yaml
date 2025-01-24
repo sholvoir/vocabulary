@@ -1,12 +1,4 @@
 
-- name: ncee
-  input: origin/GaoZhong.json
-  output: dest/GK.txt
-  wordPath:
-    - headWord
-  replace:
-    chain stores: ["chain store"]
-    beddings: [bedding]
 - name: npee
   input: origin/KaoYan.json
   output: dest/KY.txt
