@@ -1,18 +1,4 @@
 
-- name: bsl
-  input: origin/BSL1.2LemmatizedForTeaching.csv
-  # https://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv
-  output: dest/BL.txt
-  test: '[^\na-z-]'
-  process:
-    - [[\r, g]]
-    - [['^([\w-]+?),.*$', gm], $1]
-  replace:
-    neo: ["neo-"]
-    non: [non-]
-    pre: ["pre-"]
-    stockmarket: ["stock market"]
-    annum: [per annum]
 - name: fel
   input: origin/FEL1.2LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
