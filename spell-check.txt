@@ -775,6 +775,7 @@ analyse
 analysis
 analyst
 analytical
+analyze
 anarchic
 anarchist
 anarchy
@@ -2137,6 +2138,7 @@ castrate
 casual
 casualty
 cat
+catalog
 catalogue
 catalyst
 catalytic
@@ -3220,6 +3222,7 @@ crippling
 crisis
 crisp
 crisscross
+criteria
 criterion
 critic
 critical
@@ -3732,6 +3735,7 @@ diagonal
 diagram
 dial
 dialect
+dialog
 dialogue
 diameter
 diamond
@@ -11638,6 +11642,7 @@ sitar
 sitcom
 site
 sitting room
+situate
 situated
 situation
 six
