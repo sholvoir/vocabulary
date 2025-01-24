@@ -1,13 +1,4 @@
-- name: longmanc
-  input: origin/LongmanCommunication3000.txt
-  test: '[^\n\w ,:''-]'
-  process:
-    - [[\r, g]]
-    - [['’', g], "'"]
-    - [['indefinite article', g], "indefinite_article"]
-    - [['definite article', g], "definite_article"]
-    - [[', ', g], ","]
-    - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
+
 - name: oxford
   input: origin/Oxford5000.html
   test: '[^\n\w: ]'

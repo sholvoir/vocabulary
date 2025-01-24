@@ -1,0 +1,14 @@
+input: origin/LongmanCommunication3000.txt
+output: dest/LongmanCommunication3000W3.txt
+test: '[^\n\w ,:''-]'
+process:
+  - [[\r, g]]
+  - [['’', g], "'"]
+  - [['indefinite article', g], "indefinite_article"]
+  - [['definite article', g], "definite_article"]
+  - [[', ', g], ","]
+  - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
+  - [['W[12]|S[1-3]|,', g]]
+  - [['^.+?: $', gm]]
+  - [['\n+', g], "\n"]
+  - [[': W3', g]]
