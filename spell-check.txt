@@ -1066,6 +1066,7 @@ adolescence
 adolescent
 adopt
 adoption
+adoptive
 adorable
 adore
 adorn
@@ -1679,6 +1680,7 @@ astrology
 astronaut
 astronomer
 astronomy
+astrophysics
 astute
 asylum
 at
@@ -4768,6 +4770,7 @@ docile
 dock
 dockland
 doctor
+doctoral
 doctorate
 doctrine
 document
@@ -4812,6 +4815,7 @@ doorman
 doorstep
 doorway
 dope
+dorm
 dormant
 dormitory
 dosage
@@ -5095,6 +5099,7 @@ elderly
 eldest
 elect
 election
+elective
 elector
 electoral
 electorate
@@ -6146,6 +6151,7 @@ founder member
 founding father
 fountain
 four
+fourfold
 foursome
 fourteen
 fourteenth
@@ -7016,6 +7022,7 @@ herself
 hesitant
 hesitate
 hesitation
+heterogeneity
 heterosexual
 hey
 heyday
@@ -9346,6 +9353,7 @@ mule
 mull
 mullet
 multi
+multicultural
 multilateral
 multimedia
 multimillionaire
@@ -11791,6 +11799,7 @@ remittance
 remix
 remnant
 remodel
+remonstrate
 remorse
 remote
 remote control
@@ -13727,6 +13736,7 @@ subversive
 subvert
 subway
 succeed
+succeeding
 success
 success story
 successful

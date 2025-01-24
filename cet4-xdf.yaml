@@ -1,0 +1,6 @@
+input: origin/CET4_3.json
+output: dest/CollegeEnglishTestL4-xdf.txt
+wordPath: [headWord]
+replace:
+  world-wide: ["worldwide"]
+  systematical: [systematic]

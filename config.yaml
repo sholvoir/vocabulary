@@ -1,12 +1,4 @@
 
-- name: cet4
-  input: origin/CET4.json
-  output: dest/T4.txt
-  wordPath:
-    - headWord
-  replace:
-    world-wide: ["worldwide"]
-    systematical: [systematic]
 - name: cet6
   input: origin/CET6.json
   output: dest/T6.txt
