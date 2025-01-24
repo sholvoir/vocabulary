@@ -1,0 +1,31 @@
+input: GaoZhong_2.json
+output: ChinaHighSchool-yd.txt
+wordPath:
+  - headWord
+replace:
+  'FALSE': ['false']
+  'TRUE': ['true']
+  Baby: [baby]
+  Dynamic: [dynamic]
+  Dynasty: [dynasty]
+  Indicate: [indicate]
+  Lost: [lost]
+  Mom: [mom]
+  beancurd: [bean curd]
+  beddings: [bedding]
+  behavious: [behavior]
+  chips: [chip]
+  founding: [found]
+  grandparents: [grandparent]
+  handtruck: [hand truck]
+  headteacher: [head teacher]
+  hur: [hurricane]
+  organise: [organize]
+  organiser: [organizer]
+  refreshments: [refreshment]
+  regards: [regard]
+  repairs: [repair]
+  scores: [score]
+  souvenirs: [souvenir]
+  sunburnt: [sunburn]
+  walkman: [Walkman]
