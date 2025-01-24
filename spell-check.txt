@@ -287,6 +287,7 @@ Sat.
 Satan
 Saturday
 Saturn
+Savasana
 Saxon
 Scorpio
 Scotch
@@ -348,6 +349,7 @@ abbreviation
 abdomen
 abdominal
 abduct
+abductor
 aberration
 abide
 abiding
@@ -497,6 +499,7 @@ additional
 additionally
 additive
 address
+adductor
 adept
 adequate
 adequately
@@ -559,6 +562,7 @@ advisory
 advocacy
 advocate
 aerial
+aerobic
 aerobics
 aeroplane
 aerosol
@@ -574,6 +578,7 @@ affidavit
 affiliate
 affinity
 affirm
+affirmation
 affirmative
 affirmative action
 affluent
@@ -785,7 +790,9 @@ amused
 amusement
 amusing
 an
+anabolic
 anaemia
+anaerobic
 anaesthetic
 anal
 analogue
@@ -857,6 +864,7 @@ antagonist
 antagonize
 ante
 antenna
+anterior
 anthem
 anthology
 anthropology
@@ -868,6 +876,7 @@ anticipate
 anticipation
 antics
 antidote
+antioxidant
 antipathy
 antiquated
 antique
@@ -1031,6 +1040,7 @@ artist
 artistic
 artwork
 as
+asana
 asbestos
 ascend
 ascendant
@@ -1229,6 +1239,7 @@ babysit
 back
 back room
 backbencher
+backbend
 backbone
 backdrop
 backer
@@ -1317,6 +1328,7 @@ barbaric
 barbecue
 barbed
 barbed wire
+barbell
 barber
 bare
 barefoot
@@ -1505,6 +1517,7 @@ bias
 biased
 biblical
 bibliography
+bicep
 bicker
 bicycle
 bid
@@ -1601,6 +1614,7 @@ bleed
 bleep
 blemish
 blend
+blender
 bless
 blessed
 blessing
@@ -1664,7 +1678,9 @@ bob
 bode
 bodily
 body
+body build
 body language
+bodybuilder
 bodyguard
 bog
 bog down
@@ -1714,6 +1730,7 @@ booster
 boot
 booth
 bootleg
+booty
 booze
 border
 borderline
@@ -1957,6 +1974,7 @@ burning
 burnt
 burnt-out
 burp
+burpee
 burrow
 burst
 bury
@@ -2036,6 +2054,7 @@ calling
 callous
 calm
 calmly
+caloric
 calorie
 camcorder
 came
@@ -2159,11 +2178,13 @@ carton
 cartoon
 cartoonist
 cartridge
+cartwheel
 carve
 carving
 cascade
 case
 case study
+casein
 cash
 cash flow
 cashier
@@ -2280,6 +2301,7 @@ chain reaction
 chair
 chairman
 chairperson
+chakra
 chalet
 chalk
 challenge
@@ -2333,6 +2355,7 @@ chat
 chat show
 chateau
 chatter
+chaturanga
 chauffeur
 chauvinism
 cheap
@@ -2593,6 +2616,7 @@ coating
 coax
 cob
 cobalt
+cobra
 cocaine
 cock
 cockney
@@ -2637,6 +2661,7 @@ collaborator
 collage
 collapse
 collar
+collarbone
 collate
 collateral
 colleague
@@ -2691,6 +2716,7 @@ comfort
 comfortable
 comfortably
 comforting
+comfy
 comic
 comic book
 comical
@@ -2805,6 +2831,7 @@ comprehend
 comprehension
 comprehensive
 compress
+compression
 comprise
 compromise
 compromising
@@ -3089,6 +3116,7 @@ cookery
 cookie
 cooking
 cool
+cooldown
 cooler
 cooperate
 cooperation
@@ -3259,6 +3287,7 @@ cream
 creamy
 crease
 create
+creatine
 creation
 creative
 creativity
@@ -3402,6 +3431,7 @@ cursed
 curt
 curtail
 curtain
+curtsy
 curve
 curved
 cushion
@@ -3499,6 +3529,7 @@ de facto
 deacon
 dead
 dead end
+deadlift
 deadline
 deadlock
 deadlocked
@@ -3618,6 +3649,7 @@ degenerate
 degrade
 degree
 dehydrate
+dehydration
 deity
 delay
 delegate
@@ -3638,6 +3670,7 @@ deliver
 deliverable
 delivery
 delta
+deltoid
 deluge
 delusion
 deluxe
@@ -4284,6 +4317,7 @@ duke
 dull
 duly
 dumb
+dumbbell
 dummy
 dump
 dune
@@ -4425,6 +4459,7 @@ electrician
 electricity
 electrify
 electrode
+electrolyte
 electromagnetic
 electron
 electronic
@@ -4553,6 +4588,7 @@ endurance
 endure
 enemy
 energetic
+energetically
 energize
 energy
 enforce
@@ -4811,6 +4847,7 @@ exempt
 exemption
 exercise
 exert
+exhalation
 exhale
 exhaust
 exhaustive
@@ -5008,6 +5045,8 @@ farming
 farmland
 farmyard
 fart
+fascia
+fascial
 fascinate
 fascinating
 fascination
@@ -5265,6 +5304,8 @@ flesh
 flex
 flexibility
 flexible
+flexion
+flexor
 flextime
 flick
 flicker
@@ -5523,6 +5564,7 @@ frosty
 froth
 frown
 frozen
+fructose
 frugal
 fruit
 fruitful
@@ -5782,6 +5824,10 @@ glucose
 glue
 glum
 glut
+glutamine
+gluteus
+glycemic
+glycogen
 gm
 gnaw
 gnome
@@ -6080,6 +6126,7 @@ hands-on
 handset
 handshake
 handsome
+handstand
 handwriting
 handwritten
 handy
@@ -6542,6 +6589,8 @@ husky
 hustle
 hut
 hybrid
+hydrate
+hydration
 hydraulic
 hydrocarbon
 hydrogen
@@ -6551,6 +6600,7 @@ hype
 hyper
 hyperactive
 hypertension
+hypertrophy
 hypnosis
 hypnotic
 hypocrisy
@@ -6891,10 +6941,12 @@ infusion
 ingenious
 ingenuity
 ingest
+ingestion
 ingrained
 ingredient
 inhabit
 inhabitant
+inhalation
 inhale
 inherent
 inherit
@@ -7053,6 +7105,7 @@ interference
 interim
 interior
 interior design
+interlace
 interlock
 interlude
 intermediary
@@ -7200,6 +7253,7 @@ ivy
 jab
 jack
 jacket
+jackknife
 jackpot
 jade
 jaded
@@ -7315,6 +7369,7 @@ kerb
 kernel
 kerosene
 kettle
+kettlebell
 key
 keyboard
 keynote
@@ -7324,6 +7379,8 @@ kick
 kick-off
 kick-start
 kickback
+kickbox
+kicker
 kid
 kidnap
 kidney
@@ -7333,6 +7390,7 @@ killer
 killing
 kiln
 kilo
+kilocalorie
 kilogram
 kilometer
 kilometre
@@ -7357,6 +7415,7 @@ km
 knack
 knead
 knee
+kneecap
 kneel
 knew
 knickers
@@ -7379,6 +7438,7 @@ knowledgeable
 known
 knuckle
 kudos
+kundalini
 lab
 label
 labor
@@ -7393,6 +7453,7 @@ lace
 lack
 lacklustre
 lacquer
+lactate
 lacy
 lad
 ladder
@@ -7450,6 +7511,7 @@ lateral
 latest
 lathe
 latitude
+lats
 latte
 latter
 latter-day
@@ -7625,6 +7687,7 @@ lifestyle
 lifetime
 lift
 lift-off
+lifter
 ligament
 light
 light bulb
@@ -7796,6 +7859,7 @@ lost
 lot
 lotion
 lottery
+lotus
 loud
 loudly
 loudness
@@ -8085,6 +8149,7 @@ maul
 mauve
 maverick
 maxim
+maximal
 maximization
 maximize
 maximum
@@ -8242,6 +8307,7 @@ middle class
 middle-aged
 middle-class
 middleman
+midline
 midnight
 midst
 midsummer
@@ -8284,7 +8350,10 @@ mince
 mind
 minder
 mindful
+mindfully
+mindfulness
 mindless
+mindset
 mine
 minefield
 miner
@@ -8516,6 +8585,7 @@ mud
 muddle
 muddled
 muddy
+mudra
 muffin
 muffle
 mug
@@ -8573,6 +8643,7 @@ mutual fund
 mutually
 muzzle
 my
+myofascial
 myriad
 myself
 mysterious
@@ -8589,6 +8660,7 @@ nag
 nail
 naive
 naked
+namaste
 name
 namely
 nan
@@ -8965,6 +9037,7 @@ oldie
 olive
 olive oil
 ombudsman
+omega
 omelette
 omen
 ominous
@@ -9190,6 +9263,7 @@ overeat
 overestimate
 overflow
 overgrown
+overhand
 overhang
 overhaul
 overhead
@@ -9220,6 +9294,7 @@ overtake
 overthrow
 overtime
 overtone
+overtrain
 overture
 overturn
 overvalue
@@ -9237,6 +9312,7 @@ own goal
 owner
 ownership
 ox
+oxidation
 oxide
 oxidize
 oxygen
@@ -9539,6 +9615,7 @@ period
 periodic
 periodical
 periodically
+periodization
 peripheral
 periphery
 perish
@@ -9551,6 +9628,7 @@ permissible
 permission
 permit
 pernicious
+perpendicular
 perpetrate
 perpetual
 perpetuate
@@ -9680,6 +9758,7 @@ pineapple
 ping
 pink
 pinkie
+pinky
 pinnacle
 pinpoint
 pint
@@ -9803,6 +9882,7 @@ poach
 pocket
 pocket money
 pod
+podcast
 podium
 poem
 poet
@@ -9929,6 +10009,7 @@ postage
 postal
 postcard
 poster
+posterior
 posterity
 postgraduate
 posthumous
@@ -10039,6 +10120,7 @@ premiere
 premise
 premium
 premonition
+prenatal
 preoccupy
 prep
 prep school
@@ -10357,7 +10439,10 @@ pudding
 puddle
 puff
 pull
+pulldown
 pulled
+pulley
+pullover
 pulp
 pulpit
 pulsate
@@ -10415,6 +10500,8 @@ puzzle
 pyjamas
 pyramid
 python
+quad
+quadricep
 quadruple
 quagmire
 quail
@@ -10678,6 +10765,7 @@ recommendation
 reconcile
 reconciliation
 reconnaissance
+reconnect
 reconsider
 reconstitute
 reconstruct
@@ -11042,6 +11130,7 @@ restaurant
 restaurateur
 restless
 restoration
+restorative
 restore
 restrain
 restrained
@@ -11137,6 +11226,7 @@ rhythm
 rhythmic
 rib
 ribbon
+ribcage
 rice
 rich
 richly
@@ -11248,6 +11338,7 @@ rot
 rotary
 rotate
 rotation
+rotator
 rotor
 rotten
 rouble
@@ -11602,6 +11693,7 @@ security guard
 sedan
 sedate
 sedative
+sedentary
 sedge
 sediment
 seduce
@@ -12013,6 +12105,7 @@ sizzle
 skate
 skateboard
 skein
+skeletal
 skeleton
 skeptic
 skeptical
@@ -12114,11 +12207,13 @@ smell
 smelly
 smile
 smirk
+smith
 smog
 smoke
 smoking
 smoky
 smooth
+smoothie
 smoothly
 smoothness
 smother
@@ -12252,6 +12347,7 @@ soprano
 sordid
 sore
 sorely
+soreness
 sorrow
 sorry
 sort
@@ -12511,6 +12607,7 @@ starter
 starting point
 startle
 startling
+startup
 starvation
 starve
 stash
@@ -12573,6 +12670,7 @@ sterile
 sterilize
 sterling
 stern
+sternum
 steroid
 stew
 steward
@@ -12588,6 +12686,7 @@ stifling
 stigma
 still
 still life
+stillness
 stimulant
 stimulate
 stimulus
@@ -12856,6 +12955,7 @@ supernatural
 supernova
 superpower
 supersede
+superset
 supersonic
 superstar
 superstition
@@ -12865,11 +12965,13 @@ supervise
 supervision
 supervisor
 supervisory
+supine
 supper
 supplant
 supple
 supplement
 supplementary
+supplementation
 supplier
 supply
 support
@@ -13012,6 +13114,7 @@ tableau
 tablecloth
 tablespoon
 tablet
+tabletop
 tabloid
 taboo
 tacit
@@ -13024,6 +13127,7 @@ tactic
 tactical
 tag
 tail
+tailbone
 tailor
 tailor-made
 taint
@@ -13348,6 +13452,7 @@ tiger
 tight
 tighten
 tightly
+tightness
 tightrope
 tights
 tile
@@ -13592,12 +13697,14 @@ tribal
 tribe
 tribunal
 tribute
+tricep
 trick
 trickle
 tricky
 tried
 trifle
 trigger
+triglyceride
 trillion
 trilogy
 trim
@@ -14012,11 +14119,13 @@ upkeep
 upland
 uplift
 uplifting
+upload
 upmarket
 upon
 upper
 upper class
 upper house
+uppercut
 uppermost
 upright
 uprising
@@ -14212,6 +14321,7 @@ vine
 vinegar
 vineyard
 vintage
+vinyasa
 vinyl
 viola
 violate
@@ -14302,6 +14412,7 @@ wagon
 wail
 waist
 waistcoat
+waistline
 wait
 waiter
 waiting
@@ -14345,6 +14456,7 @@ warm
 warm-up
 warming
 warmth
+warmup
 warn
 warning
 warp
@@ -14477,6 +14589,7 @@ wherein
 whereupon
 wherever
 whether
+whey
 which
 whichever
 whiff
@@ -14503,6 +14616,7 @@ whitewash
 whittle
 whizz
 who
+whoa
 whoever
 whole
 wholehearted
@@ -14556,6 +14670,7 @@ windfall
 windmill
 window
 windscreen
+windshield
 windy
 wine
 wine bar
@@ -14569,6 +14684,7 @@ winning
 winnings
 winter
 wipe
+wiper
 wire
 wireless
 wiring
@@ -14729,6 +14845,7 @@ yew
 yield
 yo-yo
 yoga
+yogi
 yogurt
 yolk
 you
@@ -14742,6 +14859,7 @@ yourself
 youth
 youthful
 yuan
+yummy
 yuppie
 zap
 zeal

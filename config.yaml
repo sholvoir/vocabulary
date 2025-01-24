@@ -1,21 +1,4 @@
 
-- name: fel
-  input: origin/FEL1.2LemmatizedForTeaching.txt
-  # https://www.newgeneralservicelist.com/s/FEL_12_lemmatized_for_teaching.txt
-  output: dest/FE.txt
-  test: '[^\na-z]'
-  process:
-    - [[\r, g]]
-    - [['^#.*\n*', gm]]
-    - [['^(\w+?),.*$', gm], $1]
-  replace:
-    non: [non-]
-    bodyweight: [body weight]
-    bodybuild: ["body build"]
-    shavasana: ["Savasana"]
-    obliques: ["oblique"]
-    pre: ["pre-"]
-    pushup: ["push-up"]
 - name: ndl
   input: origin/NDL1.1LemmatizedForTeaching.txt
   # https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt

@@ -1,0 +1,15 @@
+input: origin/FEL1.2LemmatizedForTeaching.txt
+output: dest/FitnessEnglishList.txt
+test: '[^\na-z]'
+process:
+  - [[\r, g]]
+  - [['^#.*\n*', gm]]
+  - [['^(\w+?),.*$', gm], $1]
+replace:
+  non: [non-]
+  bodyweight: [body, weight]
+  bodybuild: [body build]
+  shavasana: [Savasana]
+  obliques: [oblique]
+  pre: [pre-]
+  pushup: [push-up]
