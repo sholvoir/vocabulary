@@ -1,5 +1,6 @@
 input: CET4_3.json
-output: CollegeEnglishTestL4-xdf.txt
+output: CollegeEnglishTestL4-xdf
+version: 0.0.1
 wordPath: [headWord]
 replace:
   world-wide: ["worldwide"]

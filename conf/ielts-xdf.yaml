@@ -1,5 +1,6 @@
 input: IELTS_3.json
-output: IELTS-xdf.txt
+output: IELTS-xdf
+version: 0.0.1
 wordPath: [headWord]
 replace:
   Kung Fu: [kung fu]

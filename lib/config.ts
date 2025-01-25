@@ -4,6 +4,7 @@ import { parse, stringify } from '@std/yaml';
 export interface Config {
     input: string;
     output: string;
+    version: string;
     wordPath?: Array<string | number>;
     test?: string;
     process?: Array<[[string, string], string]>;

@@ -1,6 +1,7 @@
 # https://simple.wikipedia.org/w/index.php?title=Wikipedia:VOA_Special_English_Word_Book&action=edit
 input: VOASpecialEnglishWordBook.html
-output: VOASpecialEnglishWords.txt
+output: VOASpecialEnglishWords
+version: 0.0.1
 test: '[^\nA-Za-z -]'
 process:
   - [['[\r\n]', g]]

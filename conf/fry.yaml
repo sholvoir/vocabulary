@@ -1,5 +1,6 @@
 input: FrySightWordsList.html
-output: FrySightWords.txt
+output: FrySightWords
+version: 0.0.1
 test: '[^\na-zA-Z'']'
 process:
   - [['[\r\n]', g]]

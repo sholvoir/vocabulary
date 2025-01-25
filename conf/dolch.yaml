@@ -1,6 +1,7 @@
 # https://sightwords.com/sight-words/dolch/
 input: DolchSightWordsList.html
-output: DolchSightWords.txt
+output: DolchSightWords
+version: 0.0.1
 test: '[^\na-zA-Z '']'
 process:
   - [['[\r\n]', g]]

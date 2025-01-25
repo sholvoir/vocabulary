@@ -1,5 +1,6 @@
 input: BEC_3.json
-output: BEC-xdf.txt
+output: BEC-xdf
+version: 0.0.1
 wordPath:
   - headWord
 replace:

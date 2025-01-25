@@ -1,6 +1,7 @@
 # https://sightwords.com/sight-words/top-150/
 input: Top150WrittenSightWords.html
-output: Top150WrittenSightWords.txt
+output: Top150WrittenSightWords
+version: 0.0.1
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]

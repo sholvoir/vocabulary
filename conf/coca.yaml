@@ -1,5 +1,6 @@
 input: CocaTop5000WordFrequency.csv
-output: CocaTop5000.txt
+output: CocaTop5000
+version: 0.0.1
 test: '[^\na-z''-]'
 process:
   - [[\r, g]]

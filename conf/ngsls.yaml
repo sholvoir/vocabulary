@@ -1,6 +1,7 @@
 # https://www.newgeneralservicelist.com/s/NGSL-Spoken_12_lemmatized_for_teaching.csv
 input: NGSLSpoken1.2LemmatizedForTeaching.csv
-output: NewGeneralServiceListSpoken.txt
+output: NewGeneralServiceListSpoken
+version: 0.0.1
 test: '[^\na-z]'
 process:
   - [[\r, g]]

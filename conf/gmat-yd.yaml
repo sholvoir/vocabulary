@@ -1,5 +1,6 @@
 input: GMAT_2.json
-output: GMAT-yd.txt
+output: GMAT-yd
+version: 0.0.1
 wordPath:
   - headWord
 replace:

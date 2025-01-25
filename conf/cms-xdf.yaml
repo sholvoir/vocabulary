@@ -1,3 +1,4 @@
 input: ChuZhong_3.json
-output: ChinaMiddleSchool-xdf.txt
+output: ChinaMiddleSchool-xdf
+version: 0.0.1
 wordPath: [headWord]

@@ -1,5 +1,6 @@
 input: GRE_2.json
-output: GRE-yd.txt
+output: GRE-yd
+version: 0.0.1
 wordPath:
   - headWord
 replace:

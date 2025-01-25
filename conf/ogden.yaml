@@ -1,6 +1,7 @@
 # https://zbenglish.net/sites/basic/words.html
 input: OgdensBasicEnglishWords.html
-output: OgdensBasicEnglishWords.txt
+output: OgdensBasicEnglishWords
+version: 0.0.1
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]

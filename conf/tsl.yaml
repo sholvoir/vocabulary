@@ -1,6 +1,7 @@
 # https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
 input: TSL1.2LemmatizedForTeaching.csv
-output: TOEICServiceList.txt
+output: TOEICServiceList
+version: 0.0.1
 test: '[^\na-zé ''-]'
 process:
   - [[\r, g]]

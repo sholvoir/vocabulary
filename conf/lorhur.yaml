@@ -1,3 +1,4 @@
 input: Lorhur.txt
-output: Lorhur.txt
+output: Lorhur
+version: 0.0.1
 test: '[^\na-zA-Z]'

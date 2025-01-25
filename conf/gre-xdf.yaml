@@ -1,5 +1,6 @@
 input: GRE_3.json
-output: GRE-xdf.txt
+output: GRE-xdf
+version: 0.0.1
 wordPath:
   - headWord
 replace:

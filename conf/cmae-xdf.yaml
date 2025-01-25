@@ -1,5 +1,6 @@
 input: KaoYan_3.json
-output: MasterAdmissionsExamination-xdf.txt
+output: MasterAdmissionsExamination-xdf
+version: 0.0.1
 wordPath: [headWord]
 replace:
   Thanksgiving: [thanksgiving]

@@ -1,5 +1,6 @@
 input: BEC_2.json
-output: BEC-yd.txt
+output: BEC-yd
+version: 0.0.1
 wordPath:
   - headWord
 replace:

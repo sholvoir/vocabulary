@@ -1,5 +1,6 @@
 input: FEL1.2LemmatizedForTeaching.txt
-output: FitnessEnglishList.txt
+output: FitnessEnglishList
+version: 0.0.1
 test: '[^\na-z]'
 process:
   - [[\r, g]]

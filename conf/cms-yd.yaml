@@ -1,5 +1,6 @@
 input: ChuZhong_2.json
-output: ChinaMiddleSchool-yd.txt
+output: ChinaMiddleSchool-yd
+version: 0.0.1
 wordPath:
   - headWord
 replace:

@@ -1,5 +1,6 @@
 input: LongmanCommunication3000.txt
-output: LongmanCommunication3000S2.txt
+output: LongmanCommunication3000S2
+version: 0.0.1
 test: '[^\n\w ,:''-]'
 process:
   - [[\r, g]]
