@@ -1,16 +1,15 @@
 input: Collins4.csv
-output: Collins4
-version: 0.0.1
+output: Collins4.txt
 test: '[^\nA-Za-z ''-]'
 process:
   - [[\r, g]]
   - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 replace:
-  "TRUE": ["true"]
-  Protect: ["protect"]
-  Protest: ["protest"]
-  Prove: ["prove"]
-  Pull: ["pull"]
-  Push: ["push"]
+  'TRUE': ['true']
+  Protect: [protect]
+  Protest: [protest]
+  Prove: [prove]
+  Pull: [pull]
+  Push: [push]
   earlier: [early]
   tion: [recognition]

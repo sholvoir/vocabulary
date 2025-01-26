@@ -1,12 +1,10 @@
-# https://en.wiktionary.org/w/index.php?title=Appendix:1000_basic_English_words&action=edit
 input: Wiktionary1000BasicEnglishWords.html
-output: Wiktionary1000BasicEnglishWords
-version: 0.0.1
+output: Wiktionary1000BasicEnglishWords.txt
 test: '[^\nA-Za-z]'
 process:
   - [['[\r\n]', g]]
-  - [['.*!-- Keep the number of words at 1000. -->']]
-  - [['===See also===.*$']]
-  - [["'''[A-Z]''' *:", g]]
+  - [[.*!-- Keep the number of words at 1000. -->]]
+  - [[===See also===.*$]]
+  - [['''''''[A-Z]'''''' *:', g]]
   - [['\[\[', g]]
   - [['\]\][,.] *', g], "\n"]

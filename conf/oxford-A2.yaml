@@ -1,12 +1,11 @@
 input: Oxford5000.html
-output: Oxford5000-A2
-version: 0.0.1
+output: Oxford5000-A2.txt
 test: '[^\n\w: ]'
 process:
   - [['[\r\n]', g]]
-  - [['.*<ul class="top-g"> +']]
+  - [[.*<ul class="top-g"> +]]
   - [[' +</ul> *</div> *<div id="wordlistsOverlay".+$']]
   - [[<li.+?> +<a.+?>(\w+?)</a> +<span.+?>.+?</span><div><span.+?>(\w+?)</span> +<div.+?>.*?</div> *?<div.+?>.*?</div></div></li> *, g], "$1: $2\n"]
   - [['^.+?: (a1|b[12]|c[12])$', gm]]
-  - [['\n+', g], "\n"]
+  - [[\n+, g], "\n"]
   - [[': a2$', gm]]

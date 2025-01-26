@@ -1,6 +1,6 @@
 input: CET6_3.json
-output: CollegeEnglishTestL6-xdf
-version: 0.0.1
-wordPath: [headWord]
+output: CollegeEnglishTestL6-xdf.txt
+wordPath:
+  - headWord
 replace:
   Thanksgiving: [thanksgiving]

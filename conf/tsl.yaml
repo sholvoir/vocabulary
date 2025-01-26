@@ -1,12 +1,10 @@
-# https://www.newgeneralservicelist.com/s/TSL_12_lemmatized_for_teaching.csv
 input: TSL1.2LemmatizedForTeaching.csv
-output: TOEICServiceList
-version: 0.0.1
+output: TOEICServiceList.txt
 test: '[^\na-zé ''-]'
 process:
   - [[\r, g]]
-  - [['�', g], 'é']
+  - [[�, g], é]
   - [['^#.*\n*', gm]]
   - [['^([\wé ''-]+?),.*$', gm], $1]
 replace:
-  unauthorize: ["authorize"]
+  unauthorize: [authorize]

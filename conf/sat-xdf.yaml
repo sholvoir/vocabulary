@@ -1,6 +1,5 @@
 input: SAT_3.json
-output: SAT-xdf
-version: 0.0.1
+output: SAT-xdf.txt
 wordPath:
   - headWord
 replace:

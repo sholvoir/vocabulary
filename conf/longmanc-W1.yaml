@@ -1,15 +1,14 @@
 input: LongmanCommunication3000.txt
-output: LongmanCommunication3000W1
-version: 0.0.1
+output: LongmanCommunication3000W1.txt
 test: '[^\n\w ,:''-]'
 process:
   - [[\r, g]]
-  - [['’', g], "'"]
-  - [['indefinite article', g], "indefinite_article"]
-  - [['definite article', g], "definite_article"]
-  - [[', ', g], ","]
-  - [[' [\w,_]+ ([SW1-3,]+)$', gm], ": $1"]
+  - [[’, g], '''']
+  - [[indefinite article, g], indefinite_article]
+  - [[definite article, g], definite_article]
+  - [[', ', g], ',']
+  - [[' [\w,_]+ ([SW1-3,]+)$', gm], ': $1']
   - [['W[23]|S[1-3]|,', g]]
   - [['^.+?: $', gm]]
-  - [['\n+', g], "\n"]
+  - [[\n+, g], "\n"]
   - [[': W1', g]]

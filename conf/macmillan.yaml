@@ -1,6 +1,5 @@
 input: MacmillanDictionaryDefiningVocabulary.html
-output: MacmillanDictionaryDefiningVocabulary
-version: 0.0.1
+output: MacmillanDictionaryDefiningVocabulary.txt
 test: '[^\nA-Za-zé ''-]'
 process:
   - [[\r, g]]

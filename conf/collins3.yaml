@@ -1,6 +1,5 @@
 input: Collins3.csv
-output: Collins3
-version: 0.0.1
+output: Collins3.txt
 test: '[^\nA-Za-z ''-]'
 process:
   - [[\r, g]]

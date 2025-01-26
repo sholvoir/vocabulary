@@ -1,7 +1,5 @@
-# https://www.newgeneralservicelist.com/s/NDL_11_lemmatized_for_teaching.txt
 input: NDL1.1LemmatizedForTeaching.txt
-output: NewDolchList
-version: 0.0.1
+output: NewDolchList.txt
 test: '[^\nA-Za-z'']'
 process:
   - [[\r, g]]

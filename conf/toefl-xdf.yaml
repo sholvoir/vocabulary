@@ -1,7 +1,7 @@
 input: TOEFL_3.json
-output: TOEFL-xdf
-version: 0.0.1
-wordPath: [headWord]
+output: TOEFL-xdf.txt
+wordPath:
+  - headWord
 replace:
   lost-and-found: [lost and found]
   smelting: [smelt]

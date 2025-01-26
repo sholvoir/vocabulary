@@ -1,6 +1,5 @@
 input: BncAllAlpha.txt
-output: BncAllAlpha
-version: 0.0.1
+output: BncAllAlpha.txt
 test: '[^\nA-Za-z ''.-]'
 process:
   - [['[\r\(\)\*]', g]]

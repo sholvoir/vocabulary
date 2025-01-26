@@ -1,18 +1,16 @@
-# https://sightwords.com/sight-words/dolch/
 input: DolchSightWordsList.html
-output: DolchSightWords
-version: 0.0.1
+output: DolchSightWords.txt
 test: '[^\na-zA-Z '']'
 process:
   - [['[\r\n]', g]]
   - [['.*<h1 style="margin-top: 30px;" id="lists">Dolch Word Lists</h1>']]
-  - [['<section id="comments">.*$']]
-  - [['\(\d+ words\)<br/>', g]]
-  - [['<li>.*?<br/>.*?<p>', g]]
-  - [['<li.*?</li>', g]]
-  - [['</p></li>', g], ","]
-  - [['<.*?>', g]]
-  - [['\s+', g], ' ']
-  - [["’", g], "'"]
+  - [[<section id="comments">.*$]]
+  - [[\(\d+ words\)<br/>, g]]
+  - [[<li>.*?<br/>.*?<p>, g]]
+  - [[<li.*?</li>, g]]
+  - [[</p></li>, g], ',']
+  - [[<.*?>, g]]
+  - [[\s+, g], ' ']
+  - [[’, g], '''']
   - [[', *', g], "\n"]
   - [[' +']]

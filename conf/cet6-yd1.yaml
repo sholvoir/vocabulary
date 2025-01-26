@@ -1,6 +1,5 @@
 input: CET6_1.json
-output: CollegeEnglishTestL6-yd1
-version: 0.0.1
+output: CollegeEnglishTestL6-yd1.txt
 wordPath:
   - headWord
 replace:

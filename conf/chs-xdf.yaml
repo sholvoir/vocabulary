@@ -1,7 +1,7 @@
 input: GaoZhong_3.json
-output: ChinaHighSchool-xdf
-version: 0.0.1
-wordPath: [headWord]
+output: ChinaHighSchool-xdf.txt
+wordPath:
+  - headWord
 replace:
   beddings: [bedding]
   chain stores: [chain store]

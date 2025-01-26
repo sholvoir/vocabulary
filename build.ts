@@ -5,24 +5,17 @@ import { readConfig, writeConfig } from './lib/config.ts';
 import { spellCheck, spellCheckClose, spellCheckInit } from './lib/spell-check.ts';
 
 const vocabularyPath = 'vocabulary.txt';
-const deployPath = '../sholvoir.github.io/vocabulary';
-// const sortFunc = (a: string, b: string) => a.localeCompare(b, undefined, {sensitivity: 'base'});
 
 async function run() {
     // get command line args and read config file
-    const args = parseArgs(Deno.args, { boolean: ['step-out', 'all'], alias: {'step-out': 's', 'all': 'a'} });
+    const args = parseArgs(Deno.args, { boolean: ['step-out'], alias: {'step-out': 's'} });
     const vocabulary = new Set<string>();
     for (let line of (await Deno.readTextFile(vocabularyPath)).split('\n'))
         if (line = line.trim()) vocabulary.add(line);
     await spellCheckInit();
     const revision = yamlParse(await Deno.readTextFile('revision.yaml')) as Record<string, Array<string>>;
-    const tasks = [];
-    if (args.all) for await (const file of Deno.readDir('dest')) {
-        if (file.isFile && file.name.endsWith('.yaml')) tasks.push(file.name);
-    }
-    else for (const name of args._) tasks.push(`${name}.yaml`);
-    for (const path of tasks) {
-        const configPath = `conf/${path}`;
+    for (const path of args._) {
+        const configPath = `conf/${path}.yaml`;
         const config = await readConfig(configPath);
         const miss: Record<string, Array<string>> = {};
         const words = new Set<string>();
@@ -68,25 +61,14 @@ async function run() {
                         if (!check) (words.add(fword), vocabulary.add(fword));
                         else miss[fword] = check;
                     }
-        await Deno.writeTextFile(`${deployPath}/${config.output}-${config.version}.txt`,
-            Array.from(words).sort().join('\n'));
-        if (Object.keys(miss).length) config.miss = miss;
-        const itemVersion = config.version.split('.').map(s=>parseInt(s));
-        itemVersion[2]++;
-        config.version = itemVersion.join('.');
-        await writeConfig(configPath, config);
+        if (Object.keys(miss).length) {
+            config.miss = miss;
+            await writeConfig(configPath, config);
+        }
+        await Deno.writeTextFile(`dest/${config.output}`, Array.from(words).sort().join('\n'));
     }
     await spellCheckClose();
-    const vocabularyFinal = Array.from(vocabulary).sort().join('\n');
-    await Deno.writeTextFile(vocabularyPath, vocabularyFinal);
-    // read and updata deno version
-    const denoConfigPath = './deno.json';
-    const denoConfig = JSON.parse(await Deno.readTextFile(denoConfigPath));
-    await Deno.writeTextFile(`${deployPath}/vocabulary-${denoConfig.version}.txt`, vocabularyFinal);
-    const projectVersion = (denoConfig.version as string).split('.').map(s=>parseInt(s));
-    projectVersion[2]++;
-    denoConfig.version = projectVersion.join('.');
-    await Deno.writeTextFile(denoConfigPath, JSON.stringify(denoConfig, undefined, 4));
+    await Deno.writeTextFile(vocabularyPath, Array.from(vocabulary).sort().join('\n'));
 }
 
 if (import.meta.main) await run();

@@ -1,6 +1,5 @@
 input: IELTS_2.json
-output: IELTS-yd
-version: 0.0.1
+output: IELTS-yd.txt
 wordPath:
   - headWord
 replace:

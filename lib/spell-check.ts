@@ -48,6 +48,7 @@ export const spellCheck = async (word: string): Promise<string[]|undefined> => {
     const [rword] = word.split('_');
     if (!spellCheckSet) await spellCheckInit();
     if (spellCheckSet.has(rword)) return;
+    console.log(`Spell Check ${word}...`);
     const replaces = new Set<string>();
     for (let i = 0; i < scfuncs.length; i++) {
         const funIndex = functionIndex++ % scfuncs.length;

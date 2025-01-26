@@ -1,13 +1,11 @@
-# https://www.newgeneralservicelist.com/s/NGSL_12_lemmatized_for_teaching.csv
 input: NGSL1.2LemmatizedForTeaching.csv
-output: NewGeneralServiceList
-version: 0.0.1
+output: NewGeneralServiceList.txt
 test: '[^\na-zA-Z]'
 process:
   - [[\r, g]]
   - [['^#.*\n*', gm]]
   - [['^(\w+?),.*$', gm], $1]
 replace:
-  "FALSE": ["false"]
-  "TRUE": ["true"]
-  i: ["I"]
+  'FALSE': ['false']
+  'TRUE': ['true']
+  i: [I]

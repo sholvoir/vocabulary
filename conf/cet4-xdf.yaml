@@ -1,7 +1,7 @@
 input: CET4_3.json
-output: CollegeEnglishTestL4-xdf
-version: 0.0.1
-wordPath: [headWord]
+output: CollegeEnglishTestL4-xdf.txt
+wordPath:
+  - headWord
 replace:
-  world-wide: ["worldwide"]
+  world-wide: [worldwide]
   systematical: [systematic]

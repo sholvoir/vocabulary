@@ -29,6 +29,7 @@ Alison
 Allah
 Allan
 Allen
+Allende
 Alzheimer's disease
 America
 American
@@ -50,7 +51,9 @@ Anna
 Anne
 Annie
 Antarctic
+Antarctica
 Anthony
+Appalachian
 Apr
 April
 Aquarius
@@ -84,7 +87,9 @@ BR
 BS
 BSc
 Babylonian
+Baedeker
 Baker
+Balkan
 Baltic
 Bantu
 Barbara
@@ -96,6 +101,7 @@ Belgium
 Bell
 Ben
 Benjamin
+Beringia
 Berlin
 Bernard
 Betty
@@ -115,6 +121,8 @@ Br.
 Bradford
 Brazil
 Brazilian
+Brea
+Brewster
 Brian
 Brighton
 Bristol
@@ -122,6 +130,7 @@ Brit
 Britain
 British
 Briton
+Broadway
 Brown
 Bruce
 Brussels
@@ -143,6 +152,7 @@ CIF
 CO
 CV
 Ca
+Cajun
 Caledonian
 California
 Californian
@@ -171,6 +181,7 @@ Catholicism
 Caucasian
 Celsius
 Celt
+Cenozoic
 Chancellor of the Exchequer
 Chapman
 Charles
@@ -181,6 +192,7 @@ Cheltenham
 Cheshire
 Chester
 Chicago
+Chicopee
 Chile
 China
 Chinese
@@ -211,10 +223,13 @@ Col.
 Colin
 Collins
 Columbia
+Columbian
 Commons
 Con.
+Conestoga wagon
 Confucian
 Congress
+Connecticut
 Conservative Party
 Constance
 Cook
@@ -225,6 +240,7 @@ Coventry
 Craig
 Crucifixion
 Cuban
+Cynthia
 Czechoslovakia
 D.A.
 D/A
@@ -286,11 +302,13 @@ Eliot
 Elizabeth
 Elizabethan
 Ellen
+Elliott
 Emily
 Emma
 England
 English
 Englishman
+Eocene
 Eric
 Erie
 Eskimo
@@ -303,6 +321,7 @@ Eurocurrency
 Europe
 European
 Evans
+Everest
 Excellency
 Exchequer
 FA
@@ -318,6 +337,7 @@ First Lady
 Fleet Street
 Flemish
 Florida
+Forbes
 Ford
 Fox
 Fr
@@ -329,6 +349,7 @@ Freefone
 French
 Frenchman
 Freud
+Freudian
 Fri.
 Friday
 GB
@@ -354,12 +375,15 @@ Georgia
 Georgian
 German
 Germany
+Gibraltar
 Gibson
 Gilbert
 Glasgow
 Gloucester
 Gloucestershire
+Gobi
 God
+Gondwanaland
 Gorbachev
 Gordon
 Gothic
@@ -368,6 +392,7 @@ Graham
 Grail
 Grand Prix
 Grand Slam
+Grande
 Grant
 Gray
 Great Britain
@@ -392,6 +417,7 @@ HRT
 Haiti
 Halloween
 Hamilton
+Hamlin
 Hampshire
 Harlem
 Harold
@@ -413,15 +439,20 @@ High Court
 Highlands
 Highness
 Hill
+Himalayas
 Hindu
 Hispanic
 Hitler
+Hohokam
 Holland
 Hollywood
+Holocene
 Home Counties
 Home Office
 Home Secretary
+Homo erectus
 Hon
+Hopewell
 House of Commons
 House of Lords
 House of Representatives
@@ -432,6 +463,7 @@ Hughes
 Hull
 Hungary
 Hunt
+Hyksos
 Hypertherm
 I
 I'd
@@ -519,6 +551,7 @@ July
 Jun
 June
 Jupiter
+Jurassic
 Karen
 Kate
 Katherine
@@ -530,10 +563,12 @@ Kennedy
 Kenneth
 Kent
 Kenya
+Keplerian
 Kevin
 Keynes
 Kim
 Kinnock
+Kohoutek
 Koran
 Korea
 Korean
@@ -552,6 +587,7 @@ Land
 Latin
 Latino
 Laura
+Laurasia
 Lawrence
 Lebanon
 Lee
@@ -559,6 +595,7 @@ Leeds
 Leicester
 Leo
 Leonard
+Leslie
 Lewis
 Lib Dem
 Liberal Democrat
@@ -571,7 +608,9 @@ Lisa
 Liverpool
 Liz
 Lloyd
+Lomas
 London
+Londoner
 Lord
 Lords
 Lordship
@@ -581,7 +620,9 @@ Louise
 Lt.
 Lucy
 Luke
+Lumière
 Lycra
+Lys
 MA
 MB
 MBA
@@ -600,6 +641,7 @@ Maj.
 Major
 Malcolm
 Manchester
+Mandan
 Manhattan
 Mar
 March
@@ -625,9 +667,12 @@ May
 Maya
 Mediterranean
 Member of Parliament
+Mennonite
 Mercury
 Merseyside
 Mesolithic
+Mesopotamian
+Mesozoic
 Messrs
 Mexican
 Mexico
@@ -636,11 +681,13 @@ Michael
 Michigan
 Mick
 Mickey Mouse
+Micronesian
 Middle Ages
 Middlesbrough
 Midland
 Midlands
 Midwest
+Midwestern
 Mike
 Militant
 Milky Way
@@ -648,6 +695,7 @@ Miller
 Milton
 Minneapolis
 Minnesota
+Miocene
 Miss
 Mississippi
 Mississippian
@@ -681,6 +729,7 @@ NT
 National Curriculum
 National Health Service
 Native American
+Neanderthal
 Negro
 Neil
 Nelson
@@ -700,6 +749,7 @@ Nicholas
 Nicholson
 Nick
 Nigel
+Nile
 No.
 Nordic
 Norfolk
@@ -728,6 +778,7 @@ Ontario
 Open University
 Oregon
 Orient
+Orléans
 Ottawa
 Owen
 Oxbridge
@@ -748,6 +799,7 @@ Pacific
 Pakistan
 Paleolithic
 Palestinian
+Pangaea
 Paris
 Parisian
 Parker
@@ -759,9 +811,13 @@ Paul
 Paula
 Pawnee
 Peace Corps
+Pella
 Pennsylvania
 Pentagon
+Permian
+Persian
 Peru
+Peruvian
 Pete
 Peter
 PhD
@@ -773,6 +829,7 @@ Phillips
 Phosphorus
 Pisces
 Pleistocene
+Pluto
 Poland
 Polaroid
 Pole
@@ -781,11 +838,14 @@ Polynesian
 Pope
 Portugal
 Preston
+Proterozoic
 Protestant
 Pueblo
+Pullman
 Puritan
 Pythagorean
 QC
+Quincy
 R&B
 R&D
 RAF
@@ -799,6 +859,7 @@ Ralph
 Ramadan
 Ray
 Reagan
+Reaumur
 Red Cross
 Reid
 Rep
@@ -833,6 +894,7 @@ Russian
 Ruth
 Sac
 Sagittarius
+Sahara
 Sally
 Sam
 Samuel
@@ -848,6 +910,8 @@ Saturday
 Saturn
 Savasana
 Saxon
+Scandinavia
+Scandinavian
 Scorpio
 Scot
 Scotch
@@ -870,6 +934,7 @@ Sheffield
 Shelley
 Shoshone
 Sikh
+Silurian
 Simon
 Smith
 Somerset
@@ -892,6 +957,7 @@ Stewart
 Stuart
 Sue
 Suffolk
+Sumerian
 Sunday
 Sunday school
 Sunderland
@@ -915,6 +981,8 @@ Taylor
 Ted
 Tennessee
 Terry
+Terylene
+Tethys
 Texas
 Thai
 Thailand
@@ -936,6 +1004,7 @@ Toronto
 Tory
 Trent
 Trevor
+Triassic
 Tues.
 Tuesday
 Turkey
@@ -971,6 +1040,7 @@ Venus
 Victoria
 Victorian
 Vienna
+Viennese
 Vietnam
 Viking
 Virginia
@@ -987,6 +1057,8 @@ Washingtonian
 Watson
 Wed.
 Wednesday
+Weldon
+Welland
 Welsh
 West
 Westminster
@@ -1008,12 +1080,14 @@ Yale
 Yang
 Yank
 Yankee
+Yellowstone
 Yeltsin
 Yin
 York
 Yorkshire
 Young
 Yuan
+Yucatán
 Yugoslavia
 Zealand
 Zen
@@ -7516,6 +7590,7 @@ ejaculate
 ejaculation
 eject
 ejection
+eka-
 eke
 elaborate
 elaborately
@@ -7760,6 +7835,7 @@ endogenous
 endorphin
 endorse
 endorsement
+endotherm
 endothermic
 endow
 endowment
@@ -12630,6 +12706,7 @@ leading article
 leading_1
 leading_2
 leaf
+leaf-cutter
 leaflet
 leafy
 league
@@ -12971,6 +13048,7 @@ lizard
 lo
 load
 loaded
+loader
 loaf
 loam
 loan
@@ -13107,6 +13185,7 @@ loving
 low
 low-key
 low-paid
+lowa
 lowbred
 lower_1
 lower_2
@@ -14224,6 +14303,7 @@ mud
 muddle
 muddled
 muddy
+mudflat
 mudra
 mudstone
 muff
@@ -14534,6 +14614,7 @@ news
 news conference
 newsagent
 newscast
+newscasting
 newsletter
 newspaper
 newsprint
@@ -16226,6 +16307,7 @@ pinnacle
 pinniped
 pinpoint
 pint
+pinyon
 pioneer
 pioneering
 pious
@@ -19128,6 +19210,7 @@ scripture
 scroll
 scrub
 scrubber
+scrubby
 scruffy
 scrum
 scrumptious

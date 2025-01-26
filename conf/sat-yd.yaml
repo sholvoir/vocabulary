@@ -1,7 +1,7 @@
 input: SAT_2.json
-output: SAT-yd
-version: 0.0.1
-wordPath: [headWord]
+output: SAT-yd.txt
+wordPath:
+  - headWord
 replace:
   Aluminum: [aluminum]
   Iron: [iron]

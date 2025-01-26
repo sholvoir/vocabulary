@@ -1,4 +1,4 @@
 input: CET4_1.json
-output: CollegeEnglishTestL4-yd1
-version: 0.0.1
-wordPath: [headWord]
+output: CollegeEnglishTestL4-yd1.txt
+wordPath:
+  - headWord

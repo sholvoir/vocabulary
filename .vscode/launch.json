@@ -6,6 +6,21 @@
     "configurations": [
         {
             "request": "launch",
+            "name": "build",
+            "type": "node",
+            "program": "${workspaceFolder}/build.ts",
+            "args": ["-a"],
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "/usr/bin/deno",
+            "runtimeArgs": [
+                "run",
+                "--inspect-wait",
+                "--allow-all"
+            ],
+            "attachSimplePort": 9229
+        },
+        {
+            "request": "launch",
             "name": "spell",
             "type": "node",
             "program": "${workspaceFolder}/lib/spell-check.ts",

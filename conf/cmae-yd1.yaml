@@ -1,4 +1,4 @@
 input: KaoYan_1.json
-output: MasterAdmissionsExamination-yd1
-version: 0.0.1
-wordPath: [headWord]
+output: MasterAdmissionsExamination-yd1.txt
+wordPath:
+  - headWord

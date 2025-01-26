@@ -1,13 +1,11 @@
-# https://zbenglish.net/sites/basic/words.html
 input: OgdensBasicEnglishWords.html
-output: OgdensBasicEnglishWords
-version: 0.0.1
+output: OgdensBasicEnglishWords.txt
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]
-  - [['.*<UL>']]
-  - [['<hr color=maroon><font size=-1>.*$']]
-  - [['<H3>.*?</H3>', g]]
-  - [['<.*?>', g]]
-  - [['\s', g]]
+  - [[.*<UL>]]
+  - [[<hr color=maroon><font size=-1>.*$]]
+  - [[<H3>.*?</H3>, g]]
+  - [[<.*?>, g]]
+  - [[\s, g]]
   - [['[,./]', g], "\n"]

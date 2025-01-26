@@ -1,6 +1,5 @@
 input: KaoYan_2.json
-output: MasterAdmissionsExamination-yd2
-version: 0.0.1
+output: MasterAdmissionsExamination-yd2.txt
 wordPath:
   - headWord
 replace:
