@@ -216,8 +216,7 @@ appreciate
 appropriate
 approval
 approve
-approximate_1
-approximate_2
+approximate
 apt
 arbitrary
 arch
@@ -237,8 +236,7 @@ arrogant
 arrow
 artery
 article
-articulate_1
-articulate_2
+articulate
 artificial
 artist
 ascend
@@ -452,8 +450,7 @@ bottle
 bounce
 bound
 boundary
-bow_1
-bow_2
+bow
 bowel
 bowl
 bowling
@@ -499,8 +496,7 @@ bubble
 bucket
 bud
 budget
-buffet_1
-buffet_2
+buffet
 bug
 building
 bulb
@@ -883,8 +879,7 @@ contemplate
 contemporary
 contempt
 contend
-contest_1
-contest_2
+contest
 context
 continent
 continual
@@ -894,8 +889,7 @@ contract
 contradict
 contradiction
 contrary
-contrast_1
-contrast_2
+contrast
 contribute
 contribution
 contrive
@@ -1462,8 +1456,7 @@ excel
 excellent
 exception
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excess
 excessive
 exchange
@@ -1511,8 +1504,7 @@ exploit
 explore
 explosion
 explosive
-export_1
-export_2
+export
 expose
 exposure
 express
@@ -2132,8 +2124,7 @@ instruction
 instrument
 instrumental
 insulate
-insult_1
-insult_2
+insult
 insurance
 insure
 intact
@@ -2293,8 +2284,7 @@ layer
 layman
 layoff
 leadership
-leading_1
-leading_2
+leading
 leaf
 leaflet
 league
@@ -2387,8 +2377,7 @@ loudspeaker
 lounge
 lover
 low
-lower_1
-lower_2
+lower
 loyal
 loyalty
 lubricate
@@ -2541,8 +2530,7 @@ mobilize
 mock
 mode
 model
-moderate_1
-moderate_2
+moderate
 modern
 modernization
 modest
@@ -3135,8 +3123,7 @@ profile
 profitable
 profound
 programme
-progress_1
-progress_2
+progress
 progressive
 prohibit
 project
@@ -3287,8 +3274,7 @@ recognition
 recognize
 recollect
 reconcile
-record_1
-record_2
+record
 recorder
 recover
 recreation
@@ -3488,8 +3474,7 @@ roundabout
 rouse
 route
 routine
-row_1
-row_2
+row
 royal
 royalty
 rub
@@ -4034,8 +4019,7 @@ surprise
 surrender
 surround
 surroundings
-survey_1
-survey_2
+survey
 survival
 survive
 susceptible
@@ -4224,8 +4208,7 @@ tram
 tramp
 transaction
 transcend
-transfer_1
-transfer_2
+transfer
 transform
 transient
 transistor
@@ -4236,8 +4219,7 @@ transmission
 transmit
 transparent
 transplant
-transport_1
-transport_2
+transport
 trap
 trash
 tray
@@ -4495,8 +4477,7 @@ widow
 width
 wife
 wild
-wind_1
-wind_2
+wind
 window
 wine
 wink

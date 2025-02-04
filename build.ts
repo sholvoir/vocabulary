@@ -1,6 +1,5 @@
 // deno-lint-ignore-file no-cond-assign
 import { parseArgs } from '@std/cli/parse-args';
-import { parse as yamlParse } from "@std/yaml";
 import { readConfig, writeConfig } from './lib/config.ts';
 import { spellCheck, spellCheckClose, spellCheckInit } from './lib/spell-check.ts';
 
@@ -8,14 +7,21 @@ const vocabularyPath = 'vocabulary.txt';
 
 async function run() {
     // get command line args and read config file
-    const args = parseArgs(Deno.args, { boolean: ['step-out'], alias: {'step-out': 's'} });
+    const args = parseArgs(Deno.args, { boolean: ['step-out', 'all'], alias: {'step-out': 's', 'all': 'a' } });
     const vocabulary = new Set<string>();
     for (let line of (await Deno.readTextFile(vocabularyPath)).split('\n'))
-        if (line = line.trim()) vocabulary.add(line);
+        if (line = line.trim())
+            vocabulary.add(line);
+    const vocabularyOldSize = vocabulary.size;
+    const configPaths = new Set<string>();
+    for (const path of args._)
+        configPaths.add(`conf/${path}.yaml`);
+    if (args.all)
+        for await (const file of Deno.readDir('conf'))
+            if (file.isFile && file.name.endsWith('.yaml'))
+                configPaths.add(`conf/${file.name}`);
     await spellCheckInit();
-    const revision = yamlParse(await Deno.readTextFile('revision.yaml')) as Record<string, Array<string>>;
-    for (const path of args._) {
-        const configPath = `conf/${path}.yaml`;
+    for (const configPath of configPaths) {
         const config = await readConfig(configPath);
         const miss: Record<string, Array<string>> = {};
         const words = new Set<string>();
@@ -55,11 +61,10 @@ async function run() {
         }
         for (const word of wordGen())
             if (word) for (const replace of config.replace?.[word] || [word])
-                if (replace) for (const fword of revision[replace] || [replace])
-                    if (!words.has(fword)) {
-                        const check = await spellCheck(fword);
-                        if (!check) (words.add(fword), vocabulary.add(fword));
-                        else miss[fword] = check;
+                if (replace && !words.has(replace)) {
+                        const check = await spellCheck(replace);
+                        if (!check) (words.add(replace), vocabulary.add(replace));
+                        else miss[replace] = check;
                     }
         if (Object.keys(miss).length) {
             config.miss = miss;
@@ -68,7 +73,8 @@ async function run() {
         await Deno.writeTextFile(`dest/${config.output}`, Array.from(words).sort().join('\n'));
     }
     await spellCheckClose();
-    await Deno.writeTextFile(vocabularyPath, Array.from(vocabulary).sort().join('\n'));
+    if (vocabulary.size > vocabularyOldSize)
+        await Deno.writeTextFile(vocabularyPath, Array.from(vocabulary).sort().join('\n'));
 }
 
 if (import.meta.main) await run();

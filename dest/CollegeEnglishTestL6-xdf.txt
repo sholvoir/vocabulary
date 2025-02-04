@@ -135,8 +135,7 @@ array
 arrest
 arrogant
 artery
-articulate_1
-articulate_2
+articulate
 artificial
 artillery
 ascend
@@ -494,15 +493,13 @@ contemporary
 contempt
 contend
 contention
-contest_1
-contest_2
+contest
 continual
 continuity
 contract
 contradict
 contradiction
-contrast_1
-contrast_2
+contrast
 contribute
 contribution
 contrive
@@ -2115,8 +2112,7 @@ surgeon
 surgery
 surpass
 surplus
-survey_1
-survey_2
+survey
 survival
 survive
 susceptible
@@ -2195,8 +2191,7 @@ tragic
 trait
 transaction
 transcend
-transfer_1
-transfer_2
+transfer
 transform
 transient
 transistor
@@ -2205,8 +2200,7 @@ transition
 transmission
 transmit
 transplant
-transport_1
-transport_2
+transport
 traverse
 treaty
 tremendous

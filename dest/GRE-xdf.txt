@@ -313,8 +313,7 @@ apprise
 approach
 approbation
 appropriate
-approximate_1
-approximate_2
+approximate
 apron
 apropos
 apt
@@ -352,8 +351,7 @@ arrest
 arresting
 arrogant
 arson
-articulate_1
-articulate_2
+articulate
 artifact
 artifice
 artificial
@@ -682,8 +680,7 @@ buckle
 bucolic
 budget
 buffer
-buffet_1
-buffet_2
+buffet
 buffoon
 bulge
 bulky
@@ -1158,13 +1155,11 @@ contempt
 contemptible
 contemptuous
 contend
-content_1
-content_2
+content
 contented
 contention
 contentious
-contest_1
-contest_2
+contest
 context
 contiguous
 continental
@@ -2064,8 +2059,7 @@ exasperation
 excavate
 exceptionable
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excess
 excessive
 excessively
@@ -4600,8 +4594,7 @@ purgatory
 purge
 purify
 purloin
-purport_1
-purport_2
+purport
 purported
 purposiveness
 purse
@@ -5709,8 +5702,7 @@ surveillance
 survive
 survivor
 susceptible
-suspect_1
-suspect_2
+suspect
 suspend
 suspense
 suspension
@@ -5800,8 +5792,7 @@ taut
 tauten
 tawdry
 taxing
-tear_1
-tear_2
+tear
 tease
 technique
 tedious
@@ -5945,8 +5936,7 @@ transcendent
 transcontinental
 transcribe
 transcription
-transfer_1
-transfer_2
+transfer
 transferable
 transfigure
 transform

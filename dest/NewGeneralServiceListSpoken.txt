@@ -327,8 +327,7 @@ late
 laugh
 laughter
 law
-lead_1
-lead_2
+lead
 learn
 least
 leave
@@ -343,8 +342,7 @@ line
 list
 listen
 little
-live_1
-live_2
+live
 load
 local
 long
@@ -501,8 +499,7 @@ realize
 really
 reason
 receive
-record_1
-record_2
+record
 red
 relate
 relationship

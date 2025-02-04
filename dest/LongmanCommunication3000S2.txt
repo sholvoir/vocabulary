@@ -459,8 +459,7 @@ lad
 land
 late
 laugh
-lead_1
-lead_2
+lead
 leader
 leaf
 lecture
@@ -644,8 +643,7 @@ prison
 prize
 procedure
 professional
-progress_1
-progress_2
+progress
 promise
 property
 proportion
@@ -720,8 +718,7 @@ root
 rough
 roughly
 round
-row_1
-row_2
+row
 rub
 rubbish
 rush
@@ -830,11 +827,9 @@ super
 supply
 surgery
 surprised
-survey_1
-survey_2
+survey
 survive
-suspect_1
-suspect_2
+suspect
 swear
 sweet
 swimming
@@ -846,8 +841,7 @@ target
 task
 taste
 teaching
-tear_1
-tear_2
+tear
 technical
 technology
 telly
@@ -875,8 +869,7 @@ tough
 track
 tradition
 training
-transport_1
-transport_2
+transport
 travel
 treat
 treatment
@@ -938,8 +931,7 @@ whose
 wild
 will
 willing
-wind_1
-wind_2
+wind
 wine
 wing
 winter

@@ -173,8 +173,7 @@ appropriate
 appropriation
 approval
 approve
-approximate_1
-approximate_2
+approximate
 aquarium
 aquatic
 arable
@@ -194,8 +193,7 @@ array
 arrest
 artery
 arthritis
-articulate_1
-articulate_2
+articulate
 artifact
 artificial
 artisan
@@ -628,8 +626,7 @@ contraction
 contractor
 contradict
 contradiction
-contrast_1
-contrast_2
+contrast
 contribute
 contributor
 control
@@ -1108,8 +1105,7 @@ excavate
 excavation
 exceedingly
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excessive
 exclude
 excluder
@@ -1143,8 +1139,7 @@ exploit
 exploration
 explore
 explosion
-export_1
-export_2
+export
 expound
 expulsion
 exquisite
@@ -1790,8 +1785,7 @@ misrepresent
 missile
 mitigate
 modem
-moderate_1
-moderate_2
+moderate
 modest
 modification
 modify
@@ -2284,8 +2278,7 @@ pup
 purchase
 purchaser
 purification
-purport_1
-purport_2
+purport
 pursue
 purview
 putty
@@ -2803,11 +2796,9 @@ surge
 surgeon
 surpass
 surplus
-survey_1
-survey_2
+survey
 susceptible
-suspect_1
-suspect_2
+suspect
 suspicion
 sustain
 sustenance
@@ -2876,8 +2867,7 @@ trait
 tranquilizer
 transaction
 transatlantic
-transfer_1
-transfer_2
+transfer
 transform
 transit
 transition
@@ -2885,8 +2875,7 @@ transmission
 transmit
 transnational
 transplant
-transport_1
-transport_2
+transport
 transportation
 treasury
 treaty

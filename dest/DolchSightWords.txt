@@ -158,8 +158,7 @@ letter
 light
 like
 little
-live_1
-live_2
+live
 long
 look
 made
@@ -302,8 +301,7 @@ white
 who
 why
 will
-wind_1
-wind_2
+wind
 window
 wish
 with

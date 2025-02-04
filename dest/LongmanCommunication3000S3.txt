@@ -35,8 +35,7 @@ anyhow
 apology
 appeal
 approve
-approximate_1
-approximate_2
+approximate
 architecture
 arise
 armed
@@ -191,8 +190,7 @@ constantly
 construction
 consult
 consumer
-content_1
-content_2
+content
 continuous
 contribute
 convenient
@@ -536,8 +534,7 @@ limit
 link
 lip
 literature
-live_1
-live_2
+live
 lively
 location
 log
@@ -548,8 +545,7 @@ lord
 lorry
 loud
 lounge
-lower_1
-lower_2
+lower
 luckily
 lunchtime
 madam
@@ -714,8 +710,7 @@ recall
 recipe
 recognition
 recommendation
-record_1
-record_2
+record
 reduction
 refrigerator
 regard
@@ -883,8 +878,7 @@ tackle
 tap
 tape
 taxi
-tear_1
-tear_2
+tear
 technique
 temporary
 tendency
@@ -915,8 +909,7 @@ traditional
 trailer
 trainer
 transaction
-transfer_1
-transfer_2
+transfer
 translate
 trash
 tray
@@ -966,8 +959,7 @@ white
 whom
 wicked
 wide
-wind_1
-wind_2
+wind
 windy
 winner
 wipe

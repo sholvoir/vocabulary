@@ -439,7 +439,6 @@ High Court
 Highlands
 Highness
 Hill
-Himalayas
 Hindu
 Hispanic
 Hitler
@@ -4352,7 +4351,6 @@ chateau
 chattel
 chatter
 chatty
-chaturanga
 chauffeur
 chauvinism
 chauvinistic
@@ -15099,7 +15097,6 @@ once more
 oncoming
 one
 one another
-one's
 one-man
 one-off
 one-piece
@@ -21191,7 +21188,6 @@ supernova
 superorganism
 superpower
 supersede
-superset
 supersonic
 superstar
 superstition
@@ -23388,7 +23384,6 @@ vinery
 vineyard
 vintage
 vintner
-vinyasa
 vinyl
 viola
 violate

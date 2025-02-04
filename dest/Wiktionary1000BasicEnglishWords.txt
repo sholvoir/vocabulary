@@ -461,8 +461,7 @@ late
 lately
 laugh
 lazy
-lead_1
-lead_2
+lead
 leaf
 learn
 leave
@@ -484,8 +483,7 @@ lip
 list
 listen
 little
-live_1
-live_2
+live
 lock
 lonely
 long
@@ -494,8 +492,7 @@ lose
 lot
 love
 low
-lower_1
-lower_2
+lower
 luck
 machine
 main
@@ -693,8 +690,7 @@ ready
 real
 really
 receive
-record_1
-record_2
+record
 red
 remember
 remind
@@ -870,8 +866,7 @@ taxi
 tea
 teach
 team
-tear_1
-tear_2
+tear
 telephone
 television
 tell
@@ -973,8 +968,7 @@ wife
 wild
 will
 win
-wind_1
-wind_2
+wind
 window
 wine
 winter

@@ -1099,8 +1099,7 @@ instead of
 institution
 instruction
 instrument
-insult_1
-insult_2
+insult
 insulting
 insurance
 intelligence
@@ -1184,12 +1183,10 @@ lawmaking
 lawyer
 layer
 lazy
-lead_1
-lead_2
+lead
 leader
 leadership
-leading_1
-leading_2
+leading
 leaf
 lean
 learn
@@ -1234,8 +1231,7 @@ literary
 literature
 litre
 little
-live_1
-live_2
+live
 lively
 liver
 load
@@ -1257,8 +1253,7 @@ loudly
 loudness
 love
 low
-lower_1
-lower_2
+lower
 loyal
 loyalty
 luck
@@ -1676,8 +1671,7 @@ professional
 profit
 program
 programme
-progress_1
-progress_2
+progress
 project
 promise
 pronoun
@@ -1746,8 +1740,7 @@ receive
 recent
 recently
 recognize
-record_1
-record_2
+record
 red
 reduce
 reduction
@@ -1817,8 +1810,7 @@ rose
 rough
 roughness
 round
-row_1
-row_2
+row
 royal
 rub
 rubber
@@ -2146,8 +2138,7 @@ tea
 teach
 teacher
 team
-tear_1
-tear_2
+tear
 technical
 technology
 teenager
@@ -2242,8 +2233,7 @@ training
 translate
 translation
 transparent
-transport_1
-transport_2
+transport
 travel
 traveller
 treat
@@ -2408,8 +2398,7 @@ wild
 will
 willing
 win
-wind_1
-wind_2
+wind
 window
 wine
 wing

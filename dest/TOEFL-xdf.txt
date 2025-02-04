@@ -264,8 +264,7 @@ apprise
 approach
 appropriate
 approve
-approximate_1
-approximate_2
+approximate
 approximation
 aptitude
 aquarium
@@ -292,8 +291,7 @@ arrest
 arrogant
 artesian
 arthritis
-articulate_1
-articulate_2
+articulate
 artifact
 artifice
 artificial
@@ -874,8 +872,7 @@ contemplate
 contemporary
 contempt
 contender
-contest_1
-contest_2
+contest
 context
 contiguous
 continent
@@ -887,8 +884,7 @@ contract
 contradict
 contradictory
 contrary
-contrast_1
-contrast_2
+contrast
 contribute
 contributor
 contributory
@@ -2106,8 +2102,7 @@ instrument
 insufficient
 insulate
 insulin
-insult_1
-insult_2
+insult
 insurance
 intact
 integral
@@ -2242,8 +2237,7 @@ lay
 layer
 layout
 leach
-lead_1
-lead_2
+lead
 league
 leak
 leap
@@ -2317,8 +2311,7 @@ lope
 lore
 lost and found
 lounge
-lower_1
-lower_2
+lower
 loyal
 lubricant
 lucrative
@@ -2482,8 +2475,7 @@ mock
 mode
 modeling
 modem
-moderate_1
-moderate_2
+moderate
 modernity
 modest
 modify
@@ -3850,12 +3842,10 @@ surpass
 surplus
 surrender
 surround
-survey_1
-survey_2
+survey
 survive
 susceptible
-suspect_1
-suspect_2
+suspect
 suspend
 suspense
 suspension
@@ -4014,8 +4004,7 @@ transaction
 transcend
 transcendent
 transcribe
-transfer_1
-transfer_2
+transfer
 transform
 transient
 transit
@@ -4025,8 +4014,7 @@ translucent
 transmit
 transparent
 transplant
-transport_1
-transport_2
+transport
 transportation
 trash
 trauma

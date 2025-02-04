@@ -69,8 +69,7 @@ appraisal
 appreciation
 apprehensive
 apprentice
-approximate_1
-approximate_2
+approximate
 arc
 architect
 architectural
@@ -154,8 +153,7 @@ brochure
 broker
 broom
 browse
-buffet_1
-buffet_2
+buffet
 bug
 bulb
 bulk
@@ -1012,8 +1010,7 @@ sender
 separately
 serial
 sew
-sewer_1
-sewer_2
+sewer
 sharply
 shipment
 shopper

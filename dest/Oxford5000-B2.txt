@@ -259,8 +259,7 @@ consult
 consultant
 consumption
 contemporary
-contest_1
-contest_2
+contest
 contract
 contribute
 contribution
@@ -769,8 +768,7 @@ loose
 lord
 lottery
 low
-lower_1
-lower_2
+lower
 loyal
 lung
 lyric
@@ -990,8 +988,7 @@ process
 produce
 professional
 programming
-progress_1
-progress_2
+progress
 progressive
 prohibit
 project
@@ -1256,12 +1253,10 @@ surgeon
 surgery
 surround
 surrounding
-survey_1
-survey_2
+survey
 survival
 survivor
-suspect_1
-suspect_2
+suspect
 suspend
 sustainable
 swallow
@@ -1276,8 +1271,7 @@ tale
 tank
 tap
 target
-tear_1
-tear_2
+tear
 technological
 teens
 temple
@@ -1321,8 +1315,7 @@ trading
 tragedy
 tragic
 trait
-transfer_1
-transfer_2
+transfer
 transform
 transition
 transmit
@@ -1408,8 +1401,7 @@ widely
 widespread
 wildlife
 willing
-wind_1
-wind_2
+wind
 wire
 wisdom
 wise

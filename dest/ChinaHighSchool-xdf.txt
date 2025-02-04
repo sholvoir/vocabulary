@@ -338,8 +338,7 @@ bother
 bounce
 bound
 boundary
-bow_1
-bow_2
+bow
 boycott
 brake
 brand
@@ -363,8 +362,7 @@ broken
 brunch
 bucket
 budget
-buffet_1
-buffet_2
+buffet
 build
 bun
 bunch
@@ -557,8 +555,7 @@ consultant
 consume
 contain
 contemporary
-content_1
-content_2
+content
 continent
 continue
 contradict
@@ -875,8 +872,7 @@ explanation
 explicit
 explode
 explore
-export_1
-export_2
+export
 expose
 express
 expression
@@ -1264,8 +1260,7 @@ literary
 literature
 litter
 little
-live_1
-live_2
+live
 lively
 load
 loaf
@@ -1615,8 +1610,7 @@ profession
 professor
 profit
 programme
-progress_1
-progress_2
+progress
 prohibit
 project
 promise
@@ -1689,8 +1683,7 @@ recipe
 recite
 recognize
 recommend
-record_1
-record_2
+record
 recover
 recreation
 rectangle
@@ -1779,8 +1772,7 @@ rough
 round
 roundabout
 routine
-row_1
-row_2
+row
 royal
 rubber
 rubbish
@@ -2031,8 +2023,7 @@ surround
 surrounding
 survival
 survive
-suspect_1
-suspect_2
+suspect
 suspension
 swallow
 swap
@@ -2062,8 +2053,7 @@ tasty
 tax
 taxpayer
 teach
-tear_1
-tear_2
+tear
 tease
 technical
 technique
@@ -2138,8 +2128,7 @@ tram
 transform
 translate
 transparent
-transport_1
-transport_2
+transport
 trap
 travel
 treasure

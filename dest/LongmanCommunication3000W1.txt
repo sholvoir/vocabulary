@@ -435,8 +435,7 @@ last
 late
 later
 law
-lead_1
-lead_2
+lead
 leader
 learn
 least
@@ -458,8 +457,7 @@ line
 list
 listen
 little
-live_1
-live_2
+live
 local
 long
 look
@@ -654,8 +652,7 @@ receive
 recent
 recently
 recognize
-record_1
-record_2
+record
 red
 reduce
 refer

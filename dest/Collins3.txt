@@ -306,14 +306,11 @@ construction
 consult
 consultant
 contemporary
-content_1
-content_2
-contest_1
-contest_2
+content
+contest
 context
 continent
-contrast_1
-contrast_2
+contrast
 contribute
 controversial
 controversy
@@ -477,8 +474,7 @@ evil
 exactly
 examination
 exception
-excerpt_1
-excerpt_2
+excerpt
 excess
 exchange rate
 exciting
@@ -738,9 +734,8 @@ limited
 lip
 literary
 literature
+live
 live-in
-live_1
-live_2
 living
 load
 lobby
@@ -754,8 +749,7 @@ lost
 loud
 lovely
 lover
-lower_1
-lower_2
+lower
 luck
 lucky
 luxury
@@ -810,8 +804,7 @@ missing
 mixed
 mixture
 mobile
-moderate_1
-moderate_2
+moderate
 modest
 molecule
 monetary
@@ -1112,8 +1105,7 @@ rose
 rouge
 rough
 routine
-row_1
-row_2
+row
 rugby
 ruin
 ruling
@@ -1288,8 +1280,7 @@ tall
 tank
 tap
 teaching
-tear_1
-tear_2
+tear
 technical
 teenager
 temperature

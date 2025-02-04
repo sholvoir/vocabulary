@@ -351,8 +351,7 @@ approbation
 approbatory
 appropriate
 appropriation
-approximate_1
-approximate_2
+approximate
 apron
 aquatic
 aqueduct
@@ -394,8 +393,7 @@ arson
 arsonist
 arteriosclerosis
 arthritis
-articulate_1
-articulate_2
+articulate
 artifice
 artillery
 artless
@@ -4095,8 +4093,7 @@ mnemonics
 moan
 moat
 mock
-moderate_1
-moderate_2
+moderate
 moderato
 moderator
 modicum
@@ -5249,8 +5246,7 @@ purge
 puritanical
 purlieus
 purloin
-purport_1
-purport_2
+purport
 pursy
 purvey
 purveyance
@@ -5959,8 +5955,7 @@ serried
 servile
 sever
 severance
-sewer_1
-sewer_2
+sewer
 sextant
 shabby
 shack

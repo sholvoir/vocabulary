@@ -1000,8 +1000,7 @@ basically
 basin
 basis
 basket
-bass_1
-bass_2
+bass
 bastard
 bat
 bath
@@ -1129,8 +1128,7 @@ bottom
 bounce
 bound
 boundary
-bow_1
-bow_2
+bow
 bowel
 bowl
 bowler
@@ -1586,10 +1584,8 @@ container
 contemplate
 contemporary
 contempt
-content_1
-content_2
-contest_1
-contest_2
+content
+contest
 context
 continent
 continental
@@ -1604,8 +1600,7 @@ contractor
 contradiction
 contrary
 contrary to
-contrast_1
-contrast_2
+contrast
 contribute
 contribution
 control
@@ -1652,8 +1647,7 @@ correspondent
 corresponding
 corridor
 corruption
-cos_1
-cos_2
+cos
 cost
 costly
 costume
@@ -2312,8 +2306,7 @@ exploitation
 exploration
 explore
 explosion
-export_1
-export_2
+export
 expose
 exposure
 express
@@ -3189,12 +3182,10 @@ lay
 layer
 layout
 lb
-lead_1
-lead_2
+lead
 leader
 leadership
-leading_1
-leading_2
+leading
 leaf
 leaflet
 league
@@ -3277,8 +3268,7 @@ literally
 literary
 literature
 little
-live_1
-live_2
+live
 lively
 liver
 living
@@ -3319,8 +3309,7 @@ love
 lovely
 lover
 low
-lower_1
-lower_2
+lower
 loyal
 loyalty
 ltd
@@ -3500,8 +3489,7 @@ mobile
 mobility
 mode
 model
-moderate_1
-moderate_2
+moderate
 modern
 modest
 modification
@@ -4159,8 +4147,7 @@ profound
 program
 programme
 programming
-progress_1
-progress_2
+progress
 progressive
 prohibit
 project
@@ -4333,8 +4320,7 @@ recognize
 recommend
 recommendation
 reconstruction
-record_1
-record_2
+record
 recorder
 recording
 recover
@@ -4552,8 +4538,7 @@ roughly
 round
 route
 routine
-row_1
-row_2
+row
 royal
 rub
 rubber
@@ -5113,15 +5098,13 @@ surrender
 surround
 surrounding
 surroundings
-survey_1
-survey_2
+survey
 surveyor
 survival
 survive
 surviving
 survivor
-suspect_1
-suspect_2
+suspect
 suspend
 suspension
 suspicion
@@ -5175,8 +5158,7 @@ teach
 teacher
 teaching
 team
-tear_1
-tear_2
+tear
 technical
 technically
 technique
@@ -5350,8 +5332,7 @@ trainee
 trainer
 training
 transaction
-transfer_1
-transfer_2
+transfer
 transform
 transformation
 transition
@@ -5359,8 +5340,7 @@ translate
 translation
 transmission
 transmit
-transport_1
-transport_2
+transport
 trap
 travel
 traveller
@@ -5662,8 +5642,7 @@ will
 willing
 willingness
 win
-wind_1
-wind_2
+wind
 window
 wine
 wing

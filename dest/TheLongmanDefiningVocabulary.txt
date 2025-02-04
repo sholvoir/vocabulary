@@ -417,8 +417,7 @@ consider
 consist
 consonant
 contain
-content_1
-content_2
+content
 continue
 continuous
 contract
@@ -1076,8 +1075,7 @@ law
 lawyer
 lay
 lazy
-lead_1
-lead_2
+lead
 leaf
 lean
 learn
@@ -1114,8 +1112,7 @@ listen
 liter
 literature
 little
-live_1
-live_2
+live
 load
 loaf
 local
@@ -1134,8 +1131,7 @@ lot
 loud
 love
 low
-lower_1
-lower_2
+lower
 loyal
 loyalty
 luck
@@ -1568,8 +1564,7 @@ recent
 recently
 recognition
 recognize
-record_1
-record_2
+record
 red
 reduce
 reduction
@@ -1626,8 +1621,7 @@ rope
 rose
 rough
 round
-row_1
-row_2
+row
 royal
 rub
 rubber
@@ -1917,8 +1911,7 @@ taxi
 tea
 teach
 team
-tear_1
-tear_2
+tear
 telephone
 television
 tell
@@ -2144,8 +2137,7 @@ wild
 will
 willing
 win
-wind_1
-wind_2
+wind
 window
 wine
 wing

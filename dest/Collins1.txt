@@ -869,8 +869,7 @@ bourbon
 bourgeois
 bourgeoisie
 boutique
-bow_1
-bow_2
+bow
 bower
 boyhood
 boyish
@@ -947,8 +946,7 @@ budgetary
 buff
 buffalo
 buffer
-buffet_1
-buffet_2
+buffet
 buggy
 building block
 building site
@@ -1687,8 +1685,7 @@ cumbersome
 cumulative
 cunning
 cup tie
-curate_1
-curate_2
+curate
 curator
 curly
 current account
@@ -3779,8 +3776,7 @@ layered
 layman
 layoff
 layout
-lead_1
-lead_2
+lead
 leading article
 leafy
 learned
@@ -5302,8 +5298,7 @@ puppy
 puree
 purge
 purify
-purport_1
-purport_2
+purport
 purpose-built
 purposeful
 purr
@@ -6012,8 +6007,7 @@ setter
 sever
 sew
 sewage
-sewer_1
-sewer_2
+sewer
 sewing
 sewing machine
 sex appeal

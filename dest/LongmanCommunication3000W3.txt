@@ -53,8 +53,7 @@ appeal
 apple
 appreciate
 approval
-approximate_1
-approximate_2
+approximate
 architect
 architecture
 armed
@@ -183,8 +182,7 @@ constitute
 construct
 consult
 consumption
-contest_1
-contest_2
+contest
 continuous
 conventional
 convert
@@ -512,8 +510,7 @@ like
 limitation
 liquid
 list
-live_1
-live_2
+live
 load
 locate
 lock
@@ -523,8 +520,7 @@ lost
 loud
 lovely
 lover
-lower_1
-lower_2
+lower
 luck
 lucky
 machinery
@@ -873,8 +869,7 @@ suit
 surprising
 surprisingly
 survival
-suspect_1
-suspect_2
+suspect
 suspicion
 sustain
 sweep
@@ -888,8 +883,7 @@ tail
 tale
 talent
 tape
-tear_1
-tear_2
+tear
 temporary
 tendency
 tennis
@@ -960,8 +954,7 @@ wide
 widespread
 willing
 win
-wind_1
-wind_2
+wind
 wire
 witness
 wooden

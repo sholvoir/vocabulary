@@ -550,8 +550,7 @@ barring
 barrister
 base
 bask
-bass_1
-bass_2
+bass
 baton
 battalion
 battery
@@ -1078,8 +1077,7 @@ contemptuous
 contend
 contentious
 contentment
-contest_1
-contest_2
+contest
 contestant
 context
 contingency
@@ -1633,8 +1631,7 @@ excavate
 exceed
 excellent
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excess
 exclude
 exclusive
@@ -2430,8 +2427,7 @@ lave
 lavish
 law
 laxative
-lead_1
-lead_2
+lead
 leaflet
 leaven
 lecherous
@@ -2631,8 +2627,7 @@ mitigate
 mixture
 mock
 mode
-moderate_1
-moderate_2
+moderate
 modest
 modicum
 modify
@@ -3313,8 +3308,7 @@ punitive
 purgatory
 purity
 purloin
-purport_1
-purport_2
+purport
 purposeful
 pursue
 pusillanimous
@@ -3985,8 +3979,7 @@ surreptitious
 surrogate
 surround
 susceptible
-suspect_1
-suspect_2
+suspect
 suspend
 suspense
 suspension
@@ -4118,8 +4111,7 @@ transcendent
 transcribe
 transcript
 transcription
-transfer_1
-transfer_2
+transfer
 transfigure
 transformer
 transgenic

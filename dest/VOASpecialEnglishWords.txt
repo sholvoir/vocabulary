@@ -479,8 +479,7 @@ expert
 explain
 explode
 explore
-export_1
-export_2
+export
 express
 extend
 extra
@@ -698,8 +697,7 @@ insect
 inspect
 instead
 instrument
-insult_1
-insult_2
+insult
 intelligence
 intelligent
 intense
@@ -751,8 +749,7 @@ late
 laugh
 launch
 law
-lead_1
-lead_2
+lead
 leak
 learn
 leave
@@ -779,8 +776,7 @@ list
 listen
 literature
 little
-live_1
-live_2
+live
 liver
 load
 loan
@@ -856,8 +852,7 @@ mistake
 mix
 mob
 model
-moderate_1
-moderate_2
+moderate
 modern
 molecule
 money
@@ -1039,8 +1034,7 @@ profession
 professor
 profit
 program
-progress_1
-progress_2
+progress
 project
 pronoun
 propaganda
@@ -1091,8 +1085,7 @@ receive
 recent
 recession
 recognize
-record_1
-record_2
+record
 recover
 red
 reduce
@@ -1329,8 +1322,7 @@ surprise
 surrender
 surround
 survive
-suspect_1
-suspect_2
+suspect
 suspend
 swallow
 swear in
@@ -1349,8 +1341,7 @@ tax
 tea
 teach
 team
-tear_1
-tear_2
+tear
 tears
 technical
 technology
@@ -1409,8 +1400,7 @@ tradition
 traffic
 tragic
 train
-transport_1
-transport_2
+transport
 transportation
 trap
 travel
@@ -1510,8 +1500,7 @@ wild
 will
 willing
 win
-wind_1
-wind_2
+wind
 window
 winter
 wire

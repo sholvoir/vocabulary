@@ -400,8 +400,7 @@ late
 later
 law
 lay
-lead_1
-lead_2
+lead
 learn
 least
 leave
@@ -419,8 +418,7 @@ line
 list
 listen
 little
-live_1
-live_2
+live
 load
 local
 long
@@ -627,8 +625,7 @@ receive
 recently
 reckon
 recognize
-record_1
-record_2
+record
 red
 reduce
 refer

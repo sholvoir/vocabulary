@@ -80,8 +80,7 @@ arena
 arguably
 arm
 array
-articulate_1
-articulate_2
+articulate
 ash
 aspiration
 aspire
@@ -113,8 +112,7 @@ ballot
 banner
 bare
 barrel
-bass_1
-bass_2
+bass
 bat
 battlefield
 bay
@@ -142,8 +140,7 @@ bonus
 boom
 bounce
 boundary
-bow_1
-bow_2
+bow
 breach
 breakdown
 breakthrough
@@ -268,8 +265,7 @@ contemplate
 contempt
 contend
 contender
-content_1
-content_2
+content
 contention
 continually
 contractor
@@ -637,8 +633,7 @@ institutional
 instruct
 instrumental
 insufficient
-insult_1
-insult_2
+insult
 intact
 intake
 integral
@@ -775,8 +770,7 @@ missile
 mob
 mobility
 mobilize
-moderate_1
-moderate_2
+moderate
 modification
 momentum
 monk

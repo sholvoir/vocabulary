@@ -2169,8 +2169,7 @@ appropriately
 appropriation
 approval
 approve
-approximate_1
-approximate_2
+approximate
 approximately
 approximation
 apricot
@@ -2300,8 +2299,7 @@ arthritis
 arthropod
 artichoke
 article
-articulate_1
-articulate_2
+articulate
 artifact
 artifice
 artificial
@@ -2854,8 +2852,7 @@ basketball
 basketmaking
 basketry
 basketwork
-bass_1
-bass_2
+bass
 bassoon
 bastard
 baste
@@ -3470,8 +3467,7 @@ bourse
 bout
 boutique
 bovine
-bow_1
-bow_2
+bow
 bowdlerize
 bowel
 bower
@@ -3685,8 +3681,7 @@ budworm
 buff
 buffalo
 buffer
-buffet_1
-buffet_2
+buffet
 buffoon
 buffoonery
 bug
@@ -5389,14 +5384,12 @@ contemptible
 contemptuous
 contend
 contender
-content_1
-content_2
+content
 contented
 contention
 contentious
 contentment
-contest_1
-contest_2
+contest
 contestant
 context
 contiguity
@@ -5432,8 +5425,7 @@ contradiction
 contradictory
 contrary
 contrary to
-contrast_1
-contrast_2
+contrast
 contravene
 contravention
 contribute
@@ -5595,8 +5587,7 @@ corselet
 corset
 cortex
 coruscate
-cos_1
-cos_2
+cos
 cosmetic
 cosmic
 cosmopolitan
@@ -5937,8 +5928,7 @@ cupboard
 cupidity
 cupreous
 cur
-curate_1
-curate_2
+curate
 curative
 curator
 curb
@@ -8237,8 +8227,7 @@ exception
 exceptionable
 exceptional
 exceptionally
-excerpt_1
-excerpt_2
+excerpt
 excess
 excessive
 excessively
@@ -8392,8 +8381,7 @@ explosively
 expo
 exponent
 exponential
-export_1
-export_2
+export
 exportation
 exporter
 expose
@@ -11884,8 +11872,7 @@ insulate
 insulation
 insulator
 insulin
-insult_1
-insult_2
+insult
 insulting
 insuperable
 insurance
@@ -12698,13 +12685,11 @@ lazy
 lb
 lb.
 leach
-lead_1
-lead_2
+lead
 leader
 leadership
+leading
 leading article
-leading_1
-leading_2
 leaf
 leaf-cutter
 leaflet
@@ -13030,9 +13015,8 @@ littoral
 liturgical
 liturgy
 livable
+live
 live-in
-live_1
-live_2
 livelihood
 liveliness
 lively
@@ -13187,8 +13171,7 @@ low-key
 low-paid
 lowa
 lowbred
-lower_1
-lower_2
+lower
 lowland
 lowly
 loyal
@@ -14066,8 +14049,7 @@ mode
 model
 modeling
 modem
-moderate_1
-moderate_2
+moderate
 moderately
 moderation
 moderato
@@ -17131,8 +17113,7 @@ program
 programme
 programmer
 programming
-progress_1
-progress_2
+progress
 progression
 progressive
 progressively
@@ -17441,8 +17422,7 @@ purlieus
 purloin
 purple
 purplish
-purport_1
-purport_2
+purport
 purported
 purpose
 purpose-built
@@ -17924,8 +17904,7 @@ reconstitute
 reconstruct
 reconstruction
 reconvene
-record_1
-record_2
+record
 recorder
 recording
 recount
@@ -18789,8 +18768,7 @@ route
 routine
 routinely
 rove
-row_1
-row_2
+row
 rowdy
 rowing
 royal
@@ -19540,8 +19518,7 @@ severely
 severity
 sew
 sewage
-sewer_1
-sewer_2
+sewer
 sewerage
 sewing
 sewing machine
@@ -21283,8 +21260,7 @@ surround
 surrounding
 surroundings
 surveillance
-survey_1
-survey_2
+survey
 surveyor
 survivability
 survival
@@ -21294,8 +21270,7 @@ survivor
 susceptibility
 susceptible
 susceptive
-suspect_1
-suspect_2
+suspect
 suspend
 suspender
 suspense
@@ -21576,8 +21551,7 @@ team-mate
 teammate
 teamwork
 teapot
-tear_1
-tear_2
+tear
 tearful
 tears
 tease
@@ -22197,8 +22171,7 @@ transcontinental
 transcribe
 transcript
 transcription
-transfer_1
-transfer_2
+transfer
 transferable
 transfigure
 transfix
@@ -22232,8 +22205,7 @@ transparency
 transparent
 transpire
 transplant
-transport_1
-transport_2
+transport
 transportation
 transpose
 transposition
@@ -23907,10 +23879,9 @@ wimple
 win
 wince
 winch
+wind
 wind up
 wind-up
-wind_1
-wind_2
 windbreaker
 windfall
 winding

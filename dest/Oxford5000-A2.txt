@@ -433,8 +433,7 @@ laughter
 law
 lawyer
 lazy
-lead_1
-lead_2
+lead
 leader
 learning
 least
@@ -589,8 +588,7 @@ professional
 professor
 profile
 program
-progress_1
-progress_2
+progress
 promise
 pronounce
 protect
@@ -621,8 +619,7 @@ reception
 recipe
 recognize
 recommend
-record_1
-record_2
+record
 recording
 recycle
 reduce
@@ -766,8 +763,7 @@ sure
 surprise
 surprised
 surprising
-survey_1
-survey_2
+survey
 sweet
 symbol
 system
@@ -808,8 +804,7 @@ traditional
 train
 trainer
 training
-transport_1
-transport_2
+transport
 traveller
 trouble
 truck
@@ -851,8 +846,7 @@ whole
 whose
 wide
 wild
-wind_1
-wind_2
+wind
 winner
 wish
 wood

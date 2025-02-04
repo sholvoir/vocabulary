@@ -190,8 +190,7 @@ approach
 appropriate
 approval
 approve
-approximate_1
-approximate_2
+approximate
 apt
 arbitrary
 arch
@@ -210,8 +209,7 @@ arrest
 arrogant
 arrow
 artery
-articulate_1
-articulate_2
+articulate
 artificial
 artistic
 ascend
@@ -391,8 +389,7 @@ botany
 bounce
 bound
 boundary
-bow_1
-bow_2
+bow
 bowel
 bowling
 boycott
@@ -425,8 +422,7 @@ brutal
 bubble
 bud
 budget
-buffet_1
-buffet_2
+buffet
 bug
 bulb
 bulk
@@ -740,8 +736,7 @@ continuous
 contract
 contradict
 contrary
-contrast_1
-contrast_2
+contrast
 contribute
 contribution
 contrive
@@ -1229,8 +1224,7 @@ exceedingly
 excel
 exception
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excess
 excessive
 exchange
@@ -1266,8 +1260,7 @@ exploit
 explore
 explosion
 explosive
-export_1
-export_2
+export
 expose
 exposure
 exquisite
@@ -1798,8 +1791,7 @@ instruct
 instrument
 instrumental
 insulate
-insult_1
-insult_2
+insult
 insurance
 insure
 intact
@@ -1936,8 +1928,7 @@ layman
 layoff
 layout
 leadership
-leading_1
-leading_2
+leading
 leaflet
 leak
 lean
@@ -2014,8 +2005,7 @@ lorry
 lottery
 loudspeaker
 lounge
-lower_1
-lower_2
+lower
 loyal
 loyalty
 lubricate
@@ -2147,8 +2137,7 @@ mobilise
 mobilize
 mock
 mode
-moderate_1
-moderate_2
+moderate
 modernization
 modest
 modify
@@ -3322,13 +3311,11 @@ surplus
 surrender
 surround
 surroundings
-survey_1
-survey_2
+survey
 survival
 survive
 susceptible
-suspect_1
-suspect_2
+suspect
 suspend
 suspicion
 suspicious
@@ -3476,8 +3463,7 @@ tram
 tramp
 transaction
 transcend
-transfer_1
-transfer_2
+transfer
 transform
 transient
 transistor
@@ -3487,8 +3473,7 @@ transmission
 transmit
 transparent
 transplant
-transport_1
-transport_2
+transport
 trash
 tray
 treason

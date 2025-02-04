@@ -226,8 +226,7 @@ both
 bother
 bottle
 bottom
-bow_1
-bow_2
+bow
 bowl
 box
 boy
@@ -845,8 +844,7 @@ laugh
 law
 lay
 lazy
-lead_1
-lead_2
+lead
 leaf
 learn
 least
@@ -1186,8 +1184,7 @@ produce
 product
 professional
 program
-progress_1
-progress_2
+progress
 project
 promise
 pronoun
@@ -1238,8 +1235,7 @@ receive
 recent
 recipe
 recite
-record_1
-record_2
+record
 recycle
 red
 refrigerator
@@ -1287,8 +1283,7 @@ rope
 rose
 round
 route
-row_1
-row_2
+row
 rubbish
 rude
 rule
@@ -1530,8 +1525,7 @@ sure
 surf
 surface
 surprise
-survey_1
-survey_2
+survey
 sweep
 sweet
 swim

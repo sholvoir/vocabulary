@@ -347,8 +347,7 @@ exist
 expensive
 expert
 explain
-export_1
-export_2
+export
 express
 extend
 extra
@@ -528,8 +527,7 @@ launch
 lawyer
 lay
 leadership
-leading_1
-leading_2
+leading
 league
 leg
 legal
@@ -698,8 +696,7 @@ professional
 professor
 profit
 program
-progress_1
-progress_2
+progress
 project
 promise
 promote
@@ -916,11 +913,9 @@ supposed
 supreme
 surface
 surround
-survey_1
-survey_2
+survey
 survive
-suspect_1
-suspect_2
+suspect
 table
 talent
 tape
@@ -929,8 +924,7 @@ task
 taste
 tea
 teach
-tear_1
-tear_2
+tear
 technique
 technology
 telephone
@@ -964,10 +958,8 @@ tour
 track
 traditional
 train
-transfer_1
-transfer_2
-transport_1
-transport_2
+transfer
+transport
 travel
 treat
 treatment
@@ -1024,8 +1016,7 @@ whom
 wild
 will
 willing
-wind_1
-wind_2
+wind
 window
 wine
 wing

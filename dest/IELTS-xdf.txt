@@ -202,8 +202,7 @@ approach
 appropriate
 approval
 approve
-approximate_1
-approximate_2
+approximate
 approximately
 apt
 aptitude
@@ -411,8 +410,7 @@ bounce
 bouncing
 bound
 boundary
-bow_1
-bow_2
+bow
 branch
 brand
 brass
@@ -758,8 +756,7 @@ contaminate
 contemplate
 contemporary
 contempt
-content_1
-content_2
+content
 context
 continent
 continental
@@ -771,8 +768,7 @@ contract
 contradict
 contradiction
 contrary
-contrast_1
-contrast_2
+contrast
 contribute
 contrive
 contrived
@@ -1358,8 +1354,7 @@ exploratory
 explore
 explorer
 explosive
-export_1
-export_2
+export
 expose
 exposure
 express
@@ -2021,8 +2016,7 @@ lawsuit
 lax
 layer
 layout
-lead_1
-lead_2
+lead
 leadership
 leaflet
 leak
@@ -2085,8 +2079,7 @@ longitudinal
 loop
 loose
 lounge
-lower_1
-lower_2
+lower
 loyalty
 luggage
 lull
@@ -2218,8 +2211,7 @@ mite
 mixture
 mock
 modem
-moderate_1
-moderate_2
+moderate
 moderation
 modernism
 modification
@@ -3224,12 +3216,10 @@ surpass
 surround
 surroundings
 surveillance
-survey_1
-survey_2
+survey
 survive
 susceptible
-suspect_1
-suspect_2
+suspect
 suspend
 sustain
 sustainable
@@ -3342,8 +3332,7 @@ transcend
 transcribe
 transcript
 transcription
-transfer_1
-transfer_2
+transfer
 transform
 transient
 transit
@@ -3353,8 +3342,7 @@ transmit
 transmute
 transparent
 transplant
-transport_1
-transport_2
+transport
 transportation
 trap
 trapeze

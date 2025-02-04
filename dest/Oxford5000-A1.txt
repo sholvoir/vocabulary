@@ -451,8 +451,7 @@ lion
 list
 listen
 little
-live_1
-live_2
+live
 local
 long
 look

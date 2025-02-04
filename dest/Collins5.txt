@@ -316,8 +316,7 @@ late
 later
 laugh
 law
-lead_1
-lead_2
+lead
 leader
 learn
 least
@@ -333,8 +332,7 @@ likely
 line
 list
 little
-live_1
-live_2
+live
 local
 long
 look
@@ -476,8 +474,7 @@ really
 reason
 receive
 recent
-record_1
-record_2
+record
 red
 release
 remain

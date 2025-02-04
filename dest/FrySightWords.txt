@@ -471,8 +471,7 @@ late
 laugh
 law
 lay
-lead_1
-lead_2
+lead
 learn
 least
 leave
@@ -494,8 +493,7 @@ line
 list
 listen
 little
-live_1
-live_2
+live
 located
 long
 look
@@ -674,8 +672,7 @@ ready
 real
 reason
 received
-record_1
-record_2
+record
 red
 region
 remain
@@ -701,8 +698,7 @@ root
 rope
 rose
 round
-row_1
-row_2
+row
 rule
 run
 safe
@@ -968,8 +964,7 @@ wife
 wild
 will
 win
-wind_1
-wind_2
+wind
 window
 wings
 winter

@@ -64,8 +64,7 @@ booty
 bounce
 bound
 bout
-bow_1
-bow_2
+bow
 boxer
 brace
 breakdown

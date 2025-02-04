@@ -202,8 +202,7 @@ applaud
 applause
 appliance
 applicant
-approximate_1
-approximate_2
+approximate
 apt
 arch
 archaeology
@@ -218,8 +217,7 @@ arrogant
 arrow
 artery
 arthritis
-articulate_1
-articulate_2
+articulate
 artificial
 artillery
 artistic
@@ -294,8 +292,7 @@ bash
 basin
 basket
 basketball
-bass_1
-bass_2
+bass
 bastard
 batch
 bathe
@@ -373,8 +370,7 @@ borough
 bounce
 boundary
 bout
-bow_1
-bow_2
+bow
 bowel
 bowler
 bowling
@@ -677,8 +673,7 @@ contemplate
 contempt
 contend
 contender
-content_1
-content_2
+content
 contention
 continental
 contingent
@@ -1531,8 +1526,7 @@ institutional
 instruction
 instructor
 insufficient
-insult_1
-insult_2
+insult
 insure
 intact
 intake
@@ -1631,8 +1625,7 @@ lawn
 lawsuit
 lazy
 lb.
-lead_1
-lead_2
+lead
 leaflet
 lecturer
 left-hand
@@ -2379,8 +2372,7 @@ rot
 rotten
 rouble
 round
-row_1
-row_2
+row
 royal family
 royalty
 rub

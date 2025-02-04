@@ -190,8 +190,7 @@ appropriate
 appropriation
 approval
 approve
-approximate_1
-approximate_2
+approximate
 approximation
 aquarium
 aquatic
@@ -664,8 +663,7 @@ contraction
 contractor
 contradict
 contradiction
-contrast_1
-contrast_2
+contrast
 contribute
 contributor
 control
@@ -1172,8 +1170,7 @@ excavate
 excavation
 exceedingly
 exceptional
-excerpt_1
-excerpt_2
+excerpt
 excessive
 exclude
 excluder
@@ -1207,8 +1204,7 @@ exploit
 exploration
 explore
 explosion
-export_1
-export_2
+export
 expound
 expression
 expulsion
@@ -2437,8 +2433,7 @@ pup
 purchase
 purchaser
 purification
-purport_1
-purport_2
+purport
 pursue
 purview
 putty
@@ -3075,8 +3070,7 @@ transition
 transmission
 transnational
 transplant
-transport_1
-transport_2
+transport
 transportation
 transversal
 trapezoid

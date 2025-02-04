@@ -681,8 +681,7 @@ laugh
 law
 lay
 lazy
-lead_1
-lead_2
+lead
 leader
 leaf
 learn
@@ -704,8 +703,7 @@ lion
 list
 listen
 litter
-live_1
-live_2
+live
 lively
 lock
 lonely
@@ -948,8 +946,7 @@ private
 prize
 problem
 produce
-progress_1
-progress_2
+progress
 promise
 pronounce
 pronunciation
@@ -988,8 +985,7 @@ real
 receive
 recent
 recite
-record_1
-record_2
+record
 recorder
 red
 refuse
@@ -1025,8 +1021,7 @@ room
 rope
 rose
 round
-row_1
-row_2
+row
 rubber
 rubbish
 rule
@@ -1384,8 +1379,7 @@ whose
 why
 wide
 wife
-wind_1
-wind_2
+wind
 window
 windy
 wine

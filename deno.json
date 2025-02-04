@@ -1,13 +1,13 @@
 {
     "name": "@sholvoir/vocabulary",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "lock": false,
     "imports": {
         "@std/cli": "jsr:@std/cli@^1.0.11",
         "@std/yaml": "jsr:@std/yaml@^1.0.5"
     },
     "tasks": {
-        "run": "deno run -A src/main.ts",
+        "build": "deno run -A build.ts",
         "deploy": "sh deploy.sh"
     },
     "exports": "./src/mod.ts",

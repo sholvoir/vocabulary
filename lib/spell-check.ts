@@ -30,30 +30,31 @@ const scfuncs = [
         [[/<(p|h1) class="(?:elMfuCTjKMwxtSEEnUsi)?">(.*?)<\/\1>/g, 2]])
 ];
 
-let spellCheckSet: Set<string>;
+const spellCheckIgnoreSet = new Set<string>();
+const spellCheckSet = new Set<string>();
 export const spellCheckInit = async () => {
-    if (!spellCheckSet) {
-        spellCheckSet = new Set<string>();
-        try {
-            for (let line of (await Deno.readTextFile(spellCheckIgnoreFile)).split('\n'))
-                if (line = line.trim()) spellCheckSet.add(line);
-            for (let line of (await Deno.readTextFile(spellCheckFile)).split('\n'))
-                if (line = line.trim()) spellCheckSet.add(line);
-        } catch {}
-    }
+    if (!spellCheckIgnoreSet.size) try {
+        for (let line of (await Deno.readTextFile(spellCheckIgnoreFile)).split('\n'))
+            if (line = line.trim()) spellCheckIgnoreSet.add(line);
+    } catch {}
+    if (!spellCheckSet.size) try {
+        for (let line of (await Deno.readTextFile(spellCheckFile)).split('\n'))
+            if (line = line.trim()) spellCheckSet.add(line);
+    } catch {}
 }
 
 let functionIndex = 0;
 export const spellCheck = async (word: string): Promise<string[]|undefined> => {
-    const [rword] = word.split('_');
+    word = word.trim();
     if (!spellCheckSet) await spellCheckInit();
-    if (spellCheckSet.has(rword)) return;
+    if (spellCheckIgnoreSet.has(word)) return;
+    if (spellCheckSet.has(word)) return;
     console.log(`Spell Check ${word}...`);
     const replaces = new Set<string>();
     for (let i = 0; i < scfuncs.length; i++) {
         const funIndex = functionIndex++ % scfuncs.length;
-        const entries = await scfuncs[funIndex](rword);
-        if (entries.includes(rword)) { spellCheckSet.add(rword); return; }
+        const entries = await scfuncs[funIndex](word);
+        if (entries.includes(word)) { spellCheckSet.add(word); return; }
         else entries.forEach(entry => replaces.add(entry));
     }
     return Array.from(replaces);

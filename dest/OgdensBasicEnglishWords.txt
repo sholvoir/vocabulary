@@ -389,8 +389,7 @@ last
 late
 laugh
 law
-lead_1
-lead_2
+lead
 leaf
 learning
 leather
@@ -584,8 +583,7 @@ reading
 ready
 reason
 receipt
-record_1
-record_2
+record
 red
 regret
 regular
@@ -779,8 +777,7 @@ touch
 town
 trade
 train
-transport_1
-transport_2
+transport
 tray
 tree
 trick
@@ -830,8 +827,7 @@ who
 why
 wide
 will
-wind_1
-wind_2
+wind
 window
 wine
 wing
