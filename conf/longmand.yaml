@@ -1,5 +1,6 @@
 input: TheLongmanDefiningVocabulary.html
 output: TheLongmanDefiningVocabulary.txt
+disc: 朗文词典2500释义词汇
 test: '[^\nA-Za-z ''-]'
 process:
   - [['[\r\n\t]', g]]

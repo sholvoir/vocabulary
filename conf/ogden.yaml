@@ -1,5 +1,6 @@
 input: OgdensBasicEnglishWords.html
-output: OgdensBasicEnglishWords.txt
+output: OgdensBasicEnglish.txt
+disc: 奥格登基本英语
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]

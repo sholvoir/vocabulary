@@ -1,5 +1,6 @@
 input: Oxford5000.html
 output: Oxford5000-C1.txt
+disc: 牛津5000词汇C1
 test: '[^\n\w: ]'
 process:
   - [['[\r\n]', g]]

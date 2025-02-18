@@ -1,5 +1,6 @@
 input: BSL1.2LemmatizedForTeaching.csv
 output: BusinessServiceList.txt
+disc: BSL商业词汇
 test: '[^\na-z-]'
 process:
   - [[\r, g]]

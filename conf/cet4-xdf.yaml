@@ -1,5 +1,6 @@
 input: CET4_3.json
 output: CollegeEnglishTestL4-xdf.txt
+disc: CET4-新东方
 wordPath:
   - headWord
 replace:

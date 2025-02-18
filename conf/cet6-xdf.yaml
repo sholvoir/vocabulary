@@ -1,5 +1,6 @@
 input: CET6_3.json
 output: CollegeEnglishTestL6-xdf.txt
+disc: CET6-新东方
 wordPath:
   - headWord
 replace:

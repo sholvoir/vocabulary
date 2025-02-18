@@ -1,5 +1,6 @@
 input: GRE_3.json
 output: GRE-xdf.txt
+disc: 美国研究生入学考试(GRE)-新东方
 wordPath:
   - headWord
 replace:

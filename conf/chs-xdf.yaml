@@ -1,5 +1,6 @@
 input: GaoZhong_3.json
 output: ChinaHighSchool-xdf.txt
+disc: 高中英语-新东方
 wordPath:
   - headWord
 replace:

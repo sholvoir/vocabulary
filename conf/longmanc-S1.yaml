@@ -1,5 +1,6 @@
 input: LongmanCommunication3000.txt
 output: LongmanCommunication3000S1.txt
+disc: 朗文通讯3000词口语1级
 test: '[^\n\w ,:''-]'
 process:
   - [[\r, g]]

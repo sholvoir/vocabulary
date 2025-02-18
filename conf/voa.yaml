@@ -1,5 +1,6 @@
 input: VOASpecialEnglishWordBook.html
 output: VOASpecialEnglishWords.txt
+disc: VOA慢速英语1500基础词汇
 test: '[^\nA-Za-z -]'
 process:
   - [['[\r\n]', g]]

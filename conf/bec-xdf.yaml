@@ -1,5 +1,6 @@
 input: BEC_3.json
 output: BEC-xdf.txt
+disc: 商业环境与概念注册会计师考试(BEC)-新东方
 wordPath:
   - headWord
 replace:

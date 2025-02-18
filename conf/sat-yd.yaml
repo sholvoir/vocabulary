@@ -1,5 +1,6 @@
 input: SAT_2.json
 output: SAT-yd.txt
+disc: 美国学术评估测试(SAT)-有道
 wordPath:
   - headWord
 replace:

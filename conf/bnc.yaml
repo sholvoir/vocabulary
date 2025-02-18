@@ -1,5 +1,6 @@
 input: BncAllAlpha.txt
 output: BncAllAlpha.txt
+disc: 英国国家语料库Top5000
 test: '[^\nA-Za-z ''.-]'
 process:
   - [['[\r\(\)\*]', g]]

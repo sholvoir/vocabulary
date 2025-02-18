@@ -1,5 +1,6 @@
 input: TOEFL_2.json
 output: TOEFL-yd.txt
+disc: 非英语母语英语能力考试(托福)-有道
 wordPath:
   - headWord
 replace:

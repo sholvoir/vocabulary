@@ -1,5 +1,6 @@
 input: KaoYan_3.json
 output: MasterAdmissionsExamination-xdf.txt
+disc: 考研-新东方
 wordPath:
   - headWord
 replace:

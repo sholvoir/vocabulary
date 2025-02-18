@@ -1,4 +1,5 @@
 input: ChuZhong_3.json
 output: ChinaMiddleSchool-xdf.txt
+disc: 初中英语-新东方
 wordPath:
   - headWord

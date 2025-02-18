@@ -1,5 +1,6 @@
 input: Collins3.csv
 output: Collins3.txt
+disc: 柯林斯词典词频分级词汇3星
 test: '[^\nA-Za-z ''-]'
 process:
   - [[\r, g]]

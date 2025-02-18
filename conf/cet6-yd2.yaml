@@ -1,5 +1,6 @@
 input: CET6_2.json
 output: CollegeEnglishTestL6-yd2.txt
+disc: CET6-有道
 wordPath:
   - headWord
 replace:

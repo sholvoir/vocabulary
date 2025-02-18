@@ -1,5 +1,6 @@
 input: GMAT_2.json
 output: GMAT-yd.txt
+disc: 研究生管理科入学考试(GMAT)-有道
 wordPath:
   - headWord
 replace:
