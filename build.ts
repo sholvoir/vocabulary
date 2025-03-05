@@ -7,7 +7,10 @@ const vocabularyPath = 'vocabulary.txt';
 
 async function run() {
     // get command line args and read config file
-    const args = parseArgs(Deno.args, { boolean: ['step-out', 'all'], alias: {'step-out': 's', 'all': 'a' } });
+    const args = parseArgs(Deno.args, {
+        boolean: ['step-out', 'all'],
+        alias: {'step-out': 's', 'all': 'a' }
+    });
     const vocabulary = new Set<string>();
     for (let line of (await Deno.readTextFile(vocabularyPath)).split('\n'))
         if (line = line.trim())
@@ -42,6 +45,7 @@ async function run() {
             }
             if (config.test && new RegExp(config.test).test(text)) {
                 console.log(`There is still some special char in ${config.input}.`);
+                await Deno.writeTextFile('test.txt', JSON.stringify(new RegExp(config.test).exec(text)))
                 continue;
             }
             wordGen = function*() {

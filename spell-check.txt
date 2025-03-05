@@ -79,6 +79,7 @@ Australian
 Austria
 Austrian
 B-school
+B.C.
 BA
 BBC
 BC
@@ -783,6 +784,7 @@ Owen
 Oxbridge
 Oxford
 Oxfordshire
+P.M.
 PA
 PC
 PE
@@ -836,6 +838,7 @@ Polish
 Polynesian
 Pope
 Portugal
+Portuguese
 Preston
 Proterozoic
 Protestant
@@ -6896,6 +6899,7 @@ dishevelled
 dishonest
 dishonestly
 dishonesty
+dishonor
 dishonour
 dishwasher
 disillusion
@@ -11024,6 +11028,7 @@ ice
 ice age
 ice cream
 ice hockey
+ice-cream
 iceberg
 icebox
 iced
@@ -23057,6 +23062,7 @@ upshift
 upshot
 upside
 upside down
+upside-down
 upstage
 upstairs
 upstart
