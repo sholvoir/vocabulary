@@ -1,5 +1,5 @@
 input: MacmillanDictionaryDefiningVocabulary.html
-output: MacmillanDictionaryDefiningVocabulary.txt
+output: MacmillanDefining.txt
 disc: 麦克米伦词典2500释义词汇
 test: '[^\nA-Za-zé ''-]'
 process:
