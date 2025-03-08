@@ -1,13 +1,16 @@
-%YAML 1.2
----
-$schema: ./config.schema.yml
-inputs:
-  - path: origin/CEE-4.txt
-    replaces:
-      - [["é", g], "e"]
-      - [['\r', g]]
-    test: ['[^A-Za-z\n ''\.-]']
-revision: |+
-  Dept.:
-  sideroad: side road
-  waiting-room: waiting room
+input: CEE-4.txt
+output: ChinaHighSchool-gk2.txt
+disc: 高中英语-高考大纲2
+test: '[^A-Za-zé\n ''.-]'
+process:
+  - [[\r, g]]
+replace:
+  Dept.: [dept]
+  Olympics: [Olympic]
+  beddings: [bedding]
+  grandparents: [grandparent]
+  organisation: [organization]
+  organise: [organize]
+  realise: [realize]
+  sunburnt: [sunburn]
+  waiting-room: [waiting room]
