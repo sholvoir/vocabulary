@@ -15,7 +15,11 @@ name: run "name" section only.
 
 ## Ogdens
 奥格登基础英语850词 Odgen's BASIC ENGLISH VOCABULARY  
-数据来自 <http://ogden.basic-english.org/words.html>
+数据来自 <https://zbenglish.net/sites/basic/basiceng.html>
+
+## SightWords - Fry / Dolch / Written
+视觉单词 Sight Words
+数据来自 <https://sightwords.com/>
 
 ## Wik
 维基词典1000基础词汇 Appendix: 1000 basic English words  
@@ -76,57 +80,5 @@ VOA慢速英语1500基础词汇 VOA Special English Word Book
 研究生管理科入学考试 Graduate Management Admission Test (GMAT)  
 商业环境与概念注册会计师考试 Business Environment and Concepts (BEC) CPA Exam Section  
 数据来自 https://github.com/kajweb/dict
-
-## vocabulary.txt
-上述所有单词加标签, all words above with tags:
-```JavaScript
-{
-    OG: 'Ogden',
-    MC: 'Macmillan',
-    LD: 'LongmanD',
-    S1: 'LongmanS1',
-    S2: 'LongmanS2',
-    S3: 'LongmanS3',
-    W1: 'LongmanW1',
-    W2: 'LongmanW2',
-    W3: 'LongmanW3',
-    VA: 'VOA1500',
-    WK: 'Wik1000',
-    A1: 'OxfordA1',
-    A2: 'OxfordA2',
-    B1: 'OxfordB1',
-    B2: 'OxfordB2',
-    C1: 'OxfordC1',
-    C2: 'OxfordC2',
-    L1: 'Collins1',
-    L2: 'Collins2',
-    L3: 'Collins3',
-    L4: 'Collins4',
-    L5: 'Collins5',
-    GL: 'NGSL',
-    GS: 'NGSLS',
-    AW: 'NAWL',
-    TL: 'TSL',
-    BL: 'BSL',
-    DL: 'NDL',
-    FE: 'FEL',
-    CA: 'COCA',
-    WB: 'iWeb',
-    BN: 'BNC',
-    BS: 'BNCS',
-    BW: 'BNCW',
-    ZK: 'HSEE',
-    GK: 'NCEE',
-    KY: 'NPEE',
-    T4: 'CET4',
-    T6: 'CET6',
-    TF: 'Toefl',
-    IS: 'Ietls',
-    ST: 'SAT',
-    GR: 'GRE',
-    GM: 'GMAT',
-    BE: 'BEC'
-}
-```
 
 欢迎提供更加权威的词表 <sovar.he@gmail.com>，以更新数据版本。
