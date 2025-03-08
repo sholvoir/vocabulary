@@ -101,6 +101,7 @@ Barbara
 Barnes
 Barry
 Bath
+Beijing
 Belfast
 Belgium
 Bell
@@ -111,6 +112,7 @@ Berlin
 Bernard
 Betty
 Bible
+Biblical
 Bill
 Billy
 Birmingham
@@ -233,6 +235,7 @@ Commons
 Con.
 Conestoga wagon
 Confucian
+Confucius
 Congress
 Connecticut
 Conservative Party
@@ -845,6 +848,7 @@ Philippine
 Phillips
 Phosphorus
 Pisces
+Plato
 Pleistocene
 Pluto
 Poland
@@ -1047,6 +1051,7 @@ Univ.
 Uranus
 Utah
 Ute
+Utopia
 Utopian
 VAT
 VCD
@@ -1546,6 +1551,7 @@ affectionate
 affective
 affidavit
 affiliate
+affiliated
 affiliation
 affinity
 affirm
@@ -1613,6 +1619,7 @@ aggrieved
 aghast
 agile
 agility
+aging
 agiotage
 agitate
 agitated
@@ -1688,6 +1695,7 @@ ala
 alabaster
 alacrity
 alarm
+alarming
 alas
 albedo
 albeit
@@ -1904,6 +1912,7 @@ anaerobe
 anaerobic
 anaesthetic
 anal
+analects
 analgesia
 analgesic
 analog
@@ -2407,6 +2416,7 @@ assent
 assert
 assertion
 assertive
+assertively
 assess
 assessable
 assessment
@@ -2557,6 +2567,7 @@ audible
 audience
 audio
 audiophile
+audiovisual
 audit
 audition
 auditor
@@ -2688,6 +2699,7 @@ babble
 babe
 baboon
 baby
+baby-sitter
 babysit
 bacchanal
 bacchanalia
@@ -2778,6 +2790,7 @@ ballyhoo
 balm
 balmy
 balsam
+bam
 bamboo
 bamboozle
 ban
@@ -2830,6 +2843,7 @@ bargaining
 barge
 baritone
 bark
+barkeeper
 barley
 barman
 barn
@@ -2849,6 +2863,7 @@ barricade
 barrier
 barring
 barrister
+bartender
 barter
 baryonic
 basalt
@@ -2935,6 +2950,7 @@ beatitude
 beau
 beautiful
 beautifully
+beautify
 beauty
 beaver
 becalm
@@ -3090,6 +3106,7 @@ bestial
 bestow
 bestrew
 bestride
+bestseller
 bet
 beta
 bethink
@@ -3227,6 +3244,7 @@ bitterly
 bitterness
 bituminous
 bivouac
+biweekly
 biz
 bizarre
 blab
@@ -3384,6 +3402,7 @@ boiler
 boiling
 boisterous
 bold
+boldly
 bole
 boll
 bolster
@@ -3588,6 +3607,7 @@ breathless
 breathtaking
 breech
 breed
+breeder
 breeding
 breeze
 breezy
@@ -4016,6 +4036,7 @@ capitalist
 capitalization
 capitalize
 capitation
+capitol
 capitulate
 capitulation
 cappuccino
@@ -4198,6 +4219,7 @@ cauterize
 caution
 cautionary
 cautious
+cautiously
 cavalcade
 cavalier
 cavalry
@@ -4381,6 +4403,7 @@ chat show
 chateau
 chattel
 chatter
+chatterbox
 chatty
 chaturanga
 chauffeur
@@ -4429,6 +4452,7 @@ cherish
 cherry
 cherubic
 chess
+chessboard
 chest
 chestnut
 chesty
@@ -4597,6 +4621,7 @@ city hall
 citywide
 civet
 civic
+civics
 civil
 civil defence
 civil liberties
@@ -4916,6 +4941,7 @@ colonize
 colonizer
 colony
 color
+color-blind
 coloration
 colorful
 colorfully
@@ -5051,6 +5077,7 @@ compassion
 compassionate
 compatibility
 compatible
+compatibly
 compatriot
 compel
 compellation
@@ -5145,6 +5172,7 @@ conceal
 concede
 conceit
 conceited
+conceitedly
 conceivable
 conceivably
 conceive
@@ -5649,12 +5677,14 @@ couldn't
 council
 council tax
 councillor
+councilman
 counsel
 counseling
 counselling
 counsellor
 counselor
 count
+countable
 countdown
 countenance
 counter
@@ -5873,6 +5903,7 @@ crossbreed
 crossfire
 crossing
 crossover
+crossroad
 crossroads
 crossword
 crotchet
@@ -6092,6 +6123,7 @@ dapple
 dappled
 dare
 daredevil
+daresay
 daring
 dark
 darken
@@ -6124,6 +6156,7 @@ day care
 day off
 day trip
 day-to-day
+daybreak
 daydream
 daylight
 daytime
@@ -6553,6 +6586,7 @@ deskill
 desktop
 desolate
 despair
+despairing
 despatch
 desperate
 desperately
@@ -6829,6 +6863,7 @@ disavowal
 disband
 disbar
 disbelief
+disbelieve
 disburse
 disbursement
 disc
@@ -7126,6 +7161,7 @@ divisive
 divisor
 divorce
 divorced
+divorcee
 divulge
 dizziness
 dizzy
@@ -7363,6 +7399,7 @@ drugstore
 drum
 drummer
 drunk
+drunkard
 drunken
 dry
 dryasdust
@@ -7474,6 +7511,7 @@ earner
 earnest
 earnestness
 earnings
+earplug
 earring
 earth
 earthen
@@ -8249,6 +8287,7 @@ exalted
 exam
 examination
 examine
+examinee
 examiner
 example
 exasperate
@@ -9853,6 +9892,7 @@ glare
 glaring
 glasnost
 glass
+glasses
 glasshouse
 glassmaker
 glassmaking
@@ -10076,6 +10116,7 @@ gratuity
 gravamen
 grave
 gravel
+gravestone
 graveyard
 gravitas
 gravitate
@@ -10091,6 +10132,7 @@ greasy
 great
 greater
 greatly
+greatness
 greed
 greedy
 green
@@ -10435,6 +10477,7 @@ hasn't
 hassle
 haste
 hasten
+hastily
 hasty
 hat
 hat trick
@@ -10639,6 +10682,7 @@ hers
 herself
 hesitance
 hesitant
+hesitantly
 hesitate
 hesitation
 heterodox
@@ -10964,6 +11008,7 @@ humanity
 humanlike
 humanness
 humble
+humbly
 humbug
 humdrum
 humid
@@ -12298,6 +12343,7 @@ javelin
 jaw
 jawbone
 jay
+jaywalk
 jazz
 jazzy
 jealous
@@ -12420,6 +12466,7 @@ justifiable
 justification
 justified
 justify
+justly
 jut
 juvenile
 juxtapose
@@ -12493,6 +12540,7 @@ kinetic
 kinetoscope
 kinfolk
 king
+king-size
 kingdom
 kingfisher
 kinglet
@@ -12609,6 +12657,7 @@ lair
 laissez-faire
 laity
 lake
+lama
 lamb
 lambaste
 lame
@@ -12636,6 +12685,7 @@ landlocked
 landlord
 landmark
 landmass
+landmine
 landowner
 landownership
 landscape
@@ -12726,6 +12776,7 @@ lawlike
 lawmaker
 lawmaking
 lawn
+lawnmower
 lawsuit
 lawyer
 lax
@@ -13161,6 +13212,7 @@ lone
 loneliness
 lonely
 loner
+lonesome
 long
 long-distance
 long-haul
@@ -13317,6 +13369,7 @@ machination
 machine
 machine gun
 machine tool
+machine-gun
 machinery
 machinist
 macho
@@ -13481,6 +13534,7 @@ mannequin
 manner
 mannered
 mannerism
+manners
 manning
 manoeuvre
 manometer
@@ -14001,6 +14055,7 @@ minutes
 minutia
 miracle
 miraculous
+miraculously
 mirage
 mire
 mirror
@@ -14428,6 +14483,7 @@ musicologist
 musket
 mussel
 must
+mustache
 mustard
 muster
 mutable
@@ -14555,6 +14611,7 @@ near
 nearby
 nearly
 nearness
+nearsighted
 neat
 neatly
 neatness
@@ -14663,6 +14720,7 @@ news
 news conference
 newsagent
 newscast
+newscaster
 newscasting
 newsletter
 newspaper
@@ -14697,6 +14755,7 @@ nigh
 night
 night-time
 nightclub
+nightingale
 nightly
 nightmare
 nighttime
@@ -15291,6 +15350,7 @@ orchid
 ordain
 ordeal
 order
+ordering
 orderly
 ordinal
 ordinance
@@ -15637,6 +15697,7 @@ painter
 painting
 pair
 pairing
+pajamas
 pal
 palace
 palatable
@@ -15695,6 +15756,7 @@ pantry
 pants
 papa
 papal
+papaya
 paper
 paperback
 paperwork
@@ -15894,11 +15956,13 @@ pavlova
 paw
 pawn
 pawnbroker
+pawnshop
 pay
 pay attention
 payable
 payback
 paycheck
+payday
 payer
 payment
 payoff
@@ -16122,6 +16186,7 @@ perquisite
 perry
 persecute
 persecution
+perseverance
 persevere
 persevering
 persiflage
@@ -16810,6 +16875,7 @@ pragmatic
 pragmatism
 prairie
 praise
+praiseworthy
 pram
 prance
 prank
@@ -18339,6 +18405,7 @@ repetitive
 rephrase
 repine
 replace
+replaceable
 replacement
 replant
 replay
@@ -19952,6 +20019,7 @@ sit-in
 sitar
 sitcom
 site
+sitter
 sitting room
 situate
 situated
@@ -20126,6 +20194,7 @@ smack
 small
 small print
 small-scale
+smallpox
 smarmy
 smart
 smartly
@@ -20256,6 +20325,7 @@ socially
 society
 socio-economic
 sociobiology
+sociological
 sociologist
 sociology
 sociopath
@@ -20474,10 +20544,12 @@ specious
 speck
 speckle
 spectacle
+spectacles
 spectacular
 spectacularly
 spectator
 specter
+spectra
 spectral
 spectre
 spectroscope
@@ -20809,6 +20881,7 @@ stencil
 stenography
 stentorian
 step
+stepchild
 stepfather
 stepmother
 steppe
@@ -21272,6 +21345,7 @@ superficially
 superfluity
 superfluous
 superfuse
+superhighway
 superimpose
 superintend
 superintendent
@@ -21559,6 +21633,7 @@ talisman
 talk
 talk show
 talkathon
+talkative
 tall
 tally
 talon
@@ -21573,6 +21648,7 @@ tang
 tangency
 tangent
 tangential
+tangerine
 tangible
 tangibly
 tangle
@@ -21788,6 +21864,7 @@ terribly
 terricolous
 terrier
 terrific
+terrified
 terrify
 terrifying
 terrifyingly
@@ -22086,6 +22163,7 @@ toddler
 toe
 toed
 toehold
+tofu
 together
 toil
 toilet
@@ -22182,6 +22260,7 @@ touchdown
 touched
 touching
 touchline
+touchstone
 touchy
 tough
 toughen
@@ -22388,6 +22467,7 @@ tribe
 tribespeople
 tribulation
 tribunal
+tribune
 tributary
 tribute
 trice
@@ -22637,6 +22717,7 @@ unaltered
 unambiguous
 unanimity
 unanimous
+unanimously
 unannounced
 unanswered
 unanticipated
@@ -23822,6 +23903,7 @@ weed
 weedy
 week
 weekday
+weekdays
 weekend
 weekly
 weep
@@ -23961,6 +24043,7 @@ widespread
 widget
 widow
 widowed
+widower
 width
 wield
 wife
@@ -24094,6 +24177,7 @@ wooden
 woodland
 woodlot
 woodpecker
+woods
 woodwind
 woodwork
 woodworker
@@ -24285,6 +24369,7 @@ zeal
 zealot
 zealotry
 zealous
+zealously
 zebra
 zeitgeist
 zenith
