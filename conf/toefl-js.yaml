@@ -1,0 +1,12 @@
+input: TOEFL-1.txt
+output: TOEFL-js.txt
+disc: 托福-金山
+test: '[^\nA-Za-z-]'
+process:
+  - [[\r, g]]
+  - [[' +\[.*$', gm]]
+miss:
+  grieved: [grieve, griever]
+  savings: [saving]
+  tilted: [tilt, tiltable, tilter]
+  melodie: [Melodie]

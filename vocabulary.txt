@@ -1133,6 +1133,7 @@ abandoned
 abandonment
 abase
 abash
+abashed
 abate
 abatement
 abbess
@@ -1434,6 +1435,7 @@ adj.
 adjacent
 adjective
 adjoin
+adjoining
 adjourn
 adjudicate
 adjunct
@@ -2389,6 +2391,7 @@ asparagus
 aspect
 aspen
 asperity
+asperse
 aspersion
 asphalt
 asphyxia
@@ -2699,6 +2702,7 @@ babble
 babe
 baboon
 baby
+baby-sit
 baby-sitter
 babysit
 bacchanal
@@ -2960,6 +2964,7 @@ because of
 beck
 beckon
 become
+becoming
 bed
 bed and breakfast
 bedaub
@@ -3145,6 +3150,7 @@ bicycle
 bid
 biddable
 bidder
+bidding
 bide
 biennial
 bifocal
@@ -3162,6 +3168,7 @@ bigamist
 bigamy
 bight
 bigot
+bigoted
 bigotry
 bike
 biker
@@ -3375,6 +3382,7 @@ boarding school
 boardinghouse
 boardroom
 boast
+boastful
 boastfulness
 boat
 boat people
@@ -3872,6 +3880,7 @@ byproduct
 byre
 bystander
 byte
+byword
 c/o
 cab
 cabal
@@ -4235,6 +4244,7 @@ cavort
 cd
 cease
 ceasefire
+ceaseless
 cedar
 cede
 ceiling
@@ -4480,6 +4490,7 @@ childless
 childlike
 children
 chill
+chilled
 chilli
 chilling
 chilly
@@ -5213,6 +5224,7 @@ concrete
 concretion
 concupiscence
 concur
+concurrence
 concurrent
 concussion
 condemn
@@ -5435,6 +5447,7 @@ contaminant
 contaminate
 contamination
 conte
+contemn
 contemplate
 contemplation
 contemplative
@@ -6139,6 +6152,7 @@ dastard
 data
 database
 date
+dated
 dateline
 dating
 datum
@@ -6577,9 +6591,11 @@ design
 designate
 designation
 designer
+designing
 desirability
 desirable
 desire
+desirous
 desist
 desk
 deskill
@@ -6855,6 +6871,8 @@ disapprove
 disapproving
 disarm
 disarmament
+disarming
+disarrange
 disarray
 disaster
 disastrous
@@ -7123,6 +7141,7 @@ disturb
 disturbance
 disturbed
 disturbing
+disunite
 disuse
 disused
 ditch
@@ -7220,6 +7239,7 @@ dominant
 dominate
 domination
 domineer
+domineering
 dominion
 domino
 don
@@ -7233,6 +7253,7 @@ donut
 doodad
 doodle
 doom
+doomed
 door
 doorbell
 doorknob
@@ -7276,6 +7297,7 @@ down-to-earth
 downcast
 downfall
 downgrade
+downhearted
 downhill
 download
 downplay
@@ -7445,6 +7467,7 @@ dumpster
 dunce
 dune
 dung
+dungeon
 dunno
 duo
 dupe
@@ -7458,6 +7481,7 @@ duration
 duress
 during
 dusk
+dusky
 dust
 dustbin
 dusty
@@ -7607,6 +7631,7 @@ effective
 effectively
 effectiveness
 effectual
+effectuate
 effeminate
 effervesce
 effervescence
@@ -7941,6 +7966,7 @@ engird
 engrave
 engraving
 engross
+engrossed
 engrossing
 engulf
 enhance
@@ -8024,6 +8050,7 @@ entrails
 entrammel
 entrance
 entrant
+entrap
 entrapment
 entreat
 entreaty
@@ -8741,6 +8768,7 @@ faunal
 favor
 favorable
 favorably
+favored
 favorite
 favour
 favourable
@@ -9000,6 +9028,7 @@ fish
 fisherman
 fishery
 fishing
+fishy
 fissile
 fission
 fissure
@@ -9073,6 +9102,7 @@ flaunt
 flaunty
 flavin
 flavor
+flavoring
 flavour
 flavouring
 flaw
@@ -9633,6 +9663,7 @@ gaggle
 gaiety
 gaily
 gain
+gainful
 gainsay
 gait
 gal
@@ -10193,6 +10224,7 @@ gross domestic product
 grotesque
 grotto
 grouch
+grouchy
 ground
 ground floor
 ground rule
@@ -10309,6 +10341,7 @@ habit
 habitable
 habitat
 habitual
+habitually
 habituate
 habituation
 habitude
@@ -10607,6 +10640,7 @@ heighten
 heinous
 heir
 heiress
+heirship
 heist
 held
 helical
@@ -11167,6 +11201,7 @@ idiomatic
 idiosyncrasy
 idiosyncratic
 idiot
+idiotic
 idle
 idleness
 idol
@@ -11366,6 +11401,7 @@ imposition
 impossible
 impostor
 imposture
+impotence
 impotent
 impound
 impoverish
@@ -11382,6 +11418,7 @@ impress
 impressed
 impression
 impressionable
+impressionism
 impressionist
 impressionistic
 impressive
@@ -11406,6 +11443,7 @@ impuissance
 impulse
 impulsive
 impunity
+impure
 impurity
 imputation
 impute
@@ -12819,6 +12857,7 @@ learning
 learnt
 lease
 leasehold
+leash
 least
 leather
 leatherback
@@ -13457,6 +13496,7 @@ makeshift
 makeup
 making
 maladroit
+malady
 malaise
 malapropism
 malaria
@@ -13492,6 +13532,7 @@ mam
 mama
 mammal
 mammalian
+mammals
 mammonism
 mammoth
 man
@@ -13657,6 +13698,7 @@ mat
 matador
 match
 matching
+matchless
 mate
 material
 materialism
@@ -13734,6 +13776,7 @@ mechanical
 mechanically
 mechanics
 mechanism
+mechanist
 mechanization
 mechanize
 medal
@@ -13790,6 +13833,7 @@ melody
 melon
 melt
 meltdown
+melting
 meltwater
 member
 membership
@@ -16310,6 +16354,7 @@ phone
 phone call
 phone-in
 phonetic
+phonetics
 phoney
 phonic
 phonograph
@@ -16395,6 +16440,7 @@ pike
 pile
 pile-up
 pilfer
+pilferage
 pilgrim
 pilgrimage
 piling
@@ -17842,6 +17888,7 @@ raring
 rarity
 rascal
 rash
+rashly
 rashness
 rasp
 raspberry
@@ -19743,6 +19790,7 @@ sheaf
 shear
 shears
 sheath
+sheathe
 shed
 sheen
 sheep
@@ -22480,6 +22528,7 @@ tricycle
 tried
 triennial
 trifle
+trifling
 trig
 trigger
 triglyceride
@@ -23135,6 +23184,7 @@ unselfish
 unsettle
 unsettled
 unsettling
+unshaken
 unsightly
 unskilled
 unsold
@@ -23427,6 +23477,7 @@ vegetarian
 vegetate
 vegetation
 vegetative
+vehemence
 vehement
 vehicle
 veil
@@ -23784,6 +23835,7 @@ ware
 warehouse
 warfare
 warhead
+warily
 warlord
 warm
 warm-up
@@ -23998,6 +24050,7 @@ whine
 whinge
 whip
 whiplash
+whir
 whirl
 whirlpool
 whirlwind
