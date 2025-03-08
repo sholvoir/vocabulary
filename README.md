@@ -15,7 +15,7 @@ name: run "name" section only.
 
 ## Ogdens
 奥格登基础英语850词 Odgen's BASIC ENGLISH VOCABULARY  
-数据来自 <https://zbenglish.net/sites/basic/basiceng.html>
+数据来自 <http://zbenglish.net/sites/basic/basiceng.html>
 
 ## SightWords - Fry / Dolch / Written
 视觉单词 Sight Words

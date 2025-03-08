@@ -1,6 +1,6 @@
 input: FrySightWordsList.html
-output: FrySightWords.txt
-disc: Fry1000视觉单词
+output: Sight-Fry.txt
+disc: 视觉单词-Fry1000
 test: '[^\na-zA-Z'']'
 process:
   - [['[\r\n]', g]]

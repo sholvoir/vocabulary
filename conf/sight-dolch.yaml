@@ -1,6 +1,6 @@
 input: DolchSightWordsList.html
-output: DolchSightWords.txt
-disc: Dolch视觉单词
+output: Sight-Dolch.txt
+disc: 视觉单词-Dolch
 test: '[^\na-zA-Z '']'
 process:
   - [['[\r\n]', g]]

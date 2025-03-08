@@ -1,4 +1,4 @@
-input: OgdensBasicEnglishWords.html
+input: OgdensBasicEnglishWordList.html
 output: OgdensBasicEnglish.txt
 disc: 奥格登基本英语
 test: '[^\na-zI]'

@@ -1,6 +1,6 @@
 input: Top150WrittenSightWords.html
-output: Top150WrittenSightWords.txt
-disc: Top150写作视觉单词
+output: Sight-Written.txt
+disc: 视觉单词-Top150写作
 test: '[^\na-zI]'
 process:
   - [['[\r\n]', g]]
