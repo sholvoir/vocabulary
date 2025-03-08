@@ -1,12 +1,12 @@
 input: TOEFL-1.txt
 output: TOEFL-js.txt
-disc: 托福-金山
+disc: 非英语母语英语能力考试(托福)-金山
 test: '[^\nA-Za-z-]'
 process:
   - [[\r, g]]
   - [[' +\[.*$', gm]]
-miss:
-  grieved: [grieve, griever]
+replace:
+  grieved: [grieve]
   savings: [saving]
-  tilted: [tilt, tiltable, tilter]
-  melodie: [Melodie]
+  tilted: [tilt]
+  melodie: [melody]

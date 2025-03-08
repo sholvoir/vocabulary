@@ -1,0 +1,7 @@
+input: GRE-1.txt
+output: GRE-js.txt
+disc: 美国研究生入学考试(GRE)-金山
+test: '[^\nA-Za-z-]'
+process:
+  - [[\r, g]]
+  - [[' +\[.*$', gm]]
