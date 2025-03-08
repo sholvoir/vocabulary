@@ -1,6 +1,6 @@
 input: MacmillanDictionaryDefiningVocabulary.html
 output: MacmillanDefining.txt
-disc: 麦克米伦词典2500释义词汇
+disc: 麦克米伦-释义词汇2500
 test: '[^\nA-Za-zé ''-]'
 process:
   - [[\r, g]]

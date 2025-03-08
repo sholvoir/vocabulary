@@ -17,8 +17,10 @@ name: run "name" section only.
 奥格登基础英语850词 Odgen's BASIC ENGLISH VOCABULARY  
 数据来自 <http://zbenglish.net/sites/basic/basiceng.html>
 
-## SightWords - Fry / Dolch / Written
-视觉单词 Sight Words
+## SightWords - Dolch / Fry / Written
+Dolth视觉单词 Dolch Sight Words List
+Fry视觉单词 Fry Sight Words List
+写作单词150 Top 150 Written Words
 数据来自 <https://sightwords.com/>
 
 ## Wik
@@ -28,6 +30,16 @@ name: run "name" section only.
 ## VOA
 VOA慢速英语1500基础词汇 VOA Special English Word Book  
 数据来自 <https://simple.wikipedia.org/wiki/Wikipedia:VOA_Special_English_Word_Book>
+
+## NGSL NAWL TSL BSL NDL FEL NGSL-S
+新GSL词汇 NEW GENERAL SERVICE LIST (NGSL)  
+新学术词汇 NEW ACADEMIC WORD LIST (NAWL)  
+托业词汇 TOEIC(Test of English for International Communication) SERVICE LIST (TSL)  
+商业词汇 BUSINESS SERVICE LIST (BSL)  
+健身词汇 FITNESS ENGLISH LIST (FEL)  
+新Dolch词汇 NEW DOLCH LIST (NDL)  
+新GSL词汇口语版 NEW GENERAL SERVICE LIST-SPOKEN (NGSL-S)  
+数据来自 <http://www.newgeneralservicelist.org/>
 
 ## Macmillan
 麦克米伦词典2500释义词汇 Clear Definitions From Macmillan Dictionary  
@@ -48,16 +60,6 @@ VOA慢速英语1500基础词汇 VOA Special English Word Book
 ## Collins
 柯林斯词典词频分级词汇1-5星  
 数据来自 <https://pan.baidu.com/s/1Eu2kfAIdMwy_mM6Wokllrw> 提取码:2suj
-
-## NGSL NAWL TSL BSL NDL FEL NGSL-S
-新GSL词汇 NEW GENERAL SERVICE LIST (NGSL)  
-新学术词汇 NEW ACADEMIC WORD LIST (NAWL)  
-托业词汇 TOEIC(Test of English for International Communication) SERVICE LIST (TSL)  
-商业词汇 BUSINESS SERVICE LIST (BSL)  
-健身词汇 FITNESS ENGLISH LIST (FEL)  
-新Dolch词汇 NEW DOLCH LIST (NDL)  
-新GSL词汇口语版 NEW GENERAL SERVICE LIST-SPOKEN (NGSL-S)  
-数据来自 <http://www.newgeneralservicelist.org/>
 
 ## COCA
 当代美国英语语料库 Corpus of Contemporary American English (COCA) top5000  
