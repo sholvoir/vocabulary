@@ -1,0 +1,24 @@
+input: GRE-4.csv
+output: GRE-dg.txt
+disc: 美国研究生入学考试(GRE)-大纲
+test: '[^\nA-Za-zé-]'
+process:
+  - [[\r, g]]
+  - [[',.*$', gm]]
+  - [[^(\w+)\((\w+)\)$, gm], "$1\n$2"]
+replace:
+  artifacts: [artifact]
+  calipers: [caliper]
+  cringing: [cringe]
+  damped: [damp]
+  deflated: [deflate]
+  discomfited: [discomfit]
+  drenched: [drench]
+  facilities: [facility]
+  interlocking: [interlock]
+  merited: [merit]
+  paleolithic: [Paleolithic]
+  qualms: [qualm]
+  relenting: [relent]
+  restored: [restore]
+  underestimated: [underestimate]
