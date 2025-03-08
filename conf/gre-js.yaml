@@ -1,7 +1,34 @@
 input: GRE-1.txt
 output: GRE-js.txt
 disc: 美国研究生入学考试(GRE)-金山
-test: '[^\nA-Za-z-]'
+test: '[^\nA-Za-zé -]'
 process:
   - [[\r, g]]
-  - [[' +\[.*$', gm]]
+  - [[' ?\[.*$', gm]]
+  - [[^(\w+) ?\((\w+)\)$, gm], "$1\n$2"]
+  - [[v. 投反对票以阻止\n]]
+  - [[' 条形码']]
+replace:
+  artifacts: [artifact]
+  calipers: [caliper]
+  cringing: [cringe]
+  damped: [damp]
+  deflated: [deflate]
+  discomfited: [discomfit]
+  drenched: [drench]
+  facilities: [facility]
+  interlocking: [interlock]
+  merited: [merit]
+  paleolithic: [Paleolithic]
+  qualms: [qualm]
+  relenting: [relent]
+  restored: [restore]
+  underestimated: [underestimate]
+  adlib: [ad-lib]
+  eclat: [éclat]
+  gloss-over: [gloss over]
+  hardbitten: [hard-bitten]
+  jesting: [jest]
+  palings: [paling]
+  chaffing: [chaff]
+  soigne: [soigné]
