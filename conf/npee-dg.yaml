@@ -1,0 +1,17 @@
+input: NPEE-Wordlist.txt
+output: MasterAdmissionsExamination-dg.txt
+disc: 考研-大纲
+test: '[^\nA-Za-z'' -]'
+process:
+  - [[\r, g]]
+  - [[' \[.*$', gm]]
+  - [[' (v|n|a|ad|vt|art|pron|conj)\..*$', gm]]
+  - [[' \(.+?\).*$', gm]]
+replace:
+  'FALSE': ['false']
+  'TRUE': ['true']
+  Thanksgiving: [thanksgiving]
+  coordinates: [coordinate]
+  goodby: [goodbye]
+  living-room: [living room]
+  realise: [realize]
