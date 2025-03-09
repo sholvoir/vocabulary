@@ -4,7 +4,7 @@ compound
 concentration
 insoluble
 ionic
-lead_2
+lead
 mass
 molar
 molarity
