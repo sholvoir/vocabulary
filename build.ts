@@ -37,7 +37,7 @@ async function run() {
             }
             text = await resp.text();
         } else text = await Deno.readTextFile(`origin/${config.input}`);
-        let wordGen: () => Generator<string, void, unknown>;
+        const wordSet = new Set<string>();
         if (!config.wordPath) {
             if (config.process) for (const [index, [[pattern, flags], replacement = '']] of config.process.entries()) {
                 text = text.replace(new RegExp(pattern, flags), replacement);
@@ -48,22 +48,13 @@ async function run() {
                 await Deno.writeTextFile('test.txt', JSON.stringify(new RegExp(config.test).exec(text)))
                 continue;
             }
-            wordGen = function*() {
-                for (let line of text.split('\n'))
-                    if (line = line.trim()) yield line;
-                    else continue;
-            }
-        } else {
-            wordGen = function*() {
-                for (let line of text.split('\n')) {
-                    if (!(line = line.trim())) continue;
-                    let word = JSON.parse(line);
-                    for (const item of config.wordPath!) word = word[item];
-                    yield word;
-                }
-            }
+            for (let line of text.split('\n')) if (line = line.trim()) wordSet.add(line);
+        } else for (let line of text.split('\n')) if (line = line.trim()) {
+            let word = JSON.parse(line);
+            for (const item of config.wordPath!) word = word[item];
+            wordSet.add(line);
         }
-        for (const word of wordGen())
+        for (const word of wordSet)
             if (word) for (const replace of config.replace?.[word] || [word])
                 if (replace && !words.has(replace)) {
                         const check = await spellCheck(replace);
