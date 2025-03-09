@@ -1,6 +1,6 @@
 input: TSL1.2LemmatizedForTeaching.csv
-output: TOEICServiceList.txt
-disc: TSL托业词汇
+output: Service-TOEICServiceList.txt
+disc: TSL-托业词汇
 test: '[^\na-zé ''-]'
 process:
   - [[\r, g]]

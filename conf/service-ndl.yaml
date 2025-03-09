@@ -1,6 +1,6 @@
 input: NDL1.1LemmatizedForTeaching.txt
-output: NewDolchList.txt
-disc: NDL新Dolch词汇
+output: Service-NewDolchList.txt
+disc: NDL-新Dolch词汇
 test: '[^\nA-Za-z'']'
 process:
   - [[\r, g]]

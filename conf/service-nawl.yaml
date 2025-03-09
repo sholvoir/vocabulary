@@ -1,6 +1,6 @@
 input: NAWL1.2LemmatizedForTeaching.csv
-output: NewAcademicWordList.txt
-disc: NAWL新学术词汇
+output: Service-NewAcademicWordList.txt
+disc: NAWL-新学术词汇
 test: '[^\na-z]'
 process:
   - [[\r, g]]

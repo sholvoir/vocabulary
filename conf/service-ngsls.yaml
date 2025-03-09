@@ -1,6 +1,6 @@
 input: NGSLSpoken1.2LemmatizedForTeaching.csv
-output: NewGeneralServiceListSpoken.txt
-disc: NGSL新GSL词汇口语版
+output: Service-NewGeneralServiceListSpoken.txt
+disc: NGSL-新GSL口语版
 test: '[^\na-z]'
 process:
   - [[\r, g]]
