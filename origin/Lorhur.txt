@@ -19,12 +19,14 @@ Saturn
 Uranus
 Neptune
 
-Indic
-emoji
-swag
-burp
-gerund
-iteration
 espresso
 cappuccino
 latte
+
+Indic
+burp
+emoji
+gerund
+iteration
+phrasal
+swag
