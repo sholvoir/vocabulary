@@ -1,8 +1,14 @@
+Ashur
+Cush
+Eden
+Euphrates
 Jerusalem
 Messiah
 Passover
 Samaria
 Samaritan
+Tigris
+aromatic
 bear
 beast
 creature
@@ -12,6 +18,7 @@ hover
 livestock
 onyx
 prophet
+resin
 sacred
 subdue
 teem
