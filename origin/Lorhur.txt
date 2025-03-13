@@ -27,6 +27,8 @@ Indic
 burp
 emoji
 gerund
+intrapersonal
 iteration
+kinesthetic
 phrasal
 swag
