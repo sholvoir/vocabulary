@@ -21,6 +21,7 @@ beast
 belly
 blameless
 brow
+burst
 cherub
 cherubim
 corrupt
@@ -39,10 +40,13 @@ desirable
 downcast
 enmity
 eternal
+evangelism
 fig
 flame
 flash
 flock
+floodgate
+forth
 garment
 genesis
 govern
@@ -50,6 +54,7 @@ heel
 hover
 inclination
 livestock
+mate
 miracle
 mortal
 official
@@ -68,11 +73,13 @@ soil
 strike
 subdue
 suffer
+swarm
 teem
 thistle
 thorn
 toil
 troubled
+ungodliness
 vault
 vegetation
 vengeance
