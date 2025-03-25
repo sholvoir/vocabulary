@@ -26,6 +26,7 @@ latte
 Indic
 Venezuela
 burp
+caffeinate
 chlamydia
 clingy
 emoji
