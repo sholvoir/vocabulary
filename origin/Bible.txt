@@ -17,6 +17,8 @@ Jerusalem
 Messiah
 Nephilim
 Passover
+Pilate
+Sabbath
 Samaria
 Samaritan
 Semitic
@@ -55,6 +57,7 @@ creature
 crouch
 crush
 cubit
+cumin
 curse
 cypress
 deceive
