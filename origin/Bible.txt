@@ -14,6 +14,7 @@ Euphrates
 Eve
 Gomorrah
 Jerusalem
+Lord
 Messiah
 Nephilim
 Passover
@@ -25,6 +26,7 @@ Semitic
 Shem
 Shinar
 Sodom
+Thomas
 Tigris
 accumulate
 acquire
@@ -64,7 +66,9 @@ deceive
 descendant
 descent
 desirable
+disciple
 donkey
+doubt
 dove
 downcast
 dread
@@ -108,9 +112,11 @@ nephew
 official
 offspring
 onyx
+peace
 perch
 perish
 pharaoh
+pierce
 pitch
 pluck
 portion
