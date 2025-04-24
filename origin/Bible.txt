@@ -30,6 +30,7 @@ Thomas
 Tigris
 accumulate
 acquire
+ally
 altar
 ark
 aroma
@@ -45,6 +46,7 @@ breadth
 brow
 burst
 camel
+captive
 cease
 cherub
 cherubim
@@ -63,6 +65,7 @@ cumin
 curse
 cypress
 deceive
+defeat
 descendant
 descent
 desirable
@@ -74,6 +77,7 @@ downcast
 dread
 eastward
 endure
+enemy
 enmity
 eternal
 evangelism
@@ -82,6 +86,7 @@ fear
 fig
 flame
 flash
+flee
 flock
 floodgate
 forth
@@ -109,6 +114,7 @@ mortal
 mortar
 multiply
 nephew
+oath
 official
 offspring
 onyx
@@ -117,14 +123,19 @@ perch
 perish
 pharaoh
 pierce
+pit
 pitch
 pluck
 portion
 possession
 praise
+priest
 prophet
+pursuit
 quarrel
+raise
 raven
+rebel
 recede
 regret
 renown
@@ -132,6 +143,7 @@ resin
 righteous
 sacred
 sacrifice
+sandal
 scattered
 seedtime
 serpent
@@ -141,11 +153,13 @@ sin
 soil
 sojourn
 spare
+strap
 strike
 subdue
 suffer
 summon
 swarm
+swear
 tar
 teem
 tent
