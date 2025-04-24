@@ -13,6 +13,7 @@ Enoch
 Euphrates
 Eve
 Gomorrah
+Ishmael
 Jerusalem
 Lord
 Messiah
@@ -72,6 +73,7 @@ defeat
 descendant
 descent
 desirable
+despise
 disciple
 donkey
 doubt
@@ -106,6 +108,7 @@ heifer
 heir
 herd
 herder
+hostility
 household
 hover
 inclination
@@ -119,10 +122,12 @@ maid
 maritime
 mate
 miracle
+misery
 mortal
 mortar
 multiply
 nephew
+numerous
 oath
 official
 offspring
