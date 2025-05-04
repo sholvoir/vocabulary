@@ -1,4 +1,5 @@
 Abel
+Abraham
 Abram
 Adam
 Ararat
@@ -13,6 +14,7 @@ Enoch
 Euphrates
 Eve
 Gomorrah
+Isaac
 Ishmael
 Jerusalem
 Lord
@@ -23,6 +25,7 @@ Pilate
 Sabbath
 Samaria
 Samaritan
+Sarah
 Semitic
 Shem
 Shinar
@@ -32,6 +35,7 @@ Tigris
 accumulate
 acquire
 ally
+almighty
 altar
 ancestor
 ark
@@ -54,6 +58,8 @@ carcass
 cease
 cherub
 cherubim
+circumcise
+circumcision
 clan
 conceive
 corrupt
@@ -88,6 +94,8 @@ enslave
 eternal
 evangelism
 everlasting
+facedown
+faithfully
 fear
 fig
 firepot
@@ -188,6 +196,8 @@ thoroughly
 toil
 torch
 troubled
+uncircumcised
+undergo
 ungodliness
 vault
 vegetation
