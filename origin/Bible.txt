@@ -42,6 +42,7 @@ ark
 aroma
 aromatic
 arose
+ash
 beak
 bear
 beast
@@ -52,6 +53,7 @@ blessing
 breadth
 brow
 burst
+calf
 camel
 captive
 carcass
@@ -72,6 +74,7 @@ crouch
 crush
 cubit
 cumin
+curd
 curse
 cypress
 deceive
@@ -119,10 +122,12 @@ herder
 hostility
 household
 hover
+hurry
 inclination
 indeed
 inflict
 inherit
+knead
 length
 lifeblood
 livestock
@@ -140,6 +145,7 @@ oath
 official
 offspring
 onyx
+outcry
 peace
 perch
 perish
@@ -148,6 +154,7 @@ pierce
 pigeon
 pit
 pitch
+pleasure
 pluck
 portion
 possession
@@ -168,6 +175,7 @@ resin
 righteous
 sacred
 sacrifice
+sake
 sandal
 scattered
 seedtime
@@ -188,6 +196,7 @@ swarm
 swear
 tar
 teem
+tender
 tent
 territory
 thistle
@@ -205,6 +214,8 @@ vengeance
 vineyard
 violence
 wander
+wear out
 wicked
 wickedness
 wisdom
+worn
