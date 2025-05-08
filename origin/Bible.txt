@@ -67,6 +67,7 @@ circumcise
 circumcision
 clan
 conceive
+conscience
 corrupt
 course
 covenant
@@ -233,6 +234,7 @@ urge
 vault
 vegetation
 vengeance
+vindicate
 vineyard
 violence
 wander
