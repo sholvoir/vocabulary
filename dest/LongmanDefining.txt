@@ -1118,7 +1118,6 @@ loaf
 local
 lock
 lodging
-lodgings
 log
 lonely
 long
