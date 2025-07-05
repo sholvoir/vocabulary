@@ -713,7 +713,6 @@ feather
 feed
 feel
 feeling
-feelings
 fellow
 female
 fence
