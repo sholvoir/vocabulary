@@ -7,10 +7,12 @@ process:
   - [['^"\t([A-Za-z ''-]+?)"\t.*$', gm], $1]
 replace:
   'TRUE': ['true']
+  City: [city]
   Protect: [protect]
   Protest: [protest]
   Prove: [prove]
   Pull: [pull]
   Push: [push]
   earlier: [early]
+  set-up: [setup]
   tion: [recognition]
