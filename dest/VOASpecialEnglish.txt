@@ -1342,7 +1342,6 @@ tea
 teach
 team
 tear
-tears
 technical
 technology
 telephone

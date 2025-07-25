@@ -5110,7 +5110,6 @@ teach
 teacher
 team
 tear
-tears
 tease
 technical
 technician
