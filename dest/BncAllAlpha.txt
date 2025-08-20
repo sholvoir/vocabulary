@@ -4924,7 +4924,7 @@ stadium
 staff
 stage
 staircase
-stairs
+stair
 stake
 stall
 stamp

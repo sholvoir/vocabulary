@@ -1149,7 +1149,7 @@ spirit
 spoon
 spring
 square
-stairs
+stair
 stamp
 standard
 start
