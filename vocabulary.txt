@@ -21138,7 +21138,6 @@ stainless
 stainless steel
 stair
 staircase
-stairs
 stairway
 stake
 stakeholder
