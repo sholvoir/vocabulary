@@ -4923,8 +4923,8 @@ stable
 stadium
 staff
 stage
-staircase
 stair
+staircase
 stake
 stall
 stamp

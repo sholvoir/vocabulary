@@ -7,7 +7,7 @@ Easter
 Latin
 Marxist
 X-ray
-a
+a.
 abandon
 abdomen
 abide
@@ -3645,7 +3645,7 @@ voluntary
 volunteer
 vote
 vowel
-vs
+vs.
 vulgar
 vulnerable
 wage

@@ -52,7 +52,7 @@ async function run() {
         } else for (let line of text.split('\n')) if (line = line.trim()) {
             let word = JSON.parse(line);
             for (const item of config.wordPath!) word = word[item];
-            wordSet.add(line);
+            wordSet.add(word);
         }
         for (const word of wordSet)
             if (word) for (const replace of config.replace?.[word] || [word])

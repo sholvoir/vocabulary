@@ -31,3 +31,4 @@ replace:
   troops: [troop]
   x-rays: [x-ray]
   chemicals: [chemical]
+  take steps: [take, step]

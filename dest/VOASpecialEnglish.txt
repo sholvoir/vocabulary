@@ -1331,7 +1331,6 @@ swim
 sympathy
 system
 take
-take steps
 talk
 tall
 tank

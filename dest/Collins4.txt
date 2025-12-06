@@ -3,7 +3,6 @@ April
 August
 Christian
 Christmas
-City
 December
 February
 Friday
@@ -170,6 +169,7 @@ choose
 church
 circle
 citizen
+city
 civil
 classic
 clean
@@ -814,9 +814,9 @@ separate
 series
 serve
 session
-set-up
 settle
 settlement
+setup
 seventeenth
 seventh
 seventieth

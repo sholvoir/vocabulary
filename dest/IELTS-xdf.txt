@@ -1473,6 +1473,7 @@ focus
 foetus
 foil
 fold
+for
 for instance
 force
 forecast
@@ -2849,6 +2850,7 @@ rural
 ruthless
 sack
 sacrifice
+sake
 saline
 salinity
 sample
@@ -3281,6 +3283,7 @@ terrify
 territory
 textile
 texture
+the
 theoretical
 theory
 therapy

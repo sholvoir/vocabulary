@@ -223,7 +223,6 @@ Christmas tree
 Christopher
 Churchill
 Cincinnati
-City
 Claire
 Clare
 Clark
@@ -1516,6 +1515,7 @@ adulatory
 adult
 adulterant
 adulterate
+adulterer
 adultery
 adulthood
 adumbrate
@@ -3941,6 +3941,7 @@ buzzer
 by
 by means of
 by no means
+by the time
 by way of
 by-election
 by-law
@@ -7396,6 +7397,7 @@ doorknob
 doorman
 doorstep
 doorway
+dopamine
 dope
 dopey
 dorm
@@ -12432,7 +12434,6 @@ intumescence
 inundate
 inundation
 inure
-inured
 invade
 invader
 invalid
@@ -12800,6 +12801,7 @@ kindle
 kindly
 kindness
 kindred
+kinesthesia
 kinesthetic
 kinetic
 kinetoscope
@@ -12905,6 +12907,7 @@ lacquer
 lactate
 lactation
 lactic
+lactic acid
 lactose
 lacuna
 lacy
@@ -13620,6 +13623,7 @@ luscious
 lush
 lust
 luster
+lustful
 lustre
 lustrous
 lusty
@@ -14946,6 +14950,7 @@ nefarious
 negate
 negation
 negative
+negativity
 neglect
 negligence
 negligent
@@ -16614,6 +16619,7 @@ phenom
 phenomena
 phenomenal
 phenomenon
+phentermine
 pheromone
 phial
 philander
@@ -20001,7 +20007,6 @@ session
 set
 set piece
 set-to
-set-up
 setback
 settee
 setter
@@ -22002,7 +22007,6 @@ taint
 take
 take off
 take place
-take steps
 take-up
 taken
 takeoff
@@ -22120,7 +22124,6 @@ teamwork
 teapot
 tear
 tearful
-tears
 tease
 teaspoon
 teat
@@ -22760,6 +22763,7 @@ transfigure
 transfix
 transform
 transformation
+transformative
 transformer
 transfuse
 transfusion
@@ -22924,6 +22928,7 @@ trot
 troubadour
 trouble
 troubled
+troubleshooter
 troublesome
 trough
 trounce
@@ -23167,6 +23172,7 @@ unchanging
 uncharacteristic
 uncharitable
 uncharted
+unchastity
 unchecked
 uncircumcised
 unclad
@@ -24737,6 +24743,7 @@ xenophobia
 xenophobic
 xerophyte
 xerox
+xylophone
 y-axis
 yacht
 yachting

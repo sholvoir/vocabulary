@@ -9,9 +9,9 @@
             "name": "build",
             "type": "node",
             "program": "${workspaceFolder}/build.ts",
-            "args": ["-a"],
+            "args": ["cet6-yd2"],
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "/usr/bin/deno",
+            "runtimeExecutable": "/home/shaw/.deno/bin/deno",
             "runtimeArgs": [
                 "run",
                 "--inspect-wait",
@@ -26,7 +26,7 @@
             "program": "${workspaceFolder}/lib/spell-check.ts",
             "args": ["depend on", "1"],
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "/usr/bin/deno",
+            "runtimeExecutable": "/home/shaw/.deno/bin/deno",
             "runtimeArgs": [
                 "run",
                 "--inspect-wait",
