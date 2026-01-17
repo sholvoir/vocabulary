@@ -65,7 +65,7 @@ async function run() {
             config.miss = miss;
             await writeConfig(configPath, config);
         }
-        await Deno.writeTextFile(`dest/${config.output}`, Array.from(words).sort().join('\n'));
+        await Deno.writeTextFile(`docs/${config.output}`, Array.from(words).sort().join('\n'));
     }
     await spellCheckClose();
     if (vocabulary.size > vocabularyOldSize)

@@ -96,7 +96,7 @@ better
 between
 big
 bill
-birds
+bird
 bit
 black
 block
@@ -235,7 +235,7 @@ direct
 direction
 discover
 distance
-divided
+divide
 division
 do
 doctor
@@ -295,10 +295,10 @@ experience
 experiment
 explain
 express
-eyes
+eye
 face
 fact
-factors
+factor
 factory
 fair
 fall
@@ -414,7 +414,7 @@ home
 hope
 horse
 hot
-hours
+hour
 house
 how
 however
@@ -610,7 +610,7 @@ park
 part
 particular
 party
-passed
+pass
 past
 pattern
 pay
@@ -620,7 +620,7 @@ perhaps
 period
 person
 phrase
-picked
+pick
 picture
 piece
 place
@@ -948,7 +948,7 @@ were
 west
 western
 what
-wheels
+wheel
 when
 where
 whether
@@ -966,7 +966,7 @@ will
 win
 wind
 window
-wings
+wing
 winter
 wire
 wish

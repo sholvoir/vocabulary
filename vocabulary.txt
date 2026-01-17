@@ -7302,7 +7302,6 @@ diverting
 divest
 divestiture
 divide
-divided
 dividend
 divine
 diviner
@@ -12385,7 +12384,6 @@ interweave
 intestate
 intestinal
 intestine
-intestines
 intimacy
 intimate
 intimately
@@ -17712,7 +17710,6 @@ protectionist
 protective
 protector
 protein
-proteins
 protest
 protestant
 protester
@@ -24398,7 +24395,6 @@ wheat
 wheedle
 wheel
 wheelchair
-wheels
 wheeze
 whelm
 whelp

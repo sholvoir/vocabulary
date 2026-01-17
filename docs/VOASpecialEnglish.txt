@@ -705,7 +705,7 @@ interest
 interfere
 international
 intervene
-intestines
+intestine
 invade
 invent
 invest
@@ -1042,7 +1042,7 @@ property
 propose
 prostate
 protect
-proteins
+protein
 protest
 prove
 provide

@@ -833,7 +833,7 @@ god
 gold
 golden
 good
-good-bye
+goodbye
 goods
 govern
 government
