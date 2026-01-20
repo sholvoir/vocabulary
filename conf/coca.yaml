@@ -1,5 +1,5 @@
 input: CocaTop5000WordFrequency.csv
-output: CocaTop5000.txt
+output: CocaTop5000
 disc: 当代美国英语语料库Top5000
 test: '[^\na-z''-]'
 process:

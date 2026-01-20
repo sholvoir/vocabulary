@@ -1,5 +1,5 @@
 input: TOEFL-1.txt
-output: TOEFL-js.txt
+output: TOEFL-js
 disc: 非英语母语英语能力考试(托福)-金山
 test: '[^\nA-Za-z-]'
 process:

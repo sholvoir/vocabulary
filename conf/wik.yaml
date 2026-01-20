@@ -1,5 +1,5 @@
 input: Wiktionary1000BasicEnglishWords.html
-output: Wiktionary1000.txt
+output: Wiktionary1000
 disc: 维基词典1000基础词汇
 test: '[^\nA-Za-z]'
 process:

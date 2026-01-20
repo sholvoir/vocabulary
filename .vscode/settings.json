@@ -1,5 +1,13 @@
 {
-    "deno.enable": true,
-    "yaml.format.printWidth": 640,
-    "yaml.maxItemsComputed": 50000
+   "deno.enable": true,
+   "deno.lint": false,
+   "editor.codeActionsOnSave": {
+      "source.organizeImports.biome": "explicit",
+      "source.fixAll.biome": "explicit"
+   },
+   "editor.tabSize": 3,
+   "editor.indentSize": "tabSize",
+   "editor.detectIndentation": true,
+   "editor.defaultFormatter": "biomejs.biome",
+   "deno.maxTsServerMemory": 6144
 }

@@ -1,5 +1,5 @@
 input: GaoZhong_2.json
-output: ChinaHighSchool-yd.txt
+output: ChinaHighSchool-yd
 disc: 高中英语-有道
 wordPath:
   - headWord

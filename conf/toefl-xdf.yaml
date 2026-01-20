@@ -1,5 +1,5 @@
 input: TOEFL_3.json
-output: TOEFL-xdf.txt
+output: TOEFL-xdf
 disc: 非英语母语英语能力考试(托福)-新东方
 wordPath:
   - headWord

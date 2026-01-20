@@ -1,5 +1,5 @@
 input: GRE-4.csv
-output: GRE-dg.txt
+output: GRE-dg
 disc: 美国研究生入学考试(GRE)-大纲
 test: '[^\nA-Za-zé-]'
 process:

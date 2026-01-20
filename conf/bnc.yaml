@@ -1,5 +1,5 @@
 input: BncAllAlpha.txt
-output: BncAllAlpha.txt
+output: BncAllAlpha
 disc: 英国国家语料库Top5000
 test: '[^\nA-Za-z ''.-]'
 process:
@@ -11,7 +11,7 @@ process:
   - [[' ?/ ?', g], "\n"]
   - [['^(\w|\d[,%\w]*|\w*~\w*)\n', gm]]
 replace:
-  "'cos": [cos]
+  '''cos': [cos]
   Arsenal: [arsenal]
   Ch: []
   Corp: [corp]

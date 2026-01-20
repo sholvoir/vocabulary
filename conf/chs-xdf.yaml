@@ -1,5 +1,5 @@
 input: GaoZhong_3.json
-output: ChinaHighSchool-xdf.txt
+output: ChinaHighSchool-xdf
 disc: 高中英语-新东方
 wordPath:
   - headWord

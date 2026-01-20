@@ -1,5 +1,5 @@
 input: BSL1.2LemmatizedForTeaching.csv
-output: Service-BusinessServiceList.txt
+output: Service-BusinessServiceList
 disc: BSL-商业词汇
 test: '[^\na-z-]'
 process:

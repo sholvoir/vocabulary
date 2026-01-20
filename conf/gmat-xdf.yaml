@@ -1,5 +1,5 @@
 input: GMAT_3.json
-output: GMAT-xdf.txt
+output: GMAT-xdf
 disc: 研究生管理科入学考试(GMAT)-新东方
 wordPath:
   - headWord

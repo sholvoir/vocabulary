@@ -1,5 +1,5 @@
 input: LongmanCommunication3000.txt
-output: LongmanCommunication3000W2.txt
+output: LongmanCommunication3000W2
 disc: 朗文通讯3000词写作2级
 test: '[^\n\w ,:''-]'
 process:

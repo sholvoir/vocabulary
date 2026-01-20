@@ -1,5 +1,5 @@
 input: Top150WrittenSightWords.html
-output: Sight-Written.txt
+output: Sight-Written
 disc: 视觉单词-Top150写作
 test: '[^\na-zI]'
 process:

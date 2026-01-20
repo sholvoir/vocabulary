@@ -1,5 +1,5 @@
 input: IELTS_3.json
-output: IELTS-xdf.txt
+output: IELTS-xdf
 disc: 国际英语测试系统(雅思)-新东方
 wordPath:
   - headWord

@@ -1,5 +1,5 @@
 input: GRE_2.json
-output: GRE-yd.txt
+output: GRE-yd
 disc: 美国研究生入学考试(GRE)-有道
 wordPath:
   - headWord

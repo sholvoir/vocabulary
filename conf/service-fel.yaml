@@ -1,5 +1,5 @@
 input: FEL1.2LemmatizedForTeaching.txt
-output: Service-FitnessEnglishList.txt
+output: Service-FitnessEnglishList
 disc: FEL-健身词汇
 test: '[^\na-z]'
 process:

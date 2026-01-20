@@ -1,5 +1,5 @@
 input: KaoYan_2.json
-output: NPEE-yd2.txt
+output: NPEE-yd2
 disc: 考研-有道
 wordPath:
   - headWord

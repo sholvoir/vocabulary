@@ -1,5 +1,5 @@
 input: NDL1.1LemmatizedForTeaching.txt
-output: Service-NewDolchList.txt
+output: Service-NewDolchList
 disc: NDL-新Dolch词汇
 test: '[^\nA-Za-z'']'
 process:

@@ -1,5 +1,5 @@
 input: IELTS_2.json
-output: IELTS-yd.txt
+output: IELTS-yd
 disc: 国际英语测试系统(雅思)-有道
 wordPath:
   - headWord

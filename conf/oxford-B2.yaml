@@ -1,5 +1,5 @@
 input: Oxford5000.html
-output: Oxford5000-B2.txt
+output: Oxford5000-B2
 disc: 牛津5000词汇B2
 test: '[^\n\w: ]'
 process:

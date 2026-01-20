@@ -1,5 +1,5 @@
 input: ChuZhong_2.json
-output: ChinaMiddleSchool-yd.txt
+output: ChinaMiddleSchool-yd
 disc: 初中英语-有道
 wordPath:
   - headWord

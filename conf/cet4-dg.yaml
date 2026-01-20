@@ -1,5 +1,5 @@
 input: CET4-1.txt
-output: CollegeEnglishTestL4-dg.txt
+output: CollegeEnglishTestL4-dg
 disc: CET4-大纲
 test: '[^\nA-Za-z''.-]'
 process:

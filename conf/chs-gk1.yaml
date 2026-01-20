@@ -1,5 +1,5 @@
 input: CEE-2018-Syllabus.html
-output: ChinaHighSchool-gk1.txt
+output: ChinaHighSchool-gk1
 disc: 高中英语-高考大纲
 test: '[^\nA-Za-z ''.-]'
 process:

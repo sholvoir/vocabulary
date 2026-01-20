@@ -1,5 +1,5 @@
 input: DolchSightWordsList.html
-output: Sight-Dolch.txt
+output: Sight-Dolch
 disc: 视觉单词-Dolch
 test: '[^\na-zA-Z '']'
 process:

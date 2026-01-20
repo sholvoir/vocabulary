@@ -1,5 +1,5 @@
 input: NPEE-Wordlist.txt
-output: NPEE-dg.txt
+output: NPEE-dg
 disc: 考研-大纲
 test: '[^\nA-Za-z'' -]'
 process:

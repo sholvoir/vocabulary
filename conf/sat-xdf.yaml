@@ -1,5 +1,5 @@
 input: SAT_3.json
-output: SAT-xdf.txt
+output: SAT-xdf
 disc: 美国学术评估测试(SAT)-新东方
 wordPath:
   - headWord

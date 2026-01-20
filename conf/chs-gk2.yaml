@@ -1,5 +1,5 @@
 input: CEE-4.txt
-output: ChinaHighSchool-gk2.txt
+output: ChinaHighSchool-gk2
 disc: 高中英语-高考大纲2
 test: '[^A-Za-zé\n ''.-]'
 process:

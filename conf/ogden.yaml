@@ -1,5 +1,5 @@
 input: OgdensBasicEnglishWordList.html
-output: OgdensBasicEnglish.txt
+output: OgdensBasicEnglish
 disc: 奥格登基本英语
 test: '[^\na-zI]'
 process:

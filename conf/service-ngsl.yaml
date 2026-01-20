@@ -1,5 +1,5 @@
 input: NGSL1.2LemmatizedForTeaching.csv
-output: Service-NewGeneralServiceList.txt
+output: Service-NewGeneralServiceList
 disc: NGSL-新GSL词汇
 test: '[^\na-zA-Z]'
 process:

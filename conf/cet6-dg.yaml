@@ -1,5 +1,5 @@
 input: CET6-1.csv
-output: CollegeEnglishTestL6-dg.txt
+output: CollegeEnglishTestL6-dg
 disc: CET6-大纲
 test: '[^A-Za-z\n-]'
 process:

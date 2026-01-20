@@ -1,5 +1,5 @@
 input: TheLongmanDefiningVocabulary.html
-output: LongmanDefining.txt
+output: LongmanDefining
 disc: 朗文词典-释义词汇2500
 test: '[^\nA-Za-z ''-]'
 process:
