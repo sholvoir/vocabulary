@@ -624,7 +624,7 @@ pick
 picture
 piece
 place
-plains
+plain
 plan
 plane
 planet
@@ -653,8 +653,8 @@ produce
 product
 property
 provide
-pulled
-pushed
+pull
+push
 put
 question
 quickly

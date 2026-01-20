@@ -16818,7 +16818,6 @@ plaice
 plaid
 plain
 plainly
-plains
 plainspoken
 plaint
 plaintiff
@@ -17839,7 +17838,6 @@ pulchritude
 pulchritudinous
 pull
 pulldown
-pulled
 pullet
 pulley
 pullover
@@ -17923,7 +17921,6 @@ purveyance
 purview
 push
 push-up
-pushed
 pushy
 pusillanimous
 pussy
