@@ -4,7 +4,7 @@ import { encodeHex } from "@std/encoding/hex";
 import { readConfig, writeConfig } from "./lib/config.ts";
 import { spellCheck } from "./lib/spell-check.ts";
 
-const vocabularyPath = "docs/vocabulary.txt";
+const vocabularyPath = "vocabulary.txt";
 
 const getHash = async (text: string) => {
    const mBuffer = new TextEncoder().encode(text);
