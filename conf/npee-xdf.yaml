@@ -5,6 +5,8 @@ wordPath:
   - headWord
 replace:
   Thanksgiving: [thanksgiving]
+  "a.": [Catholic]
+  "vs.": [vs]
   by-pass: [bypass]
   characterise: [characterize]
   civilisation: [civilization]

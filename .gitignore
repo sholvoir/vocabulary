@@ -4,5 +4,4 @@ node_modules
 .env.test
 .DS_Store
 /debug
-/deploy.ts
-/upload.ts
+/z.ts
