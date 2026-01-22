@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-cond-assign
 import { parseArgs } from "@std/cli/parse-args";
-import { encodeHex } from "@std/encoding/hex";
+import { encodeBase64 } from "@std/encoding/base64";
 import { readConfig, writeConfig } from "./lib/config.ts";
 import { spellCheck } from "./lib/spell-check.ts";
 
@@ -9,7 +9,7 @@ const vocabularyPath = "vocabulary.txt";
 const getHash = async (text: string) => {
    const mBuffer = new TextEncoder().encode(text);
    const hBuffer = await crypto.subtle.digest("SHA-256", mBuffer);
-   return encodeHex(hBuffer);
+   return encodeBase64(hBuffer);
 };
 
 async function run() {
