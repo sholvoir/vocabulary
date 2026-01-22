@@ -1,6 +1,7 @@
 {
    "deno.enable": true,
    "deno.lint": false,
+   "deno.maxTsServerMemory": 6144,
    "editor.codeActionsOnSave": {
       "source.organizeImports.biome": "explicit",
       "source.fixAll.biome": "explicit"
@@ -8,6 +9,5 @@
    "editor.tabSize": 3,
    "editor.indentSize": "tabSize",
    "editor.detectIndentation": true,
-   "editor.defaultFormatter": "biomejs.biome",
-   "deno.maxTsServerMemory": 6144
+   "editor.defaultFormatter": "biomejs.biome"
 }
