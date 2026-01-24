@@ -12,9 +12,8 @@ async function run() {
       alias: { "step-out": "s", all: "a" },
    });
    // Read Checksum
-   const checksum: Record<string, string> = JSON.parse(
-      await Deno.readTextFile("docs/checksum.json"),
-   );
+   const checksum: Record<string, { disc: string; checksum: string }> =
+      JSON.parse(await Deno.readTextFile("docs/checksum.json"));
    // Read Vocabulary
    const vocabulary = new Set<string>();
    for (let line of (await Deno.readTextFile(vocabularyPath)).split("\n"))
@@ -104,13 +103,15 @@ async function run() {
       }
       // Write output
       const outstr = Array.from(words).sort().join("\n");
-      checksum[config.output] = await getHash(outstr);
+      checksum[config.output] = {
+         disc: config.disc!,
+         checksum: await getHash(outstr),
+      };
       await Deno.writeTextFile(`docs/${config.output}.txt`, outstr);
    }
    // Close SpellCheck
    if (vocabulary.size > vocabularyOldSize) {
       const vocab = Array.from(vocabulary).sort().join("\n");
-      checksum.vocabulary = await getHash(vocab);
       await Deno.writeTextFile(vocabularyPath, vocab);
    }
    // Write Checksum

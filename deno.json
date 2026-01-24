@@ -1,22 +1,19 @@
 {
-    "name": "@sholvoir/vocabulary",
-    "version": "0.6.1",
-    "lock": false,
-    "imports": {
-        "@sholvoir/generic": "jsr:@sholvoir/generic@^0.3.0",
-        "@std/cli": "jsr:@std/cli@^1.0.24",
-        "@std/encoding": "jsr:@std/encoding@^1.0.10",
-        "@std/yaml": "jsr:@std/yaml@^1.0.10"
-    },
-    "tasks": {
-        "build": "deno run -A build.ts",
-        "deploy": "sh deploy.sh"
-    },
-    "exports": "./build.ts",
-    "publish": {
-        "exclude": [
-            "origin",
-            "backup"
-        ]
-    }
+   "name": "@sholvoir/vocabulary",
+   "version": "0.6.2",
+   "lock": false,
+   "imports": {
+      "@sholvoir/generic": "jsr:@sholvoir/generic@^0.3.0",
+      "@std/cli": "jsr:@std/cli@^1.0.26",
+      "@std/encoding": "jsr:@std/encoding@^1.0.10",
+      "@std/yaml": "jsr:@std/yaml@^1.0.11"
+   },
+   "tasks": {
+      "build": "deno run -A build.ts",
+      "deploy": "sh deploy.sh"
+   },
+   "exports": "./build.ts",
+   "publish": {
+      "exclude": ["origin", "backup"]
+   }
 }
