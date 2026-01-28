@@ -1455,7 +1455,7 @@ visit
 voice
 volcano
 vote
-wages
+wage
 wait
 walk
 wall

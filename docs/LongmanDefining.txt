@@ -2071,7 +2071,7 @@ voice
 vote
 vowel
 voyage
-wages
+wage
 waist
 wait
 waiter

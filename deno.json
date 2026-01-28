@@ -1,6 +1,6 @@
 {
    "name": "@sholvoir/vocabulary",
-   "version": "0.6.2",
+   "version": "0.6.3",
    "lock": false,
    "imports": {
       "@sholvoir/generic": "jsr:@sholvoir/generic@^0.3.0",
