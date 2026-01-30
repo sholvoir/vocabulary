@@ -215,7 +215,7 @@ day
 dead
 deal
 death
-decided
+decide
 decimal
 deep
 describe

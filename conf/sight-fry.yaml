@@ -27,6 +27,7 @@ replace:
   conditions: [condition]
   cows: [cow]
   crops: [crop]
+  decided: [decide]
   details: [detail]
   died: [die]
   discovered: [discover]

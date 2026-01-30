@@ -22,7 +22,7 @@ async function run() {
    // Ready Config Paths
    const configPaths = new Set<string>();
    for (const path of args._) configPaths.add(`conf/${path}.yaml`);
-   if (args.all)
+   if (args.all || configPaths.size === 0)
       for await (const file of Deno.readDir("conf"))
          if (file.isFile && file.name.endsWith(".yaml"))
             configPaths.add(`conf/${file.name}`);
