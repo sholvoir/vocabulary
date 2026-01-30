@@ -10,3 +10,6 @@ process:
   - [['^.+?: (a1|b[12]|c[12])$', gm]]
   - [[\n+, g], "\n"]
   - [[': a2$', gm]]
+replace:
+  camping: [camp]
+

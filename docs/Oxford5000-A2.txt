@@ -108,7 +108,6 @@ burn
 businessman
 button
 camp
-camping
 can
 care
 careful
