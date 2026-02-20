@@ -7,10 +7,10 @@ You can download **vocabulary.txt** directly.
 
 How to run:
 ```bash
-deno task run[ -d][ name]
-deno task release
+deno task build [-s] [-a] [name]
 ```
--d: debug.  
+-s: step out to file.
+-a: deal all config file.
 name: run "name" section only.
 
 ## Ogdens
