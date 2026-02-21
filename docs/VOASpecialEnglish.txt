@@ -1094,7 +1094,7 @@ refugee
 refuse
 regret
 reject
-relations
+relation
 release
 religion
 remain
