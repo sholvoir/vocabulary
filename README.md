@@ -18,9 +18,9 @@ name: run "name" section only.
 数据来自 <http://zbenglish.net/sites/basic/basiceng.html>
 
 ## SightWords - Dolch / Fry / Written
-Dolth视觉单词 Dolch Sight Words List
-Fry视觉单词 Fry Sight Words List
-写作单词150 Top 150 Written Words
+Dolth视觉单词 Dolch Sight Words List (315)  
+Fry视觉单词 Fry Sight Words List (1000)  
+写作单词150 Top 150 Written Words (150)  
 数据来自 <https://sightwords.com/>
 
 ## Wik
@@ -32,13 +32,13 @@ VOA慢速英语1500基础词汇 VOA Special English Word Book
 数据来自 <https://simple.wikipedia.org/wiki/Wikipedia:VOA_Special_English_Word_Book>
 
 ## NGSL NAWL TSL BSL NDL FEL NGSL-S
-新GSL词汇 NEW GENERAL SERVICE LIST (NGSL)  
-新学术词汇 NEW ACADEMIC WORD LIST (NAWL)  
-托业词汇 TOEIC(Test of English for International Communication) SERVICE LIST (TSL)  
-商业词汇 BUSINESS SERVICE LIST (BSL)  
-健身词汇 FITNESS ENGLISH LIST (FEL)  
-新Dolch词汇 NEW DOLCH LIST (NDL)  
-新GSL词汇口语版 NEW GENERAL SERVICE LIST-SPOKEN (NGSL-S)  
+新GSL词汇 NEW GENERAL SERVICE LIST (NGSL) (2809)  
+新学术词汇 NEW ACADEMIC WORD LIST (NAWL) (959)  
+托业词汇 TOEIC(Test of English for International Communication) SERVICE LIST (TSL) (1249)  
+商业词汇 BUSINESS SERVICE LIST (BSL) (1744)  
+健身词汇 FITNESS ENGLISH LIST (FEL) (598)  
+新Dolch词汇 NEW DOLCH LIST (NDL) (874)  
+新GSL词汇口语版 NEW GENERAL SERVICE LIST-SPOKEN (NGSL-S) (721)  
 数据来自 <http://www.newgeneralservicelist.org/>
 
 ## Macmillan
@@ -58,7 +58,7 @@ VOA慢速英语1500基础词汇 VOA Special English Word Book
 数据来自 <https://www.oxfordlearnersdictionaries.com/wordlists/>
 
 ## Collins
-柯林斯词典词频分级词汇1-5星  
+柯林斯词典词频分级词汇5-1星 (679,1036,1435,3058,7606)  
 数据来自 <https://pan.baidu.com/s/1Eu2kfAIdMwy_mM6Wokllrw> 提取码:2suj
 
 ## COCA
