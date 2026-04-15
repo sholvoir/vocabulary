@@ -1,9 +1,9 @@
 {
    "name": "@sholvoir/vocabulary",
-   "version": "0.6.9",
+   "version": "0.6.10",
    "lock": false,
    "imports": {
-      "@sholvoir/generic": "jsr:@sholvoir/generic@^0.4.2",
+      "@sholvoir/generic": "jsr:@sholvoir/generic@^0.4.5",
       "@std/cli": "jsr:@std/cli@^1.0.28",
       "@std/encoding": "jsr:@std/encoding@^1.0.10",
       "@std/yaml": "jsr:@std/yaml@^1.0.12"
