@@ -1530,7 +1530,6 @@ patient
 pattern
 pause
 pay
-pay attention
 payment
 peace
 peaceful
