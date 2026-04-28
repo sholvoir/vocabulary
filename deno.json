@@ -1,12 +1,12 @@
 {
    "name": "@sholvoir/vocabulary",
-   "version": "0.6.10",
+   "version": "0.6.11",
    "lock": false,
    "imports": {
       "@sholvoir/generic": "jsr:@sholvoir/generic@^0.4.5",
-      "@std/cli": "jsr:@std/cli@^1.0.28",
+      "@std/cli": "jsr:@std/cli@^1.0.29",
       "@std/encoding": "jsr:@std/encoding@^1.0.10",
-      "@std/yaml": "jsr:@std/yaml@^1.0.12"
+      "@std/yaml": "jsr:@std/yaml@^1.1.0"
    },
    "tasks": {
       "build": "deno run -A build.ts"

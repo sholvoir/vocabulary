@@ -119,6 +119,10 @@ async function run() {
       "docs/checksum.json",
       JSON.stringify(checksum, undefined, 3),
    );
+   // lemmatization
+   const lema = await Deno.readTextFile("docs/lemmatization.yaml");
+   const checksumLema = await getHash(lema);
+   await Deno.writeTextFile("docs/checksum-lema.json", JSON.stringify({ checksum: checksumLema }));
 }
 
 if (import.meta.main) await run();
