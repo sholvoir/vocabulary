@@ -1,6 +1,6 @@
 {
    "name": "@sholvoir/vocabulary",
-   "version": "0.6.11",
+   "version": "0.6.12",
    "lock": false,
    "imports": {
       "@sholvoir/generic": "jsr:@sholvoir/generic@^0.4.5",
@@ -9,7 +9,8 @@
       "@std/yaml": "jsr:@std/yaml@^1.1.0"
    },
    "tasks": {
-      "build": "deno run -A build.ts"
+      "build": "deno run -A build.ts",
+      "lemma": "deno run -A lemma.ts"
    },
    "exports": "./build.ts",
    "publish": {

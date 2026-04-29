@@ -988,7 +988,6 @@ aggravates: aggravate
 aggravating: aggravate
 aggravations: aggravation
 aggregated: aggregate
-aggregated.: aggregate
 aggregates: aggregate
 aggregating: aggregate
 aggregations: aggregation
@@ -1473,9 +1472,9 @@ annealed: anneal
 annealing: anneal
 anneals: anneal
 annexations: annexation
-annexed: annex, annexe
-annexes: annex, annexe
-annexing: annex, annexe
+annexed: annex
+annexes: annexe
+annexing: annex
 annihilated: annihilate
 annihilates: annihilate
 annihilating: annihilate
@@ -1664,8 +1663,8 @@ apostrophes: apostrophe
 apothecaries: apothecary
 appaled: appal
 appaling: appal
-appalled: appal, appall
-appalling: appal, appall
+appalled: appall
+appalling: appall
 appalls: appall
 appals: appal
 apparatuses: apparatus
@@ -2032,7 +2031,7 @@ asserted: assert
 asserting: assert
 assertions: assertion
 asserts: assert
-asses: ass, asse
+asses: ass
 assessed: assess
 assesses: assess
 assessing: assess
@@ -2133,7 +2132,7 @@ atrophied: atrophy
 atrophies: atrophy
 atrophying: atrophy
 attached: attach
-attaches: attach, attache
+attaches: attach
 attaching: attach
 attachments: attachment
 attachés: attaché
@@ -2219,7 +2218,7 @@ auguries: augury
 auguring: augur
 augurs: augur
 auks: auk
-aunties: auntie, aunty
+aunties: aunty
 aunts: aunt
 aurae: aura
 auras: aura
@@ -2357,12 +2356,12 @@ awls: awl
 awnings: awning
 awns: awn
 aws: aw
-axed: ax, axe
-axes: ax, axe
+axed: axe
+axes: axe
 axillae: axilla
 axillas: axilla
 axils: axil
-axing: ax, axe
+axing: axe
 axioms: axiom
 axises: axis
 axles: axle
@@ -2733,11 +2732,11 @@ batching: batch
 bated: bate
 bates: bate
 bathchairs: bathchair
-bathed: bath, bathe
+bathed: bathed
 bathers: bather
 bathes: bathe
 bathhouses: bathhouse
-bathing: bath, bathe
+bathing: bath
 bathings: bathing
 bathmats: bathmat
 bathrobes: bathrobe
@@ -2962,10 +2961,8 @@ beheading: behead
 beheads: behead
 behemoths: behemoth
 behests: behest
-behinds: behind
-behinds.: behind
+behinds: behinds
 beholders: beholder
-beholders.: beholder
 beholding: behold
 beholds: behold
 behooved: behoove
@@ -2994,9 +2991,9 @@ beleaguering: beleaguer
 beleaguers: beleaguer
 belemnites: belemnite
 belfries: belfry
-belied: belie, bely
+belied: bely
 beliefs: belief
-belies: belie, bely
+belies: bely
 believed: believe
 believers: believer
 believes: believe
@@ -3543,9 +3540,9 @@ blocking: block
 blocks: block
 blocs: bloc
 blokes: bloke
-blonder: blond, blonde
+blonder: blonde
 blondes: blonde
-blondest: blond, blonde
+blondest: blonde
 blonds: blond
 bloodbaths: bloodbath
 blooded: blood
@@ -3696,7 +3693,7 @@ bogging: bog
 boggled: boggle
 boggles: boggle
 boggling: boggle
-bogies: bogie, bogy
+bogies: bogy
 bogs: bog
 bohemians: bohemian
 boiled: boil
@@ -4585,7 +4582,7 @@ cactuses: cactus
 cadavera: cadaver
 cadavers: cadaver
 caddied: caddie
-caddies: caddie, caddy
+caddies: caddy
 caddises: caddis
 cadences: cadence
 cadenzas: cadenza
@@ -4677,14 +4674,14 @@ calmest: calm
 calming: calm
 calmodulins: calmodulin
 calms: calm
-calories: calorie, calory
+calories: calory
 calorifiers: calorifier
 calorimeters: calorimeter
 calorimetries: calorimetry
 cals: cal
 calumnies: calumny
 calved: calve
-calves: calf, calve
+calves: calf
 calving: calve
 calypsos: calypso
 calyxes: calyx
@@ -4820,7 +4817,7 @@ cants: cant
 canvases: canvas
 canvassed: canvass
 canvassers: canvasser
-canvasses: canvas, canvass
+canvasses: canvass
 canvassing: canvass
 canyons: canyon
 capabilities: capability
@@ -5406,9 +5403,9 @@ chaoses: chaos
 chapatis: chapati
 chapattis: chapatti
 chapels: chapel
-chaperoned: chaperon, chaperone
+chaperoned: chaperone
 chaperones: chaperone
-chaperoning: chaperon, chaperone
+chaperoning: chaperone
 chaperonins: chaperonin
 chaperons: chaperon
 chaplaincies: chaplaincy
@@ -6225,7 +6222,6 @@ cochleae: cochlea
 cochleas: cochlea
 cockatiels: cockatiel
 cockatoos: cockatoo
-cockatoos.: cockatoo
 cocked: cock
 cockerels: cockerel
 cockers: cocker
@@ -7337,7 +7333,7 @@ cookbooks: cookbook
 cooked: cook
 cookeries: cookery
 cookers: cooker
-cookies: cookie, cooky
+cookies: cooky
 cooking: cook
 cooks: cook
 coolants: coolant
@@ -7345,7 +7341,7 @@ cooled: cool
 cooler: cool
 coolers: cooler
 coolest: cool
-coolies: coolie, cooly
+coolies: cooly
 cooling: cool
 cools: cool
 coombes: coombe
@@ -7971,7 +7967,7 @@ crosscountries: crosscountry
 crossed: cross
 crosser: cross
 crossers: crosser
-crosses: cross, crosse
+crosses: cross
 crossest: cross
 crossfires: crossfire
 crossing: cross
@@ -8196,7 +8192,7 @@ currencies: currency
 currents: current
 curriculums: curriculum
 curried: curry
-curries: currie, curry
+curries: curry
 currying: curry
 curs: cur
 cursed: curse
@@ -8486,7 +8482,7 @@ deaneries: deanery
 deans: dean
 dearer: dear
 dearest: dear
-dearies: dearie, deary
+dearies: deary
 dears: dear
 dearths: dearth
 deathbeds: deathbed
@@ -9416,11 +9412,11 @@ devastated: devastate
 devastates: devastate
 devastating: devastate
 devastations: devastation
-developed: develop, develope
+developed: develop
 developements: developement
 developers: developer
 developes: develope
-developing: develop, develope
+developing: develop
 developments: development
 develops: develop
 deviances: deviance
@@ -9877,7 +9873,7 @@ discs: disc
 discuses: discus
 discussants: discussant
 discussed: discuss
-discusses: discus, discuss
+discusses: discuss
 discussing: discuss
 discussions: discussion
 disdained: disdain
@@ -10198,10 +10194,10 @@ distensions: distension
 distichs: distich
 distillates: distillate
 distillations: distillation
-distilled: distil, distill
+distilled: distill
 distilleries: distillery
 distillers: distiller
-distilling: distil, distill
+distilling: distill
 distills: distill
 distils: distil
 distinctions: distinction
@@ -10350,7 +10346,7 @@ dodging: dodge
 dodoes: dodo
 dodos: dodo
 doers: doer
-does: do, doe
+does: do
 doffed: doff
 doffing: doff
 doffs: doff
@@ -10358,7 +10354,7 @@ dogcarts: dogcart
 dogfights: dogfight
 dogfishes: dogfish
 dogged: dog
-doggies: doggie, doggy
+doggies: doggy
 dogging: dog
 doghouses: doghouse
 doglegs: dogleg
@@ -10458,7 +10454,7 @@ dorms: dorm
 dorsiflexions: dorsiflexion
 dosages: dosage
 dosed: dose
-doses: dos, dose
+doses: dose
 dosimeters: dosimeter
 dosimetries: dosimetry
 dosing: dose
@@ -11029,8 +11025,8 @@ educationists: educationist
 educations: education
 educators: educator
 eels: eel
-eerier: eerie, eery
-eeriest: eerie, eery
+eerier: eery
+eeriest: eery
 effaced: efface
 effaces: efface
 effacing: efface
@@ -11653,9 +11649,9 @@ enriching: enrich
 enrichments: enrichment
 enroled: enrol
 enroling: enrol
-enrolled: enrol, enroll
+enrolled: enroll
 enrollees: enrollee
-enrolling: enrol, enroll
+enrolling: enroll
 enrollments: enrollment
 enrolls: enroll
 enrolments: enrolment
@@ -11706,8 +11702,8 @@ entertains: entertain
 enthalpies: enthalpy
 enthraled: enthral
 enthraling: enthral
-enthralled: enthral, enthrall
-enthralling: enthral, enthrall
+enthralled: enthrall
+enthralling: enthrall
 enthralls: enthrall
 enthrals: enthral
 enthroned: enthrone
@@ -12683,8 +12679,7 @@ fanning: fan
 fans: fan
 fantails: fantail
 fantasias: fantasia
-fantasies: fantasie, fantasy
-fantasised: fantasise
+fantasies: fantasise
 fantasises: fantasise
 fantasising: fantasise
 fantasized: fantasize
@@ -13940,7 +13935,7 @@ freaks: freak
 freckled: freckle
 freckles: freckle
 freckling: freckle
-freebies: freebie, freeby
+freebies: freeby
 freed: free
 freedoms: freedom
 freeholds: freehold
@@ -14105,8 +14100,8 @@ fuggier: fuggy
 fugitives: fugitive
 fugues: fugue
 fulcrums: fulcrum
-fulfilled: fulfil, fulfill
-fulfilling: fulfil, fulfill
+fulfilled: fulfill
+fulfilling: fulfill
 fulfillments: fulfillment
 fulfills: fulfill
 fulfilments: fulfilment
@@ -14473,8 +14468,8 @@ gelded: geld
 gelding: geld
 geldings: gelding
 gelds: geld
-gelled: gel, gell
-gelling: gel, gell
+gelled: gel
+gelling: gel
 gells: gell
 gels: gel
 geminiviruses: geminivirus
@@ -14896,7 +14891,7 @@ gonorrhoeas: gonorrhoea
 goodbyes: goodbye
 gooder: good
 goodest: good
-goodies: goodie, goody
+goodies: goody
 goodlier: goodly
 goodliest: goodly
 goodnights: goodnight
@@ -15013,7 +15008,7 @@ grands: grand
 grandsons: grandson
 grandstands: grandstand
 granges: grange
-grannies: grannie, granny
+grannies: granny
 granolas: granola
 grans: gran
 granted: grant
@@ -15235,7 +15230,7 @@ groundwaters: groundwater
 groundworks: groundwork
 grouped: group
 groupers: grouper
-groupies: groupie, groupy
+groupies: groupy
 grouping: group
 groupings: grouping
 groups: group
@@ -15513,7 +15508,7 @@ halters: halter
 halting: halt
 halts: halt
 halved: halve
-halves: half, halve
+halves: half
 halving: halve
 hamburgers: hamburger
 hamlets: hamlet
@@ -15594,7 +15589,7 @@ hankered: hanker
 hankering: hanker
 hankerings: hankering
 hankers: hanker
-hankies: hankie, hanky
+hankies: hanky
 hanks: hank
 hansoms: hansom
 haplotypes: haplotype
@@ -16082,7 +16077,7 @@ hinted: hint
 hinterlands: hinterland
 hinting: hint
 hints: hint
-hippies: hippie, hippy
+hippies: hippy
 hippopotamuses: hippopotamus
 hippopotamusses: hippopotamus
 hippos: hippo
@@ -17557,9 +17552,9 @@ inspires: inspire
 inspiring: inspire
 instabilities: instability
 installations: installation
-installed: instal, install
+installed: install
 installers: installer
-installing: instal, install
+installing: install
 installments: installment
 installs: install
 instalments: instalment
@@ -17582,8 +17577,8 @@ instigates: instigate
 instigating: instigate
 instigators: instigator
 instillations: instillation
-instilled: instil, instill
-instilling: instil, instill
+instilled: instill
+instilling: instill
 instills: instill
 instils: instil
 instincts: instinct
@@ -18390,7 +18385,7 @@ juniors: junior
 junipers: juniper
 junked: junk
 junkets: junket
-junkies: junkie, junky
+junkies: junky
 junking: junk
 junks: junk
 junkshops: junkshop
@@ -18751,9 +18746,9 @@ laities: laity
 lakes: lake
 lakhs: lakh
 lamas: lama
-lambasted: lambast, lambaste
+lambasted: lambast
 lambastes: lambaste
-lambasting: lambast, lambaste
+lambasting: lambast
 lambasts: lambast
 lambdas: lambda
 lambed: lamb
@@ -19029,7 +19024,7 @@ leavened: leaven
 leavening: leaven
 leavens: leaven
 leavers: leaver
-leaves: leaf, leave
+leaves: leaf
 leaving: leave
 lebaneses: lebanese
 lechers: lecher
@@ -19053,7 +19048,7 @@ leering: leer
 leers: leer
 lees: lee
 leeways: leeway
-lefties: leftie, lefty
+lefties: lefty
 leftists: leftist
 leftovers: leftover
 lefts: left
@@ -19117,7 +19112,7 @@ lengthens: lengthen
 lengthier: lengthy
 lengthiest: lengthy
 lengths: length
-lenses: lens, lense
+lenses: lens
 lenticels: lenticel
 lentils: lentil
 lentiviruses: lentivirus
@@ -19482,7 +19477,7 @@ liver: live
 liveries: livery
 livers: liver
 liverworts: liverwort
-lives: life, live
+lives: life
 livest: live
 liveweights: liveweight
 lividder: livid
@@ -19801,7 +19796,7 @@ luteinizes: luteinize
 luteinizing: luteinize
 lutes: lute
 lutherans: lutheran
-luxes: lux, luxe
+luxes: lux
 luxuriated: luxuriate
 luxuriates: luxuriate
 luxuriating: luxuriate
@@ -19968,7 +19963,7 @@ makeups: makeup
 making: make
 makings: making
 malabsorptions: malabsorption
-maladies: maladie, malady
+maladies: malady
 maladjustments: maladjustment
 maladministrations: maladministration
 malaises: malaise
@@ -20264,7 +20259,7 @@ massagers: massager
 massages: massage
 massaging: massage
 massed: mass
-masses: mass, masse
+masses: mass
 masseurs: masseur
 masseuses: masseuse
 massier: massy
@@ -20337,11 +20332,11 @@ matrixes: matrix
 matrons: matron
 mats: mat
 matted: mat
-matter: mat, matt
+matter: mat
 mattered: matter
 mattering: matter
 matters: matter
-mattest: mat, matt
+mattest: mat
 matting: mat
 mattings: matting
 mattocks: mattock
@@ -20880,8 +20875,8 @@ mimed: mime
 mimes: mime
 mimiced: mimic
 mimicing: mimic
-mimicked: mimic, mimick
-mimicking: mimic, mimick
+mimicked: mimick
+mimicking: mimick
 mimicks: mimick
 mimicries: mimicry
 mimics: mimic
@@ -21855,7 +21850,7 @@ names: name
 namesakes: namesake
 naming: name
 nanas: nana
-nannies: nannie, nanny
+nannies: nanny
 nanocrystals: nanocrystal
 nanometers: nanometer
 nanometres: nanometre
@@ -22168,7 +22163,7 @@ nightclubs: nightclub
 nightdresses: nightdress
 nightfalls: nightfall
 nightgowns: nightgown
-nighties: nightie, nighty
+nighties: nighty
 nightingales: nightingale
 nightjars: nightjar
 nightlights: nightlight
@@ -22829,7 +22824,7 @@ organochlorines: organochlorine
 organophosphates: organophosphate
 organs: organ
 orgasms: orgasm
-orgies: orgie, orgy
+orgies: orgy
 orientalisms: orientalism
 orientalists: orientalist
 orientals: oriental
@@ -23455,7 +23450,7 @@ palaeontologists: palaeontologist
 palatabilities: palatability
 palates: palate
 palavers: palaver
-paled: pal, pale
+paled: pale
 paleontologies: paleontology
 paleontologists: paleontologist
 paler: pale
@@ -23464,12 +23459,12 @@ palest: pale
 palettes: palette
 palimpsests: palimpsest
 palindromes: palindrome
-paling: pal, pale
+paling: pale
 palisaded: palisade
 palisades: palisade
 palisading: palisade
 pallbearers: pallbearer
-palled: pal, pall
+palled: pall
 palletised: palletise
 palletises: palletise
 palletising: palletise
@@ -23481,7 +23476,7 @@ palliations: palliation
 palliatives: palliative
 pallier: pally
 palliest: pally
-palling: pal, pall
+palling: pall
 pallors: pallor
 palls: pall
 palmed: palm
@@ -23551,7 +23546,7 @@ panted: pant
 pantheists: pantheist
 pantheons: pantheon
 panthers: panther
-panties: pantie, panty
+panties: panty
 panting: pant
 pantographs: pantograph
 pantomimed: pantomime
@@ -24639,7 +24634,7 @@ pinions: pinion
 pinked: pink
 pinker: pink
 pinkest: pink
-pinkies: pinkie, pinky
+pinkies: pinky
 pinking: pink
 pinks: pink
 pinnacles: pinnacle
@@ -24722,7 +24717,7 @@ pivoted: pivot
 pivoting: pivot
 pivots: pivot
 pixels: pixel
-pixies: pixie, pixy
+pixies: pixy
 pizzas: pizza
 pks: pk
 placards: placard
@@ -25548,9 +25543,9 @@ prematurities: prematurity
 premeditated: premeditate
 premeditates: premeditate
 premeditating: premeditate
-premiered: premier, premiere
+premiered: premier
 premieres: premiere
-premiering: premier, premiere
+premiering: premier
 premiers: premier
 premised: premise
 premises: premise
@@ -25904,10 +25899,10 @@ prognostications: prognostication
 prognostics: prognostic
 programed: program
 programing: program
-programmed: program, programme
+programmed: program
 programmers: programmer
 programmes: programme
-programming: program, programme
+programming: program
 programs: program
 progressed: progress
 progresses: progress
@@ -26192,13 +26187,13 @@ pseudosciences: pseudoscience
 pseuds: pseud
 psoralens: psoralen
 psps: psp
-psyched: psych, psyche
+psyched: psych
 psychedelics: psychedelic
-psyches: psych, psyche
+psyches: psych
 psychiatries: psychiatry
 psychiatrists: psychiatrist
 psychics: psychic
-psyching: psych, psyche
+psyching: psych
 psychoanalysed: psychoanalyse
 psychoanalyses: psychoanalyse
 psychoanalysing: psychoanalyse
@@ -26426,7 +26421,7 @@ puttered: putter
 puttering: putter
 putters: putter
 putties: putty
-putting: put, putt
+putting: put
 putts: putt
 puzzled: puzzle
 puzzlements: puzzlement
@@ -26865,7 +26860,7 @@ rarifying: rarify
 rarities: rarity
 rascals: rascal
 rased: rase
-rases: ras, rase
+rases: ras
 rasher: rash
 rashers: rasher
 rashes: rash
@@ -28306,9 +28301,9 @@ reproduces: reproduce
 reproducibilities: reproducibility
 reproducing: reproduce
 reproductions: reproduction
-reprogrammed: reprogram, reprogramme
+reprogrammed: reprogram
 reprogrammes: reprogramme
-reprogramming: reprogram, reprogramme
+reprogramming: reprogram
 reprograms: reprogram
 reproofs: reproof
 reproved: reprove
@@ -29215,11 +29210,11 @@ roundworms: roundworm
 roused: rouse
 rouses: rouse
 rousing: rouse
-routed: rout, route
+routed: route
 routers: router
 routes: route
 routines: routine
-routing: rout, route
+routing: route
 routs: rout
 roved: rove
 rovers: rover
@@ -30516,7 +30511,7 @@ sheltered: shelter
 sheltering: shelter
 shelters: shelter
 shelved: shelve
-shelves: shelf, shelve
+shelves: shelf
 shelving: shelve
 shenanigans: shenanigan
 shepherded: shepherd
@@ -30650,7 +30645,7 @@ shortens: shorten
 shorter: short
 shortest: short
 shortfalls: shortfall
-shorties: shortie, shorty
+shorties: shorty
 shorting: short
 shortlisted: shortlist
 shortlisting: shortlist
@@ -30930,7 +30925,7 @@ singed: singe
 singeing: singe
 singers: singer
 singes: singe
-singing: sing, singe
+singing: sing
 singings: singing
 singled: single
 singles: single
@@ -31027,7 +31022,7 @@ skidded: skid
 skidding: skid
 skidmarks: skidmark
 skids: skid
-skied: ski, sky
+skied: ski
 skiers: skier
 skies: sky
 skiffs: skiff
@@ -31640,7 +31635,7 @@ softenings: softening
 softens: soften
 softer: soft
 softest: soft
-softies: softie, softy
+softies: softy
 softnesses: softness
 softs: soft
 softwoods: softwood
@@ -33724,7 +33719,7 @@ swines: swine
 swinged: swinge
 swingers: swinger
 swinges: swinge
-swinging: swing, swinge
+swinging: swing
 swings: swing
 swiped: swipe
 swipes: swipe
@@ -34464,7 +34459,7 @@ thickest: thick
 thickets: thicket
 thicknesses: thickness
 thieved: thieve
-thieves: thief, thieve
+thieves: thief
 thieving: thieve
 thievings: thieving
 thighbones: thighbone
@@ -34701,10 +34696,10 @@ tinctures: tincture
 tinderboxes: tinderbox
 tineas: tinea
 tines: tine
-tinged: ting, tinge
+tinged: tinge
 tingeing: tinge
 tinges: tinge
-tinging: ting, tinge
+tinging: tinge
 tingled: tingle
 tingles: tingle
 tingling: tingle
@@ -37324,8 +37319,8 @@ whirling: whirl
 whirlpools: whirlpool
 whirls: whirl
 whirlwinds: whirlwind
-whirred: whir, whirr
-whirring: whir, whirr
+whirred: whir
+whirring: whir
 whirrs: whirr
 whirs: whir
 whisked: whisk
@@ -37365,9 +37360,9 @@ whittling: whittle
 whized: whiz
 whizes: whiz
 whizing: whiz
-whizzed: whiz, whizz
-whizzes: whiz, whizz
-whizzing: whiz, whizz
+whizzed: whiz
+whizzes: whiz
+whizzing: whiz
 whodunits: whodunit
 wholefoods: wholefood
 wholes: whole
@@ -37426,7 +37421,7 @@ wilier: wily
 wiliest: wily
 wiling: wile
 willed: will
-willies: willie, willy
+willies: willy
 willing: will
 willows: willow
 wills: will
@@ -37857,7 +37852,7 @@ yrs: yr
 ys: 'y'
 yuccas: yucca
 yuletides: yuletide
-yuppies: yuppie, yuppy
+yuppies: yuppy
 zanders: zander
 zanier: zany
 zaniest: zany
