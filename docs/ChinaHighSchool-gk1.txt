@@ -2898,7 +2898,6 @@ sharp
 sharpen
 sharpener
 shave
-shaved
 shaven
 shaver
 she
