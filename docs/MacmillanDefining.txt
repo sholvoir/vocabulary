@@ -462,7 +462,7 @@ connection
 conscious
 conservative
 consider
-consist of
+consist
 contain
 container
 continue
