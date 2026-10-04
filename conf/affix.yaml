@@ -1,0 +1,4 @@
+input: affix.txt
+output: Affix
+disc: 词根词缀
+test: '[^\nA-Za-z-]'

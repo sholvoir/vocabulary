@@ -1,3 +1,27 @@
+-able
+-al
+-ance
+-en
+-ence
+-er
+-ful
+-ible
+-ic
+-ify
+-ise
+-ism
+-ist
+-ity
+-ive
+-ize
+-less
+-ment
+-ness
+-or
+-ous
+-sion
+-tion
+-y
 A
 A level
 A-road
@@ -2117,6 +2141,7 @@ anthropologist
 anthropology
 anthropomorphism
 anti
+anti-
 anti-Semitism
 antibiotic
 antibody
@@ -2691,6 +2716,7 @@ authorize
 autism
 autistic
 auto
+auto-
 autobiographical
 autobiography
 autocracy
@@ -3232,6 +3258,7 @@ bewilderment
 bewitching
 bewray
 beyond
+bi-
 biannual
 bias
 biased
@@ -4937,6 +4964,7 @@ cluster
 clutch
 clutter
 cm
+co-
 co-author
 co-star
 coacervate
@@ -5112,6 +5140,7 @@ coltish
 colubrine
 column
 columnist
+com-
 coma
 comatose
 comb
@@ -5318,6 +5347,7 @@ computerize
 computing
 comrade
 con
+con-
 concatenate
 concatenation
 concave
@@ -6340,6 +6370,7 @@ dazzling
 dazzlingly
 de
 de facto
+de-
 deacon
 deactivate
 dead
@@ -8064,6 +8095,7 @@ emulation
 emulsify
 emulsion
 en masse
+en-
 enable
 enact
 enactment
@@ -8503,6 +8535,7 @@ evolve
 ewe
 ewer
 ex
+ex-
 ex-dividend
 exacerbate
 exact
@@ -11488,6 +11521,7 @@ ignorance
 ignorant
 ignore
 iguana
+il-
 ilk
 ill
 ill health
@@ -11520,6 +11554,7 @@ illustrative
 illustrator
 illustrious
 ilmenite
+im-
 image
 imagery
 imaginable
@@ -11734,6 +11769,7 @@ in terms of
 in that
 in vain
 in view of
+in-
 in-laws
 inability
 inaccessible
@@ -12334,6 +12370,7 @@ intentional
 intentionally
 intently
 inter
+inter-
 interact
 interaction
 interactive
@@ -12548,6 +12585,7 @@ ion
 ionic
 ionize
 iota
+ir-
 irascible
 irate
 ire
@@ -14426,6 +14464,7 @@ mirror
 mirror image
 mirth
 miry
+mis-
 misadventure
 misalliance
 misanthrope
@@ -14796,6 +14835,7 @@ mulish
 mull
 mullet
 multi
+multi-
 multicellular
 multicultural
 multidirectional
@@ -15911,6 +15951,7 @@ ovary
 ovation
 oven
 over
+over-
 overact
 overall
 overall majority
@@ -17206,6 +17247,7 @@ possible
 possibly
 post
 post office
+post-
 post-mortem
 post-war
 postage
@@ -19979,6 +20021,7 @@ semblance
 semen
 semester
 semi
+semi-
 semi-final
 semi-skilled
 semiannual
@@ -21604,6 +21647,7 @@ suasion
 suave
 suavity
 sub
+sub-
 subaerial
 subaqueous
 subcelestial
@@ -21802,6 +21846,7 @@ sunscreen
 sunset
 sunshine
 super
+super-
 superabound
 superannuate
 superannuated
@@ -22839,6 +22884,7 @@ tranquilizer
 tranquillity
 tranquillizer
 trans
+trans-
 transact
 transaction
 transatlantic
@@ -22953,6 +22999,7 @@ trespasser
 tressed
 tresses
 trestle
+tri-
 tri-state
 triad
 trial
@@ -23315,6 +23362,7 @@ undemocratic
 undemonstrable
 undeniable
 under
+under-
 underage
 underbelly
 underbid
@@ -23481,6 +23529,7 @@ unhelpful
 unheralded
 unhindered
 unhurt
+uni-
 unicorn
 unidentified
 unidimensional
