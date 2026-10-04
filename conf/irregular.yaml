@@ -1,0 +1,4 @@
+input: irregular.txt
+output: Irregular
+disc: 不规则词汇
+test: '[^\nA-Za-z]'
