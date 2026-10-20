@@ -10,6 +10,7 @@ Babel
 Barnabas
 Bethlehem
 Cain
+Canaanite
 Carmel
 Colossians
 Dothan
@@ -22,6 +23,7 @@ Gomorrah
 Isaac
 Ishmael
 Jerusalem
+Mesopotamia
 Messiah
 Moab
 Naomi
@@ -64,6 +66,7 @@ sinner
 sycamore
 tamarisk
 thistle
+trustworthiness
 unchastity
 uncircumcised
 ungodliness
