@@ -1,27 +1,41 @@
 -able
 -al
+-ally
 -ance
+-ant
+-ation
 -en
 -ence
 -er
+-ess
 -ful
+-fy
+-hood
 -ible
 -ic
+-ical
 -ify
 -ion
 -ise
+-ish
 -ism
 -ist
 -ity
 -ive
 -ize
 -less
+-like
+-logy
+-ly
 -ment
 -ness
+-oid
+-ology
 -or
 -ous
 -sion
 -tion
+-wise
 -y
 A
 A level
@@ -45,6 +59,7 @@ Africa
 African
 African American
 Afro
+Afro-
 Afro-Caribbean
 Al
 Alan
@@ -76,6 +91,7 @@ Angela
 Angeles
 Anglican
 Anglo
+Anglo-
 Anglo-Saxon
 Ann
 Anna
@@ -377,6 +393,7 @@ Euphrates
 Eurasia
 Eurasian
 Euro
+Euro-
 Eurocurrency
 Europe
 European
@@ -405,6 +422,7 @@ Fox
 Fr
 France
 Francis
+Franco-
 Frank
 Fred
 Freefone
@@ -507,6 +525,7 @@ Hill
 Himalayas
 Hindu
 Hispanic
+Hispano-
 Hitler
 Hohokam
 Holland
@@ -552,6 +571,7 @@ India
 Indian
 Indiana
 Indic
+Indo-
 Indonesia
 Indus
 Inland Revenue
@@ -574,6 +594,7 @@ Islamic
 Israel
 Israeli
 Italian
+Italo-
 Italy
 Jack
 Jackson
@@ -1668,6 +1689,7 @@ afraid
 afresh
 aft
 after
+after-
 after-hours
 after-school
 afterlife
@@ -1927,6 +1949,7 @@ ambagious
 ambassador
 ambassadress
 amber
+ambi-
 ambidextrous
 ambience
 ambient
@@ -1979,6 +2002,7 @@ amount
 amour
 ampere
 amphetamine
+amphi-
 amphibian
 amphibious
 amphitheater
@@ -1995,6 +2019,8 @@ amused
 amusement
 amusing
 an
+an-
+ana-
 anabiosis
 anabolic
 anachronism
@@ -2114,11 +2140,13 @@ answer
 answerable
 answering machine
 ant
+ant-
 antagonism
 antagonist
 antagonistic
 antagonize
 ante
+ante-
 anteater
 antecede
 antecedence
@@ -2199,6 +2227,7 @@ anytime
 anyway
 anywhere
 aorta
+ap-
 apace
 apart
 apart from
@@ -2218,6 +2247,7 @@ apiary
 apiculture
 apiece
 aplomb
+apo-
 apocalypse
 apocalyptic
 apocrypha
@@ -2337,6 +2367,7 @@ arc
 arcade
 arcane
 arch
+arch-
 archaeocyte
 archaeological
 archaeologist
@@ -2581,6 +2612,7 @@ astounding
 astral
 astray
 astringent
+astro-
 astrolabe
 astrologer
 astrological
@@ -3048,6 +3080,7 @@ bay leaf
 bayonet
 bazaar
 be
+be-
 beach
 beacon
 bead
@@ -3326,6 +3359,7 @@ binge
 bingo
 binoculars
 binomial
+bio-
 biochemical
 biochemistry
 biodegradable
@@ -4012,6 +4046,7 @@ by means of
 by no means
 by the time
 by way of
+by-
 by-election
 by-law
 by-product
@@ -4765,6 +4800,7 @@ circulate
 circulation
 circulatory
 circulatory system
+circum-
 circumcise
 circumcision
 circumference
@@ -4778,6 +4814,7 @@ circumstantial
 circumstantially
 circumvent
 circus
+cis-
 cismontane
 cistern
 citadel
@@ -5061,6 +5098,7 @@ coincident
 coincidental
 coincidentally
 coke
+col-
 cola
 colander
 cold
@@ -5664,6 +5702,7 @@ continuum
 contort
 contortion
 contour
+contra-
 contraband
 contraception
 contraceptive
@@ -5775,6 +5814,7 @@ copyright
 copywriter
 coquetry
 coquette
+cor-
 coral
 cord
 cordial
@@ -5881,6 +5921,7 @@ countable
 countdown
 countenance
 counter
+counter-
 counteract
 counterattack
 counterbalance
@@ -6138,9 +6179,11 @@ crusty
 crutch
 crux
 cry
+cryo-
 cryogenic
 crypt
 cryptic
+crypto-
 cryptogram
 crystal
 crystal clear
@@ -6632,9 +6675,11 @@ demented
 dementia
 demerit
 demesne
+demi-
 demilitarize
 demise
 demo
+demo-
 demobilization
 demobilize
 democracy
@@ -6872,6 +6917,7 @@ detriment
 detrimental
 detritus
 detrude
+deuter-
 devaluation
 devalue
 devastate
@@ -6905,6 +6951,8 @@ devout
 dew
 dexterity
 dexterous
+di-
+dia-
 diabetes
 diabetic
 diabolic
@@ -7689,6 +7737,7 @@ dung
 dungeon
 dunno
 duo
+duo-
 dupe
 duplicate
 duplication
@@ -7801,6 +7850,7 @@ eclecticism
 eclipse
 ecliptic
 eclogue
+eco-
 eco-friendly
 ecological
 ecologist
@@ -7934,6 +7984,7 @@ electricity
 electrification
 electrify
 electro
+electro-
 electrocardiogram
 electrocute
 electrode
@@ -7994,6 +8045,7 @@ elucidate
 elude
 elusive
 elysian
+em-
 emaciate
 emaciated
 emaciation
@@ -8316,6 +8368,7 @@ eon
 epaulet
 ephedrine
 ephemeral
+epi-
 epic
 epicenter
 epicure
@@ -8462,6 +8515,7 @@ ethology
 ethos
 etiquette
 etymology
+eu-
 eucalyptus
 eugenic
 eukaryote
@@ -8783,6 +8837,7 @@ extort
 extortion
 extra
 extra time
+extra-
 extract
 extraction
 extractive
@@ -9552,6 +9607,7 @@ forceps
 forcible
 ford
 fore
+fore-
 forearm
 forebear
 forebode
@@ -10091,6 +10147,7 @@ genuflect
 genuine
 genuinely
 genus
+geo-
 geochemical
 geographer
 geographic
@@ -10616,6 +10673,7 @@ gypsum
 gypsy
 gyrate
 gyration
+gyro-
 gyroscope
 ha
 ha ha
@@ -10952,6 +11010,7 @@ helplessly
 helplessness
 helve
 hem
+hemi-
 hemisphere
 hemline
 hemlock
@@ -11012,6 +11071,7 @@ hesitant
 hesitantly
 hesitate
 hesitation
+hetero-
 heterodox
 heterodoxy
 heterogeneity
@@ -11178,6 +11238,7 @@ homily
 homing
 hominid
 homo
+homo-
 homogeneity
 homogeneous
 homogenize
@@ -11391,6 +11452,7 @@ hydrant
 hydrate
 hydration
 hydraulic
+hydro-
 hydrocarbon
 hydrochloric acid
 hydrodynamic
@@ -11416,6 +11478,7 @@ hymen
 hymn
 hype
 hyper
+hyper-
 hyperactive
 hyperactivity
 hyperbola
@@ -11432,6 +11495,7 @@ hyphen
 hypnosis
 hypnotic
 hypnotize
+hypo-
 hypochondria
 hypochondriac
 hypocrisy
@@ -11486,11 +11550,13 @@ identification
 identify
 identity
 identity card
+ideo-
 ideographic
 ideological
 ideologically
 ideology
 ideomotor
+idio-
 idiocy
 idiom
 idiomatic
@@ -12119,6 +12185,7 @@ information technology
 informative
 informed
 informer
+infra-
 infraction
 infrared
 infrastructure
@@ -12491,6 +12558,7 @@ intone
 intoxicant
 intoxicate
 intoxication
+intra-
 intracellular
 intractable
 intramural
@@ -12643,6 +12711,7 @@ islander
 isle
 islet
 isn't
+iso-
 isochronous
 isolate
 isolated
@@ -13756,6 +13825,7 @@ macho
 mackerel
 mackintosh
 macro
+macro-
 macrocosm
 macroeconomic
 macroeconomics
@@ -13842,6 +13912,7 @@ maker
 makeshift
 makeup
 making
+mal-
 maladroit
 malady
 malaise
@@ -14090,6 +14161,7 @@ maven
 maverick
 maw
 mawkish
+maxi-
 maxim
 maximal
 maximise
@@ -14164,11 +14236,13 @@ meek
 meet
 meeting
 meeting place
+mega-
 megabyte
 megacity
 megafossil
 megalith
 megalithic
+megalo-
 megalomania
 megalopolis
 megawatt
@@ -14256,6 +14330,7 @@ mescaline
 mesh
 mesmerism
 mesmerize
+meso-
 mesothelioma
 mesquite
 mess
@@ -14265,6 +14340,7 @@ messiah
 messuage
 messy
 met
+meta-
 metabolic
 metabolism
 metabolize
@@ -14321,6 +14397,7 @@ miasma
 miasmic
 mice
 micro
+micro-
 microbe
 microbial
 microbiologist
@@ -14340,6 +14417,7 @@ microscopic
 microscopy
 microwave
 mid
+mid-
 midair
 midday
 middle
@@ -14428,6 +14506,7 @@ mineralize
 mingle
 mingy
 mini
+mini-
 miniature
 minibus
 minimal
@@ -14632,6 +14711,7 @@ momentous
 momentum
 momma
 mommy
+mon-
 monarch
 monarchy
 monastery
@@ -14648,6 +14728,7 @@ monitor
 monk
 monkey
 mono
+mono-
 monochromatic
 monochrome
 monocle
@@ -15443,6 +15524,7 @@ oat
 oath
 oatmeal
 oats
+ob-
 obbligato
 obdurate
 obedience
@@ -15563,6 +15645,7 @@ oestrogen
 of
 of course
 off
+off-
 off-balance
 off-duty
 off-key
@@ -15639,6 +15722,7 @@ omen
 ominous
 omission
 omit
+omni-
 omnibus
 omnificent
 omnipotent
@@ -15831,6 +15915,7 @@ orogeny
 orotund
 orphan
 orphanage
+ortho-
 orthodontics
 orthodox
 orthodoxy
@@ -15872,6 +15957,7 @@ out
 out of
 out of touch
 out of work
+out-
 out-of-date
 out-of-the-way
 out-of-town
@@ -16144,6 +16230,7 @@ palate
 palatial
 palaver
 pale
+paleo-
 paleoclimatologist
 paleocrystic
 paleoecologist
@@ -16171,6 +16258,7 @@ paltry
 pamper
 pamphlet
 pan
+pan-
 panacea
 panache
 pancake
@@ -16210,6 +16298,7 @@ papyraceous
 papyrus
 par
 para
+para-
 parable
 parabola
 parachute
@@ -16451,6 +16540,7 @@ peculiar
 peculiarity
 peculiarly
 pecuniary
+ped-
 pedagogic
 pedagogical
 pedagogue
@@ -16539,6 +16629,7 @@ per
 per annum
 per capita
 per cent
+per-
 perambulate
 perceivable
 perceive
@@ -16577,6 +16668,7 @@ perfunctorily
 perfunctory
 pergola
 perhaps
+peri-
 pericope
 perigee
 peril
@@ -16772,6 +16864,7 @@ phosphodiesterase
 phosphorescence
 phosphorus
 photo
+photo-
 photocopier
 photocopy
 photodissociation
@@ -17014,6 +17107,7 @@ plentifully
 plentitude
 plenty
 plenum
+pleo-
 pleonastic
 plethora
 pliable
@@ -17146,6 +17240,7 @@ pollution
 polo
 poltroon
 poly
+poly-
 polyandry
 polychrome
 polyester
@@ -17531,6 +17626,7 @@ pretender
 pretense
 pretension
 pretentious
+preter-
 preternatural
 pretext
 pretty
@@ -17801,6 +17897,7 @@ propulsion
 prorate
 prorogation
 prorogue
+pros-
 prosaic
 proscenium
 proscribe
@@ -17834,6 +17931,7 @@ protein
 protest
 protestant
 protester
+proto-
 protocol
 protogalaxy
 proton
@@ -17896,6 +17994,7 @@ précis
 psalm
 psephology
 pseudo
+pseudo-
 pseudonym
 psyche
 psychedelic
@@ -18070,6 +18169,7 @@ pylon
 pylorus
 pyramid
 pyre
+pyro-
 pyromania
 python
 pyxis
@@ -18078,6 +18178,7 @@ quad
 quadrangle
 quadrant
 quadratic
+quadri-
 quadricep
 quadrilateral
 quadruped
@@ -18119,6 +18220,7 @@ quartz
 quasar
 quash
 quasi
+quasi-
 quaver
 quay
 queasy
@@ -19101,6 +19203,7 @@ retributive
 retrieval
 retrieve
 retro
+retro-
 retroactive
 retrograde
 retrogress
@@ -20825,6 +20928,7 @@ socialization
 socialize
 socially
 society
+socio-
 socio-economic
 sociobiology
 sociological
@@ -21392,6 +21496,7 @@ stencil
 stenography
 stentorian
 step
+step-
 stepchild
 stepfather
 stepmother
@@ -21914,9 +22019,11 @@ supposition
 suppress
 suppression
 suppurate
+supra-
 supremacy
 supreme
 supremely
+sur-
 surcease
 surcharge
 sure
@@ -22049,6 +22156,7 @@ sycophant
 sycophantic
 syllable
 syllabus
+sym-
 symbiosis
 symbiotic
 symbol
@@ -22070,6 +22178,7 @@ symphony orchestra
 symposium
 symptom
 symptomatic
+syn-
 synagogue
 synapse
 synapsis
@@ -22291,6 +22400,7 @@ teeth
 teetotal
 tel
 tele
+tele-
 telecom
 telecommunication
 telecommunications
@@ -23191,6 +23301,7 @@ twenty-second
 twenty-third
 twenty-three
 twenty-two
+twi-
 twice
 twig
 twilight
@@ -23240,6 +23351,7 @@ ulterior
 ultimate
 ultimately
 ultimatum
+ultra-
 ultraclean
 ultramontane
 ultramundane
@@ -23781,6 +23893,7 @@ up
 up front
 up to
 up to date
+up-
 up-and-coming
 up-market
 up-to-date
@@ -24106,6 +24219,7 @@ vicarious
 vice
 vice president
 vice versa
+vice-
 vice-chancellor
 viceroy
 vicinal
