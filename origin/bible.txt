@@ -49,16 +49,12 @@ cherubim
 circumcision
 concubine
 cubit
-cumin
 doxology
 evangelism
 facedown
 firepot
 godly
 hath
-heifer
-herder
-lustful
 onyx
 savior
 seedtime
@@ -70,5 +66,4 @@ trustworthiness
 unchastity
 uncircumcised
 ungodliness
-wherefore
 wickedness
